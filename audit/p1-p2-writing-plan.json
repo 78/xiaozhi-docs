@@ -1,0 +1,301 @@
+{
+  "firmware/releases/v2.2.4.md": {
+    "id": "firmware-v2-2-4",
+    "title": "v2.2.4 历史固件",
+    "description": "维护旧设备时查阅 v2.2.4 的下载来源和升级边界。",
+    "sources": [
+      3
+    ],
+    "kind": "archive"
+  },
+  "hardware/supported-boards.md": {
+    "id": "supported-boards",
+    "title": "查找支持的开发板与变体",
+    "description": "从固件目录和构建选项确认支持范围，而不是按在售状态判断兼容性。",
+    "sources": [
+      31
+    ],
+    "kind": "guide"
+  },
+  "community/projects/sf32lb52-plugin.md": {
+    "id": "sf32lb52-plugin",
+    "title": "SF32LB52 插件版：电路、外壳与蓝牙联网",
+    "description": "保留插件版的设计资料和制作路径，按独立平台组织复现。",
+    "sources": [
+      30
+    ],
+    "kind": "community"
+  },
+  "hardware/external-wake-module.md": {
+    "id": "external-wake-module",
+    "title": "外接 ASR 唤醒模块",
+    "description": "选择板载或外接唤醒方案，并按具体模块核对电源、触发和配置。",
+    "sources": [
+      32
+    ],
+    "kind": "guide"
+  },
+  "faq/account-and-binding.md": {
+    "id": "account-and-binding",
+    "title": "登录、找回账号与设备解绑",
+    "description": "分清短信、Google、密码和设备归属，按自己的情况处理。",
+    "sources": [
+      16
+    ],
+    "kind": "guide"
+  },
+  "console/github-verification.md": {
+    "id": "github-verification",
+    "title": "GitHub 认证与权益",
+    "description": "在已登录的小智账号中绑定 GitHub，理解认证与开发者平台的区别。",
+    "sources": [
+      1
+    ],
+    "kind": "guide"
+  },
+  "console/voice-cloning.md": {
+    "id": "voice-cloning",
+    "title": "声音复刻：录音、训练与选用",
+    "description": "使用符合要求的语音训练自己的音色，并在智能体里验证。",
+    "sources": [
+      14
+    ],
+    "kind": "guide"
+  },
+  "console/knowledge-base.md": {
+    "id": "knowledge-base",
+    "title": "知识库：上传、检索与关联智能体",
+    "description": "把资料解析成可检索内容，先测试召回，再让智能体使用。",
+    "sources": [
+      17
+    ],
+    "kind": "guide"
+  },
+  "faq/serial-logs.md": {
+    "id": "serial-logs",
+    "title": "采集启动与故障日志",
+    "description": "连接正确端口，记录故障发生前后的完整信息。",
+    "sources": [
+      23
+    ],
+    "kind": "guide"
+  },
+  "hardware/boards/xmini-c3.md": {
+    "id": "xmini-c3",
+    "title": "Xmini-C3、V3 与 4G 版本",
+    "description": "先辨认板型修订，再选择固件、供电和操作流程。",
+    "sources": [
+      29
+    ],
+    "kind": "guide"
+  },
+  "hardware/displays/st7789.md": {
+    "id": "st7789-display",
+    "title": "为 S3 面包板连接 SPI 彩屏",
+    "description": "核对屏幕接口、引脚、分辨率与固件构建选项。",
+    "sources": [
+      6
+    ],
+    "kind": "guide"
+  },
+  "hardware/breadboard-camera.md": {
+    "id": "breadboard-camera",
+    "title": "摄像头 S3 面包板",
+    "description": "为摄像头、彩屏和音频选择相互匹配的引脚与固件。",
+    "sources": [
+      7
+    ],
+    "kind": "guide"
+  },
+  "hardware/breadboard-esp32-c3.md": {
+    "id": "breadboard-esp32-c3",
+    "title": "C3 面包板：ES8311 音频方案",
+    "description": "明确 Codec 模块和引脚，不把 C3 音频方案与 S3 数字麦克风混用。",
+    "sources": [
+      12
+    ],
+    "kind": "guide"
+  },
+  "development/audio-and-aec.md": {
+    "id": "audio-and-aec",
+    "title": "音频处理与回声消除 AEC",
+    "description": "分清设备端、服务端和参考信号，再验证实际对话效果。",
+    "sources": [
+      21
+    ],
+    "kind": "guide"
+  },
+  "development/wake-words.md": {
+    "id": "wake-words",
+    "title": "选择与修改唤醒词",
+    "description": "按芯片、内存和模型选择预置、自定义或外接唤醒。",
+    "sources": [
+      22
+    ],
+    "kind": "guide"
+  },
+  "development/mcp-gpio.md": {
+    "id": "mcp-gpio",
+    "title": "使用 MCP 控制 GPIO 指示灯",
+    "description": "复用固件里的 LampController 示例，验证设备端工具发现与输出电平。",
+    "sources": [
+      33
+    ],
+    "kind": "guide"
+  },
+  "mcp/connect-existing-servers.md": {
+    "id": "connect-existing-mcp",
+    "title": "桥接已有 MCP 服务",
+    "description": "区分 stdio、SSE 与 Streamable HTTP，把现有服务连接到智能体。",
+    "sources": [
+      28
+    ],
+    "kind": "guide"
+  },
+  "reference/websocket.md": {
+    "id": "websocket-reference",
+    "title": "WebSocket 协议入口与版本",
+    "description": "从固件仓库查阅对应版本的传输、会话和音频协议。",
+    "sources": [
+      38
+    ],
+    "kind": "reference"
+  },
+  "reference/ota.md": {
+    "id": "ota-reference",
+    "title": "OTA 配置、激活与更新入口",
+    "description": "以固件仓库的对应版本为准，区分启动配置、设备绑定和固件下载。",
+    "sources": [
+      40
+    ],
+    "kind": "reference"
+  },
+  "hardware/choosing-hardware.md": {
+    "id": "choosing-hardware",
+    "title": "为小智选择硬件",
+    "description": "按固件适配、接口、电压和资料完整性选型，不依赖旧价格与商品标题。",
+    "sources": [
+      10
+    ],
+    "kind": "guide"
+  },
+  "firmware/releases/v1.9.4.md": {
+    "id": "firmware-v1-9-4",
+    "title": "v1 系列历史固件",
+    "description": "保留旧固件的版本边界和官方发布入口，避免混用分区布局。",
+    "sources": [
+      4
+    ],
+    "kind": "archive"
+  },
+  "development/archive/p3-prompts.md": {
+    "id": "legacy-p3-prompts",
+    "title": "旧版 P3 提示音流程",
+    "description": "为维护旧固件保留 P3 概念和迁移入口，不用于现行默认资源流程。",
+    "sources": [
+      42
+    ],
+    "kind": "archive"
+  },
+  "hardware/design-guidelines.md": {
+    "id": "hardware-design-guidelines",
+    "title": "小智设备的硬件设计要点",
+    "description": "从供电、声学、结构和可测试性评估产品，而不只看主控型号。",
+    "sources": [
+      11
+    ],
+    "kind": "guide"
+  },
+  "hardware/breadboard-esp32.md": {
+    "id": "breadboard-esp32",
+    "title": "经典 ESP32 面包板",
+    "description": "为资源受限的 ESP32 明确接线、功能和固件边界。",
+    "sources": [
+      13
+    ],
+    "kind": "guide"
+  },
+  "community/projects/astronaut-storyteller.md": {
+    "id": "astronaut-storyteller",
+    "title": "太空人故事机改造案例",
+    "description": "保留原机拆解与接线素材，明确 PCB、供电和固件适用边界。",
+    "sources": [
+      44
+    ],
+    "kind": "community"
+  },
+  "community/open-hardware.md": {
+    "id": "open-hardware",
+    "title": "社区开源硬件目录",
+    "description": "按作者与原项目追溯电路、外壳和固件支持，保留社区贡献。",
+    "sources": [
+      37
+    ],
+    "kind": "guide"
+  },
+  "mcp/examples/web-search.md": {
+    "id": "mcp-web-search",
+    "title": "为智能体接入联网搜索",
+    "description": "用明确的搜索工具返回可追溯来源，替代只安装旧 GUI 的流程。",
+    "sources": [
+      25
+    ],
+    "kind": "guide"
+  },
+  "community/mcp-tools.md": {
+    "id": "community-mcp-tools",
+    "title": "社区 MCP 工具与服务",
+    "description": "保留作者和维护入口，把通用接入与第三方安装细节分开。",
+    "sources": [
+      43,
+      26,
+      27
+    ],
+    "kind": "community"
+  },
+  "community/projects/wake-on-lan.md": {
+    "id": "wake-on-lan",
+    "title": "通过网络唤醒电脑的案例",
+    "description": "明确 WoL 前提、第三方依赖和本地测试顺序，不把开机当成完整开关机。",
+    "sources": [
+      36
+    ],
+    "kind": "community"
+  },
+  "reference/display-emotions.md": {
+    "id": "display-emotions",
+    "title": "情绪字段与设备表情资源",
+    "description": "按固件版本核对语义、资源映射与显示回退。",
+    "sources": [
+      39
+    ],
+    "kind": "reference"
+  },
+  "community/resources.md": {
+    "id": "community-resources",
+    "title": "音乐、歌词与社区资源",
+    "description": "保留作品声明、媒体和歌词对应关系，并使用独立附件分发。",
+    "sources": [
+      41
+    ],
+    "kind": "community"
+  },
+  "development/custom-prompts.md": {
+    "id": "custom-prompts",
+    "title": "自定义设备提示音",
+    "description": "按当前 locale 资源与 OGG/Opus 生成流程替换提示音。",
+    "sources": [
+      42
+    ],
+    "kind": "guide"
+  },
+  "firmware/releases/v2.5.2.md": {
+    "id": "firmware-v2-5-2",
+    "title": "v2.5.2 历史版本入口",
+    "description": "保留明确版本的来源，当前安装回到统一下载页。",
+    "sources": [
+      2
+    ],
+    "kind": "archive"
+  }
+}

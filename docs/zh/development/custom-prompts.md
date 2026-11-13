@@ -1,0 +1,45 @@
+---
+id: "custom-prompts"
+title: "自定义设备提示音"
+description: "按当前 locale 资源与 OGG/Opus 生成流程替换提示音。"
+status: "review"
+reviewedAt: "2026-11-14"
+reviewNote: "已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。"
+sourceArticles: ["DOC-42"]
+---
+
+# 自定义设备提示音
+
+设备开机、配网等提示音属于固件资源。它与服务器合成回答的音色不同，也不是修改一个文件扩展名就能替换。
+
+## 当前基线 {#scope}
+
+本页对应固件 v2.6.0 的 `main/assets/locales/` 与 [gen_lang.py](https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/scripts/gen_lang.py)。默认资源读取 OGG；旧 P3 流程另见[历史说明](./archive/p3-prompts)。
+
+## 1. 准备原始音频 {#audio}
+
+保留原始录音，先试听是否有削波、噪声和过长静音。确定要替换的 locale 及原声音名称，不混用界面翻译、唤醒模型和提示音。
+
+## 2. 转换格式 {#convert}
+
+按[同版本转换脚本](https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/scripts/mp3_to_ogg.sh)的 Opus 参数转换，例如：
+
+```sh
+ffmpeg -i input.wav -c:a libopus -b:a 16k -ac 1 -ar 16000 -frame_duration 60 output.ogg
+```
+
+这是一组该版本采用的参数，不是所有 Opus 播放器的唯一规格。转换后再次试听并检查时长、采样率、声道和解码结果。
+
+## 3. 进入资源生成流程 {#build}
+
+在工作分支中，对照目标 locale 的现有声音、JSON 与生成器添加/替换资源；名称要保持可追溯。使用[本地构建](./build-firmware)选择该 locale，按该版本构建系统重新生成资源。
+
+不要把 `main/assets/lang_config.h` 等生成文件作为唯一修改位置，下一次生成可能覆盖它。资源打包、分区容量和播放器接口仍以固件仓库文档/实现为准。
+
+## 怎么确认完成 {#verify}
+
+从干净构建生成固件，目标 locale 的实际事件能播放正确提示音；其他 locale、唤醒和对话声音没有被误改。保存原始音频、转换命令和构建版本，不能只留一个生成后的二进制。
+
+---
+
+资料来源：[DOC-42 · 小智修改默认提示音频，转换自己的P3音频文件（例如开机播报和配网播报）](https://icnynnzcwou8.feishu.cn/docx/E2o4dGZPkoJgA2x2iEocjQtnnqJ)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。

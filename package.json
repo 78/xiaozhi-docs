@@ -1,0 +1,22 @@
+{
+  "name": "xiaozhi-docs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "check:content": "node scripts/check-content.mjs",
+    "check:assets": "node scripts/check-assets.mjs",
+    "translations:status": "node scripts/translation-status.mjs",
+    "check": "npm run check:content && npm run check:assets && npm run build"
+  },
+  "devDependencies": {
+    "gray-matter": "4.0.3",
+    "vitepress": "1.6.4",
+    "vue": "3.5.45"
+  },
+  "overrides": { "vite": "6.4.6" }
+}

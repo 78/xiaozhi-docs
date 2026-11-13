@@ -1,0 +1,238 @@
+{
+  "checkedAt": "2026-11-14",
+  "method": "飞书正文只读读取 + 本地固件/控制台代码和文档对照 + GitHub Release API + 制造商资料；不等同于生产部署或真机认证。",
+  "sources": {
+    "FW-RELEASE": {
+      "type": "github-release-api",
+      "url": "https://api.github.com/repos/78/xiaozhi-esp32/releases/latest",
+      "releaseUrl": "https://github.com/78/xiaozhi-esp32/releases/tag/v2.6.0",
+      "verifiedBy": "gh api repos/78/xiaozhi-esp32/releases/latest",
+      "tag": "v2.6.0",
+      "publishedAt": "2026-11-13T19:34:49Z",
+      "draft": false,
+      "prerelease": false,
+      "checkedAt": "2026-11-14"
+    },
+    "FW-README": {
+      "type": "repository",
+      "repository": "xiaozhi-esp32",
+      "commit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
+      "files": [
+        "README.md",
+        "CMakeLists.txt"
+      ],
+      "url": "https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/README.md",
+      "finding": "PROJECT_VER=2.6.0；最低 ESP-IDF 6.0.1，建议 release/v6.1 分支，IDF 5 不再支持。",
+      "checkedAt": "2026-11-14"
+    },
+    "FW-BOARD": {
+      "type": "repository",
+      "repository": "xiaozhi-esp32",
+      "commit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
+      "files": [
+        "docs/custom-board.md",
+        "docs/custom-board_zh.md",
+        "main/Kconfig.projbuild"
+      ],
+      "url": "https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/docs/custom-board_zh.md",
+      "finding": "自定义接线使用新板型或独立变体；当前制造商/板型目录、build.py 和固件身份是映射基线。",
+      "checkedAt": "2026-11-14"
+    },
+    "FW-WAKE": {
+      "type": "repository",
+      "repository": "xiaozhi-esp32",
+      "commit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
+      "files": [
+        "main/Kconfig.projbuild"
+      ],
+      "lines": [
+        987,
+        1058
+      ],
+      "url": "https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/main/Kconfig.projbuild#L987",
+      "finding": "区分 ESP WakeNet、AFE 和自定义唤醒，按芯片、PSRAM 和实际模型限制适用。",
+      "checkedAt": "2026-11-14"
+    },
+    "FW-AEC": {
+      "type": "repository",
+      "repository": "xiaozhi-esp32",
+      "commit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
+      "files": [
+        "main/Kconfig.projbuild"
+      ],
+      "lines": [
+        1059,
+        1088
+      ],
+      "url": "https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/main/Kconfig.projbuild#L1059",
+      "finding": "设备端/服务端 AEC 是不同选项，具有板型、PSRAM、参考信号及服务端条件。",
+      "checkedAt": "2026-11-14"
+    },
+    "FW-BLUFI": {
+      "type": "repository",
+      "repository": "xiaozhi-esp32",
+      "commit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
+      "files": [
+        "docs/blufi_zh.md",
+        "main/Kconfig.projbuild"
+      ],
+      "url": "https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/docs/blufi_zh.md",
+      "finding": "当前支持热点或 BluFi 配网，具体配置和芯片支持需按版本核验。",
+      "checkedAt": "2026-11-14"
+    },
+    "FW-MCP": {
+      "type": "repository",
+      "repository": "xiaozhi-esp32",
+      "commit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
+      "files": [
+        "docs/mcp-usage.md",
+        "docs/mcp-protocol.md"
+      ],
+      "url": "https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/docs/mcp-usage.md",
+      "finding": "使用当前 McpServer、类型化 Property、AddTool 与 AddUserOnlyTool 的定义。",
+      "checkedAt": "2026-11-14"
+    },
+    "FW-WS": {
+      "type": "repository",
+      "repository": "xiaozhi-esp32",
+      "commit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
+      "files": [
+        "main/protocols/websocket_protocol.cc",
+        "docs/websocket.md"
+      ],
+      "url": "https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/docs/websocket.md",
+      "finding": "客户端有 v2/v3 二进制封装，hello 解析 session_id 及音频参数；不能只按旧 v1 描述。",
+      "checkedAt": "2026-11-14"
+    },
+    "FW-OTA": {
+      "type": "repository",
+      "repository": "xiaozhi-esp32",
+      "commit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
+      "files": [
+        "docs/ota_zh.md",
+        "main/ota.cc"
+      ],
+      "url": "https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/docs/ota_zh.md",
+      "finding": "OTA 端点、能力上报、连接配置、更新及带 challenge 的激活契约以版本化实现为准。",
+      "checkedAt": "2026-11-14"
+    },
+    "FW-PROMPTS": {
+      "type": "repository",
+      "repository": "xiaozhi-esp32",
+      "commit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
+      "files": [
+        "scripts/gen_lang.py",
+        "scripts/mp3_to_ogg.sh",
+        "scripts/ogg_converter/README.md",
+        "scripts/p3_tools/README.md",
+        "main/assets/locales/zh-CN/"
+      ],
+      "url": "https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/scripts/gen_lang.py",
+      "finding": "当前默认 locale 音频加载 .ogg；P3 工具仍留在 scripts/p3_tools，不能说已移除。",
+      "checkedAt": "2026-11-14"
+    },
+    "CON-AUTH": {
+      "type": "local-repository",
+      "repository": "xz-control",
+      "commit": "49deb1be745e0f4d0b61d66248ac3d389d4461db",
+      "files": [
+        "docs/modules/auth.md",
+        "apps/console/src/app/router.tsx"
+      ],
+      "finding": "区分 GitHub 认证和商家平台；非 +86 未注册号码引导 Google；旧 GitHub 认证路由仍兼容。",
+      "checkedAt": "2026-11-14"
+    },
+    "CON-VOICE": {
+      "type": "local-repository",
+      "repository": "xz-control",
+      "commit": "49deb1be745e0f4d0b61d66248ac3d389d4461db",
+      "files": [
+        "docs/modules/voice-clone.md",
+        "apps/console/src/features/voice-clone/audio-trimmer.tsx",
+        "apps/console/src/features/voice-clone/voice-training-panel.tsx"
+      ],
+      "finding": "实名认证前置；多语言/风格；上传源文件最大 50MB、浏览器裁剪 8–60 秒；线上计费未测试。",
+      "checkedAt": "2026-11-14"
+    },
+    "CON-KB": {
+      "type": "local-repository",
+      "repository": "xz-control",
+      "commit": "49deb1be745e0f4d0b61d66248ac3d389d4461db",
+      "files": [
+        "docs/modules/knowledge-base.md",
+        "apis/src/modules/knowledge-bases/knowledge-bases.service.ts"
+      ],
+      "lines": [
+        239,
+        247,
+        394,
+        404
+      ],
+      "finding": "用户 role 区分 1/10 的库数及文档数；有解析、分块、召回测试及智能体关联。",
+      "checkedAt": "2026-11-14"
+    },
+    "CON-BUILDER": {
+      "type": "local-repository",
+      "repository": "xz-control",
+      "commit": "49deb1be745e0f4d0b61d66248ac3d389d4461db",
+      "files": [
+        "docs/modules/firmware-builder.md",
+        "apps/console/src/features/firmware-builder/firmware-flash-plan.ts"
+      ],
+      "finding": "逐板 buildOptions 与 Commit 快照；每日次数可配置；网页分区烧录跳过 NVS，但布局变化仍可影响配置。",
+      "checkedAt": "2026-11-14"
+    },
+    "CON-MCP": {
+      "type": "local-repository",
+      "repository": "xz-control",
+      "commit": "49deb1be745e0f4d0b61d66248ac3d389d4461db",
+      "files": [
+        "apps/console/src/features/agents/agent-config/extensions-tab.tsx"
+      ],
+      "finding": "扩展能力页生成/复制 MCP 端点并展示连接状态。",
+      "checkedAt": "2026-11-14"
+    },
+    "CON-OTA": {
+      "type": "local-repository",
+      "repository": "xz-control",
+      "commit": "49deb1be745e0f4d0b61d66248ac3d389d4461db",
+      "files": [
+        "docs/OTA.md"
+      ],
+      "finding": "服务端 OTA 实现说明，用于与固件侧契约交叉核对。",
+      "checkedAt": "2026-11-14"
+    },
+    "MCP-EXAMPLE": {
+      "type": "upstream-documentation",
+      "url": "https://github.com/78/mcp-calculator",
+      "finding": "上游 README 给出 requirements、MCP_ENDPOINT 和 mcp_pipe.py calculator.py 启动；本次未执行程序。",
+      "checkedAt": "2026-11-14"
+    },
+    "AUDIO-MAX98357": {
+      "type": "manufacturer",
+      "url": "https://www.analog.com/en/products/MAX98357A.html",
+      "finding": "MAX98357A 为 I2S、MAX98357B 为左对齐；器件为单声道 Class-D 扬声器功放。",
+      "checkedAt": "2026-11-14"
+    },
+    "AUDIO-MAX98357-PDF": {
+      "type": "manufacturer-datasheet",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/max98357a-max98357b.pdf",
+      "revision": "Rev. 16; 2/26",
+      "section": "Pin Description / OUTP, OUTN, GND",
+      "finding": "OUTP、OUTN 都是扬声器放大输出，GND 独立；不等同于共地耳机或线路输出。",
+      "checkedAt": "2026-11-14"
+    },
+    "POWER-DEVKIT": {
+      "type": "manufacturer",
+      "url": "https://documentation.espressif.com/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html",
+      "section": "Power Supply Options",
+      "finding": "USB、5V/GND、3V3/GND 为互斥供电方式；不能据此推定第三方板有充电功能。",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "limitations": [
+    "本地仓库提交用于识别当前实现，未证明生产环境已经部署完全相同的代码。",
+    "公开 GitHub Release v2.6.0 已核验；各板型二进制、工具和第三方服务未逐一运行。",
+    "硬件结论区分原文观察、数据手册依据和推断，必须完成各篇 publicationChecks 才可发布。"
+  ]
+}

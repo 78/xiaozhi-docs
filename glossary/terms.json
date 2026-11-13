@@ -1,0 +1,10 @@
+{
+  "agent": { "zh": "智能体", "en": "agent" },
+  "flashing": { "zh": "烧录", "en": "flashing" },
+  "provisioning": { "zh": "配网", "en": "Wi-Fi provisioning" },
+  "binding": { "zh": "设备绑定", "en": "device binding" },
+  "wake-word": { "zh": "唤醒词", "en": "wake word" },
+  "voice-cloning": { "zh": "声音复刻", "en": "voice cloning" },
+  "knowledge-base": { "zh": "知识库", "en": "knowledge base" },
+  "mcp-endpoint": { "zh": "MCP 接入点", "en": "MCP endpoint" }
+}

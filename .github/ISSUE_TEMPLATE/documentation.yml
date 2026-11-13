@@ -1,0 +1,21 @@
+name: 文档反馈 / Documentation feedback
+description: 报告错误步骤、过时信息、翻译或缺少的内容 / Report an issue with the docs
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 页面地址 / Page URL
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 硬件与版本 / Hardware and version
+      description: 操作问题请填写芯片、板型/变体、固件版本、电脑或手机系统；排版问题可填写浏览器与屏幕尺寸。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题说明 / What needs changing?
+      description: 请说明问题、预期步骤和适用的硬件或固件版本。 / Include the issue, expected steps, and relevant hardware or firmware version.
+    validations:
+      required: true

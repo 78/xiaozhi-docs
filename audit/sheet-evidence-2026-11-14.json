@@ -1,0 +1,72 @@
+{
+  "reviewedAt": "2026-11-14",
+  "sourceArticle": "DOC-44",
+  "sourceUrl": "https://my.feishu.cn/docx/HCgXdX3cfoABjGxEzglcfE6Jnvd",
+  "method": "通过公开飞书浏览器预览定位 3.2/3.3 两张内嵌接线表，目视读取；没有新增 API 授权。",
+  "tables": [
+    {
+      "title": "3.2 麦克风 INMP441 接线",
+      "rows": [
+        [
+          "WS",
+          "GPIO4"
+        ],
+        [
+          "SCK",
+          "GPIO5"
+        ],
+        [
+          "SD",
+          "GPIO6"
+        ],
+        [
+          "VDD",
+          "3V3"
+        ],
+        [
+          "GND 与 L/R",
+          "GND"
+        ]
+      ]
+    },
+    {
+      "title": "3.3 数字功放 MAX98357A 接线",
+      "rows": [
+        [
+          "DIN",
+          "GPIO7"
+        ],
+        [
+          "BCLK",
+          "GPIO15"
+        ],
+        [
+          "LRC",
+          "GPIO16"
+        ],
+        [
+          "VCC 与 SD",
+          "3V3"
+        ],
+        [
+          "GND 与 GAIN",
+          "GND"
+        ],
+        [
+          "音频 +",
+          "扬声器正端"
+        ],
+        [
+          "音频 -",
+          "扬声器负端"
+        ]
+      ]
+    }
+  ],
+  "corrections": [
+    "第二张表原表头误写为麦克风 INMP441，新稿更正为 MAX98357A。",
+    "信号 GPIO 与固件基础 S3 一致；功放 3V3 是原样机分支，电流余量、模块与增益/声道仍待复核。"
+  ],
+  "firmwareCommit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
+  "hardwareTested": false
+}

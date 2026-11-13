@@ -1,0 +1,509 @@
+{
+  "tag": "tutorial-assets-2026-11-14",
+  "assets": [
+    {
+      "name": "doc-07-file-001.mp4",
+      "originalName": "lv_0_20250815214436.mp4",
+      "sourceArticle": "DOC-07",
+      "sourceUrl": "https://my.feishu.cn/docx/XmewdwEQroT3buxKN9GcpEm5nng",
+      "size": 28782480,
+      "sha256": "30fff5915040b404414af57679f4ff44d0e016baf494d67f1055a2054b7dbeb7",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-07-file-001.mp4"
+    },
+    {
+      "name": "doc-17-file-001.mp4",
+      "originalName": "成品2.mp4",
+      "sourceArticle": "DOC-17",
+      "sourceUrl": "https://my.feishu.cn/docx/OimhdJxseowewZx3qKyc4qOOnPb",
+      "size": 144139368,
+      "sha256": "e8d48f26ebbba6935c4fc50b44bd32a9b632b06ec254e7ca316b1f59a6d7c796",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-17-file-001.mp4"
+    },
+    {
+      "name": "doc-18-file-001.mp4",
+      "originalName": "7eee09a7097f9ef063be600f406aa498.mp4",
+      "sourceArticle": "DOC-18",
+      "sourceUrl": "https://my.feishu.cn/docx/XS2pdC1IQoRANfx3k8ycYInsn1d",
+      "size": 2073457,
+      "sha256": "f186bdaaf3e1b002c030eb9bd1651672fdce27f9178ee0a865aa17284cd6fb7a",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-18-file-001.mp4"
+    },
+    {
+      "name": "doc-25-file-001.zip",
+      "originalName": "联网查询python代码.zip",
+      "sourceArticle": "DOC-25",
+      "sourceUrl": "https://my.feishu.cn/docx/JKFXd8bLYo6YZtxz9ORcbnA8nbe",
+      "size": 5665,
+      "sha256": "e1c3d3c80c5223e53a734f608b3e9bab6a1b6bf9cb3eea7cb389605544de9f77",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-25-file-001.zip"
+    },
+    {
+      "name": "doc-30-file-001.pdf",
+      "originalName": "插件版原理图.pdf",
+      "sourceArticle": "DOC-30",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "size": 177400,
+      "sha256": "e562a00ad2ef0a87d70507260624ad61898ddcf483209763fa4e639520d4702d",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-001.pdf"
+    },
+    {
+      "name": "doc-30-file-002.dxf",
+      "originalName": "DXF_小智AI插件版V1.3_AutoCAD2007.dxf",
+      "sourceArticle": "DOC-30",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "size": 2677953,
+      "sha256": "090c37eaa3d3fccd6bd16596fb0ec27ca258db5022c0c2bba2ba7d4e49b89465",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-002.dxf"
+    },
+    {
+      "name": "doc-30-file-003.stl",
+      "originalName": "3D_插件版V1.3外壳设计V1_底壳.stl",
+      "sourceArticle": "DOC-30",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "size": 1059604,
+      "sha256": "aae5efabbe411aa4ed6e70a73f144e24e3d0a4695d9b9dcef775a623407d41f1",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-003.stl"
+    },
+    {
+      "name": "doc-30-file-004.stl",
+      "originalName": "3D_插件版V1.3外壳设计V1_顶壳.stl",
+      "sourceArticle": "DOC-30",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "size": 464548,
+      "sha256": "f8f4aedbdbf4203a6ce36930f831d5e07dd1b856560183cd921a6c1d0230c3a2",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-004.stl"
+    },
+    {
+      "name": "doc-30-file-005.stl",
+      "originalName": "按键帽.STL",
+      "sourceArticle": "DOC-30",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "size": 355184,
+      "sha256": "def39bb42a9b0f7a65f8237e7ca424cbf485f511001087d2859a237f4fe8d955",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-005.stl"
+    },
+    {
+      "name": "doc-30-file-006.epanm",
+      "originalName": "Panel_插件版v1.3面板设计v1_2025-08-15.epanm",
+      "sourceArticle": "DOC-30",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "size": 5315,
+      "sha256": "0c3c96b02fea5c9994ffab9bd5542268cb8e72b088c5a58bc00053208f8c369c",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-006.epanm"
+    },
+    {
+      "name": "doc-30-file-008.mp4",
+      "originalName": "思澈小智AI展示_未完善-08-11.mp4",
+      "sourceArticle": "DOC-30",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "size": 154650625,
+      "sha256": "602e3ee7b6e91495574e31ce459b9b48473fd3adad97840a94b25f580257c501",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-008.mp4"
+    },
+    {
+      "name": "doc-30-file-010.mp4",
+      "originalName": "20250813114210_rec_.mp4",
+      "sourceArticle": "DOC-30",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "size": 13565958,
+      "sha256": "1f20ebc9c8c46ab5c977780bdb4c2a414e5b27f089d0b52fabd88748f6e0e130",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-010.mp4"
+    },
+    {
+      "name": "doc-30-file-011.mp4",
+      "originalName": "20250813135726_rec_.mp4",
+      "sourceArticle": "DOC-30",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "size": 13517324,
+      "sha256": "7772c1a758ca0e0a23a8751b3ec80429c457a7f72af5da4ec663a355531b5dd1",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-011.mp4"
+    },
+    {
+      "name": "doc-30-file-012.mp4",
+      "originalName": "20250813140830_rec_.mp4",
+      "sourceArticle": "DOC-30",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "size": 12253359,
+      "sha256": "c2618239a07f4a82f03f9302e8448d23170f705d3fc4de75df9a094001ac4d20",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-012.mp4"
+    },
+    {
+      "name": "doc-30-file-013.mp4",
+      "originalName": "20250813141033_rec_.mp4",
+      "sourceArticle": "DOC-30",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "size": 11857384,
+      "sha256": "a31e9db3d1522d78cdeb4102577b707fe9837edc6afea8b4e4a0d1e20777c104",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-013.mp4"
+    },
+    {
+      "name": "doc-30-file-014.mp4",
+      "originalName": "20250813145527_rec_.mp4",
+      "sourceArticle": "DOC-30",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "size": 16837758,
+      "sha256": "78fe37b26c63f711b58cdf8b1cfb1ec3457d00223d5a64908b1ff646a2e8b727",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-014.mp4"
+    },
+    {
+      "name": "doc-30-file-015.mp4",
+      "originalName": "20250813150146_rec_.mp4",
+      "sourceArticle": "DOC-30",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "size": 9472919,
+      "sha256": "fa98529755aae19b30c439444f35308141a694f06b38e91df35128cc97a3ffb8",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-015.mp4"
+    },
+    {
+      "name": "doc-30-file-016.mp4",
+      "originalName": "20250813151144_rec_.mp4",
+      "sourceArticle": "DOC-30",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "size": 59309488,
+      "sha256": "57dd87b5b55b16678a54edaf4298bfda6fedeaeacac151f97b56e5a8e72651be",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-016.mp4"
+    },
+    {
+      "name": "doc-30-file-021.mp4",
+      "originalName": "20251215170154_rec_.mp4",
+      "sourceArticle": "DOC-30",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "size": 7579676,
+      "sha256": "ae7afaa9790ae0647a9ceb91ffeb61c29dc68902bb45df83d8e129ee7619a98e",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-021.mp4"
+    },
+    {
+      "name": "doc-33-file-001.mp4",
+      "originalName": "video_20250726_171117.mp4",
+      "sourceArticle": "DOC-33",
+      "sourceUrl": "https://kcn80f4hacgs.feishu.cn/docx/J2MrdqW27oybcCxu7Sfc4gBcn4g",
+      "size": 42429688,
+      "sha256": "3138027c604f4639bedc161f46216dba6ca83759c8e9b89f8c45e35258c545f6",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-33-file-001.mp4"
+    },
+    {
+      "name": "doc-41-file-001.mp3",
+      "originalName": "代码爱恋.mp3",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 4586157,
+      "sha256": "56232f8040d772223e7a46ac5ebb3e8f3037073a2a9278661043fd4c8ee2f29b",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-001.mp3"
+    },
+    {
+      "name": "doc-41-file-002.lrc",
+      "originalName": "代码爱恋.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 1247,
+      "sha256": "fe93456bc2e8326589191864bb16e84116adaa49cbdf8fec225c19bda71e601d",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-002.lrc"
+    },
+    {
+      "name": "doc-41-file-003.mp3",
+      "originalName": "痞老板与凯伦的爱情.mp3",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 3932397,
+      "sha256": "def2fb503a7e67e7b25c374cac540d3a109a5d1361e68db53570f32f10b22a61",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-003.mp3"
+    },
+    {
+      "name": "doc-41-file-004.lrc",
+      "originalName": "痞老板与凯伦的爱情.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 1006,
+      "sha256": "96aa3173fb41c90730b734d5cba6f2714e4b2a2bdaf1513567f807a272995728",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-004.lrc"
+    },
+    {
+      "name": "doc-41-file-005.m4a",
+      "originalName": "二进制心跳.m4a",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 2721290,
+      "sha256": "314213d023a70b02f8c0fd8ff3fcde0e31222025fb5e5b1df40232f28806ca44",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-005.m4a"
+    },
+    {
+      "name": "doc-41-file-006.lrc",
+      "originalName": "二进制心跳.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 1236,
+      "sha256": "5f3b6c929790775318537b661d852160d5e9cea3986e85f3bea42e4a18ca9a53",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-006.lrc"
+    },
+    {
+      "name": "doc-41-file-007.m4a",
+      "originalName": "我是土豆子.m4a",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 1849537,
+      "sha256": "f25c2a3acfec620975c2a843ec8fdcd77386599075b3579b3bb5b6fd53da5229",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-007.m4a"
+    },
+    {
+      "name": "doc-41-file-008.lrc",
+      "originalName": "我是土豆子.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 750,
+      "sha256": "7c6b12d27a8f9bf4a8741df0bd6f9f5a5a2ffdcc7e81a454e9776ccd2df2846a",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-008.lrc"
+    },
+    {
+      "name": "doc-41-file-009.wav",
+      "originalName": "LoseControl.wav",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 39260200,
+      "sha256": "4bf19a822f49de9fe699400999dc92b9bcfc20a56a1fec79184344ba96f82244",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-009.wav"
+    },
+    {
+      "name": "doc-41-file-010.lrc",
+      "originalName": "LoseControl.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 1389,
+      "sha256": "dc70dee6323f00921d6f4323c93fe56c77b54d7e8086355fedce6ad57a742456",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-010.lrc"
+    },
+    {
+      "name": "doc-41-file-011.m4a",
+      "originalName": "Lullaby.m4a",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 2363388,
+      "sha256": "e7fa93614429bb369b2ac3d88cb0b869324e206768975ba0f08cd1af56170fd1",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-011.m4a"
+    },
+    {
+      "name": "doc-41-file-012.lrc",
+      "originalName": "Lullaby.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 1185,
+      "sha256": "b2a7e68c67d60eb29227f1827b323642caa6c78267d143795bd511046e3ca96c",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-012.lrc"
+    },
+    {
+      "name": "doc-41-file-013.wav",
+      "originalName": "SpeakYourMind.wav",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 34905640,
+      "sha256": "ccc78a376bfc43dc6966d6ef8a068c58661d6aca765a43b14e59f451556464d6",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-013.wav"
+    },
+    {
+      "name": "doc-41-file-014.lrc",
+      "originalName": "SpeakYourMind.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 957,
+      "sha256": "97e0c2dca32114ed9ccc56e24daf407bb03b3753fce067ed19305d68f732bdf6",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-014.lrc"
+    },
+    {
+      "name": "doc-41-file-015.wav",
+      "originalName": "你的模样.wav",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 39705640,
+      "sha256": "4c0f8806a9eb06b3ddb61c7306fe31ac90f7e74f85c849d7ad91c6ba1d38eabf",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-015.wav"
+    },
+    {
+      "name": "doc-41-file-016.lrc",
+      "originalName": "你的模样.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 907,
+      "sha256": "aa156408c397af745477f3c17434b0f65cfac6f57f04c262947491903362b49c",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-016.lrc"
+    },
+    {
+      "name": "doc-41-file-017.wav",
+      "originalName": "摩登人生.wav",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 35205160,
+      "sha256": "3ea29aa9ff05f5e734a1dc976084726ac8ec836551317944252669f5cfb6d52d",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-017.wav"
+    },
+    {
+      "name": "doc-41-file-018.lrc",
+      "originalName": "摩登人生.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 446,
+      "sha256": "ea5ffa60b04b07fc61e83be5a75eaabeaa82485bf3e700e7d3903fc4972cf6e5",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-018.lrc"
+    },
+    {
+      "name": "doc-41-file-019.wav",
+      "originalName": "月光折纸.wav",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 52893046,
+      "sha256": "b72d178edfd40b57fecfbb25bbd3e62f1e5b0e188ab7464171eb8ba404ac483a",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-019.wav"
+    },
+    {
+      "name": "doc-41-file-020.lrc",
+      "originalName": "月光折纸.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 568,
+      "sha256": "2a4b6c0bf69978eaf26380a77a00f90097737631cbe1c82c0ee30a04a20f97da",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-020.lrc"
+    },
+    {
+      "name": "doc-41-file-021.wav",
+      "originalName": "木子花开.wav",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 52514798,
+      "sha256": "e2d753e0e275c6529bb3b85542f6a4446870332762a4c8cbbbf973ecd3ae69d4",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-021.wav"
+    },
+    {
+      "name": "doc-41-file-022.lrc",
+      "originalName": "木子花开.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 627,
+      "sha256": "28d48e1e719d777977cea60832ecd6d8273baf1f0bb79437bb528e55c6075325",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-022.lrc"
+    },
+    {
+      "name": "doc-41-file-023.wav",
+      "originalName": "流浪.wav",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 36994600,
+      "sha256": "27fa728e07e685ccfd7b481257bcac30ba91417436d27b8d006fec2cea9dbae4",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-023.wav"
+    },
+    {
+      "name": "doc-41-file-024.lrc",
+      "originalName": "流浪.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 799,
+      "sha256": "08868c1855fcead922481eb83d7791d62ddaf961a73b4ecc64c064770cfeb54b",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-024.lrc"
+    },
+    {
+      "name": "doc-41-file-025.wav",
+      "originalName": "快乐大爆发.wav",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 20011406,
+      "sha256": "51c9051c84e75f7613e7b77583c8f2a727422bf7632503515df44aad23649eab",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-025.wav"
+    },
+    {
+      "name": "doc-41-file-026.lrc",
+      "originalName": "快乐大爆发.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 544,
+      "sha256": "8fc81e779a8eba43f15c7ac648ce0cb1ef288c19bc3076f1f85e8dfc3c93109f",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-026.lrc"
+    },
+    {
+      "name": "doc-41-file-027.wav",
+      "originalName": "小燕子穿花衣.wav",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 15190934,
+      "sha256": "99c3dfbdd9ba5d9ca5faca2f9dbbd8c7a397b0435b1f554076f1cd03a855f597",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-027.wav"
+    },
+    {
+      "name": "doc-41-file-028.lrc",
+      "originalName": "小燕子穿花衣.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 284,
+      "sha256": "92cb206c3d3a0eb330e859bc91057ab5960132fec2918eb6afd921a252e5edb6",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-028.lrc"
+    },
+    {
+      "name": "doc-41-file-029.wav",
+      "originalName": "一闪一闪亮晶晶.wav",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 8425000,
+      "sha256": "007997f3ac9d1111e0fb75888d365c4e2ac7c42655dce84144ab17aa740d7355",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-029.wav"
+    },
+    {
+      "name": "doc-41-file-030.lrc",
+      "originalName": "一闪一闪亮晶晶.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 317,
+      "sha256": "126759894958f7762b38f68da1a8179c188dd273dc22798ac9cf5fb0e9f6a168",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-030.lrc"
+    },
+    {
+      "name": "doc-41-file-031.wav",
+      "originalName": "春天在哪里呀.wav",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 19872318,
+      "sha256": "6c988a4494d16c48291f2c3110972b2c6fb99ce6df3e8c2ef399548caff88b39",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-031.wav"
+    },
+    {
+      "name": "doc-41-file-032.lrc",
+      "originalName": "春天在哪里呀.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 527,
+      "sha256": "7c27e0dd1cc034c09be444b9293247c4f398b203f3efa27c2118b3803dbce0f5",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-032.lrc"
+    },
+    {
+      "name": "doc-41-file-033.wav",
+      "originalName": "数鸭子.wav",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 2148946,
+      "sha256": "25ccb5e5ac1c1aae2b50faebc52dbabe162932248ea2e04bc9f51b5642e00920",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-033.wav"
+    },
+    {
+      "name": "doc-41-file-034.lrc",
+      "originalName": "数鸭子.lrc",
+      "sourceArticle": "DOC-41",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "size": 418,
+      "sha256": "dafb127604103d0476552b91e202944283bc7aaae9bbdea77507c5efa3d6820a",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-41-file-034.lrc"
+    },
+    {
+      "name": "doc-43-file-001.mp4",
+      "originalName": "教程专用.mp4",
+      "sourceArticle": "DOC-43",
+      "sourceUrl": "https://my.feishu.cn/docx/DN0ndX1JaoP4EWx1FBWcdCmcnoc",
+      "size": 16013248,
+      "sha256": "f3a96659042438be5fff445181443af04973cd03959f24feac784a2bad048366",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-43-file-001.mp4"
+    },
+    {
+      "name": "doc-36-file-002.bin",
+      "originalName": "ESP8266-PC网络唤醒模块_vOpen_1.107.6.bin",
+      "sourceArticle": "DOC-36",
+      "sourceUrl": "https://kcn80f4hacgs.feishu.cn/docx/RxRXd8aMDomjUXxlUcCcOE48ndh",
+      "size": 529440,
+      "sha256": "e53c81c3ef45ab524e7001cbc329cc56847efcf73fd2504dae804e670f7f15b0",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-36-file-002.bin"
+    }
+  ]
+}

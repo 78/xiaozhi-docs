@@ -1,0 +1,5236 @@
+{
+  "schemaVersion": 2,
+  "sourceSnapshot": "feishu-statistics-2026-11-14.json",
+  "scope": "教程总目录直接链接的 44 篇飞书文档；不包含子文档递归引用及非飞书外部网站",
+  "reviewedAt": "2026-11-14",
+  "reviewType": "editorial-and-source-comparison",
+  "verificationBaseline": "verification-baseline-2026-11-14.json",
+  "report": "review-2026-11-14.md",
+  "statusNote": "44/44 篇来源已落实中文重构、合并或历史归档；全部等待社区反馈。P1/P2 33 篇来源对应 31 个主要新页，另有 2 个补充分流页。英文暂缓。",
+  "priorityPolicy": {
+    "P0": "先纠正可能导致接线/供电误用的内容，完成下载、烧录、配网、在线编译及官方开发/MCP 的首发核心路径。",
+    "P1": "补全控制台与主要板型，合并开发参考和高影响的旧入口。",
+    "P2": "历史资料、扩展案例和社区资源整理；仍须满足发布前检查。",
+    "ranking": "priorityRank 为本轮唯一队列顺序；先看事实错误/电气风险及流程阻塞，再看覆盖面、重复度及维护成本，不做仅凭流量的自动打分。"
+  },
+  "coverage": {
+    "articles": 44,
+    "bodyTextsRead": 44,
+    "pendingEditorialDecisions": 0,
+    "embeddedSheetsUnread": 1,
+    "articlesWithUnreadSheets": [
+      "DOC-08"
+    ],
+    "imagesVisuallyChecked": [
+      {
+        "article": "DOC-35",
+        "ordinals": [
+          6,
+          7
+        ],
+        "sha256": [
+          "affa55478f04a2052ddcd9eeec6ec06a8b35ff8f210b547b0e24f25d57099fd7",
+          "29ac43b4795784c2dc0496f1bd8696ff43e299010826a43f26401022cbf5b357"
+        ]
+      }
+    ],
+    "allMediaAndAttachmentsVerified": false,
+    "hardwareTested": false,
+    "thirdPartyServicesExecuted": false,
+    "chineseSourceArticlesImplemented": 44,
+    "communityConfirmed": 0,
+    "embeddedMediaReferencesInventoried": 1094,
+    "originalImagesRetained": 56,
+    "releaseFiles": 56,
+    "readableVideosSampled": 14,
+    "unavailableHistoricalFiles": 3
+  },
+  "limitations": [
+    "范围是总目录直接链接的 44 篇。没有递归审阅所有外链、子文档或第三方项目全文。",
+    "已核对本地仓库版本；未验证生产部署、支付、额度兑现、全板型真机或第三方平台当前可用性。",
+    "统计只有历史累计和单日快照，无 30/90 天趋势；不同文章 UV 不可相加当作总读者。",
+    "原始完整读取响应留在临时缓存，不提交评论、个人读者数据、签名链接或访问凭据。",
+    "DOC-44 两张接线表已通过公开预览读取并核对 GPIO；原样机 3V3 功放电源仍待电气验证。DOC-08 一张旧映射表未读，现行指南改用固件目录与官方 Release，不依赖旧表。",
+    "1094 个嵌入素材引用均有去向；56 张原图采用，14 段视频抽样关键帧审阅。没有把未采用图片、全片、工程或二进制执行验证宣称为已完成。",
+    "DOC-28 两个旧补丁文件与一段视频读取被拒绝；当前稿不依赖这些旧内容，未伪造或扩大授权。",
+    "DOC-44 两张接线表已通过公开预览读取并核对 GPIO；原样机 3V3 功放电源仍待电气验证。DOC-08 一张旧映射表未读，现行指南改用固件目录与官方 Release，不依赖旧表。",
+    "1094 个嵌入素材引用均有去向；56 张原图采用，14 段视频抽样关键帧审阅。没有把未采用图片、全片、工程或二进制执行验证宣称为已完成。",
+    "DOC-28 两个旧补丁文件与一段视频读取被拒绝；当前稿不依赖这些旧内容，未伪造或扩大授权。",
+    "DOC-44 两张接线表已通过公开预览读取并核对 GPIO；原样机 3V3 功放电源仍待电气验证。DOC-08 一张旧映射表未读，现行指南改用固件目录与官方 Release，不依赖旧表。",
+    "1094 个嵌入素材引用均有去向；56 张原图采用，14 段视频抽样关键帧审阅。没有把未采用图片、全片、工程或二进制执行验证宣称为已完成。",
+    "DOC-28 两个旧补丁文件与一段视频读取被拒绝；当前稿不依赖这些旧内容，未伪造或扩大授权。",
+    "DOC-44 两张接线表已通过公开预览读取并核对 GPIO；原样机 3V3 功放电源仍待电气验证。DOC-08 一张旧映射表未读，现行指南改用固件目录与官方 Release，不依赖旧表。",
+    "1094 个嵌入素材引用均有去向；56 张原图采用，14 段视频抽样关键帧审阅。没有把未采用图片、全片、工程或二进制执行验证宣称为已完成。",
+    "DOC-28 两个旧补丁文件与一段视频读取被拒绝；当前稿不依赖这些旧内容，未伪造或扩大授权。"
+  ],
+  "summary": {
+    "decision": {
+      "rewrite": 25,
+      "archive": 3,
+      "merge": 13,
+      "retain": 3,
+      "remove": 0
+    },
+    "priority": {
+      "P1": 20,
+      "P0": 11,
+      "P2": 13
+    },
+    "reviewStatus": {
+      "reviewed": 44
+    },
+    "implementationStatus": {
+      "community-review": 44
+    }
+  },
+  "items": [
+    {
+      "id": "DOC-01",
+      "sourceToken": "AjtQdM0KpoVQ3YxJfaLco4KsnSe",
+      "title": "小智AI 开发者认证",
+      "sourceUrl": "https://smvsudqc87.feishu.cn/docx/AjtQdM0KpoVQ3YxJfaLco4KsnSe",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P1",
+      "targetPath": "docs/zh/console/github-verification.md",
+      "rationale": "保留 GitHub 绑定的入门价值，重写身份名称、入口及权益说明，避免把 GitHub 认证与商家开发者身份混为一谈。",
+      "evidence": [
+        {
+          "section": "一、快捷认证入口；三、认证流程",
+          "finding": "原文使用 /console/developer-auth 并称“开发者认证”；当前代码把 /console/github-auth 作为入口，旧路由仍兼容，GitHub 绑定不是登录方式或商家开发者平台。",
+          "references": [
+            "CON-AUTH"
+          ],
+          "sourceArticle": "DOC-01"
+        },
+        {
+          "section": "二、开发者权益",
+          "finding": "表格固定列出内测模型、限时免费及长期记忆“即将上线”，没有权益生效版本；不能把该表作为长期有效承诺。",
+          "references": [
+            "CON-AUTH"
+          ],
+          "sourceArticle": "DOC-01"
+        }
+      ],
+      "requiredChanges": [
+        "标题改为 GitHub 认证与权益，说明与登录及商家平台的区别。",
+        "按当前 Console 重拍操作过程；动态模型、配额和收费说明链接至当前页面。"
+      ],
+      "publicationChecks": [
+        "用普通账号验证绑定及取消流程；确认线上权益和界面。"
+      ],
+      "relatedArticles": [
+        "DOC-14",
+        "DOC-16",
+        "DOC-17"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 17,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "AjtQdM0KpoVQ3YxJfaLco4KsnSe",
+        "revisionId": 136,
+        "contentSha256": "50ee6e2c1cb944c7ff2cb31fd2e83e108c009ece21c95ab93a661b4ea2f2860c",
+        "characterCount": 3879,
+        "embeddedReferences": {
+          "images": 3,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 54003,
+        "uv": 44587,
+        "pv_today": 24,
+        "uv_today": 23,
+        "timestamp": 1794599408
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/console/github-verification.md"
+        ],
+        "outputHashes": {
+          "docs/zh/console/github-verification.md": "5ea72994d6cba86676cb2ea92d9834f1328c8c45ec16e498dfe56d23c587aff7"
+        },
+        "contentSha256": "5ea72994d6cba86676cb2ea92d9834f1328c8c45ec16e498dfe56d23c587aff7",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/console/github-verification.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 3
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-02",
+      "sourceToken": "BbNiwEyvJiZQqVkJY4McY1ZBnmg",
+      "title": "v2.5.2 小智AI终端最新版本固件及源码下载",
+      "sourceUrl": "https://my.feishu.cn/docx/InFydTabHo285Tx8nnvcnDS6n4f",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P0",
+      "targetPath": "docs/zh/firmware/downloads.md",
+      "rationale": "建立不带版本号的下载入口；v2.5.2 的资料单独留档，避免把旧版本继续称为最新版。",
+      "evidence": [
+        {
+          "section": "标题、版本说明和板型下载列表",
+          "finding": "原文以 v2.5.2 为最新版，列举该版本的固件包和校验值。GitHub 最新正式 Release 已为 v2.6.0。",
+          "references": [
+            "FW-RELEASE"
+          ],
+          "sourceArticle": "DOC-02"
+        },
+        {
+          "section": "ESP-IDF 与升级说明",
+          "finding": "原文包含 IDF 6 和 v1→v2 分区迁移提醒，有独立价值；应把通用升级步骤与特定版本附件分开。",
+          "references": [
+            "FW-README",
+            "FW-OTA"
+          ],
+          "sourceArticle": "DOC-02"
+        }
+      ],
+      "requiredChanges": [
+        "下载主页链接官方 Release，并显示版本、发布日期、芯片及板型变体。",
+        "v2.5.2 建立历史版本记录；沿用可核验的文件校验值。",
+        "单列首次烧录、普通升级和跨分区升级，链接烧录教程。"
+      ],
+      "publicationChecks": [
+        "按发布资产确认板型和校验值；真机验证 v1→v2 升级路径。"
+      ],
+      "relatedArticles": [
+        "DOC-03",
+        "DOC-04",
+        "DOC-08",
+        "DOC-18",
+        "DOC-31"
+      ],
+      "secondaryTargetPaths": [
+        "docs/zh/firmware/releases/v2.5.2.md"
+      ],
+      "trafficRationale": "发布较新的页面累计 UV 较少，但承担所有新用户的下载入口，不能按累计阅读量降级。",
+      "priorityRank": 5,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "InFydTabHo285Tx8nnvcnDS6n4f",
+        "revisionId": 34,
+        "contentSha256": "def114dbf7efca13e723090493bf9db65dc21e5ab7d831937dc51ea38a5c48f0",
+        "characterCount": 29519,
+        "embeddedReferences": {
+          "images": 0,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 18631,
+        "uv": 12886,
+        "pv_today": 44,
+        "uv_today": 30,
+        "timestamp": 1794599409
+      },
+      "notes": "首批 P0 中文已重写并接入导航，等待社区校对。英文仅保留待翻译入口；原始审计依据和源文档指纹不变。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "contentSha256": "6ed34957f33888218220852da23e87c3ef18af75c063d16b8fc2fd7b0e35511a",
+        "completedChanges": [
+          "新增版本无关下载入口，明确核对 v2.6.0 正式发布与匹配条件。",
+          "区分源码包、固件、校验值、历史版本和跨布局升级。"
+        ],
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/firmware/downloads.md",
+          "bodyTranslated": false
+        },
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p0-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "P0 中文重写完成，补充版本历史/原素材处置；素材实际采用范围见 media-inventory.json。未将社区确认、硬件或生产检查标记为完成。",
+        "deferredWork": [],
+        "outputPaths": [
+          "docs/zh/firmware/downloads.md",
+          "docs/zh/firmware/releases/v2.5.2.md"
+        ],
+        "outputHashes": {
+          "docs/zh/firmware/downloads.md": "6ed34957f33888218220852da23e87c3ef18af75c063d16b8fc2fd7b0e35511a",
+          "docs/zh/firmware/releases/v2.5.2.md": "60f49bf440dfa9a9f38fa8f421bcc041551454cfc14443c96d2644c24289d4a3"
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {},
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-03",
+      "sourceToken": "W14Kw1s1uieoKjkP8N0c1VVvn8d",
+      "title": "v2.2.4 小智AI终端最新版本固件及源码下载",
+      "sourceUrl": "https://my.feishu.cn/docx/GWL4dC8Rzov8V7x8vfncr9IEnOe",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "archive",
+      "priority": "P1",
+      "targetPath": "docs/zh/firmware/releases/v2.2.4.md",
+      "rationale": "保留旧版本下载及适用环境作为历史资料，退出默认下载入口。",
+      "evidence": [
+        {
+          "section": "标题、SDK 说明、固件列表",
+          "finding": "内容明确对应 v2.2.4 与 ESP-IDF 5.5.2，不能作为当前 v2.6.0/IDF 6 的安装依据。",
+          "references": [
+            "FW-RELEASE",
+            "FW-README"
+          ],
+          "sourceArticle": "DOC-03"
+        },
+        {
+          "section": "历史下载入口",
+          "finding": "统计快照中累计 UV 384314，为本次最高；大量旧链接可能指向此处，需要保留版本说明和通向当前下载页的入口，而不是删除。",
+          "references": [],
+          "sourceArticle": "DOC-03"
+        }
+      ],
+      "requiredChanges": [
+        "移除“最新”表述，标注历史版本及适用 SDK。",
+        "保留可核验的发布包、校验和及更新记录；页首推荐当前稳定版。"
+      ],
+      "publicationChecks": [
+        "核对归档附件和版本对应关系，确认旧板型是否仍需此版本。"
+      ],
+      "relatedArticles": [
+        "DOC-02",
+        "DOC-04",
+        "DOC-08"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 12,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "GWL4dC8Rzov8V7x8vfncr9IEnOe",
+        "revisionId": 8066,
+        "contentSha256": "2126647fb12ffa384c9a25ac7cfda1ac4d205b67ff9d798bb48f2b2e022c4ea3",
+        "characterCount": 18953,
+        "embeddedReferences": {
+          "images": 0,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 606627,
+        "uv": 384314,
+        "pv_today": 41,
+        "uv_today": 21,
+        "timestamp": 1794599410
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/firmware/releases/v2.2.4.md"
+        ],
+        "outputHashes": {
+          "docs/zh/firmware/releases/v2.2.4.md": "6053fb6ed9df93e7c114d86965110175d9b24b42c5cb8930f29044687bade23b"
+        },
+        "contentSha256": "6053fb6ed9df93e7c114d86965110175d9b24b42c5cb8930f29044687bade23b",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/firmware/releases/v2.2.4.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {},
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-04",
+      "sourceToken": "WJlMwqOkLigfWhk6YRjc028annf",
+      "title": "v1.9.4 小智AI终端固件下载",
+      "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "archive",
+      "priority": "P2",
+      "targetPath": "docs/zh/firmware/releases/v1.9.4.md",
+      "rationale": "旧固件及分区布局仍可服务维护旧设备；归档而非删除。",
+      "evidence": [
+        {
+          "section": "固件下载区",
+          "finding": "全文对应 v1.9.4，正文提取到 263 个附件引用；这些是历史分发资产，不是当前安装步骤。",
+          "references": [],
+          "sourceArticle": "DOC-04"
+        },
+        {
+          "section": "版本边界",
+          "finding": "v1 与 v2 分区迁移在下载教程中被单独提示；现行版本不应覆盖历史兼容信息。",
+          "references": [
+            "FW-RELEASE",
+            "FW-OTA"
+          ],
+          "sourceArticle": "DOC-04"
+        }
+      ],
+      "requiredChanges": [
+        "标记 v1 维护档案，列明适用硬件、布局及升级限制。",
+        "将大文件放 Releases 或官方存储，保留文件名、校验值和出处。"
+      ],
+      "publicationChecks": [
+        "逐个核对实际保留的附件；本次未下载或运行 263 个附件。"
+      ],
+      "relatedArticles": [
+        "DOC-02",
+        "DOC-03"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 32,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "AidQdzp1vombicxZDIPcJeiZnzc",
+        "revisionId": 2,
+        "contentSha256": "ea0fbd214932f067313acb4a174fd87f50db8ce69a8b98e3e1390c84eb1d7265",
+        "characterCount": 70957,
+        "embeddedReferences": {
+          "images": 0,
+          "sheets": 0,
+          "files": 263
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 18747,
+        "uv": 15264,
+        "pv_today": 3,
+        "uv_today": 3,
+        "timestamp": 1794599411
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/firmware/releases/v1.9.4.md"
+        ],
+        "outputHashes": {
+          "docs/zh/firmware/releases/v1.9.4.md": "81a1c04f227b078701ac54692a7bbbf066ba347d21ebcf634012962541387b6f"
+        },
+        "contentSha256": "81a1c04f227b078701ac54692a7bbbf066ba347d21ebcf634012962541387b6f",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/firmware/releases/v1.9.4.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "official-upstream-release": 241,
+          "replaced-by-upstream": 22
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-05",
+      "sourceToken": "EH6wwrgvNiU7aykr7HgclP09nCh",
+      "title": "小智AI聊天机器人面包板DIY硬件清单与接线教程",
+      "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P0",
+      "targetPath": "docs/zh/hardware/breadboard-esp32-s3.md",
+      "rationale": "高流量的核心 DIY 入口，需把板型、供电、引脚和固件身份配对后重写。",
+      "evidence": [
+        {
+          "section": "1.1 开发板；2.1–2.3 接线方案",
+          "finding": "N16R8/N8R2、44/42 引脚板、ML307R/NT26K 和 Simplex/Duplex 混在一篇；不能把不同板型及模块接线互换。",
+          "references": [
+            "FW-BOARD"
+          ],
+          "sourceArticle": "DOC-05"
+        },
+        {
+          "section": "4G 扩展版及 LDO 接线说明",
+          "finding": "正文建议从 LDO 管脚取约 4.7–4.8V，且对 BAT、5V、EN 提供多种接法；依赖具体开发板和通信模块电源电路，需按型号核验，不能推广为通用取电办法。",
+          "references": [
+            "POWER-DEVKIT"
+          ],
+          "sourceArticle": "DOC-05"
+        },
+        {
+          "section": "模块清单、配置与固件引用",
+          "finding": "N8R2 指向旧式 partitions_8M.csv 配置，正文仍含旧版模块固件链接；当前新增板型应使用独立身份和对应构建参数。",
+          "references": [
+            "FW-BOARD"
+          ],
+          "sourceArticle": "DOC-05"
+        }
+      ],
+      "requiredChanges": [
+        "以一套已验证的 S3 基础方案为主教程，列明 BOM、板型修订号和对应固件变体。",
+        "OLED、LCD、摄像头、4G 分为扩展页，避免引脚冲突。",
+        "为供电、PSRAM、Flash、上电前检查和成功标志重画接线图。"
+      ],
+      "publicationChecks": [
+        "硬件工程师复核全部电源路径；按每个支持变体真机复现接线和烧录。",
+        "41 个图片引用尚未逐一目视核验。"
+      ],
+      "relatedArticles": [
+        "DOC-06",
+        "DOC-07",
+        "DOC-10",
+        "DOC-31",
+        "DOC-34",
+        "DOC-35"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计 UV 312038；高覆盖的硬件入口与供电疑点共同使其进入 P0。",
+      "priorityRank": 3,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "AAardHaIXonVMCxOhtTcxWVanEb",
+        "revisionId": 5570,
+        "contentSha256": "98f1d007d36ce704c9691873a812a75b52ec28a9cdfde4b5d58a2aa51e8e5485",
+        "characterCount": 14993,
+        "embeddedReferences": {
+          "images": 41,
+          "sheets": 0,
+          "files": 1
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 515176,
+        "uv": 312038,
+        "pv_today": 36,
+        "uv_today": 23,
+        "timestamp": 1794599412
+      },
+      "notes": "首批 P0 中文已重写并接入导航，等待社区校对。英文仅保留待翻译入口；原始审计依据和源文档指纹不变。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "contentSha256": "b3d79cdee85888bc54ef752b219e9b537c786bb53c909d121a499860405dea3d",
+        "completedChanges": [
+          "固定 N16R8 + INMP441 + MAX98357A + SSD1306 方案与独立屏幕变体。",
+          "按 v2.6.0 重写引脚表，明确单 USB 供电与模块条件，新增信号分组图。"
+        ],
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/hardware/breadboard-esp32-s3.md",
+          "bodyTranslated": false
+        },
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p0-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "P0 中文重写完成，补充版本历史/原素材处置；素材实际采用范围见 media-inventory.json。未将社区确认、硬件或生产检查标记为完成。",
+        "deferredWork": [],
+        "outputPaths": [
+          "docs/zh/hardware/breadboard-esp32-s3.md"
+        ],
+        "outputHashes": {
+          "docs/zh/hardware/breadboard-esp32-s3.md": "b3d79cdee85888bc54ef752b219e9b537c786bb53c909d121a499860405dea3d"
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 41,
+          "replaced-by-upstream": 1
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-06",
+      "sourceToken": "Zq62wST38iuNxZkwg9JcjkSSnSd",
+      "title": "小智AI终端DIY面包板WIFI-LCD彩屏接线教程",
+      "sourceUrl": "https://my.feishu.cn/docx/ZVHUdeeC6orHtDxeafwcoPSYnhe",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P1",
+      "targetPath": "docs/zh/hardware/displays/st7789.md",
+      "rationale": "彩屏接线是独立扩展，不宜与 OLED 或摄像头版拼成一张通用接线图。",
+      "evidence": [
+        {
+          "section": "接线表、固件下载",
+          "finding": "正文给出 SPI 彩屏及音频引脚，附旧固件；其引脚组合与摄像头方案不同。",
+          "references": [],
+          "sourceArticle": "DOC-06"
+        },
+        {
+          "section": "版本要求",
+          "finding": "以固件最低版本和附件说明屏幕支持，缺少当前板型变体、显示驱动及尺寸的对应关系。",
+          "references": [
+            "FW-BOARD"
+          ],
+          "sourceArticle": "DOC-06"
+        }
+      ],
+      "requiredChanges": [
+        "复用 S3 基础 BOM，仅保留 ST7789 的专用接线、分辨率和驱动配置。",
+        "按实际板型生成可核验的固件选择示例，旧附件转版本归档。"
+      ],
+      "publicationChecks": [
+        "核对屏幕尺寸、供电与引脚，真机确认方向、颜色和启动显示。"
+      ],
+      "relatedArticles": [
+        "DOC-05",
+        "DOC-07",
+        "DOC-31"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 22,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "ZVHUdeeC6orHtDxeafwcoPSYnhe",
+        "revisionId": 896,
+        "contentSha256": "4837ffac8a995de9eb573f166582320b0d32b9a98fcd8daa2bcdbdfd8a9bceff",
+        "characterCount": 3906,
+        "embeddedReferences": {
+          "images": 6,
+          "sheets": 0,
+          "files": 2
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 124173,
+        "uv": 79621,
+        "pv_today": 19,
+        "uv_today": 12,
+        "timestamp": 1794599412
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/hardware/displays/st7789.md"
+        ],
+        "outputHashes": {
+          "docs/zh/hardware/displays/st7789.md": "ace6a85fd6055982863e26aba06f5f95f72a187daaf850155a7d289ebdc8b8d2"
+        },
+        "contentSha256": "ace6a85fd6055982863e26aba06f5f95f72a187daaf850155a7d289ebdc8b8d2",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/hardware/displays/st7789.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "retained-local-image": 3,
+          "not-reused": 3,
+          "replaced-by-upstream": 2
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-07",
+      "sourceToken": "HDWdwcVGUi3b3dk0IoycXR6pnOc",
+      "title": "【最新】小智AI面包板带摄像头互动功能接线教程 ",
+      "sourceUrl": "https://my.feishu.cn/docx/XmewdwEQroT3buxKN9GcpEm5nng",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P1",
+      "targetPath": "docs/zh/hardware/breadboard-camera.md",
+      "rationale": "保留摄像头与彩屏组合的独立方案，按当前固件和模块适配重写。",
+      "evidence": [
+        {
+          "section": "LCD、麦克风、功放接线表",
+          "finding": "摄像头方案使用另一套音频与 LCD 引脚，不能直接套用普通面包板和彩屏教程。",
+          "references": [],
+          "sourceArticle": "DOC-07"
+        },
+        {
+          "section": "源码编译、固件下载",
+          "finding": "正文推荐 IDF 5.5.3 并附 v2.2.6 固件，与当前最低 IDF 6.0.1、建议 release/v6.1 的开发基线不符。",
+          "references": [
+            "FW-README"
+          ],
+          "sourceArticle": "DOC-07"
+        },
+        {
+          "section": "摄像头型号说明",
+          "finding": "同时提及 OV3660、OV2640、OV5640，需逐个确认实际板型、驱动和图像识别能力，不能仅从型号列表推定全部可用。",
+          "references": [],
+          "sourceArticle": "DOC-07"
+        }
+      ],
+      "requiredChanges": [
+        "列明已测试的摄像头、LCD、板型修订和固件版本。",
+        "拆分摄像头接线、在线编译参数和识别测试；旧二进制归档。"
+      ],
+      "publicationChecks": [
+        "逐型号实测取图、方向、识别和音频共存，复核全部接线图。"
+      ],
+      "relatedArticles": [
+        "DOC-05",
+        "DOC-06",
+        "DOC-18"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 23,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "XmewdwEQroT3buxKN9GcpEm5nng",
+        "revisionId": 819,
+        "contentSha256": "b342dc11e1a3b5a1fb6ea94cc29d31a6a03903be6600cfd9c0d3bf0371b3342c",
+        "characterCount": 4755,
+        "embeddedReferences": {
+          "images": 6,
+          "sheets": 0,
+          "files": 4
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 14113,
+        "uv": 9803,
+        "pv_today": 14,
+        "uv_today": 10,
+        "timestamp": 1794599413
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/hardware/breadboard-camera.md"
+        ],
+        "outputHashes": {
+          "docs/zh/hardware/breadboard-camera.md": "cccc22f650dcbf6870e312fa556f4906cfe7fc835770b794b91e788bb0258cc8"
+        },
+        "contentSha256": "cccc22f650dcbf6870e312fa556f4906cfe7fc835770b794b91e788bb0258cc8",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/hardware/breadboard-camera.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "retained-local-image": 5,
+          "retained-release": 1,
+          "replaced-by-upstream": 3,
+          "not-reused": 1
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-08",
+      "sourceToken": "Zpz4wXBtdimBrLk25WdcXzxcnNS",
+      "title": "Flash工具/Web端烧录固件（无IDF开发环境）",
+      "sourceUrl": "https://my.feishu.cn/docx/BGHMdtqSGoPrvrxCXrvcCbg0nNc",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P0",
+      "targetPath": "docs/zh/firmware/flashing.md",
+      "rationale": "统一首次烧录与升级路径，纠正浏览器支持和镜像写入方式，防止用户用错固件或覆盖配置。",
+      "evidence": [
+        {
+          "section": "Windows 工具、Web 烧录工具、ESP Launchpad",
+          "finding": "三条分散流程混用 v2.2.4 下载入口与 v1.5.5 示范，缺少统一的芯片、板型、镜像格式检查。",
+          "references": [],
+          "sourceArticle": "DOC-08"
+        },
+        {
+          "section": "浏览器及 USB 接口说明",
+          "finding": "正文把 IE/WebKit 等列入浏览器说明；Web Serial 应以当前官方工具实际支持矩阵为准，不能按普通网页可打开推定能烧录。",
+          "references": [
+            "CON-BUILDER"
+          ],
+          "sourceArticle": "DOC-08"
+        },
+        {
+          "section": "地址 0x0 和固件选择",
+          "finding": "整包地址 0x0 的流程不能泛化到应用镜像。当前 Console 网页烧录按分区写入并跳过 NVS；布局变化仍可能触发重建，不能承诺一概保留配置。",
+          "references": [
+            "CON-BUILDER"
+          ],
+          "sourceArticle": "DOC-08"
+        },
+        {
+          "section": "内嵌板型/固件表",
+          "finding": "内嵌表格正文未展开；读取其单元格时缺少 sheets:spreadsheet:read 权限，本次未核验表格内容。",
+          "references": [],
+          "sourceArticle": "DOC-08"
+        }
+      ],
+      "requiredChanges": [
+        "以官方在线编译/烧录为主，保留明确版本的离线工具路径。",
+        "区分合并镜像、应用镜像、分区升级及 NVS 影响；为 USB/UART/BOOT 给出板型说明。",
+        "补充连接成功、烧录成功、首次启动检查及失败排查。"
+      ],
+      "publicationChecks": [
+        "补读内嵌表格并核对固件映射。",
+        "用 Windows/macOS 及支持的 Chromium 浏览器复现；验证首次烧录与保留配置升级。"
+      ],
+      "relatedArticles": [
+        "DOC-02",
+        "DOC-03",
+        "DOC-09",
+        "DOC-18",
+        "DOC-23"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计 UV 330540，核心入口且存在版本和写入方式混用，优先重构。",
+      "priorityRank": 4,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "BGHMdtqSGoPrvrxCXrvcCbg0nNc",
+        "revisionId": 5328,
+        "contentSha256": "a3538952c783149db425422f1d9321d594e349de01d7f8578d98bb2792071d62",
+        "characterCount": 9012,
+        "embeddedReferences": {
+          "images": 31,
+          "sheets": 1,
+          "files": 1
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "blocked-by-scope",
+          "missingScope": "sheets:spreadsheet:read",
+          "unreadSheetCount": 1
+        }
+      },
+      "traffic": {
+        "pv": 512004,
+        "uv": 330540,
+        "pv_today": 43,
+        "uv_today": 30,
+        "timestamp": 1794599414
+      },
+      "notes": "首批 P0 中文已重写并接入导航，等待社区校对。英文仅保留待翻译入口；原始审计依据和源文档指纹不变。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "contentSha256": "2732ba5f34f215b07d6c1b6b79811317779464c6e31eef4385db6cb70852b9a2",
+        "completedChanges": [
+          "统一网页与离线烧录，区分完整、应用与多文件镜像。",
+          "解释 Console 跳过 NVS 的范围及跨布局例外；给出 esptool 5.x 语法。"
+        ],
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/firmware/flashing.md",
+          "bodyTranslated": false
+        },
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p0-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "P0 中文重写完成，补充版本历史/原素材处置；素材实际采用范围见 media-inventory.json。未将社区确认、硬件或生产检查标记为完成。",
+        "deferredWork": [],
+        "outputPaths": [
+          "docs/zh/firmware/flashing.md"
+        ],
+        "outputHashes": {
+          "docs/zh/firmware/flashing.md": "2732ba5f34f215b07d6c1b6b79811317779464c6e31eef4385db6cb70852b9a2"
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "replaced": 1,
+          "not-reused": 31
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-09",
+      "sourceToken": "KGvIwjTQxiTxPCkRbbjcPnsLnMb",
+      "title": "配置设备 Wi-Fi 和添加设备及信号问题",
+      "sourceUrl": "https://my.feishu.cn/docx/LuPkd5EovourPjxRmItcEQSfnWc",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P0",
+      "targetPath": "docs/zh/getting-started/wifi-and-binding.md",
+      "rationale": "配网与设备绑定应形成最短闭环；信号、电源和指示灯问题分到排障页。",
+      "evidence": [
+        {
+          "section": "进入配网模式、添加设备",
+          "finding": "正文仍按 v0.2.2/v0.3.1 描述按钮操作和热点流程，未覆盖现有可选 BluFi 配网。按钮行为也依板型而变。",
+          "references": [
+            "FW-BLUFI",
+            "CON-AUTH"
+          ],
+          "sourceArticle": "DOC-09"
+        },
+        {
+          "section": "信号问题与指示灯颜色",
+          "finding": "将绕天线线圈、触摸天线等经验操作作为修复建议，未给出射频验证；单颗 RGB 的颜色也不能代表所有当前板型。",
+          "references": [],
+          "sourceArticle": "DOC-09"
+        },
+        {
+          "section": "Wi-Fi 适用范围",
+          "finding": "旧版的重试次数和频段描述需要限定硬件与固件；不能把一款开发板的行为写成全平台规则。",
+          "references": [
+            "FW-BOARD"
+          ],
+          "sourceArticle": "DOC-09"
+        }
+      ],
+      "requiredChanges": [
+        "按热点/BluFi 分支写进入配网、联网、获取激活码、绑定及成功标志。",
+        "将网络排查拆页；移除未经验证的天线改造建议。",
+        "按实际板型说明按键、指示灯和重配网方式。"
+      ],
+      "publicationChecks": [
+        "实测两种配网方式、重新配网、绑定失败和已绑定设备处理。"
+      ],
+      "relatedArticles": [
+        "DOC-08",
+        "DOC-15",
+        "DOC-16",
+        "DOC-29"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计 UV 114743；配网与绑定是新用户必经路径。",
+      "priorityRank": 6,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "LuPkd5EovourPjxRmItcEQSfnWc",
+        "revisionId": 2291,
+        "contentSha256": "c1434865c9d4fe6d973bfcc25758793a77f9d8b1d05049103591f953ffb4e958",
+        "characterCount": 4266,
+        "embeddedReferences": {
+          "images": 13,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 160981,
+        "uv": 114743,
+        "pv_today": 7,
+        "uv_today": 4,
+        "timestamp": 1794599414
+      },
+      "notes": "首批 P0 中文已重写并接入导航，等待社区校对。英文仅保留待翻译入口；原始审计依据和源文档指纹不变。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "contentSha256": "74227c69310fe1cfbb877fce9d7afedaae979b3d179739f0aad29f4b4e11a945",
+        "completedChanges": [
+          "分开热点与 BluFi，按当前六位设备码、控制台添加设备流程重写。",
+          "区分下载模式和重新配网，取消绕线/触摸天线的维修建议。"
+        ],
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/getting-started/wifi-and-binding.md",
+          "bodyTranslated": false
+        },
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p0-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "P0 中文重写完成，补充版本历史/原素材处置；素材实际采用范围见 media-inventory.json。未将社区确认、硬件或生产检查标记为完成。",
+        "deferredWork": [],
+        "outputPaths": [
+          "docs/zh/getting-started/wifi-and-binding.md"
+        ],
+        "outputHashes": {
+          "docs/zh/getting-started/wifi-and-binding.md": "74227c69310fe1cfbb877fce9d7afedaae979b3d179739f0aad29f4b4e11a945"
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 13
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-10",
+      "sourceToken": "TdBIw5e0GiORQSkVuvmc74jandh",
+      "title": "小智AI ESP32S3开发板+面包板DIY模块购买说明",
+      "sourceUrl": "https://my.feishu.cn/docx/HkxhdV5E9ovMIfxBOJbcXfVOnPg",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "merge",
+      "priority": "P1",
+      "targetPath": "docs/zh/hardware/choosing-hardware.md",
+      "rationale": "把选型价值合入统一 BOM/采购指南，淘汰固定价格和笼统兼容性承诺。",
+      "evidence": [
+        {
+          "section": "模块购买说明",
+          "finding": "与面包板主教程重复推荐开发板、麦克风、功放、屏幕和商家，固定价格不能长期维护。",
+          "references": [],
+          "sourceArticle": "DOC-10"
+        },
+        {
+          "section": "MAX98357 型号说明",
+          "finding": "原文称 A/B 都通用；制造商说明 MAX98357A 接受 I2S、MAX98357B 接受左对齐数据，不能在固定 I2S 配置下直接当作同一器件。",
+          "references": [
+            "AUDIO-MAX98357"
+          ],
+          "sourceArticle": "DOC-10"
+        }
+      ],
+      "requiredChanges": [
+        "合并为型号、接口、电压、Flash/PSRAM、替代件与验收清单。",
+        "明确 MAX98357A/B 数据格式差异；商业渠道作为可替换附录。"
+      ],
+      "publicationChecks": [
+        "核对替代件资料和实际样品，删除过期价格及未经证实的质量断言。"
+      ],
+      "relatedArticles": [
+        "DOC-05",
+        "DOC-11",
+        "DOC-31",
+        "DOC-35"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 31,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "HkxhdV5E9ovMIfxBOJbcXfVOnPg",
+        "revisionId": 100,
+        "contentSha256": "ac169a94727ca11125cdb855e3da7ec1197f55196ad3d36daed4988ec6bfe759",
+        "characterCount": 4301,
+        "embeddedReferences": {
+          "images": 15,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 62136,
+        "uv": 50113,
+        "pv_today": 3,
+        "uv_today": 3,
+        "timestamp": 1794599415
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/hardware/choosing-hardware.md"
+        ],
+        "outputHashes": {
+          "docs/zh/hardware/choosing-hardware.md": "d0651971eafec09debb6be004fb4ac38f83bd8031aeeb579d1174c53144ed81c"
+        },
+        "contentSha256": "d0651971eafec09debb6be004fb4ac38f83bd8031aeeb579d1174c53144ed81c",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/hardware/choosing-hardware.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 12,
+          "retained-local-image": 3
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-11",
+      "sourceToken": "IgzPwOoSFifXqZku0UkcQCBWn3f",
+      "title": "AI类产品乐鑫设计参考以及要求",
+      "sourceUrl": "https://icnynnzcwou8.feishu.cn/docx/KCotdF4KgocDm0xqXcycBtGLnWe",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "retain",
+      "priority": "P2",
+      "targetPath": "docs/zh/hardware/design-guidelines.md",
+      "rationale": "声学、结构、电源和测试的系统性设计参考具有独立价值，保留并补齐版本及适用范围。",
+      "evidence": [
+        {
+          "section": "麦克风、音频、结构与测试建议",
+          "finding": "正文覆盖灵敏度、信噪比、电源噪声、声学结构及测试方法，不是重复安装步骤。",
+          "references": [],
+          "sourceArticle": "DOC-11"
+        },
+        {
+          "section": "芯片/SDK 建议及 AEC",
+          "finding": "面向产品设计，混有厂商方案、芯片和开发框架建议；应保留资料来源和版本，不直接改写为所有小智设备的硬性规格。",
+          "references": [
+            "FW-AEC"
+          ],
+          "sourceArticle": "DOC-11"
+        }
+      ],
+      "requiredChanges": [
+        "按声学、电源、结构、量产测试整理，保留厂商来源和文档日期。",
+        "把具体数值写清前提；链接现行固件的 AEC 能力说明。"
+      ],
+      "publicationChecks": [
+        "设计负责人确认数值、厂商署名与可转载范围，复核唯一图片。"
+      ],
+      "relatedArticles": [
+        "DOC-05",
+        "DOC-21",
+        "DOC-34",
+        "DOC-35"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 34,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "KCotdF4KgocDm0xqXcycBtGLnWe",
+        "revisionId": 217,
+        "contentSha256": "71fdf43a188a873e542b7aaf600af5396a4352623bd411e140e16a7e65044415",
+        "characterCount": 4279,
+        "embeddedReferences": {
+          "images": 1,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 34512,
+        "uv": 28666,
+        "pv_today": 3,
+        "uv_today": 3,
+        "timestamp": 1794599416
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/hardware/design-guidelines.md"
+        ],
+        "outputHashes": {
+          "docs/zh/hardware/design-guidelines.md": "140e18aae18b26b5909c643bc203526bd0ea6dda0d9f9368e57ef42863dda5d6"
+        },
+        "contentSha256": "140e18aae18b26b5909c643bc203526bd0ea6dda0d9f9368e57ef42863dda5d6",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/hardware/design-guidelines.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "retained-local-image": 1
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-12",
+      "sourceToken": "PovjwxG8tiEDrVkybstcqOz0nzf",
+      "title": "ESP32-C3小智AI终端面包板DIY硬件接线教程",
+      "sourceUrl": "https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P1",
+      "targetPath": "docs/zh/hardware/breadboard-esp32-c3.md",
+      "rationale": "保留 C3 低成本方案，但必须突出具体编解码器和板型，重写固件与能力边界。",
+      "evidence": [
+        {
+          "section": "硬件与接线",
+          "finding": "实际方案是 C3-N16-SF 搭配 ES8311/NS4150、参考 Xmini 的接法，不是任意 C3 加数字功放都适用。",
+          "references": [],
+          "sourceArticle": "DOC-12"
+        },
+        {
+          "section": "功能限制和固件",
+          "finding": "正文仍列 v1.9.4/v2.0.5 等固件并称 C3 无 4G；当前 Kconfig 已有 Xmini-C3-4G 变体，限制不能概括为芯片平台不支持。",
+          "references": [
+            "FW-BOARD",
+            "FW-WAKE"
+          ],
+          "sourceArticle": "DOC-12"
+        }
+      ],
+      "requiredChanges": [
+        "把芯片、板型、音频编解码器和精确引脚列为前置条件。",
+        "更新可用固件变体，保留 I2C 连线等实用排障，旧二进制归档。"
+      ],
+      "publicationChecks": [
+        "用指定硬件复现音频、显示、配网及固件匹配。"
+      ],
+      "relatedArticles": [
+        "DOC-13",
+        "DOC-22",
+        "DOC-29"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 24,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "OnVIdPkTHoktJVxJ16ccanFfn8d",
+        "revisionId": 2421,
+        "contentSha256": "5bedaa09d3f1b9e2d2106e8ec6b9d1243b8a9ccc6d50921b8934245aceb63f5c",
+        "characterCount": 10820,
+        "embeddedReferences": {
+          "images": 18,
+          "sheets": 0,
+          "files": 2
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 46112,
+        "uv": 36486,
+        "pv_today": 11,
+        "uv_today": 11,
+        "timestamp": 1794599417
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/hardware/breadboard-esp32-c3.md"
+        ],
+        "outputHashes": {
+          "docs/zh/hardware/breadboard-esp32-c3.md": "225a5e971837905db4557be1db640e09fb94db1be94c915e57c2d4cb8094944b"
+        },
+        "contentSha256": "225a5e971837905db4557be1db640e09fb94db1be94c915e57c2d4cb8094944b",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/hardware/breadboard-esp32-c3.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "retained-local-image": 4,
+          "not-reused": 14,
+          "replaced-by-upstream": 1,
+          "official-upstream-release": 1
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-13",
+      "sourceToken": "CmZxwV17miwpYHk46ZpcXutOnJ8",
+      "title": "ESP32面包板-小智AI 制作说明",
+      "sourceUrl": "https://hcngjtwigghb.feishu.cn/docx/SUGIdaS8goGGSTx5bTCcrUZ6njh",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P2",
+      "targetPath": "docs/zh/hardware/breadboard-esp32.md",
+      "rationale": "经典 ESP32 仍有独立硬件价值；整理为明确资源限制的方案，而不是按发布时间归档。",
+      "evidence": [
+        {
+          "section": "平台与资源条件",
+          "finding": "正文限定 4MB、无 PSRAM 的 ESP32，并给出专用 I2S、OLED 和外接 ASR 引脚；与 S3/C3 方案不能混用。",
+          "references": [],
+          "sourceArticle": "DOC-13"
+        },
+        {
+          "section": "固件获取、4G 与后续补充",
+          "finding": "部分二进制依赖群文件，商业产品和后续尝试混入主流程；需要可重复获取的版本和来源。",
+          "references": [
+            "FW-BOARD",
+            "FW-WAKE"
+          ],
+          "sourceArticle": "DOC-13"
+        }
+      ],
+      "requiredChanges": [
+        "明确该方案的内存、功能限制和已测固件，拆出外接唤醒模块。",
+        "改为可公开追溯的源码/Release；商业和试验补充移到社区案例。"
+      ],
+      "publicationChecks": [
+        "核对板型与完整接线图，实测所承诺功能，不将 PSRAM 可选能力套到此板。"
+      ],
+      "relatedArticles": [
+        "DOC-12",
+        "DOC-32",
+        "DOC-37"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 35,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "SUGIdaS8goGGSTx5bTCcrUZ6njh",
+        "revisionId": 2226,
+        "contentSha256": "07ed3fa9b9e99a84b04766f4da6c60cde55eabd7d5585ab4acdc0a483fed06d0",
+        "characterCount": 6913,
+        "embeddedReferences": {
+          "images": 34,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 71496,
+        "uv": 54214,
+        "pv_today": 14,
+        "uv_today": 13,
+        "timestamp": 1794599418
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/hardware/breadboard-esp32.md"
+        ],
+        "outputHashes": {
+          "docs/zh/hardware/breadboard-esp32.md": "438ef178eebc7d06270a69c8132c2591d90556976a8940df49a7a9c04523f4c7"
+        },
+        "contentSha256": "438ef178eebc7d06270a69c8132c2591d90556976a8940df49a7a9c04523f4c7",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/hardware/breadboard-esp32.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 31,
+          "retained-local-image": 3
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-14",
+      "sourceToken": "Kxw3wBk0EiepeQkOHpncWTOrn4r",
+      "title": "小智AI声音复刻（公测）控制台操作指引",
+      "sourceUrl": "https://my.feishu.cn/docx/QjFsdHSNjosfr6xWziWcVCnunBh",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P1",
+      "targetPath": "docs/zh/console/voice-cloning.md",
+      "rationale": "当前声音复刻交互和前置条件已有变化，需要完整重写。",
+      "evidence": [
+        {
+          "section": "录音要求",
+          "finding": "原文一处写 8–30 秒，另一处写 8–60 秒；当前前端校验 8–60 秒，并支持先截取不超过 50MB 的上传音频。",
+          "references": [
+            "CON-VOICE"
+          ],
+          "sourceArticle": "DOC-14"
+        },
+        {
+          "section": "公测购买、操作及常见问题",
+          "finding": "固定“99/年、8次”等公测说明、等待时间和移动端待补充，不能代替当前计费与训练状态；当前代码还有实名认证、多语言与风格选择。",
+          "references": [
+            "CON-VOICE"
+          ],
+          "sourceArticle": "DOC-14"
+        }
+      ],
+      "requiredChanges": [
+        "按实名认证、购买、录音/上传、语言与风格、提交、状态和选用音色组织。",
+        "收费、额度、退款和失败重试以当前服务页面/运营确认信息为准。"
+      ],
+      "publicationChecks": [
+        "核对线上实名、年龄和计费规则；桌面与手机完成一轮受控训练测试。"
+      ],
+      "relatedArticles": [
+        "DOC-01",
+        "DOC-16"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 18,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "QjFsdHSNjosfr6xWziWcVCnunBh",
+        "revisionId": 1941,
+        "contentSha256": "157e0e357ef924507650fd61137c947c9926fd66ce6cf91c2c43193a5fe00af3",
+        "characterCount": 3720,
+        "embeddedReferences": {
+          "images": 17,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 113809,
+        "uv": 95299,
+        "pv_today": 35,
+        "uv_today": 26,
+        "timestamp": 1794599418
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/console/voice-cloning.md"
+        ],
+        "outputHashes": {
+          "docs/zh/console/voice-cloning.md": "1980911eb858298e41da270d9cada70489d479241e4093abd217123bcffa870f"
+        },
+        "contentSha256": "1980911eb858298e41da270d9cada70489d479241e4093abd217123bcffa870f",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/console/voice-cloning.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 15,
+          "retained-local-image": 2
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-15",
+      "sourceToken": "JiQowaSe1itt07kyVvZcHFcQnee",
+      "title": "小智AI聊天机器人常见问题Q&A【先看】",
+      "sourceUrl": "https://my.feishu.cn/docx/F0L2dBZFOobBUVxzWRDcL0i8n2K",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P0",
+      "targetPath": "docs/zh/faq/index.md",
+      "rationale": "保留故障问题索引，按症状拆分并以现行教程为唯一操作来源，清除互相矛盾的旧规则。",
+      "evidence": [
+        {
+          "section": "开发环境、配网和功能限制问题",
+          "finding": "仍含 v0.9.7、IDF 5.3 系列说明，不能指导当前 IDF 6 开发。",
+          "references": [
+            "FW-README"
+          ],
+          "sourceArticle": "DOC-15"
+        },
+        {
+          "section": "自定义唤醒词、蓝牙",
+          "finding": "原文对自定义唤醒词及蓝牙用途的限制已不完整；当前存在自定义唤醒配置和 BluFi 配网。",
+          "references": [
+            "FW-WAKE",
+            "FW-BLUFI"
+          ],
+          "sourceArticle": "DOC-15"
+        },
+        {
+          "section": "Wi-Fi 记忆及综合问答",
+          "finding": "“只保留最后一次 Wi-Fi”与 Xmini 教程的多网络说法不一致；需要按具体版本和实现复核，不能照搬任何一方。",
+          "references": [],
+          "sourceArticle": "DOC-15"
+        }
+      ],
+      "requiredChanges": [
+        "分为联网/绑定、烧录、音频、屏幕和开发环境等症状入口。",
+        "每个问题提供判断步骤、可观测结果和对应主教程链接。",
+        "删除固定模型价格、已过时功能限制和重复长步骤。"
+      ],
+      "publicationChecks": [
+        "逐项与新主教程交叉核对；对仍保留的故障解决步骤进行复现。"
+      ],
+      "relatedArticles": [
+        "DOC-08",
+        "DOC-09",
+        "DOC-16",
+        "DOC-19",
+        "DOC-21",
+        "DOC-22",
+        "DOC-23",
+        "DOC-29"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计 UV 118636，高流量旧限制会放大误导。",
+      "priorityRank": 8,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "F0L2dBZFOobBUVxzWRDcL0i8n2K",
+        "revisionId": 8001,
+        "contentSha256": "d539496abc706a0ed09251d4a15e2e5a2a40994aba4133660286734dc417359f",
+        "characterCount": 12517,
+        "embeddedReferences": {
+          "images": 9,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 159446,
+        "uv": 118636,
+        "pv_today": 12,
+        "uv_today": 10,
+        "timestamp": 1794599419
+      },
+      "notes": "首批 P0 中文已重写并接入导航，等待社区校对。英文仅保留待翻译入口；原始审计依据和源文档指纹不变。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "contentSha256": "f6f53ccdbff2e88adac99207e7311f8f765e2977bed23eb65ec39bffa2474616",
+        "completedChanges": [
+          "按症状建立八类排障路径，链接唯一操作教程。",
+          "纠正旧唤醒/蓝牙/SDK 结论，补日志与反馈所需信息。"
+        ],
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/faq/index.md",
+          "bodyTranslated": false
+        },
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p0-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "P0 中文重写完成，补充版本历史/原素材处置；素材实际采用范围见 media-inventory.json。未将社区确认、硬件或生产检查标记为完成。",
+        "deferredWork": [],
+        "outputPaths": [
+          "docs/zh/faq/index.md"
+        ],
+        "outputHashes": {
+          "docs/zh/faq/index.md": "f6f53ccdbff2e88adac99207e7311f8f765e2977bed23eb65ec39bffa2474616"
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 9
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-16",
+      "sourceToken": "IJmWwu841isfAWkz1dEcrJjznof",
+      "title": "无法接收手机验证码、忘记密码或解绑设备",
+      "sourceUrl": "https://my.feishu.cn/docx/J4Mkdj0A6o295sxwLKycS9urn7b",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P1",
+      "targetPath": "docs/zh/faq/account-and-binding.md",
+      "rationale": "账户和解绑是高需求支持内容，需要按账号地区、登录方式及设备归属拆分。",
+      "evidence": [
+        {
+          "section": "收不到验证码",
+          "finding": "原文按手机号验证码登录排查国际用户，当前代码对非 +86 未注册号码引导 Google 登录，不能一律建议继续等短信。",
+          "references": [
+            "CON-AUTH"
+          ],
+          "sourceArticle": "DOC-16"
+        },
+        {
+          "section": "忘记密码、设备解绑及批量表格",
+          "finding": "把密码找回、自己解绑和由支持人员处理已绑定设备混在一起，且要求提交设备标识/表格；需要明确各自条件、官方渠道和最少必要资料。",
+          "references": [],
+          "sourceArticle": "DOC-16"
+        }
+      ],
+      "requiredChanges": [
+        "按大陆手机号、已有国际手机号和 Google 登录提供不同排查。",
+        "区分自主解绑和设备归属争议，确认支持渠道、材料与响应预期。",
+        "批量处理移到面向商家/维护者的独立说明。"
+      ],
+      "publicationChecks": [
+        "与支持团队核对找回和解绑政策；本次未核验两个附件表格的实际字段。"
+      ],
+      "relatedArticles": [
+        "DOC-01",
+        "DOC-09",
+        "DOC-14",
+        "DOC-15"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 16,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "J4Mkdj0A6o295sxwLKycS9urn7b",
+        "revisionId": 642,
+        "contentSha256": "daab1b352abc7ad670e1db427128577561b61c36df195d3519369cfe7c7fd8db",
+        "characterCount": 1361,
+        "embeddedReferences": {
+          "images": 1,
+          "sheets": 0,
+          "files": 2
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 61746,
+        "uv": 54789,
+        "pv_today": 78,
+        "uv_today": 73,
+        "timestamp": 1794599420
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/faq/account-and-binding.md"
+        ],
+        "outputHashes": {
+          "docs/zh/faq/account-and-binding.md": "219722a8f579b11f1c6c7c7ee3b5d350216ce260022a17d4e0b221ee1386e965"
+        },
+        "contentSha256": "219722a8f579b11f1c6c7c7ee3b5d350216ce260022a17d4e0b221ee1386e965",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/faq/account-and-binding.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "replaced": 2,
+          "not-reused": 1
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-17",
+      "sourceToken": "QS5ewZHh0iOEI0kdbjncmtY1nFg",
+      "title": "小智知识库使用说明",
+      "sourceUrl": "https://my.feishu.cn/docx/OimhdJxseowewZx3qKyc4qOOnPb",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P1",
+      "targetPath": "docs/zh/console/knowledge-base.md",
+      "rationale": "补齐解析、分块、测试及智能体关联闭环，修正一刀切的配额描述。",
+      "evidence": [
+        {
+          "section": "知识库/文档数量限制",
+          "finding": "原文按单个知识库、单篇文档说明；当前服务按用户角色区分 1/10 的知识库及文档上限，不能概括为所有账号只能 1/1。",
+          "references": [
+            "CON-KB"
+          ],
+          "sourceArticle": "DOC-17"
+        },
+        {
+          "section": "创建、上传、启用",
+          "finding": "主要用旧 MCP 选择/保存界面说明关联；当前模块还支持解析状态、分块编辑、召回测试与智能体关联，正文缺少验证结果的方法。",
+          "references": [
+            "CON-KB"
+          ],
+          "sourceArticle": "DOC-17"
+        }
+      ],
+      "requiredChanges": [
+        "按创建、上传、解析、检查分块、召回测试、关联智能体及验证回答组织。",
+        "配额按当前账号展示说明，区分用户库和商家开发者资料。"
+      ],
+      "publicationChecks": [
+        "用普通与 GitHub 认证账号核对配额和关联方式；复核 8 张截图及视频。"
+      ],
+      "relatedArticles": [
+        "DOC-01",
+        "DOC-24"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 19,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "OimhdJxseowewZx3qKyc4qOOnPb",
+        "revisionId": 682,
+        "contentSha256": "79c68e4f955a682710e4602bf686441c977546e9f38cc74c0e53cfe3f3d0c9e9",
+        "characterCount": 1363,
+        "embeddedReferences": {
+          "images": 8,
+          "sheets": 0,
+          "files": 1
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 119997,
+        "uv": 96174,
+        "pv_today": 5,
+        "uv_today": 3,
+        "timestamp": 1794599420
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/console/knowledge-base.md"
+        ],
+        "outputHashes": {
+          "docs/zh/console/knowledge-base.md": "10ba4551e2fda626ecf553a2273769d99ed65838c246bc4a0c9afacc44d07c07"
+        },
+        "contentSha256": "10ba4551e2fda626ecf553a2273769d99ed65838c246bc4a0c9afacc44d07c07",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/console/knowledge-base.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 7,
+          "retained-local-image": 1,
+          "retained-release": 1
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-18",
+      "sourceToken": "MUIdwr3IUiMkngkmhPUcRnThndb",
+      "title": "小智AI 固件在线编译固件功能操作教程文档",
+      "sourceUrl": "https://my.feishu.cn/docx/XS2pdC1IQoRANfx3k8ycYInsn1d",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P0",
+      "targetPath": "docs/zh/firmware/online-builder.md",
+      "rationale": "应成为无需安装 SDK 的默认入口；按当前逐板选项与保留 NVS 的烧录行为重写。",
+      "evidence": [
+        {
+          "section": "登录与菜单入口",
+          "finding": "原文默认手机号即可注册、从右上角菜单进入；当前 Console 有专用路由，国际新用户登录条件也已变化。",
+          "references": [
+            "CON-AUTH",
+            "CON-BUILDER"
+          ],
+          "sourceArticle": "DOC-18"
+        },
+        {
+          "section": "基础配置、显示、摄像头、AEC",
+          "finding": "原文平铺各类选项，未充分说明参数由所选板型及构建目录决定；当前实现为逐板 buildOptions 和源码 Commit 原子快照。",
+          "references": [
+            "CON-BUILDER"
+          ],
+          "sourceArticle": "DOC-18"
+        },
+        {
+          "section": "编译限额、烧录",
+          "finding": "每日 10 次是当前可配置默认值，不是永久承诺；网页烧录跳过 NVS 分区，但新旧布局变化仍可能重建 NVS，需说明适用边界。",
+          "references": [
+            "CON-BUILDER"
+          ],
+          "sourceArticle": "DOC-18"
+        }
+      ],
+      "requiredChanges": [
+        "入口改为固件在线编译，展示板型、变体、语言、唤醒及该板支持的参数。",
+        "覆盖排队、取消、成功、失败、下载与浏览器烧录；给出源码版本追溯方法。",
+        "把配额写为当前页面显示值，明确烧录数据影响及限制。"
+      ],
+      "publicationChecks": [
+        "选取两种不同芯片/板型完成编译和网页烧录；验证 NVS 同布局保留及跨布局行为。"
+      ],
+      "relatedArticles": [
+        "DOC-02",
+        "DOC-08",
+        "DOC-19",
+        "DOC-22",
+        "DOC-31"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计 UV 3769，但这是新用户免开发环境的核心入口，按流程价值列为 P0。",
+      "priorityRank": 7,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "XS2pdC1IQoRANfx3k8ycYInsn1d",
+        "revisionId": 1152,
+        "contentSha256": "81084819db65b2efa0df791a5ff09eb60cec7f424a3650e962046ae239082813",
+        "characterCount": 2587,
+        "embeddedReferences": {
+          "images": 13,
+          "sheets": 0,
+          "files": 1
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 4676,
+        "uv": 3769,
+        "pv_today": 7,
+        "uv_today": 6,
+        "timestamp": 1794599421
+      },
+      "notes": "首批 P0 中文已重写并接入导航，等待社区校对。英文仅保留待翻译入口；原始审计依据和源文档指纹不变。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "contentSha256": "a214c7c56d1ad6cb294791c47d67ffdab6fbc5aa4bd920f03aed048eb6b086f3",
+        "completedChanges": [
+          "使用当前专用编译入口，解释逐板选项和源码版本。",
+          "覆盖创建、取消、失败、下载及网页烧录，配额以页面为准。"
+        ],
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/firmware/online-builder.md",
+          "bodyTranslated": false
+        },
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p0-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "P0 中文重写完成，补充版本历史/原素材处置；素材实际采用范围见 media-inventory.json。未将社区确认、硬件或生产检查标记为完成。",
+        "deferredWork": [],
+        "outputPaths": [
+          "docs/zh/firmware/online-builder.md"
+        ],
+        "outputHashes": {
+          "docs/zh/firmware/online-builder.md": "a214c7c56d1ad6cb294791c47d67ffdab6fbc5aa4bd920f03aed048eb6b086f3"
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 13,
+          "retained-release": 1
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-19",
+      "sourceToken": "JEYDwTTALi5s2zkGlFGcDiRknXf",
+      "title": "Windows搭建 ESP IDF开发环境&编译小智",
+      "sourceUrl": "https://icnynnzcwou8.feishu.cn/docx/X1zpdZk9goqOL5x44ayceYwEnNP",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P0",
+      "targetPath": "docs/zh/development/build-firmware.md",
+      "rationale": "当前搭建流程内含互相冲突的 SDK 和旧版回退步骤，需要用单一可复现的版本基线重写。",
+      "evidence": [
+        {
+          "section": "SDK 版本、Windows 环境搭建",
+          "finding": "篇首已有 IDF 6 提示，后文仍按 IDF 5.5 等版本操作；现行 README 要求最低 6.0.1 并建议 release/v6.1 分支。",
+          "references": [
+            "FW-README"
+          ],
+          "sourceArticle": "DOC-19"
+        },
+        {
+          "section": "修改服务地址、编译示例",
+          "finding": "仍建议检出 v1.6.0 后改地址，不能作为当前固件的通用改法。",
+          "references": [
+            "FW-README",
+            "FW-BOARD"
+          ],
+          "sourceArticle": "DOC-19"
+        },
+        {
+          "section": "安装/编译问题处理",
+          "finding": "包含关闭或卸载安全软件等笼统建议；应先定位具体报错、路径、依赖和隔离记录，避免作为默认安装步骤。",
+          "references": [],
+          "sourceArticle": "DOC-19"
+        }
+      ],
+      "requiredChanges": [
+        "用受支持固件 tag、明确 SDK 分支/提交和 submodule 流程建立可复现指南。",
+        "以当前构建脚本/官方仓库为准，按 Windows/macOS/Linux 提供入口。",
+        "AEC、唤醒和自定义板型移至专页，构建页只保留链接。"
+      ],
+      "publicationChecks": [
+        "在干净环境完成构建、烧录、运行与版本核验；不要仅验证命令能复制。"
+      ],
+      "relatedArticles": [
+        "DOC-18",
+        "DOC-20",
+        "DOC-21",
+        "DOC-22",
+        "DOC-23"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计 UV 146517；SDK 与源码版本混用会阻塞整个开发路径。",
+      "priorityRank": 10,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "X1zpdZk9goqOL5x44ayceYwEnNP",
+        "revisionId": 1681,
+        "contentSha256": "fdc307955ac08147dc2f92fe2665c021dadbd233d749a54ba069a0096b73feaa",
+        "characterCount": 7721,
+        "embeddedReferences": {
+          "images": 60,
+          "sheets": 0,
+          "files": 2
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 277327,
+        "uv": 146517,
+        "pv_today": 10,
+        "uv_today": 7,
+        "timestamp": 1794599422
+      },
+      "notes": "首批 P0 中文已重写并接入导航，等待社区校对。英文仅保留待翻译入口；原始审计依据和源文档指纹不变。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "contentSha256": "9d24d5f6c19e815fe4980d9dd21e414446b6ab7348ecd0f62ca9f6a5d1660da8",
+        "completedChanges": [
+          "使用 v2.6.0 与 release/v6.1 基线，给跨平台 SDK 环境和构建路径。",
+          "补构建变体、产物、串口日志、SDK 切换和 Windows response file。"
+        ],
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/development/build-firmware.md",
+          "bodyTranslated": false
+        },
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p0-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "P0 中文重写完成，补充版本历史/原素材处置；素材实际采用范围见 media-inventory.json。未将社区确认、硬件或生产检查标记为完成。",
+        "deferredWork": [],
+        "outputPaths": [
+          "docs/zh/development/build-firmware.md"
+        ],
+        "outputHashes": {
+          "docs/zh/development/build-firmware.md": "9d24d5f6c19e815fe4980d9dd21e414446b6ab7348ecd0f62ca9f6a5d1660da8"
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 60,
+          "replaced": 2
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-20",
+      "sourceToken": "UwaJwcJQwiuZVtk5QCfcrkS2nmf",
+      "title": "小智AI终端开源项目配置修改等操作指引（一）",
+      "sourceUrl": "https://my.feishu.cn/docx/L04VdXyDxoB4IyxCnuGce9nTncf",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P0",
+      "targetPath": "docs/zh/development/custom-board.md",
+      "rationale": "用独立板型身份和版本化分区说明替代直接修改现有板型及删除 OTA 分区的通用操作。",
+      "evidence": [
+        {
+          "section": "开发环境及配置",
+          "finding": "原文仍围绕 IDF 5.3.2/v0.9.7，修改路径与当前仓库结构不一致。",
+          "references": [
+            "FW-README",
+            "FW-BOARD"
+          ],
+          "sourceArticle": "DOC-20"
+        },
+        {
+          "section": "引脚 config.h 修改",
+          "finding": "把现有板型作为改引脚入口；现行官方开发指南明确要求新板型或独立构建变体，避免 OTA 把自定义接线更新成原板固件。",
+          "references": [
+            "FW-BOARD"
+          ],
+          "sourceArticle": "DOC-20"
+        },
+        {
+          "section": "Flash/分区调整",
+          "finding": "旧 partitions_8M.csv 及删除 OTA 分区的指导需要限定历史布局；不能直接套到现行合并镜像与资源布局。",
+          "references": [
+            "FW-BOARD",
+            "FW-OTA"
+          ],
+          "sourceArticle": "DOC-20"
+        }
+      ],
+      "requiredChanges": [
+        "把选择配置、创建独立变体、引脚定义、资源和构建身份分开说明。",
+        "分区调整另设专题，使用明确版本的分区表；连接固件仓库的权威技术文档。"
+      ],
+      "publicationChecks": [
+        "核验板型身份上报、OTA 匹配、分区升级与回退；用独立测试板复现。"
+      ],
+      "relatedArticles": [
+        "DOC-05",
+        "DOC-19",
+        "DOC-33",
+        "DOC-40"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 11,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "L04VdXyDxoB4IyxCnuGce9nTncf",
+        "revisionId": 2795,
+        "contentSha256": "b59616628880f45eb476dac962db33ac7cc0dee839d577b12132463722375787",
+        "characterCount": 5618,
+        "embeddedReferences": {
+          "images": 20,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 81969,
+        "uv": 55111,
+        "pv_today": 4,
+        "uv_today": 4,
+        "timestamp": 1794599423
+      },
+      "notes": "首批 P0 中文已重写并接入导航，等待社区校对。英文仅保留待翻译入口；原始审计依据和源文档指纹不变。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "contentSha256": "7e0e8ee8861f1d8779bf0b609f76c85d6c9f4d3bbce7c56f4df619541dfe2e73",
+        "completedChanges": [
+          "建立独立目录、类型/变体及升级身份的适配顺序。",
+          "完整技术 API 链接固件版本文档，移除覆盖标准板型和删除 OTA 分区的通用方案。"
+        ],
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/development/custom-board.md",
+          "bodyTranslated": false
+        },
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p0-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "P0 中文重写完成，补充版本历史/原素材处置；素材实际采用范围见 media-inventory.json。未将社区确认、硬件或生产检查标记为完成。",
+        "deferredWork": [],
+        "outputPaths": [
+          "docs/zh/development/custom-board.md"
+        ],
+        "outputHashes": {
+          "docs/zh/development/custom-board.md": "7e0e8ee8861f1d8779bf0b609f76c85d6c9f4d3bbce7c56f4df619541dfe2e73"
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 20
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-21",
+      "sourceToken": "JZ0vw5zcViWJaTkpa7Vccgr7nXb",
+      "title": "小智AI终端开源项目SDK配置AEC支持操作指引",
+      "sourceUrl": "https://my.feishu.cn/docx/Oi3EdH3ftolVUmx4NiacSMxgnje",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "merge",
+      "priority": "P1",
+      "targetPath": "docs/zh/development/audio-and-aec.md",
+      "rationale": "合并重复的环境和 menuconfig 步骤，统一解释设备端与服务端 AEC 的实际条件。",
+      "evidence": [
+        {
+          "section": "SDK 配置与板型要求",
+          "finding": "基于 IDF 5.3.2 及少量旧板型描述；当前 Kconfig 已明确设备端 AEC 的芯片、PSRAM、板型及参考音频条件。",
+          "references": [
+            "FW-AEC"
+          ],
+          "sourceArticle": "DOC-21"
+        },
+        {
+          "section": "开启 AEC 与显示模式说明",
+          "finding": "把麦克风数量、特定 UI 与 AEC 能力绑定的旧经验需要复核；不能代替当前音频硬件和服务端能力判定。",
+          "references": [
+            "FW-AEC"
+          ],
+          "sourceArticle": "DOC-21"
+        }
+      ],
+      "requiredChanges": [
+        "与环境搭建和设计参考中的 AEC 内容合并，区分设备端、服务端及对话打断。",
+        "列出支持矩阵、参考信号要求、开关和可重复测试方法。"
+      ],
+      "publicationChecks": [
+        "用支持的音频板测试回声、打断与噪声；不把单项编译开关当作效果保证。"
+      ],
+      "relatedArticles": [
+        "DOC-11",
+        "DOC-19",
+        "DOC-22"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 25,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "Oi3EdH3ftolVUmx4NiacSMxgnje",
+        "revisionId": 648,
+        "contentSha256": "608dfb330d9147bfd0e097aafe53ac8f219625e322244a1549367c21d83076b2",
+        "characterCount": 1807,
+        "embeddedReferences": {
+          "images": 6,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 21530,
+        "uv": 16336,
+        "pv_today": 1,
+        "uv_today": 1,
+        "timestamp": 1794599424
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/development/audio-and-aec.md"
+        ],
+        "outputHashes": {
+          "docs/zh/development/audio-and-aec.md": "cac8a1dc09a3accfed3712413c9cf38bb579109cb40c526b21218f115c1d6405"
+        },
+        "contentSha256": "cac8a1dc09a3accfed3712413c9cf38bb579109cb40c526b21218f115c1d6405",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/development/audio-and-aec.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 6
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-22",
+      "sourceToken": "H4dywK6ucigEtykKmm3cmZ7Dnog",
+      "title": "关于唤醒词更改及配置操作步骤",
+      "sourceUrl": "https://my.feishu.cn/docx/X1PUdoklpouIXBxvEGHcjCBJnkg",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "merge",
+      "priority": "P1",
+      "targetPath": "docs/zh/development/wake-words.md",
+      "rationale": "把预置、自定义及外接唤醒的选择收敛到一篇能力说明，减少旧配置步骤重复。",
+      "evidence": [
+        {
+          "section": "更改/配置唤醒词",
+          "finding": "按旧版 VS Code/menuconfig 和 ESP-SR 预置列表描述操作；当前 Kconfig 存在 ESP WakeNet、AFE、自定义唤醒等不同路径。",
+          "references": [
+            "FW-WAKE"
+          ],
+          "sourceArticle": "DOC-22"
+        },
+        {
+          "section": "芯片及使用限制",
+          "finding": "S3 为主的旧说明不能覆盖当前 C3/C5/C6 的 ESP WakeNet 及 S3/P4/S31 的自定义唤醒条件；具体模型仍须与板型兼容。",
+          "references": [
+            "FW-WAKE"
+          ],
+          "sourceArticle": "DOC-22"
+        }
+      ],
+      "requiredChanges": [
+        "用选择表解释预置词、板载自定义词、外接 ASR 的适用硬件。",
+        "分别给出在线编译与本地构建入口，SDK 安装步骤链接主指南。"
+      ],
+      "publicationChecks": [
+        "按芯片/内存组合核验可选模型和实际唤醒，记录误唤醒测试条件。"
+      ],
+      "relatedArticles": [
+        "DOC-18",
+        "DOC-19",
+        "DOC-21",
+        "DOC-29",
+        "DOC-32"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 26,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "X1PUdoklpouIXBxvEGHcjCBJnkg",
+        "revisionId": 2251,
+        "contentSha256": "9c04c14aa04253d960027d37334b302d1e3deac5d8a0096e738ef646c8586c3d",
+        "characterCount": 3828,
+        "embeddedReferences": {
+          "images": 16,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 97146,
+        "uv": 73009,
+        "pv_today": 5,
+        "uv_today": 5,
+        "timestamp": 1794599424
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/development/wake-words.md"
+        ],
+        "outputHashes": {
+          "docs/zh/development/wake-words.md": "5ed315bcf31c12b4c5ceb45a1f61f1edfd28a6b117409dec3e9a67af0e096147"
+        },
+        "contentSha256": "5ed315bcf31c12b4c5ceb45a1f61f1edfd28a6b117409dec3e9a67af0e096147",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/development/wake-words.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 16
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-23",
+      "sourceToken": "R3Gmwk9IuiEtnvkXjgxcdRwonhf",
+      "title": "关于独立串口工具查看运行日志的操作指引",
+      "sourceUrl": "https://my.feishu.cn/docx/CewMdYgH0ovnE0xHK4ncfPf6nPg",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "retain",
+      "priority": "P1",
+      "targetPath": "docs/zh/faq/serial-logs.md",
+      "rationale": "串口日志是通用排障基础，核心方法可保留，补充平台、端口和隐私说明。",
+      "evidence": [
+        {
+          "section": "连接、波特率、端口占用",
+          "finding": "115200、选择端口及避免被其他程序占用等步骤有明确排障价值，不依赖某一个旧固件功能。",
+          "references": [],
+          "sourceArticle": "DOC-23"
+        },
+        {
+          "section": "独立工具和 USB 口位置",
+          "finding": "以 Windows 附件工具和特定板的物理 USB 位置举例；需要说明其他平台及不同 USB/UART 布局，不能把左右位置写成通则。",
+          "references": [],
+          "sourceArticle": "DOC-23"
+        }
+      ],
+      "requiredChanges": [
+        "保留最短日志采集步骤，使用可信来源的串口工具并给跨平台入口。",
+        "说明启动日志、故障复现区间及分享前遮盖令牌、Wi-Fi 和设备个人标识。"
+      ],
+      "publicationChecks": [
+        "用至少一种 USB 原生和一种 UART 转接板验证端口与可读日志。"
+      ],
+      "relatedArticles": [
+        "DOC-08",
+        "DOC-15",
+        "DOC-19"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 20,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "CewMdYgH0ovnE0xHK4ncfPf6nPg",
+        "revisionId": 711,
+        "contentSha256": "bc3078b7e90a90c5e0f0f0c9da60b9764b3f3740ad8527faf67492b25948bcd7",
+        "characterCount": 1420,
+        "embeddedReferences": {
+          "images": 4,
+          "sheets": 0,
+          "files": 1
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 22656,
+        "uv": 19000,
+        "pv_today": 0,
+        "uv_today": 0,
+        "timestamp": 1794599425
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/faq/serial-logs.md"
+        ],
+        "outputHashes": {
+          "docs/zh/faq/serial-logs.md": "a9b4eaf859ac5bd66efdd8d8de305d2dfac88bf5f545517277a4f1bdf40ab22e"
+        },
+        "contentSha256": "a9b4eaf859ac5bd66efdd8d8de305d2dfac88bf5f545517277a4f1bdf40ab22e",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/faq/serial-logs.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "retained-local-image": 1,
+          "replaced": 1,
+          "not-reused": 3
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-24",
+      "sourceToken": "HiPEwZ37XiitnwktX13cEM5KnSb",
+      "title": "小智AI配置MCP接入点使用说明（官方）",
+      "sourceUrl": "https://my.feishu.cn/docx/G14ndNMw6oEwASxSoo3czklGnqf",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P0",
+      "targetPath": "docs/zh/mcp/quickstart.md",
+      "rationale": "官方 MCP 教程需求高但缺少从安装到验证的闭环，应重写为最小、可复现且边界明确的工具示例。",
+      "evidence": [
+        {
+          "section": "获取 MCP 接入点",
+          "finding": "“角色配置右下角”的旧位置不再适合当前扩展能力界面，需要按现行页面重拍。",
+          "references": [
+            "CON-MCP"
+          ],
+          "sourceArticle": "DOC-24"
+        },
+        {
+          "section": "示例代码与运行效果",
+          "finding": "示例文件名 server.py，运行命令却调用 calculator.py；正文未完整给出克隆、依赖安装和启动过程。上游仓库已有 requirements、MCP_ENDPOINT 及 mcp_pipe.py 的流程。",
+          "references": [
+            "MCP-EXAMPLE"
+          ],
+          "sourceArticle": "DOC-24"
+        },
+        {
+          "section": "calculator 工具、注意事项",
+          "finding": "示例将模型提供的表达式直接交给 eval，未限定可执行操作；固定 1024 字节及连接数限制也缺少适用版本。应改为带类型的明确计算函数并核验服务限制。",
+          "references": [
+            "FW-MCP"
+          ],
+          "sourceArticle": "DOC-24"
+        }
+      ],
+      "requiredChanges": [
+        "给出获取端点、创建环境、安装、启动、工具发现、语音调用及成功日志。",
+        "示例改成带参数类型的加法/乘法；明确端点凭据保管与日志遮盖。",
+        "拆出重连、工具未发现、鉴权失败及多服务桥接排障。"
+      ],
+      "publicationChecks": [
+        "在干净 Python 环境从零启动并让设备成功调用；核验当前端点服务限制。"
+      ],
+      "relatedArticles": [
+        "DOC-17",
+        "DOC-25",
+        "DOC-26",
+        "DOC-27",
+        "DOC-28",
+        "DOC-33",
+        "DOC-43"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计 UV 215131；官方扩展能力入口的缺失步骤影响广。",
+      "priorityRank": 9,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "G14ndNMw6oEwASxSoo3czklGnqf",
+        "revisionId": 474,
+        "contentSha256": "0e8e47d0a01ad207e4cdcc0151c95b8bb4c4bab091fdb52de7916995cb2b3871",
+        "characterCount": 2295,
+        "embeddedReferences": {
+          "images": 2,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 321263,
+        "uv": 215131,
+        "pv_today": 66,
+        "uv_today": 47,
+        "timestamp": 1794599426
+      },
+      "notes": "首批 P0 中文已重写并接入导航，等待社区校对。英文仅保留待翻译入口；原始审计依据和源文档指纹不变。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "contentSha256": "419edb02b27dfa276c2b397fc4dcbd740d45ffbd83f8215f9d831d17aceb05d0",
+        "completedChanges": [
+          "编写有类型、限定输入范围的加法示例，替代 eval。",
+          "补齐固定上游提交、虚拟环境、端点、桥接、工具发现与真实调用核验步骤。"
+        ],
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/mcp/quickstart.md",
+          "bodyTranslated": false
+        },
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p0-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false,
+          "mcpStdioAndLocalWebSocketBridgeTested": true,
+          "productionEndpointOrVoiceTested": false
+        },
+        "scopeNote": "P0 中文重写完成，补充版本历史/原素材处置；素材实际采用范围见 media-inventory.json。未将社区确认、硬件或生产检查标记为完成。",
+        "deferredWork": [],
+        "outputPaths": [
+          "docs/zh/mcp/quickstart.md"
+        ],
+        "outputHashes": {
+          "docs/zh/mcp/quickstart.md": "419edb02b27dfa276c2b397fc4dcbd740d45ffbd83f8215f9d831d17aceb05d0"
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 2
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-25",
+      "sourceToken": "JKFXd8bLYo6YZtxz9ORcbnA8nbe",
+      "title": "小智接入联网查询教程mcp",
+      "sourceUrl": "https://my.feishu.cn/docx/JKFXd8bLYo6YZtxz9ORcbnA8nbe",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "merge",
+      "priority": "P2",
+      "targetPath": "docs/zh/mcp/examples/web-search.md",
+      "rationale": "提取联网搜索这一通用用例，具体 GUI 和供应商作为可选社区实现。",
+      "evidence": [
+        {
+          "section": "程序安装、API 配置",
+          "finding": "依赖附带 Python/程序压缩包与智谱搜索 API，通用接入流程与官方 MCP 教程重复。",
+          "references": [],
+          "sourceArticle": "DOC-25"
+        },
+        {
+          "section": "费用与维护说明",
+          "finding": "“免费、后续未知”等描述和供应商配置需要验证日期；未运行服务，不能认定免费仍有效或服务失效。",
+          "references": [],
+          "sourceArticle": "DOC-25"
+        }
+      ],
+      "requiredChanges": [
+        "合并为搜索工具用例：供应商、凭据、工具发现、搜索结果和错误排查。",
+        "外部 GUI 链接社区目录；迁入示例前要求可复现源码及明确版本。"
+      ],
+      "publicationChecks": [
+        "核验供应商 API、价格与可用性；审查下载源码及运行包。"
+      ],
+      "relatedArticles": [
+        "DOC-24",
+        "DOC-26",
+        "DOC-27",
+        "DOC-28",
+        "DOC-43"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 38,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "JKFXd8bLYo6YZtxz9ORcbnA8nbe",
+        "revisionId": 772,
+        "contentSha256": "d4994520f32428d6178f97df2c4b2ce0550367c063f7cf4bb645cdd70a525e3f",
+        "characterCount": 5320,
+        "embeddedReferences": {
+          "images": 17,
+          "sheets": 0,
+          "files": 2
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 36131,
+        "uv": 27749,
+        "pv_today": 3,
+        "uv_today": 3,
+        "timestamp": 1794599427
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/mcp/examples/web-search.md"
+        ],
+        "outputHashes": {
+          "docs/zh/mcp/examples/web-search.md": "44e4a649bdbea43575e39103cf259c3cf948d1632d79dddfd2af128ec00f7974"
+        },
+        "contentSha256": "44e4a649bdbea43575e39103cf259c3cf948d1632d79dddfd2af128ec00f7974",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/mcp/examples/web-search.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "retained-release": 1,
+          "replaced": 1,
+          "not-reused": 17
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-26",
+      "sourceToken": "RTaHwEOp8iu6ACkXbrNcJ4GMnVg",
+      "title": "小智AI 简单操控电脑 超简方案（By粽子同学）",
+      "sourceUrl": "https://kcn80f4hacgs.feishu.cn/docx/HErcd1F8LoKjDnx3O0Pcktd3nPI",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "merge",
+      "priority": "P2",
+      "targetPath": "docs/zh/community/mcp-tools.md",
+      "rationale": "作为第三方 Windows 桌面工具保留索引，完整操作手册由作者维护，避免官方站长期追随多个分发渠道。",
+      "evidence": [
+        {
+          "section": "下载与更新说明",
+          "finding": "有 GitHub 仓库，但作者明确提醒仓库并非最新、以飞书为准；主教程无法稳定追溯可运行版本。",
+          "references": [],
+          "sourceArticle": "DOC-26"
+        },
+        {
+          "section": "安装和故障处理",
+          "finding": "涉及管理员运行、外部关闭 UAC 说明及忽略部分错误；不是官方 MCP 接入的必要步骤，不宜直接复制为默认要求。",
+          "references": [],
+          "sourceArticle": "DOC-26"
+        }
+      ],
+      "requiredChanges": [
+        "保留作者、适用 Windows 平台、源码/发布页、维护入口和测试日期。",
+        "通用 MCP 配置链接官方快速开始，不迁入随工具变化的全部界面。"
+      ],
+      "publicationChecks": [
+        "核对最新可复现发布、依赖、安装权限及授权，不能凭文档认定二进制安全。"
+      ],
+      "relatedArticles": [
+        "DOC-24",
+        "DOC-25",
+        "DOC-27",
+        "DOC-28",
+        "DOC-36",
+        "DOC-43"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 40,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "HErcd1F8LoKjDnx3O0Pcktd3nPI",
+        "revisionId": 2033,
+        "contentSha256": "ce78ac12f0bc5c65cf38849e4f7e012c0c57fc26f368c5bc60fee840afe2cc93",
+        "characterCount": 8250,
+        "embeddedReferences": {
+          "images": 18,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 49302,
+        "uv": 37559,
+        "pv_today": 9,
+        "uv_today": 7,
+        "timestamp": 1794599427
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/community/mcp-tools.md"
+        ],
+        "outputHashes": {
+          "docs/zh/community/mcp-tools.md": "08e10b13d80e0f49d4549205e6aa6f61716393621b6166237806b4d053ab796d"
+        },
+        "contentSha256": "08e10b13d80e0f49d4549205e6aa6f61716393621b6166237806b4d053ab796d",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/community/mcp-tools.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 18
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-27",
+      "sourceToken": "VrHAwQRRdiWS8ykHk44cbdpynGe",
+      "title": "xiaozhi-mcphub-小智生态新一代mcp管理平台",
+      "sourceUrl": "https://my.feishu.cn/docx/H9OGddrk8oq7eBxwi8DcqqeMnEc",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "merge",
+      "priority": "P2",
+      "targetPath": "docs/zh/community/mcp-tools.md",
+      "rationale": "MCP 管理平台有独立用途，但属于第三方服务目录，安装细节和比较表应回归作者维护。",
+      "evidence": [
+        {
+          "section": "功能和部署",
+          "finding": "以 Docker、PostgreSQL/pgvector、多端点管理为主，超出官方最小 MCP 接入范围。",
+          "references": [],
+          "sourceArticle": "DOC-27"
+        },
+        {
+          "section": "Docker 与初始化、竞品对比",
+          "finding": "示例包含可变 latest 镜像、默认管理员和维护/授权比较表；部署应固定版本，比较结论未在本次逐项验证。",
+          "references": [],
+          "sourceArticle": "DOC-27"
+        }
+      ],
+      "requiredChanges": [
+        "建立带作者、仓库、协议、部署方式和维护日期的目录条目。",
+        "若保留安装片段，固定版本并要求修改默认凭据；比较表交由可追溯来源支持。"
+      ],
+      "publicationChecks": [
+        "核对仓库发布和许可，按固定版本验证部署；本次未运行容器。"
+      ],
+      "relatedArticles": [
+        "DOC-24",
+        "DOC-26",
+        "DOC-28",
+        "DOC-43"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 41,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "H9OGddrk8oq7eBxwi8DcqqeMnEc",
+        "revisionId": 504,
+        "contentSha256": "36b5b9c166d8ee289b1be4c4086b4aeab7380d224044d4684d8e1dbf88fd9f63",
+        "characterCount": 4383,
+        "embeddedReferences": {
+          "images": 11,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 23002,
+        "uv": 16994,
+        "pv_today": 3,
+        "uv_today": 3,
+        "timestamp": 1794599428
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/community/mcp-tools.md"
+        ],
+        "outputHashes": {
+          "docs/zh/community/mcp-tools.md": "08e10b13d80e0f49d4549205e6aa6f61716393621b6166237806b4d053ab796d"
+        },
+        "contentSha256": "08e10b13d80e0f49d4549205e6aa6f61716393621b6166237806b4d053ab796d",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/community/mcp-tools.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 10,
+          "retained-local-image": 1
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-28",
+      "sourceToken": "OzyBwcRD1i5nONkHmMQcJPQOnwc",
+      "title": "简单赋予小智 MCP 能力（第三方工具接入与玩法示例）",
+      "sourceUrl": "https://lcn17bfbw6fr.feishu.cn/docx/N5R9dk6AuoXz5YxmNUWccmEfnJf",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "merge",
+      "priority": "P1",
+      "targetPath": "docs/zh/mcp/connect-existing-servers.md",
+      "rationale": "保留 stdio/SSE/HTTP 桥接的通用价值，拆出第三方工具与嵌入式唤醒/重启补丁。",
+      "evidence": [
+        {
+          "section": "HyperChat、McpPipe 与传输方式",
+          "finding": "篇幅混合多种软件及传输方式；桥接既有 MCP 服务可形成独立主题，不必重复官方快速开始。",
+          "references": [
+            "MCP-EXAMPLE"
+          ],
+          "sourceArticle": "DOC-28"
+        },
+        {
+          "section": "文件系统、Home Assistant 和插件示例",
+          "finding": "涉及文件读写、HA 凭据、未固定版本的 npx 或浏览器扩展；需要逐示例说明权限边界与版本。",
+          "references": [],
+          "sourceArticle": "DOC-28"
+        },
+        {
+          "section": "mcp_wake.h/.cc 等设备补丁",
+          "finding": "大段设备 HTTP 唤醒/重启代码与旧 IotInitializeIot 初始化流程混入桌面接入教程；应移回对应固件版本的代码审查和案例，不直接复制到当前板型。",
+          "references": [
+            "FW-MCP"
+          ],
+          "sourceArticle": "DOC-28"
+        }
+      ],
+      "requiredChanges": [
+        "按传输类型给出最小桥接配置及连通性验证。",
+        "HyperChat/McpPipe 介绍放社区条目，设备补丁作为独立案例链接。",
+        "保留署名；逐段确认授权后才迁入代码或图片。"
+      ],
+      "publicationChecks": [
+        "固定桥接工具版本并实测至少一种 stdio 与 HTTP/SSE 服务。",
+        "设备远程重启/唤醒代码单独审查鉴权、接口暴露和当前固件兼容性。"
+      ],
+      "relatedArticles": [
+        "DOC-24",
+        "DOC-25",
+        "DOC-26",
+        "DOC-27",
+        "DOC-33"
+      ],
+      "secondaryTargetPaths": [
+        "docs/zh/community/mcp-tools.md"
+      ],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 28,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "N5R9dk6AuoXz5YxmNUWccmEfnJf",
+        "revisionId": 1654,
+        "contentSha256": "43badacb3b3488b905d8eab45d659ccde34eca512ba5e9d829f7d024299305a3",
+        "characterCount": 29067,
+        "embeddedReferences": {
+          "images": 27,
+          "sheets": 0,
+          "files": 4
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 44932,
+        "uv": 32318,
+        "pv_today": 2,
+        "uv_today": 2,
+        "timestamp": 1794599429
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/mcp/connect-existing-servers.md",
+          "docs/zh/community/mcp-tools.md"
+        ],
+        "outputHashes": {
+          "docs/zh/mcp/connect-existing-servers.md": "6a39c8abb204dd4f5e7557d5006f44c64ec06a88c4272a2f37f55d790b7a5539",
+          "docs/zh/community/mcp-tools.md": "08e10b13d80e0f49d4549205e6aa6f61716393621b6166237806b4d053ab796d"
+        },
+        "contentSha256": "6a39c8abb204dd4f5e7557d5006f44c64ec06a88c4272a2f37f55d790b7a5539",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/mcp/connect-existing-servers.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 27,
+          "not-reused-unavailable": 4
+        },
+        "unreadHistoricalFiles": [
+          "DOC-28-file-001",
+          "DOC-28-file-002",
+          "DOC-28-file-003",
+          "DOC-28-file-004"
+        ]
+      }
+    },
+    {
+      "id": "DOC-29",
+      "sourceToken": "Jf7RwvQfQiFNT7k1eIbc00Runlc",
+      "title": "Xmini-C3/V3开发板玩转小智AI聊天机器人",
+      "sourceUrl": "https://my.feishu.cn/docx/EyRBd7ak0oZo5Ax4nZkcgLeqnUb",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P1",
+      "targetPath": "docs/zh/hardware/boards/xmini-c3.md",
+      "rationale": "保留 Xmini 系列的板型差异和实用操作，复用公共烧录/配网流程，清除旧平台限制。",
+      "evidence": [
+        {
+          "section": "C3/V3、4G 及电池差异",
+          "finding": "多代硬件、不同接口和电池检测说明交织，需按具体版本整理，不能给一套统一接法。",
+          "references": [],
+          "sourceArticle": "DOC-29"
+        },
+        {
+          "section": "无离线唤醒、SDK 与固件",
+          "finding": "无离线唤醒的笼统结论与当前 C3 WakeNet 选项不符；仍含 IDF 5.3/5.4、v2.2.4 和旧菜单说明。",
+          "references": [
+            "FW-WAKE",
+            "FW-README"
+          ],
+          "sourceArticle": "DOC-29"
+        },
+        {
+          "section": "烧录、配网与解绑",
+          "finding": "重复通用教程且使用旧后台界面，后续维护应改为公共流程链接和板型例外说明。",
+          "references": [
+            "CON-AUTH"
+          ],
+          "sourceArticle": "DOC-29"
+        }
+      ],
+      "requiredChanges": [
+        "建立 Wi-Fi/4G/V3 的型号识别、内存、接口、电池和固件映射表。",
+        "更新实际支持的唤醒能力，烧录/绑定引用公共教程。"
+      ],
+      "publicationChecks": [
+        "按每个保留的硬件版本验证供电、按钮、网络及电池显示；61 张图片待逐一复核。"
+      ],
+      "relatedArticles": [
+        "DOC-08",
+        "DOC-09",
+        "DOC-12",
+        "DOC-16",
+        "DOC-22",
+        "DOC-31"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 21,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "EyRBd7ak0oZo5Ax4nZkcgLeqnUb",
+        "revisionId": 6764,
+        "contentSha256": "90f856ca49e87ae137908917256813ca65d75a3f2336830a2079c6da1ece51e2",
+        "characterCount": 13792,
+        "embeddedReferences": {
+          "images": 61,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 57542,
+        "uv": 42768,
+        "pv_today": 5,
+        "uv_today": 4,
+        "timestamp": 1794599430
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/hardware/boards/xmini-c3.md"
+        ],
+        "outputHashes": {
+          "docs/zh/hardware/boards/xmini-c3.md": "587e04ae14f6a502737ac772edf362645f6da21d3467c4edac911e838b8dfd6e"
+        },
+        "contentSha256": "587e04ae14f6a502737ac772edf362645f6da21d3467c4edac911e838b8dfd6e",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/hardware/boards/xmini-c3.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "retained-local-image": 2,
+          "not-reused": 59
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-30",
+      "sourceToken": "B2LLwyC7binHuJkkHGMce03wnWf",
+      "title": "插件版小智AI设计教程",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P1",
+      "targetPath": "docs/zh/community/projects/sf32lb52-plugin.md",
+      "rationale": "完整的替代平台设计案例值得保留，但需从 ESP32 主路径分离，并先解决原文已指出的按键电平问题。",
+      "evidence": [
+        {
+          "section": "项目介绍、构建、烧录与联网",
+          "finding": "实际主控是 SF32LB52，使用独立 xiaozhi-sf32 仓库、sftool 多镜像地址和蓝牙 PAN；不能套用 ESP32 SDK、单镜像烧录或 Wi-Fi 配网教程。",
+          "references": [],
+          "sourceArticle": "DOC-30"
+        },
+        {
+          "section": "十、FAQ Q2",
+          "finding": "原文自己指出 PA34 可能受到最高 4.2V 电池电压而超出 3.3V IO 条件，并在末尾给出分压建议；需将修正前置到硬件版本和接线说明，不能让读者做完再发现。",
+          "references": [],
+          "sourceArticle": "DOC-30"
+        },
+        {
+          "section": "设计资料与制作课程",
+          "finding": "含 EDA、PCB、外壳、面板、131 个图片和 21 个附件引用，具有设计教学价值；免费制板次数、采购和软件服务信息需要日期及可追溯来源。",
+          "references": [],
+          "sourceArticle": "DOC-30"
+        }
+      ],
+      "requiredChanges": [
+        "官方站保留适用平台、版本、原理、修正及复现入口，完整课程与文件由作者/对应开源项目维护。",
+        "先给出经核验的 PA34 修订方案及电池规格，再列构建和蓝牙 PAN 支持范围。",
+        "保留作者及硬件资料出处，分清不同资源的许可。"
+      ],
+      "publicationChecks": [
+        "硬件工程师复核 PA34、电池及供电修订，按修订版真机测试。",
+        "核验设计附件、授权和 Android/iOS 的 PAN 行为；未在本次执行固件或附件。"
+      ],
+      "relatedArticles": [
+        "DOC-11",
+        "DOC-34",
+        "DOC-37"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 14,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+        "revisionId": 3597,
+        "contentSha256": "7af7ffb3cfed47d6eec49021916fc207aeddd380e96c9640d6821d0e5024b6d5",
+        "characterCount": 66752,
+        "embeddedReferences": {
+          "images": 131,
+          "sheets": 0,
+          "files": 21
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 51621,
+        "uv": 29076,
+        "pv_today": 4,
+        "uv_today": 4,
+        "timestamp": 1794599430
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/community/projects/sf32lb52-plugin.md"
+        ],
+        "outputHashes": {
+          "docs/zh/community/projects/sf32lb52-plugin.md": "fe22edf226150fb81154c810dd825ee32b4ba0be8cb899c4e5b98ef0d5e050df"
+        },
+        "contentSha256": "fe22edf226150fb81154c810dd825ee32b4ba0be8cb899c4e5b98ef0d5e050df",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/community/projects/sf32lb52-plugin.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "retained-local-image": 14,
+          "not-reused": 117,
+          "retained-release": 20,
+          "replaced-by-upstream": 1
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-31",
+      "sourceToken": "LdCrw9neaiGgzrkrFyjclllynYd",
+      "title": "小智AI终端固件支持开发板/产品及购买链接",
+      "sourceUrl": "https://my.feishu.cn/docx/Dt2HdeMqNoo9dNxV8RacO4ounsc",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P1",
+      "targetPath": "docs/zh/hardware/supported-boards.md",
+      "rationale": "把固件支持清单与商品销售状态分开，形成可追溯的板型/变体索引。",
+      "evidence": [
+        {
+          "section": "开发板/产品及购买链接",
+          "finding": "销售状态包含停售、售完、暂下架；停售不意味着现有设备不受固件支持，不能据此删除板型。",
+          "references": [],
+          "sourceArticle": "DOC-31"
+        },
+        {
+          "section": "固件和源代码路径",
+          "finding": "部分固件文件名和板型目录属于旧结构；当前固件有制造商分组、独立构建变体，在线编译也按目录与板名区分。",
+          "references": [
+            "FW-BOARD",
+            "CON-BUILDER"
+          ],
+          "sourceArticle": "DOC-31"
+        }
+      ],
+      "requiredChanges": [
+        "按芯片、板型 ID、变体、内存、功能和已测版本组织支持清单。",
+        "从发布资产/构建选项快照生成或校验映射；购买渠道作可变的辅助信息。"
+      ],
+      "publicationChecks": [
+        "核对当前 Release 与在线编译板型目录，抽测主要开发板，不以在售状态推定兼容性。"
+      ],
+      "relatedArticles": [
+        "DOC-02",
+        "DOC-05",
+        "DOC-06",
+        "DOC-07",
+        "DOC-12",
+        "DOC-13",
+        "DOC-18",
+        "DOC-29",
+        "DOC-37"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 13,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "Dt2HdeMqNoo9dNxV8RacO4ounsc",
+        "revisionId": 3614,
+        "contentSha256": "41e965d715c97880db06619aa6e81d64adfe40f8f7eab14ac531e96878827fe9",
+        "characterCount": 7370,
+        "embeddedReferences": {
+          "images": 15,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 105929,
+        "uv": 80927,
+        "pv_today": 3,
+        "uv_today": 2,
+        "timestamp": 1794599432
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/hardware/supported-boards.md"
+        ],
+        "outputHashes": {
+          "docs/zh/hardware/supported-boards.md": "53bab1c2427b38fc203644cc178abf7ddedc3d723cf1c4cd906dc720b588c884"
+        },
+        "contentSha256": "53bab1c2427b38fc203644cc178abf7ddedc3d723cf1c4cd906dc720b588c884",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/hardware/supported-boards.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 12,
+          "retained-local-image": 3
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-32",
+      "sourceToken": "OxsZwab8iiGYjvkH9SBcFK2anmh",
+      "title": "小智AI终端ASR自定义唤醒词简单方案",
+      "sourceUrl": "https://kcn80f4hacgs.feishu.cn/docx/P2aqdFMO2ouXmZx9sNDcrAv1nJg",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "merge",
+      "priority": "P1",
+      "targetPath": "docs/zh/hardware/external-wake-module.md",
+      "rationale": "外接 ASR 仍可用于部分硬件，合并为唤醒方案的可选扩展；原文安装、供电和闲聊内容需大幅收敛。",
+      "evidence": [
+        {
+          "section": "方案选择与安装",
+          "finding": "混合 ASR 开发板/核心板和多种接线方向；正文不同段落出现 5V 输入与连接 3V3 的描述，需要按实际模块说明书核验。",
+          "references": [],
+          "sourceArticle": "DOC-32"
+        },
+        {
+          "section": "自定义唤醒价值",
+          "finding": "当前固件已有满足芯片/PSRAM 条件的板载自定义唤醒，不能再暗示所有用户必须增加外部模块。",
+          "references": [
+            "FW-WAKE"
+          ],
+          "sourceArticle": "DOC-32"
+        },
+        {
+          "section": "工具安装和附加资源",
+          "finding": "包含安全拦截绕过式安装说明及带时效签名的音乐链接，与唤醒教学无关且不可作为稳定资源入口。",
+          "references": [],
+          "sourceArticle": "DOC-32"
+        }
+      ],
+      "requiredChanges": [
+        "保留指定模块的电气规格、引脚、配置、触发逻辑和成功标志。",
+        "与唤醒词总览互链；去掉无关音乐、广告和笼统绕过系统拦截的操作。",
+        "工具改为厂商可核验的版本和下载入口。"
+      ],
+      "publicationChecks": [
+        "根据模块数据手册核对供电与 IO 电平，真机测试触发/复位和掉电行为。"
+      ],
+      "relatedArticles": [
+        "DOC-13",
+        "DOC-22",
+        "DOC-29"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 15,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "P2aqdFMO2ouXmZx9sNDcrAv1nJg",
+        "revisionId": 5116,
+        "contentSha256": "2ae6b947ae3549dd5ea297a7269fc4ce437b6dbc6b16774d5ae1ae48afde36dc",
+        "characterCount": 15502,
+        "embeddedReferences": {
+          "images": 54,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 66621,
+        "uv": 49969,
+        "pv_today": 2,
+        "uv_today": 1,
+        "timestamp": 1794599432
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/hardware/external-wake-module.md"
+        ],
+        "outputHashes": {
+          "docs/zh/hardware/external-wake-module.md": "009c7b87965dda22ca6d4814fd80ce1df52b75b93078f63c83375d0159a72ee3"
+        },
+        "contentSha256": "009c7b87965dda22ca6d4814fd80ce1df52b75b93078f63c83375d0159a72ee3",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/hardware/external-wake-module.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 51,
+          "retained-local-image": 3
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-33",
+      "sourceToken": "J2MrdqW27oybcCxu7Sfc4gBcn4g",
+      "title": "小智AI终端控制GPIO[简单教程] ",
+      "sourceUrl": "https://kcn80f4hacgs.feishu.cn/docx/J2MrdqW27oybcCxu7Sfc4gBcn4g",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P1",
+      "targetPath": "docs/zh/development/mcp-gpio.md",
+      "rationale": "保留最小 GPIO 工具示例，用当前板型结构和 MCP API 重写，并加入引脚及负载条件。",
+      "evidence": [
+        {
+          "section": "Green_Lamp 示例与注册",
+          "finding": "已有 McpServer::AddTool 等原生 MCP 思路，有独立教学价值；应对照现行 AddTool/AddUserOnlyTool 和类型化参数说明权限及工具发现。",
+          "references": [
+            "FW-MCP"
+          ],
+          "sourceArticle": "DOC-33"
+        },
+        {
+          "section": "板型文件与 GPIO17",
+          "finding": "示例依赖旧目录和某板 GPIO17；新教程必须选择空闲引脚、独立板型/变体并核对外设占用，不能让用户直接改所有板型的固定引脚。",
+          "references": [
+            "FW-BOARD"
+          ],
+          "sourceArticle": "DOC-33"
+        }
+      ],
+      "requiredChanges": [
+        "以一个可编译的固定版本示例说明初始化、工具注册、参数、返回值和调用验证。",
+        "明确开发板、接线、电阻/驱动及负载范围；更高功率负载转专门电路。"
+      ],
+      "publicationChecks": [
+        "当前 SDK 编译通过，真机核对工具发现与 GPIO 电平；审查对应固件目录的合入方式。"
+      ],
+      "relatedArticles": [
+        "DOC-19",
+        "DOC-20",
+        "DOC-24",
+        "DOC-28"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 27,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "J2MrdqW27oybcCxu7Sfc4gBcn4g",
+        "revisionId": 732,
+        "contentSha256": "0a84865c71751d02cf19930f23de002767317cf03757c913a7edd06ecb2b2223",
+        "characterCount": 6080,
+        "embeddedReferences": {
+          "images": 15,
+          "sheets": 0,
+          "files": 1
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 51817,
+        "uv": 35041,
+        "pv_today": 6,
+        "uv_today": 6,
+        "timestamp": 1794599433
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/development/mcp-gpio.md"
+        ],
+        "outputHashes": {
+          "docs/zh/development/mcp-gpio.md": "834f64d0d6d957162b67a05b3befe0fe29121e535ab6054f1e3cb0f525a9ee92"
+        },
+        "contentSha256": "834f64d0d6d957162b67a05b3befe0fe29121e535ab6054f1e3cb0f525a9ee92",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/development/mcp-gpio.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 15,
+          "retained-release": 1
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-34",
+      "sourceToken": "InARdPRGbo9gUfxYquWceFucnec",
+      "title": "小智ai面包板接电池简单教程",
+      "sourceUrl": "https://my.feishu.cn/docx/InARdPRGbo9gUfxYquWceFucnec",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P0",
+      "targetPath": "docs/zh/hardware/battery-power.md",
+      "rationale": "供电与充电说明缺少确定的电路依据，必须重写并在工程复核前阻止照搬发布。",
+      "evidence": [
+        {
+          "section": "电池准备和充放电模块",
+          "finding": "建议剪去电池端子再焊接，但没有给出模块型号、保护、电源路径、极性检验和连接器条件，无法复现其安全边界。",
+          "references": [],
+          "sourceArticle": "DOC-34"
+        },
+        {
+          "section": "组装与故障判断",
+          "finding": "以开发板不亮作为正负接反的判断，不能排除开关、欠压、接触及模块故障；应在接电前测量极性和输出，而不是通电试错。",
+          "references": [],
+          "sourceArticle": "DOC-34"
+        },
+        {
+          "section": "充电结语",
+          "finding": "称插开发板或充放电模块充电“应该都可以”，未证明开发板具备充电/电源管理；乐鑫开发板官方指南明确其多种供电方式互斥，不能推广为随处插 USB 充电。",
+          "references": [
+            "POWER-DEVKIT"
+          ],
+          "sourceArticle": "DOC-34"
+        }
+      ],
+      "requiredChanges": [
+        "选定有资料的电池保护/充电/升压模块及支持的板型，画出唯一电源路径。",
+        "说明断电接线、极性和输出测量、充电口及防回灌条件。",
+        "删除不亮即反接和任意 USB 充电等无依据指令。"
+      ],
+      "publicationChecks": [
+        "硬件工程师审查电路、保护和连接器；台架验证充电、负载、电压和 USB 同接/互斥条件。",
+        "原文 13 张图片尚未逐张目视核验，必须随新电路重画。"
+      ],
+      "relatedArticles": [
+        "DOC-05",
+        "DOC-11",
+        "DOC-30",
+        "DOC-44"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 2,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "InARdPRGbo9gUfxYquWceFucnec",
+        "revisionId": 647,
+        "contentSha256": "c0367a37c1f7a49a2f5ea19ce18531acddd29630f1a3d88138a4afde4d62802f",
+        "characterCount": 4079,
+        "embeddedReferences": {
+          "images": 13,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 13801,
+        "uv": 11161,
+        "pv_today": 3,
+        "uv_today": 3,
+        "timestamp": 1794599434
+      },
+      "notes": "首批 P0 中文已重写并接入导航，等待社区校对。英文仅保留待翻译入口；原始审计依据和源文档指纹不变。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "contentSha256": "e8b41a24adc0f71934f07625c811cd4fd496945ea7d5843c9f24a9035da17d77",
+        "completedChanges": [
+          "采用成品 USB 移动电源作为可便携复现的主路径。",
+          "区分板载充电与裸电芯定制，移除试错反接和任意 USB 充电建议。"
+        ],
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/hardware/battery-power.md",
+          "bodyTranslated": false
+        },
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p0-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "P0 中文重写完成，补充版本历史/原素材处置；素材实际采用范围见 media-inventory.json。未将社区确认、硬件或生产检查标记为完成。",
+        "deferredWork": [],
+        "outputPaths": [
+          "docs/zh/hardware/battery-power.md"
+        ],
+        "outputHashes": {
+          "docs/zh/hardware/battery-power.md": "e8b41a24adc0f71934f07625c811cd4fd496945ea7d5843c9f24a9035da17d77"
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 13
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-35",
+      "sourceToken": "KxASdc423oXIzlx8FLIcRJb5nAh",
+      "title": "面包板小智接音响或者耳机简单教程",
+      "sourceUrl": "https://my.feishu.cn/docx/KxASdc423oXIzlx8FLIcRJb5nAh",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P0",
+      "targetPath": "docs/zh/hardware/audio-output.md",
+      "rationale": "功放扬声器输出不能直接泛化为共地耳机/有源音箱接口，需经电气复核后提供正确输出方案。",
+      "evidence": [
+        {
+          "section": "教程、图片 6 和图片 7",
+          "finding": "正文要求将功放两端接三脚 3.5mm 插座并称“不分正负、双声道”。本次目视核验了功放端和插座端两张图，确认它展示的是功放扬声器端直接接插座的做法。",
+          "references": [],
+          "sourceArticle": "DOC-35"
+        },
+        {
+          "section": "功放拓扑与适用范围",
+          "finding": "MAX98357A/B 数据手册把 OUTP/OUTN 定义为两路扬声器放大器输出，GND 是独立管脚；由此推断，原文没有证明这套接法兼容共地耳机或有源音箱输入，不能当作通用接口方案发布。",
+          "references": [
+            "AUDIO-MAX98357",
+            "AUDIO-MAX98357-PDF"
+          ],
+          "sourceArticle": "DOC-35"
+        },
+        {
+          "section": "单双声道说明",
+          "finding": "制造商器件是单声道 Class-D 功放，选择左右/混合输入不等于提供立体声耳机输出；原文未解释转换电路。",
+          "references": [
+            "AUDIO-MAX98357"
+          ],
+          "sourceArticle": "DOC-35"
+        }
+      ],
+      "requiredChanges": [
+        "用具有明确线路输出或耳机驱动的 DAC/Codec/耳放方案重写。",
+        "区分喇叭、无源耳机和有源音箱接口，列明电压、电平、接地、音量及保护。",
+        "替换原接线图，移除不分正负和双声道的笼统承诺。"
+      ],
+      "publicationChecks": [
+        "电气工程师审查原模块与插座映射；在台架上验证新方案后才使用耳机/外部音箱。",
+        "本次仅做图文与数据手册审查，没有通电验证或实际损坏结论。"
+      ],
+      "relatedArticles": [
+        "DOC-05",
+        "DOC-10",
+        "DOC-11"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 1,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "KxASdc423oXIzlx8FLIcRJb5nAh",
+        "revisionId": 385,
+        "contentSha256": "d90f861fbdf6db55f22ff28d237a2a2821dc9ea030e8db083affb66570b0f4d9",
+        "characterCount": 2107,
+        "embeddedReferences": {
+          "images": 7,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 13412,
+        "uv": 11795,
+        "pv_today": 1,
+        "uv_today": 1,
+        "timestamp": 1794599435
+      },
+      "notes": "首批 P0 中文已重写并接入导航，等待社区校对。英文仅保留待翻译入口；原始审计依据和源文档指纹不变。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "contentSha256": "88b65575d5ad82d96fb4cef0202a2dcc86bee73bc92736b3e38d9d59138fca4b",
+        "completedChanges": [
+          "按负载区分扬声器、耳机和 Line Out；取消功放直接接三脚插座的接法。",
+          "给出基础功放的无源扬声器连接与专用耳机/线路接口选择流程。"
+        ],
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/hardware/audio-output.md",
+          "bodyTranslated": false
+        },
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p0-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "P0 中文重写完成，补充版本历史/原素材处置；素材实际采用范围见 media-inventory.json。未将社区确认、硬件或生产检查标记为完成。",
+        "deferredWork": [],
+        "outputPaths": [
+          "docs/zh/hardware/audio-output.md"
+        ],
+        "outputHashes": {
+          "docs/zh/hardware/audio-output.md": "88b65575d5ad82d96fb4cef0202a2dcc86bee73bc92736b3e38d9d59138fca4b"
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 7
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-36",
+      "sourceToken": "RxRXd8aMDomjUXxlUcCcOE48ndh",
+      "title": "小智AI 实现远程操控电脑开关机",
+      "sourceUrl": "https://kcn80f4hacgs.feishu.cn/docx/RxRXd8aMDomjUXxlUcCcOE48ndh",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "merge",
+      "priority": "P2",
+      "targetPath": "docs/zh/community/projects/wake-on-lan.md",
+      "rationale": "保留网络唤醒案例，收窄为已实现的开机功能，清楚标明第三方服务和未公开的依赖。",
+      "evidence": [
+        {
+          "section": "标题、开篇及功能说明",
+          "finding": "标题含开关机，但正文明确关机等功能待完善；实际是 ESP8266 在局域网发送网络唤醒。",
+          "references": [],
+          "sourceArticle": "DOC-36"
+        },
+        {
+          "section": "固件获取和 MCP 后台",
+          "finding": "二进制附在飞书，源码要求联系作者；流程依赖第三方后台及提交端点、设备标识、IP/MAC，不能称为完全自包含的官方开源方案。",
+          "references": [],
+          "sourceArticle": "DOC-36"
+        },
+        {
+          "section": "发布日期与统计",
+          "finding": "正文注明 2026-10-03 发布，累计 UV 991；低累计值不证明内容过时，本建议基于功能边界和维护归属。",
+          "references": [],
+          "sourceArticle": "DOC-36"
+        }
+      ],
+      "requiredChanges": [
+        "改为网络唤醒开机案例，列出网卡、同网段、持续供电与验证顺序。",
+        "作者维护部署细节；删除兑换码和推广，说明外部服务与凭据用途。"
+      ],
+      "publicationChecks": [
+        "取得可公开追溯的源码/版本并核验授权；实测服务和 WoL，未测试不能保证可用。"
+      ],
+      "relatedArticles": [
+        "DOC-24",
+        "DOC-26",
+        "DOC-27",
+        "DOC-28"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 42,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "RxRXd8aMDomjUXxlUcCcOE48ndh",
+        "revisionId": 2001,
+        "contentSha256": "8f2203672fbcca1c4e62cb991fb5530df6421323309b64d488db4e15d0e0b840",
+        "characterCount": 5475,
+        "embeddedReferences": {
+          "images": 24,
+          "sheets": 0,
+          "files": 2
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 1077,
+        "uv": 991,
+        "pv_today": 2,
+        "uv_today": 2,
+        "timestamp": 1794599435
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/community/projects/wake-on-lan.md"
+        ],
+        "outputHashes": {
+          "docs/zh/community/projects/wake-on-lan.md": "e49b40972a2c16043ae1ddb42a43e441128436e96bac7066f24674a3f7401aaa"
+        },
+        "contentSha256": "e49b40972a2c16043ae1ddb42a43e441128436e96bac7066f24674a3f7401aaa",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/community/projects/wake-on-lan.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "replaced": 1,
+          "retained-release": 1,
+          "not-reused": 24
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-37",
+      "sourceToken": "DdgIw4BUgivWDPkhMj1cGIYCnRf",
+      "title": "小智AI聊天机器人硬件开源项目汇集（一）",
+      "sourceUrl": "https://my.feishu.cn/docx/Xa2wdSt7codXKFxv2jpcRZMgn6c",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "retain",
+      "priority": "P2",
+      "targetPath": "docs/zh/community/open-hardware.md",
+      "rationale": "开源硬件合集能服务社区协作，保留为有版本和维护信息的资源目录。",
+      "evidence": [
+        {
+          "section": "项目列表",
+          "finding": "按项目链接聚合不同形态硬件，与官方支持板型清单用途不同，不能用采购清单完全替代。",
+          "references": [],
+          "sourceArticle": "DOC-37"
+        },
+        {
+          "section": "资料获取与出处",
+          "finding": "部分项目资料依赖外部页面或群文件，需补作者、原仓库、许可和文件可获取性，不能仅凭“开源”标题认定所有附件均可再分发。",
+          "references": [],
+          "sourceArticle": "DOC-37"
+        }
+      ],
+      "requiredChanges": [
+        "统一列出作者、源码/设计文件、许可、平台、维护状态及核验日期。",
+        "可进入官方固件的板型另链接支持清单，不把社区合集当作兼容性承诺。"
+      ],
+      "publicationChecks": [
+        "逐个验证项目链接与设计资料公开性，联系作者确认缺少的发布入口。"
+      ],
+      "relatedArticles": [
+        "DOC-11",
+        "DOC-13",
+        "DOC-30",
+        "DOC-31",
+        "DOC-44"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 37,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "Xa2wdSt7codXKFxv2jpcRZMgn6c",
+        "revisionId": 676,
+        "contentSha256": "6f2d70d8a1331cc3db854e0273f95d6887851329841bf80d94c79020157e4bc0",
+        "characterCount": 2109,
+        "embeddedReferences": {
+          "images": 0,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 115999,
+        "uv": 85518,
+        "pv_today": 4,
+        "uv_today": 4,
+        "timestamp": 1794599436
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/community/open-hardware.md"
+        ],
+        "outputHashes": {
+          "docs/zh/community/open-hardware.md": "93989368c5b948b482b985b58303bdbb94e45cb9e74e0d159fe7ce3b5733401d"
+        },
+        "contentSha256": "93989368c5b948b482b985b58303bdbb94e45cb9e74e0d159fe7ce3b5733401d",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/community/open-hardware.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {},
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-38",
+      "sourceToken": "M0XiwldO9iJwHikpXD5cEx71nKh",
+      "title": "通信协议：Websocket 连接",
+      "sourceUrl": "https://my.feishu.cn/docx/RD0Sdhjmjop0axxlsDrcOxAsnfd",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "merge",
+      "priority": "P1",
+      "targetPath": "docs/zh/reference/websocket.md",
+      "rationale": "参考入口以固件仓库的版本化协议文档为权威，保留旧 v1 上下文而不维护另一套独立规范。",
+      "evidence": [
+        {
+          "section": "二进制帧和音频传输",
+          "finding": "原文主要讲裸 Opus/v1；当前协议实现同时处理版本 2/3 的二进制封装，需要版本矩阵。",
+          "references": [
+            "FW-WS"
+          ],
+          "sourceArticle": "DOC-38"
+        },
+        {
+          "section": "hello、会话与示例",
+          "finding": "原文称没有 session_id；当前 ParseServerHello 读取并保存服务器 session_id，音频参数也在 hello 协商。",
+          "references": [
+            "FW-WS"
+          ],
+          "sourceArticle": "DOC-38"
+        },
+        {
+          "section": "协议维护归属",
+          "finding": "当前固件仓库已有 docs/websocket.md，字段和代码应在其所属版本一起维护。",
+          "references": [
+            "FW-WS"
+          ],
+          "sourceArticle": "DOC-38"
+        }
+      ],
+      "requiredChanges": [
+        "新站只解释入口、版本选择及与 OTA/MCP 的关系，并链接固定 tag/commit 文档。",
+        "向固件文档补齐差异后复用，旧 v1 作为历史兼容说明。",
+        "校正会话与音频参数示例，确保示例 JSON 可解析。"
+      ],
+      "publicationChecks": [
+        "按各支持版本抓包核验 hello、二进制封装和 session_id；本次未做网络互通测试。"
+      ],
+      "relatedArticles": [
+        "DOC-24",
+        "DOC-39",
+        "DOC-40"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 29,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "RD0Sdhjmjop0axxlsDrcOxAsnfd",
+        "revisionId": 245,
+        "contentSha256": "bf5ae8adf4d9871679c9dba02ef62eabea64435178108e5b7929d334d48ac54b",
+        "characterCount": 2303,
+        "embeddedReferences": {
+          "images": 2,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 121057,
+        "uv": 76266,
+        "pv_today": 3,
+        "uv_today": 3,
+        "timestamp": 1794599437
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/reference/websocket.md"
+        ],
+        "outputHashes": {
+          "docs/zh/reference/websocket.md": "9f2655e491b3c336b579667c171fce61be2f8dffedd3cf7af9278b493a83d70f"
+        },
+        "contentSha256": "9f2655e491b3c336b579667c171fce61be2f8dffedd3cf7af9278b493a83d70f",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/reference/websocket.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 2
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-39",
+      "sourceToken": "LDN2wbdRyi6evQk6xgXcTe6ened",
+      "title": "通信协议：Emoji 心情显示",
+      "sourceUrl": "https://my.feishu.cn/docx/OGFxdVzGhopNMzxfMCacyt3bnpt",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "merge",
+      "priority": "P2",
+      "targetPath": "docs/zh/reference/display-emotions.md",
+      "rationale": "作为协议/显示资源的小节保留情绪语义与映射，不再独立维护一份固定表。",
+      "evidence": [
+        {
+          "section": "Emoji 心情表",
+          "finding": "正文给出一组情绪与 Emoji 对应关系，属于消息语义与显示资源映射，应随协议及资源版本维护。",
+          "references": [
+            "FW-WS",
+            "FW-PROMPTS"
+          ],
+          "sourceArticle": "DOC-39"
+        },
+        {
+          "section": "模型输出与 token 说明",
+          "finding": "把 Emoji 统一作为单 token 的表述没有限定模型或分词器，不能作为跨模型保证；情绪标识与 Unicode 图形也应区分。",
+          "references": [],
+          "sourceArticle": "DOC-39"
+        }
+      ],
+      "requiredChanges": [
+        "合并为情绪字段、设备表情资源和回退行为说明，指向对应固件映射。",
+        "删除无适用范围的 token 数保证，说明不同屏幕/主题可有不同呈现。"
+      ],
+      "publicationChecks": [
+        "与当前情绪映射及支持主题逐项比对，验证未知值的回退行为。"
+      ],
+      "relatedArticles": [
+        "DOC-38"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 43,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "OGFxdVzGhopNMzxfMCacyt3bnpt",
+        "revisionId": 355,
+        "contentSha256": "e976ee0d3da243826f743b06ec796b4941d0ceb8d535f84d9a9917c9fbf2cfc9",
+        "characterCount": 501,
+        "embeddedReferences": {
+          "images": 0,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 55143,
+        "uv": 46544,
+        "pv_today": 2,
+        "uv_today": 2,
+        "timestamp": 1794599438
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/reference/display-emotions.md"
+        ],
+        "outputHashes": {
+          "docs/zh/reference/display-emotions.md": "45e7e06cc304d7e5d52c8951ffaadcec7cdff17f1ab05b9cca9474c9d4652da5"
+        },
+        "contentSha256": "45e7e06cc304d7e5d52c8951ffaadcec7cdff17f1ab05b9cca9474c9d4652da5",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/reference/display-emotions.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {},
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-40",
+      "sourceToken": "FjW6wZmisimNBBkov6OcmfvknVd",
+      "title": "OTA 接口文档",
+      "sourceUrl": "https://my.feishu.cn/docx/EbR6dyOYeokVdixlTcpciAQEn7f",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P1",
+      "targetPath": "docs/zh/reference/ota.md",
+      "rationale": "为下载、激活和固件开发提供简明入口，完整契约由固件仓库与服务实现维护。",
+      "evidence": [
+        {
+          "section": "URL 与请求示例",
+          "finding": "正文同时出现 /api/ota/ 与 /xiaozhi/ota/ 路径；应区分部署入口、内部路由和示例地址，而非让用户照抄互不一致的端点。",
+          "references": [
+            "FW-OTA"
+          ],
+          "sourceArticle": "DOC-40"
+        },
+        {
+          "section": "请求字段、响应和激活",
+          "finding": "旧说明含 0.9.8 等历史例外，未完整覆盖当前设备身份、能力、音频连接配置及 activation.challenge 激活过程。",
+          "references": [
+            "FW-OTA",
+            "CON-OTA"
+          ],
+          "sourceArticle": "DOC-40"
+        },
+        {
+          "section": "参考维护",
+          "finding": "固件仓库已有 docs/ota_zh.md 并链接 main/ota.cc；应按版本引用，避免在文档站分叉完整协议。",
+          "references": [
+            "FW-OTA"
+          ],
+          "sourceArticle": "DOC-40"
+        }
+      ],
+      "requiredChanges": [
+        "区分普通 OTA 更新、首次烧录、激活与 v1→v2 分区迁移。",
+        "以固定版本的规范为权威链接，只保留用途、版本关系和最小合法示例。"
+      ],
+      "publicationChecks": [
+        "用测试服务/设备验证未绑定、已绑定、有/无更新和异常响应，不向生产端点做破坏性请求。"
+      ],
+      "relatedArticles": [
+        "DOC-02",
+        "DOC-08",
+        "DOC-20",
+        "DOC-38"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 30,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "EbR6dyOYeokVdixlTcpciAQEn7f",
+        "revisionId": 676,
+        "contentSha256": "f19baef438f26b0145766576662a09c15592544ea07abfe3c7bf941d779a7346",
+        "characterCount": 5404,
+        "embeddedReferences": {
+          "images": 0,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 41753,
+        "uv": 30076,
+        "pv_today": 2,
+        "uv_today": 2,
+        "timestamp": 1794599438
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/reference/ota.md"
+        ],
+        "outputHashes": {
+          "docs/zh/reference/ota.md": "63c0fa6ba1bf2f8ec600c691e044364c39c94db994f78bc5d4f1582c71b7046d"
+        },
+        "contentSha256": "63c0fa6ba1bf2f8ec600c691e044364c39c94db994f78bc5d4f1582c71b7046d",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/reference/ota.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {},
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-41",
+      "sourceToken": "VkfXwEHEciGAtGkI56dcT4cKnth",
+      "title": "开源音乐",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "merge",
+      "priority": "P2",
+      "targetPath": "docs/zh/community/resources.md",
+      "rationale": "音乐是资源包而非操作教程，合并成社区资源目录，并保留原声明、署名和分发记录。",
+      "evidence": [
+        {
+          "section": "授权声明与文件表",
+          "finding": "原文明示以 MIT 发布由 AI 软件合成的作品，列有 17 组音频/歌词共 34 个附件引用；不能误判为完全没有许可声明。",
+          "references": [],
+          "sourceArticle": "DOC-41"
+        },
+        {
+          "section": "投稿与资源分发",
+          "finding": "正文主要是资源下载和投稿说明，适合统一资源目录及大文件存储，不宜把二进制直接塞入静态教程源码。",
+          "references": [],
+          "sourceArticle": "DOC-41"
+        }
+      ],
+      "requiredChanges": [
+        "记录作品、作者/提交者、原声明、媒体/歌词文件、校验值与版本。",
+        "媒体移到 Release/官方对象存储，正文保留清单和投稿入口。"
+      ],
+      "publicationChecks": [
+        "逐项确认来源及再分发条件，下载验证附件和歌词匹配；本次未执行资产迁移。"
+      ],
+      "relatedArticles": [
+        "DOC-37"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 44,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "HInUdJq2CoVa8zxsgXBcoo3yn3e",
+        "revisionId": 263,
+        "contentSha256": "5cb76ded83aaac2cd36b6ab05b5fe3f2f25236bd828fb39b77661661156b1222",
+        "characterCount": 4867,
+        "embeddedReferences": {
+          "images": 0,
+          "sheets": 0,
+          "files": 34
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 51382,
+        "uv": 45156,
+        "pv_today": 6,
+        "uv_today": 6,
+        "timestamp": 1794599439
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/community/resources.md"
+        ],
+        "outputHashes": {
+          "docs/zh/community/resources.md": "c42e528afb18654d5602c580f4386a517449f5572d0346eab13c241a52bd7631"
+        },
+        "contentSha256": "c42e528afb18654d5602c580f4386a517449f5572d0346eab13c241a52bd7631",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/community/resources.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "retained-release": 34
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-42",
+      "sourceToken": "I5Mfw6USWivlRYk5yzzc3nC0nCg",
+      "title": "小智修改默认提示音频，转换自己的P3音频文件（例如开机播报和配网播报）",
+      "sourceUrl": "https://icnynnzcwou8.feishu.cn/docx/E2o4dGZPkoJgA2x2iEocjQtnnqJ",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "archive",
+      "priority": "P2",
+      "targetPath": "docs/zh/development/archive/p3-prompts.md",
+      "rationale": "保留旧版 P3 资源用法作为历史说明；当前提示音流程另写，不能继续用旧目录指导新固件。",
+      "evidence": [
+        {
+          "section": "P3 转换、资源目录和调用",
+          "finding": "原文复制 convert_audio_to_p3.py，并把资源放 main/assets/zh-CN、修改生成的 lang_config.h。当前默认资源生成从 main/assets/locales 读取 OGG。",
+          "references": [
+            "FW-PROMPTS"
+          ],
+          "sourceArticle": "DOC-42"
+        },
+        {
+          "section": "历史工具保留",
+          "finding": "当前仓库仍有 scripts/p3_tools，不能声称 P3 工具已经删除；归档依据是该文的默认资源目录和调用流程不适合当前主路径。",
+          "references": [
+            "FW-PROMPTS"
+          ],
+          "sourceArticle": "DOC-42"
+        }
+      ],
+      "requiredChanges": [
+        "加上经确认的历史适用版本和当前替代教程入口。",
+        "另写当前 OGG/Opus 转换、locale 资源和生成流程，避免直接修改生成文件。"
+      ],
+      "publicationChecks": [
+        "先确认 P3 教程实际适用 tag，再以现行脚本生成并在设备播放自定义提示音。"
+      ],
+      "relatedArticles": [
+        "DOC-19",
+        "DOC-22",
+        "DOC-39"
+      ],
+      "secondaryTargetPaths": [
+        "docs/zh/development/custom-prompts.md"
+      ],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 33,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "E2o4dGZPkoJgA2x2iEocjQtnnqJ",
+        "revisionId": 136,
+        "contentSha256": "4c645cae4b3bf88f29edfd6606f75ba44f819ce6f7b314b74b0fd43ee58f1bad",
+        "characterCount": 1060,
+        "embeddedReferences": {
+          "images": 3,
+          "sheets": 0,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 20752,
+        "uv": 16526,
+        "pv_today": 1,
+        "uv_today": 1,
+        "timestamp": 1794599440
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/development/archive/p3-prompts.md",
+          "docs/zh/development/custom-prompts.md"
+        ],
+        "outputHashes": {
+          "docs/zh/development/archive/p3-prompts.md": "ee8d828e14e253111f36658876c99cc763e76612c6aee9f96372951cde520d98",
+          "docs/zh/development/custom-prompts.md": "62bb4806beb8221408acb80ff897e41f4d53d6d1e1cdf47e5892ab448196c295"
+        },
+        "contentSha256": "ee8d828e14e253111f36658876c99cc763e76612c6aee9f96372951cde520d98",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/development/archive/p3-prompts.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 3
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-43",
+      "sourceToken": "EprvwfRSSiGtvOk7nQUcJh64nuh",
+      "title": "小智接入联网搜索MCP（闪猫科技）",
+      "sourceUrl": "https://my.feishu.cn/docx/DN0ndX1JaoP4EWx1FBWcdCmcnoc",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "merge",
+      "priority": "P2",
+      "targetPath": "docs/zh/community/mcp-tools.md",
+      "rationale": "第三方搜索服务可列为选择之一，通用接入与排障合并进搜索示例，不维护重复的官方式教程。",
+      "evidence": [
+        {
+          "section": "服务地址与启动",
+          "finding": "正文给出 HTTP 服务后台并要求提交 MCP 端点，依赖第三方托管服务；需说明维护主体、凭据用途及连接要求。",
+          "references": [],
+          "sourceArticle": "DOC-43"
+        },
+        {
+          "section": "工具和界面",
+          "finding": "旧界面工具选择与联网搜索主题重复；本次未登录第三方平台，不能认定当前收费、功能或可用性。",
+          "references": [],
+          "sourceArticle": "DOC-43"
+        }
+      ],
+      "requiredChanges": [
+        "以作者/公司、服务入口、源码情况、费用说明和核验日期建立条目。",
+        "公共步骤链接 MCP 快速开始及搜索示例，避免复制多套旧截图。"
+      ],
+      "publicationChecks": [
+        "核验当前 HTTPS 入口、凭据处理、服务/计费和工具发现，未核验前不列为默认推荐。"
+      ],
+      "relatedArticles": [
+        "DOC-24",
+        "DOC-25",
+        "DOC-26",
+        "DOC-27",
+        "DOC-28"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 39,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "DN0ndX1JaoP4EWx1FBWcdCmcnoc",
+        "revisionId": 332,
+        "contentSha256": "03957a0e305b26aa584980c1cb84e98e45e6d5f23bdebe4e8ed13859dec1ec14",
+        "characterCount": 1622,
+        "embeddedReferences": {
+          "images": 11,
+          "sheets": 0,
+          "files": 1
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "not-applicable"
+        }
+      },
+      "traffic": {
+        "pv": 12741,
+        "uv": 9911,
+        "pv_today": 1,
+        "uv_today": 1,
+        "timestamp": 1794599441
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/community/mcp-tools.md"
+        ],
+        "outputHashes": {
+          "docs/zh/community/mcp-tools.md": "08e10b13d80e0f49d4549205e6aa6f61716393621b6166237806b4d053ab796d"
+        },
+        "contentSha256": "08e10b13d80e0f49d4549205e6aa6f61716393621b6166237806b4d053ab796d",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/community/mcp-tools.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "not-reused": 11,
+          "retained-release": 1
+        },
+        "unreadHistoricalFiles": []
+      }
+    },
+    {
+      "id": "DOC-44",
+      "sourceToken": "IpIMwVW10iwCdikFBuHcQQQ4n3f",
+      "title": "小智AI聊天太空人故事机改造",
+      "sourceUrl": "https://my.feishu.cn/docx/HCgXdX3cfoABjGxEzglcfE6Jnvd",
+      "reviewStatus": "reviewed",
+      "implementationStatus": "community-review",
+      "decision": "rewrite",
+      "priority": "P2",
+      "targetPath": "docs/zh/community/projects/astronaut-storyteller.md",
+      "rationale": "保留玩具改造案例，限定原 PCB/固件版本，供电与音频接线应重新核验后发布。",
+      "evidence": [
+        {
+          "section": "拆机、原 PCB 复用和固件",
+          "finding": "涉及拆除原板器件、复用充电/音频电路及 v0.3/v0.5 时代按键逻辑；不能作为任意故事机可套用的通用教程。",
+          "references": [],
+          "sourceArticle": "DOC-44"
+        },
+        {
+          "section": "麦克风与功放接线表",
+          "finding": "两张内嵌表读取缺少 sheets:spreadsheet:read 权限，当前没有取得表格单元格内容，不能判定接线已核验。",
+          "references": [],
+          "sourceArticle": "DOC-44"
+        },
+        {
+          "section": "电池/USB、器件和版本",
+          "finding": "电源复用、充电隔离和商用品价格依赖具体 PCB；应补板号、原理依据和可复现固件，而不是按原外观识别。",
+          "references": [
+            "POWER-DEVKIT"
+          ],
+          "sourceArticle": "DOC-44"
+        }
+      ],
+      "requiredChanges": [
+        "改写成特定 PCB 版本的案例，保留作者和拆解照片出处。",
+        "补齐电源、充电、音频与按钮接线图，明确更换/保留器件及固件身份。",
+        "删除时效价格，通用烧录配网改为主教程链接。"
+      ],
+      "publicationChecks": [
+        "补读两张表；核对原理图/PCB 版本，工程复核充电与防回灌并真机复现。",
+        "16 个图片引用尚未逐一目视核验。"
+      ],
+      "relatedArticles": [
+        "DOC-05",
+        "DOC-08",
+        "DOC-09",
+        "DOC-34",
+        "DOC-35",
+        "DOC-37"
+      ],
+      "secondaryTargetPaths": [],
+      "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
+      "priorityRank": 36,
+      "reviewedAt": "2026-11-14",
+      "sourceReview": {
+        "method": "lark-cli docs +fetch --as user --format json",
+        "bodyTextRead": true,
+        "documentId": "HCgXdX3cfoABjGxEzglcfE6Jnvd",
+        "revisionId": 3328,
+        "contentSha256": "cbe2332d98c061bc0e581f6362d3bfb465a9890429aeeabc6ad1bf1462529666",
+        "characterCount": 5797,
+        "embeddedReferences": {
+          "images": 16,
+          "sheets": 2,
+          "files": 0
+        },
+        "imageReview": "采用图片及审阅方式、未采用原因逐项记录于 media-inventory.json；未采用图片不宣称已逐张目视验证。",
+        "attachmentReview": "附件按引用逐项记录于 media-inventory.json；使用官方固件来源、独立素材 Release 或明确替代。未执行原文二进制。",
+        "sheetReview": {
+          "status": "visually-reviewed",
+          "method": "public Feishu browser preview; two embedded tables",
+          "evidence": "sheet-evidence-2026-11-14.json",
+          "firmwareCommit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
+          "limitations": "API scope remains unavailable; GPIO values visually read and compared, original 3V3 power branch not electrically validated."
+        }
+      },
+      "traffic": {
+        "pv": 47674,
+        "uv": 41107,
+        "pv_today": 0,
+        "uv_today": 0,
+        "timestamp": 1794599442
+      },
+      "notes": "新稿及同路径英文占位已建立；原文取舍结论与证据保留。具体素材去向见 media-inventory.json，未修改飞书原文。",
+      "implementation": {
+        "writtenAt": "2026-11-14",
+        "language": "zh-CN",
+        "documentStatus": "review",
+        "completedChanges": [
+          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
+          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+        ],
+        "communityFeedback": {
+          "status": "awaiting-feedback",
+          "issuesResolved": 0
+        },
+        "verificationRecord": "p1-p2-rewrite-2026-11-14.md",
+        "verification": {
+          "sourceCompared": true,
+          "siteBuilt": true,
+          "internalLinksChecked": true,
+          "hardwareTested": false,
+          "productionConsoleTested": false
+        },
+        "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
+        "outputPaths": [
+          "docs/zh/community/projects/astronaut-storyteller.md"
+        ],
+        "outputHashes": {
+          "docs/zh/community/projects/astronaut-storyteller.md": "4f6f59dc706c31f7c805f610a4098aa8422fe837f1eaf82caa897a22d7c2b2da"
+        },
+        "contentSha256": "4f6f59dc706c31f7c805f610a4098aa8422fe837f1eaf82caa897a22d7c2b2da",
+        "translation": {
+          "status": "waiting-for-chinese-community-review",
+          "counterpartPath": "docs/en/community/projects/astronaut-storyteller.md",
+          "bodyTranslated": false
+        },
+        "mediaInventory": "media-inventory.json",
+        "mediaDispositions": {
+          "retained-local-image": 10,
+          "not-reused": 6
+        },
+        "unreadHistoricalFiles": []
+      }
+    }
+  ],
+  "currentBatch": {
+    "priorities": [
+      "P1",
+      "P2"
+    ],
+    "sourceArticles": 33,
+    "primaryPages": 31,
+    "supplementaryPages": 2,
+    "language": "zh-CN",
+    "status": "community-review",
+    "report": "p1-p2-rewrite-2026-11-14.md",
+    "mediaInventory": "media-inventory.json",
+    "translation": "pending-chinese-community-feedback"
+  }
+}
