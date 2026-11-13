@@ -3578,9 +3578,9 @@
           "docs/zh/community/projects/sf32lb52-plugin.md"
         ],
         "outputHashes": {
-          "docs/zh/community/projects/sf32lb52-plugin.md": "fe22edf226150fb81154c810dd825ee32b4ba0be8cb899c4e5b98ef0d5e050df"
+          "docs/zh/community/projects/sf32lb52-plugin.md": "3b7d79eca0daac925b0d13363285e48b56b52c57131617404d0301aef52464c8"
         },
-        "contentSha256": "fe22edf226150fb81154c810dd825ee32b4ba0be8cb899c4e5b98ef0d5e050df",
+        "contentSha256": "3b7d79eca0daac925b0d13363285e48b56b52c57131617404d0301aef52464c8",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/community/projects/sf32lb52-plugin.md",

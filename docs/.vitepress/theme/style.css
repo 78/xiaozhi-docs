@@ -61,6 +61,8 @@
   .vp-doc table { display: table; table-layout: fixed; }
   .vp-doc th, .vp-doc td { min-width: 0; overflow-wrap: anywhere; }
   .vp-doc table:has(th:nth-child(2):last-child) th:first-child { width: 32%; }
+  .vp-doc table:has(th:nth-child(4)) { display: block; table-layout: auto; overflow-x: auto; }
+  .vp-doc table:has(th:nth-child(4)) th, .vp-doc table:has(th:nth-child(4)) td { min-width: 100px; overflow-wrap: normal; }
   .page-notice, .page-feedback { padding: 16px; }
 }
 .source-figure { margin: 1.5rem 0 2rem; }
