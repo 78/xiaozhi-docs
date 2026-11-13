@@ -8,6 +8,7 @@
 - `verification-baseline-2026-11-14.json`：对照的固件、控制台提交及制造商资料，供后续复核。
 - `p1-p2-rewrite-2026-11-14.md`：剩余 33 篇来源的中文重构、版本纠正、素材与验证范围。
 - `media-inventory.json`：1094 个嵌入素材引用的保留、替换或不迁入理由；未采用不等于逐项目视验证。
+- `distribution-verification-2026-11-14.json`：公开 Release 的 58 个资产校验、CI 与浏览器播放抽查结果。
 - `release-assets.json`：56 个去重原文件的来源、公开地址和 SHA-256。
 - `sheet-evidence-2026-11-14.json`：DOC-44 两张接线表的公开预览读取及更正。
 - `p0-rewrite-2026-11-14.md`：首批 11 篇中文重写的范围调整、站点接入、验证与待实测事项。

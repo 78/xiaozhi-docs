@@ -5231,6 +5231,7 @@
     "status": "community-review",
     "report": "p1-p2-rewrite-2026-11-14.md",
     "mediaInventory": "media-inventory.json",
-    "translation": "pending-chinese-community-feedback"
+    "translation": "pending-chinese-community-feedback",
+    "distributionVerification": "distribution-verification-2026-11-14.json"
   }
 }

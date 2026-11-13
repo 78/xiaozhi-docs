@@ -1,0 +1,49 @@
+{
+  "verifiedAt": "2026-11-14",
+  "repository": "https://github.com/78/xiaozhi-docs",
+  "documentCommit": "6af17a8903243f78011193062b1115a90d1b75cf",
+  "release": "https://github.com/78/xiaozhi-docs/releases/tag/tutorial-assets-2026-11-14",
+  "releaseId": 444817897,
+  "releasePublishedAt": "2026-11-13T22:52:53Z",
+  "releaseIsDraft": false,
+  "binaryFiles": 56,
+  "manifestFiles": 2,
+  "totalUploadedBytes": 910379397,
+  "remoteVerification": {
+    "allNamesMatched": true,
+    "allSizesMatched": true,
+    "allSha256DigestsMatched": true,
+    "allStatesUploaded": true,
+    "allPublicUrlsMatched": true,
+    "publicHeadSamples": {
+      "doc-30-file-001.pdf": 200,
+      "doc-18-file-001.mp4": 200,
+      "doc-41-file-001.mp3": 200,
+      "doc-36-file-002.bin": 200
+    }
+  },
+  "githubBuild": {
+    "run": "https://github.com/78/xiaozhi-docs/actions/runs/43522788765",
+    "commit": "6af17a8903243f78011193062b1115a90d1b75cf",
+    "conclusion": "success",
+    "pagesDeployed": false
+  },
+  "browserVerification": {
+    "desktopWidth": 1280,
+    "mobileWidth": 390,
+    "horizontalPageOverflow": false,
+    "wideBomScrollsWithinTable": true,
+    "searchQuery": "声音复刻",
+    "newChinesePageFound": true,
+    "englishShowsPending": true,
+    "publicReleaseVideo": {
+      "asset": "doc-18-file-001.mp4",
+      "readyState": 4,
+      "durationSeconds": 114.3,
+      "playbackObserved": true
+    },
+    "scope": "视频播放验证为一个 H.264 样本；其余素材核对下载映射/校验和，未声称所有客户端可解码全部视频。"
+  },
+  "communityConfirmed": false,
+  "hardwareTested": false
+}
