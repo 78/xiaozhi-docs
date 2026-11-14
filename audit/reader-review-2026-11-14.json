@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "reviewedAt": "2026-11-14",
-  "scope": "其余49页逐篇检查，并对上轮6篇核心硬件页回归，共55中文页面、44来源、749图片引用。",
+  "scope": "55个既有中文页完成读者视角复查；本轮补充v2.6.0正式版本页，共56页。44篇飞书来源、749个来源图片引用的原统计范围保持不变；新版Console实拍另记。",
   "summary": {
-    "pagesReviewed": 55,
+    "pagesReviewed": 56,
     "sourceArticlesReviewed": 44,
     "changedChinesePages": 45,
     "sourceImageReferencesSurveyed": 749,
@@ -15,7 +15,8 @@
     "videosInCurrentArticles": 4,
     "historicalVideosInReleaseOnly": 10,
     "communityConfirmed": 0,
-    "retainedUniqueSourceImages": 100
+    "retainedUniqueSourceImages": 100,
+    "currentConsoleScreenshots": 4
   },
   "basis": {
     "firmwareCommit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
@@ -758,7 +759,7 @@
       "figures": [],
       "attachments": [],
       "reviewNoteInAudit": "\"正式 Release v2.6.0 已核验；并未逐个运行所有板型二进制，下载前仍需确认自己的硬件。\"",
-      "contentSha256": "be0119dbac34a9e6c0c533c56de0524413b12f7e4b356316be08dd0add68448c",
+      "contentSha256": "8e5595422248cf8ca9b1d8b29423aa176f92bfcddd342b288a896f98ae9473fb",
       "previousContentSha256": "6ed34957f33888218220852da23e87c3ef18af75c063d16b8fc2fd7b0e35511a",
       "communityStatus": "awaiting-feedback"
     },
@@ -827,7 +828,7 @@
       "figures": [],
       "attachments": [],
       "reviewNoteInAudit": null,
-      "contentSha256": "8cbe9f9784a50132daf88c1d972f014ac06ca33c6174dd1d8b9479e8f08b40bc",
+      "contentSha256": "78a0195ff9e2a28bb9242d009629179e68a42924dd44c7573dce280f76b43203",
       "previousContentSha256": "9df4fd95eb59446a59af4c3560552a4e722a717cded7673c85175a494127ded4",
       "communityStatus": "section-or-contribution-page"
     },
@@ -838,7 +839,7 @@
       ],
       "editorialStatus": "checked",
       "changed": true,
-      "judgment": "新版配置关系→任务→原生串口授权→设备验证；移出旧表单与旧界面视频，不将旧额度/版本作为现行值。",
+      "judgment": "按真实Console的创建编译→基础配置/配网→任务历史→烧录确认→系统串口授权组织；新增四张截图，说明Console版本号与正式tag Commit可能不同。",
       "readingOrder": [
         "准备工作",
         "1. 打开固件编译",
@@ -851,21 +852,39 @@
       ],
       "figures": [
         {
-          "image": "/images/zh/online-builder-options.svg",
-          "alt": "在线编译：先选硬件，再选功能",
+          "image": "/images/zh/doc-18-image-011.webp",
+          "alt": "浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。",
+          "anchor": "flash",
+          "heading": "4. 下载或烧录"
+        },
+        {
+          "image": "/images/zh/console-builder-basic-2026-11-14.png",
+          "alt": "真实基础配置界面，核对芯片、板型、屏幕和语言。",
           "anchor": "configure",
           "heading": "2. 选择硬件与功能"
         },
         {
-          "image": "/images/zh/doc-18-image-011.webp",
-          "alt": "浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。",
+          "image": "/images/zh/console-builder-network-2026-11-14.png",
+          "alt": "真实音频与配网页签，说明选项随板型变化。",
+          "anchor": "configure",
+          "heading": "2. 选择硬件与功能"
+        },
+        {
+          "image": "/images/zh/console-builder-history-2026-11-14.png",
+          "alt": "已完成任务的烧录与下载入口。",
+          "anchor": "build",
+          "heading": "3. 提交并等待编译"
+        },
+        {
+          "image": "/images/zh/console-flash-confirm-2026-11-14.png",
+          "alt": "点击连接前核对板型、Commit与参数。",
           "anchor": "flash",
           "heading": "4. 下载或烧录"
         }
       ],
       "attachments": [],
-      "reviewNoteInAudit": "\"选项、任务及分区烧录行为已对照 Console 实现；尚未在生产账号和实物设备完成全流程测试。\"",
-      "contentSha256": "ecfb8bda6cadb621b401cfe64f37a0507ff4c825685e3be41d84ab3873aab4d1",
+      "reviewNoteInAudit": "已核对生产Console界面；本轮没有提交编译、连接串口或写入硬件。",
+      "contentSha256": "b57c2892618b78f36b6770e6453d97a1190acc18bc720395d13641ee9b7b1e60",
       "previousContentSha256": "557a28b405acaf152b7ad1b695c89441fa41a3812f4c1b17e5ccdf1bfe21ed71",
       "communityStatus": "awaiting-feedback"
     },
@@ -2123,6 +2142,25 @@
       "contentSha256": "b488be501282fafe3d46986a1ce464013626b3f91d39dbef2bf5c7bc7c557d65",
       "previousContentSha256": "b488be501282fafe3d46986a1ce464013626b3f91d39dbef2bf5c7bc7c557d65",
       "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/firmware/releases/v2.6.0.md",
+      "sourceArticles": [],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "补充已正式发布的v2.6.0入口；先在线安装，再按准确变体下载官方资产，最后确认镜像类型；技术变更仍由固件仓库维护。",
+      "readingOrder": [
+        "优先在线安装",
+        "常见板型下载",
+        "解压后再确认镜像类型",
+        "版本与复现",
+        "下一步"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": "官方Release/tag/API资产已核对；不宣称全板型或完整硬件验证。",
+      "communityStatus": "awaiting-feedback",
+      "contentSha256": "5649064ffa90128c33f74d7f49ec447b262f205c38d47296ecce2c3671979a76"
     }
   ],
   "requiredFigures": [
@@ -2308,12 +2346,6 @@
     },
     {
       "page": "docs/zh/firmware/online-builder.md",
-      "anchor": "configure",
-      "image": "/images/zh/online-builder-options.svg",
-      "purpose": "在线编译：先选硬件，再选功能"
-    },
-    {
-      "page": "docs/zh/firmware/online-builder.md",
       "anchor": "flash",
       "image": "/images/zh/doc-18-image-011.webp",
       "purpose": "浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。"
@@ -2467,6 +2499,30 @@
       "anchor": "scope",
       "image": "/images/zh/mcp-calculator-flow.svg",
       "purpose": "一次加法工具调用经过哪些环节"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "image": "/images/zh/console-builder-basic-2026-11-14.png",
+      "anchor": "configure",
+      "purpose": "真实基础配置界面，核对芯片、板型、屏幕和语言。"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "image": "/images/zh/console-builder-network-2026-11-14.png",
+      "anchor": "configure",
+      "purpose": "真实音频与配网页签，说明选项随板型变化。"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "image": "/images/zh/console-builder-history-2026-11-14.png",
+      "anchor": "build",
+      "purpose": "已完成任务的烧录与下载入口。"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "image": "/images/zh/console-flash-confirm-2026-11-14.png",
+      "anchor": "flash",
+      "purpose": "点击连接前核对板型、Commit与参数。"
     }
   ],
   "forbiddenLegacyConsoleFigures": [
@@ -2601,7 +2657,60 @@
       "updatedSourceHashes": 0
     },
     "hardwareTested": false,
-    "productionConsoleTested": false
+    "productionConsoleTested": false,
+    "currentFirmwareAndConsole": {
+      "record": "firmware-console-review-2026-11-14.json",
+      "npmCheck": "passed",
+      "builtHtmlPages": 114,
+      "internalReferences": 8238,
+      "chineseImageOccurrences": 134,
+      "brokenReferences": 0,
+      "browserUiReviewed": true,
+      "hardwareFlashed": false
+    }
   },
-  "imageOptimization": "image-optimization.json"
+  "imageOptimization": "image-optimization.json",
+  "capturedScreenshots": [
+    {
+      "path": "/images/zh/console-builder-basic-2026-11-14.png",
+      "sha256": "7f05548f359b9d8ef6201934c8e6db4f2d7f4b9b309eebaa7c9586e91f801a46",
+      "bytes": 36393,
+      "width": 721,
+      "height": 516,
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "path": "/images/zh/console-builder-network-2026-11-14.png",
+      "sha256": "ab51b6fc4ab3be0e20b61d847e131e2f92b85419244f10f8b23d933f414f0d85",
+      "bytes": 23327,
+      "width": 721,
+      "height": 370,
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "path": "/images/zh/console-builder-history-2026-11-14.png",
+      "sha256": "9cb535c4312f65c68737fb7f01cfc0ea8cb80aefbefdc3eeaff605468babb8eb",
+      "bytes": 28074,
+      "width": 1065,
+      "height": 286,
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "path": "/images/zh/console-flash-confirm-2026-11-14.png",
+      "sha256": "7dd24d469d2acf9e0ba654b3c18a0c7bea6684f7938bb40bd4fd6b842e4c489f",
+      "bytes": 50065,
+      "width": 631,
+      "height": 731,
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "visiblePixelsIdentical": true
+    }
+  ],
+  "currentReleaseAndConsoleReview": "firmware-console-review-2026-11-14.json"
 }

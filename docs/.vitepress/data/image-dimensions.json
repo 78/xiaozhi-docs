@@ -486,5 +486,21 @@
   "/images/zh/doc-44-image-016.webp": {
     "width": 1707,
     "height": 1280
+  },
+  "/images/zh/console-builder-basic-2026-11-14.png": {
+    "width": 721,
+    "height": 516
+  },
+  "/images/zh/console-builder-network-2026-11-14.png": {
+    "width": 721,
+    "height": 370
+  },
+  "/images/zh/console-builder-history-2026-11-14.png": {
+    "width": 1065,
+    "height": 286
+  },
+  "/images/zh/console-flash-confirm-2026-11-14.png": {
+    "width": 631,
+    "height": 731
   }
 }

@@ -380,10 +380,11 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "be0119dbac34a9e6c0c533c56de0524413b12f7e4b356316be08dd0add68448c",
+        "contentSha256": "8e5595422248cf8ca9b1d8b29423aa176f92bfcddd342b288a896f98ae9473fb",
         "completedChanges": [
           "新增版本无关下载入口，明确核对 v2.6.0 正式发布与匹配条件。",
-          "区分源码包、固件、校验值、历史版本和跨布局升级。"
+          "区分源码包、固件、校验值、历史版本和跨布局升级。",
+          "补充v2.6.0正式版本页、导航和5个已核验的官方板型下载资产；版本细节以固件仓库为准。"
         ],
         "translation": {
           "status": "waiting-for-chinese-community-review",
@@ -406,11 +407,13 @@
         "deferredWork": [],
         "outputPaths": [
           "docs/zh/firmware/downloads.md",
-          "docs/zh/firmware/releases/v2.5.2.md"
+          "docs/zh/firmware/releases/v2.5.2.md",
+          "docs/zh/firmware/releases/v2.6.0.md"
         ],
         "outputHashes": {
-          "docs/zh/firmware/downloads.md": "be0119dbac34a9e6c0c533c56de0524413b12f7e4b356316be08dd0add68448c",
-          "docs/zh/firmware/releases/v2.5.2.md": "918dca95a8b57fc3f07f3ed10eea7251847f4baeea6b73ad0add6e68be0f9166"
+          "docs/zh/firmware/downloads.md": "8e5595422248cf8ca9b1d8b29423aa176f92bfcddd342b288a896f98ae9473fb",
+          "docs/zh/firmware/releases/v2.5.2.md": "918dca95a8b57fc3f07f3ed10eea7251847f4baeea6b73ad0add6e68be0f9166",
+          "docs/zh/firmware/releases/v2.6.0.md": "5649064ffa90128c33f74d7f49ec447b262f205c38d47296ecce2c3671979a76"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {},
@@ -434,7 +437,8 @@
         "sourceImageReferencesSurveyed": 0,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "currentReleaseReview": "firmware-console-review-2026-11-14.json"
     },
     {
       "id": "DOC-03",
@@ -2616,10 +2620,11 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "ecfb8bda6cadb621b401cfe64f37a0507ff4c825685e3be41d84ab3873aab4d1",
+        "contentSha256": "b57c2892618b78f36b6770e6453d97a1190acc18bc720395d13641ee9b7b1e60",
         "completedChanges": [
           "使用当前专用编译入口，解释逐板选项和源码版本。",
-          "覆盖创建、取消、失败、下载及网页烧录，配额以页面为准。"
+          "覆盖创建、取消、失败、下载及网页烧录，配额以页面为准。",
+          "从生产Console补入4张真实界面截图，明确连接并开始烧录按钮的行为，区分在线Commit与正式tag。"
         ],
         "translation": {
           "status": "waiting-for-chinese-community-review",
@@ -2636,7 +2641,8 @@
           "siteBuilt": true,
           "internalLinksChecked": true,
           "hardwareTested": false,
-          "productionConsoleTested": false
+          "productionConsoleTested": false,
+          "productionConsoleUiReviewed": true
         },
         "scopeNote": "P0 中文重写完成，补充版本历史/原素材处置；素材实际采用范围见 media-inventory.json。未将社区确认、硬件或生产检查标记为完成。",
         "deferredWork": [],
@@ -2644,7 +2650,7 @@
           "docs/zh/firmware/online-builder.md"
         ],
         "outputHashes": {
-          "docs/zh/firmware/online-builder.md": "ecfb8bda6cadb621b401cfe64f37a0507ff4c825685e3be41d84ab3873aab4d1"
+          "docs/zh/firmware/online-builder.md": "b57c2892618b78f36b6770e6453d97a1190acc18bc720395d13641ee9b7b1e60"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -2671,7 +2677,8 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "currentConsoleReview": "firmware-console-review-2026-11-14.json"
     },
     {
       "id": "DOC-19",

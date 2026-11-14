@@ -102,6 +102,11 @@ const guides: Record<string, { slug: string; zh: string; en: string; externalZh?
       "en": "Flash & update"
     },
     {
+      "slug": "releases/v2.6.0",
+      "zh": "v2.6.0 正式固件",
+      "en": "v2.6.0 release"
+    },
+    {
       "slug": "releases/v2.5.2",
       "zh": "v2.5.2 历史固件",
       "en": "v2.5.2 archive"

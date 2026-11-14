@@ -4,7 +4,7 @@ title: "在线编译与网页烧录"
 description: "不用安装 ESP-IDF，为自己的板型生成固件并通过浏览器写入。"
 status: "review"
 reviewedAt: "2026-11-14"
-reviewNote: "选项、任务及分区烧录行为已对照 Console 实现；尚未在生产账号和实物设备完成全流程测试。"
+reviewNote: "已核对生产 Console 的配置、编译历史及烧录确认界面并截图；尚未执行本轮硬件写入与启动验证。"
 ---
 
 # 在线编译与网页烧录
@@ -20,8 +20,8 @@ reviewNote: "选项、任务及分区烧录行为已对照 Console 实现；尚�
 ## 1. 打开固件编译 {#open}
 
 1. 登录[小智控制台](https://xiaozhi.me/console/)。
-2. 进入 **固件编译**，也可直接打开[在线编译页面](https://xiaozhi.me/console/firmware-builder)。
-3. 查看当前提供的固件版本。创建任务时记录源码 Commit，后续反馈问题要用到它。
+2. 进入 **固件编译**，也可直接打开[在线编译页面](https://xiaozhi.me/console/firmware-builder)，点击 **创建编译**。
+3. 在弹窗顶部查看 **固件版本** 和 **源码 Commit**。创建任务时记录它们，后续反馈问题要用到。
 
 普通已登录用户可以进入此功能。可创建次数、可用版本及硬件列表以当前页面为准，不把某次默认额度当作永久权益。
 
@@ -36,7 +36,7 @@ reviewNote: "选项、任务及分区烧录行为已对照 Console 实现；尚�
 | 显示、摄像头、音频 | 只调整该板支持的选项，缺少选项不意味着可以靠改型号开启 |
 | 配网 | 选择硬件和固件支持的热点或 BluFi 路径 |
 
-例如基础 OLED 面包板，先选择 `bread-compact-wifi`，再确认 128×32/128×64 对应变体。不要为了看到摄像头选项而选成另一块板。
+例如基础 OLED 面包板，选择 **Bread Compact Wi-Fi（面包板）**，再确认开发板 ID 和屏幕型号：128×32 使用 `bread-compact-wifi`，128×64 使用 `bread-compact-wifi-128x64`。不要为了看到摄像头选项而选成另一块板。
 
 回声消除 AEC 需要音频电路及参考信号配合；只开启编译选项不能补齐硬件条件。
 
@@ -44,25 +44,56 @@ reviewNote: "选项、任务及分区烧录行为已对照 Console 实现；尚�
 
 <figure class="source-figure">
 
-[![在线编译：先选硬件，再选功能](/images/zh/online-builder-options.svg)](/images/zh/online-builder-options.svg)
+[![在线编译的基础配置：芯片、开发板、屏幕、语言和唤醒词。](/images/zh/console-builder-basic-2026-11-14.png)](/images/zh/console-builder-basic-2026-11-14.png)
 
-<figcaption>在线编译：先选硬件，再选功能。点击查看大图。</figcaption>
+<figcaption>面包板的基础配置示例。先核对开发板 ID 与屏幕型号，再选语言和唤醒词；版本、选项和当日额度以实际页面为准。</figcaption>
 </figure>
+
+切换到 **音频与配网** 检查当前板型提供的选项；未改动的项目沿用开发板默认值。某些板型的 **显示与摄像头** 标签会灰显，属于正常情况。
+
+<figure class="source-figure">
+
+[![音频与配网页签中的 Wi-Fi 配网方式。](/images/zh/console-builder-network-2026-11-14.png)](/images/zh/console-builder-network-2026-11-14.png)
+
+<figcaption>这套面包板可选择配网方式。可用项目随板型变化，不照抄其他设备的开关。</figcaption>
+</figure>
+
+同样显示“2.6.0”的在线构建与 [v2.6.0 正式发布包](./releases/v2.6.0)可能来自不同源码 Commit。需要复现同一个构建时，除版本号外还应保留 Commit 和参数。
 
 ## 3. 提交并等待编译 {#build}
 
-1. 检查配置，点击创建/编译按钮。
+1. 检查配置，点击 **编译固件**。
 2. 保持任务记录，观察排队、准备源码、解析依赖、编译和上传等阶段。
 3. 需要放弃时使用取消操作。不要因界面暂时没有新日志就重复提交。
 4. 成功后查看详情，保存版本、源码 Commit、板型变体和所选参数。
 
 任务历史中没有通用“重试”按钮。失败后先看错误和日志，修正参数或等待维护者处理，再按需要创建新任务。相同参数的任务可能复用缓存，完成很快不代表没有编译依据。
 
+<figure class="source-figure">
+
+[![完成的编译任务右侧提供烧录和下载操作。](/images/zh/console-builder-history-2026-11-14.png)](/images/zh/console-builder-history-2026-11-14.png)
+
+<figcaption>已完成的嘉立创实战派 S3 任务示例。确认是自己的板型与目标版本，再使用右侧的“烧录”或“下载”；不按图片中的耗时判断其他任务是否正常。</figcaption>
+</figure>
+
 ## 4. 下载或烧录 {#flash}
 
 **下载留存**：保存完整镜像及任务信息，交给离线工具时按[镜像类型](./flashing#image-types)操作；下载的应用/OTA 产物不能当作完整镜像写到 `0x0`。
 
-**网页烧录**：进入成功任务的烧录操作，确认参数 → 连接设备 → 选择串口 → 等待校验和写入 → 重新启动。无法连接时按[进入下载模式](./flashing#download-mode)操作。
+**网页烧录**：
+
+1. 找到目标任务，点击右侧 **烧录**。
+2. 在 **连接设备并烧录** 弹窗里核对开发板类型、开发板 ID、芯片、Commit 和参数。
+3. 用 USB 数据线连接匹配的设备，按需[进入下载模式](./flashing#download-mode)。关闭占用该串口的调试工具。
+4. 点击 **连接并开始烧录**，在浏览器串口选择框中选中开发板端口并连接。授权后会继续执行烧录，不再把它当作单纯的端口预览。
+5. 等待下载、校验与写入完成，再按界面提示重启设备。
+
+<figure class="source-figure">
+
+[![连接设备并烧录：核对嘉立创实战派 S3 的板型、Commit 和编译参数。](/images/zh/console-flash-confirm-2026-11-14.png)](/images/zh/console-flash-confirm-2026-11-14.png)
+
+<figcaption>烧录前的最后核对。此图是嘉立创实战派 S3 的任务，面包板用户应看到自己的板型信息；确认后才连接串口并开始写入。</figcaption>
+</figure>
 
 ::: info 设备配置会不会丢失？
 当前网页烧录按分区写入并跳过 NVS，但不会保证新旧 NVS 布局相同。普通同布局更新通常可保留 Wi-Fi；跨布局、全片擦除或离线连续写整包时，仍需准备重新配网。

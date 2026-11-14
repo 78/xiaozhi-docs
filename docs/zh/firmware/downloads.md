@@ -20,7 +20,7 @@ reviewNote: "正式 Release v2.6.0 已核验；并未逐个运行所有板型二
 | 你的需要 | 获取方式 |
 | --- | --- |
 | 大部分设备的首次安装或常规更新 | [在线编译](./online-builder)：按板型选择语言、唤醒词及该板支持的选项 |
-| 使用发布好的默认固件 | [官方 Releases](https://github.com/78/xiaozhi-esp32/releases)：选择明确版本和对应资产 |
+| 使用发布好的默认固件 | [v2.6.0 正式固件](./releases/v2.6.0)：选择与板型、屏幕及联网方式匹配的包 |
 | 使用自己的硬件或修改代码 | [本地构建](../development/build-firmware)，并使用独立板型身份 |
 
 截至 **2026-11-14**，本页核对的正式版本是 **[v2.6.0](https://github.com/78/xiaozhi-esp32/releases/tag/v2.6.0)**。后续是否已有更新，以 Releases 的正式发布说明为准；本文不把某个固定版本永久称作“最新版”。
@@ -41,7 +41,7 @@ reviewNote: "正式 Release v2.6.0 已核验；并未逐个运行所有板型二
 
 ## 2. 从正式发布页下载 {#release}
 
-1. 打开[所选版本发布页](https://github.com/78/xiaozhi-esp32/releases/tag/v2.6.0)，先阅读更新内容、支持范围和升级提示。
+1. 从 [v2.6.0 下载入口](./releases/v2.6.0)查看常见板型，或打开[官方发布页](https://github.com/78/xiaozhi-esp32/releases/tag/v2.6.0)，先阅读更新内容、支持范围和升级提示。
 2. 在 Assets 中查找与板型/变体相符的包，下载后解压。不要把 GitHub 自动生成的 **Source code** 压缩包当作已编译固件。
 3. 确认包内文件是完整镜像、OTA 应用镜像还是多文件产物，按[镜像类型说明](./flashing#image-types)选择写入方式。
 4. 没有找到准确变体时，改用在线编译或向板卡维护者确认，不选择名称最接近的文件试刷。

@@ -42,7 +42,7 @@ for (const page of ['getting-started/index', 'firmware/index', 'firmware/downloa
     throw new Error(`${page}: preserve the recommended online flashing entry`)
   }
 }
-for (const figure of review.generatedFigures) {
+for (const figure of [...review.generatedFigures, ...(review.capturedScreenshots || [])]) {
   const bytes = await readFile(resolve(root, 'docs/public' + figure.path))
   if (createHash('sha256').update(bytes).digest('hex') !== figure.sha256) {
     throw new Error(`Update the reviewed diagram record: ${figure.path}`)
