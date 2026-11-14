@@ -26,7 +26,7 @@ sourceArticles: ["DOC-05"]
 
 <figure class="source-figure wiring-figure">
 
-[![ML307R / NT26K 当前串口、握手与共地关系](/images/zh/breadboard-4g-signals-v2.6.0.svg)](/images/zh/breadboard-4g-signals-v2.6.0.svg)
+[![ML307R / NT26K 当前串口、握手与共地关系](../../public/images/zh/breadboard-4g-signals-v2.6.0.svg)](../../public/images/zh/breadboard-4g-signals-v2.6.0.svg)
 
 <figcaption>ML307R / NT26K 当前串口、握手与共地关系。固件 v2.6.0 的信号连线示意，不表示开发板物理排针位置。</figcaption>
 </figure>
@@ -41,14 +41,14 @@ ML307R 有不同供应商的核心板。下图用于识别型号与接口；购�
 
 <figure class="source-figure">
 
-[![一种 ML307R 核心板与商品界面](/images/zh/doc-05-image-017.webp)](/images/zh/doc-05-image-017.webp)
+[![一种 ML307R 核心板与商品界面](../../public/images/zh/doc-05-image-017.webp)](../../public/images/zh/doc-05-image-017.webp)
 
 <figcaption>一种 ML307R 核心板与商品界面。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![另一种 ML307R mini 核心板](/images/zh/doc-05-image-018.webp)](/images/zh/doc-05-image-018.webp)
+[![另一种 ML307R mini 核心板](../../public/images/zh/doc-05-image-018.webp)](../../public/images/zh/doc-05-image-018.webp)
 
 <figcaption>另一种 ML307R mini 核心板。点击查看大图。</figcaption>
 </figure>
@@ -59,7 +59,7 @@ ML307R 有不同供应商的核心板。下图用于识别型号与接口；购�
 
 <figure class="source-figure wiring-figure">
 
-[![ML307R + 44 针主板接线图；信号参考有效，旧 LDO 电源分支不直接沿用](/images/zh/doc-05-image-021.jpg)](/images/zh/doc-05-image-021.jpg)
+[![ML307R + 44 针主板接线图；信号参考有效，旧 LDO 电源分支不直接沿用](../../public/images/zh/doc-05-image-021.jpg)](../../public/images/zh/doc-05-image-021.jpg)
 
 <figcaption>ML307R + 44 针主板接线图；信号参考有效，旧 LDO 电源分支不直接沿用。点击查看大图。</figcaption>
 </figure>
@@ -68,7 +68,7 @@ ML307R 有不同供应商的核心板。下图用于识别型号与接口；购�
 
 <figure class="source-figure wiring-figure">
 
-[![ML307R + 42 针主板接线图；位置不同，UART 仍是 GPIO11/12](/images/zh/doc-05-image-026.jpg)](/images/zh/doc-05-image-026.jpg)
+[![ML307R + 42 针主板接线图；位置不同，UART 仍是 GPIO11/12](../../public/images/zh/doc-05-image-026.jpg)](../../public/images/zh/doc-05-image-026.jpg)
 
 <figcaption>ML307R + 42 针主板接线图；位置不同，UART 仍是 GPIO11/12。点击查看大图。</figcaption>
 </figure>
@@ -79,14 +79,14 @@ ML307R 有不同供应商的核心板。下图用于识别型号与接口；购�
 
 <figure class="source-figure">
 
-[![ML307R 扩展完成效果](/images/zh/doc-05-image-038.jpg)](/images/zh/doc-05-image-038.jpg)
+[![ML307R 扩展完成效果](../../public/images/zh/doc-05-image-038.jpg)](../../public/images/zh/doc-05-image-038.jpg)
 
 <figcaption>ML307R 扩展完成效果。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![ML307R 方案移开外围模块后的连线视角](/images/zh/doc-05-image-039.jpg)](/images/zh/doc-05-image-039.jpg)
+[![ML307R 方案移开外围模块后的连线视角](../../public/images/zh/doc-05-image-039.jpg)](../../public/images/zh/doc-05-image-039.jpg)
 
 <figcaption>ML307R 方案移开外围模块后的连线视角。点击查看大图。</figcaption>
 </figure>
@@ -98,7 +98,7 @@ ML307R 有不同供应商的核心板。下图用于识别型号与接口；购�
 
 <figure class="source-figure">
 
-[![LDO 取电局部：本页不从该焊点引电](/images/zh/doc-05-image-025.webp)](/images/zh/doc-05-image-025.webp)
+[![LDO 取电局部：本页不从该焊点引电](../../public/images/zh/doc-05-image-025.webp)](../../public/images/zh/doc-05-image-025.webp)
 
 <figcaption>LDO 取电局部：本页不从该焊点引电。点击查看大图。</figcaption>
 </figure>
@@ -109,7 +109,7 @@ ML307R 有不同供应商的核心板。下图用于识别型号与接口；购�
 
 <figure class="source-figure">
 
-[![NT26K 核心板的引脚分布示意；按实际板修订核对信号与电源接口](/images/zh/doc-05-image-019.webp)](/images/zh/doc-05-image-019.webp)
+[![NT26K 核心板的引脚分布示意；按实际板修订核对信号与电源接口](../../public/images/zh/doc-05-image-019.webp)](../../public/images/zh/doc-05-image-019.webp)
 
 <figcaption>NT26K 核心板的引脚分布示意；按实际板修订核对信号与电源接口。点击查看大图。</figcaption>
 </figure>
@@ -118,14 +118,14 @@ ML307R 有不同供应商的核心板。下图用于识别型号与接口；购�
 
 <figure class="source-figure wiring-figure">
 
-[![NT26K + 44 针主板接线图；GPIO9/10/11/12 与当前配置核对，图中 3V3 供电需另行复核](/images/zh/doc-05-image-031.webp)](/images/zh/doc-05-image-031.webp)
+[![NT26K + 44 针主板接线图；GPIO9/10/11/12 与当前配置核对，图中 3V3 供电需另行复核](../../public/images/zh/doc-05-image-031.webp)](../../public/images/zh/doc-05-image-031.webp)
 
 <figcaption>NT26K + 44 针主板接线图；GPIO9/10/11/12 与当前配置核对，图中 3V3 供电需另行复核。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![NT26K 标准板样机装配实物](/images/zh/doc-05-image-032.webp)](/images/zh/doc-05-image-032.webp)
+[![NT26K 标准板样机装配实物](../../public/images/zh/doc-05-image-032.webp)](../../public/images/zh/doc-05-image-032.webp)
 
 <figcaption>NT26K 标准板样机装配实物。点击查看大图。</figcaption>
 </figure>
@@ -134,14 +134,14 @@ ML307R 有不同供应商的核心板。下图用于识别型号与接口；购�
 
 <figure class="source-figure wiring-figure">
 
-[![NT26K + 42 针主板接线图；不能把 ML307R 的两根串口线当作完整 NT26K 接法](/images/zh/doc-05-image-033.webp)](/images/zh/doc-05-image-033.webp)
+[![NT26K + 42 针主板接线图；不能把 ML307R 的两根串口线当作完整 NT26K 接法](../../public/images/zh/doc-05-image-033.webp)](../../public/images/zh/doc-05-image-033.webp)
 
 <figcaption>NT26K + 42 针主板接线图；不能把 ML307R 的两根串口线当作完整 NT26K 接法。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![NT26K 果云板样机装配实物](/images/zh/doc-05-image-034.webp)](/images/zh/doc-05-image-034.webp)
+[![NT26K 果云板样机装配实物](../../public/images/zh/doc-05-image-034.webp)](../../public/images/zh/doc-05-image-034.webp)
 
 <figcaption>NT26K 果云板样机装配实物。点击查看大图。</figcaption>
 </figure>

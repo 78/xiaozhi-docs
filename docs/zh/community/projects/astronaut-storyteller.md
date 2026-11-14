@@ -14,7 +14,7 @@ sourceArticles: ["DOC-44"]
 
 <figure class="source-figure">
 
-[![原太空人故事机与改造目标。](/images/zh/doc-44-image-001.webp)](/images/zh/doc-44-image-001.webp)
+[![原太空人故事机与改造目标。](../../../public/images/zh/doc-44-image-001.webp)](../../../public/images/zh/doc-44-image-001.webp)
 
 <figcaption>原太空人故事机与改造目标。</figcaption>
 </figure>
@@ -25,14 +25,14 @@ sourceArticles: ["DOC-44"]
 
 <figure class="source-figure">
 
-[![示例样机 PCB 拆解照片，仅适用该板修订。](/images/zh/doc-44-image-003.jpg)](/images/zh/doc-44-image-003.jpg)
+[![示例样机 PCB 拆解照片，仅适用该板修订。](../../../public/images/zh/doc-44-image-003.jpg)](../../../public/images/zh/doc-44-image-003.jpg)
 
 <figcaption>示例样机 PCB 拆解照片，仅适用该板修订。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![原板另一视角；拆除器件前必须确认电路。](/images/zh/doc-44-image-004.webp)](/images/zh/doc-44-image-004.webp)
+[![原板另一视角；拆除器件前必须确认电路。](../../../public/images/zh/doc-44-image-004.webp)](../../../public/images/zh/doc-44-image-004.webp)
 
 <figcaption>原板另一视角；拆除器件前必须确认电路。</figcaption>
 </figure>
@@ -60,35 +60,35 @@ sourceArticles: ["DOC-44"]
 
 <figure class="source-figure">
 
-[![INMP441 麦克风模块。](/images/zh/doc-44-image-005.webp)](/images/zh/doc-44-image-005.webp)
+[![INMP441 麦克风模块。](../../../public/images/zh/doc-44-image-005.webp)](../../../public/images/zh/doc-44-image-005.webp)
 
 <figcaption>INMP441 麦克风模块。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![MAX98357A 功放模块。](/images/zh/doc-44-image-006.webp)](/images/zh/doc-44-image-006.webp)
+[![MAX98357A 功放模块。](../../../public/images/zh/doc-44-image-006.webp)](../../../public/images/zh/doc-44-image-006.webp)
 
 <figcaption>MAX98357A 功放模块。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![原功放模块接线参考。](/images/zh/doc-44-image-007.webp)](/images/zh/doc-44-image-007.webp)
+[![原功放模块接线参考。](../../../public/images/zh/doc-44-image-007.webp)](../../../public/images/zh/doc-44-image-007.webp)
 
 <figcaption>原功放模块接线参考。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![原语音模块组装。](/images/zh/doc-44-image-008.webp)](/images/zh/doc-44-image-008.webp)
+[![原语音模块组装。](../../../public/images/zh/doc-44-image-008.webp)](../../../public/images/zh/doc-44-image-008.webp)
 
 <figcaption>原语音模块组装。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![原语音部分的另一视角。](/images/zh/doc-44-image-009.webp)](/images/zh/doc-44-image-009.webp)
+[![原语音部分的另一视角。](../../../public/images/zh/doc-44-image-009.webp)](../../../public/images/zh/doc-44-image-009.webp)
 
 <figcaption>原语音部分的另一视角。</figcaption>
 </figure>
@@ -103,7 +103,7 @@ sourceArticles: ["DOC-44"]
 
 <figure class="source-figure">
 
-[![样机电源模块的 OUT 5V、BAT、VIN 和 GND 标注。输入、电池与输出不能互换；接线前核对具体模块原理图。](/images/zh/doc-44-image-012.webp)](/images/zh/doc-44-image-012.webp)
+[![样机电源模块的 OUT 5V、BAT、VIN 和 GND 标注。输入、电池与输出不能互换；接线前核对具体模块原理图。](../../../public/images/zh/doc-44-image-012.webp)](../../../public/images/zh/doc-44-image-012.webp)
 
 <figcaption>样机电源模块的 OUT 5V、BAT、VIN 和 GND 标注。输入、电池与输出不能互换；接线前核对具体模块原理图。</figcaption>
 </figure>
@@ -117,28 +117,28 @@ sourceArticles: ["DOC-44"]
 
 <figure class="source-figure">
 
-[![原改造样机完成状态。](/images/zh/doc-44-image-015.webp)](/images/zh/doc-44-image-015.webp)
+[![原改造样机完成状态。](../../../public/images/zh/doc-44-image-015.webp)](../../../public/images/zh/doc-44-image-015.webp)
 
 <figcaption>原改造样机完成状态。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![装壳效果。](/images/zh/doc-44-image-016.webp)](/images/zh/doc-44-image-016.webp)
+[![装壳效果。](../../../public/images/zh/doc-44-image-016.webp)](../../../public/images/zh/doc-44-image-016.webp)
 
 <figcaption>装壳效果。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![这块样机按键板上的信号引出点：先测量导通、有效电平和原板供电，再接入主控。](/images/zh/doc-44-image-013.webp)](/images/zh/doc-44-image-013.webp)
+[![这块样机按键板上的信号引出点：先测量导通、有效电平和原板供电，再接入主控。](../../../public/images/zh/doc-44-image-013.webp)](../../../public/images/zh/doc-44-image-013.webp)
 
 <figcaption>这块样机按键板上的信号引出点：先测量导通、有效电平和原板供电，再接入主控。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![样机的按键信号引到 S3 接口与 BOOT 附近。照片用于识别焊点，不能直接套用到其他 PCB 修订。](/images/zh/doc-44-image-014.webp)](/images/zh/doc-44-image-014.webp)
+[![样机的按键信号引到 S3 接口与 BOOT 附近。照片用于识别焊点，不能直接套用到其他 PCB 修订。](../../../public/images/zh/doc-44-image-014.webp)](../../../public/images/zh/doc-44-image-014.webp)
 
 <figcaption>样机的按键信号引到 S3 接口与 BOOT 附近。照片用于识别焊点，不能直接套用到其他 PCB 修订。</figcaption>
 </figure>

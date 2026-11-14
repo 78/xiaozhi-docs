@@ -20,19 +20,19 @@ sourceArticles: ["DOC-32"]
 
 <figure class="source-figure">
 
-[![ASR CORE 模块外观。](/images/zh/doc-32-image-006.jpg)](/images/zh/doc-32-image-006.jpg)
+[![ASR CORE 模块外观。](../../public/images/zh/doc-32-image-006.jpg)](../../public/images/zh/doc-32-image-006.jpg)
 
 <figcaption>ASR CORE 模块外观。</figcaption>
 </figure>
 <figure class="source-figure">
 
-[![ASR-LINK 下载器，用于辨认接口。](/images/zh/doc-32-image-007.jpg)](/images/zh/doc-32-image-007.jpg)
+[![ASR-LINK 下载器，用于辨认接口。](../../public/images/zh/doc-32-image-007.jpg)](../../public/images/zh/doc-32-image-007.jpg)
 
 <figcaption>ASR-LINK 下载器，用于辨认接口。</figcaption>
 </figure>
 <figure class="source-figure">
 
-[![模块配套麦克风。](/images/zh/doc-32-image-008.webp)](/images/zh/doc-32-image-008.webp)
+[![模块配套麦克风。](../../public/images/zh/doc-32-image-008.webp)](../../public/images/zh/doc-32-image-008.webp)
 
 <figcaption>模块配套麦克风。</figcaption>
 </figure>
@@ -48,14 +48,14 @@ ASR PRO 核心板、带外围的开发板和 ASR-LINK 下载器是不同硬件�
 
 <figure class="source-figure">
 
-[![ASR PRO V2.0 开发板示例：带 USB 和外围电路，不等同于仅有焊盘的核心板。](/images/zh/doc-32-image-051.webp)](/images/zh/doc-32-image-051.webp)
+[![ASR PRO V2.0 开发板示例：带 USB 和外围电路，不等同于仅有焊盘的核心板。](../../public/images/zh/doc-32-image-051.webp)](../../public/images/zh/doc-32-image-051.webp)
 
 <figcaption>ASR PRO V2.0 开发板示例：带 USB 和外围电路，不等同于仅有焊盘的核心板。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![ASR PRO 4M 核心板示例：存储容量、下载方式和引脚按对应修订核对。](/images/zh/doc-32-image-052.webp)](/images/zh/doc-32-image-052.webp)
+[![ASR PRO 4M 核心板示例：存储容量、下载方式和引脚按对应修订核对。](../../public/images/zh/doc-32-image-052.webp)](../../public/images/zh/doc-32-image-052.webp)
 
 <figcaption>ASR PRO 4M 核心板示例：存储容量、下载方式和引脚按对应修订核对。</figcaption>
 </figure>
@@ -69,14 +69,14 @@ ASR PRO 核心板、带外围的开发板和 ASR-LINK 下载器是不同硬件�
 
 <figure class="source-figure">
 
-[![天问 Block 的词条与 GPIO 动作积木示例。配置重点是识别后输出的引脚、极性和持续时间，参数须与实际板级输入匹配。](/images/zh/doc-32-image-023.webp)](/images/zh/doc-32-image-023.webp)
+[![天问 Block 的词条与 GPIO 动作积木示例。配置重点是识别后输出的引脚、极性和持续时间，参数须与实际板级输入匹配。](../../public/images/zh/doc-32-image-023.webp)](../../public/images/zh/doc-32-image-023.webp)
 
 <figcaption>天问 Block 的词条与 GPIO 动作积木示例。配置重点是识别后输出的引脚、极性和持续时间，参数须与实际板级输入匹配。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![ASRPRO 下载工具示例：选择下载器串口、芯片型号与本次生成的程序文件，不能使用小智主固件包替代。](/images/zh/doc-32-image-029.webp)](/images/zh/doc-32-image-029.webp)
+[![ASRPRO 下载工具示例：选择下载器串口、芯片型号与本次生成的程序文件，不能使用小智主固件包替代。](../../public/images/zh/doc-32-image-029.webp)](../../public/images/zh/doc-32-image-029.webp)
 
 <figcaption>ASRPRO 下载工具示例：选择下载器串口、芯片型号与本次生成的程序文件，不能使用小智主固件包替代。</figcaption>
 </figure>
@@ -93,14 +93,14 @@ ASR PRO 核心板、带外围的开发板和 ASR-LINK 下载器是不同硬件�
 
 <figure class="source-figure">
 
-[![核心板在面包板上的安装位置；先确认排针方向和相邻触点，避免跨接电源。](/images/zh/doc-32-image-033.webp)](/images/zh/doc-32-image-033.webp)
+[![核心板在面包板上的安装位置；先确认排针方向和相邻触点，避免跨接电源。](../../public/images/zh/doc-32-image-033.webp)](../../public/images/zh/doc-32-image-033.webp)
 
 <figcaption>核心板在面包板上的安装位置；先确认排针方向和相邻触点，避免跨接电源。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![样机的 ASR 输出到 S3 按钮输入示意。只用于理解信号关系；供电、电平、极性与启动行为须按具体模块确认。](/images/zh/doc-32-image-034.webp)](/images/zh/doc-32-image-034.webp)
+[![样机的 ASR 输出到 S3 按钮输入示意。只用于理解信号关系；供电、电平、极性与启动行为须按具体模块确认。](../../public/images/zh/doc-32-image-034.webp)](../../public/images/zh/doc-32-image-034.webp)
 
 <figcaption>样机的 ASR 输出到 S3 按钮输入示意。只用于理解信号关系；供电、电平、极性与启动行为须按具体模块确认。</figcaption>
 </figure>

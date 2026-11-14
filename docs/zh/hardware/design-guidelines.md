@@ -18,7 +18,7 @@ sourceArticles: ["DOC-11"]
 
 <figure class="source-figure">
 
-[![芯片与语音能力的选型示意表：麦克风数量、唤醒、音频处理和显示需求需一起考虑。具体支持范围按所用固件核对。](/images/zh/doc-11-image-001.webp)](/images/zh/doc-11-image-001.webp)
+[![芯片与语音能力的选型示意表：麦克风数量、唤醒、音频处理和显示需求需一起考虑。具体支持范围按所用固件核对。](../../public/images/zh/doc-11-image-001.webp)](../../public/images/zh/doc-11-image-001.webp)
 
 <figcaption>芯片与语音能力的选型示意表：麦克风数量、唤醒、音频处理和显示需求需一起考虑。具体支持范围按所用固件核对。</figcaption>
 </figure>

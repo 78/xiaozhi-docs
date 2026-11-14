@@ -33,7 +33,7 @@ reviewNote: "USB 供电要求已对照开发板资料；续航、低负载保活
 
 <figure class="source-figure">
 
-[![用成品 USB 移动电源给基础 S3 供电](/images/zh/usb-power-bank.svg)](/images/zh/usb-power-bank.svg)
+[![用成品 USB 移动电源给基础 S3 供电](../../public/images/zh/usb-power-bank.svg)](../../public/images/zh/usb-power-bank.svg)
 
 <figcaption>用成品 USB 移动电源给基础 S3 供电。点击查看大图。</figcaption>
 </figure>
@@ -69,14 +69,14 @@ reviewNote: "USB 供电要求已对照开发板资料；续航、低负载保活
 
 <figure class="source-figure">
 
-[![带引线和接插件的电池示例：必须按具体电池资料核对化学体系、电压和插头极性。](/images/zh/doc-34-image-002.webp)](/images/zh/doc-34-image-002.webp)
+[![带引线和接插件的电池示例：必须按具体电池资料核对化学体系、电压和插头极性。](../../public/images/zh/doc-34-image-002.webp)](../../public/images/zh/doc-34-image-002.webp)
 
 <figcaption>带引线和接插件的电池示例：必须按具体电池资料核对化学体系、电压和插头极性。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![电源模块的 B+、B− 与 5V 焊点示例。USB 接口的输入/输出用途及充电、保护能力须按该模块资料确认。](/images/zh/doc-34-image-003.webp)](/images/zh/doc-34-image-003.webp)
+[![电源模块的 B+、B− 与 5V 焊点示例。USB 接口的输入/输出用途及充电、保护能力须按该模块资料确认。](../../public/images/zh/doc-34-image-003.webp)](../../public/images/zh/doc-34-image-003.webp)
 
 <figcaption>电源模块的 B+、B− 与 5V 焊点示例。USB 接口的输入/输出用途及充电、保护能力须按该模块资料确认。</figcaption>
 </figure>

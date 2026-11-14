@@ -24,7 +24,7 @@ sourceArticles: ["DOC-23"]
 
 <figure class="source-figure">
 
-[![Windows 设备管理器中查找串口的示例；COM 编号因电脑而异。](/images/zh/doc-23-image-001.webp)](/images/zh/doc-23-image-001.webp)
+[![Windows 设备管理器中查找串口的示例；COM 编号因电脑而异。](../../public/images/zh/doc-23-image-001.webp)](../../public/images/zh/doc-23-image-001.webp)
 
 <figcaption>Windows 设备管理器中查找串口的示例；COM 编号因电脑而异。</figcaption>
 </figure>

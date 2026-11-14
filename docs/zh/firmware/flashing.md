@@ -61,7 +61,7 @@ NVS 存放 Wi-Fi 等设备配置。Console 当前的网页烧录会解析完整�
 
 <figure class="source-figure">
 
-[![Web Serial 授权窗口：选开发板对应串口。若看不准，取消后插拔观察，再重新授权。](/images/zh/doc-18-image-011.webp)](/images/zh/doc-18-image-011.webp)
+[![Web Serial 授权窗口：选开发板对应串口。若看不准，取消后插拔观察，再重新授权。](../../public/images/zh/doc-18-image-011.webp)](../../public/images/zh/doc-18-image-011.webp)
 
 <figcaption>Web Serial 授权窗口：选开发板对应串口。若看不准，取消后插拔观察，再重新授权。</figcaption>
 </figure>
@@ -98,21 +98,21 @@ macOS/Linux 的端口通常形如 `/dev/cu.usbmodem…` 或 `/dev/ttyACM0`。如
 
 <figure class="source-figure">
 
-[![Flash Download Tool 3.9.7 的启动选项：本例为 ESP32-S3 / Develop / UART。](/images/zh/doc-08-image-003.webp)](/images/zh/doc-08-image-003.webp)
+[![Flash Download Tool 3.9.7 的启动选项：本例为 ESP32-S3 / Develop / UART。](../../public/images/zh/doc-08-image-003.webp)](../../public/images/zh/doc-08-image-003.webp)
 
 <figcaption>Flash Download Tool 3.9.7 的启动选项：本例为 ESP32-S3 / Develop / UART。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![为合并镜像选择文件并填写地址；本例只适用于已确认从 0x0 写入的完整 S3 镜像。](/images/zh/doc-08-image-005.webp)](/images/zh/doc-08-image-005.webp)
+[![为合并镜像选择文件并填写地址；本例只适用于已确认从 0x0 写入的完整 S3 镜像。](../../public/images/zh/doc-08-image-005.webp)](../../public/images/zh/doc-08-image-005.webp)
 
 <figcaption>为合并镜像选择文件并填写地址；本例只适用于已确认从 0x0 写入的完整 S3 镜像。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![工具出现 FINISH 后重启设备，再检查实际版本与功能。](/images/zh/doc-08-image-009.webp)](/images/zh/doc-08-image-009.webp)
+[![工具出现 FINISH 后重启设备，再检查实际版本与功能。](../../public/images/zh/doc-08-image-009.webp)](../../public/images/zh/doc-08-image-009.webp)
 
 <figcaption>工具出现 FINISH 后重启设备，再检查实际版本与功能。</figcaption>
 </figure>

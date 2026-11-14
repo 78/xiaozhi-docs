@@ -29,7 +29,7 @@ GitHub 认证是给已登录的小智账号绑定 GitHub。它用于相应模型
 
 <figure class="source-figure">
 
-[![GitHub 认证的操作顺序](/images/zh/github-auth-flow.svg)](/images/zh/github-auth-flow.svg)
+[![GitHub 认证的操作顺序](../../public/images/zh/github-auth-flow.svg)](../../public/images/zh/github-auth-flow.svg)
 
 <figcaption>GitHub 认证的操作顺序。点击查看大图。</figcaption>
 </figure>

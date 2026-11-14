@@ -20,7 +20,7 @@ sourceArticles: ["DOC-17"]
 
 <figure class="source-figure">
 
-[![知识库的阅读与操作顺序](/images/zh/knowledge-base-flow.svg)](/images/zh/knowledge-base-flow.svg)
+[![知识库的阅读与操作顺序](../../public/images/zh/knowledge-base-flow.svg)](../../public/images/zh/knowledge-base-flow.svg)
 
 <figcaption>知识库的阅读与操作顺序。点击查看大图。</figcaption>
 </figure>

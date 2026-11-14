@@ -20,19 +20,19 @@ sourceArticles: ["DOC-12"]
 
 <figure class="source-figure">
 
-[![C3 主控模块。](/images/zh/doc-12-image-001.webp)](/images/zh/doc-12-image-001.webp)
+[![C3 主控模块。](../../public/images/zh/doc-12-image-001.webp)](../../public/images/zh/doc-12-image-001.webp)
 
 <figcaption>C3 主控模块。</figcaption>
 </figure>
 <figure class="source-figure">
 
-[![ES8311 与 NS4150 音频模块；核对具体版本和丝印。](/images/zh/doc-12-image-002.webp)](/images/zh/doc-12-image-002.webp)
+[![ES8311 与 NS4150 音频模块；核对具体版本和丝印。](../../public/images/zh/doc-12-image-002.webp)](../../public/images/zh/doc-12-image-002.webp)
 
 <figcaption>ES8311 与 NS4150 音频模块；核对具体版本和丝印。</figcaption>
 </figure>
 <figure class="source-figure">
 
-[![OLED 模块。](/images/zh/doc-12-image-009.webp)](/images/zh/doc-12-image-009.webp)
+[![OLED 模块。](../../public/images/zh/doc-12-image-009.webp)](../../public/images/zh/doc-12-image-009.webp)
 
 <figcaption>OLED 模块。</figcaption>
 </figure>
@@ -43,14 +43,14 @@ sourceArticles: ["DOC-12"]
 
 <figure class="source-figure">
 
-[![C3 方案的腔体扬声器](/images/zh/doc-12-image-003.webp)](/images/zh/doc-12-image-003.webp)
+[![C3 方案的腔体扬声器](../../public/images/zh/doc-12-image-003.webp)](../../public/images/zh/doc-12-image-003.webp)
 
 <figcaption>C3 方案的腔体扬声器。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![另一种扬声器，阻抗和接头需匹配功放](/images/zh/doc-05-image-010.webp)](/images/zh/doc-05-image-010.webp)
+[![另一种扬声器，阻抗和接头需匹配功放](../../public/images/zh/doc-05-image-010.webp)](../../public/images/zh/doc-05-image-010.webp)
 
 <figcaption>另一种扬声器，阻抗和接头需匹配功放。点击查看大图。</figcaption>
 </figure>
@@ -61,14 +61,14 @@ sourceArticles: ["DOC-12"]
 
 <figure class="source-figure">
 
-[![C3 面包板用短跳线](/images/zh/doc-05-image-011.webp)](/images/zh/doc-05-image-011.webp)
+[![C3 面包板用短跳线](../../public/images/zh/doc-05-image-011.webp)](../../public/images/zh/doc-05-image-011.webp)
 
 <figcaption>C3 面包板用短跳线。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![C3 模块间的杜邦连接线](/images/zh/doc-05-image-012.webp)](/images/zh/doc-05-image-012.webp)
+[![C3 模块间的杜邦连接线](../../public/images/zh/doc-05-image-012.webp)](../../public/images/zh/doc-05-image-012.webp)
 
 <figcaption>C3 模块间的杜邦连接线。点击查看大图。</figcaption>
 </figure>
@@ -79,14 +79,14 @@ sourceArticles: ["DOC-12"]
 
 <figure class="source-figure">
 
-[![C3 使用的可拼面包板](/images/zh/doc-05-image-013.jpg)](/images/zh/doc-05-image-013.jpg)
+[![C3 使用的可拼面包板](../../public/images/zh/doc-05-image-013.jpg)](../../public/images/zh/doc-05-image-013.jpg)
 
 <figcaption>C3 使用的可拼面包板。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![面包板内部连通结构](/images/zh/doc-05-image-014.webp)](/images/zh/doc-05-image-014.webp)
+[![面包板内部连通结构](../../public/images/zh/doc-05-image-014.webp)](../../public/images/zh/doc-05-image-014.webp)
 
 <figcaption>面包板内部连通结构。点击查看大图。</figcaption>
 </figure>
@@ -95,7 +95,7 @@ sourceArticles: ["DOC-12"]
 
 <figure class="source-figure">
 
-[![可选轻触按钮；确认同侧内部连通关系](/images/zh/doc-05-image-020.webp)](/images/zh/doc-05-image-020.webp)
+[![可选轻触按钮；确认同侧内部连通关系](../../public/images/zh/doc-05-image-020.webp)](../../public/images/zh/doc-05-image-020.webp)
 
 <figcaption>可选轻触按钮；确认同侧内部连通关系。点击查看大图。</figcaption>
 </figure>
@@ -119,7 +119,7 @@ v2.6.0 的 `xmini/c3` 使用下列配置；新硬件必须确认与其真正相�
 
 <figure class="source-figure wiring-figure">
 
-[![C3 当前 Codec、功放使能与 OLED 信号关系](/images/zh/breadboard-c3-signals-v2.6.0.svg)](/images/zh/breadboard-c3-signals-v2.6.0.svg)
+[![C3 当前 Codec、功放使能与 OLED 信号关系](../../public/images/zh/breadboard-c3-signals-v2.6.0.svg)](../../public/images/zh/breadboard-c3-signals-v2.6.0.svg)
 
 <figcaption>C3 当前 Codec、功放使能与 OLED 信号关系。固件 v2.6.0 的信号连线示意，不表示开发板物理排针位置。</figcaption>
 </figure>
@@ -128,7 +128,7 @@ v2.6.0 的 `xmini/c3` 使用下列配置；新硬件必须确认与其真正相�
 
 <figure class="source-figure wiring-figure">
 
-[![C3-N16-SF 与 ES8311/NS4150B、OLED 的完整位置图；模块信号方向和双电源脚见图前说明](/images/zh/doc-12-image-011.webp)](/images/zh/doc-12-image-011.webp)
+[![C3-N16-SF 与 ES8311/NS4150B、OLED 的完整位置图；模块信号方向和双电源脚见图前说明](../../public/images/zh/doc-12-image-011.webp)](../../public/images/zh/doc-12-image-011.webp)
 
 <figcaption>C3-N16-SF 与 ES8311/NS4150B、OLED 的完整位置图；模块信号方向和双电源脚见图前说明。点击查看大图。</figcaption>
 </figure>
@@ -150,14 +150,14 @@ C3 可使用兼容的轻量 WakeNet 路径，项目也有 C3 4G 板型。无 PSR
 
 <figure class="source-figure">
 
-[![C3 + OLED 完成实物](/images/zh/doc-12-image-012.jpg)](/images/zh/doc-12-image-012.jpg)
+[![C3 + OLED 完成实物](../../public/images/zh/doc-12-image-012.jpg)](../../public/images/zh/doc-12-image-012.jpg)
 
 <figcaption>C3 + OLED 完成实物。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![C3 + OLED 的另一侧连线](/images/zh/doc-12-image-013.webp)](/images/zh/doc-12-image-013.webp)
+[![C3 + OLED 的另一侧连线](../../public/images/zh/doc-12-image-013.webp)](../../public/images/zh/doc-12-image-013.webp)
 
 <figcaption>C3 + OLED 的另一侧连线。点击查看大图。</figcaption>
 </figure>
@@ -170,14 +170,14 @@ C3 可使用兼容的轻量 WakeNet 路径，项目也有 C3 4G 板型。无 PSR
 
 <figure class="source-figure">
 
-[![C3 彩屏样机整体效果](/images/zh/doc-12-image-014.webp)](/images/zh/doc-12-image-014.webp)
+[![C3 彩屏样机整体效果](../../public/images/zh/doc-12-image-014.webp)](../../public/images/zh/doc-12-image-014.webp)
 
 <figcaption>C3 彩屏样机整体效果。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![C3 彩屏模块的引脚与连线局部](/images/zh/doc-12-image-015.webp)](/images/zh/doc-12-image-015.webp)
+[![C3 彩屏模块的引脚与连线局部](../../public/images/zh/doc-12-image-015.webp)](../../public/images/zh/doc-12-image-015.webp)
 
 <figcaption>C3 彩屏模块的引脚与连线局部。点击查看大图。</figcaption>
 </figure>

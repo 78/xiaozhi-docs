@@ -1,7 +1,10 @@
 import { readFile, readdir, stat } from 'node:fs/promises'
 import { createHash } from 'node:crypto'
-import { resolve, relative } from 'node:path'
+import { dirname, resolve, relative } from 'node:path'
 import sharp from 'sharp'
+import { createMarkdownRenderer } from 'vitepress'
+import { readPages, locales } from './content.mjs'
+import { publicImageUrl } from './public-images.mjs'
 
 const root = resolve(import.meta.dirname, '..')
 const policy = JSON.parse(await readFile(resolve(root, 'audit/image-policy.json'), 'utf8'))
@@ -14,6 +17,43 @@ let rasterBytes = 0
 let rasterCount = 0
 let vectorCount = 0
 const largest = []
+let markdownImages = 0
+let imageLinks = 0
+
+// Validate the source links GitHub reads, rather than only checking website assets.
+const markdown = await createMarkdownRenderer(resolve(root, 'docs'))
+async function checkReference(url, file) {
+  if (/^(?:https?:)?\/\//i.test(url)) return
+  const publicUrl = publicImageUrl(url, file, resolve(root, 'docs/public'))
+  if (url.startsWith('/') || !publicUrl.startsWith('/images/')) {
+    failures.push(`${relative(root, file)}: use a relative path to docs/public/images so GitHub can show ${url}`)
+    return
+  }
+  try {
+    const filePath = decodeURIComponent(url.split(/[?#]/)[0])
+    if (!(await stat(resolve(dirname(file), filePath))).isFile()) throw new Error('Not a file')
+  } catch {
+    failures.push(`${relative(root, file)}: missing repository image ${url}`)
+  }
+}
+async function checkTokens(tokens, file) {
+  for (const token of tokens) {
+    if (token.type === 'image') {
+      markdownImages++
+      await checkReference(token.attrGet('src'), file)
+    } else if (token.type === 'link_open' && /\.(?:png|jpe?g|svg|webp|gif|avif)(?:[?#]|$)/i.test(token.attrGet('href') || '')) {
+      imageLinks++
+      await checkReference(token.attrGet('href'), file)
+    }
+    if (token.children) await checkTokens(token.children, file)
+  }
+}
+for (const locale of locales) {
+  for (const [path, { content }] of await readPages(locale)) {
+    const file = resolve(root, 'docs', locale, path)
+    await checkTokens(markdown.parse(content, { path: file, relativePath: `${locale}/${path}` }), file)
+  }
+}
 
 async function inspect(directory) {
   for (const entry of await readdir(directory, { withFileTypes: true })) {
@@ -53,3 +93,4 @@ if (rasterBytes > policy.maxTotalRasterBytes) failures.push(`Raster total ${rast
 if (auditOnly) console.log(JSON.stringify({ rasterCount, rasterBytes, vectorCount, largest: largest.sort((a, b) => b.bytes - a.bytes).slice(0, 12) }, null, 2))
 if (failures.length) throw new Error(failures.join('\n'))
 console.log(`Image budgets passed: ${rasterCount} rasters, ${(rasterBytes / 1048576).toFixed(2)} MiB; ${vectorCount} SVGs; protected text/wiring retains its pixels.`)
+console.log(`GitHub image paths passed: ${markdownImages} Markdown images and ${imageLinks} image links resolve to repository files.`)

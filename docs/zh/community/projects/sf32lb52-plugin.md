@@ -41,7 +41,7 @@ SF32 与 ESP32 的芯片、下载工具和固件格式不同。不要将 ESP32 �
 
 <figure class="source-figure">
 
-[![插件版原型与外观。](/images/zh/doc-30-image-001.webp)](/images/zh/doc-30-image-001.webp)
+[![插件版原型与外观。](../../../public/images/zh/doc-30-image-001.webp)](../../../public/images/zh/doc-30-image-001.webp)
 
 <figcaption>插件版原型与外观。</figcaption>
 </figure>

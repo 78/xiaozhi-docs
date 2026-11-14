@@ -44,7 +44,7 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 
 <figure class="source-figure">
 
-[![在线编译的基础配置：芯片、开发板、屏幕、语言和唤醒词。](/images/zh/console-builder-basic-2026-11-14.png)](/images/zh/console-builder-basic-2026-11-14.png)
+[![在线编译的基础配置：芯片、开发板、屏幕、语言和唤醒词。](../../public/images/zh/console-builder-basic-2026-11-14.png)](../../public/images/zh/console-builder-basic-2026-11-14.png)
 
 <figcaption>面包板的基础配置示例。先核对开发板 ID 与屏幕型号，再选语言和唤醒词；版本、选项和当日额度以实际页面为准。</figcaption>
 </figure>
@@ -53,7 +53,7 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 
 <figure class="source-figure">
 
-[![音频与配网页签中的 Wi-Fi 配网方式。](/images/zh/console-builder-network-2026-11-14.png)](/images/zh/console-builder-network-2026-11-14.png)
+[![音频与配网页签中的 Wi-Fi 配网方式。](../../public/images/zh/console-builder-network-2026-11-14.png)](../../public/images/zh/console-builder-network-2026-11-14.png)
 
 <figcaption>这套面包板可选择配网方式。可用项目随板型变化，不照抄其他设备的开关。</figcaption>
 </figure>
@@ -71,7 +71,7 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 
 <figure class="source-figure">
 
-[![完成的编译任务右侧提供烧录和下载操作。](/images/zh/console-builder-history-2026-11-14.png)](/images/zh/console-builder-history-2026-11-14.png)
+[![完成的编译任务右侧提供烧录和下载操作。](../../public/images/zh/console-builder-history-2026-11-14.png)](../../public/images/zh/console-builder-history-2026-11-14.png)
 
 <figcaption>已完成的嘉立创实战派 S3 任务示例。确认是自己的板型与目标版本，再使用右侧的“烧录”或“下载”；不按图片中的耗时判断其他任务是否正常。</figcaption>
 </figure>
@@ -90,7 +90,7 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 
 <figure class="source-figure">
 
-[![连接设备并烧录：核对嘉立创实战派 S3 的板型、Commit 和编译参数。](/images/zh/console-flash-confirm-2026-11-14.png)](/images/zh/console-flash-confirm-2026-11-14.png)
+[![连接设备并烧录：核对嘉立创实战派 S3 的板型、Commit 和编译参数。](../../public/images/zh/console-flash-confirm-2026-11-14.png)](../../public/images/zh/console-flash-confirm-2026-11-14.png)
 
 <figcaption>烧录前的最后核对。此图是嘉立创实战派 S3 的任务，面包板用户应看到自己的板型信息；确认后才连接串口并开始写入。</figcaption>
 </figure>
@@ -107,7 +107,7 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 
 <figure class="source-figure">
 
-[![macOS Chrome 串口选择框，选中 USB JTAG/serial debug unit 对应的小智设备。](/images/zh/console-serial-picker-macos-2026-11-14.jpg)](/images/zh/console-serial-picker-macos-2026-11-14.jpg)
+[![macOS Chrome 串口选择框，选中 USB JTAG/serial debug unit 对应的小智设备。](../../public/images/zh/console-serial-picker-macos-2026-11-14.jpg)](../../public/images/zh/console-serial-picker-macos-2026-11-14.jpg)
 
 <figcaption>macOS Chrome 示例：已选中目标 USB 串口，再点 Connect。弹窗语言跟随浏览器；端口名称和编号因电脑而异。</figcaption>
 </figure>
@@ -117,7 +117,7 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 
 <figure class="source-figure">
 
-[![浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。](/images/zh/doc-18-image-011.webp)](/images/zh/doc-18-image-011.webp)
+[![浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。](../../public/images/zh/doc-18-image-011.webp)](../../public/images/zh/doc-18-image-011.webp)
 
 <figcaption>浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。</figcaption>
 </figure>
@@ -130,7 +130,7 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 
 <figure class="source-figure">
 
-[![嘉立创实战派 S3 正在写入 ota_0 分区，进度为25%。](/images/zh/console-flash-progress-2026-11-14.jpg)](/images/zh/console-flash-progress-2026-11-14.jpg)
+[![嘉立创实战派 S3 正在写入 ota_0 分区，进度为25%。](../../public/images/zh/console-flash-progress-2026-11-14.jpg)](../../public/images/zh/console-flash-progress-2026-11-14.jpg)
 
 <figcaption>实际分区写入中的画面。分区名和百分比会继续变化，25% 只是这张截图记录的时刻。</figcaption>
 </figure>
@@ -141,7 +141,7 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 
 <figure class="source-figure">
 
-[![网页烧录完成，绿色对勾与设备正在重新启动的成功提示。](/images/zh/console-flash-success-2026-11-14.jpg)](/images/zh/console-flash-success-2026-11-14.jpg)
+[![网页烧录完成，绿色对勾与设备正在重新启动的成功提示。](../../public/images/zh/console-flash-success-2026-11-14.jpg)](../../public/images/zh/console-flash-success-2026-11-14.jpg)
 
 <figcaption>烧录成功界面。写入成功后，仍需检查设备启动和基本功能，不只看编译任务的完成状态。</figcaption>
 </figure>

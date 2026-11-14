@@ -24,7 +24,7 @@ AEC 用来降低设备播放的声音被麦克风再次拾取的影响。是否�
 
 <figure class="source-figure">
 
-[![AEC 要比较哪两路声音](/images/zh/aec-reference-path.svg)](/images/zh/aec-reference-path.svg)
+[![AEC 要比较哪两路声音](../../public/images/zh/aec-reference-path.svg)](../../public/images/zh/aec-reference-path.svg)
 
 <figcaption>AEC 要比较哪两路声音。点击查看大图。</figcaption>
 </figure>

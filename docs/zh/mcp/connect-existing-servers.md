@@ -26,7 +26,7 @@ sourceArticles: ["DOC-28"]
 
 <figure class="source-figure">
 
-[![已有 MCP 服务先选正确的传输方式](/images/zh/mcp-transport-choice.svg)](/images/zh/mcp-transport-choice.svg)
+[![已有 MCP 服务先选正确的传输方式](../../public/images/zh/mcp-transport-choice.svg)](../../public/images/zh/mcp-transport-choice.svg)
 
 <figcaption>已有 MCP 服务先选正确的传输方式。点击查看大图。</figcaption>
 </figure>

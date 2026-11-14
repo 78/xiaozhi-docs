@@ -20,7 +20,7 @@ reviewNote: "已核对 MAX98357 数据手册和固件音频实现；新耳机电
 | 带电源的桌面音箱 | 与音箱输入匹配的 Line Out 或明确兼容的耳机输出 | 先核对双方说明书 |
 | 蓝牙耳机/音箱 | 蓝牙音频协议及对应固件支持 | 不能用 BluFi 配网能力代替音频支持 |
 
-![从数字音频到不同负载的三种连接路径](/images/shared/audio-output-paths.svg)
+![从数字音频到不同负载的三种连接路径](../../public/images/shared/audio-output-paths.svg)
 
 ::: warning MAX98357 的扬声器端不是耳机口
 MAX98357A/B 是单声道 Class-D 功放。`OUTP` 和 `OUTN` 都是放大输出，不能把其中一端当作信号地。不要把这两个端子直接接到共地耳机或有源音箱的 3.5mm 插头，也不要把多个功放的负端并在一起。
@@ -50,7 +50,7 @@ MAX98357A/B 是单声道 Class-D 功放。`OUTP` 和 `OUTN` 都是放大输出�
 
 <figure class="source-figure">
 
-[![三脚 3.5mm 插座的外观。插座本身不具备耳机驱动或电平转换功能，不能直接接 MAX98357A 的输出。](/images/zh/doc-35-image-002.webp)](/images/zh/doc-35-image-002.webp)
+[![三脚 3.5mm 插座的外观。插座本身不具备耳机驱动或电平转换功能，不能直接接 MAX98357A 的输出。](../../public/images/zh/doc-35-image-002.webp)](../../public/images/zh/doc-35-image-002.webp)
 
 <figcaption>三脚 3.5mm 插座的外观。插座本身不具备耳机驱动或电平转换功能，不能直接接 MAX98357A 的输出。</figcaption>
 </figure>

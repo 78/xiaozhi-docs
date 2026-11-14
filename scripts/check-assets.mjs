@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises'
 import { createHash } from 'node:crypto'
 import { resolve } from 'node:path'
+import { publicImageUrl } from './public-images.mjs'
 
 const root = resolve(import.meta.dirname, '..')
 const ledger = JSON.parse(await readFile(resolve(root, 'audit/media-inventory.json'), 'utf8'))
@@ -64,7 +65,7 @@ for (const page of coverage.pages) {
     }
     if (section.allowedImagesOnly) {
       for (const image of body.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g)) {
-        if (!section.allowedImagesOnly.includes(image[1])) {
+        if (!section.allowedImagesOnly.includes(publicImageUrl(image[1], resolve(root, page.page), resolve(root, 'docs/public')))) {
           throw new Error(`${page.page}#${section.anchor}: unrelated figure ${image[1]}`)
         }
       }

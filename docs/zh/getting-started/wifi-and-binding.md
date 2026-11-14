@@ -39,7 +39,7 @@ reviewNote: "热点/BluFi 和六位设备码已对照代码；不同手机、板
 
 <figure class="source-figure">
 
-[![热点页面提示保存成功后，等待设备重启并连接目标网络；这一步还没有完成账号绑定。](/images/zh/doc-09-image-006.webp)](/images/zh/doc-09-image-006.webp)
+[![热点页面提示保存成功后，等待设备重启并连接目标网络；这一步还没有完成账号绑定。](../../public/images/zh/doc-09-image-006.webp)](../../public/images/zh/doc-09-image-006.webp)
 
 <figcaption>热点页面提示保存成功后，等待设备重启并连接目标网络；这一步还没有完成账号绑定。</figcaption>
 </figure>
@@ -67,7 +67,7 @@ reviewNote: "热点/BluFi 和六位设备码已对照代码；不同手机、板
 
 <figure class="source-figure">
 
-[![联网与账号绑定是两步操作](/images/zh/device-binding-flow.svg)](/images/zh/device-binding-flow.svg)
+[![联网与账号绑定是两步操作](../../public/images/zh/device-binding-flow.svg)](../../public/images/zh/device-binding-flow.svg)
 
 <figcaption>联网与账号绑定是两步操作。点击查看大图。</figcaption>
 </figure>

@@ -16,13 +16,13 @@ sourceArticles: ["DOC-07"]
 
 <figure class="source-figure">
 
-[![摄像头面包板装配示例。](/images/zh/doc-07-image-004.webp)](/images/zh/doc-07-image-004.webp)
+[![摄像头面包板装配示例。](../../public/images/zh/doc-07-image-004.webp)](../../public/images/zh/doc-07-image-004.webp)
 
 <figcaption>摄像头面包板装配示例。</figcaption>
 </figure>
 <figure class="source-figure">
 
-[![原型装配的另一视角；信号接法请以本页版本表为准。](/images/zh/doc-07-image-005.webp)](/images/zh/doc-07-image-005.webp)
+[![原型装配的另一视角；信号接法请以本页版本表为准。](../../public/images/zh/doc-07-image-005.webp)](../../public/images/zh/doc-07-image-005.webp)
 
 <figcaption>原型装配的另一视角；信号接法请以本页版本表为准。</figcaption>
 </figure>
@@ -33,19 +33,19 @@ sourceArticles: ["DOC-07"]
 
 <figure class="source-figure">
 
-[![摄像头模块与排线接口。](/images/zh/doc-07-image-001.webp)](/images/zh/doc-07-image-001.webp)
+[![摄像头模块与排线接口。](../../public/images/zh/doc-07-image-001.webp)](../../public/images/zh/doc-07-image-001.webp)
 
 <figcaption>摄像头模块与排线接口。</figcaption>
 </figure>
 <figure class="source-figure">
 
-[![LCD 模块外观。](/images/zh/doc-06-image-001.webp)](/images/zh/doc-06-image-001.webp)
+[![LCD 模块外观。](../../public/images/zh/doc-06-image-001.webp)](../../public/images/zh/doc-06-image-001.webp)
 
 <figcaption>LCD 模块外观。</figcaption>
 </figure>
 <figure class="source-figure">
 
-[![LCD 模块接口丝印。](/images/zh/doc-06-image-002.webp)](/images/zh/doc-06-image-002.webp)
+[![LCD 模块接口丝印。](../../public/images/zh/doc-06-image-002.webp)](../../public/images/zh/doc-06-image-002.webp)
 
 <figcaption>LCD 模块接口丝印。</figcaption>
 </figure>
@@ -70,7 +70,7 @@ CAM 底板已经接好的摄像头排线不需要拆开逐根加线；先核对�
 
 <figure class="source-figure wiring-figure">
 
-[![摄像头 S3 当前音频、屏幕与摄像头信号分配](/images/zh/breadboard-camera-signals-v2.6.0.svg)](/images/zh/breadboard-camera-signals-v2.6.0.svg)
+[![摄像头 S3 当前音频、屏幕与摄像头信号分配](../../public/images/zh/breadboard-camera-signals-v2.6.0.svg)](../../public/images/zh/breadboard-camera-signals-v2.6.0.svg)
 
 <figcaption>对应 v2.6.0 摄像头板配置，点击查看大图。模块供电与 CAM 板原有连线仍按具体硬件资料核对。</figcaption>
 </figure>

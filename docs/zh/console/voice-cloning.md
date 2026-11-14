@@ -30,7 +30,7 @@ sourceArticles: ["DOC-14"]
 
 <figure class="source-figure">
 
-[![声音复刻：两种输入，共用后续训练流程](/images/zh/voice-training-flow.svg)](/images/zh/voice-training-flow.svg)
+[![声音复刻：两种输入，共用后续训练流程](../../public/images/zh/voice-training-flow.svg)](../../public/images/zh/voice-training-flow.svg)
 
 <figcaption>声音复刻：两种输入，共用后续训练流程。点击查看大图。</figcaption>
 </figure>
@@ -49,7 +49,7 @@ sourceArticles: ["DOC-14"]
 
 <figure class="source-figure">
 
-[![音频编辑选区示意：边界外的内容不会提交，先试听所选片段](/images/zh/voice-audio-selection.svg)](/images/zh/voice-audio-selection.svg)
+[![音频编辑选区示意：边界外的内容不会提交，先试听所选片段](../../public/images/zh/voice-audio-selection.svg)](../../public/images/zh/voice-audio-selection.svg)
 
 <figcaption>音频编辑选区示意：边界外的内容不会提交，先试听所选片段。点击查看大图。</figcaption>
 </figure>
