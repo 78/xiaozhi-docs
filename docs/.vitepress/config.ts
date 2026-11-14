@@ -1,15 +1,17 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, type HeadConfig } from 'vitepress'
 import { readFileSync } from 'node:fs'
 import { createHash } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import { repositoryUrl, branch, hostname } from '../../site.config.mjs'
 import { sidebar } from './navigation'
 import imageDimensions from './data/image-dimensions.json'
+import { rootLanguageRedirectScript } from './theme/language-preference.mjs'
 
 const localImageDimensions: Record<string, { width: number; height: number }> = imageDimensions
 
 export default defineConfig({
-  title: 'XiaoZhi',
+  title: '小智文档',
+  lang: 'zh-CN',
   description: '小智 AI 使用与开发文档 · XiaoZhi AI documentation',
   // The custom domain serves the site at /, rather than /xiaozhi-docs/.
   base: '/',
@@ -35,9 +37,12 @@ export default defineConfig({
   transformHead({ pageData }) {
     if (pageData.isNotFound) return []
     const path = pageData.relativePath.replace(/index\.md$/, '').replace(/\.md$/, '.html')
-    const tags: [string, Record<string, string>][] = [
+    const tags: HeadConfig[] = [
       ['link', { rel: 'canonical', href: `${hostname}/${path}` }]
     ]
+    if (pageData.relativePath === 'index.md') {
+      tags.push(['script', {}, rootLanguageRedirectScript('/')])
+    }
     if (/^(zh|en)\//.test(path)) {
       for (const [locale, lang] of [['zh', 'zh-Hans'], ['en', 'en']]) {
         tags.push(['link', { rel: 'alternate', hreflang: lang, href: `${hostname}/${path.replace(/^(zh|en)\//, `${locale}/`)}` }])
