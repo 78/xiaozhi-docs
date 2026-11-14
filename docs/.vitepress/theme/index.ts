@@ -1,11 +1,11 @@
 import DefaultTheme from 'vitepress/theme'
-import { h, onMounted, watch } from 'vue'
-import { useData } from 'vitepress'
+import { h, onMounted, onUnmounted } from 'vue'
 import LanguageRedirect from './LanguageRedirect.vue'
 import PageNotice from './PageNotice.vue'
 import PageFeedback from './PageFeedback.vue'
 import SourceMaterials from './SourceMaterials.vue'
 import CommunityLink from './CommunityLink.vue'
+import { LANGUAGE_CHOICE_KEY } from './language-preference.mjs'
 import './style.css'
 
 export default {
@@ -22,16 +22,16 @@ export default {
     app.component('SourceMaterials', SourceMaterials)
   },
   setup() {
-    const { page } = useData()
-    const rememberLanguage = () => {
-      const locale = page.value.relativePath.split('/')[0]
-      if (locale === 'zh' || locale === 'en') {
-        try { localStorage.setItem('xiaozhi-docs-locale', locale) } catch { /* Storage may be blocked. */ }
-      }
+    const rememberChoice = (event: MouseEvent) => {
+      const link = event.target instanceof Element ? event.target.closest('a[href]') : null
+      if (!link?.closest('.VPNavBarTranslations, .VPNavScreenTranslations, [data-language-choice]')) return
+      const target = new URL(link.getAttribute('href')!, window.location.href)
+      if (target.origin !== window.location.origin) return
+      const locale = /^\/(zh|en)(?:\/|$)/.exec(target.pathname)?.[1]
+      if (!locale) return
+      try { localStorage.setItem(LANGUAGE_CHOICE_KEY, locale) } catch { /* Navigation still works. */ }
     }
-    onMounted(() => {
-      rememberLanguage()
-      watch(() => page.value.relativePath, rememberLanguage)
-    })
+    onMounted(() => document.addEventListener('click', rememberChoice, true))
+    onUnmounted(() => document.removeEventListener('click', rememberChoice, true))
   }
 }
