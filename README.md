@@ -1,6 +1,6 @@
 # 小智官方文档 / XiaoZhi documentation
 
-小智 AI 的使用、硬件、固件、控制台、MCP 与开发文档。内容在 GitHub 维护，网站计划发布到 **https://docs.xiaozhi.me**。
+小智 AI 的使用、硬件、固件、控制台、MCP 与开发文档。内容在 GitHub 维护，网站发布地址为 **https://docs.xiaozhi.me**。
 
 44 篇来源文档已建立中文重构、合并或历史归档稿件：P0 11 篇、P1 20 篇、P2 13 篇全部有实际去向。站内共有 56 个中文路径（含 2 个旧版跳转）及相同路径英文入口；教程标为“社区校对中”，英文只保留待翻译说明，等中文反馈确认后再编写。
 
@@ -50,7 +50,7 @@ audit/                      # 来源统计、逐篇取舍和重构进度，不�
 glossary/                   # 术语表
 scripts/                    # 内容及翻译检查
 .github/                    # PR 检查、Pages 部署、反馈模板
-site.config.mjs             # 计划中的仓库、主分支和正式域名
+site.config.mjs             # 仓库、主分支和正式域名
 ```
 
 根路径根据上次阅读语言或浏览器首选语言跳转至 `/zh/` 或 `/en/`，同时保留静态语言入口。直接打开 `/zh/…` 或 `/en/…` 会尊重该链接，不再按浏览器语言跳转。
@@ -59,7 +59,9 @@ site.config.mjs             # 计划中的仓库、主分支和正式域名
 
 ## GitHub Pages 与域名
 
-公开仓库为 [78/xiaozhi-docs](https://github.com/78/xiaozhi-docs)。目标域名配置为 `docs.xiaozhi.me`，尚需完成 Pages 与 DNS 设置。若实际仓库不同，修改 `site.config.mjs`。Actions 构建时会自动使用 `GITHUB_REPOSITORY` 生成编辑及反馈链接。
+公开仓库为 [78/xiaozhi-docs](https://github.com/78/xiaozhi-docs)。已配置 GitHub Pages 的 Actions 发布方式、自定义域名 `docs.xiaozhi.me` 和仓库变量 `PAGES_DEPLOY_ENABLED=true`；DNS 的 `docs` CNAME 指向 `78.github.io`。`main` 推送会先检查再部署，运行状态见 [部署记录](https://github.com/78/xiaozhi-docs/actions/workflows/deploy.yml)。若实际仓库不同，修改 `site.config.mjs`。Actions 构建时会自动使用 `GITHUB_REPOSITORY` 生成编辑及反馈链接。
+
+新仓库接入或重新配置时按以下步骤操作：
 
 1. 在公开仓库的 `main` 维护文档。
 2. 在 **Settings → Pages → Build and deployment** 中将 Source 设为 **GitHub Actions**。
