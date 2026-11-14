@@ -11,11 +11,15 @@ reviewNote: "正式 Release v2.6.0 已核验；并未逐个运行所有板型二
 
 固件必须匹配板型和硬件变体。同样使用 ESP32-S3 的两台设备，也可能因为屏幕、音频芯片和引脚不同而不能互刷。
 
-## 先选获取方式 {#scope}
+## 首选在线编译与烧录 {#scope}
+
+大部分设备（包括面包板）推荐直接进入[小智固件编译](https://xiaozhi.me/console/firmware-builder)，按自己的板型生成固件并在线烧录，步骤见[在线编译指南](./online-builder)。
+
+只有需要固定历史版本、离线安装或修改源码时，再使用下列其他方式。部分土豆子、KevinBox2 等修订没有引出 USB 下载引脚，先看[下载接口说明](./flashing#prepare)。
 
 | 你的需要 | 获取方式 |
 | --- | --- |
-| 不想安装开发环境 | [在线编译](./online-builder)：按板型选择语言、唤醒词及该板支持的选项 |
+| 大部分设备的首次安装或常规更新 | [在线编译](./online-builder)：按板型选择语言、唤醒词及该板支持的选项 |
 | 使用发布好的默认固件 | [官方 Releases](https://github.com/78/xiaozhi-esp32/releases)：选择明确版本和对应资产 |
 | 使用自己的硬件或修改代码 | [本地构建](../development/build-firmware)，并使用独立板型身份 |
 
@@ -83,4 +87,4 @@ sha256sum merged-binary.bin
 
 ## 下一步 {#next}
 
-前往[烧录与升级](./flashing)。如果板型不在列表中，阅读[自定义开发板](../development/custom-board)，先建立可以追溯的固件身份。
+大部分设备直接进入[在线编译并烧录](https://xiaozhi.me/console/firmware-builder)；需要离线安装时看[烧录与升级](./flashing)。如果板型不在列表中，阅读[自定义开发板](../development/custom-board)，先建立可以追溯的固件身份。

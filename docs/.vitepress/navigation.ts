@@ -10,7 +10,7 @@ export const sections = [
   { slug: 'community', zh: '社区与贡献', en: 'Community' }
 ] as const
 
-const guides: Record<string, { slug: string; zh: string; en: string }[]> = {
+const guides: Record<string, { slug: string; zh: string; en: string; externalZh?: string }[]> = {
   "getting-started": [
     {
       "slug": "wifi-and-binding",
@@ -81,20 +81,20 @@ const guides: Record<string, { slug: string; zh: string; en: string }[]> = {
     },
     {
       "slug": "design-guidelines",
-      "zh": "硬件设计与制造约束",
+      "zh": "硬件设计要点",
       "en": "Hardware design"
     }
   ],
   "firmware": [
     {
-      "slug": "downloads",
-      "zh": "下载与选择固件",
-      "en": "Choose firmware"
-    },
-    {
       "slug": "online-builder",
       "zh": "在线编译与网页烧录",
       "en": "Online builder"
+    },
+    {
+      "slug": "downloads",
+      "zh": "下载与选择固件",
+      "en": "Choose firmware"
     },
     {
       "slug": "flashing",
@@ -225,7 +225,8 @@ const guides: Record<string, { slug: string; zh: string; en: string }[]> = {
     },
     {
       "slug": "projects/sf32lb52-plugin",
-      "zh": "SF32LB52 插件版",
+      "zh": "SF32LB52 教程 ↗",
+      "externalZh": "https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/",
       "en": "SF32LB52 project"
     },
     {
@@ -263,7 +264,7 @@ export function sidebar(locale: 'zh' | 'en') {
     link: `/${locale}/${section.slug}/`,
     ...(guides[section.slug] ? {
       items: guides[section.slug].map(guide => ({
-        text: guide[locale], link: `/${locale}/${section.slug}/${guide.slug}`
+        text: guide[locale], link: locale === 'zh' && guide.externalZh ? guide.externalZh : `/${locale}/${section.slug}/${guide.slug}`
       }))
     } : {})
   }))

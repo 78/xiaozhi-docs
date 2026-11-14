@@ -32,7 +32,14 @@ ffmpeg -i input.wav -c:a libopus -b:a 16k -ac 1 -ar 16000 -frame_duration 60 out
 
 ## 3. 进入资源生成流程 {#build}
 
-在工作分支中，对照目标 locale 的现有声音、JSON 与生成器添加/替换资源；名称要保持可追溯。使用[本地构建](./build-firmware)选择该 locale，按该版本构建系统重新生成资源。
+先替换一个已存在的提示音，避免同时改事件名和调用代码。以简体中文配网提示为例，在固件工作分支中：
+
+1. 备份 `main/assets/locales/zh-CN/wificonfig.ogg`，确认它对应自己要替换的配网提示。
+2. 将转换后的 `output.ogg` 放到该路径，保留文件名 `wificonfig.ogg`。
+3. 按[本地构建](./build-firmware)选择自己的板型，并传入 `--language zh-CN` 重新构建。构建系统会收集该 locale 的 `.ogg`，生成语言头文件并嵌入音频。
+4. 安装本次产物，在设备上进入配网，试听实际事件；完成后再逐个替换其他声音。
+
+替换现有音频不需要为它修改 `language.json` 的界面文字。缺少目标语言音频时，该版本会回退到 `en-US`；新增事件或新文件名则还需修改调用与生成流程，见同版本实现。
 
 不要把 `main/assets/lang_config.h` 等生成文件作为唯一修改位置，下一次生成可能覆盖它。资源打包、分区容量和播放器接口仍以固件仓库文档/实现为准。
 

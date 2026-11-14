@@ -13,7 +13,7 @@ reviewNote: "选项、任务及分区烧录行为已对照 Console 实现；尚�
 
 ## 准备工作 {#scope}
 
-先确定芯片、板型 ID、构建变体、屏幕和内存规格；不知道型号时先看[固件选择](./downloads#identify)。网页烧录另外需要支持 Web Serial 的桌面 Chrome/Edge、USB 数据线及相应串口驱动。
+先确定芯片、板型 ID、构建变体、屏幕和内存规格；不知道型号时先看[固件选择](./downloads#identify)。网页烧录另外需要支持 Web Serial 的桌面 Chrome/Edge、USB 数据线及相应串口驱动。大部分设备和面包板可用；部分土豆子（`tudouzi`）、KevinBox2 等修订没有引出 USB 下载引脚，请按[板卡下载接口](./flashing#prepare)处理。
 
 只有当前编译目录里列出的板型可直接选择。自己改变引脚或尚未收录的新硬件，先走[自定义板型](../development/custom-board)流程。
 
@@ -40,6 +40,15 @@ reviewNote: "选项、任务及分区烧录行为已对照 Console 实现；尚�
 
 回声消除 AEC 需要音频电路及参考信号配合；只开启编译选项不能补齐硬件条件。
 
+<span id="historical-video"></span>
+
+<figure class="source-figure">
+
+[![在线编译：先选硬件，再选功能](/images/zh/online-builder-options.svg)](/images/zh/online-builder-options.svg)
+
+<figcaption>在线编译：先选硬件，再选功能。点击查看大图。</figcaption>
+</figure>
+
 ## 3. 提交并等待编译 {#build}
 
 1. 检查配置，点击创建/编译按钮。
@@ -61,6 +70,13 @@ reviewNote: "选项、任务及分区烧录行为已对照 Console 实现；尚�
 
 烧录过程中不要拔线、关闭连接或让电脑休眠。界面拒绝芯片/镜像时先核对硬件，不跳过检查。
 
+<figure class="source-figure">
+
+[![浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。](/images/zh/doc-18-image-011.webp)](/images/zh/doc-18-image-011.webp)
+
+<figcaption>浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。</figcaption>
+</figure>
+
 ## 怎么确认完成 {#verify}
 
 ::: tip 完成标志
@@ -81,9 +97,3 @@ reviewNote: "选项、任务及分区烧录行为已对照 Console 实现；尚�
 ## 下一步 {#next}
 
 新设备继续[配网与绑定](../getting-started/wifi-and-binding)；需要修改源码则转到[本地构建](../development/build-firmware)。
-
-## 操作演示视频 {#historical-video}
-
-保留旧版在线编译界面演示；选择板型、版本和构建参数仍按本页当前步骤。
-
-<SourceMaterials article="DOC-18" />

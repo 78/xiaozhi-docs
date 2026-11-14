@@ -37,6 +37,13 @@ reviewNote: "热点/BluFi 和六位设备码已对照代码；不同手机、板
 
 手机自动切网、VPN 或代理可能影响访问设备本地地址。先确认仍连接着设备热点，再检查这些设置；无需把本地热点强制改成 HTTPS。
 
+<figure class="source-figure">
+
+[![热点页面提示保存成功后，等待设备重启并连接目标网络；这一步还没有完成账号绑定。](/images/zh/doc-09-image-006.webp)](/images/zh/doc-09-image-006.webp)
+
+<figcaption>热点页面提示保存成功后，等待设备重启并连接目标网络；这一步还没有完成账号绑定。</figcaption>
+</figure>
+
 ## 2B. 使用 BluFi 配网 {#blufi}
 
 仅当固件启用了 BluFi 且板型支持时使用：
@@ -58,6 +65,13 @@ reviewNote: "热点/BluFi 和六位设备码已对照代码；不同手机、板
 
 设备验证码不是短信验证码，也不是 MAC 地址或产品序列号。不要把它发到公开讨论中让他人代绑。
 
+<figure class="source-figure">
+
+[![联网与账号绑定是两步操作](/images/zh/device-binding-flow.svg)](/images/zh/device-binding-flow.svg)
+
+<figcaption>联网与账号绑定是两步操作。点击查看大图。</figcaption>
+</figure>
+
 ## 怎么确认完成 {#verify}
 
 ::: tip 完成标志
@@ -75,7 +89,7 @@ reviewNote: "热点/BluFi 和六位设备码已对照代码；不同手机、板
 | 设备码无效或过期 | 使用设备新显示的码；不重复提交旧照片里的码 |
 | 设备已属于其他账号 | 联系原持有人按控制台流程解绑；刷固件不能替代服务端归属处理 |
 
-## 下一步与依据 {#next}
+## 下一步 {#next}
 
 在控制台选择智能体的语言、角色和音色。需要工具能力时继续[MCP 快速开始](../mcp/quickstart)；遇到异常查看[常见问题](../faq/)。
 

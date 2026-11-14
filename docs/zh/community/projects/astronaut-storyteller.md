@@ -101,6 +101,13 @@ sourceArticles: ["DOC-44"]
 
 原板供电、充电和按键电路仍需按具体 PCB 实测；读取原表和核对 GPIO 不等于完整改造方案已经通过电气与真机验证。
 
+<figure class="source-figure">
+
+[![样机电源模块的 OUT 5V、BAT、VIN 和 GND 标注。输入、电池与输出不能互换；接线前核对具体模块原理图。](/images/zh/doc-44-image-012.webp)](/images/zh/doc-44-image-012.webp)
+
+<figcaption>样机电源模块的 OUT 5V、BAT、VIN 和 GND 标注。输入、电池与输出不能互换；接线前核对具体模块原理图。</figcaption>
+</figure>
+
 ## 4. 按键、固件与装壳 {#build}
 
 1. 用独立硬件先验证显示/提示音、麦克风、联网和对话。
@@ -122,10 +129,24 @@ sourceArticles: ["DOC-44"]
 <figcaption>装壳效果。</figcaption>
 </figure>
 
+<figure class="source-figure">
+
+[![这块样机按键板上的信号引出点：先测量导通、有效电平和原板供电，再接入主控。](/images/zh/doc-44-image-013.webp)](/images/zh/doc-44-image-013.webp)
+
+<figcaption>这块样机按键板上的信号引出点：先测量导通、有效电平和原板供电，再接入主控。</figcaption>
+</figure>
+
+<figure class="source-figure">
+
+[![样机的按键信号引到 S3 接口与 BOOT 附近。照片用于识别焊点，不能直接套用到其他 PCB 修订。](/images/zh/doc-44-image-014.webp)](/images/zh/doc-44-image-014.webp)
+
+<figcaption>样机的按键信号引到 S3 接口与 BOOT 附近。照片用于识别焊点，不能直接套用到其他 PCB 修订。</figcaption>
+</figure>
+
 ## 怎么确认完成 {#verify}
 
 具体 PCB 版本的电源和充电路径已经核验，固件能从干净配置重建；装壳前后都可对话，充电、休眠和恢复不会造成异常电平或复位。当前原型照片保留为案例证据，不代表所有批次已通过这些检查。
 
-## 后续步骤 {#sources}
+## 下一步 {#sources}
 
 器件拆除和原板复用步骤只适用于核对过的 PCB 修订。需要从零开始时用[基础 S3](../../hardware/breadboard-esp32-s3)，其他硬件创意见[开源项目目录](../open-hardware)。

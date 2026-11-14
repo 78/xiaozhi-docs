@@ -5,6 +5,7 @@ import LanguageRedirect from './LanguageRedirect.vue'
 import PageNotice from './PageNotice.vue'
 import PageFeedback from './PageFeedback.vue'
 import SourceMaterials from './SourceMaterials.vue'
+import CommunityLink from './CommunityLink.vue'
 import './style.css'
 
 export default {
@@ -12,7 +13,8 @@ export default {
   Layout() {
     return h(DefaultTheme.Layout, null, {
       'doc-before': () => h(PageNotice),
-      'doc-after': () => h(PageFeedback)
+      'doc-after': () => h(PageFeedback),
+      'nav-bar-content-after': () => h(CommunityLink)
     })
   },
   enhanceApp({ app }) {

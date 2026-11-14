@@ -16,7 +16,7 @@ sourceArticles: ["DOC-33"]
 
 准备[独立板型](./custom-board)、空闲且可输出的 GPIO，以及符合 GPIO 电压/电流条件、带合适限流的 LED。不要直接由 GPIO 驱动电机、大功率灯或继电器线圈。
 
-先核对启动绑带、USB、存储和其他外设占用。GPIO17 只能作为示例编号，不代表所有板都可用。
+先核对启动绑带、USB、存储和其他外设占用。下面以 v2.6.0 基础 S3 的 `LAMP_GPIO = GPIO_NUM_18` 为例；仅在 GPIO18 没有被其他扩展占用时使用。
 
 ## 1. 复用当前示例 {#implementation}
 
@@ -32,6 +32,23 @@ sourceArticles: ["DOC-33"]
 
 在自己的板型中选择经过核对的引脚，保证控制对象生命周期覆盖工具回调。低有效模块与示例极性不同，需要自己适配，不能只换显示名称。
 
+### 连接一个低电流 LED {#led-wiring}
+
+断电连接：**GPIO18 → 330Ω 限流电阻 → LED 正极，LED 负极 → GND**。以普通红色 LED 为例，长脚通常为正极、外壳平边通常标负极，最终以器件资料为准。不要省略电阻。
+
+<figure class="source-figure">
+
+[![基础 S3 的 GPIO18 指示灯连接](/images/zh/gpio-led-wiring.svg)](/images/zh/gpio-led-wiring.svg)
+
+<figcaption>基础 S3 的 GPIO18 指示灯连接。点击查看大图。</figcaption>
+</figure>
+
+### 板级代码目录定位演示 {#materials}
+
+可展开查看代码目录操作。录制使用另一版 IDE 和目录结构，当前修改位置按上面的 v2.6.0 链接定位。
+
+<SourceMaterials article="DOC-33" />
+
 ## 2. 注册更多工具时 {#tools}
 
 按照[固件 MCP 使用文档](https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/docs/mcp-usage.md)定义清晰的工具名、用途和 bool/int/string 参数。区分 `AddTool` 与 `AddUserOnlyTool`：普通模型可调用工具和只面向用户发起的特权操作不同。
@@ -45,13 +62,7 @@ GPIO 类型、板级注册和协议定义都在固件项目维护；本页不复
 3. 明确请求打开和关闭指示灯，分别观察调用结果与真实电平/灯状态。
 4. 重启检查默认状态；多次开关后验证没有影响音频、显示或启动。
 
-原示例返回的软件状态不等于真实负载反馈；需要知道灯是否实际点亮时还需独立检测。
-
-## 演示素材 {#materials}
-
-<SourceMaterials article="DOC-33" />
-
-原视频是旧代码目录操作演示。旧目录、旧 IDE 和自定义类名截图不再充当当前代码补丁；作者与素材出处保留。
+示例返回的软件状态不等于真实负载反馈；需要知道灯是否实际点亮时还需独立检测。
 
 ## 下一步 {#next}
 

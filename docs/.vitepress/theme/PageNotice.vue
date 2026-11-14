@@ -17,7 +17,7 @@ const original = computed(() => withBase(`/zh/${page.value.relativePath.slice(3)
   </aside>
   <aside v-else-if="frontmatter.status === 'review'" class="page-notice page-notice-review" role="note">
     <div class="page-notice-heading"><strong>中文初稿 · 社区校对中</strong><span v-if="frontmatter.reviewedAt">{{ frontmatter.reviewedAt }}</span></div>
-    <p>{{ frontmatter.reviewNote || '欢迎按实际操作反馈步骤、硬件差异和缺少的说明。' }} 英文将在中文校对后编写。</p>
+    <p>欢迎反馈步骤、配图和硬件差异。英文将在中文校对后编写。</p>
     <a class="review-feedback-link" href="#page-feedback">反馈此页问题 ↓</a>
   </aside>
   <aside v-else-if="frontmatter.translationStale" class="page-notice" role="note">

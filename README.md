@@ -4,11 +4,11 @@
 
 44 篇来源文档已建立中文重构、合并或历史归档稿件：P0 11 篇、P1 20 篇、P2 13 篇全部有实际去向。站内共有 55 个中文页面及相同路径英文入口；教程标为“社区校对中”，英文只保留待翻译说明，等中文反馈确认后再编写。
 
-图片和附件随文章整理：保留 105 个原图引用（99 个去重文件），另补 6 张按当前固件生成的连线图；14 段视频、音乐/歌词与设计文件共 56 个去重文件放在独立 [素材 Release](https://github.com/78/xiaozhi-docs/releases/tag/tutorial-assets-2026-11-14)。ESP32 主固件引用 `78/xiaozhi-esp32` 官方 Releases；SF32 与第三方 ESP8266 案例明确区分来源。OTA 与协议内容以固件对应版本为准。
+图片和附件随文章整理：当前采用 106 个原图引用（100 个去重文件），保留 6 张按固件生成的接线图，并新增 16 张流程、信号关系或电路示意。14 段视频与其他附件仍保留在独立 [素材 Release](https://github.com/78/xiaozhi-docs/releases/tag/tutorial-assets-2026-11-14)；其中 4 段在当前文章提供，SF32 与旧在线编译的 10 段录屏仅作历史存档，SF32 当前教程直接外链维护者。主固件直接使用 `78/xiaozhi-esp32` 官方 Releases，OTA 与协议始终以固件对应版本为准。
 
-上一轮遗漏了核心面包板接线/效果图，并把模块照片放错到选型页；本次已修复基础 S3、彩屏、C3、经典 ESP32、摄像头和 4G 的图文组织。纠错范围与原图差异见 [面包板图文修复记录](audit/breadboard-illustration-repair-2026-11-14.md)。正文和构建通过不代表全部素材已验收。
+55 个中文页面已逐篇复查阅读顺序、图文相关性和素材去向，749 个图片引用均完成接触表筛选。首推 [官方在线编译与烧录](https://xiaozhi.me/console/firmware-builder)，说明未引出 USB 下载接口的例外；控制台指南按新版实现重做，不再使用旧布局截图引导点击。中文仍待社区确认，尚未完成全部真机、电气或生产流程验证。
 
-逐篇依据、去向和实施状态见 [审计清单](audit/inventory.json)，最新范围及验证见 [P1/P2 重构记录](audit/p1-p2-rewrite-2026-11-14.md)，完整素材取舍见 [素材清单](audit/media-inventory.json)。社区尚未确认，真机、电气与生产流程未全部验证。
+逐篇结论见 [读者视角复查](audit/reader-review-2026-11-14.md)与[机器可读清单](audit/reader-review-2026-11-14.json)，原文取舍见[来源审计清单](audit/inventory.json)，每张图片与附件的取舍见[素材清单](audit/media-inventory.json)。讨论入口集中在右上角，中文 QQ 群和其他语言 Discord 只在 `docs/.vitepress/data/community.json` 维护，不把具体联系号写进文章。
 
 ## 本地使用
 

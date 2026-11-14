@@ -48,6 +48,13 @@ MAX98357A/B 是单声道 Class-D 功放。`OUTP` 和 `OUTN` 都是放大输出�
 
 如果手上只有 MAX98357A 的扬声器端，**不要靠增加一个三脚插座改成耳机口**。需要增加带明确耳机/线路输出规格的 Codec、DAC 或耳放，并完成其供电、滤波、接口和固件适配。具体电路应由选定模块的设计资料确定；这里不提供未经台架验证的转接接线。
 
+<figure class="source-figure">
+
+[![三脚 3.5mm 插座的外观。插座本身不具备耳机驱动或电平转换功能，不能直接接 MAX98357A 的输出。](/images/zh/doc-35-image-002.webp)](/images/zh/doc-35-image-002.webp)
+
+<figcaption>三脚 3.5mm 插座的外观。插座本身不具备耳机驱动或电平转换功能，不能直接接 MAX98357A 的输出。</figcaption>
+</figure>
+
 ## 怎么确认完成 {#verify}
 
 ::: tip 完成标志
@@ -63,7 +70,7 @@ MAX98357A/B 是单声道 Class-D 功放。`OUTP` 和 `OUTN` 都是放大输出�
 | 声音失真 | 从低音量开始，确认扬声器功率、供电余量和接线牢固性 |
 | 想要立体声 | 单声道功放没有两路独立输出；需要双通道硬件、引脚与固件一起支持 |
 
-## 下一步与依据 {#next}
+## 下一步 {#next}
 
 - 继续完成[基础 S3 接线](./breadboard-esp32-s3)或查看[电池供电](./battery-power)。
 - 电气依据：[MAX98357A/B 数据手册](https://www.analog.com/media/en/technical-documentation/data-sheets/max98357a-max98357b.pdf)。

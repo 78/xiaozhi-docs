@@ -24,7 +24,7 @@ sourceArticles: ["DOC-43", "DOC-26", "DOC-27", "DOC-28"]
 
 作者：**粽子同学**。项目入口：[xiaozhi-MCPTools](https://github.com/ZongZiTongXue/xiaozhi-MCPTools)。安装前查看作者的发布说明，确认当前版本和分发入口。
 
-安装细节由作者维护。不要把管理员运行、关闭 UAC 或忽略 401 写成官方接入的必要步骤；先用[官方最小例子](../mcp/quickstart)验证端点，工具不能启动时保存实际错误。
+安装细节由作者维护。遇到权限或 401 错误时，先检查发行说明与鉴权配置；先用[官方最小例子](../mcp/quickstart)验证端点，工具不能启动时保存实际错误。
 
 ## xiaozhi-mcphub {#mcphub}
 
@@ -32,9 +32,9 @@ sourceArticles: ["DOC-43", "DOC-26", "DOC-27", "DOC-28"]
 
 <figure class="source-figure">
 
-[![原工具市场架构示意，用于理解设备、桥接和工具服务的关系。](/images/zh/doc-27-image-006.webp)](/images/zh/doc-27-image-006.webp)
+[![xiaozhi-mcphub 的工具市场列表：这是挑选服务的界面，不是连接架构图。](/images/zh/doc-27-image-006.webp)](/images/zh/doc-27-image-006.webp)
 
-<figcaption>原工具市场架构示意，用于理解设备、桥接和工具服务的关系。</figcaption>
+<figcaption>xiaozhi-mcphub 的工具市场列表：这是挑选服务的界面，不是连接架构图。</figcaption>
 </figure>
 
 自部署前看该版本 README，固定镜像/源码版本，修改默认凭据，确认数据库与备份。
@@ -47,7 +47,7 @@ HyperChat 与 McpPipe 可用于管理图形化网关和连接器。stdio、SSE�
 
 闪猫科技提供托管搜索服务。使用前确认当前 HTTPS 入口、费用与维护主体，再决定是否交给它自己的 MCP 凭据。
 
-需要使用时从[原服务教程](https://my.feishu.cn/docx/DN0ndX1JaoP4EWx1FBWcdCmcnoc)核对当前 HTTPS 入口与维护主体，再判断是否将自己的 MCP 凭据交给服务。只想掌握通用搜索接入时看[搜索示例](../mcp/examples/web-search)。
+需要使用时从[服务维护说明](https://my.feishu.cn/docx/DN0ndX1JaoP4EWx1FBWcdCmcnoc)核对当前 HTTPS 入口与维护主体，再判断是否将自己的 MCP 凭据交给服务。只想掌握通用搜索接入时看[搜索示例](../mcp/examples/web-search)。
 
 <SourceMaterials article="DOC-43" />
 

@@ -17,6 +17,13 @@ reviewNote: "命令和板型参数已对照 v2.6.0；未在本机安装 ESP-IDF 
 
 准备 Git、受 ESP-IDF 支持的 Python 和系统构建依赖。Windows、Linux、macOS 的安装前提不同，先按[乐鑫安装指南](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/index.html)完成对应系统准备。下面以 ESP32-S3 为例。
 
+<figure class="source-figure">
+
+[![本地构建的目录与操作顺序](/images/zh/firmware-build-flow.svg)](/images/zh/firmware-build-flow.svg)
+
+<figcaption>本地构建的目录与操作顺序。点击查看大图。</figcaption>
+</figure>
+
 ## 1. 安装并激活 ESP-IDF {#install}
 
 在自己选择的工作目录克隆 SDK；已有同名目录时先确认用途，不覆盖它：
@@ -61,7 +68,7 @@ cd xiaozhi-esp32
 git describe --tags --always
 ```
 
-`--branch v2.6.0` 检出的是 tag，通常处于 detached HEAD；需要保存源码修改时先创建自己的工作分支。不要为了修改服务器地址退回旧教程的 v1.6.0。
+`--branch v2.6.0` 检出的是 tag，通常处于 detached HEAD；需要保存源码修改时先创建自己的工作分支。
 
 ## 3. 查询板型并构建 {#build}
 

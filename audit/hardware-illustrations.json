@@ -287,12 +287,18 @@
       "page": "docs/zh/hardware/breadboard-camera.md",
       "sections": [
         {
-          "anchor": "wiring",
-          "purpose": "CAM 原装配与实际信号分配",
+          "anchor": "finished-overview",
+          "purpose": "相机样机完成效果先于材料和接线",
           "sourceImages": [
             "DOC-07-image-004",
             "DOC-07-image-005"
           ],
+          "diagrams": []
+        },
+        {
+          "anchor": "wiring-diagram",
+          "purpose": "当前相机信号分配图",
+          "sourceImages": [],
           "diagrams": [
             "/images/zh/breadboard-camera-signals-v2.6.0.svg"
           ]

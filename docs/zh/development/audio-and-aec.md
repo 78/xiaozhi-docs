@@ -22,6 +22,15 @@ AEC 用来降低设备播放的声音被麦克风再次拾取的影响。是否�
 
 本页依据[当前仓库 Kconfig](https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/main/Kconfig.projbuild)。支持范围随版本变化，先检查所用版本的依赖条件。
 
+<figure class="source-figure">
+
+[![AEC 要比较哪两路声音](/images/zh/aec-reference-path.svg)](/images/zh/aec-reference-path.svg)
+
+<figcaption>AEC 要比较哪两路声音。点击查看大图。</figcaption>
+</figure>
+
+这是信号关系图，不是新增麦克风或接线的电路图。参考输入的实际来源由板型与 Codec 实现决定。
+
 ## 1. 先验证基础音频 {#baseline}
 
 关闭不必要的自定义处理，从低音量开始验证提示音、单独录音和对话。确认麦克风没有被遮挡、扬声器不直接冲向拾音孔、结构无明显振动传导。先记录不开 AEC 时的基准。
@@ -34,7 +43,7 @@ AEC 用来降低设备播放的声音被麦克风再次拾取的影响。是否�
 
 当前设备端 AEC 依赖受支持的芯片、PSRAM、AFE 和板型，参考信号由对应音频硬件提供。不要取消 Kconfig 依赖来给不具备参考通路的板强行打开。
 
-旧版 IDF 5 的菜单截图被当前配置说明替代；编译环境使用[本地构建指南](./build-firmware)。
+编译环境和配置方法见[本地构建指南](./build-firmware)。
 
 ## 3. 用同一组条件比较 {#test}
 
@@ -49,6 +58,6 @@ AEC 用来降低设备播放的声音被麦克风再次拾取的影响。是否�
 能说明采用哪条参考/处理路径，并给出同条件前后结果；没有通过 UI 样式或麦克风数量推断效果。
 :::
 
-## 下一步与素材 {#next}
+## 下一步 {#next}
 
 硬件结构参考[产品设计要点](../hardware/design-guidelines)，唤醒行为见[唤醒词](./wake-words)。配置选项的位置与依赖按所用固件、ESP-IDF 版本查看。

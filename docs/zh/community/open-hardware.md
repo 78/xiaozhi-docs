@@ -42,4 +42,4 @@ sourceArticles: ["DOC-37"]
 
 ## 下一步 {#next}
 
-查看[SF32 插件版设计案例](./projects/sf32lb52-plugin)与[故事机改造](./projects/astronaut-storyteller)。准备采购时结合[硬件选型](../hardware/choosing-hardware)，不要把目录顺序理解为商业推荐排序。
+查看[嘉立创 SF32 插件版教程](https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/)与[故事机改造](./projects/astronaut-storyteller)。准备采购时结合[硬件选型](../hardware/choosing-hardware)，不要把目录顺序理解为商业推荐排序。

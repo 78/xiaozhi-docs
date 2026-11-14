@@ -19,6 +19,13 @@ sourceArticles: ["DOC-36"]
 - 唤醒模块持续通电、联网，与目标 PC 的网络路径可达；检查客户端隔离。
 - 第三方平台、模块固件和 MCP 桥接均有明确版本和来源。
 
+<figure class="source-figure">
+
+[![先验证局域网唤醒，再接语音](/images/zh/wake-on-lan-flow.svg)](/images/zh/wake-on-lan-flow.svg)
+
+<figcaption>先验证局域网唤醒，再接语音。点击查看大图。</figcaption>
+</figure>
+
 ## 1. 先做本地测试 {#local}
 
 先在局域网使用可验证的 WoL 工具确认目标 PC 能唤醒。记录有线网卡 MAC、目标网络和电源状态；本地都不能唤醒时，接入语音不会解决问题。
@@ -29,8 +36,7 @@ MAC/IP 是配置线索，不等于平台账号或模块 UUID。不要把它们�
 
 下方保留 ESP8266 专用二进制与校验值；它不是 xiaozhi-esp32 固件，不能从小智主固件 Release 随意选择替代。源码需联系作者，不能称作完全自包含的官方开源方案。核对来源后按其文档烧录、配网，并确认模块在线。
 
-原流程依赖 `xiaozhimcp.top` 等外部服务；使用前确认当前 HTTPS 入口、维护者和凭据用途。本篇不复用旧 HTTP 登录地址，也没有替用户注册或上传 MCP 端点。
-
+原流程依赖 `xiaozhimcp.top` 等外部服务；使用前确认当前 HTTPS 入口、维护者和凭据用途。确认 HTTPS 入口后，使用自己的账号按平台说明配置端点。
 
 <SourceMaterials article="DOC-36" />
 
@@ -43,6 +49,6 @@ MAC/IP 是配置线索，不等于平台账号或模块 UUID。不要把它们�
 
 只看到“调用成功”不能证明 PC 已经启动；当前方案也不能由开机成功推断远程关机能力。
 
-## 资料与下一步 {#sources}
+## 下一步 {#sources}
 
 先掌握[MCP 快速开始](../../mcp/quickstart)，再根据自己的网络选择维护方案。

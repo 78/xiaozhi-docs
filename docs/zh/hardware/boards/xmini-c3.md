@@ -19,13 +19,6 @@ Xmini 是一组硬件，不能把 Wi-Fi、V3 与 4G 版当成同一块板。电�
 <figcaption>Xmini-C3 板外观。</figcaption>
 </figure>
 
-<figure class="source-figure">
-
-[![原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。](/images/zh/doc-29-image-019.webp)](/images/zh/doc-29-image-019.webp)
-
-<figcaption>原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。</figcaption>
-</figure>
-
 ## 1. 对照自己的板 {#scope}
 
 | 系列 | v2.6.0 源码目录 | 核对重点 |
@@ -35,6 +28,13 @@ Xmini 是一组硬件，不能把 Wi-Fi、V3 与 4G 版当成同一块板。电�
 | C3 4G | `xmini/c3-4g` | 蜂窝模块、SIM、供电与网络配置 |
 
 例如原版 Codec 的 I2C 在 GPIO3/4，V3 在 GPIO0/1；不要从旧照片推断新板的连接。具体以[当前板型目录](https://github.com/78/xiaozhi-esp32/tree/4de00aed740595a8713b01f8332b9b2cf30685bc/main/boards/xmini)为准。
+
+<figure class="source-figure">
+
+[![原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。](/images/zh/doc-29-image-019.webp)](/images/zh/doc-29-image-019.webp)
+
+<figcaption>原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。</figcaption>
+</figure>
 
 ## 2. 安装固件 {#flash}
 
@@ -54,6 +54,6 @@ Wi-Fi 版按固件选择热点或 BluFi 配网，继续[设备绑定](../../gett
 
 版本和变体符合实物，显示、音频、网络与对话通过；电池/唤醒功能仅在对应硬件和构建确实支持时验证。把结果记录到具体版本，避免用一块板的成功覆盖整系列。
 
-## 素材与下一步 {#sources}
+## 下一步 {#sources}
 
-历史硬件照片保留用于识别，旧控制台和 IDF 5 截图不再引导当前安装。开源设计由[虾哥的 Xmini 项目](https://oshwhub.com/tenclass01/xmini_c3)维护。自己接 C3 面包板时看[C3 + ES8311](../breadboard-esp32-c3)。
+照片用于辨认对应修订的按键与接口；具体引脚和行为以板卡说明及匹配固件为准。开源设计由[虾哥的 Xmini 项目](https://oshwhub.com/tenclass01/xmini_c3)维护。自己接 C3 面包板时看[C3 + ES8311](../breadboard-esp32-c3)。

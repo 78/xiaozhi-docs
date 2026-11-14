@@ -22,6 +22,13 @@ sourceArticles: ["DOC-23"]
 
 端口可能在 ROM 下载模式与应用运行时变化。日志要看正常启动时的端口；有端口不等于固件已经在运行。
 
+<figure class="source-figure">
+
+[![Windows 设备管理器中查找串口的示例；COM 编号因电脑而异。](/images/zh/doc-23-image-001.webp)](/images/zh/doc-23-image-001.webp)
+
+<figcaption>Windows 设备管理器中查找串口的示例；COM 编号因电脑而异。</figcaption>
+</figure>
+
 ## 2. 连接并重新启动 {#capture}
 
 1. 关闭占用同一端口的烧录页、IDE 监视器和其他终端。
@@ -36,14 +43,7 @@ sourceArticles: ["DOC-23"]
 idf.py -p COM5 monitor
 ```
 
-把 `COM5` 换为自己的端口；使用 Ctrl+] 退出。未安装 SDK 的用户不必为采日志安装整个环境，独立串口工具即可。
-
-<figure class="source-figure">
-
-[![Windows 设备管理器中查找串口的原示例；COM 编号因电脑而异。](/images/zh/doc-23-image-001.webp)](/images/zh/doc-23-image-001.webp)
-
-<figcaption>Windows 设备管理器中查找串口的原示例；COM 编号因电脑而异。</figcaption>
-</figure>
+把 `COM5` 换为自己的端口；使用 Ctrl+] 退出。未安装 SDK 的用户不必为采日志安装整个环境，可使用 Python 的 [pySerial miniterm](https://pyserial.readthedocs.io/en/latest/tools.html#module-serial.tools.miniterm)。在独立 Python 环境安装 `pyserial` 后，执行 `python -m serial.tools.miniterm COM5 115200`，替换实际端口；用 Ctrl+] 退出。
 
 ## 3. 先看什么 {#read}
 

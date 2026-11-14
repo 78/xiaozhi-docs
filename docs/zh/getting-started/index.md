@@ -21,7 +21,7 @@ status: "published"
 ## 四步完成第一轮对话 {#first-conversation}
 
 1. **确认硬件**：找到芯片、板型及屏幕/音频规格。
-2. **准备固件**：查看[下载选择](../firmware/downloads)，按[烧录指南](../firmware/flashing)安装。
+2. **准备固件**：大部分设备优先用[官方在线编译与烧录](https://xiaozhi.me/console/firmware-builder)，按[操作指南](../firmware/online-builder)安装。未引出 USB 下载接口的板卡按其说明选择方式，见[例外情况](../firmware/flashing#prepare)。
 3. **连接网络**：完成[热点或 BluFi 配网](./wifi-and-binding)。
 4. **绑定并对话**：在控制台输入设备六位码，按键或用已配置的唤醒词开始对话。
 
@@ -33,4 +33,4 @@ status: "published"
 
 按[常见问题](../faq/)从串口、供电、网络、绑定或音频分别排查。反馈时说明卡在哪一步，比“不能用”更容易定位。
 
-这批中文教程正在社区校对，英文将在中文确认后编写。每篇正文顶部说明核对范围，底部可反馈问题。
+这批中文教程正在社区校对，英文将在中文确认后编写。每篇正文底部可反馈问题。

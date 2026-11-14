@@ -31,17 +31,9 @@
     "width": 1280,
     "height": 960
   },
-  "/images/zh/doc-30-image-127.jpg": {
-    "width": 1920,
-    "height": 2560
-  },
   "/images/zh/doc-05-image-028.jpg": {
     "width": 1370,
     "height": 870
-  },
-  "/images/zh/doc-30-image-125.jpg": {
-    "width": 1920,
-    "height": 2560
   },
   "/images/zh/breadboard-camera-signals-v2.6.0.svg": {
     "width": 960,
@@ -50,10 +42,6 @@
   "/images/zh/doc-06-image-005.jpg": {
     "width": 1739,
     "height": 1131
-  },
-  "/images/zh/doc-30-image-124.jpg": {
-    "width": 1920,
-    "height": 2560
   },
   "/images/zh/breadboard-s3-wiring-v2.6.0.svg": {
     "width": 960,
@@ -110,6 +98,70 @@
   "/images/zh/breadboard-s3-oled-v2.6.0.svg": {
     "width": 960,
     "height": 438
+  },
+  "/images/zh/github-auth-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/zh/firmware-build-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/zh/custom-board-identity.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/zh/aec-reference-path.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/zh/wake-word-choice.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/zh/gpio-led-wiring.svg": {
+    "width": 900,
+    "height": 400
+  },
+  "/images/zh/usb-power-bank.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/zh/mcp-calculator-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/zh/mcp-transport-choice.svg": {
+    "width": 880,
+    "height": 440
+  },
+  "/images/zh/mcp-web-search-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/zh/wake-on-lan-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/zh/knowledge-base-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/zh/device-binding-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/zh/online-builder-options.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/zh/voice-training-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/zh/voice-audio-selection.svg": {
+    "width": 900,
+    "height": 340
   },
   "/images/zh/doc-05-image-001.webp": {
     "width": 340,
@@ -247,6 +299,22 @@
     "width": 2200,
     "height": 1650
   },
+  "/images/zh/doc-08-image-003.webp": {
+    "width": 987,
+    "height": 514
+  },
+  "/images/zh/doc-08-image-005.webp": {
+    "width": 521,
+    "height": 371
+  },
+  "/images/zh/doc-08-image-009.webp": {
+    "width": 532,
+    "height": 847
+  },
+  "/images/zh/doc-09-image-006.webp": {
+    "width": 417,
+    "height": 821
+  },
   "/images/zh/doc-11-image-001.webp": {
     "width": 549,
     "height": 319
@@ -295,17 +363,9 @@
     "width": 2200,
     "height": 1617
   },
-  "/images/zh/doc-14-image-004.webp": {
-    "width": 409,
-    "height": 257
-  },
-  "/images/zh/doc-14-image-011.webp": {
-    "width": 1330,
-    "height": 991
-  },
-  "/images/zh/doc-17-image-004.webp": {
-    "width": 1292,
-    "height": 762
+  "/images/zh/doc-18-image-011.webp": {
+    "width": 585,
+    "height": 344
   },
   "/images/zh/doc-23-image-001.webp": {
     "width": 711,
@@ -327,46 +387,6 @@
     "width": 1600,
     "height": 1213
   },
-  "/images/zh/doc-30-image-006.webp": {
-    "width": 1600,
-    "height": 1105
-  },
-  "/images/zh/doc-30-image-012.webp": {
-    "width": 1298,
-    "height": 917
-  },
-  "/images/zh/doc-30-image-017.webp": {
-    "width": 1301,
-    "height": 391
-  },
-  "/images/zh/doc-30-image-020.webp": {
-    "width": 601,
-    "height": 402
-  },
-  "/images/zh/doc-30-image-025.webp": {
-    "width": 581,
-    "height": 362
-  },
-  "/images/zh/doc-30-image-069.webp": {
-    "width": 1918,
-    "height": 854
-  },
-  "/images/zh/doc-30-image-090.webp": {
-    "width": 891,
-    "height": 575
-  },
-  "/images/zh/doc-30-image-103.webp": {
-    "width": 726,
-    "height": 583
-  },
-  "/images/zh/doc-30-image-113.webp": {
-    "width": 1200,
-    "height": 1600
-  },
-  "/images/zh/doc-30-image-131.webp": {
-    "width": 495,
-    "height": 229
-  },
   "/images/zh/doc-31-image-003.webp": {
     "width": 566,
     "height": 615
@@ -382,6 +402,42 @@
   "/images/zh/doc-32-image-008.webp": {
     "width": 1079,
     "height": 1078
+  },
+  "/images/zh/doc-32-image-023.webp": {
+    "width": 631,
+    "height": 1405
+  },
+  "/images/zh/doc-32-image-029.webp": {
+    "width": 497,
+    "height": 147
+  },
+  "/images/zh/doc-32-image-033.webp": {
+    "width": 725,
+    "height": 672
+  },
+  "/images/zh/doc-32-image-034.webp": {
+    "width": 1079,
+    "height": 703
+  },
+  "/images/zh/doc-32-image-051.webp": {
+    "width": 1010,
+    "height": 1004
+  },
+  "/images/zh/doc-32-image-052.webp": {
+    "width": 947,
+    "height": 726
+  },
+  "/images/zh/doc-34-image-002.webp": {
+    "width": 914,
+    "height": 638
+  },
+  "/images/zh/doc-34-image-003.webp": {
+    "width": 676,
+    "height": 521
+  },
+  "/images/zh/doc-35-image-002.webp": {
+    "width": 858,
+    "height": 638
   },
   "/images/zh/doc-44-image-001.webp": {
     "width": 325,
@@ -410,6 +466,18 @@
   "/images/zh/doc-44-image-009.webp": {
     "width": 1650,
     "height": 2200
+  },
+  "/images/zh/doc-44-image-012.webp": {
+    "width": 649,
+    "height": 515
+  },
+  "/images/zh/doc-44-image-013.webp": {
+    "width": 456,
+    "height": 546
+  },
+  "/images/zh/doc-44-image-014.webp": {
+    "width": 687,
+    "height": 961
   },
   "/images/zh/doc-44-image-015.webp": {
     "width": 1650,

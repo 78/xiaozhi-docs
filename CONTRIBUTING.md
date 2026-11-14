@@ -31,6 +31,8 @@ status: draft
 
 图片放在 `docs/public/images/shared/` 或语言目录中。共享接线图不要复制多份；带中文界面或文字的图片需要对应语言素材。不要热链飞书图片；视频、大文件与固件放在官方对象存储或 Releases，正文提供说明和链接。迁移社区作品时保留来源及署名。素材决策记录在 `audit/media-inventory.json`，Release 文件及校验值记录在 `audit/release-assets.json`；页面下载区使用 `.vitepress/data/materials.json`。新文件不要直接推入 Git 历史；先检查来源、适用版本、个人信息和凭据，再附清单上传独立 Release。未采用旧图也需要具体原因，不能默认为丢弃。迁入图片还要记录 `image-dimensions.json` 的实际宽高，避免懒加载把章节锚点推走；核心硬件教程的配件、总图、变体和效果图需同步更新 `audit/hardware-illustrations.json`，`npm run check:assets` 会校验它们确实出现在对应章节。
 
+讨论入口集中维护在 `docs/.vitepress/data/community.json`：中文展示 QQ 群，其他语言展示 Discord。文章不要嵌入具体群号、社交账号或群二维码。第三方已有维护者持续更新的完整教程时，优先外链；本站保留平台说明与稳定入口，避免复制一套电路、软件和素材后与上游分叉。
+
 ## 翻译同步
 
 每篇英文文章增加元数据：

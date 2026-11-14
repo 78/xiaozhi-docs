@@ -27,20 +27,6 @@
       "note": "录制界面与当前版本可能不同，操作以正文为准。"
     }
   ],
-  "DOC-18": [
-    {
-      "id": "DOC-18-file-001",
-      "name": "7eee09a7097f9ef063be600f406aa498.mp4",
-      "label": "在线编译操作录屏（历史界面）",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-18-file-001.mp4",
-      "size": 2073457,
-      "sha256": "f186bdaaf3e1b002c030eb9bd1651672fdce27f9178ee0a865aa17284cd6fb7a",
-      "sourceArticle": "DOC-18",
-      "duration": 114.3,
-      "note": "录制界面与当前版本可能不同，操作以正文为准。"
-    }
-  ],
   "DOC-25": [
     {
       "id": "DOC-25-file-001",
@@ -54,194 +40,18 @@
       "note": "历史 GUI 示例；当前维护的最小示例为 examples/mcp/web_search.py。"
     }
   ],
-  "DOC-30": [
-    {
-      "id": "DOC-30-file-001",
-      "name": "插件版原理图.pdf",
-      "label": "插件版原理图.pdf",
-      "kind": "file",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-001.pdf",
-      "size": 177400,
-      "sha256": "e562a00ad2ef0a87d70507260624ad61898ddcf483209763fa4e639520d4702d",
-      "sourceArticle": "DOC-30",
-      "note": "V1.3 设计资料；PA34、电源及制造方案尚待工程验证。"
-    },
-    {
-      "id": "DOC-30-file-002",
-      "name": "DXF_小智AI插件版V1.3_AutoCAD2007.dxf",
-      "label": "DXF_小智AI插件版V1.3_AutoCAD2007.dxf",
-      "kind": "file",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-002.dxf",
-      "size": 2677953,
-      "sha256": "090c37eaa3d3fccd6bd16596fb0ec27ca258db5022c0c2bba2ba7d4e49b89465",
-      "sourceArticle": "DOC-30",
-      "note": "V1.3 设计资料；PA34、电源及制造方案尚待工程验证。"
-    },
-    {
-      "id": "DOC-30-file-003",
-      "name": "3D_插件版V1.3外壳设计V1_底壳.stl",
-      "label": "3D_插件版V1.3外壳设计V1_底壳.stl",
-      "kind": "file",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-003.stl",
-      "size": 1059604,
-      "sha256": "aae5efabbe411aa4ed6e70a73f144e24e3d0a4695d9b9dcef775a623407d41f1",
-      "sourceArticle": "DOC-30",
-      "note": "V1.3 设计资料；PA34、电源及制造方案尚待工程验证。"
-    },
-    {
-      "id": "DOC-30-file-004",
-      "name": "3D_插件版V1.3外壳设计V1_顶壳.stl",
-      "label": "3D_插件版V1.3外壳设计V1_顶壳.stl",
-      "kind": "file",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-004.stl",
-      "size": 464548,
-      "sha256": "f8f4aedbdbf4203a6ce36930f831d5e07dd1b856560183cd921a6c1d0230c3a2",
-      "sourceArticle": "DOC-30",
-      "note": "V1.3 设计资料；PA34、电源及制造方案尚待工程验证。"
-    },
-    {
-      "id": "DOC-30-file-005",
-      "name": "按键帽.STL",
-      "label": "按键帽.STL",
-      "kind": "file",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-005.stl",
-      "size": 355184,
-      "sha256": "def39bb42a9b0f7a65f8237e7ca424cbf485f511001087d2859a237f4fe8d955",
-      "sourceArticle": "DOC-30",
-      "note": "V1.3 设计资料；PA34、电源及制造方案尚待工程验证。"
-    },
-    {
-      "id": "DOC-30-file-006",
-      "name": "Panel_插件版v1.3面板设计v1_2025-08-15.epanm",
-      "label": "Panel_插件版v1.3面板设计v1_2025-08-15.epanm",
-      "kind": "file",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-006.epanm",
-      "size": 5315,
-      "sha256": "0c3c96b02fea5c9994ffab9bd5542268cb8e72b088c5a58bc00053208f8c369c",
-      "sourceArticle": "DOC-30",
-      "note": "V1.3 设计资料；PA34、电源及制造方案尚待工程验证。"
-    },
-    {
-      "id": "DOC-30-file-008",
-      "name": "思澈小智AI展示_未完善-08-11.mp4",
-      "label": "插件版设备展示",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-008.mp4",
-      "size": 154650625,
-      "sha256": "602e3ee7b6e91495574e31ce459b9b48473fd3adad97840a94b25f580257c501",
-      "sourceArticle": "DOC-30",
-      "duration": 54.0,
-      "note": "录制界面与当前版本可能不同，操作以正文为准。"
-    },
-    {
-      "id": "DOC-30-file-010",
-      "name": "20250813114210_rec_.mp4",
-      "label": "外壳 CAD 录屏：壳体轮廓",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-010.mp4",
-      "size": 13565958,
-      "sha256": "1f20ebc9c8c46ab5c977780bdb4c2a414e5b27f089d0b52fabd88748f6e0e130",
-      "sourceArticle": "DOC-30",
-      "duration": 44.0,
-      "note": "录制界面与当前版本可能不同，操作以正文为准。"
-    },
-    {
-      "id": "DOC-30-file-011",
-      "name": "20250813135726_rec_.mp4",
-      "label": "外壳 CAD 录屏：前壳",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-011.mp4",
-      "size": 13517324,
-      "sha256": "7772c1a758ca0e0a23a8751b3ec80429c457a7f72af5da4ec663a355531b5dd1",
-      "sourceArticle": "DOC-30",
-      "duration": 69.0,
-      "note": "录制界面与当前版本可能不同，操作以正文为准。"
-    },
-    {
-      "id": "DOC-30-file-012",
-      "name": "20250813140830_rec_.mp4",
-      "label": "外壳 CAD 录屏：按钮",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-012.mp4",
-      "size": 12253359,
-      "sha256": "c2618239a07f4a82f03f9302e8448d23170f705d3fc4de75df9a094001ac4d20",
-      "sourceArticle": "DOC-30",
-      "duration": 29.2,
-      "note": "录制界面与当前版本可能不同，操作以正文为准。"
-    },
-    {
-      "id": "DOC-30-file-013",
-      "name": "20250813141033_rec_.mp4",
-      "label": "外壳 CAD 录屏：按钮与开孔",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-013.mp4",
-      "size": 11857384,
-      "sha256": "a31e9db3d1522d78cdeb4102577b707fe9837edc6afea8b4e4a0d1e20777c104",
-      "sourceArticle": "DOC-30",
-      "duration": 50.7,
-      "note": "录制界面与当前版本可能不同，操作以正文为准。"
-    },
-    {
-      "id": "DOC-30-file-014",
-      "name": "20250813145527_rec_.mp4",
-      "label": "外壳 CAD 录屏：底壳",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-014.mp4",
-      "size": 16837758,
-      "sha256": "78fe37b26c63f711b58cdf8b1cfb1ec3457d00223d5a64908b1ff646a2e8b727",
-      "sourceArticle": "DOC-30",
-      "duration": 35.6,
-      "note": "录制界面与当前版本可能不同，操作以正文为准。"
-    },
-    {
-      "id": "DOC-30-file-015",
-      "name": "20250813150146_rec_.mp4",
-      "label": "外壳 CAD 录屏：扬声器格栅",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-015.mp4",
-      "size": 9472919,
-      "sha256": "fa98529755aae19b30c439444f35308141a694f06b38e91df35128cc97a3ffb8",
-      "sourceArticle": "DOC-30",
-      "duration": 27.8,
-      "note": "录制界面与当前版本可能不同，操作以正文为准。"
-    },
-    {
-      "id": "DOC-30-file-016",
-      "name": "20250813151144_rec_.mp4",
-      "label": "外壳 CAD 录屏：侧面与壳体切割",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-016.mp4",
-      "size": 59309488,
-      "sha256": "57dd87b5b55b16678a54edaf4298bfda6fedeaeacac151f97b56e5a8e72651be",
-      "sourceArticle": "DOC-30",
-      "duration": 169.5,
-      "note": "录制界面与当前版本可能不同，操作以正文为准。"
-    },
-    {
-      "id": "DOC-30-file-021",
-      "name": "20251215170154_rec_.mp4",
-      "label": "SF32 固件下载操作录屏（地址以所用固件为准）",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-021.mp4",
-      "size": 7579676,
-      "sha256": "ae7afaa9790ae0647a9ceb91ffeb61c29dc68902bb45df83d8e129ee7619a98e",
-      "sourceArticle": "DOC-30",
-      "duration": 78.8,
-      "note": "录制界面与当前版本可能不同，操作以正文为准。"
-    }
-  ],
   "DOC-33": [
     {
       "id": "DOC-33-file-001",
       "name": "video_20250726_171117.mp4",
-      "label": "IDE 板型目录操作录屏（旧目录，仅作历史参考）",
+      "label": "板级代码目录定位演示（录制目录与当前版本不同）",
       "kind": "video",
       "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-33-file-001.mp4",
       "size": 42429688,
       "sha256": "3138027c604f4639bedc161f46216dba6ca83759c8e9b89f8c45e35258c545f6",
       "sourceArticle": "DOC-33",
       "duration": 22.7,
-      "note": "录制界面与当前版本可能不同，操作以正文为准。HEVC 格式；浏览器不支持时请下载播放。"
+      "note": "当前板级代码按正文 v2.6.0 链接定位。HEVC 格式；浏览器不支持时可下载播放。"
     }
   ],
   "DOC-41": [

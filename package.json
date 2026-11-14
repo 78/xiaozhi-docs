@@ -10,8 +10,9 @@
     "preview": "vitepress preview docs",
     "check:content": "node scripts/check-content.mjs",
     "check:assets": "node scripts/check-assets.mjs",
+    "check:reader": "node scripts/check-reader-experience.mjs",
     "translations:status": "node scripts/translation-status.mjs",
-    "check": "npm run check:content && npm run check:assets && npm run build"
+    "check": "npm run check:content && npm run check:assets && npm run check:reader && npm run build"
   },
   "devDependencies": {
     "gray-matter": "4.0.3",

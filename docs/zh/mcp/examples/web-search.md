@@ -18,6 +18,13 @@ sourceArticles: ["DOC-25"]
 
 这里以智谱 Web Search API 为具体示例，接口和参数按[供应商官方文档](https://docs.bigmodel.cn/cn/guide/tools/web-search)。调用搜索服务可能计费，使用前确认账号的当前价格与额度。
 
+<figure class="source-figure">
+
+[![搜索工具与两种凭据](/images/zh/mcp-web-search-flow.svg)](/images/zh/mcp-web-search-flow.svg)
+
+<figcaption>搜索工具与两种凭据。点击查看大图。</figcaption>
+</figure>
+
 ## 1. 保存示例程序 {#code}
 
 新建 `web_search.py`，使用以下代码；也可从[文档仓库示例](https://github.com/78/xiaozhi-docs/blob/main/examples/mcp/web_search.py)取得同一份程序。
@@ -57,7 +64,6 @@ python mcp_pipe.py web_search.py
 ## 其他接入方式 {#materials}
 
 需要桌面启动器或托管搜索时，可查看[社区工具](../../community/mcp-tools)。下方的 Python GUI 示例属于历史代码；本页维护的最小示例是上面的 `web_search.py`。
-
 
 <SourceMaterials article="DOC-25" />
 

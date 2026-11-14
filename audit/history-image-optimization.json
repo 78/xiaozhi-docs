@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "scope": "Image derivatives substituted while rewriting this historical snapshot; article content and original source SHA-256 values remain traceable.",
-  "originalCommit": "79a5b5e6fb99649cd511098c3710b60db27a115e",
+  "originalCommit": "b724e9ccfb2b9ee7b0356539b158067913f0ddac",
   "images": [
     {
       "sourcePaths": [
@@ -587,6 +587,74 @@
     },
     {
       "sourcePaths": [
+        "docs/public/images/zh/doc-08-image-003.png"
+      ],
+      "sourceSha256": "db369d9c34b03f273f5145bfd960ac9ce2fa805393fd9e67bfde70ef6a3c2929",
+      "sourceBytes": 22116,
+      "output": {
+        "path": "/images/zh/doc-08-image-003.webp",
+        "sha256": "3e54985bbe47fb64d8285628b9f2340c0e423c050cd1fc2d9f3e55601e0e24f9",
+        "bytes": 6524,
+        "width": 987,
+        "height": 514,
+        "format": "webp"
+      },
+      "profile": "text",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "sourcePaths": [
+        "docs/public/images/zh/doc-08-image-005.png"
+      ],
+      "sourceSha256": "a325bc061b0910302ea2c01d82429437cccd4bc27ab129d50db9e463597fadd4",
+      "sourceBytes": 18800,
+      "output": {
+        "path": "/images/zh/doc-08-image-005.webp",
+        "sha256": "83512746dd493e3488865a2338499e2ed3d43862fc0fc22f4bfb8a80b28dcb4e",
+        "bytes": 8180,
+        "width": 521,
+        "height": 371,
+        "format": "webp"
+      },
+      "profile": "text",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "sourcePaths": [
+        "docs/public/images/zh/doc-08-image-009.png"
+      ],
+      "sourceSha256": "f852a002d6b06e1376c6d394d266d0614174cc6d50171b9ca6a7fd08f473713d",
+      "sourceBytes": 117685,
+      "output": {
+        "path": "/images/zh/doc-08-image-009.webp",
+        "sha256": "a56f0d7cf0ed8090dd80aaad6466666cd98533adc9f62807116a7cf689fd1716",
+        "bytes": 74054,
+        "width": 532,
+        "height": 847,
+        "format": "webp"
+      },
+      "profile": "text",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "sourcePaths": [
+        "docs/public/images/zh/doc-09-image-006.png"
+      ],
+      "sourceSha256": "be84cfdc9402a26f356eef6947e9d9ea9dc82c0be1162ae1df477053c3d2d3c5",
+      "sourceBytes": 65655,
+      "output": {
+        "path": "/images/zh/doc-09-image-006.webp",
+        "sha256": "f70ab11ff604016ca4299f18160999e00411dfc22a162455f9ec66d6d2022980",
+        "bytes": 31350,
+        "width": 417,
+        "height": 821,
+        "format": "webp"
+      },
+      "profile": "text",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "sourcePaths": [
         "docs/public/images/zh/doc-11-image-001.png"
       ],
       "sourceSha256": "42fbc9124fd2579e5f4cb980e6f81f5d257884f7b483b5ae2f15325d66a2743e",
@@ -791,53 +859,19 @@
     },
     {
       "sourcePaths": [
-        "docs/public/images/zh/doc-14-image-004.png"
+        "docs/public/images/zh/doc-18-image-011.png"
       ],
-      "sourceSha256": "1a905dae71c8b360cec6d7f6bb0860bdcd04d1756f9872a65a97857f00e0f48c",
-      "sourceBytes": 6533,
+      "sourceSha256": "228f76996e29eb48300590da26f5d7b6090d10d02270fc4fc04818cca0c6b172",
+      "sourceBytes": 29122,
       "output": {
-        "path": "/images/zh/doc-14-image-004.webp",
-        "sha256": "58b009d77c684e28cfc289d42f65674a3cdb1da12f9799e20003ab2609ed748a",
-        "bytes": 1838,
-        "width": 409,
-        "height": 257,
+        "path": "/images/zh/doc-18-image-011.webp",
+        "sha256": "7b475ba445485c707b63c46bd6ef01a96eed6a8a832660e106ebf2f236c0e114",
+        "bytes": 15358,
+        "width": 585,
+        "height": 344,
         "format": "webp"
       },
-      "profile": "historical-protected",
-      "visiblePixelsIdentical": true
-    },
-    {
-      "sourcePaths": [
-        "docs/public/images/zh/doc-14-image-011.png"
-      ],
-      "sourceSha256": "dbae81c6bd0f6cb343d8abd04546b851badfefdfed3ecc058aa9992fb762d17c",
-      "sourceBytes": 81853,
-      "output": {
-        "path": "/images/zh/doc-14-image-011.webp",
-        "sha256": "ca66788c3ef3862dc0ac25b0aac343f11e739e654f46ff7bee510b5316d4f1e8",
-        "bytes": 25986,
-        "width": 1330,
-        "height": 991,
-        "format": "webp"
-      },
-      "profile": "historical-protected",
-      "visiblePixelsIdentical": true
-    },
-    {
-      "sourcePaths": [
-        "docs/public/images/zh/doc-17-image-004.png"
-      ],
-      "sourceSha256": "2932f542188dd4db7a318d0aef5e6f04fcce9c801aed86135c59164a5f0efa10",
-      "sourceBytes": 81556,
-      "output": {
-        "path": "/images/zh/doc-17-image-004.webp",
-        "sha256": "4a8c5ed27b6e9175c699eb051f41602d9b885e9f071322c0187fd0b85f017192",
-        "bytes": 23570,
-        "width": 1292,
-        "height": 762,
-        "format": "webp"
-      },
-      "profile": "historical-protected",
+      "profile": "text",
       "visiblePixelsIdentical": true
     },
     {
@@ -927,176 +961,6 @@
     },
     {
       "sourcePaths": [
-        "docs/public/images/zh/doc-30-image-006.jpg"
-      ],
-      "sourceSha256": "565815639db6b3f04902103b8fbd3ff32195873753225be7516af928584862f9",
-      "sourceBytes": 4659140,
-      "output": {
-        "path": "/images/zh/doc-30-image-006.webp",
-        "sha256": "23de4fbac500e6f305fd6186c179d0d261235f59215b113d6e1ad9381a7db268",
-        "bytes": 65744,
-        "width": 1600,
-        "height": 1105,
-        "format": "webp"
-      },
-      "profile": "historical-product",
-      "visiblePixelsIdentical": null
-    },
-    {
-      "sourcePaths": [
-        "docs/public/images/zh/doc-30-image-012.png"
-      ],
-      "sourceSha256": "7fbdf3d44618dd8a9a9204e37153fc1af20929f2fb71283d2cd82ca5587c8a7e",
-      "sourceBytes": 1130493,
-      "output": {
-        "path": "/images/zh/doc-30-image-012.webp",
-        "sha256": "84cc6c45f6c35796b0a2d43ed4021605e40265ef290ba41ce7f045fdf0a69307",
-        "bytes": 560128,
-        "width": 1298,
-        "height": 917,
-        "format": "webp"
-      },
-      "profile": "historical-protected",
-      "visiblePixelsIdentical": true
-    },
-    {
-      "sourcePaths": [
-        "docs/public/images/zh/doc-30-image-017.png"
-      ],
-      "sourceSha256": "35c37cff26e8a6a950ef9eb02a48ba3607d0aaca7ad07952538f8b808d087144",
-      "sourceBytes": 288072,
-      "output": {
-        "path": "/images/zh/doc-30-image-017.webp",
-        "sha256": "ae62fc7a8ddfd45874fc408e488741a09ffee26f2aea93e3a00291dee20127b8",
-        "bytes": 151396,
-        "width": 1301,
-        "height": 391,
-        "format": "webp"
-      },
-      "profile": "historical-protected",
-      "visiblePixelsIdentical": true
-    },
-    {
-      "sourcePaths": [
-        "docs/public/images/zh/doc-30-image-020.png"
-      ],
-      "sourceSha256": "3f6dcedfac0c62d1cccda56cecbd555a1b66f92f4c203a78b44f22316fbe8fad",
-      "sourceBytes": 166249,
-      "output": {
-        "path": "/images/zh/doc-30-image-020.webp",
-        "sha256": "416efdc48a8e623b898d595a1eb5c3b809c39b092973e555de9575e5793b09b1",
-        "bytes": 78508,
-        "width": 601,
-        "height": 402,
-        "format": "webp"
-      },
-      "profile": "historical-protected",
-      "visiblePixelsIdentical": true
-    },
-    {
-      "sourcePaths": [
-        "docs/public/images/zh/doc-30-image-025.png"
-      ],
-      "sourceSha256": "b1fd27c8bd7027c7d081f941fad4a2adcd7c590a751463ed62022968d707e932",
-      "sourceBytes": 207068,
-      "output": {
-        "path": "/images/zh/doc-30-image-025.webp",
-        "sha256": "be0197d2be12846b7fbc58a687f48e29e24a3d093a341566992f8e88f4699a58",
-        "bytes": 107922,
-        "width": 581,
-        "height": 362,
-        "format": "webp"
-      },
-      "profile": "historical-protected",
-      "visiblePixelsIdentical": true
-    },
-    {
-      "sourcePaths": [
-        "docs/public/images/zh/doc-30-image-069.png"
-      ],
-      "sourceSha256": "42d331710dc4f06bf4142832c0f811d20e34540868272de4101e39484d877e44",
-      "sourceBytes": 1331678,
-      "output": {
-        "path": "/images/zh/doc-30-image-069.webp",
-        "sha256": "dfaa291f61a12c67a228c0f510ad742b51b0af721db7811826a5e9bf66a461e1",
-        "bytes": 692594,
-        "width": 1918,
-        "height": 854,
-        "format": "webp"
-      },
-      "profile": "historical-protected",
-      "visiblePixelsIdentical": true
-    },
-    {
-      "sourcePaths": [
-        "docs/public/images/zh/doc-30-image-090.png"
-      ],
-      "sourceSha256": "2af02db23d9751bf4c7f91cd9c8c3f5a03ea0e9e2fddfeb5e2ca8e63f61c8fe8",
-      "sourceBytes": 392501,
-      "output": {
-        "path": "/images/zh/doc-30-image-090.webp",
-        "sha256": "23047b36f58930355e8a22021efe0a82f067b041268f4abb6ec1205e215fe9ca",
-        "bytes": 201814,
-        "width": 891,
-        "height": 575,
-        "format": "webp"
-      },
-      "profile": "historical-protected",
-      "visiblePixelsIdentical": true
-    },
-    {
-      "sourcePaths": [
-        "docs/public/images/zh/doc-30-image-103.png"
-      ],
-      "sourceSha256": "f0d3a4ce7371fc9d821de24009a7f658df476c81141daaedb92b9bd742bdd581",
-      "sourceBytes": 258311,
-      "output": {
-        "path": "/images/zh/doc-30-image-103.webp",
-        "sha256": "24b29b9c711940327a7a432ec7c075b258d445ca40969f66a2927ecf625fad50",
-        "bytes": 72372,
-        "width": 726,
-        "height": 583,
-        "format": "webp"
-      },
-      "profile": "historical-protected",
-      "visiblePixelsIdentical": true
-    },
-    {
-      "sourcePaths": [
-        "docs/public/images/zh/doc-30-image-113.png"
-      ],
-      "sourceSha256": "26ce2917c57e1010f993a288765d522f58202c1de3829889b507dfd0958272cd",
-      "sourceBytes": 4318981,
-      "output": {
-        "path": "/images/zh/doc-30-image-113.webp",
-        "sha256": "da9800e47e270d28f8a18c12fbb1f622b33f2c64c33943b19f15b0873e1c3e22",
-        "bytes": 189746,
-        "width": 1200,
-        "height": 1600,
-        "format": "webp"
-      },
-      "profile": "historical-product",
-      "visiblePixelsIdentical": null
-    },
-    {
-      "sourcePaths": [
-        "docs/public/images/zh/doc-30-image-131.png"
-      ],
-      "sourceSha256": "aef69f9b026b950edc2f20417c522632bec5f9628fe4411a2ac8d95270da611c",
-      "sourceBytes": 141982,
-      "output": {
-        "path": "/images/zh/doc-30-image-131.webp",
-        "sha256": "7d18e233c01de574b29cdfc28927002bcf4c4ffab0950df8cbaa6616804448ab",
-        "bytes": 61520,
-        "width": 495,
-        "height": 229,
-        "format": "webp"
-      },
-      "profile": "historical-protected",
-      "visiblePixelsIdentical": true
-    },
-    {
-      "sourcePaths": [
         "docs/public/images/zh/doc-31-image-003.png"
       ],
       "sourceSha256": "52aaa7b0784637712ad08c0b5150a93d98d976416743a7f0624a3f5dbe9728c6",
@@ -1158,6 +1022,159 @@
         "bytes": 104902,
         "width": 1079,
         "height": 1078,
+        "format": "webp"
+      },
+      "profile": "product",
+      "visiblePixelsIdentical": null
+    },
+    {
+      "sourcePaths": [
+        "docs/public/images/zh/doc-32-image-023.png"
+      ],
+      "sourceSha256": "76fd2fec94739f1bb59c338acea850d8800e844f788fd6fdde271d169dbb2970",
+      "sourceBytes": 241650,
+      "output": {
+        "path": "/images/zh/doc-32-image-023.webp",
+        "sha256": "382f1a5dae588b9327a95a2b7a3dbc1bfe0c7be3cfeed588be315eb4eeb5fefd",
+        "bytes": 75790,
+        "width": 631,
+        "height": 1405,
+        "format": "webp"
+      },
+      "profile": "text",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "sourcePaths": [
+        "docs/public/images/zh/doc-32-image-029.png"
+      ],
+      "sourceSha256": "eaf0590b62382350e12f83df2d6b2ba54bde2d31dd2dd6af901ef8476a0789e0",
+      "sourceBytes": 6810,
+      "output": {
+        "path": "/images/zh/doc-32-image-029.webp",
+        "sha256": "591c63a105de7e6f9a07825992e86f10f7ad9ebe300b16f15c7bf7b20b1506d4",
+        "bytes": 2116,
+        "width": 497,
+        "height": 147,
+        "format": "webp"
+      },
+      "profile": "text",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "sourcePaths": [
+        "docs/public/images/zh/doc-32-image-033.png"
+      ],
+      "sourceSha256": "a98c4de3cd83a909ce01ddf6a69d9c21dafe9da5c3215a20d903651138a85053",
+      "sourceBytes": 742030,
+      "output": {
+        "path": "/images/zh/doc-32-image-033.webp",
+        "sha256": "9f114454c4f3bfaf30467d15568d1d6e00c947da4b5bdb87085dfc1d9af046d1",
+        "bytes": 35712,
+        "width": 725,
+        "height": 672,
+        "format": "webp"
+      },
+      "profile": "product",
+      "visiblePixelsIdentical": null
+    },
+    {
+      "sourcePaths": [
+        "docs/public/images/zh/doc-32-image-034.png"
+      ],
+      "sourceSha256": "12415232f1e8477cbcba10ee806f363886c3a3b72b1ae7b2e0dadef39c8dda7d",
+      "sourceBytes": 1303823,
+      "output": {
+        "path": "/images/zh/doc-32-image-034.webp",
+        "sha256": "d60de6e76ffcf8ada4ed7894cb2952a97de3cee059415ef7d19e311f868eb819",
+        "bytes": 715028,
+        "width": 1079,
+        "height": 703,
+        "format": "webp"
+      },
+      "profile": "labeled",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "sourcePaths": [
+        "docs/public/images/zh/doc-32-image-051.png"
+      ],
+      "sourceSha256": "846d4ab5e95d920fe640a65d2e7f13506730745f7190cf9320598ecbc6e992e7",
+      "sourceBytes": 634784,
+      "output": {
+        "path": "/images/zh/doc-32-image-051.webp",
+        "sha256": "6c15e04214e04af7def1a138d66de5db01006417b0eb4b2b36232dd986fc0803",
+        "bytes": 66316,
+        "width": 1010,
+        "height": 1004,
+        "format": "webp"
+      },
+      "profile": "product",
+      "visiblePixelsIdentical": null
+    },
+    {
+      "sourcePaths": [
+        "docs/public/images/zh/doc-32-image-052.png"
+      ],
+      "sourceSha256": "7539aa692e98fdc5648ef5185db4daea20000c3fd92f422c84de325f7527d09f",
+      "sourceBytes": 482655,
+      "output": {
+        "path": "/images/zh/doc-32-image-052.webp",
+        "sha256": "8f650e66dd682903be0cf69c9c70902e364b2fd70ea0eb627b955143187c9477",
+        "bytes": 28672,
+        "width": 947,
+        "height": 726,
+        "format": "webp"
+      },
+      "profile": "product",
+      "visiblePixelsIdentical": null
+    },
+    {
+      "sourcePaths": [
+        "docs/public/images/zh/doc-34-image-002.png"
+      ],
+      "sourceSha256": "5e5527fa1d6eb67077f62065b59bfb84e35a016cc5d21f8cb95539f0042e6441",
+      "sourceBytes": 548266,
+      "output": {
+        "path": "/images/zh/doc-34-image-002.webp",
+        "sha256": "b2f069f5823fe456012776e4b4be2861cda43e99db5f6a5609724ccaa5b25a36",
+        "bytes": 23242,
+        "width": 914,
+        "height": 638,
+        "format": "webp"
+      },
+      "profile": "product",
+      "visiblePixelsIdentical": null
+    },
+    {
+      "sourcePaths": [
+        "docs/public/images/zh/doc-34-image-003.png"
+      ],
+      "sourceSha256": "84799053c54d799a1fa0bd9eb9f9a9f56464f74d33388016613c863361ee4414",
+      "sourceBytes": 225947,
+      "output": {
+        "path": "/images/zh/doc-34-image-003.webp",
+        "sha256": "857d6c954bca9867161651055b7355ac1385936dee0e15af563efaecdcfc0b8a",
+        "bytes": 95520,
+        "width": 676,
+        "height": 521,
+        "format": "webp"
+      },
+      "profile": "labeled",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "sourcePaths": [
+        "docs/public/images/zh/doc-35-image-002.png"
+      ],
+      "sourceSha256": "df49e77c2d10e55e9c8fb576d204413e050b68a81607d8a141482044b248191a",
+      "sourceBytes": 430117,
+      "output": {
+        "path": "/images/zh/doc-35-image-002.webp",
+        "sha256": "100f2b9ab75d83a1e3f1f296a4482a4bf56d95ae4c1a39550aa01aa1b535a837",
+        "bytes": 14306,
+        "width": 858,
+        "height": 638,
         "format": "webp"
       },
       "profile": "product",
@@ -1281,6 +1298,57 @@
       },
       "profile": "assembly",
       "visiblePixelsIdentical": null
+    },
+    {
+      "sourcePaths": [
+        "docs/public/images/zh/doc-44-image-012.png"
+      ],
+      "sourceSha256": "2d61ffb79551c7d1e10b2933f36c3f05cb396e50cfc9101d2a10941afa71d745",
+      "sourceBytes": 427131,
+      "output": {
+        "path": "/images/zh/doc-44-image-012.webp",
+        "sha256": "4e761bc67894d65c6782b68779f08ba3cd85339dac726b235f3b76b4f159b4c5",
+        "bytes": 182996,
+        "width": 649,
+        "height": 515,
+        "format": "webp"
+      },
+      "profile": "labeled",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "sourcePaths": [
+        "docs/public/images/zh/doc-44-image-013.png"
+      ],
+      "sourceSha256": "2c02503b95d6b40d3b280cc67330d0674d3f11ea5a5cc2fea5b5809427ac9b70",
+      "sourceBytes": 497944,
+      "output": {
+        "path": "/images/zh/doc-44-image-013.webp",
+        "sha256": "7fdc4679db71691f1794540ac8bf86c896dcaa8c9d27e6da2ed2412092097288",
+        "bytes": 201148,
+        "width": 456,
+        "height": 546,
+        "format": "webp"
+      },
+      "profile": "labeled",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "sourcePaths": [
+        "docs/public/images/zh/doc-44-image-014.png"
+      ],
+      "sourceSha256": "55c6d5461105ac7beed2cb3f55af5c6c6bcbeeba218df2778a1ef71f0f26fee0",
+      "sourceBytes": 1340427,
+      "output": {
+        "path": "/images/zh/doc-44-image-014.webp",
+        "sha256": "554c3749fc2dc4d387f86148e272e4133d477536b85b99e2a4e05e9c29f4bd03",
+        "bytes": 624642,
+        "width": 687,
+        "height": 961,
+        "format": "webp"
+      },
+      "profile": "labeled",
+      "visiblePixelsIdentical": true
     },
     {
       "sourcePaths": [

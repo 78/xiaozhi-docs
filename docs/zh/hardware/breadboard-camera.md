@@ -12,30 +12,43 @@ sourceArticles: ["DOC-07"]
 
 本页对应 `bread-compact-wifi-s3cam`，是摄像头、SPI 屏幕和音频共存的板型。普通 S3 + OLED/LCD 接线不能直接增加摄像头就变成此方案。
 
+## 先看装配效果 {#finished-overview}
+
+<figure class="source-figure">
+
+[![摄像头面包板装配示例。](/images/zh/doc-07-image-004.webp)](/images/zh/doc-07-image-004.webp)
+
+<figcaption>摄像头面包板装配示例。</figcaption>
+</figure>
+<figure class="source-figure">
+
+[![原型装配的另一视角；信号接法请以本页版本表为准。](/images/zh/doc-07-image-005.webp)](/images/zh/doc-07-image-005.webp)
+
+<figcaption>原型装配的另一视角；信号接法请以本页版本表为准。</figcaption>
+</figure>
+
+## 准备工作 {#scope}
+
+核对 S3 模组内存、摄像头传感器/引脚、屏幕驱动/分辨率、麦克风和功放。本方案以 N16R8 CAM 板和 OV3660 演示；OV2640/OV5640 等型号需要各自确认驱动、线序与实际取图，不能仅凭接口相同认定兼容。
+
 <figure class="source-figure">
 
 [![摄像头模块与排线接口。](/images/zh/doc-07-image-001.webp)](/images/zh/doc-07-image-001.webp)
 
 <figcaption>摄像头模块与排线接口。</figcaption>
 </figure>
-
 <figure class="source-figure">
 
 [![LCD 模块外观。](/images/zh/doc-06-image-001.webp)](/images/zh/doc-06-image-001.webp)
 
 <figcaption>LCD 模块外观。</figcaption>
 </figure>
-
 <figure class="source-figure">
 
 [![LCD 模块接口丝印。](/images/zh/doc-06-image-002.webp)](/images/zh/doc-06-image-002.webp)
 
 <figcaption>LCD 模块接口丝印。</figcaption>
 </figure>
-
-## 准备工作 {#scope}
-
-核对 S3 模组内存、摄像头传感器/引脚、屏幕驱动/分辨率、麦克风和功放。本方案以 N16R8 CAM 板和 OV3660 演示；OV2640/OV5640 等型号需要各自确认驱动、线序与实际取图，不能仅凭接口相同认定兼容。
 
 ## 1. 对照当前信号表 {#wiring}
 
@@ -50,20 +63,6 @@ sourceArticles: ["DOC-07"]
 | 摄像头控制 | XCLK→15、PCLK→13、VSYNC→6、HREF→7、SIOC→5、SIOD→4 |
 
 注意 LCD 这里占用 GPIO19/20；对使用原生 USB 的连接方式尤其要按板级电路确认，不能随意重接数据线。断电核对所有占用，不同时套用普通面包板的 GPIO4/5/6 音频接法。
-
-<figure class="source-figure">
-
-[![摄像头面包板装配示例。](/images/zh/doc-07-image-004.webp)](/images/zh/doc-07-image-004.webp)
-
-<figcaption>摄像头面包板装配示例。</figcaption>
-</figure>
-
-<figure class="source-figure">
-
-[![原型装配的另一视角；信号接法请以本页版本表为准。](/images/zh/doc-07-image-005.webp)](/images/zh/doc-07-image-005.webp)
-
-<figcaption>原型装配的另一视角；信号接法请以本页版本表为准。</figcaption>
-</figure>
 
 ### 当前摄像头板的信号图 {#wiring-diagram}
 

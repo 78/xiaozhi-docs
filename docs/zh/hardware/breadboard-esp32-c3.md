@@ -12,32 +12,30 @@ sourceArticles: ["DOC-12"]
 
  C3-N16-SF 搭配 ES8311/NS4150 音频模块，参考 Xmini-C3。它不是任意 C3 加 INMP441/MAX98357A 的通用接线。
 
+## 准备工作 {#scope}
+
+确认目标芯片、Flash 容量、Codec 模块原理图、PA 使能和显示屏。ES8311 模块的模拟麦克风/功放外围必须完整；模块标的 DI/DO 要核对相对于谁的方向。
+
+## 先认齐这套 C3 的配件 {#parts}
+
 <figure class="source-figure">
 
 [![C3 主控模块。](/images/zh/doc-12-image-001.webp)](/images/zh/doc-12-image-001.webp)
 
 <figcaption>C3 主控模块。</figcaption>
 </figure>
-
 <figure class="source-figure">
 
 [![ES8311 与 NS4150 音频模块；核对具体版本和丝印。](/images/zh/doc-12-image-002.webp)](/images/zh/doc-12-image-002.webp)
 
 <figcaption>ES8311 与 NS4150 音频模块；核对具体版本和丝印。</figcaption>
 </figure>
-
 <figure class="source-figure">
 
 [![OLED 模块。](/images/zh/doc-12-image-009.webp)](/images/zh/doc-12-image-009.webp)
 
 <figcaption>OLED 模块。</figcaption>
 </figure>
-
-## 准备工作 {#scope}
-
-确认目标芯片、Flash 容量、Codec 模块原理图、PA 使能和显示屏。ES8311 模块的模拟麦克风/功放外围必须完整；模块标的 DI/DO 要核对相对于谁的方向。
-
-## 先认齐这套 C3 的配件 {#parts}
 
 本方案的语音部分是 ES8311 + NS4150B 模块，不能把 S3 的独立 INMP441/MAX98357A 接法套过来。板卡、Codec 与 OLED 的照片在上方；其余配件如下。
 

@@ -24,6 +24,13 @@ sourceArticles: ["DOC-28"]
 
 普通 REST API 或 WebSocket 地址不能仅靠改 `type` 就变成 MCP 服务。
 
+<figure class="source-figure">
+
+[![已有 MCP 服务先选正确的传输方式](/images/zh/mcp-transport-choice.svg)](/images/zh/mcp-transport-choice.svg)
+
+<figcaption>已有 MCP 服务先选正确的传输方式。点击查看大图。</figcaption>
+</figure>
+
 ## 1. 先独立验证服务 {#standalone}
 
 使用服务维护者支持的 MCP 客户端或测试方法确认 `initialize`、工具发现和一次调用成功。固定软件版本，知道它会访问哪些文件、设备或远端账号。
@@ -71,8 +78,7 @@ python mcp_pipe.py
 
 ## 第三方图形工具与素材 {#materials}
 
-HyperChat、McpPipe 等工具可以管理网关和连接，具体安装与版本由作者维护。旧安装图、浏览器扩展和设备唤醒/重启补丁不再混入本篇公共流程；选型见[社区 MCP 工具](../community/mcp-tools)。
-
+HyperChat、McpPipe 等工具可以管理网关和连接，具体安装与版本由作者维护。选型见[社区 MCP 工具](../community/mcp-tools)。
 
 ## 下一步 {#next}
 
