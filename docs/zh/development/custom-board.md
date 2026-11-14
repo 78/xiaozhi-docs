@@ -75,7 +75,7 @@ main/boards/my-s3-prototype/
 
 <figure class="source-figure">
 
-[![定制硬件到固件身份](/images/zh/custom-board-identity.svg)](/images/zh/custom-board-identity.svg)
+[![定制硬件到固件身份](../../public/images/zh/custom-board-identity.svg)](../../public/images/zh/custom-board-identity.svg)
 
 <figcaption>定制硬件到固件身份。点击查看大图。</figcaption>
 </figure>

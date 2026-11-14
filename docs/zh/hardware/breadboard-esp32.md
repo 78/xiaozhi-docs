@@ -16,13 +16,13 @@ sourceArticles: ["DOC-13"]
 
 <figure class="source-figure">
 
-[![经典 ESP32 样机。](/images/zh/doc-13-image-016.webp)](/images/zh/doc-13-image-016.webp)
+[![经典 ESP32 样机。](../../public/images/zh/doc-13-image-016.webp)](../../public/images/zh/doc-13-image-016.webp)
 
 <figcaption>经典 ESP32 样机。</figcaption>
 </figure>
 <figure class="source-figure">
 
-[![经典 ESP32 装配参考。](/images/zh/doc-13-image-017.webp)](/images/zh/doc-13-image-017.webp)
+[![经典 ESP32 装配参考。](../../public/images/zh/doc-13-image-017.webp)](../../public/images/zh/doc-13-image-017.webp)
 
 <figcaption>经典 ESP32 装配参考。</figcaption>
 </figure>
@@ -35,7 +35,7 @@ sourceArticles: ["DOC-13"]
 
 <figure class="source-figure wiring-figure">
 
-[![经典 ESP32：当前音频与 OLED 的逐根连线](/images/zh/breadboard-esp32-wiring-v2.6.0.svg)](/images/zh/breadboard-esp32-wiring-v2.6.0.svg)
+[![经典 ESP32：当前音频与 OLED 的逐根连线](../../public/images/zh/breadboard-esp32-wiring-v2.6.0.svg)](../../public/images/zh/breadboard-esp32-wiring-v2.6.0.svg)
 
 <figcaption>经典 ESP32：当前音频与 OLED 的逐根连线。固件 v2.6.0 的信号连线示意，不表示开发板物理排针位置。</figcaption>
 </figure>
@@ -53,7 +53,7 @@ OLED 的 GPIO 按[当前 config.h](https://github.com/78/xiaozhi-esp32/blob/4de0
 
 <figure class="source-figure">
 
-[![OLED 的引脚丝印；GPIO 连接使用下文固件表。](/images/zh/doc-13-image-002.webp)](/images/zh/doc-13-image-002.webp)
+[![OLED 的引脚丝印；GPIO 连接使用下文固件表。](../../public/images/zh/doc-13-image-002.webp)](../../public/images/zh/doc-13-image-002.webp)
 
 <figcaption>OLED 的引脚丝印；GPIO 连接使用下文固件表。</figcaption>
 </figure>

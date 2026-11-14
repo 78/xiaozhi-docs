@@ -6,8 +6,10 @@ import { repositoryUrl, branch, hostname } from '../../site.config.mjs'
 import { sidebar } from './navigation'
 import imageDimensions from './data/image-dimensions.json'
 import { rootLanguageRedirectScript } from './theme/language-preference.mjs'
+import { publicImageUrl } from '../../scripts/public-images.mjs'
 
 const localImageDimensions: Record<string, { width: number; height: number }> = imageDimensions
+const publicDirectory = fileURLToPath(new URL('../public/', import.meta.url))
 
 export default defineConfig({
   title: '小智文档',
@@ -21,10 +23,18 @@ export default defineConfig({
   markdown: {
     image: { lazyLoading: true },
     config(md) {
+      const renderLink = md.renderer.rules.link_open!
+      md.renderer.rules.link_open = (tokens, index, options, env, self) => {
+        const token = tokens[index]
+        token.attrSet('href', publicImageUrl(token.attrGet('href'), env.realPath || env.path, publicDirectory))
+        return renderLink(tokens, index, options, env, self)
+      }
       const renderImage = md.renderer.rules.image!
       md.renderer.rules.image = (tokens, index, options, env, self) => {
         const token = tokens[index]
-        const dimensions = localImageDimensions[token.attrGet('src') || '']
+        const src = publicImageUrl(token.attrGet('src'), env.realPath || env.path, publicDirectory)
+        token.attrSet('src', src)
+        const dimensions = localImageDimensions[src?.split(/[?#]/)[0] || '']
         if (dimensions) {
           // Reserve the full figure before lazy loading, so chapter links do not jump above the diagram.
           token.attrSet('width', String(dimensions.width))

@@ -25,7 +25,7 @@ sourceArticles: ["DOC-22"]
 
 <figure class="source-figure">
 
-[![先确认条件，再选择唤醒方案](/images/zh/wake-word-choice.svg)](/images/zh/wake-word-choice.svg)
+[![先确认条件，再选择唤醒方案](../../public/images/zh/wake-word-choice.svg)](../../public/images/zh/wake-word-choice.svg)
 
 <figcaption>先确认条件，再选择唤醒方案。点击查看大图。</figcaption>
 </figure>

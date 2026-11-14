@@ -118,7 +118,7 @@
         "<SourceMaterials article=\"DOC-43\" />"
       ],
       "reviewNoteInAudit": "\"第三方项目与样机尚未全部实测，使用前核对具体版本与硬件条件。\"",
-      "contentSha256": "4133db629dc3223f4881e0bbea36fdfab7981a58492b42f9772fc3597d60c878",
+      "contentSha256": "ddf4f7043ff19ab7ecfc4e9ea3cb0e377f72bb85ecdeb4557e7ff03bc7213cae",
       "previousContentSha256": "d0e336586a512744f66e658504f5115837f3ca662f5c50d50e22100bcdabedcc",
       "communityStatus": "awaiting-feedback"
     },
@@ -241,7 +241,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"第三方项目与样机尚未全部实测，使用前核对具体版本与硬件条件。\"",
-      "contentSha256": "0177ebcdd3e40c3559c57dbee02b8410c5837f348e63fc10d60b0b66ae10a149",
+      "contentSha256": "c47fedc071ae7b8a91060026ccb723033a44e9a4a2b30554daadf65c3a64bfff",
       "previousContentSha256": "7e3e10ef7bfcf5bb51026990f9936bdb7cdea4a5fabed395832ca302ced081e6",
       "communityStatus": "awaiting-feedback"
     },
@@ -269,7 +269,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已核对嘉立创教程目录、固件与资料下载页面；本站只维护入口，不复制设计和操作规范。\"",
-      "contentSha256": "a7c1d7ed0179c5fc9e63d33d4167ddb4a20545e200a6cf13dad26c9ab8491063",
+      "contentSha256": "8e3a4894d902407c39bf2c600757484648f59f916c2f4db9fe3169df5010e1f3",
       "previousContentSha256": "e5109c2627cb28761349a8cf73ded867a96972180e53f0f033518f0a562a40d6",
       "communityStatus": "awaiting-feedback"
     },
@@ -300,7 +300,7 @@
         "<SourceMaterials article=\"DOC-36\" />"
       ],
       "reviewNoteInAudit": "\"第三方项目与样机尚未全部实测，使用前核对具体版本与硬件条件。\"",
-      "contentSha256": "12907de481653288c53df7be033fb44f0091038cdc269e32ca13407bf0a3aa34",
+      "contentSha256": "45dc13dccf82e715f63fcdf73821c2580a97470c3a4064ca3f8b748f7cbd35f1",
       "previousContentSha256": "f045fcd36f06500d72d5daa1e7c3c48ee6fe5e221ed7c73c0351dd6ff6186dc7",
       "communityStatus": "awaiting-feedback"
     },
@@ -352,7 +352,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "9c9aa0ad6960b58b62ab0b155bdf2b122a0d8802d27f7beded1c1060b05f462b",
+      "contentSha256": "639a7836be16521d6248582c4a1ce12f8d6772445520dbb54b7196a5e5959619",
       "previousContentSha256": "994c4a80ba096845c4f2b47f00099cd28a71729e7f2d8f1c3e7ae22a5bbed436",
       "communityStatus": "awaiting-feedback"
     },
@@ -406,7 +406,7 @@
         "<SourceMaterials article=\"DOC-17\" />"
       ],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "01b95946fffb18a2cb16c5a0f7b7654aafee2c5b5f56c78b53df1b6e570adffe",
+      "contentSha256": "3efef20040c17ea6f15a6b36139cf4bc7aa53adf7454b2349fd74c7957634781",
       "previousContentSha256": "5e38dfcfdb0b2e4d4b5e14e4248da1441c099f08bbdb81805b53d1fb5a25c73b",
       "communityStatus": "awaiting-feedback"
     },
@@ -446,7 +446,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "4b834e9af31efc08e4c894588db8e0f2b0093d39a5c0fe22de90ac24901a72be",
+      "contentSha256": "477844e5aaf93c4ad3c7120de82e7ce449348134548b68209ec6633a52150357",
       "previousContentSha256": "9fd610f35ac96476e5edfc186ab61ccfbb1626b3808572422078774ef3eea591",
       "communityStatus": "awaiting-feedback"
     },
@@ -495,7 +495,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "279034079d5019654ea1f4bc80bca02d7b0639cd9357687fae1075ab74df96fe",
+      "contentSha256": "534eaa2e5b8a7724f2ef66c526deabb0304e5523ba1f29162a4da3c49bb4ac3a",
       "previousContentSha256": "258d087c269ced1741f11bef30b6dcf6f1f73cb688cbfad6b819210e12b671af",
       "communityStatus": "awaiting-feedback"
     },
@@ -527,7 +527,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"命令和板型参数已对照 v2.6.0；未在本机安装 ESP-IDF 或执行完整交叉编译，欢迎提交平台实测结果。\"",
-      "contentSha256": "9ade15a1465a710e30af7e170fc7a42e75dad3c312b4327331a8a97099cbe55b",
+      "contentSha256": "779d4be9b465ff40e8ec9e1a5926982e6d93f614005c3ffd971b32007ccb706d",
       "previousContentSha256": "d58ee6e7bce2c6b4f871cdc48742e595716ec9cacea7c0404f82c2d12c3e2200",
       "communityStatus": "awaiting-feedback"
     },
@@ -558,7 +558,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"适配流程已对照固件开发板指南；这里的配置是结构示例，具体新板需编译和真机验证。\"",
-      "contentSha256": "bed6bfeabf851e9700558588bd4e09825d4109f73166d8c1f10d7cad90fa52a9",
+      "contentSha256": "a35b5c75348ed6c7e256a8fce4b94ce9c456e53849e7d964e5b96fd131ea723e",
       "previousContentSha256": "5f39a2a0ae64ed7373d4eafeb4901f42e023f7bfe9e19a77c7279b823dbd22fa",
       "communityStatus": "awaiting-feedback"
     },
@@ -630,7 +630,7 @@
         "<SourceMaterials article=\"DOC-33\" />"
       ],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "61fcef5afc7d6b2a74d34606d17ee4706b6fca412aeefd4ef823f5e9691f3649",
+      "contentSha256": "8f211ceb162266e752df0009e88511f9444edfea2c99ac16de9fababb704f2df",
       "previousContentSha256": "3ac46b2e8901459ef62659425febaf638a75f716e574d8515e1f39f14b777e1d",
       "communityStatus": "awaiting-feedback"
     },
@@ -660,7 +660,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "b5c37efb945e0233eb62822bc56ceab71d7ceb2f4fec94523c819f592b4268dd",
+      "contentSha256": "ff6d9765913fee76c9c3b1f64a0da4dccecf4d2fde9ed20df45b6898dc659b1d",
       "previousContentSha256": "18bd1afb01727a9437fb0115e5c1c255cf705c8fde92cf8a53e55f053264fb3f",
       "communityStatus": "awaiting-feedback"
     },
@@ -742,7 +742,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "291703fa77bd8b876babef2b8f81e3c8c2377eaa1f3fde59e1d80c9659fa3653",
+      "contentSha256": "c3c7637f0b5b96fc0f2d15dd737471f982845a65bfa585d066d0ef341c2dc27d",
       "previousContentSha256": "2161722ce185d3a911ffabdec345346b536e9bf1dcfd82803b88e8037b67cb0b",
       "communityStatus": "awaiting-feedback"
     },
@@ -818,7 +818,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"流程已对照 Console 分区烧录实现与 esptool 文档；浏览器、驱动和跨布局升级仍待真机复现。\"",
-      "contentSha256": "f4f2707d088e4d7223d2ef080d5a4282a118e192873817bbfdd49c45e6029753",
+      "contentSha256": "eaedd5f40f528b1e53134e671d287ecef71a16fda34c50758a25683250c9dcf3",
       "previousContentSha256": "2732ba5f34f215b07d6c1b6b79811317779464c6e31eef4385db6cb70852b9a2",
       "communityStatus": "awaiting-feedback"
     },
@@ -909,7 +909,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "嘉立创实战派S3真实在线烧录与启动日志通过；未提交新编译任务，未做实体显示/音频和对话验收。",
-      "contentSha256": "34e7edb5e2616959b51be666221a7f2fb86b6b2aa336b62b21c5cf5bd3d8fc60",
+      "contentSha256": "1d70e838bb4112796c70c809020521b3af3209c93ea52203af9bc120397af087",
       "previousContentSha256": "557a28b405acaf152b7ad1b695c89441fa41a3812f4c1b17e5ccdf1bfe21ed71",
       "communityStatus": "awaiting-feedback"
     },
@@ -1465,7 +1465,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"热点/BluFi 和六位设备码已对照代码；不同手机、板型及线上绑定过程尚待社区实测。\"",
-      "contentSha256": "f491af976f8581666424e160b1f0782932d949724455d4ad7109e9eeacdc6ca7",
+      "contentSha256": "88076921c0474fef2420db73ff0d2d8f2f325bf0ee185418115d83b72b274810",
       "previousContentSha256": "74227c69310fe1cfbb877fce9d7afedaae979b3d179739f0aad29f4b4e11a945",
       "communityStatus": "awaiting-feedback"
     },
@@ -1501,7 +1501,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已核对 MAX98357 数据手册和固件音频实现；新耳机电路尚未做台架验证。\"",
-      "contentSha256": "191c4e7ffa13548878829a9fcf8749f9cf5c62d89e04a940d59afa291b868001",
+      "contentSha256": "6107d1f25fe6abd31e087c36bb98a58ddcf7d71c822bd8735790788e38777b47",
       "previousContentSha256": "88b65575d5ad82d96fb4cef0202a2dcc86bee73bc92736b3e38d9d59138fca4b",
       "communityStatus": "awaiting-feedback"
     },
@@ -1544,7 +1544,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"USB 供电要求已对照开发板资料；续航、低负载保活及定制电池电路仍需按实际硬件测试。\"",
-      "contentSha256": "4fb1340bc52c5a9b15f0906acad6b3106bb2d4555a22312c2d4c146ac83e67a3",
+      "contentSha256": "06ff71c8146fa508e2a7066b42d64ef4051d0ba174b5a8ff54958df224a65142",
       "previousContentSha256": "e8b41a24adc0f71934f07625c811cd4fd496945ea7d5843c9f24a9035da17d77",
       "communityStatus": "awaiting-feedback"
     },
@@ -1579,7 +1579,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "bf3c18c8d8b5073edef194500349a17e923b211d260c73bfa0e5cd163ce92bda",
+      "contentSha256": "8f70407ea1fd3193f8e1b9a97e389b7886ab4abdfdb3008b0b0bc2651e5a0eb5",
       "previousContentSha256": "d5aa3d542e0fdd995edabd27c69bb1b422d4e2ec61ddf5c71bdbc490ba872154",
       "communityStatus": "awaiting-feedback"
     },
@@ -1686,7 +1686,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"适用固件 v2.6.0；核心板电源、具体模块修订与整机稳定性仍需实测。\"",
-      "contentSha256": "3f64316477ffd4f2a620da19f2b265b506d7b1e13b35b513c50096456cc795df",
+      "contentSha256": "1c8e701453bcf9221c229d33c47a1883ef95879cdf2705474b72b63cc77d45c0",
       "previousContentSha256": "7fe1e91d92a1fc5bcfb2ce495a9b8be6ab1c080a60b8fd8538298f89bae5a9f4",
       "communityStatus": "awaiting-feedback"
     },
@@ -1749,7 +1749,7 @@
         "<SourceMaterials article=\"DOC-07\" />"
       ],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "a300d158039ba05b15e6ea4b8cd95b6661ca6835e5e2f2e956de4a6ef4871d79",
+      "contentSha256": "6614c5dc17f11935f80b9dda28dd4a8d6f96a212efdf2d3de30b8394d2ccb4f0",
       "previousContentSha256": "eb154e7d988a8a4f0f4521ecc9a5fefab44f8c1c2406e7fb1711b1bac946702c",
       "communityStatus": "awaiting-feedback"
     },
@@ -1873,7 +1873,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "42f6ae97a7b741ed5e854910296b57a6183c5e29d6294b5c2a38eab3eb9ca609",
+      "contentSha256": "b65a1c2b28ae78d951ec6a10354a57e552315d92599edaf3ef125c253f22b093",
       "previousContentSha256": "fce918d9b0f06d1c1f70acc3c31d18bf80b2638abe205a786e75fad4c57c4848",
       "communityStatus": "awaiting-feedback"
     },
@@ -2102,7 +2102,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"引脚已对照 v2.6.0 板型源码和器件资料；整套接线、电源负载与不同实物模块尚待真机复现。\"",
-      "contentSha256": "fd3d1731fa82a130057ad334c92f14a06dcb2b1351c8e7f527ba633ad24e6435",
+      "contentSha256": "4227fa4783671cab41d61248937130c781af176e52592c01080e77cfd028b8d0",
       "previousContentSha256": "baf47712d1c0f05fed70be243c3a05058cb4afe0a320c3e5097a2a75026c9521",
       "communityStatus": "awaiting-feedback"
     },
@@ -2151,7 +2151,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "7c050df889e6c9f2da54e27bfa69987774252928c248dd6218035d08b721b8f7",
+      "contentSha256": "6c5c2a8ef036a9e1eb2e7548c95bcdc4d2db468787fe8c2e5006cf1f841e1cb5",
       "previousContentSha256": "0394c52a36bbb63a4c0bc3aef0883f6b5dcfe51efd3d414306d30128645221f1",
       "communityStatus": "awaiting-feedback"
     },
@@ -2203,7 +2203,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "9260a682148a2d2d40865b07f784f861061a1def461695c3ea9bdc25c7ad4e57",
+      "contentSha256": "eabbfcfe664b9d4333434577b70362e08ca0b65006f51cd989ab0bac3895d0ca",
       "previousContentSha256": "2a1c5b784ac4d4bee0677324aa8f760a45fe64f86489d1821f6e4c600ad21102",
       "communityStatus": "awaiting-feedback"
     },
@@ -2260,7 +2260,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "5a0345a76ed137c5adcd7aa741285ecc9cc9278dbc432e72877eb3a452c5055e",
+      "contentSha256": "882a9cf494f4b3ee22a7071c96bb727bfc45032a1e8b206e92db6ad24d635524",
       "previousContentSha256": "bf4c1b79412bdf304e3324acff2e40b5a4e02a2536c6c6f8fe4245d00e2be776",
       "communityStatus": "awaiting-feedback"
     },
@@ -2339,7 +2339,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "f8d8c4f84af091562c83db4f6d00e58554d10e020b9da96d2cf3c0d1cf494e59",
+      "contentSha256": "a55d5bef3779072921f2ce948ec9e3bbae4aa91186c836c8e7c8e357122877ae",
       "previousContentSha256": "fa2b130259c37ab760aaee60bc9ecbed07cc176bc14fc87d482e4d6d059492a0",
       "communityStatus": "awaiting-feedback"
     },
@@ -2397,7 +2397,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "bdda99e4a2dc6981158defd114f95e567d7212ad4ee4c2cb9e6a506cd05e0444",
+      "contentSha256": "983b3ab0c123cc637eeff7715f258e10a3bb78e33d5845485739b9ec9d6c7d8f",
       "previousContentSha256": "158d478deeb25b5b01d2b459dcb3b170c77081370ee57f0622a4a6627a84b4d7",
       "communityStatus": "awaiting-feedback"
     },
@@ -2442,7 +2442,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "1a3150d350bdf7095b509f36b0f30406f7aad60ad256201256021b6283c06bd4",
+      "contentSha256": "8d201c88ee11863d2d9e617d25d90ddd4ebf044495d313a746b88b9e99532107",
       "previousContentSha256": "c2ffe70e5213b41608af683bc859a680554103bfa36d9395ba63882453969243",
       "communityStatus": "awaiting-feedback"
     },
@@ -2474,7 +2474,7 @@
         "<SourceMaterials article=\"DOC-25\" />"
       ],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "979ab7f5ad7ffffe6aeada4c55d92bab786af86e0a416fd34a9e14cb9a0e3084",
+      "contentSha256": "df2156dfcdae3d8b2d50a963c892609652c88c22c1c852069890e008341cde95",
       "previousContentSha256": "1c892cd13d2ebb039ac990aa4db74ae3991d5c25e39c847e83177c53a151c476",
       "communityStatus": "awaiting-feedback"
     },
@@ -2523,7 +2523,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"示例已通过本地 MCP 协议与 WebSocket 桥接测试；真实端点、控制台工具发现和设备语音调用仍需使用自己的账号验证。\"",
-      "contentSha256": "96c4a023210443eadfc353ebcc26c5e7566cd499b2f37825d69e4f4ed073b964",
+      "contentSha256": "36dd36fb6b950003c220dc9edf6326c8e9bd824343112a0cde6eae405602ce55",
       "previousContentSha256": "419edb02b27dfa276c2b397fc4dcbd740d45ffbd83f8215f9d831d17aceb05d0",
       "communityStatus": "awaiting-feedback"
     },
@@ -4270,5 +4270,14 @@
   ],
   "currentReleaseAndConsoleReview": "firmware-console-review-2026-11-14.json",
   "onlineFlashingHardwareVerification": "online-flashing-hardware-2026-11-14.json",
-  "firmwareCatalogReview": "firmware-download-catalog.json"
+  "firmwareCatalogReview": "firmware-download-catalog.json",
+  "githubMarkdownImages": {
+    "record": "github-markdown-images-2026-11-14.md",
+    "changedPages": 31,
+    "markdownImageOccurrences": 138,
+    "imageLinks": 137,
+    "publicImagePathsUnchanged": true,
+    "imageBytesUnchanged": true,
+    "translationSourceHashesRefreshed": false
+  }
 }

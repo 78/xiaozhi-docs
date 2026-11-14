@@ -31,6 +31,8 @@ status: draft
 
 图片放在 `docs/public/images/shared/` 或语言目录中。共享接线图不要复制多份；带中文界面或文字的图片需要对应语言素材。不要热链飞书图片；视频、大文件与固件放在官方对象存储或 Releases，正文提供说明和链接。迁移社区作品时保留来源及署名。素材决策记录在 `audit/media-inventory.json`，Release 文件及校验值记录在 `audit/release-assets.json`；页面下载区使用 `.vitepress/data/materials.json`。新文件不要直接推入 Git 历史；先检查来源、适用版本、个人信息和凭据，再附清单上传独立 Release。未采用旧图也需要具体原因，不能默认为丢弃。迁入图片还要记录 `image-dimensions.json` 的实际宽高，避免懒加载把章节锚点推走；核心硬件教程的配件、总图、变体和效果图需同步更新 `audit/hardware-illustrations.json`，`npm run check:assets` 会校验它们确实出现在对应章节。
 
+Markdown 图片及其放大链接使用相对于文章文件的仓库路径，让 GitHub 预览、分支和 fork 都能读取同一份图片。例如 `docs/zh/hardware/` 下的文章写 `../../public/images/zh/doc-05-image-035.jpg`，更深一层的文章多加一层 `../`。不要在 Markdown 中使用网站根路径 `/images/…`，也不要热链正式站代替仓库相对路径。构建会将这些引用转换回 `/images/…`，保留现有图片网址、尺寸和网站排版，不重复打包文件。`npm run check:images` 同时校验 GitHub 图片路径与体积预算。
+
 图片发布前运行 `npm run images:audit`。产品外观照最长边不超过 1600px；装配照通常不超过 2200px，普通照片不超过 512 KiB。接线、细字截图与关键标注图按 `audit/image-policy.json` 的明确类别保留尺寸和像素，不为了压小文件损坏 GPIO 或文字；允许的较大文件必须有对应用途和预算。整站位图预算暂为 32 MiB，SVG 单文件不超过 64 KiB。超限应先优化，再解释需要保留的细节，不能改扩展名冒充压缩。
 
 `npm run images:optimize` 比较 WebP、PNG、JPEG 候选，预览与原件保存在仓库外的本地缓存。检查结果后执行 `npm run images:optimize -- --apply`，同步替换引用、图片尺寸和源图/发布图的校验值。重新生成必须从清单记录的原件开始；没有原件时不要对现有有损图片反复转码。缓存可用 `XIAOZHI_IMAGE_CACHE` 指定，不能提交进 Git。素材清单的 `sha256` 始终是源图摘要，`publishedAsset.sha256` 才是实际发布文件摘要。英文仍需单独审核，不能借图片路径更新刷新翻译哈希。

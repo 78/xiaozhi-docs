@@ -21,7 +21,7 @@ sourceArticles: ["DOC-36"]
 
 <figure class="source-figure">
 
-[![先验证局域网唤醒，再接语音](/images/zh/wake-on-lan-flow.svg)](/images/zh/wake-on-lan-flow.svg)
+[![先验证局域网唤醒，再接语音](../../../public/images/zh/wake-on-lan-flow.svg)](../../../public/images/zh/wake-on-lan-flow.svg)
 
 <figcaption>先验证局域网唤醒，再接语音。点击查看大图。</figcaption>
 </figure>

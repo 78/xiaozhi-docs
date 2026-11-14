@@ -20,7 +20,7 @@ sourceArticles: ["DOC-25"]
 
 <figure class="source-figure">
 
-[![搜索工具与两种凭据](/images/zh/mcp-web-search-flow.svg)](/images/zh/mcp-web-search-flow.svg)
+[![搜索工具与两种凭据](../../../public/images/zh/mcp-web-search-flow.svg)](../../../public/images/zh/mcp-web-search-flow.svg)
 
 <figcaption>搜索工具与两种凭据。点击查看大图。</figcaption>
 </figure>

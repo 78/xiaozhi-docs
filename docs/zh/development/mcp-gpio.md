@@ -38,7 +38,7 @@ sourceArticles: ["DOC-33"]
 
 <figure class="source-figure">
 
-[![基础 S3 的 GPIO18 指示灯连接](/images/zh/gpio-led-wiring.svg)](/images/zh/gpio-led-wiring.svg)
+[![基础 S3 的 GPIO18 指示灯连接](../../public/images/zh/gpio-led-wiring.svg)](../../public/images/zh/gpio-led-wiring.svg)
 
 <figcaption>基础 S3 的 GPIO18 指示灯连接。点击查看大图。</figcaption>
 </figure>

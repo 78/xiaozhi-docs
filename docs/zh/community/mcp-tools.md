@@ -32,7 +32,7 @@ sourceArticles: ["DOC-43", "DOC-26", "DOC-27", "DOC-28"]
 
 <figure class="source-figure">
 
-[![xiaozhi-mcphub 的工具市场列表：这是挑选服务的界面，不是连接架构图。](/images/zh/doc-27-image-006.webp)](/images/zh/doc-27-image-006.webp)
+[![xiaozhi-mcphub 的工具市场列表：这是挑选服务的界面，不是连接架构图。](../../public/images/zh/doc-27-image-006.webp)](../../public/images/zh/doc-27-image-006.webp)
 
 <figcaption>xiaozhi-mcphub 的工具市场列表：这是挑选服务的界面，不是连接架构图。</figcaption>
 </figure>

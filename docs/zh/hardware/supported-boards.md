@@ -18,21 +18,21 @@ sourceArticles: ["DOC-31"]
 
 <figure class="source-figure">
 
-[![Xmini-C3 系列成品外观；外壳相似不能代替 PCB 修订和固件变体核对。](/images/zh/doc-31-image-003.webp)](/images/zh/doc-31-image-003.webp)
+[![Xmini-C3 系列成品外观；外壳相似不能代替 PCB 修订和固件变体核对。](../../public/images/zh/doc-31-image-003.webp)](../../public/images/zh/doc-31-image-003.webp)
 
 <figcaption>Xmini-C3 系列成品外观；外壳相似不能代替 PCB 修订和固件变体核对。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![ESP32-BOX-3 外观。](/images/zh/doc-31-image-004.webp)](/images/zh/doc-31-image-004.webp)
+[![ESP32-BOX-3 外观。](../../public/images/zh/doc-31-image-004.webp)](../../public/images/zh/doc-31-image-004.webp)
 
 <figcaption>ESP32-BOX-3 外观。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![M5Stack CoreS3 外观；支持范围以固件目录为准。](/images/zh/doc-31-image-012.webp)](/images/zh/doc-31-image-012.webp)
+[![M5Stack CoreS3 外观；支持范围以固件目录为准。](../../public/images/zh/doc-31-image-012.webp)](../../public/images/zh/doc-31-image-012.webp)
 
 <figcaption>M5Stack CoreS3 外观；支持范围以固件目录为准。</figcaption>
 </figure>

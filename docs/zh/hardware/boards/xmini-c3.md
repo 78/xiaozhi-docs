@@ -14,7 +14,7 @@ Xmini 是一组硬件，不能把 Wi-Fi、V3 与 4G 版当成同一块板。电�
 
 <figure class="source-figure">
 
-[![Xmini-C3 板外观。](/images/zh/doc-29-image-001.webp)](/images/zh/doc-29-image-001.webp)
+[![Xmini-C3 板外观。](../../../public/images/zh/doc-29-image-001.webp)](../../../public/images/zh/doc-29-image-001.webp)
 
 <figcaption>Xmini-C3 板外观。</figcaption>
 </figure>
@@ -31,7 +31,7 @@ Xmini 是一组硬件，不能把 Wi-Fi、V3 与 4G 版当成同一块板。电�
 
 <figure class="source-figure">
 
-[![原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。](/images/zh/doc-29-image-019.webp)](/images/zh/doc-29-image-019.webp)
+[![原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。](../../../public/images/zh/doc-29-image-019.webp)](../../../public/images/zh/doc-29-image-019.webp)
 
 <figcaption>原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。</figcaption>
 </figure>

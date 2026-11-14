@@ -20,14 +20,14 @@ reviewNote: "引脚已对照 v2.6.0 板型源码和器件资料；整套接线�
 
 <figure class="source-figure">
 
-[![基础版实物：ESP32-S3、麦克风、功放与扬声器](/images/zh/doc-05-image-035.jpg)](/images/zh/doc-05-image-035.jpg)
+[![基础版实物：ESP32-S3、麦克风、功放与扬声器](../../public/images/zh/doc-05-image-035.jpg)](../../public/images/zh/doc-05-image-035.jpg)
 
 <figcaption>基础版实物：ESP32-S3、麦克风、功放与扬声器。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![OLED 扩展实物：在基础音频方案上增加显示屏](/images/zh/doc-05-image-037.jpg)](/images/zh/doc-05-image-037.jpg)
+[![OLED 扩展实物：在基础音频方案上增加显示屏](../../public/images/zh/doc-05-image-037.jpg)](../../public/images/zh/doc-05-image-037.jpg)
 
 <figcaption>OLED 扩展实物：在基础音频方案上增加显示屏。点击查看大图。</figcaption>
 </figure>
@@ -60,14 +60,14 @@ reviewNote: "引脚已对照 v2.6.0 板型源码和器件资料；整套接线�
 
 <figure class="source-figure">
 
-[![模组型号位置：核对 WROOM-1 与 N16R8](/images/zh/doc-05-image-001.webp)](/images/zh/doc-05-image-001.webp)
+[![模组型号位置：核对 WROOM-1 与 N16R8](../../public/images/zh/doc-05-image-001.webp)](../../public/images/zh/doc-05-image-001.webp)
 
 <figcaption>模组型号位置：核对 WROOM-1 与 N16R8。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![ESP32-S3-DevKitC-1 开发板外观](/images/zh/doc-05-image-002.webp)](/images/zh/doc-05-image-002.webp)
+[![ESP32-S3-DevKitC-1 开发板外观](../../public/images/zh/doc-05-image-002.webp)](../../public/images/zh/doc-05-image-002.webp)
 
 <figcaption>ESP32-S3-DevKitC-1 开发板外观。点击查看大图。</figcaption>
 </figure>
@@ -79,7 +79,7 @@ reviewNote: "引脚已对照 v2.6.0 板型源码和器件资料；整套接线�
 
 <figure class="source-figure">
 
-[![原板 RGB 附近的局部照片，仅用于识别该修订；不要求为点亮 RGB 改焊开发板](/images/zh/doc-05-image-003.webp)](/images/zh/doc-05-image-003.webp)
+[![原板 RGB 附近的局部照片，仅用于识别该修订；不要求为点亮 RGB 改焊开发板](../../public/images/zh/doc-05-image-003.webp)](../../public/images/zh/doc-05-image-003.webp)
 
 <figcaption>原板 RGB 附近的局部照片，仅用于识别该修订；不要求为点亮 RGB 改焊开发板。点击查看大图。</figcaption>
 </figure>
@@ -92,7 +92,7 @@ RGB 能否点亮不是接线成功的统一判据，按键、显示、录放和�
 
 <figure class="source-figure">
 
-[![INMP441 模块：核对 VDD、GND、WS、SCK、SD 与 L/R](/images/zh/doc-05-image-004.webp)](/images/zh/doc-05-image-004.webp)
+[![INMP441 模块：核对 VDD、GND、WS、SCK、SD 与 L/R](../../public/images/zh/doc-05-image-004.webp)](../../public/images/zh/doc-05-image-004.webp)
 
 <figcaption>INMP441 模块：核对 VDD、GND、WS、SCK、SD 与 L/R。点击查看大图。</figcaption>
 </figure>
@@ -103,14 +103,14 @@ ZTS6672 与 ICS43434 也是常见的麦克风模块。下图用于辨认型号�
 
 <figure class="source-figure">
 
-[![ ZTS6672 麦克风模块](/images/zh/doc-05-image-005.webp)](/images/zh/doc-05-image-005.webp)
+[![ ZTS6672 麦克风模块](../../public/images/zh/doc-05-image-005.webp)](../../public/images/zh/doc-05-image-005.webp)
 
 <figcaption> ZTS6672 麦克风模块。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![ ICS43434 麦克风模块](/images/zh/doc-05-image-006.webp)](/images/zh/doc-05-image-006.webp)
+[![ ICS43434 麦克风模块](../../public/images/zh/doc-05-image-006.webp)](../../public/images/zh/doc-05-image-006.webp)
 
 <figcaption> ICS43434 麦克风模块。点击查看大图。</figcaption>
 </figure>
@@ -125,14 +125,14 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figure class="source-figure">
 
-[![MAX98357A 模块与排针、扬声器端子](/images/zh/doc-05-image-007.webp)](/images/zh/doc-05-image-007.webp)
+[![MAX98357A 模块与排针、扬声器端子](../../public/images/zh/doc-05-image-007.webp)](../../public/images/zh/doc-05-image-007.webp)
 
 <figcaption>MAX98357A 模块与排针、扬声器端子。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![ HT517 功放模块与插座](/images/zh/doc-05-image-008.webp)](/images/zh/doc-05-image-008.webp)
+[![ HT517 功放模块与插座](../../public/images/zh/doc-05-image-008.webp)](../../public/images/zh/doc-05-image-008.webp)
 
 <figcaption> HT517 功放模块与插座。点击查看大图。</figcaption>
 </figure>
@@ -143,14 +143,14 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figure class="source-figure">
 
-[![原 8Ω 腔体扬声器示例；本页选择 8Ω、3W](/images/zh/doc-05-image-009.webp)](/images/zh/doc-05-image-009.webp)
+[![原 8Ω 腔体扬声器示例；本页选择 8Ω、3W](../../public/images/zh/doc-05-image-009.webp)](../../public/images/zh/doc-05-image-009.webp)
 
 <figcaption>原 8Ω 腔体扬声器示例；本页选择 8Ω、3W。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![原 4Ω 腔体扬声器示例；需要另核对功放负载和电源余量](/images/zh/doc-05-image-010.webp)](/images/zh/doc-05-image-010.webp)
+[![原 4Ω 腔体扬声器示例；需要另核对功放负载和电源余量](../../public/images/zh/doc-05-image-010.webp)](../../public/images/zh/doc-05-image-010.webp)
 
 <figcaption>原 4Ω 腔体扬声器示例；需要另核对功放负载和电源余量。点击查看大图。</figcaption>
 </figure>
@@ -165,14 +165,14 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figure class="source-figure">
 
-[![两块可拼面包板的外观](/images/zh/doc-05-image-013.jpg)](/images/zh/doc-05-image-013.jpg)
+[![两块可拼面包板的外观](../../public/images/zh/doc-05-image-013.jpg)](../../public/images/zh/doc-05-image-013.jpg)
 
 <figcaption>两块可拼面包板的外观。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![面包板内部金属连接结构：孔位相邻不等于导通](/images/zh/doc-05-image-014.webp)](/images/zh/doc-05-image-014.webp)
+[![面包板内部金属连接结构：孔位相邻不等于导通](../../public/images/zh/doc-05-image-014.webp)](../../public/images/zh/doc-05-image-014.webp)
 
 <figcaption>面包板内部金属连接结构：孔位相邻不等于导通。点击查看大图。</figcaption>
 </figure>
@@ -183,14 +183,14 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figure class="source-figure">
 
-[![用于面包板的短跳线](/images/zh/doc-05-image-011.webp)](/images/zh/doc-05-image-011.webp)
+[![用于面包板的短跳线](../../public/images/zh/doc-05-image-011.webp)](../../public/images/zh/doc-05-image-011.webp)
 
 <figcaption>用于面包板的短跳线。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![杜邦线示例：按模块和主板排针选择端头](/images/zh/doc-05-image-012.webp)](/images/zh/doc-05-image-012.webp)
+[![杜邦线示例：按模块和主板排针选择端头](../../public/images/zh/doc-05-image-012.webp)](../../public/images/zh/doc-05-image-012.webp)
 
 <figcaption>杜邦线示例：按模块和主板排针选择端头。点击查看大图。</figcaption>
 </figure>
@@ -199,7 +199,7 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figure class="source-figure">
 
-[![可选轻触按钮：同侧引脚可能已经连通，安装前确认导通关系](/images/zh/doc-05-image-020.webp)](/images/zh/doc-05-image-020.webp)
+[![可选轻触按钮：同侧引脚可能已经连通，安装前确认导通关系](../../public/images/zh/doc-05-image-020.webp)](../../public/images/zh/doc-05-image-020.webp)
 
 <figcaption>可选轻触按钮：同侧引脚可能已经连通，安装前确认导通关系。点击查看大图。</figcaption>
 </figure>
@@ -210,14 +210,14 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figure class="source-figure">
 
-[![0.91 英寸 128×32 OLED 示例](/images/zh/doc-05-image-015.webp)](/images/zh/doc-05-image-015.webp)
+[![0.91 英寸 128×32 OLED 示例](../../public/images/zh/doc-05-image-015.webp)](../../public/images/zh/doc-05-image-015.webp)
 
 <figcaption>0.91 英寸 128×32 OLED 示例。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![0.96 英寸 128×64 OLED 示例](/images/zh/doc-05-image-016.webp)](/images/zh/doc-05-image-016.webp)
+[![0.96 英寸 128×64 OLED 示例](../../public/images/zh/doc-05-image-016.webp)](../../public/images/zh/doc-05-image-016.webp)
 
 <figcaption>0.96 英寸 128×64 OLED 示例。点击查看大图。</figcaption>
 </figure>
@@ -245,7 +245,7 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figure class="source-figure wiring-figure">
 
-[![基础 S3：完整音频、供电与 OLED 连线](/images/zh/breadboard-s3-wiring-v2.6.0.svg)](/images/zh/breadboard-s3-wiring-v2.6.0.svg)
+[![基础 S3：完整音频、供电与 OLED 连线](../../public/images/zh/breadboard-s3-wiring-v2.6.0.svg)](../../public/images/zh/breadboard-s3-wiring-v2.6.0.svg)
 
 <figcaption>基础 S3：完整音频、供电与 OLED 连线。固件 v2.6.0 的信号连线示意，不表示开发板物理排针位置。</figcaption>
 </figure>
@@ -262,7 +262,7 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figure class="source-figure wiring-figure">
 
-[![44 针标准板位置总图（Surfer 标注）；Wi-Fi 版不接 4G/LDO 分支，功放供电按本页 5V 方案](/images/zh/doc-05-image-021.jpg)](/images/zh/doc-05-image-021.jpg)
+[![44 针标准板位置总图（Surfer 标注）；Wi-Fi 版不接 4G/LDO 分支，功放供电按本页 5V 方案](../../public/images/zh/doc-05-image-021.jpg)](../../public/images/zh/doc-05-image-021.jpg)
 
 <figcaption>44 针标准板位置总图（Surfer 标注）；Wi-Fi 版不接 4G/LDO 分支，功放供电按本页 5V 方案。点击查看大图。</figcaption>
 </figure>
@@ -271,7 +271,7 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figure class="source-figure wiring-figure">
 
-[![42 针果云板位置总图（Surfer 标注）；电源排针位置不同；Wi-Fi 版不接 4G/LDO 分支，功放按本页 5V 方案](/images/zh/doc-05-image-026.jpg)](/images/zh/doc-05-image-026.jpg)
+[![42 针果云板位置总图（Surfer 标注）；电源排针位置不同；Wi-Fi 版不接 4G/LDO 分支，功放按本页 5V 方案](../../public/images/zh/doc-05-image-026.jpg)](../../public/images/zh/doc-05-image-026.jpg)
 
 <figcaption>42 针果云板位置总图（Surfer 标注）；电源排针位置不同；Wi-Fi 版不接 4G/LDO 分支，功放按本页 5V 方案。点击查看大图。</figcaption>
 </figure>
@@ -297,14 +297,14 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figure class="source-figure wiring-figure">
 
-[![44 针板：麦克风反面朝上的位置图，电气信号仍按 WS/SCK/SD 对应](/images/zh/doc-05-image-022.jpg)](/images/zh/doc-05-image-022.jpg)
+[![44 针板：麦克风反面朝上的位置图，电气信号仍按 WS/SCK/SD 对应](../../public/images/zh/doc-05-image-022.jpg)](../../public/images/zh/doc-05-image-022.jpg)
 
 <figcaption>44 针板：麦克风反面朝上的位置图，电气信号仍按 WS/SCK/SD 对应。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure wiring-figure">
 
-[![42 针板：麦克风反面朝上的位置图，不能按外观镜像后猜电源脚](/images/zh/doc-05-image-027.jpg)](/images/zh/doc-05-image-027.jpg)
+[![42 针板：麦克风反面朝上的位置图，不能按外观镜像后猜电源脚](../../public/images/zh/doc-05-image-027.jpg)](../../public/images/zh/doc-05-image-027.jpg)
 
 <figcaption>42 针板：麦克风反面朝上的位置图，不能按外观镜像后猜电源脚。点击查看大图。</figcaption>
 </figure>
@@ -329,7 +329,7 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figure class="source-figure wiring-figure">
 
-[![麦克风与 MAX98357A 的直接连线：图中 3V3 功放支路与短接线按上文说明调整](/images/zh/doc-05-image-028.jpg)](/images/zh/doc-05-image-028.jpg)
+[![麦克风与 MAX98357A 的直接连线：图中 3V3 功放支路与短接线按上文说明调整](../../public/images/zh/doc-05-image-028.jpg)](../../public/images/zh/doc-05-image-028.jpg)
 
 <figcaption>麦克风与 MAX98357A 的直接连线：图中 3V3 功放支路与短接线按上文说明调整。点击查看大图。</figcaption>
 </figure>
@@ -345,7 +345,7 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figure class="source-figure wiring-figure">
 
-[![ESP32-S3 与 SSD1306 OLED 的四根连线](/images/zh/breadboard-s3-oled-v2.6.0.svg)](/images/zh/breadboard-s3-oled-v2.6.0.svg)
+[![ESP32-S3 与 SSD1306 OLED 的四根连线](../../public/images/zh/breadboard-s3-oled-v2.6.0.svg)](../../public/images/zh/breadboard-s3-oled-v2.6.0.svg)
 
 <figcaption>OLED 的 VCC、GND、SDA、SCL 四根线。点击查看大图。</figcaption>
 </figure>
@@ -364,7 +364,7 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figure class="source-figure">
 
-[![基础版移开模块后的接线实物，可看到模块下方的隐藏短线](/images/zh/doc-05-image-036.jpg)](/images/zh/doc-05-image-036.jpg)
+[![基础版移开模块后的接线实物，可看到模块下方的隐藏短线](../../public/images/zh/doc-05-image-036.jpg)](../../public/images/zh/doc-05-image-036.jpg)
 
 <figcaption>基础版移开模块后的接线实物，可看到模块下方的隐藏短线。点击查看大图。</figcaption>
 </figure>
@@ -385,14 +385,14 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figure class="source-figure">
 
-[![标准板基础布局与模块相对位置](/images/zh/doc-05-image-023.jpg)](/images/zh/doc-05-image-023.jpg)
+[![标准板基础布局与模块相对位置](../../public/images/zh/doc-05-image-023.jpg)](../../public/images/zh/doc-05-image-023.jpg)
 
 <figcaption>标准板基础布局与模块相对位置。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![标准板的连线与模块位置参考](/images/zh/doc-05-image-024.jpg)](/images/zh/doc-05-image-024.jpg)
+[![标准板的连线与模块位置参考](../../public/images/zh/doc-05-image-024.jpg)](../../public/images/zh/doc-05-image-024.jpg)
 
 <figcaption>标准板的连线与模块位置参考。点击查看大图。</figcaption>
 </figure>
@@ -403,14 +403,14 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figure class="source-figure">
 
-[![果云板的模块布置](/images/zh/doc-05-image-029.webp)](/images/zh/doc-05-image-029.webp)
+[![果云板的模块布置](../../public/images/zh/doc-05-image-029.webp)](../../public/images/zh/doc-05-image-029.webp)
 
 <figcaption>果云板的模块布置。点击查看大图。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![果云板的另一个装配视角](/images/zh/doc-05-image-030.webp)](/images/zh/doc-05-image-030.webp)
+[![果云板的另一个装配视角](../../public/images/zh/doc-05-image-030.webp)](../../public/images/zh/doc-05-image-030.webp)
 
 <figcaption>果云板的另一个装配视角。点击查看大图。</figcaption>
 </figure>

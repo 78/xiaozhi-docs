@@ -269,9 +269,9 @@
           "docs/zh/console/github-verification.md"
         ],
         "outputHashes": {
-          "docs/zh/console/github-verification.md": "9c9aa0ad6960b58b62ab0b155bdf2b122a0d8802d27f7beded1c1060b05f462b"
+          "docs/zh/console/github-verification.md": "639a7836be16521d6248582c4a1ce12f8d6772445520dbb54b7196a5e5959619"
         },
-        "contentSha256": "9c9aa0ad6960b58b62ab0b155bdf2b122a0d8802d27f7beded1c1060b05f462b",
+        "contentSha256": "639a7836be16521d6248582c4a1ce12f8d6772445520dbb54b7196a5e5959619",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/console/github-verification.md",
@@ -795,7 +795,7 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "fd3d1731fa82a130057ad334c92f14a06dcb2b1351c8e7f527ba633ad24e6435",
+        "contentSha256": "4227fa4783671cab41d61248937130c781af176e52592c01080e77cfd028b8d0",
         "completedChanges": [
           "固定 N16R8 + INMP441 + MAX98357A + SSD1306 方案与独立屏幕变体。",
           "按 v2.6.0 重写引脚表，明确单 USB 供电与模块条件，新增信号分组图。",
@@ -825,8 +825,8 @@
           "docs/zh/hardware/breadboard-4g.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/breadboard-esp32-s3.md": "fd3d1731fa82a130057ad334c92f14a06dcb2b1351c8e7f527ba633ad24e6435",
-          "docs/zh/hardware/breadboard-4g.md": "3f64316477ffd4f2a620da19f2b265b506d7b1e13b35b513c50096456cc795df"
+          "docs/zh/hardware/breadboard-esp32-s3.md": "4227fa4783671cab41d61248937130c781af176e52592c01080e77cfd028b8d0",
+          "docs/zh/hardware/breadboard-4g.md": "1c8e701453bcf9221c229d33c47a1883ef95879cdf2705474b72b63cc77d45c0"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -965,9 +965,9 @@
           "docs/zh/hardware/displays/st7789.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/displays/st7789.md": "5a0345a76ed137c5adcd7aa741285ecc9cc9278dbc432e72877eb3a452c5055e"
+          "docs/zh/hardware/displays/st7789.md": "882a9cf494f4b3ee22a7071c96bb727bfc45032a1e8b206e92db6ad24d635524"
         },
-        "contentSha256": "5a0345a76ed137c5adcd7aa741285ecc9cc9278dbc432e72877eb3a452c5055e",
+        "contentSha256": "882a9cf494f4b3ee22a7071c96bb727bfc45032a1e8b206e92db6ad24d635524",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/hardware/displays/st7789.md",
@@ -1113,9 +1113,9 @@
           "docs/zh/hardware/breadboard-camera.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/breadboard-camera.md": "a300d158039ba05b15e6ea4b8cd95b6661ca6835e5e2f2e956de4a6ef4871d79"
+          "docs/zh/hardware/breadboard-camera.md": "6614c5dc17f11935f80b9dda28dd4a8d6f96a212efdf2d3de30b8394d2ccb4f0"
         },
-        "contentSha256": "a300d158039ba05b15e6ea4b8cd95b6661ca6835e5e2f2e956de4a6ef4871d79",
+        "contentSha256": "6614c5dc17f11935f80b9dda28dd4a8d6f96a212efdf2d3de30b8394d2ccb4f0",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/hardware/breadboard-camera.md",
@@ -1254,7 +1254,7 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "f4f2707d088e4d7223d2ef080d5a4282a118e192873817bbfdd49c45e6029753",
+        "contentSha256": "eaedd5f40f528b1e53134e671d287ecef71a16fda34c50758a25683250c9dcf3",
         "completedChanges": [
           "统一网页与离线烧录，区分完整、应用与多文件镜像。",
           "解释 Console 跳过 NVS 的范围及跨布局例外；给出 esptool 5.x 语法。"
@@ -1282,7 +1282,7 @@
           "docs/zh/firmware/flashing.md"
         ],
         "outputHashes": {
-          "docs/zh/firmware/flashing.md": "f4f2707d088e4d7223d2ef080d5a4282a118e192873817bbfdd49c45e6029753"
+          "docs/zh/firmware/flashing.md": "eaedd5f40f528b1e53134e671d287ecef71a16fda34c50758a25683250c9dcf3"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -1395,7 +1395,7 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "f491af976f8581666424e160b1f0782932d949724455d4ad7109e9eeacdc6ca7",
+        "contentSha256": "88076921c0474fef2420db73ff0d2d8f2f325bf0ee185418115d83b72b274810",
         "completedChanges": [
           "分开热点与 BluFi，按当前六位设备码、控制台添加设备流程重写。",
           "区分下载模式和重新配网，取消绕线/触摸天线的维修建议。"
@@ -1423,7 +1423,7 @@
           "docs/zh/getting-started/wifi-and-binding.md"
         ],
         "outputHashes": {
-          "docs/zh/getting-started/wifi-and-binding.md": "f491af976f8581666424e160b1f0782932d949724455d4ad7109e9eeacdc6ca7"
+          "docs/zh/getting-started/wifi-and-binding.md": "88076921c0474fef2420db73ff0d2d8f2f325bf0ee185418115d83b72b274810"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -1552,7 +1552,7 @@
         ],
         "outputHashes": {
           "docs/zh/hardware/choosing-hardware.md": "68eb8aaafa572f1e0ca82a4d6dae1b5b14af70adcc44f771b6c6abe75393f5e0",
-          "docs/zh/hardware/breadboard-esp32-s3.md": "fd3d1731fa82a130057ad334c92f14a06dcb2b1351c8e7f527ba633ad24e6435"
+          "docs/zh/hardware/breadboard-esp32-s3.md": "4227fa4783671cab41d61248937130c781af176e52592c01080e77cfd028b8d0"
         },
         "contentSha256": "68eb8aaafa572f1e0ca82a4d6dae1b5b14af70adcc44f771b6c6abe75393f5e0",
         "translation": {
@@ -1696,9 +1696,9 @@
           "docs/zh/hardware/design-guidelines.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/design-guidelines.md": "9260a682148a2d2d40865b07f784f861061a1def461695c3ea9bdc25c7ad4e57"
+          "docs/zh/hardware/design-guidelines.md": "eabbfcfe664b9d4333434577b70362e08ca0b65006f51cd989ab0bac3895d0ca"
         },
-        "contentSha256": "9260a682148a2d2d40865b07f784f861061a1def461695c3ea9bdc25c7ad4e57",
+        "contentSha256": "eabbfcfe664b9d4333434577b70362e08ca0b65006f51cd989ab0bac3895d0ca",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/hardware/design-guidelines.md",
@@ -1825,9 +1825,9 @@
           "docs/zh/hardware/breadboard-esp32-c3.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/breadboard-esp32-c3.md": "42f6ae97a7b741ed5e854910296b57a6183c5e29d6294b5c2a38eab3eb9ca609"
+          "docs/zh/hardware/breadboard-esp32-c3.md": "b65a1c2b28ae78d951ec6a10354a57e552315d92599edaf3ef125c253f22b093"
         },
-        "contentSha256": "42f6ae97a7b741ed5e854910296b57a6183c5e29d6294b5c2a38eab3eb9ca609",
+        "contentSha256": "b65a1c2b28ae78d951ec6a10354a57e552315d92599edaf3ef125c253f22b093",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/hardware/breadboard-esp32-c3.md",
@@ -1969,9 +1969,9 @@
           "docs/zh/hardware/breadboard-esp32.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/breadboard-esp32.md": "7c050df889e6c9f2da54e27bfa69987774252928c248dd6218035d08b721b8f7"
+          "docs/zh/hardware/breadboard-esp32.md": "6c5c2a8ef036a9e1eb2e7548c95bcdc4d2db468787fe8c2e5006cf1f841e1cb5"
         },
-        "contentSha256": "7c050df889e6c9f2da54e27bfa69987774252928c248dd6218035d08b721b8f7",
+        "contentSha256": "6c5c2a8ef036a9e1eb2e7548c95bcdc4d2db468787fe8c2e5006cf1f841e1cb5",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/hardware/breadboard-esp32.md",
@@ -2111,9 +2111,9 @@
           "docs/zh/console/voice-cloning.md"
         ],
         "outputHashes": {
-          "docs/zh/console/voice-cloning.md": "4b834e9af31efc08e4c894588db8e0f2b0093d39a5c0fe22de90ac24901a72be"
+          "docs/zh/console/voice-cloning.md": "477844e5aaf93c4ad3c7120de82e7ce449348134548b68209ec6633a52150357"
         },
-        "contentSha256": "4b834e9af31efc08e4c894588db8e0f2b0093d39a5c0fe22de90ac24901a72be",
+        "contentSha256": "477844e5aaf93c4ad3c7120de82e7ce449348134548b68209ec6633a52150357",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/console/voice-cloning.md",
@@ -2511,9 +2511,9 @@
           "docs/zh/console/knowledge-base.md"
         ],
         "outputHashes": {
-          "docs/zh/console/knowledge-base.md": "01b95946fffb18a2cb16c5a0f7b7654aafee2c5b5f56c78b53df1b6e570adffe"
+          "docs/zh/console/knowledge-base.md": "3efef20040c17ea6f15a6b36139cf4bc7aa53adf7454b2349fd74c7957634781"
         },
-        "contentSha256": "01b95946fffb18a2cb16c5a0f7b7654aafee2c5b5f56c78b53df1b6e570adffe",
+        "contentSha256": "3efef20040c17ea6f15a6b36139cf4bc7aa53adf7454b2349fd74c7957634781",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/console/knowledge-base.md",
@@ -2631,7 +2631,7 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "34e7edb5e2616959b51be666221a7f2fb86b6b2aa336b62b21c5cf5bd3d8fc60",
+        "contentSha256": "1d70e838bb4112796c70c809020521b3af3209c93ea52203af9bc120397af087",
         "completedChanges": [
           "使用当前专用编译入口，解释逐板选项和源码版本。",
           "覆盖创建、取消、失败、下载及网页烧录，配额以页面为准。",
@@ -2663,7 +2663,7 @@
           "docs/zh/firmware/online-builder.md"
         ],
         "outputHashes": {
-          "docs/zh/firmware/online-builder.md": "34e7edb5e2616959b51be666221a7f2fb86b6b2aa336b62b21c5cf5bd3d8fc60"
+          "docs/zh/firmware/online-builder.md": "1d70e838bb4112796c70c809020521b3af3209c93ea52203af9bc120397af087"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -2779,7 +2779,7 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "9ade15a1465a710e30af7e170fc7a42e75dad3c312b4327331a8a97099cbe55b",
+        "contentSha256": "779d4be9b465ff40e8ec9e1a5926982e6d93f614005c3ffd971b32007ccb706d",
         "completedChanges": [
           "使用 v2.6.0 与 release/v6.1 基线，给跨平台 SDK 环境和构建路径。",
           "补构建变体、产物、串口日志、SDK 切换和 Windows response file。"
@@ -2807,7 +2807,7 @@
           "docs/zh/development/build-firmware.md"
         ],
         "outputHashes": {
-          "docs/zh/development/build-firmware.md": "9ade15a1465a710e30af7e170fc7a42e75dad3c312b4327331a8a97099cbe55b"
+          "docs/zh/development/build-firmware.md": "779d4be9b465ff40e8ec9e1a5926982e6d93f614005c3ffd971b32007ccb706d"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -2920,7 +2920,7 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "bed6bfeabf851e9700558588bd4e09825d4109f73166d8c1f10d7cad90fa52a9",
+        "contentSha256": "a35b5c75348ed6c7e256a8fce4b94ce9c456e53849e7d964e5b96fd131ea723e",
         "completedChanges": [
           "建立独立目录、类型/变体及升级身份的适配顺序。",
           "完整技术 API 链接固件版本文档，移除覆盖标准板型和删除 OTA 分区的通用方案。"
@@ -2948,7 +2948,7 @@
           "docs/zh/development/custom-board.md"
         ],
         "outputHashes": {
-          "docs/zh/development/custom-board.md": "bed6bfeabf851e9700558588bd4e09825d4109f73166d8c1f10d7cad90fa52a9"
+          "docs/zh/development/custom-board.md": "a35b5c75348ed6c7e256a8fce4b94ce9c456e53849e7d964e5b96fd131ea723e"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -3071,9 +3071,9 @@
           "docs/zh/development/audio-and-aec.md"
         ],
         "outputHashes": {
-          "docs/zh/development/audio-and-aec.md": "279034079d5019654ea1f4bc80bca02d7b0639cd9357687fae1075ab74df96fe"
+          "docs/zh/development/audio-and-aec.md": "534eaa2e5b8a7724f2ef66c526deabb0304e5523ba1f29162a4da3c49bb4ac3a"
         },
-        "contentSha256": "279034079d5019654ea1f4bc80bca02d7b0639cd9357687fae1075ab74df96fe",
+        "contentSha256": "534eaa2e5b8a7724f2ef66c526deabb0304e5523ba1f29162a4da3c49bb4ac3a",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/development/audio-and-aec.md",
@@ -3202,9 +3202,9 @@
           "docs/zh/development/wake-words.md"
         ],
         "outputHashes": {
-          "docs/zh/development/wake-words.md": "b5c37efb945e0233eb62822bc56ceab71d7ceb2f4fec94523c819f592b4268dd"
+          "docs/zh/development/wake-words.md": "ff6d9765913fee76c9c3b1f64a0da4dccecf4d2fde9ed20df45b6898dc659b1d"
         },
-        "contentSha256": "b5c37efb945e0233eb62822bc56ceab71d7ceb2f4fec94523c819f592b4268dd",
+        "contentSha256": "ff6d9765913fee76c9c3b1f64a0da4dccecf4d2fde9ed20df45b6898dc659b1d",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/development/wake-words.md",
@@ -3327,9 +3327,9 @@
           "docs/zh/faq/serial-logs.md"
         ],
         "outputHashes": {
-          "docs/zh/faq/serial-logs.md": "291703fa77bd8b876babef2b8f81e3c8c2377eaa1f3fde59e1d80c9659fa3653"
+          "docs/zh/faq/serial-logs.md": "c3c7637f0b5b96fc0f2d15dd737471f982845a65bfa585d066d0ef341c2dc27d"
         },
-        "contentSha256": "291703fa77bd8b876babef2b8f81e3c8c2377eaa1f3fde59e1d80c9659fa3653",
+        "contentSha256": "c3c7637f0b5b96fc0f2d15dd737471f982845a65bfa585d066d0ef341c2dc27d",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/faq/serial-logs.md",
@@ -3450,7 +3450,7 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "96c4a023210443eadfc353ebcc26c5e7566cd499b2f37825d69e4f4ed073b964",
+        "contentSha256": "36dd36fb6b950003c220dc9edf6326c8e9bd824343112a0cde6eae405602ce55",
         "completedChanges": [
           "编写有类型、限定输入范围的加法示例，替代 eval。",
           "补齐固定上游提交、虚拟环境、端点、桥接、工具发现与真实调用核验步骤。"
@@ -3480,7 +3480,7 @@
           "docs/zh/mcp/quickstart.md"
         ],
         "outputHashes": {
-          "docs/zh/mcp/quickstart.md": "96c4a023210443eadfc353ebcc26c5e7566cd499b2f37825d69e4f4ed073b964"
+          "docs/zh/mcp/quickstart.md": "36dd36fb6b950003c220dc9edf6326c8e9bd824343112a0cde6eae405602ce55"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -3601,9 +3601,9 @@
           "docs/zh/mcp/examples/web-search.md"
         ],
         "outputHashes": {
-          "docs/zh/mcp/examples/web-search.md": "979ab7f5ad7ffffe6aeada4c55d92bab786af86e0a416fd34a9e14cb9a0e3084"
+          "docs/zh/mcp/examples/web-search.md": "df2156dfcdae3d8b2d50a963c892609652c88c22c1c852069890e008341cde95"
         },
-        "contentSha256": "979ab7f5ad7ffffe6aeada4c55d92bab786af86e0a416fd34a9e14cb9a0e3084",
+        "contentSha256": "df2156dfcdae3d8b2d50a963c892609652c88c22c1c852069890e008341cde95",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/mcp/examples/web-search.md",
@@ -3731,9 +3731,9 @@
           "docs/zh/community/mcp-tools.md"
         ],
         "outputHashes": {
-          "docs/zh/community/mcp-tools.md": "4133db629dc3223f4881e0bbea36fdfab7981a58492b42f9772fc3597d60c878"
+          "docs/zh/community/mcp-tools.md": "ddf4f7043ff19ab7ecfc4e9ea3cb0e377f72bb85ecdeb4557e7ff03bc7213cae"
         },
-        "contentSha256": "4133db629dc3223f4881e0bbea36fdfab7981a58492b42f9772fc3597d60c878",
+        "contentSha256": "ddf4f7043ff19ab7ecfc4e9ea3cb0e377f72bb85ecdeb4557e7ff03bc7213cae",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/community/mcp-tools.md",
@@ -3857,9 +3857,9 @@
           "docs/zh/community/mcp-tools.md"
         ],
         "outputHashes": {
-          "docs/zh/community/mcp-tools.md": "4133db629dc3223f4881e0bbea36fdfab7981a58492b42f9772fc3597d60c878"
+          "docs/zh/community/mcp-tools.md": "ddf4f7043ff19ab7ecfc4e9ea3cb0e377f72bb85ecdeb4557e7ff03bc7213cae"
         },
-        "contentSha256": "4133db629dc3223f4881e0bbea36fdfab7981a58492b42f9772fc3597d60c878",
+        "contentSha256": "ddf4f7043ff19ab7ecfc4e9ea3cb0e377f72bb85ecdeb4557e7ff03bc7213cae",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/community/mcp-tools.md",
@@ -4001,10 +4001,10 @@
           "docs/zh/community/mcp-tools.md"
         ],
         "outputHashes": {
-          "docs/zh/mcp/connect-existing-servers.md": "1a3150d350bdf7095b509f36b0f30406f7aad60ad256201256021b6283c06bd4",
-          "docs/zh/community/mcp-tools.md": "4133db629dc3223f4881e0bbea36fdfab7981a58492b42f9772fc3597d60c878"
+          "docs/zh/mcp/connect-existing-servers.md": "8d201c88ee11863d2d9e617d25d90ddd4ebf044495d313a746b88b9e99532107",
+          "docs/zh/community/mcp-tools.md": "ddf4f7043ff19ab7ecfc4e9ea3cb0e377f72bb85ecdeb4557e7ff03bc7213cae"
         },
-        "contentSha256": "1a3150d350bdf7095b509f36b0f30406f7aad60ad256201256021b6283c06bd4",
+        "contentSha256": "8d201c88ee11863d2d9e617d25d90ddd4ebf044495d313a746b88b9e99532107",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/mcp/connect-existing-servers.md",
@@ -4149,9 +4149,9 @@
           "docs/zh/hardware/boards/xmini-c3.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/boards/xmini-c3.md": "bf3c18c8d8b5073edef194500349a17e923b211d260c73bfa0e5cd163ce92bda"
+          "docs/zh/hardware/boards/xmini-c3.md": "8f70407ea1fd3193f8e1b9a97e389b7886ab4abdfdb3008b0b0bc2651e5a0eb5"
         },
-        "contentSha256": "bf3c18c8d8b5073edef194500349a17e923b211d260c73bfa0e5cd163ce92bda",
+        "contentSha256": "8f70407ea1fd3193f8e1b9a97e389b7886ab4abdfdb3008b0b0bc2651e5a0eb5",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/hardware/boards/xmini-c3.md",
@@ -4283,9 +4283,9 @@
           "docs/zh/community/projects/sf32lb52-plugin.md"
         ],
         "outputHashes": {
-          "docs/zh/community/projects/sf32lb52-plugin.md": "a7c1d7ed0179c5fc9e63d33d4167ddb4a20545e200a6cf13dad26c9ab8491063"
+          "docs/zh/community/projects/sf32lb52-plugin.md": "8e3a4894d902407c39bf2c600757484648f59f916c2f4db9fe3169df5010e1f3"
         },
-        "contentSha256": "a7c1d7ed0179c5fc9e63d33d4167ddb4a20545e200a6cf13dad26c9ab8491063",
+        "contentSha256": "8e3a4894d902407c39bf2c600757484648f59f916c2f4db9fe3169df5010e1f3",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/community/projects/sf32lb52-plugin.md",
@@ -4428,9 +4428,9 @@
           "docs/zh/hardware/supported-boards.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/supported-boards.md": "bdda99e4a2dc6981158defd114f95e567d7212ad4ee4c2cb9e6a506cd05e0444"
+          "docs/zh/hardware/supported-boards.md": "983b3ab0c123cc637eeff7715f258e10a3bb78e33d5845485739b9ec9d6c7d8f"
         },
-        "contentSha256": "bdda99e4a2dc6981158defd114f95e567d7212ad4ee4c2cb9e6a506cd05e0444",
+        "contentSha256": "983b3ab0c123cc637eeff7715f258e10a3bb78e33d5845485739b9ec9d6c7d8f",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/hardware/supported-boards.md",
@@ -4564,9 +4564,9 @@
           "docs/zh/hardware/external-wake-module.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/external-wake-module.md": "f8d8c4f84af091562c83db4f6d00e58554d10e020b9da96d2cf3c0d1cf494e59"
+          "docs/zh/hardware/external-wake-module.md": "a55d5bef3779072921f2ce948ec9e3bbae4aa91186c836c8e7c8e357122877ae"
         },
-        "contentSha256": "f8d8c4f84af091562c83db4f6d00e58554d10e020b9da96d2cf3c0d1cf494e59",
+        "contentSha256": "a55d5bef3779072921f2ce948ec9e3bbae4aa91186c836c8e7c8e357122877ae",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/hardware/external-wake-module.md",
@@ -4696,9 +4696,9 @@
           "docs/zh/development/mcp-gpio.md"
         ],
         "outputHashes": {
-          "docs/zh/development/mcp-gpio.md": "61fcef5afc7d6b2a74d34606d17ee4706b6fca412aeefd4ef823f5e9691f3649"
+          "docs/zh/development/mcp-gpio.md": "8f211ceb162266e752df0009e88511f9444edfea2c99ac16de9fababb704f2df"
         },
-        "contentSha256": "61fcef5afc7d6b2a74d34606d17ee4706b6fca412aeefd4ef823f5e9691f3649",
+        "contentSha256": "8f211ceb162266e752df0009e88511f9444edfea2c99ac16de9fababb704f2df",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/development/mcp-gpio.md",
@@ -4811,7 +4811,7 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "4fb1340bc52c5a9b15f0906acad6b3106bb2d4555a22312c2d4c146ac83e67a3",
+        "contentSha256": "06ff71c8146fa508e2a7066b42d64ef4051d0ba174b5a8ff54958df224a65142",
         "completedChanges": [
           "采用成品 USB 移动电源作为可便携复现的主路径。",
           "区分板载充电与裸电芯定制，移除试错反接和任意 USB 充电建议。"
@@ -4839,7 +4839,7 @@
           "docs/zh/hardware/battery-power.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/battery-power.md": "4fb1340bc52c5a9b15f0906acad6b3106bb2d4555a22312c2d4c146ac83e67a3"
+          "docs/zh/hardware/battery-power.md": "06ff71c8146fa508e2a7066b42d64ef4051d0ba174b5a8ff54958df224a65142"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -4951,7 +4951,7 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "191c4e7ffa13548878829a9fcf8749f9cf5c62d89e04a940d59afa291b868001",
+        "contentSha256": "6107d1f25fe6abd31e087c36bb98a58ddcf7d71c822bd8735790788e38777b47",
         "completedChanges": [
           "按负载区分扬声器、耳机和 Line Out；取消功放直接接三脚插座的接法。",
           "给出基础功放的无源扬声器连接与专用耳机/线路接口选择流程。"
@@ -4979,7 +4979,7 @@
           "docs/zh/hardware/audio-output.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/audio-output.md": "191c4e7ffa13548878829a9fcf8749f9cf5c62d89e04a940d59afa291b868001"
+          "docs/zh/hardware/audio-output.md": "6107d1f25fe6abd31e087c36bb98a58ddcf7d71c822bd8735790788e38777b47"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -5107,9 +5107,9 @@
           "docs/zh/community/projects/wake-on-lan.md"
         ],
         "outputHashes": {
-          "docs/zh/community/projects/wake-on-lan.md": "12907de481653288c53df7be033fb44f0091038cdc269e32ca13407bf0a3aa34"
+          "docs/zh/community/projects/wake-on-lan.md": "45dc13dccf82e715f63fcdf73821c2580a97470c3a4064ca3f8b748f7cbd35f1"
         },
-        "contentSha256": "12907de481653288c53df7be033fb44f0091038cdc269e32ca13407bf0a3aa34",
+        "contentSha256": "45dc13dccf82e715f63fcdf73821c2580a97470c3a4064ca3f8b748f7cbd35f1",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/community/projects/wake-on-lan.md",
@@ -6018,9 +6018,9 @@
           "docs/zh/community/mcp-tools.md"
         ],
         "outputHashes": {
-          "docs/zh/community/mcp-tools.md": "4133db629dc3223f4881e0bbea36fdfab7981a58492b42f9772fc3597d60c878"
+          "docs/zh/community/mcp-tools.md": "ddf4f7043ff19ab7ecfc4e9ea3cb0e377f72bb85ecdeb4557e7ff03bc7213cae"
         },
-        "contentSha256": "4133db629dc3223f4881e0bbea36fdfab7981a58492b42f9772fc3597d60c878",
+        "contentSha256": "ddf4f7043ff19ab7ecfc4e9ea3cb0e377f72bb85ecdeb4557e7ff03bc7213cae",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/community/mcp-tools.md",
@@ -6161,9 +6161,9 @@
           "docs/zh/community/projects/astronaut-storyteller.md"
         ],
         "outputHashes": {
-          "docs/zh/community/projects/astronaut-storyteller.md": "0177ebcdd3e40c3559c57dbee02b8410c5837f348e63fc10d60b0b66ae10a149"
+          "docs/zh/community/projects/astronaut-storyteller.md": "c47fedc071ae7b8a91060026ccb723033a44e9a4a2b30554daadf65c3a64bfff"
         },
-        "contentSha256": "0177ebcdd3e40c3559c57dbee02b8410c5837f348e63fc10d60b0b66ae10a149",
+        "contentSha256": "c47fedc071ae7b8a91060026ccb723033a44e9a4a2b30554daadf65c3a64bfff",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/community/projects/astronaut-storyteller.md",

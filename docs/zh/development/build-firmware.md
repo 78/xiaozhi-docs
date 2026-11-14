@@ -19,7 +19,7 @@ reviewNote: "命令和板型参数已对照 v2.6.0；未在本机安装 ESP-IDF 
 
 <figure class="source-figure">
 
-[![本地构建的目录与操作顺序](/images/zh/firmware-build-flow.svg)](/images/zh/firmware-build-flow.svg)
+[![本地构建的目录与操作顺序](../../public/images/zh/firmware-build-flow.svg)](../../public/images/zh/firmware-build-flow.svg)
 
 <figcaption>本地构建的目录与操作顺序。点击查看大图。</figcaption>
 </figure>

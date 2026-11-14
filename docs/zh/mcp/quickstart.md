@@ -21,7 +21,7 @@ reviewNote: "示例已通过本地 MCP 协议与 WebSocket 桥接测试；真实
 
 <figure class="source-figure">
 
-[![一次加法工具调用经过哪些环节](/images/zh/mcp-calculator-flow.svg)](/images/zh/mcp-calculator-flow.svg)
+[![一次加法工具调用经过哪些环节](../../public/images/zh/mcp-calculator-flow.svg)](../../public/images/zh/mcp-calculator-flow.svg)
 
 <figcaption>一次加法工具调用经过哪些环节。点击查看大图。</figcaption>
 </figure>
