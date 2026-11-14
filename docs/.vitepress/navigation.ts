@@ -50,6 +50,11 @@ const guides: Record<string, { slug: string; zh: string; en: string }[]> = {
       "en": "ST7789 display"
     },
     {
+      "slug": "breadboard-4g",
+      "zh": "4G 面包板：ML307R / NT26K",
+      "en": "4G breadboard"
+    },
+    {
       "slug": "breadboard-camera",
       "zh": "S3 摄像头面包板",
       "en": "Camera breadboard"

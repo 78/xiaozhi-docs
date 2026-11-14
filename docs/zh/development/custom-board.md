@@ -72,7 +72,7 @@ python scripts/build.py --list-boards
 python scripts/build.py my-s3-prototype --name my-s3-prototype-oled32 --language zh-CN
 ```
 
-检查生成配置的芯片、内存、板型与名称。分区应选用匹配 Flash 容量及固件版本的布局；不要沿用旧教程通过删除 `ota_0`、`ota_1` 来“凑够空间”的方法。分区变化还影响资源、OTA 和 NVS，需要单独设计迁移。
+检查生成配置的芯片、内存、板型与名称。分区应选用匹配 Flash 容量及固件版本的布局；不要为凑空间直接删除 `ota_0`、`ota_1`。分区变化还影响资源、OTA 和 NVS，需要单独设计迁移。
 
 设备上报、升级匹配与激活细节参照[该版本 OTA 文档](https://github.com/78/xiaozhi-esp32/blob/v2.6.0/docs/ota_zh.md)。在匹配机制确认前，不给定制设备安排标准板 OTA。
 

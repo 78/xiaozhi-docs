@@ -10,32 +10,97 @@ sourceArticles: ["DOC-12"]
 
 # C3 面包板：ES8311 音频方案
 
-原教程的 C3-N16-SF 搭配 ES8311/NS4150 音频模块，参考 Xmini-C3。它不是任意 C3 加 INMP441/MAX98357A 的通用接线。
+ C3-N16-SF 搭配 ES8311/NS4150 音频模块，参考 Xmini-C3。它不是任意 C3 加 INMP441/MAX98357A 的通用接线。
 
 <figure class="source-figure">
 
-[![原 C3 主控模块。](/images/zh/doc-12-image-001.webp)](/images/zh/doc-12-image-001.webp)
+[![C3 主控模块。](/images/zh/doc-12-image-001.webp)](/images/zh/doc-12-image-001.webp)
 
-<figcaption>原 C3 主控模块。 来源：DOC-12 原图 1。</figcaption>
+<figcaption>C3 主控模块。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![原 ES8311 与 NS4150 音频模块；核对具体版本和丝印。](/images/zh/doc-12-image-002.webp)](/images/zh/doc-12-image-002.webp)
+[![ES8311 与 NS4150 音频模块；核对具体版本和丝印。](/images/zh/doc-12-image-002.webp)](/images/zh/doc-12-image-002.webp)
 
-<figcaption>原 ES8311 与 NS4150 音频模块；核对具体版本和丝印。 来源：DOC-12 原图 2。</figcaption>
+<figcaption>ES8311 与 NS4150 音频模块；核对具体版本和丝印。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![原 OLED 模块。](/images/zh/doc-12-image-009.webp)](/images/zh/doc-12-image-009.webp)
+[![OLED 模块。](/images/zh/doc-12-image-009.webp)](/images/zh/doc-12-image-009.webp)
 
-<figcaption>原 OLED 模块。 来源：DOC-12 原图 9。</figcaption>
+<figcaption>OLED 模块。</figcaption>
 </figure>
 
 ## 准备工作 {#scope}
 
 确认目标芯片、Flash 容量、Codec 模块原理图、PA 使能和显示屏。ES8311 模块的模拟麦克风/功放外围必须完整；模块标的 DI/DO 要核对相对于谁的方向。
+
+## 先认齐这套 C3 的配件 {#parts}
+
+本方案的语音部分是 ES8311 + NS4150B 模块，不能把 S3 的独立 INMP441/MAX98357A 接法套过来。板卡、Codec 与 OLED 的照片在上方；其余配件如下。
+
+<div class="module-grid">
+
+<figure class="source-figure">
+
+[![C3 方案的腔体扬声器](/images/zh/doc-12-image-003.webp)](/images/zh/doc-12-image-003.webp)
+
+<figcaption>C3 方案的腔体扬声器。点击查看大图。</figcaption>
+</figure>
+
+<figure class="source-figure">
+
+[![另一种扬声器，阻抗和接头需匹配功放](/images/zh/doc-05-image-010.webp)](/images/zh/doc-05-image-010.webp)
+
+<figcaption>另一种扬声器，阻抗和接头需匹配功放。点击查看大图。</figcaption>
+</figure>
+
+</div>
+
+<div class="module-grid">
+
+<figure class="source-figure">
+
+[![C3 面包板用短跳线](/images/zh/doc-05-image-011.webp)](/images/zh/doc-05-image-011.webp)
+
+<figcaption>C3 面包板用短跳线。点击查看大图。</figcaption>
+</figure>
+
+<figure class="source-figure">
+
+[![C3 模块间的杜邦连接线](/images/zh/doc-05-image-012.webp)](/images/zh/doc-05-image-012.webp)
+
+<figcaption>C3 模块间的杜邦连接线。点击查看大图。</figcaption>
+</figure>
+
+</div>
+
+<div class="module-grid">
+
+<figure class="source-figure">
+
+[![C3 使用的可拼面包板](/images/zh/doc-05-image-013.jpg)](/images/zh/doc-05-image-013.jpg)
+
+<figcaption>C3 使用的可拼面包板。点击查看大图。</figcaption>
+</figure>
+
+<figure class="source-figure">
+
+[![面包板内部连通结构](/images/zh/doc-05-image-014.webp)](/images/zh/doc-05-image-014.webp)
+
+<figcaption>面包板内部连通结构。点击查看大图。</figcaption>
+</figure>
+
+</div>
+
+<figure class="source-figure">
+
+[![可选轻触按钮；确认同侧内部连通关系](/images/zh/doc-05-image-020.webp)](/images/zh/doc-05-image-020.webp)
+
+<figcaption>可选轻触按钮；确认同侧内部连通关系。点击查看大图。</figcaption>
+</figure>
 
 ## 1. 对照固件引脚 {#wiring}
 
@@ -52,11 +117,22 @@ v2.6.0 的 `xmini/c3` 使用下列配置；新硬件必须确认与其真正相�
 
 显示屏与 Codec 可能共用 I2C，总线、电压和设备地址要分别确认。用短线和可靠公共 GND；不因 GPIO 名称相同就忽略模块供电条件。
 
-<figure class="source-figure">
+### 总接线图与模块方向 {#wiring-diagram}
 
-[![原 C3 面包板装配照片；不按线色推断 GPIO。](/images/zh/doc-12-image-012.jpg)](/images/zh/doc-12-image-012.jpg)
+<figure class="source-figure wiring-figure">
 
-<figcaption>原 C3 面包板装配照片；不按线色推断 GPIO。 来源：DOC-12 原图 12。</figcaption>
+[![C3 当前 Codec、功放使能与 OLED 信号关系](/images/zh/breadboard-c3-signals-v2.6.0.svg)](/images/zh/breadboard-c3-signals-v2.6.0.svg)
+
+<figcaption>C3 当前 Codec、功放使能与 OLED 信号关系。固件 v2.6.0 的信号连线示意，不表示开发板物理排针位置。</figcaption>
+</figure>
+
+原面包板总图保留如下。**图中音频模块同时标有 3V3 与 VCC/5VIN，不是一个电源脚的两个名字**：按具体模块原理图区分 Codec 电源和功放电源，不能短接或互换。原 DI/DO 标签按该模块对主控的约定理解，以“Codec ADC 输出进入 ESP32 GPIO7、ESP32 GPIO5 输出进入 Codec DAC”核对方向。
+
+<figure class="source-figure wiring-figure">
+
+[![C3-N16-SF 与 ES8311/NS4150B、OLED 的完整位置图；模块信号方向和双电源脚见图前说明](/images/zh/doc-12-image-011.webp)](/images/zh/doc-12-image-011.webp)
+
+<figcaption>C3-N16-SF 与 ES8311/NS4150B、OLED 的完整位置图；模块信号方向和双电源脚见图前说明。点击查看大图。</figcaption>
 </figure>
 
 ## 2. 安装并使用 {#build}
@@ -66,7 +142,51 @@ v2.6.0 的 `xmini/c3` 使用下列配置；新硬件必须确认与其真正相�
 3. 先验证提示音、显示和按键，再[联网绑定](../getting-started/wifi-and-binding)。
 4. 测试录音/播放后，再启用该芯片兼容的唤醒模型。
 
-C3 当前存在轻量 WakeNet 路径，且项目有 C3 4G 板型；旧文的“一律不支持”不能沿用。无 PSRAM 和不同资源条件仍影响模型，见[唤醒词](../development/wake-words)。
+C3 可使用兼容的轻量 WakeNet 路径，项目也有 C3 4G 板型。无 PSRAM 和不同资源条件仍影响模型，见[唤醒词](../development/wake-words)。
+
+## 实物与屏幕变体 {#assembly-results}
+
+### OLED 基础方案 {#oled-result}
+
+<div class="module-grid">
+
+<figure class="source-figure">
+
+[![C3 + OLED 完成实物](/images/zh/doc-12-image-012.jpg)](/images/zh/doc-12-image-012.jpg)
+
+<figcaption>C3 + OLED 完成实物。点击查看大图。</figcaption>
+</figure>
+
+<figure class="source-figure">
+
+[![C3 + OLED 的另一侧连线](/images/zh/doc-12-image-013.webp)](/images/zh/doc-12-image-013.webp)
+
+<figcaption>C3 + OLED 的另一侧连线。点击查看大图。</figcaption>
+</figure>
+
+</div>
+
+### 彩屏扩展样机 {#lcd-example}
+
+<div class="module-grid">
+
+<figure class="source-figure">
+
+[![C3 彩屏样机整体效果](/images/zh/doc-12-image-014.webp)](/images/zh/doc-12-image-014.webp)
+
+<figcaption>C3 彩屏样机整体效果。点击查看大图。</figcaption>
+</figure>
+
+<figure class="source-figure">
+
+[![C3 彩屏模块的引脚与连线局部](/images/zh/doc-12-image-015.webp)](/images/zh/doc-12-image-015.webp)
+
+<figcaption>C3 彩屏模块的引脚与连线局部。点击查看大图。</figcaption>
+</figure>
+
+</div>
+
+彩屏照片保留为该原型的扩展资料。当前本文采用的 `xmini/c3` 是 I2C OLED 路径，没有因为有照片就宣称该构建也支持这块 SPI 彩屏；需要恢复彩屏方案时，先确认屏幕驱动、SPI GPIO、板级代码与独立构建身份。
 
 ## 怎么确认完成 {#verify}
 
@@ -74,10 +194,4 @@ C3 当前存在轻量 WakeNet 路径，且项目有 C3 4G 板型；旧文的“�
 
 ## 历史附件与下一步 {#materials}
 
-旧调试 `.bin` 不作为当前默认安装包，历史用途和来源仍记录在素材清单。板级配置以[固件 xmini/c3](https://github.com/78/xiaozhi-esp32/tree/4de00aed740595a8713b01f8332b9b2cf30685bc/main/boards/xmini/c3)为准；成品板阅读[Xmini 系列](./boards/xmini-c3)。
-
-
-
----
-
-资料来源：[DOC-12 · ESP32-C3小智AI终端面包板DIY硬件接线教程](https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。
+安装固件时选择匹配的正式构建，不使用用途不明的调试 `.bin`。板级配置以[固件 xmini/c3](https://github.com/78/xiaozhi-esp32/tree/4de00aed740595a8713b01f8332b9b2cf30685bc/main/boards/xmini/c3)为准；成品板阅读[Xmini 系列](./boards/xmini-c3)。

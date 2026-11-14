@@ -15,7 +15,7 @@ const size = bytes => bytes >= 1048576 ? `${(bytes / 1048576).toFixed(1)} MB` : 
       <video v-if="item.kind === 'video'" controls preload="none" playsinline :aria-label="item.label" :src="item.url">浏览器不支持此格式，请下载播放。</video>
       <audio v-if="item.kind === 'audio'" controls preload="none" :aria-label="item.label" :src="item.url">浏览器不支持此格式，请下载播放。</audio>
       <p><a :href="item.url">下载原文件：{{ item.name }}</a></p>
-      <p class="material-note">来源 {{ item.sourceArticle }} · SHA-256：<code class="material-hash">{{ item.sha256 }}</code></p>
+      <p class="material-note">SHA-256：<code class="material-hash">{{ item.sha256 }}</code></p>
     </details>
   </div>
 </template>

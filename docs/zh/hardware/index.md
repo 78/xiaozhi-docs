@@ -19,6 +19,7 @@ status: "published"
 | [ESP32-C3 面包板](./breadboard-esp32-c3) | 明确 Codec 模块和引脚，不把 C3 音频方案与 S3 数字麦克风混用。 |
 | [经典 ESP32 面包板](./breadboard-esp32) | 为资源受限的 ESP32 明确接线、功能和固件边界。 |
 | [ST7789 彩屏](./displays/st7789) | 核对屏幕接口、引脚、分辨率与固件构建选项。 |
+| [4G 面包板](./breadboard-4g) | ML307R、NT26K 的 44/42 针接线图、模块及完成实物 |
 | [S3 摄像头面包板](./breadboard-camera) | 为摄像头、彩屏和音频选择相互匹配的引脚与固件。 |
 | [Xmini-C3 与 V3](./boards/xmini-c3) | 先辨认板型修订，再选择固件、供电和操作流程。 |
 | [外接 ASR 唤醒模块](./external-wake-module) | 选择板载或外接唤醒方案，并按具体模块核对电源、触发和配置。 |

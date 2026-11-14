@@ -14,28 +14,28 @@ sourceArticles: ["DOC-07"]
 
 <figure class="source-figure">
 
-[![原摄像头模块与排线接口。](/images/zh/doc-07-image-001.webp)](/images/zh/doc-07-image-001.webp)
+[![摄像头模块与排线接口。](/images/zh/doc-07-image-001.webp)](/images/zh/doc-07-image-001.webp)
 
-<figcaption>原摄像头模块与排线接口。 来源：DOC-07 原图 1。</figcaption>
+<figcaption>摄像头模块与排线接口。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![原 LCD 模块外观。](/images/zh/doc-06-image-001.webp)](/images/zh/doc-06-image-001.webp)
+[![LCD 模块外观。](/images/zh/doc-06-image-001.webp)](/images/zh/doc-06-image-001.webp)
 
-<figcaption>原 LCD 模块外观。 来源：DOC-07 原图 2。</figcaption>
+<figcaption>LCD 模块外观。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![原 LCD 模块接口丝印。](/images/zh/doc-06-image-002.webp)](/images/zh/doc-06-image-002.webp)
+[![LCD 模块接口丝印。](/images/zh/doc-06-image-002.webp)](/images/zh/doc-06-image-002.webp)
 
-<figcaption>原 LCD 模块接口丝印。 来源：DOC-07 原图 3。</figcaption>
+<figcaption>LCD 模块接口丝印。</figcaption>
 </figure>
 
 ## 准备工作 {#scope}
 
-核对 S3 模组内存、摄像头传感器/引脚、屏幕驱动/分辨率、麦克风和功放。原教程以特定 N16R8 CAM 板和 OV3660 演示；OV2640/OV5640 等型号需要各自确认驱动、线序与实际取图，不能仅凭接口相同认定兼容。
+核对 S3 模组内存、摄像头传感器/引脚、屏幕驱动/分辨率、麦克风和功放。本方案以 N16R8 CAM 板和 OV3660 演示；OV2640/OV5640 等型号需要各自确认驱动、线序与实际取图，不能仅凭接口相同认定兼容。
 
 ## 1. 对照当前信号表 {#wiring}
 
@@ -53,16 +53,27 @@ sourceArticles: ["DOC-07"]
 
 <figure class="source-figure">
 
-[![原摄像头面包板装配示例。](/images/zh/doc-07-image-004.webp)](/images/zh/doc-07-image-004.webp)
+[![摄像头面包板装配示例。](/images/zh/doc-07-image-004.webp)](/images/zh/doc-07-image-004.webp)
 
-<figcaption>原摄像头面包板装配示例。 来源：DOC-07 原图 4。</figcaption>
+<figcaption>摄像头面包板装配示例。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
 [![原型装配的另一视角；信号接法请以本页版本表为准。](/images/zh/doc-07-image-005.webp)](/images/zh/doc-07-image-005.webp)
 
-<figcaption>原型装配的另一视角；信号接法请以本页版本表为准。 来源：DOC-07 原图 5。</figcaption>
+<figcaption>原型装配的另一视角；信号接法请以本页版本表为准。</figcaption>
+</figure>
+
+### 当前摄像头板的信号图 {#wiring-diagram}
+
+CAM 底板已经接好的摄像头排线不需要拆开逐根加线；先核对板上连线是否与这份固件配置一致。下面同时画出音频、LCD 和传感器的信号分配，方便与原装配照片对照。
+
+<figure class="source-figure wiring-figure">
+
+[![摄像头 S3 当前音频、屏幕与摄像头信号分配](/images/zh/breadboard-camera-signals-v2.6.0.svg)](/images/zh/breadboard-camera-signals-v2.6.0.svg)
+
+<figcaption>对应 v2.6.0 摄像头板配置，点击查看大图。模块供电与 CAM 板原有连线仍按具体硬件资料核对。</figcaption>
 </figure>
 
 ## 2. 构建并逐项检查 {#build}
@@ -77,14 +88,10 @@ sourceArticles: ["DOC-07"]
 
 ## 视频和历史附件 {#materials}
 
-原文的接线视频保留用于观察特定样机，不能证明所有传感器都兼容。旧 `.bin` 改链接到原版本/上游入口，当前安装仍从[固件选择](../firmware/downloads)开始。
+下面的视频展示这套硬件的接线过程。使用其他传感器时单独核对驱动与排线；固件从[固件选择](../firmware/downloads)取得匹配版本。
 
 <SourceMaterials article="DOC-07" />
 
 ## 怎么确认完成 {#verify}
 
 图像方向和内容正确，音频、显示、Wi-Fi 及识图能一起工作；连续测试没有供电复位或引脚冲突。反馈要附摄像头型号、板号、源码版本和经过遮盖的日志。
-
----
-
-资料来源：[DOC-07 · 【最新】小智AI面包板带摄像头互动功能接线教程](https://my.feishu.cn/docx/XmewdwEQroT3buxKN9GcpEm5nng)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。

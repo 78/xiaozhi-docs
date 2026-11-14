@@ -20,7 +20,7 @@ sourceArticles: ["DOC-11"]
 
 [![原制造约束表，属于当时供应商参考；今天的加工约束以实际厂家规格为准。](/images/zh/doc-11-image-001.webp)](/images/zh/doc-11-image-001.webp)
 
-<figcaption>原制造约束表，属于当时供应商参考；今天的加工约束以实际厂家规格为准。 来源：DOC-11 原图 1。</figcaption>
+<figcaption>原制造约束表，属于当时供应商参考；今天的加工约束以实际厂家规格为准。</figcaption>
 </figure>
 
 ## 2. 供电与噪声 {#power}
@@ -43,12 +43,8 @@ sourceArticles: ["DOC-11"]
 
 ## 怎么确认完成 {#verify}
 
-设计评审能把每个承诺追溯到电路、器件资料和具体测试。原文厂商表保留为有出处的参考，不把所有未经独立复测的参数标成小智项目强制要求。
+设计评审能把每个承诺追溯到电路、器件资料和具体测试。制造约束表是供应商参考；具体参数要与电路、器件资料和测试结果对应。
 
 ## 下一步 {#next}
 
-准备选料看[硬件选型](./choosing-hardware)，准备接入软件看[独立板型](../development/custom-board)。原始厂商资料及图表来源随 DOC-11 素材记录保留。
-
----
-
-资料来源：[DOC-11 · AI类产品乐鑫设计参考以及要求](https://icnynnzcwou8.feishu.cn/docx/KCotdF4KgocDm0xqXcycBtGLnWe)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。
+准备选料看[硬件选型](./choosing-hardware)，准备接入软件看[独立板型](../development/custom-board)。

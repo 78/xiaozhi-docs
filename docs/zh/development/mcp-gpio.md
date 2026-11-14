@@ -16,7 +16,7 @@ sourceArticles: ["DOC-33"]
 
 准备[独立板型](./custom-board)、空闲且可输出的 GPIO，以及符合 GPIO 电压/电流条件、带合适限流的 LED。不要直接由 GPIO 驱动电机、大功率灯或继电器线圈。
 
-先核对启动绑带、USB、存储和其他外设占用。原文的 GPIO17 是例子，不代表所有板都可用。
+先核对启动绑带、USB、存储和其他外设占用。GPIO17 只能作为示例编号，不代表所有板都可用。
 
 ## 1. 复用当前示例 {#implementation}
 
@@ -56,7 +56,3 @@ GPIO 类型、板级注册和协议定义都在固件项目维护；本页不复
 ## 下一步 {#next}
 
 改接线和新增硬件回到[自定义板型](./custom-board)，电脑/服务器工具则走[MCP 快速开始](../mcp/quickstart)。
-
----
-
-资料来源：[DOC-33 · 小智AI终端控制GPIO[简单教程]](https://kcn80f4hacgs.feishu.cn/docx/J2MrdqW27oybcCxu7Sfc4gBcn4g)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。

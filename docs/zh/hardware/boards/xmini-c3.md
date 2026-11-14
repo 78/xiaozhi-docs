@@ -14,16 +14,16 @@ Xmini 是一组硬件，不能把 Wi-Fi、V3 与 4G 版当成同一块板。电�
 
 <figure class="source-figure">
 
-[![原 Xmini-C3 板外观。](/images/zh/doc-29-image-001.webp)](/images/zh/doc-29-image-001.webp)
+[![Xmini-C3 板外观。](/images/zh/doc-29-image-001.webp)](/images/zh/doc-29-image-001.webp)
 
-<figcaption>原 Xmini-C3 板外观。 来源：DOC-29 原图 1。</figcaption>
+<figcaption>Xmini-C3 板外观。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
 [![原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。](/images/zh/doc-29-image-019.webp)](/images/zh/doc-29-image-019.webp)
 
-<figcaption>原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。 来源：DOC-29 原图 19。</figcaption>
+<figcaption>原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。</figcaption>
 </figure>
 
 ## 1. 对照自己的板 {#scope}
@@ -57,7 +57,3 @@ Wi-Fi 版按固件选择热点或 BluFi 配网，继续[设备绑定](../../gett
 ## 素材与下一步 {#sources}
 
 历史硬件照片保留用于识别，旧控制台和 IDF 5 截图不再引导当前安装。开源设计由[虾哥的 Xmini 项目](https://oshwhub.com/tenclass01/xmini_c3)维护。自己接 C3 面包板时看[C3 + ES8311](../breadboard-esp32-c3)。
-
----
-
-资料来源：[DOC-29 · Xmini-C3/V3开发板玩转小智AI聊天机器人](https://my.feishu.cn/docx/EyRBd7ak0oZo5Ax4nZkcgLeqnUb)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。

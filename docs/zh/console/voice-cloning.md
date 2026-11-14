@@ -39,14 +39,14 @@ sourceArticles: ["DOC-14"]
 
 [![旧版界面的麦克风权限提示；今天的浏览器和界面文字可能不同。](/images/zh/doc-14-image-004.webp)](/images/zh/doc-14-image-004.webp)
 
-<figcaption>旧版界面的麦克风权限提示；今天的浏览器和界面文字可能不同。 来源：DOC-14 原图 4。</figcaption>
+<figcaption>旧版界面的麦克风权限提示；今天的浏览器和界面文字可能不同。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
 [![旧版音频裁剪波形示例，仅说明选取清晰有效语音的方式。](/images/zh/doc-14-image-011.webp)](/images/zh/doc-14-image-011.webp)
 
-<figcaption>旧版音频裁剪波形示例，仅说明选取清晰有效语音的方式。 来源：DOC-14 原图 11。</figcaption>
+<figcaption>旧版音频裁剪波形示例，仅说明选取清晰有效语音的方式。</figcaption>
 </figure>
 
 ## 3. 提交、等待和处理失败 {#training}
@@ -73,7 +73,3 @@ sourceArticles: ["DOC-14"]
 ## 下一步 {#next}
 
 需要让回答使用自己的资料时继续[知识库](./knowledge-base)；账号与归属问题查看[账号排查](../faq/account-and-binding)。
-
----
-
-资料来源：[DOC-14 · 小智AI声音复刻（公测）控制台操作指引](https://my.feishu.cn/docx/QjFsdHSNjosfr6xWziWcVCnunBh)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。

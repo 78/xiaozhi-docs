@@ -20,26 +20,26 @@ sourceArticles: ["DOC-32"]
 
 [![ASR CORE 模块外观。](/images/zh/doc-32-image-006.jpg)](/images/zh/doc-32-image-006.jpg)
 
-<figcaption>ASR CORE 模块外观。 来源：DOC-32 原图 6。</figcaption>
+<figcaption>ASR CORE 模块外观。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
 [![原 ASR-LINK 下载器，用于辨认接口。](/images/zh/doc-32-image-007.jpg)](/images/zh/doc-32-image-007.jpg)
 
-<figcaption>原 ASR-LINK 下载器，用于辨认接口。 来源：DOC-32 原图 7。</figcaption>
+<figcaption>原 ASR-LINK 下载器，用于辨认接口。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![原模块配套麦克风。](/images/zh/doc-32-image-008.webp)](/images/zh/doc-32-image-008.webp)
+[![模块配套麦克风。](/images/zh/doc-32-image-008.webp)](/images/zh/doc-32-image-008.webp)
 
-<figcaption>原模块配套麦克风。 来源：DOC-32 原图 8。</figcaption>
+<figcaption>模块配套麦克风。</figcaption>
 </figure>
 
 ## 1. 区分模块与下载器 {#identify}
 
-原教程包含 ASR PRO 核心板、带外围的开发板和 ASR-LINK 下载器。它们的供电、启动方式和引脚并不相同。记录完整型号与 PCB 修订，下载厂商对应的配置工具和引脚说明。
+ASR PRO 核心板、带外围的开发板和 ASR-LINK 下载器是不同硬件。它们的供电、启动方式和引脚并不相同。记录完整型号与 PCB 修订，下载厂商对应的配置工具和引脚说明。
 
 | 接口 | 必须确定的内容 |
 | --- | --- |
@@ -56,7 +56,7 @@ sourceArticles: ["DOC-32"]
 
 ## 3. 接入小智 {#connect}
 
-断电后按模块电源、公共 GND、逻辑输出和目标板接收引脚逐项连接。原文的 PA4/PA2、BOOT 等接法是特定方案示例，不是任意语音板都相同。
+断电后按模块电源、公共 GND、逻辑输出和目标板接收引脚逐项连接。PA4/PA2、BOOT 等接口的用途由具体模块和固件定义，不是所有语音板都相同。
 
 如需触发按钮输入，先确认按钮是否低有效、能否被外部驱动及启动绑带影响；原生下载模式和运行时对话不能混淆。改变固件时使用[独立板型](../development/custom-board)，在初始化代码中明确触发去抖和有效边沿。
 
@@ -66,8 +66,4 @@ sourceArticles: ["DOC-32"]
 
 ## 素材与下一步 {#sources}
 
-原模块照片保留作型号识别，过时工具界面和带时效的音乐链接不再作为操作步骤。源教程为 DOC-32。需要低资源硬件参考时查看[经典 ESP32](./breadboard-esp32)；具备相应资源时优先看[板载唤醒](../development/wake-words)。
-
----
-
-资料来源：[DOC-32 · 小智AI终端ASR自定义唤醒词简单方案](https://kcn80f4hacgs.feishu.cn/docx/P2aqdFMO2ouXmZx9sNDcrAv1nJg)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。
+先按模块型号选择厂商对应的工具和配置。需要低资源硬件参考时查看[经典 ESP32](./breadboard-esp32)；具备相应资源时优先看[板载唤醒](../development/wake-words)。

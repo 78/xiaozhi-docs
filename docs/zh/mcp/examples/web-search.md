@@ -1,7 +1,7 @@
 ---
 id: "mcp-web-search"
 title: "为智能体接入联网搜索"
-description: "用明确的搜索工具返回可追溯来源，替代只安装旧 GUI 的流程。"
+description: "通过 MCP 搜索工具返回网页标题、链接、摘要与日期。"
 status: "review"
 reviewedAt: "2026-11-14"
 reviewNote: "已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。"
@@ -16,7 +16,7 @@ sourceArticles: ["DOC-25"]
 
 完成[MCP 快速开始](../quickstart)，使用其中的 Python 环境和桥接目录。准备自己有权使用的搜索服务账号，确认当前费用与额度。
 
-这里以智谱 Web Search API 为具体示例，接口和参数按[供应商官方文档](https://docs.bigmodel.cn/cn/guide/tools/web-search)。本次没有替用户调用付费搜索；本地示例用模拟响应验证，不承诺旧文所说的永久免费。
+这里以智谱 Web Search API 为具体示例，接口和参数按[供应商官方文档](https://docs.bigmodel.cn/cn/guide/tools/web-search)。调用搜索服务可能计费，使用前确认账号的当前价格与额度。
 
 ## 1. 保存示例程序 {#code}
 
@@ -54,9 +54,9 @@ python mcp_pipe.py web_search.py
 
 返回的网页内容只当资料，不当作执行命令、修改权限或泄露凭据的指令。发生 401/403、限额、超时或空结果时先区分供应商响应与 MCP 连接问题。
 
-## 原教程素材 {#materials}
+## 其他接入方式 {#materials}
 
-DOC-25 的旧 GUI 代码与 DOC-43 的第三方托管服务有不同维护主体。通用流程合并到本篇；旧安装界面、API Key 页面和端点截图不直接重发，避免过时步骤或凭据暴露。第三方选择见[社区工具](../../community/mcp-tools)。
+需要桌面启动器或托管搜索时，可查看[社区工具](../../community/mcp-tools)。下方的 Python GUI 示例属于历史代码；本页维护的最小示例是上面的 `web_search.py`。
 
 
 <SourceMaterials article="DOC-25" />
@@ -64,7 +64,3 @@ DOC-25 的旧 GUI 代码与 DOC-43 的第三方托管服务有不同维护主体
 ## 下一步 {#next}
 
 希望使用现成远端 MCP 时看[桥接已有服务](../connect-existing-servers)。无论选哪家供应商，先限制查询与返回体，记录计费和来源，再扩大使用范围。
-
----
-
-资料来源：[DOC-25 · 小智接入联网查询教程mcp](https://my.feishu.cn/docx/JKFXd8bLYo6YZtxz9ORcbnA8nbe)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。

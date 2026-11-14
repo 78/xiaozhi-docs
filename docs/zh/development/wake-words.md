@@ -50,8 +50,4 @@ python scripts/build.py --list-wake-words
 
 ## 素材与下一步 {#next}
 
-旧文的固定词数、旧 menuconfig 和“不能自定义”结论由当前指南替代；相关截图仍可从素材清单追溯。资源受限的设备可看[外接 ASR](../hardware/external-wake-module)，不要先购买新模块再确认原板已有能力。
-
----
-
-资料来源：[DOC-22 · 关于唤醒词更改及配置操作步骤](https://my.feishu.cn/docx/X1PUdoklpouIXBxvEGHcjCBJnkg)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。
+可用词与自定义能力由芯片、内存和模型决定，按上面的配置查询。资源受限的设备可看[外接 ASR](../hardware/external-wake-module)，不要先购买新模块再确认原板已有能力。

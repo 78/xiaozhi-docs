@@ -43,7 +43,3 @@ sourceArticles: ["DOC-37"]
 ## 下一步 {#next}
 
 查看[SF32 插件版设计案例](./projects/sf32lb52-plugin)与[故事机改造](./projects/astronaut-storyteller)。准备采购时结合[硬件选型](../hardware/choosing-hardware)，不要把目录顺序理解为商业推荐排序。
-
----
-
-资料来源：[DOC-37 · 小智AI聊天机器人硬件开源项目汇集（一）](https://my.feishu.cn/docx/Xa2wdSt7codXKFxv2jpcRZMgn6c)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。

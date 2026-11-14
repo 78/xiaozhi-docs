@@ -20,21 +20,21 @@ sourceArticles: ["DOC-31"]
 
 [![Xmini-C3 原板外观；同系列不同修订须分别核对。](/images/zh/doc-31-image-003.webp)](/images/zh/doc-31-image-003.webp)
 
-<figcaption>Xmini-C3 原板外观；同系列不同修订须分别核对。 来源：DOC-31 原图 3。</figcaption>
+<figcaption>Xmini-C3 原板外观；同系列不同修订须分别核对。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![ESP32-BOX-3 原图，用于识别板型。](/images/zh/doc-31-image-004.webp)](/images/zh/doc-31-image-004.webp)
+[![ESP32-BOX-3 外观。](/images/zh/doc-31-image-004.webp)](/images/zh/doc-31-image-004.webp)
 
-<figcaption>ESP32-BOX-3 原图，用于识别板型。 来源：DOC-31 原图 4。</figcaption>
+<figcaption>ESP32-BOX-3 外观。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![M5Stack CoreS3 原图；支持范围以固件目录为准。](/images/zh/doc-31-image-012.webp)](/images/zh/doc-31-image-012.webp)
+[![M5Stack CoreS3 外观；支持范围以固件目录为准。](/images/zh/doc-31-image-012.webp)](/images/zh/doc-31-image-012.webp)
 
-<figcaption>M5Stack CoreS3 原图；支持范围以固件目录为准。 来源：DOC-31 原图 12。</figcaption>
+<figcaption>M5Stack CoreS3 外观；支持范围以固件目录为准。</figcaption>
 </figure>
 
 ## 1. 在现行目录中查找 {#lookup}
@@ -74,8 +74,4 @@ python scripts/build.py --list-boards --json
 
 ## 资料与下一步 {#sources}
 
-旧产品照片来自[DOC-31 原清单](https://my.feishu.cn/docx/Dt2HdeMqNoo9dNxV8RacO4ounsc),仅用于识别外观；本页图片的完整来源随素材记录保留。准备采购时继续[硬件选型](./choosing-hardware)，找到固件后继续[烧录](../firmware/flashing)。
-
----
-
-资料来源：[DOC-31 · 小智AI终端固件支持开发板/产品及购买链接](https://my.feishu.cn/docx/Dt2HdeMqNoo9dNxV8RacO4ounsc)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。
+通过照片识别外观后，仍要核对产品修订和具体构建变体。准备采购时继续[硬件选型](./choosing-hardware)，找到固件后继续[烧录](../firmware/flashing)。

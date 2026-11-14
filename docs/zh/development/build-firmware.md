@@ -13,7 +13,7 @@ reviewNote: "命令和板型参数已对照 v2.6.0；未在本机安装 ESP-IDF 
 
 ## 版本与准备工作 {#scope}
 
-本文使用 **小智固件 v2.6.0**，按[该版本 README](https://github.com/78/xiaozhi-esp32/blob/v2.6.0/README.md)选择 ESP-IDF：最低 6.0.1，建议 **`release/v6.1` 分支**。由于 C3 的已知问题，本轮不以 `v6.1` 发布 tag 代替该分支。
+本文使用 **小智固件 v2.6.0**，按[该版本 README](https://github.com/78/xiaozhi-esp32/blob/v2.6.0/README.md)选择 ESP-IDF：最低 6.0.1，建议 **`release/v6.1` 分支**。由于 C3 的已知问题，这里使用该分支，而不是 `v6.1` 发布 tag。
 
 准备 Git、受 ESP-IDF 支持的 Python 和系统构建依赖。Windows、Linux、macOS 的安装前提不同，先按[乐鑫安装指南](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/index.html)完成对应系统准备。下面以 ESP32-S3 为例。
 

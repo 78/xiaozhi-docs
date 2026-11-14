@@ -15,6 +15,8 @@ status: draft
 
 正文建议按“适用范围 → 准备工作 → 操作步骤 → 成功标志 → 常见问题 → 下一步”组织。硬件引脚、型号、命令、固件名称保持准确，避免笼统地写“最新版”。
 
+硬件教程要保留“完成效果 → 模块识别 → 总接线图 → 分步接线 → 实物检查”的教学关系；各板型、显示和联网变体的图分别归位。GPIO 表用于核对，不能代替所有接线图和成品照片。旧图有错误时指出具体差异，提供对应版本的修正连线，不因“有旧内容”把整组图省掉。选型页比较整套方案，具体模块图片放在相应搭建教程。每张图都必须解释所在章节；例如音频直连图不能放到 OLED 接线段落。迁移编号、逐图来源和审计过程写入 `audit/`，不展示给读者；必要的作者署名与许可保留简洁说明。
+
 `status` 接受 `draft`、`review`、`published`：
 
 - `draft`：整理提纲或待翻译占位页，公开可访问，不参与站内搜索，并设置 `noindex`。
@@ -27,7 +29,7 @@ status: draft
 
 对应章节使用相同的稳定锚点，例如 `## 报告问题 {#report-an-issue}` 和 `## Report an issue {#report-an-issue}`，确保带章节链接的语言切换仍能定位到相同位置。
 
-图片放在 `docs/public/images/shared/` 或语言目录中。共享接线图不要复制多份；带中文界面或文字的图片需要对应语言素材。不要热链飞书图片；视频、大文件与固件放在官方对象存储或 Releases，正文提供说明和链接。迁移社区作品时保留来源及署名。素材决策记录在 `audit/media-inventory.json`，Release 文件及校验值记录在 `audit/release-assets.json`；页面下载区使用 `.vitepress/data/materials.json`。新文件不要直接推入 Git 历史；先检查来源、适用版本、个人信息和凭据，再附清单上传独立 Release。未采用旧图也需要具体原因，不能默认为丢弃。
+图片放在 `docs/public/images/shared/` 或语言目录中。共享接线图不要复制多份；带中文界面或文字的图片需要对应语言素材。不要热链飞书图片；视频、大文件与固件放在官方对象存储或 Releases，正文提供说明和链接。迁移社区作品时保留来源及署名。素材决策记录在 `audit/media-inventory.json`，Release 文件及校验值记录在 `audit/release-assets.json`；页面下载区使用 `.vitepress/data/materials.json`。新文件不要直接推入 Git 历史；先检查来源、适用版本、个人信息和凭据，再附清单上传独立 Release。未采用旧图也需要具体原因，不能默认为丢弃。迁入图片还要记录 `image-dimensions.json` 的实际宽高，避免懒加载把章节锚点推走；核心硬件教程的配件、总图、变体和效果图需同步更新 `audit/hardware-illustrations.json`，`npm run check:assets` 会校验它们确实出现在对应章节。
 
 ## 翻译同步
 

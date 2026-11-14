@@ -28,7 +28,6 @@ GitHub 认证是给已登录的小智账号绑定 GitHub。它用于相应模型
 4. 重新打开模型和知识库页面，查看当前账号实际可用的选项及配额。
 
 
-
 旧版界面的截图只用来追溯历史入口，不作为新控制台的点击位置图；新版步骤以页面上的功能名称为准。
 
 ## 3. 理解权益范围 {#benefits}
@@ -49,7 +48,3 @@ GitHub 认证是给已登录的小智账号绑定 GitHub。它用于相应模型
 ## 下一步 {#next}
 
 继续[知识库](./knowledge-base)或[声音复刻](./voice-cloning)。登录本身有问题时看[账号排查](../faq/account-and-binding)。
-
----
-
-资料来源：[DOC-01 · 小智AI 开发者认证](https://smvsudqc87.feishu.cn/docx/AjtQdM0KpoVQ3YxJfaLco4KsnSe)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。

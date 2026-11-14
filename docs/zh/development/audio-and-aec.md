@@ -20,7 +20,7 @@ AEC 用来降低设备播放的声音被麦克风再次拾取的影响。是否�
 | 服务端 AEC | 固件的上行处理路径与服务端明确支持；当前配置标为不稳定 |
 | 不启用 AEC | 先用按键或其他交互模式验证音频基础能力 |
 
-本页依据[当前仓库 Kconfig](https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/main/Kconfig.projbuild)。支持范围随版本变化，不复制飞书旧板型白名单。
+本页依据[当前仓库 Kconfig](https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/main/Kconfig.projbuild)。支持范围随版本变化，先检查所用版本的依赖条件。
 
 ## 1. 先验证基础音频 {#baseline}
 
@@ -51,8 +51,4 @@ AEC 用来降低设备播放的声音被麦克风再次拾取的影响。是否�
 
 ## 下一步与素材 {#next}
 
-硬件结构参考[产品设计要点](../hardware/design-guidelines)，唤醒行为见[唤醒词](./wake-words)。原文六张旧 SDK 界面图已按版本归入素材清单，不作为当前菜单位置。
-
----
-
-资料来源：[DOC-21 · 小智AI终端开源项目SDK配置AEC支持操作指引](https://my.feishu.cn/docx/Oi3EdH3ftolVUmx4NiacSMxgnje)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。
+硬件结构参考[产品设计要点](../hardware/design-guidelines)，唤醒行为见[唤醒词](./wake-words)。配置选项的位置与依赖按所用固件、ESP-IDF 版本查看。

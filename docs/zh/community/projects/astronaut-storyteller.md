@@ -4,7 +4,7 @@ title: "太空人故事机改造案例"
 description: "保留原机拆解与接线素材，明确 PCB、供电和固件适用边界。"
 status: "review"
 reviewedAt: "2026-11-14"
-reviewNote: "保留原作者、历史版本与资源来源；第三方服务和样机方案尚未全部实测，不作为通用兼容性承诺。"
+reviewNote: "第三方项目与样机尚未全部实测，使用前核对具体版本与硬件条件。"
 sourceArticles: ["DOC-44"]
 ---
 
@@ -16,7 +16,7 @@ sourceArticles: ["DOC-44"]
 
 [![原太空人故事机与改造目标。](/images/zh/doc-44-image-001.webp)](/images/zh/doc-44-image-001.webp)
 
-<figcaption>原太空人故事机与改造目标。 来源：DOC-44 原图 1。</figcaption>
+<figcaption>原太空人故事机与改造目标。</figcaption>
 </figure>
 
 ## 1. 拆机与识别 {#scope}
@@ -25,23 +25,23 @@ sourceArticles: ["DOC-44"]
 
 <figure class="source-figure">
 
-[![原样机 PCB 拆解照片，仅适用该板修订。](/images/zh/doc-44-image-003.jpg)](/images/zh/doc-44-image-003.jpg)
+[![示例样机 PCB 拆解照片，仅适用该板修订。](/images/zh/doc-44-image-003.jpg)](/images/zh/doc-44-image-003.jpg)
 
-<figcaption>原样机 PCB 拆解照片，仅适用该板修订。 来源：DOC-44 原图 3。</figcaption>
+<figcaption>示例样机 PCB 拆解照片，仅适用该板修订。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
 [![原板另一视角；拆除器件前必须确认电路。](/images/zh/doc-44-image-004.webp)](/images/zh/doc-44-image-004.webp)
 
-<figcaption>原板另一视角；拆除器件前必须确认电路。 来源：DOC-44 原图 4。</figcaption>
+<figcaption>原板另一视角；拆除器件前必须确认电路。</figcaption>
 </figure>
 
 原方案涉及拆除原 PCB 上器件。必须先确认器件功能和目标板修订，不能仅凭图中的红框在另一批板上照拆。
 
 ## 2. 新语音部分 {#audio}
 
-原文的两张内嵌表已通过公开预览读取，并与 `xiaozhi-esp32 v2.6.0` 的基础 S3 板型核对。信号引脚如下；这是该样机方案，不代表所有故事机 PCB 都能直接接入。
+下面是这套样机的音频信号接线，与 `xiaozhi-esp32 v2.6.0` 基础 S3 板型对应。不同批次故事机 PCB 仍需单独核对。
 
 | 模块 | 模块引脚 | ESP32-S3 GPIO |
 | --- | --- | --- |
@@ -52,50 +52,50 @@ sourceArticles: ["DOC-44"]
 | MAX98357A | BCLK | 15 |
 | MAX98357A | LRC | 16 |
 
-原样机表将 INMP441 的 VDD 接 3V3，GND 与 L/R 接 GND；功放 VCC 与 SD 接 3V3，GND 与 GAIN 接 GND，扬声器分别接功放输出正、负端。功放原表误写了“麦克风 INMP441”表头，本页已更正为 MAX98357A。
+示例样机表将 INMP441 的 VDD 接 3V3，GND 与 L/R 接 GND；功放 VCC 与 SD 接 3V3，GND 与 GAIN 接 GND，扬声器分别接功放输出正、负端。
 
-**这里记录的是原样机的 3V3 功放分支**，仍需核验稳压器余量、功放模块版本和声道/增益设置；不能不检查电源就照接。新搭建独立语音部分时，优先使用[基础面包板](../../hardware/breadboard-esp32-s3)完整且一致的供电方案，不混用两个方案的电源线。
+**这里记录的是示例样机的 3V3 功放分支**，仍需核验稳压器余量、功放模块版本和声道/增益设置；不能不检查电源就照接。新搭建独立语音部分时，优先使用[基础面包板](../../hardware/breadboard-esp32-s3)完整且一致的供电方案，不混用两个方案的电源线。
 
-原图中的模块照片保留用于识别器件和焊点，信号、电源及固件身份仍要分别核对。原有功放、扬声器或麦克风能否复用，要有电路依据；功放扬声器输出不能接共地耳机。
+对照照片识别模块与焊点，再分别核对信号、电源和固件。原有功放、扬声器或麦克风能否复用，要有电路依据；功放扬声器输出不能接共地耳机。
 
 <figure class="source-figure">
 
-[![原 INMP441 麦克风模块。](/images/zh/doc-44-image-005.webp)](/images/zh/doc-44-image-005.webp)
+[![INMP441 麦克风模块。](/images/zh/doc-44-image-005.webp)](/images/zh/doc-44-image-005.webp)
 
-<figcaption>原 INMP441 麦克风模块。 来源：DOC-44 原图 5。</figcaption>
+<figcaption>INMP441 麦克风模块。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![原 MAX98357A 功放模块。](/images/zh/doc-44-image-006.webp)](/images/zh/doc-44-image-006.webp)
+[![MAX98357A 功放模块。](/images/zh/doc-44-image-006.webp)](/images/zh/doc-44-image-006.webp)
 
-<figcaption>原 MAX98357A 功放模块。 来源：DOC-44 原图 6。</figcaption>
+<figcaption>MAX98357A 功放模块。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
 [![原功放模块接线参考。](/images/zh/doc-44-image-007.webp)](/images/zh/doc-44-image-007.webp)
 
-<figcaption>原功放模块接线参考。 来源：DOC-44 原图 7。</figcaption>
+<figcaption>原功放模块接线参考。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
 [![原语音模块组装。](/images/zh/doc-44-image-008.webp)](/images/zh/doc-44-image-008.webp)
 
-<figcaption>原语音模块组装。 来源：DOC-44 原图 8。</figcaption>
+<figcaption>原语音模块组装。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
 [![原语音部分的另一视角。](/images/zh/doc-44-image-009.webp)](/images/zh/doc-44-image-009.webp)
 
-<figcaption>原语音部分的另一视角。 来源：DOC-44 原图 9。</figcaption>
+<figcaption>原语音部分的另一视角。</figcaption>
 </figure>
 
 ## 3. 电池、USB 和原板复用 {#power}
 
-先画出电池、保护、充电、升压、主板和 USB 的完整路径，区分 `BAT`、`VIN`、`OUT` 与 `GND`。原图的某个焊点只对那块 PCB 成立，不推断同色线或相同外壳就等价。
+先画出电池、保护、充电、升压、主板和 USB 的完整路径，区分 `BAT`、`VIN`、`OUT` 与 `GND`。照片中的焊点只适用于同一 PCB 修订，不推断同色线或相同外壳就等价。
 
 在不复用未经确认的充电路径时，先让新语音部分通过可靠 USB 电源独立运行。定制电池接法按[电池供电](../../hardware/battery-power)完成电气复核；不要把“能点亮”当作允许 USB 与电池同时接入的证明。
 
@@ -112,24 +112,20 @@ sourceArticles: ["DOC-44"]
 
 [![原改造样机完成状态。](/images/zh/doc-44-image-015.webp)](/images/zh/doc-44-image-015.webp)
 
-<figcaption>原改造样机完成状态。 来源：DOC-44 原图 15。</figcaption>
+<figcaption>原改造样机完成状态。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![原作者的装壳效果。](/images/zh/doc-44-image-016.webp)](/images/zh/doc-44-image-016.webp)
+[![装壳效果。](/images/zh/doc-44-image-016.webp)](/images/zh/doc-44-image-016.webp)
 
-<figcaption>原作者的装壳效果。 来源：DOC-44 原图 16。</figcaption>
+<figcaption>装壳效果。</figcaption>
 </figure>
 
 ## 怎么确认完成 {#verify}
 
 具体 PCB 版本的电源和充电路径已经核验，固件能从干净配置重建；装壳前后都可对话，充电、休眠和恢复不会造成异常电平或复位。当前原型照片保留为案例证据，不代表所有批次已通过这些检查。
 
-## 来源与下一步 {#sources}
+## 后续步骤 {#sources}
 
-保留 DOC-44 原作者/贡献者的拆解和样机照片，原图不作为通用器件拆除指令。需要从零开始时用[基础 S3](../../hardware/breadboard-esp32-s3)，其他硬件创意见[开源项目目录](../open-hardware)。
-
----
-
-资料来源：[DOC-44 · 小智AI聊天太空人故事机改造](https://my.feishu.cn/docx/HCgXdX3cfoABjGxEzglcfE6Jnvd)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。
+器件拆除和原板复用步骤只适用于核对过的 PCB 修订。需要从零开始时用[基础 S3](../../hardware/breadboard-esp32-s3)，其他硬件创意见[开源项目目录](../open-hardware)。

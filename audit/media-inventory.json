@@ -3957,9 +3957,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "51b44905132a73c2d96f9460814a91dacaa4c82291bd9baf887273bb35ffdcc8",
       "cachedBytes": 373049,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-001.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-001.webp",
+        "sha256": "cbe49a038b3acbe52fa8d25a05ddcb22628c1ca5817e4a1ae06532a202805f08",
+        "bytes": 219876,
+        "width": 340,
+        "height": 490,
+        "format": "webp",
+        "profile": "labeled",
+        "sourceSha256": "51b44905132a73c2d96f9460814a91dacaa4c82291bd9baf887273bb35ffdcc8",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-002",
@@ -3970,9 +3986,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "4877f5b2015cf3d637d60c82c5b9b0829058052f369e8c9aa57f7bd789e08da2",
       "cachedBytes": 356280,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-002.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-002.webp",
+        "sha256": "768487f8eb0336adc17e4e818b4354f358efffebf39d80ff8773b19a5f3822f4",
+        "bytes": 26164,
+        "width": 755,
+        "height": 689,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "4877f5b2015cf3d637d60c82c5b9b0829058052f369e8c9aa57f7bd789e08da2",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-003",
@@ -3983,9 +4015,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "93a98355abe2dbe589a9b4d913b0fb12244ee36f6b59c95e1e7162902c101569",
       "cachedBytes": 462384,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-003.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-003.webp",
+        "sha256": "f9d4cd83043d81c39e30ef96c97da7e4443ef5b47c0ef100a099a4d0e88f3a7d",
+        "bytes": 147208,
+        "width": 718,
+        "height": 1600,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "93a98355abe2dbe589a9b4d913b0fb12244ee36f6b59c95e1e7162902c101569",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-004",
@@ -3996,9 +4044,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "e718a0ecf63aedff2e0aa43f76e27f222f985edd398854bff31aa7c187bf720e",
       "cachedBytes": 238372,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-004.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-004.webp",
+        "sha256": "725cb0ea32af1ce6161fc8c96b1a8dbd9968bfe84d039a97db9c53028935b60f",
+        "bytes": 17910,
+        "width": 800,
+        "height": 800,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "e718a0ecf63aedff2e0aa43f76e27f222f985edd398854bff31aa7c187bf720e",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-005",
@@ -4009,9 +4073,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "d5e3db723b2938859b28b2ecff035158b8d122086131834a71827ba1a5afec58",
       "cachedBytes": 326248,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-005.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-005.webp",
+        "sha256": "1ec8a7dfb15220614bfdc3a1ccccd3db7bbbe5c175c217b71e50d8ec429ef209",
+        "bytes": 18578,
+        "width": 545,
+        "height": 449,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "d5e3db723b2938859b28b2ecff035158b8d122086131834a71827ba1a5afec58",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-006",
@@ -4022,9 +4102,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "369957ac376d5e0668134d14dfc825066f3aa77fb2bbece7d2964c059ba89b2d",
       "cachedBytes": 306821,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-006.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-006.webp",
+        "sha256": "e3d0b76f970412920a283e378d5c812b97369a4c581b0d533a2336d85c79a088",
+        "bytes": 11390,
+        "width": 649,
+        "height": 569,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "369957ac376d5e0668134d14dfc825066f3aa77fb2bbece7d2964c059ba89b2d",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-007",
@@ -4035,9 +4131,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "3f108c1833f9b42a10e690acf57158bc90086b23ef20c3c00571dae22a67df87",
       "cachedBytes": 95609,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-007.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-007.webp",
+        "sha256": "4a3af2190b378c51410515f612560b67181f0f8a51d3c247c918d599a8fa4184",
+        "bytes": 12400,
+        "width": 400,
+        "height": 400,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "3f108c1833f9b42a10e690acf57158bc90086b23ef20c3c00571dae22a67df87",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-008",
@@ -4048,9 +4160,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "a6b9b1c72d92ca71ed3fb36a36fe3cc5d5bb87225e0af79f58d88274e63b78ff",
       "cachedBytes": 127813,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-008.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-008.webp",
+        "sha256": "812da441c0871222307a9235ecdb53a4328e882f94adf01989abe08f67baa546",
+        "bytes": 10916,
+        "width": 380,
+        "height": 263,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "a6b9b1c72d92ca71ed3fb36a36fe3cc5d5bb87225e0af79f58d88274e63b78ff",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-009",
@@ -4061,9 +4189,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "29b97dfa09a90347f93d7029f22aa1d7922ecbfec5deb049ff9c12cc46d91379",
       "cachedBytes": 516626,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-009.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-009.webp",
+        "sha256": "0cca1391fe05fe80ff1432b82a13372ac84cc2a6e26c15cb35350d03902adf62",
+        "bytes": 56068,
+        "width": 800,
+        "height": 800,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "29b97dfa09a90347f93d7029f22aa1d7922ecbfec5deb049ff9c12cc46d91379",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-010",
@@ -4074,9 +4218,26 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "1031af2439f4b5a79850124b2d847e60c7ce4f85786dc30328a760f96f0f1546",
       "cachedBytes": 76227,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-010.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md",
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-010.webp",
+        "sha256": "a82d73b438c2933eb3e89c75665c4bd408770de82a0c6989e9daeb6ac2cf1075",
+        "bytes": 16166,
+        "width": 543,
+        "height": 464,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "1031af2439f4b5a79850124b2d847e60c7ce4f85786dc30328a760f96f0f1546",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-011",
@@ -4087,9 +4248,26 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "d69443e2f853e9155c047e8352e5511e8208e307a24671a99d17918ec50b8991",
       "cachedBytes": 736791,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-011.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md",
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-011.webp",
+        "sha256": "928a140e737aad978ed3b86954256192ed2e42b2488dd6c33d6936edc55ded54",
+        "bytes": 69292,
+        "width": 800,
+        "height": 800,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "d69443e2f853e9155c047e8352e5511e8208e307a24671a99d17918ec50b8991",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-012",
@@ -4100,9 +4278,26 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "ccc5490c9290d23e227c3d0cf3bfaacdc20ebce74d053f756a7d36caa9fc8b5f",
       "cachedBytes": 262621,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-012.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md",
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-012.webp",
+        "sha256": "513340e822346bc2a8884a652e374a656356abcf42d04ec2a3c1085dcb7680fd",
+        "bytes": 17436,
+        "width": 1240,
+        "height": 732,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "ccc5490c9290d23e227c3d0cf3bfaacdc20ebce74d053f756a7d36caa9fc8b5f",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-013",
@@ -4113,9 +4308,15 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "c23f450d4613eb1e63eb59eb912b21e7f3c171d03e27811958ee4601dfdcc7e7",
       "cachedBytes": 198447,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-013.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md",
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ]
     },
     {
       "id": "DOC-05-image-014",
@@ -4126,9 +4327,26 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "0fc5062371761a4e6d3d8684a2ac64c8c237ae782d0f51356a8f9ac046a490ab",
       "cachedBytes": 373702,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-014.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md",
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-014.webp",
+        "sha256": "51e285b6c1724c6dfd174ffa532ec29e474b39ed63a0846e649a202d3a016055",
+        "bytes": 43418,
+        "width": 602,
+        "height": 1072,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "0fc5062371761a4e6d3d8684a2ac64c8c237ae782d0f51356a8f9ac046a490ab",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-015",
@@ -4139,9 +4357,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "c06eb02f42a43af97ed59a7253d327f3c20bc9e9f0b720807fa4af44aaea59b6",
       "cachedBytes": 113427,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-015.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-015.webp",
+        "sha256": "0f65244d6ef9a8d593baac8c61ad8252459a29ea29acbc531084bc8cdae0bcf3",
+        "bytes": 7090,
+        "width": 751,
+        "height": 516,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "c06eb02f42a43af97ed59a7253d327f3c20bc9e9f0b720807fa4af44aaea59b6",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-016",
@@ -4152,9 +4386,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "17decd5600477139ae80d8582f723513bc5426dcc1d4fbaf29dfbf4eac7da270",
       "cachedBytes": 352401,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-016.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-016.webp",
+        "sha256": "d078905ac60b67cdd3754ae0d71747f0acf865932f49872cda37d31fa72244d7",
+        "bytes": 30540,
+        "width": 499,
+        "height": 525,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "17decd5600477139ae80d8582f723513bc5426dcc1d4fbaf29dfbf4eac7da270",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-017",
@@ -4165,9 +4415,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "e17ddfc826d267759850b6d8395e09ab92797aeeca9a89435911063169aff525",
       "cachedBytes": 710697,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-017.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-4g.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-017.webp",
+        "sha256": "424132d629f6733326759584637599ece62cbdec0f63d2c5f2b2386cb986d700",
+        "bytes": 400914,
+        "width": 1581,
+        "height": 1112,
+        "format": "webp",
+        "profile": "labeled",
+        "sourceSha256": "e17ddfc826d267759850b6d8395e09ab92797aeeca9a89435911063169aff525",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-018",
@@ -4178,9 +4444,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "83175906a1f90b25198bcbb92ec76d3c03216d674d6224e295bcb100ce06fb51",
       "cachedBytes": 271581,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-018.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-4g.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-018.webp",
+        "sha256": "15ffea8427ec515219494d2a9bdb76914446fc7352b6839036b2f13605380f00",
+        "bytes": 166850,
+        "width": 800,
+        "height": 800,
+        "format": "webp",
+        "profile": "labeled",
+        "sourceSha256": "83175906a1f90b25198bcbb92ec76d3c03216d674d6224e295bcb100ce06fb51",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-019",
@@ -4191,9 +4473,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "673b176eca7d7fde3ec8226d7867398c2d3f9499aeb6eaaefc440fc5ca6b79e0",
       "cachedBytes": 477815,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-019.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-4g.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-019.webp",
+        "sha256": "4e7dfbb5ba4bc7409a14eb326e71ea29ee47fb36d8ae25b5136e17c1a0e4f28c",
+        "bytes": 323322,
+        "width": 1125,
+        "height": 835,
+        "format": "webp",
+        "profile": "wiring",
+        "sourceSha256": "673b176eca7d7fde3ec8226d7867398c2d3f9499aeb6eaaefc440fc5ca6b79e0",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-020",
@@ -4204,9 +4502,26 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "d5f53102e1dbb78365ef97e51c1d98847e5d6d0f2bca493e373b3995e3b89f19",
       "cachedBytes": 39844,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复模块识别图片，放在对应面包板材料章节。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-020.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md",
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-020.webp",
+        "sha256": "0e158b790a58a2ade186df4ca5e8bdfe512b1dd56604315ff73bb88f1312cdf4",
+        "bytes": 1990,
+        "width": 244,
+        "height": 179,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "d5f53102e1dbb78365ef97e51c1d98847e5d6d0f2bca493e373b3995e3b89f19",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-021",
@@ -4217,9 +4532,16 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "97d57825e456d7a9fb34693db5c6ca6de22f3423059f271b168907c8190992f0",
       "cachedBytes": 1148621,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-021.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md",
+        "docs/zh/hardware/breadboard-4g.md"
+      ],
+      "reviewFinding": "原图含可选 ML307R、LDO 焊点取电和 3V3 功放；本页 Wi-Fi 不接 4G/LDO 分支，功放采用正文限定的 USB 5V 方案，图前与图注已具体说明。"
     },
     {
       "id": "DOC-05-image-022",
@@ -4230,9 +4552,15 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "89b0bf20f895343869a9c027a3e366a11140aa07d48745afb82bc4a9e3ece64f",
       "cachedBytes": 929832,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-022.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "reviewFinding": "反装指排针朝向变化，不是交换电源；两个主板分别保留原位置图。"
     },
     {
       "id": "DOC-05-image-023",
@@ -4243,9 +4571,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "289106deaba8d4fe378d63427ba3d9f3cbfbda8f40091d6a0d9e384bf43f0887",
       "cachedBytes": 3132357,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-023.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-023.jpg",
+        "sha256": "b3c83a958d866bb47d75dff3c3bd754803d20aa78f9d4f1ca10177398fb78d8f",
+        "bytes": 378252,
+        "width": 1280,
+        "height": 960,
+        "format": "jpeg",
+        "profile": "assembly",
+        "sourceSha256": "289106deaba8d4fe378d63427ba3d9f3cbfbda8f40091d6a0d9e384bf43f0887",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-024",
@@ -4256,9 +4600,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "547ab95039ad8f46a82a4b37a98a61b38a6b493d88a351b4a9a07494e7123f43",
       "cachedBytes": 58797,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-024.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-024.jpg",
+        "sha256": "adaef768db451d9fcfc5f43f5bd19e2100b7d444dab4659af4357f8de6e992b6",
+        "bytes": 79528,
+        "width": 640,
+        "height": 480,
+        "format": "jpeg",
+        "profile": "assembly",
+        "sourceSha256": "547ab95039ad8f46a82a4b37a98a61b38a6b493d88a351b4a9a07494e7123f43",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-025",
@@ -4269,9 +4629,26 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "5376912fb00d4bdc30aa1f6e0ed7916e7449778694f976da45ca97773bd1a1ad",
       "cachedBytes": 806058,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-025.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-4g.md"
+      ],
+      "reviewFinding": "历史 LDO 取电局部只在明确标注的折叠参考中出现，不作为当前施工步骤。",
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-025.webp",
+        "sha256": "d451d2ecdc445eff1b2f60057bb574991533f2c06fd5f3b2d927f6a21f22ad03",
+        "bytes": 75364,
+        "width": 640,
+        "height": 696,
+        "format": "webp",
+        "profile": "assembly",
+        "sourceSha256": "5376912fb00d4bdc30aa1f6e0ed7916e7449778694f976da45ca97773bd1a1ad",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-026",
@@ -4282,9 +4659,16 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "60d03d4034cbaccefe7546b597936be445cc2524df93526929d01e8cea2c44a3",
       "cachedBytes": 1137538,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-026.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md",
+        "docs/zh/hardware/breadboard-4g.md"
+      ],
+      "reviewFinding": "原图含可选 ML307R、LDO 焊点取电和 3V3 功放；本页 Wi-Fi 不接 4G/LDO 分支，功放采用正文限定的 USB 5V 方案，图前与图注已具体说明。"
     },
     {
       "id": "DOC-05-image-027",
@@ -4295,9 +4679,15 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "7e5ea2fefdc24e2a4d873fb8a50ab0b6e1d18c81252ce30e00e701cf126cbe37",
       "cachedBytes": 888149,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-027.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "reviewFinding": "反装指排针朝向变化，不是交换电源；两个主板分别保留原位置图。"
     },
     {
       "id": "DOC-05-image-028",
@@ -4308,9 +4698,14 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "1de15db5e8f6a9360bac8f80b972f32558606872689f5188e8c37e469cb995cb",
       "cachedBytes": 199018,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-028.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ]
     },
     {
       "id": "DOC-05-image-029",
@@ -4321,9 +4716,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "e10fdd2fe0db28dd180d4ebc135ee1969c692ff2f60f062cd2ecba6e75dea190",
       "cachedBytes": 349147,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-029.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-029.webp",
+        "sha256": "ab84cb48161c76fbb5cd7a6951d4e5046a84d07a430e44ea7c521185c9fdb8fd",
+        "bytes": 279086,
+        "width": 1016,
+        "height": 2200,
+        "format": "webp",
+        "profile": "assembly",
+        "sourceSha256": "e10fdd2fe0db28dd180d4ebc135ee1969c692ff2f60f062cd2ecba6e75dea190",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-030",
@@ -4334,9 +4745,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "58fcfb0bde094d380f6401902b00c3dcd9b59e5a019db18ebd21778e72780f05",
       "cachedBytes": 278875,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-030.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-030.webp",
+        "sha256": "9fcd5c22fd58cc5f7a76d6c169ee5d9eaf185bf6f2d177bc36d2168b15858afb",
+        "bytes": 221176,
+        "width": 1016,
+        "height": 2200,
+        "format": "webp",
+        "profile": "assembly",
+        "sourceSha256": "58fcfb0bde094d380f6401902b00c3dcd9b59e5a019db18ebd21778e72780f05",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-file-001",
@@ -4360,9 +4787,26 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "887477364d7f5466c0cd52c95b637c26f9803a5182cd535b4c184bcef3a6a4de",
       "cachedBytes": 1671826,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-031.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-4g.md"
+      ],
+      "reviewFinding": "NT26K GPIO9/10/11/12 与当前配置对照；原图从开发板 3V3 供电不作为通用方案，模块电源按核心板设计另核。",
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-031.webp",
+        "sha256": "c37cbd4834bc4fca35daac48ed5e4cd4421d1a06b049ace029fd853bc832aa42",
+        "bytes": 1195906,
+        "width": 1675,
+        "height": 1139,
+        "format": "webp",
+        "profile": "wiring",
+        "sourceSha256": "887477364d7f5466c0cd52c95b637c26f9803a5182cd535b4c184bcef3a6a4de",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-032",
@@ -4373,9 +4817,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "c33471f2c869f88863321cb681c559ddf973f9d6370249dc3aef80bc0628593f",
       "cachedBytes": 1112259,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-032.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-4g.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-032.webp",
+        "sha256": "a3f4d293d8cc2fbdc1e204528ae268b20c9a70ba5c01fad2f3fbbd2cdcc35163",
+        "bytes": 135722,
+        "width": 920,
+        "height": 820,
+        "format": "webp",
+        "profile": "assembly",
+        "sourceSha256": "c33471f2c869f88863321cb681c559ddf973f9d6370249dc3aef80bc0628593f",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-033",
@@ -4386,9 +4846,26 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "57398ba7316a0e6047583a5ea9bce6d72b72fc193c2d74e180d6d4b465b391e7",
       "cachedBytes": 1539498,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-033.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-4g.md"
+      ],
+      "reviewFinding": "NT26K GPIO9/10/11/12 与当前配置对照；原图从开发板 3V3 供电不作为通用方案，模块电源按核心板设计另核。",
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-033.webp",
+        "sha256": "1d752e845106543163c5233b400978c49cb48ae87609b8e37761f71b2168405d",
+        "bytes": 1102366,
+        "width": 1614,
+        "height": 1134,
+        "format": "webp",
+        "profile": "wiring",
+        "sourceSha256": "57398ba7316a0e6047583a5ea9bce6d72b72fc193c2d74e180d6d4b465b391e7",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-034",
@@ -4399,9 +4876,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "7601c0585b72003a8dae4769d40204ba547c0f23e1e7fce8d385bca5987e56e9",
       "cachedBytes": 2838355,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-034.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-4g.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-034.webp",
+        "sha256": "acc081225718c3d5280bf7335e923af629f49eea0b9d8435eceae2ff24a511b8",
+        "bytes": 507148,
+        "width": 1800,
+        "height": 1581,
+        "format": "webp",
+        "profile": "assembly",
+        "sourceSha256": "7601c0585b72003a8dae4769d40204ba547c0f23e1e7fce8d385bca5987e56e9",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-05-image-035",
@@ -4412,9 +4905,14 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "9c892ae22b7e4b0814b63da78d9e7e55c749f1754090138f7b07ef502a04cf2e",
       "cachedBytes": 289559,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-035.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ]
     },
     {
       "id": "DOC-05-image-036",
@@ -4425,9 +4923,14 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "c25b4d6a07f9ab7a3cd03904bd59401274812a3b1c71c04c47615f8dbc9a1831",
       "cachedBytes": 305056,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-036.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ]
     },
     {
       "id": "DOC-05-image-037",
@@ -4438,9 +4941,14 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "b1a4842c413f037d446e6a087456e7f084ff9046f165c6de3d7a8d65845fc314",
       "cachedBytes": 256337,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-037.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ]
     },
     {
       "id": "DOC-05-image-038",
@@ -4451,9 +4959,14 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "7ea114946d035b75d33967deaedb35c77059fc908a2ac9443d0232d126d380d2",
       "cachedBytes": 158915,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-038.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-4g.md"
+      ]
     },
     {
       "id": "DOC-05-image-039",
@@ -4464,9 +4977,14 @@
       "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
       "sha256": "d56167b60a33a655d30435b917009f736e44cfcfe4035cce2c1b3afcb7c1f6e7",
       "cachedBytes": 164238,
-      "decision": "not-reused",
-      "reason": "基础 S3 新稿按 v2.6.0 固定方案与新信号图编写；不把原文不同变体和旧电源照片合成一套新接线。 这是编辑采用范围，不表示该未采用图片已逐像素核验。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "恢复原接线总图、排针变体、反装示意或实物效果，按用途放回基础 S3 / 4G 教程；接线图与表格共同使用。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-039.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-4g.md"
+      ]
     },
     {
       "id": "DOC-05-image-040",
@@ -4507,6 +5025,9 @@
       "reason": "原 ST7789 屏幕正面。",
       "publicPath": "/images/zh/doc-06-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/displays/st7789.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-06-image-001.webp",
         "sha256": "0ed1cb95bec9dcf759cecf88c5ee77f870b373ad8603820a1776e6ba36860372",
@@ -4532,6 +5053,9 @@
       "reason": "原屏幕背面与接口丝印。",
       "publicPath": "/images/zh/doc-06-image-002.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/displays/st7789.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-06-image-002.webp",
         "sha256": "861ab10489cdc54bbe9bdaee8e12174d3c2fce4825129c3f6f0141edfee272ff",
@@ -4553,9 +5077,15 @@
       "sourceUrl": "https://my.feishu.cn/docx/ZVHUdeeC6orHtDxeafwcoPSYnhe",
       "sha256": "0d0d1b7dcef9c69e92b64eec715c3e6aa6da54f1d98cd640818f9c90c9360cf6",
       "cachedBytes": 801516,
-      "decision": "not-reused",
-      "reason": "旧总接线图包含 3V3 功放电源分支，与本次统一 USB 供电方案不同；保留屏幕和实物图，采用现行 GPIO 表。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-06-image-003.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/displays/st7789.md"
+      ],
+      "reviewFinding": "恢复 44/42 针彩屏总图；原 240×240 屏与本版默认 240×320 区分，3V3 功放及模块短接与本版方案的差异紧贴图片说明。"
     },
     {
       "id": "DOC-06-image-004",
@@ -4570,6 +5100,9 @@
       "reason": "原 LCD 面包板实物，用于理解布局。",
       "publicPath": "/images/zh/doc-06-image-004.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/displays/st7789.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-06-image-004.webp",
         "sha256": "454f9ea8f4362082197395ee007ff8263f070f69fcbbb4ac2cd9343b0cbd3145",
@@ -4591,9 +5124,15 @@
       "sourceUrl": "https://my.feishu.cn/docx/ZVHUdeeC6orHtDxeafwcoPSYnhe",
       "sha256": "d2260f80fe8229e8c4fc338400ff61684061fa665a87efe88308a2221ae261bf",
       "cachedBytes": 1131093,
-      "decision": "not-reused",
-      "reason": "未作为新稿插图采用：旧版界面、重复步骤或旁支配图由现行操作说明、精选原图和源项目引用替代；保留原文入口。此结论不是逐图内容验证。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-06-image-005.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/displays/st7789.md"
+      ],
+      "reviewFinding": "恢复 44/42 针彩屏总图；原 240×240 屏与本版默认 240×320 区分，3V3 功放及模块短接与本版方案的差异紧贴图片说明。"
     },
     {
       "id": "DOC-06-file-001",
@@ -4647,6 +5186,9 @@
       "reason": "原摄像头模块与排线接口。",
       "publicPath": "/images/zh/doc-07-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-camera.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-07-image-001.webp",
         "sha256": "0cc90b4846ed8c25626aab2f2f0950bce6fca4bd9fcb2cbcf4e99ae5ef3389e5",
@@ -4672,6 +5214,9 @@
       "reason": "原 LCD 模块外观。",
       "publicPath": "/images/zh/doc-06-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-camera.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-06-image-001.webp",
         "sha256": "0ed1cb95bec9dcf759cecf88c5ee77f870b373ad8603820a1776e6ba36860372",
@@ -4697,6 +5242,9 @@
       "reason": "原 LCD 模块接口丝印。",
       "publicPath": "/images/zh/doc-06-image-002.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-camera.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-06-image-002.webp",
         "sha256": "861ab10489cdc54bbe9bdaee8e12174d3c2fce4825129c3f6f0141edfee272ff",
@@ -4722,6 +5270,9 @@
       "reason": "原摄像头面包板装配示例。",
       "publicPath": "/images/zh/doc-07-image-004.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-camera.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-07-image-004.webp",
         "sha256": "82862ef2d91175d1d3c28f624ae0a93d87fdc5b52ee08027d46d4f4e2ac51d86",
@@ -4747,6 +5298,9 @@
       "reason": "原型装配的另一视角；信号接法请以本页版本表为准。",
       "publicPath": "/images/zh/doc-07-image-005.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-camera.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-07-image-005.webp",
         "sha256": "f6e225813fa5af6b1c462a0736a700baccacf72be65c6683303ace578b20b0bd",
@@ -5433,21 +5987,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/HkxhdV5E9ovMIfxBOJbcXfVOnPg",
       "sha256": "363060af42ab2c0b430f2b87edd87c6e7269c4d9b755aba9276cdcaefc5a82a3",
       "cachedBytes": 541089,
-      "decision": "retained-local-image",
-      "reason": "原 S3 开发板外观示例。",
-      "publicPath": "/images/zh/doc-10-image-002.webp",
+      "decision": "replaced-by-tutorial-materials",
+      "reason": "纠正放错章节：选型页只比较整套方案，模块识别回到基础 S3 教程，采用原教程 DOC-05 的板卡、麦克风、功放图。",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "publishedAsset": {
-        "path": "/images/zh/doc-10-image-002.webp",
-        "sha256": "553f5c1295b1965fc91a9aef86d24d63450ef40c613e5484698da6efb3326b29",
-        "bytes": 28430,
-        "width": 755,
-        "height": 689,
-        "format": "webp",
-        "profile": "historical-product",
-        "sourceSha256": "363060af42ab2c0b430f2b87edd87c6e7269c4d9b755aba9276cdcaefc5a82a3",
-        "optimizationRecord": "history-image-optimization.json"
-      }
+      "replacementPaths": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ]
     },
     {
       "id": "DOC-10-image-003",
@@ -5471,21 +6016,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/HkxhdV5E9ovMIfxBOJbcXfVOnPg",
       "sha256": "e718a0ecf63aedff2e0aa43f76e27f222f985edd398854bff31aa7c187bf720e",
       "cachedBytes": 238372,
-      "decision": "retained-local-image",
-      "reason": "原麦克风模块示例。",
-      "publicPath": "/images/zh/doc-05-image-004.webp",
+      "decision": "replaced-by-tutorial-materials",
+      "reason": "纠正放错章节：选型页只比较整套方案，模块识别回到基础 S3 教程，采用原教程 DOC-05 的板卡、麦克风、功放图。",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-004.webp",
-        "sha256": "725cb0ea32af1ce6161fc8c96b1a8dbd9968bfe84d039a97db9c53028935b60f",
-        "bytes": 17910,
-        "width": 800,
-        "height": 800,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "e718a0ecf63aedff2e0aa43f76e27f222f985edd398854bff31aa7c187bf720e",
-        "optimizationRecord": "history-image-optimization.json"
-      }
+      "replacementPaths": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ]
     },
     {
       "id": "DOC-10-image-005",
@@ -5496,21 +6032,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/HkxhdV5E9ovMIfxBOJbcXfVOnPg",
       "sha256": "3f108c1833f9b42a10e690acf57158bc90086b23ef20c3c00571dae22a67df87",
       "cachedBytes": 95609,
-      "decision": "retained-local-image",
-      "reason": "原功放模块示例；型号和电气参数需要单独核对。",
-      "publicPath": "/images/zh/doc-05-image-007.webp",
+      "decision": "replaced-by-tutorial-materials",
+      "reason": "纠正放错章节：选型页只比较整套方案，模块识别回到基础 S3 教程，采用原教程 DOC-05 的板卡、麦克风、功放图。",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-007.webp",
-        "sha256": "4a3af2190b378c51410515f612560b67181f0f8a51d3c247c918d599a8fa4184",
-        "bytes": 12400,
-        "width": 400,
-        "height": 400,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "3f108c1833f9b42a10e690acf57158bc90086b23ef20c3c00571dae22a67df87",
-        "optimizationRecord": "history-image-optimization.json"
-      }
+      "replacementPaths": [
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ]
     },
     {
       "id": "DOC-10-image-006",
@@ -5655,6 +6182,9 @@
       "reason": "原制造约束表，属于当时供应商参考；今天的加工约束以实际厂家规格为准。",
       "publicPath": "/images/zh/doc-11-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/design-guidelines.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-11-image-001.webp",
         "sha256": "920eb3a8442c032c94e6f70f88519d53c2a3347a489a2d148898127ce0e68cf9",
@@ -5677,9 +6207,13 @@
       "sha256": "422bb8c5fdf3a964dc4fe7abe00386eb5fc60adfa127ff095f20c8e85ad55e88",
       "cachedBytes": 89102,
       "decision": "retained-local-image",
-      "reason": "原 C3 主控模块。",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
       "publicPath": "/images/zh/doc-12-image-001.webp",
-      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-12-image-001.webp",
         "sha256": "98c713e4f93b868f6a2ce163c48bc303a92ad1816a228fbdbdc1a8131556a149",
@@ -5702,9 +6236,13 @@
       "sha256": "4684a240af909e34ebe96f1ba6dc5301198af6614521901e08828ab1db648dfc",
       "cachedBytes": 277737,
       "decision": "retained-local-image",
-      "reason": "原 ES8311 与 NS4150 音频模块；核对具体版本和丝印。",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
       "publicPath": "/images/zh/doc-12-image-002.webp",
-      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-12-image-002.webp",
         "sha256": "3de22c62508ce737160cf5a8688c75ed94ef5d09518f2624fdf435caf616296a",
@@ -5726,9 +6264,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d",
       "sha256": "47c969543dee1719a76820ebf53cde5b3456699c4930ee1496abdb513759f50c",
       "cachedBytes": 179330,
-      "decision": "not-reused",
-      "reason": "未作为新稿插图采用：旧版界面、重复步骤或旁支配图由现行操作说明、精选原图和源项目引用替代；保留原文入口。此结论不是逐图内容验证。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-12-image-003.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-12-image-003.webp",
+        "sha256": "44389157a411357269938385a9b28ec77ac75234b895d64240bc3ff78a5771d0",
+        "bytes": 10022,
+        "width": 727,
+        "height": 692,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "47c969543dee1719a76820ebf53cde5b3456699c4930ee1496abdb513759f50c",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-12-image-004",
@@ -5739,9 +6293,26 @@
       "sourceUrl": "https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d",
       "sha256": "1031af2439f4b5a79850124b2d847e60c7ce4f85786dc30328a760f96f0f1546",
       "cachedBytes": 76227,
-      "decision": "not-reused",
-      "reason": "未作为新稿插图采用：旧版界面、重复步骤或旁支配图由现行操作说明、精选原图和源项目引用替代；保留原文入口。此结论不是逐图内容验证。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-010.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md",
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-010.webp",
+        "sha256": "a82d73b438c2933eb3e89c75665c4bd408770de82a0c6989e9daeb6ac2cf1075",
+        "bytes": 16166,
+        "width": 543,
+        "height": 464,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "1031af2439f4b5a79850124b2d847e60c7ce4f85786dc30328a760f96f0f1546",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-12-image-005",
@@ -5752,9 +6323,26 @@
       "sourceUrl": "https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d",
       "sha256": "d69443e2f853e9155c047e8352e5511e8208e307a24671a99d17918ec50b8991",
       "cachedBytes": 736791,
-      "decision": "not-reused",
-      "reason": "未作为新稿插图采用：旧版界面、重复步骤或旁支配图由现行操作说明、精选原图和源项目引用替代；保留原文入口。此结论不是逐图内容验证。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-011.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md",
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-011.webp",
+        "sha256": "928a140e737aad978ed3b86954256192ed2e42b2488dd6c33d6936edc55ded54",
+        "bytes": 69292,
+        "width": 800,
+        "height": 800,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "d69443e2f853e9155c047e8352e5511e8208e307a24671a99d17918ec50b8991",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-12-image-006",
@@ -5765,9 +6353,26 @@
       "sourceUrl": "https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d",
       "sha256": "ccc5490c9290d23e227c3d0cf3bfaacdc20ebce74d053f756a7d36caa9fc8b5f",
       "cachedBytes": 262621,
-      "decision": "not-reused",
-      "reason": "未作为新稿插图采用：旧版界面、重复步骤或旁支配图由现行操作说明、精选原图和源项目引用替代；保留原文入口。此结论不是逐图内容验证。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-012.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md",
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-012.webp",
+        "sha256": "513340e822346bc2a8884a652e374a656356abcf42d04ec2a3c1085dcb7680fd",
+        "bytes": 17436,
+        "width": 1240,
+        "height": 732,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "ccc5490c9290d23e227c3d0cf3bfaacdc20ebce74d053f756a7d36caa9fc8b5f",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-12-image-007",
@@ -5778,9 +6383,15 @@
       "sourceUrl": "https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d",
       "sha256": "c23f450d4613eb1e63eb59eb912b21e7f3c171d03e27811958ee4601dfdcc7e7",
       "cachedBytes": 198447,
-      "decision": "not-reused",
-      "reason": "未作为新稿插图采用：旧版界面、重复步骤或旁支配图由现行操作说明、精选原图和源项目引用替代；保留原文入口。此结论不是逐图内容验证。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-013.jpg",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md",
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ]
     },
     {
       "id": "DOC-12-image-008",
@@ -5791,9 +6402,26 @@
       "sourceUrl": "https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d",
       "sha256": "0fc5062371761a4e6d3d8684a2ac64c8c237ae782d0f51356a8f9ac046a490ab",
       "cachedBytes": 373702,
-      "decision": "not-reused",
-      "reason": "未作为新稿插图采用：旧版界面、重复步骤或旁支配图由现行操作说明、精选原图和源项目引用替代；保留原文入口。此结论不是逐图内容验证。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-014.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md",
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-014.webp",
+        "sha256": "51e285b6c1724c6dfd174ffa532ec29e474b39ed63a0846e649a202d3a016055",
+        "bytes": 43418,
+        "width": 602,
+        "height": 1072,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "0fc5062371761a4e6d3d8684a2ac64c8c237ae782d0f51356a8f9ac046a490ab",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-12-image-009",
@@ -5805,9 +6433,13 @@
       "sha256": "37cbc9f1e5f3ec9746e3c69247941bf0f48c3138f6aeb855ca04d7f7cef4bf21",
       "cachedBytes": 280018,
       "decision": "retained-local-image",
-      "reason": "原 OLED 模块。",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
       "publicPath": "/images/zh/doc-12-image-009.webp",
-      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-12-image-009.webp",
         "sha256": "185dd5c473d6fb7a8fa4c5b7593653804a4bb653cfea1605f7d5e6d346b4013a",
@@ -5829,9 +6461,26 @@
       "sourceUrl": "https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d",
       "sha256": "d5f53102e1dbb78365ef97e51c1d98847e5d6d0f2bca493e373b3995e3b89f19",
       "cachedBytes": 39844,
-      "decision": "not-reused",
-      "reason": "未作为新稿插图采用：旧版界面、重复步骤或旁支配图由现行操作说明、精选原图和源项目引用替代；保留原文入口。此结论不是逐图内容验证。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-05-image-020.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md",
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-020.webp",
+        "sha256": "0e158b790a58a2ade186df4ca5e8bdfe512b1dd56604315ff73bb88f1312cdf4",
+        "bytes": 1990,
+        "width": 244,
+        "height": 179,
+        "format": "webp",
+        "profile": "product",
+        "sourceSha256": "d5f53102e1dbb78365ef97e51c1d98847e5d6d0f2bca493e373b3995e3b89f19",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-12-image-011",
@@ -5842,9 +6491,26 @@
       "sourceUrl": "https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d",
       "sha256": "bc92063c28e7363990100284d0d91885fd7ccfda25c72bbc47859767d49cb70b",
       "cachedBytes": 944280,
-      "decision": "not-reused",
-      "reason": "旧接线图存在数据方向或 OLED 引脚歧义，改用固定固件版本的信号方向表，保留模块/实物图。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-12-image-011.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md"
+      ],
+      "reviewFinding": "恢复原 C3 总图；明确 ADC→主控 GPIO7、主控 GPIO5→DAC 的方向，并区分模块 3V3 与 VCC/5VIN 电源脚。",
+      "publishedAsset": {
+        "path": "/images/zh/doc-12-image-011.webp",
+        "sha256": "b4608ce334b4a8c4e4e5f3bd234b6ec5f9382fba110cda414f3d05665a1f24cd",
+        "bytes": 932256,
+        "width": 1440,
+        "height": 1214,
+        "format": "webp",
+        "profile": "wiring",
+        "sourceSha256": "bc92063c28e7363990100284d0d91885fd7ccfda25c72bbc47859767d49cb70b",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-12-image-012",
@@ -5856,9 +6522,13 @@
       "sha256": "ff298ccf9917bb3a7907c074096550f7575727d5b19ffc6116db837a2cde9314",
       "cachedBytes": 445107,
       "decision": "retained-local-image",
-      "reason": "原 C3 面包板装配照片；不按线色推断 GPIO。",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
       "publicPath": "/images/zh/doc-12-image-012.jpg",
-      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size"
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md"
+      ]
     },
     {
       "id": "DOC-12-image-013",
@@ -5869,9 +6539,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d",
       "sha256": "5e9b15b5dd32efeec6acfef505867724944c5953889237ced2cf13b78539a451",
       "cachedBytes": 2788429,
-      "decision": "not-reused",
-      "reason": "未作为新稿插图采用：旧版界面、重复步骤或旁支配图由现行操作说明、精选原图和源项目引用替代；保留原文入口。此结论不是逐图内容验证。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-12-image-013.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-12-image-013.webp",
+        "sha256": "38cd1d6e8f154c9e379d27e2b23c638b87dbbc9fd15a77c0285c2ce4c607fe39",
+        "bytes": 301402,
+        "width": 980,
+        "height": 1115,
+        "format": "webp",
+        "profile": "assembly",
+        "sourceSha256": "5e9b15b5dd32efeec6acfef505867724944c5953889237ced2cf13b78539a451",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-12-image-014",
@@ -5882,9 +6568,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d",
       "sha256": "64e7b84cbb93396557e88ac8d5fc25201581f51fbda2cc715936ad3754d17e68",
       "cachedBytes": 1000501,
-      "decision": "not-reused",
-      "reason": "未作为新稿插图采用：旧版界面、重复步骤或旁支配图由现行操作说明、精选原图和源项目引用替代；保留原文入口。此结论不是逐图内容验证。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-12-image-014.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-12-image-014.webp",
+        "sha256": "04c108072f109bc01c613801c9ba40201807e4f6cdb539c74cf316b891a6ac81",
+        "bytes": 64984,
+        "width": 730,
+        "height": 824,
+        "format": "webp",
+        "profile": "assembly",
+        "sourceSha256": "64e7b84cbb93396557e88ac8d5fc25201581f51fbda2cc715936ad3754d17e68",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-12-image-015",
@@ -5895,9 +6597,25 @@
       "sourceUrl": "https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d",
       "sha256": "554ef3c9d3357da7ee47f36e4352c0642af51ddd55c2c456d0a98177acd6a7b0",
       "cachedBytes": 555516,
-      "decision": "not-reused",
-      "reason": "未作为新稿插图采用：旧版界面、重复步骤或旁支配图由现行操作说明、精选原图和源项目引用替代；保留原文入口。此结论不是逐图内容验证。",
-      "visualReview": "not-individually-verified-for-publication"
+      "decision": "retained-local-image",
+      "reason": "纠正上一轮遗漏：恢复到原主题的模块识别、接线变体或完成效果章节；原图存在的供电/方向差异在图前与图注具体说明。",
+      "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
+      "publicPath": "/images/zh/doc-12-image-015.webp",
+      "restoredAt": "2026-11-14",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32-c3.md"
+      ],
+      "publishedAsset": {
+        "path": "/images/zh/doc-12-image-015.webp",
+        "sha256": "545614c4ce29097acfdc65bcc34cad5cce6d6ef6029189aeb6b158fadd5ae2b8",
+        "bytes": 51012,
+        "width": 502,
+        "height": 456,
+        "format": "webp",
+        "profile": "assembly",
+        "sourceSha256": "554ef3c9d3357da7ee47f36e4352c0642af51ddd55c2c456d0a98177acd6a7b0",
+        "optimizationRecord": "history-image-optimization.json"
+      }
     },
     {
       "id": "DOC-12-file-001",
@@ -5992,6 +6710,9 @@
       "reason": "原 OLED 的引脚丝印；GPIO 连接使用下文固件表。",
       "publicPath": "/images/zh/doc-13-image-002.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-13-image-002.webp",
         "sha256": "6bc35f1ebd7248cd1be217ec08575e107267cdd660802e992f87fffac4706400",
@@ -6186,6 +6907,9 @@
       "reason": "原经典 ESP32 样机。",
       "publicPath": "/images/zh/doc-13-image-016.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-13-image-016.webp",
         "sha256": "130c6edded36f0d48cf1f20cfc698779f040457ea129a57de3faecd8f9c2c6fa",
@@ -6211,6 +6935,9 @@
       "reason": "原经典 ESP32 装配参考。",
       "publicPath": "/images/zh/doc-13-image-017.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/breadboard-esp32.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-13-image-017.webp",
         "sha256": "5ad3a71c0e6e1814fc790173c86880452d9b25fe44fc557ca852021704e33dc5",
@@ -6496,6 +7223,9 @@
       "reason": "旧版界面的麦克风权限提示；今天的浏览器和界面文字可能不同。",
       "publicPath": "/images/zh/doc-14-image-004.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/console/voice-cloning.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-14-image-004.webp",
         "sha256": "58b009d77c684e28cfc289d42f65674a3cdb1da12f9799e20003ab2609ed748a",
@@ -6599,6 +7329,9 @@
       "reason": "旧版音频裁剪波形示例，仅说明选取清晰有效语音的方式。",
       "publicPath": "/images/zh/doc-14-image-011.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/console/voice-cloning.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-14-image-011.webp",
         "sha256": "ca66788c3ef3862dc0ac25b0aac343f11e739e654f46ff7bee510b5316d4f1e8",
@@ -6897,6 +7630,9 @@
       "reason": "原知识库上传入口示意；当前解析状态和支持类型以控制台为准。",
       "publicPath": "/images/zh/doc-17-image-004.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/console/knowledge-base.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-17-image-004.webp",
         "sha256": "4a8c5ed27b6e9175c699eb051f41602d9b885e9f071322c0187fd0b85f017192",
@@ -8525,6 +9261,9 @@
       "reason": "Windows 设备管理器中查找串口的原示例；COM 编号因电脑而异。",
       "publicPath": "/images/zh/doc-23-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/faq/serial-logs.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-23-image-001.webp",
         "sha256": "abb2189eff3b57027ff1ada708974863c20d5cb01a765a0f8186ae7fc73e5534",
@@ -9174,6 +9913,9 @@
       "reason": "原工具市场架构示意，用于理解设备、桥接和工具服务的关系。",
       "publicPath": "/images/zh/doc-27-image-006.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/mcp-tools.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-27-image-006.webp",
         "sha256": "e4ab6bc1637f031d838fa46634852fc51e99b5f69dd4621e1b8a75cfbb555408",
@@ -9667,6 +10409,9 @@
       "reason": "原 Xmini-C3 板外观。",
       "publicPath": "/images/zh/doc-29-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/boards/xmini-c3.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-29-image-001.webp",
         "sha256": "dd3d3a38517efea7b1ced0e1f1b9f944f1ea81bb5dd2c9f6a398054993e6db8c",
@@ -9913,6 +10658,9 @@
       "reason": "原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。",
       "publicPath": "/images/zh/doc-29-image-019.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/boards/xmini-c3.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-29-image-019.webp",
         "sha256": "68c9198e4e246926a06ee7910859fef7a0455b908f4f718a03e879951af0981e",
@@ -10484,6 +11232,9 @@
       "reason": "插件版原型与外观。",
       "publicPath": "/images/zh/doc-30-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/sf32lb52-plugin.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-30-image-001.webp",
         "sha256": "1b56b01aedc2dd3419cf59df272b670b53fe2ee90a1382b1c6d0b4963c2cbc6c",
@@ -10666,6 +11417,9 @@
       "reason": "原设计尺寸示意；生产尺寸以工程文件为准。",
       "publicPath": "/images/zh/doc-30-image-006.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/sf32lb52-plugin.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-30-image-006.webp",
         "sha256": "23de4fbac500e6f305fd6186c179d0d261235f59215b113d6e1ad9381a7db268",
@@ -10772,6 +11526,9 @@
       "reason": "原 V1.3 电路图，保留用于理解设计；PA34 修订需另行复核。",
       "publicPath": "/images/zh/doc-30-image-012.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/sf32lb52-plugin.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-30-image-012.webp",
         "sha256": "84cc6c45f6c35796b0a2d43ed4021605e40265ef290ba41ce7f045fdf0a69307",
@@ -10849,6 +11606,9 @@
       "reason": "原音频功放电路。",
       "publicPath": "/images/zh/doc-30-image-017.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/sf32lb52-plugin.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-30-image-017.webp",
         "sha256": "ae62fc7a8ddfd45874fc408e488741a09ffee26f2aea93e3a00291dee20127b8",
@@ -10900,6 +11660,9 @@
       "reason": "原麦克风电路。",
       "publicPath": "/images/zh/doc-30-image-020.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/sf32lb52-plugin.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-30-image-020.webp",
         "sha256": "416efdc48a8e623b898d595a1eb5c3b809c39b092973e555de9575e5793b09b1",
@@ -10977,6 +11740,9 @@
       "reason": "原串口连接示意。",
       "publicPath": "/images/zh/doc-30-image-025.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/sf32lb52-plugin.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-30-image-025.webp",
         "sha256": "be0197d2be12846b7fbc58a687f48e29e24a3d093a341566992f8e88f4699a58",
@@ -11576,6 +12342,9 @@
       "reason": "原外壳三维设计。",
       "publicPath": "/images/zh/doc-30-image-069.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/sf32lb52-plugin.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-30-image-069.webp",
         "sha256": "dfaa291f61a12c67a228c0f510ad742b51b0af721db7811826a5e9bf66a461e1",
@@ -11877,6 +12646,9 @@
       "reason": "面板与 PCB 配合示意。",
       "publicPath": "/images/zh/doc-30-image-090.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/sf32lb52-plugin.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-30-image-090.webp",
         "sha256": "23047b36f58930355e8a22021efe0a82f067b041268f4abb6ec1205e215fe9ca",
@@ -12199,6 +12971,9 @@
       "reason": "面板尺寸示意；实际加工使用工程文件。",
       "publicPath": "/images/zh/doc-30-image-103.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/sf32lb52-plugin.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-30-image-103.webp",
         "sha256": "24b29b9c711940327a7a432ec7c075b258d445ca40969f66a2927ecf625fad50",
@@ -12372,6 +13147,9 @@
       "reason": "原版固件启动画面。",
       "publicPath": "/images/zh/doc-30-image-113.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/sf32lb52-plugin.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-30-image-113.webp",
         "sha256": "da9800e47e270d28f8a18c12fbb1f622b33f2c64c33943b19f15b0873e1c3e22",
@@ -12526,7 +13304,10 @@
       "decision": "retained-local-image",
       "reason": "原版 PAN 未连接状态。",
       "publicPath": "/images/zh/doc-30-image-124.jpg",
-      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size"
+      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/sf32lb52-plugin.md"
+      ]
     },
     {
       "id": "DOC-30-image-125",
@@ -12540,7 +13321,10 @@
       "decision": "retained-local-image",
       "reason": "原版设备状态画面。",
       "publicPath": "/images/zh/doc-30-image-125.jpg",
-      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size"
+      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/sf32lb52-plugin.md"
+      ]
     },
     {
       "id": "DOC-30-image-126",
@@ -12567,7 +13351,10 @@
       "decision": "retained-local-image",
       "reason": "原版休眠画面；行为以所用固件为准。",
       "publicPath": "/images/zh/doc-30-image-127.jpg",
-      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size"
+      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/sf32lb52-plugin.md"
+      ]
     },
     {
       "id": "DOC-30-image-128",
@@ -12621,6 +13408,9 @@
       "reason": "原文提出的 PA34 分压修正草图，不代表已经完成电平裕量和整机测试。",
       "publicPath": "/images/zh/doc-30-image-131.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/sf32lb52-plugin.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-30-image-131.webp",
         "sha256": "7d18e233c01de574b29cdfc28927002bcf4c4ffab0950df8cbaa6616804448ab",
@@ -12672,6 +13462,9 @@
       "reason": "Xmini-C3 原板外观；同系列不同修订须分别核对。",
       "publicPath": "/images/zh/doc-31-image-003.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/supported-boards.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-31-image-003.webp",
         "sha256": "aaf2397bd4c9762189965f89de6c3e5cfb14b842c91e45a5a24e7e9262872844",
@@ -12697,6 +13490,9 @@
       "reason": "ESP32-BOX-3 原图，用于识别板型。",
       "publicPath": "/images/zh/doc-31-image-004.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/supported-boards.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-31-image-004.webp",
         "sha256": "a1da9cafc21e9811b06238b5c2be5e46533d14166997c908af297889c2d26243",
@@ -12813,6 +13609,9 @@
       "reason": "M5Stack CoreS3 原图；支持范围以固件目录为准。",
       "publicPath": "/images/zh/doc-31-image-012.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/supported-boards.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-31-image-012.webp",
         "sha256": "77c4dac41ce861660e6b3bc18e05e3e8b42d45b8bb70e95aab1db470e36382f2",
@@ -12941,7 +13740,10 @@
       "decision": "retained-local-image",
       "reason": "ASR CORE 模块外观。",
       "publicPath": "/images/zh/doc-32-image-006.jpg",
-      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size"
+      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/external-wake-module.md"
+      ]
     },
     {
       "id": "DOC-32-image-007",
@@ -12955,7 +13757,10 @@
       "decision": "retained-local-image",
       "reason": "原 ASR-LINK 下载器，用于辨认接口。",
       "publicPath": "/images/zh/doc-32-image-007.jpg",
-      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size"
+      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/external-wake-module.md"
+      ]
     },
     {
       "id": "DOC-32-image-008",
@@ -12970,6 +13775,9 @@
       "reason": "原模块配套麦克风。",
       "publicPath": "/images/zh/doc-32-image-008.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/hardware/external-wake-module.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-32-image-008.webp",
         "sha256": "27b869e6155e493140caff934eb2be5566caf28fc45cbd4eb3ee27b27abe034f",
@@ -15135,6 +15943,9 @@
       "reason": "原太空人故事机与改造目标。",
       "publicPath": "/images/zh/doc-44-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/astronaut-storyteller.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-44-image-001.webp",
         "sha256": "dee114aaff3ba61ba0f43d6df3eea6a67f844c0d478c319de3e3a0c0a6b53da3",
@@ -15172,7 +15983,10 @@
       "decision": "retained-local-image",
       "reason": "原样机 PCB 拆解照片，仅适用该板修订。",
       "publicPath": "/images/zh/doc-44-image-003.jpg",
-      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size"
+      "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/astronaut-storyteller.md"
+      ]
     },
     {
       "id": "DOC-44-image-004",
@@ -15187,6 +16001,9 @@
       "reason": "原板另一视角；拆除器件前必须确认电路。",
       "publicPath": "/images/zh/doc-44-image-004.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/astronaut-storyteller.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-44-image-004.webp",
         "sha256": "edd786203d4f9bb143ed77c9cb3e4cbb58c27bec4a90f0dd03530b794d2bf7a5",
@@ -15212,6 +16029,9 @@
       "reason": "原 INMP441 麦克风模块。",
       "publicPath": "/images/zh/doc-44-image-005.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/astronaut-storyteller.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-44-image-005.webp",
         "sha256": "bf4dda6941c4c7c0eb13eabd573430dfc3a6227804f7a24b869d3c99091e7a05",
@@ -15237,6 +16057,9 @@
       "reason": "原 MAX98357A 功放模块。",
       "publicPath": "/images/zh/doc-44-image-006.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/astronaut-storyteller.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-44-image-006.webp",
         "sha256": "38bd0efc223e7f336169e87e7b48c5b7d411d9372d9e1e0ead8e25b67a18f913",
@@ -15262,6 +16085,9 @@
       "reason": "原功放模块接线参考。",
       "publicPath": "/images/zh/doc-44-image-007.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/astronaut-storyteller.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-44-image-007.webp",
         "sha256": "5d49b0efa265795fa781b26746cffc414d0b0d2f2e77d171d449822008d511bc",
@@ -15287,6 +16113,9 @@
       "reason": "原语音模块组装。",
       "publicPath": "/images/zh/doc-44-image-008.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/astronaut-storyteller.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-44-image-008.webp",
         "sha256": "4e767b324301effad9fdabef44f28e0f456e204da95ca5fcd22ea2894c071d92",
@@ -15312,6 +16141,9 @@
       "reason": "原语音部分的另一视角。",
       "publicPath": "/images/zh/doc-44-image-009.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/astronaut-storyteller.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-44-image-009.webp",
         "sha256": "6d2f92d08e464a0bf0e281748fc5d5975640e3258334ce1cec6a4018d8e90d52",
@@ -15402,6 +16234,9 @@
       "reason": "原改造样机完成状态。",
       "publicPath": "/images/zh/doc-44-image-015.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/astronaut-storyteller.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-44-image-015.webp",
         "sha256": "91735bf3acafef8388c8e81455309e41a4740e66f3aa0f2d60b9eae662bbce46",
@@ -15427,6 +16262,9 @@
       "reason": "原作者的装壳效果。",
       "publicPath": "/images/zh/doc-44-image-016.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
+      "usedIn": [
+        "docs/zh/community/projects/astronaut-storyteller.md"
+      ],
       "publishedAsset": {
         "path": "/images/zh/doc-44-image-016.webp",
         "sha256": "1aebffbd41606e6de6d08eee6b944ff6045b3ac7912251b8d2dd1b1956cb2498",

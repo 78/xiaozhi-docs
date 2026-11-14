@@ -21,26 +21,12 @@ sourceArticles: ["DOC-10"]
 | 需要屏幕或拍照 | 选有匹配[彩屏](./displays/st7789)/[摄像头](./breadboard-camera)方案的硬件 |
 | 定制成品 | 结合[设计要点](./design-guidelines)与独立板型维护 |
 
-<figure class="source-figure">
+## 选好一套，再进入对应教程 {#kits}
 
-[![原 S3 开发板外观示例。](/images/zh/doc-10-image-002.webp)](/images/zh/doc-10-image-002.webp)
-
-<figcaption>原 S3 开发板外观示例。 来源：DOC-10 原图 2。</figcaption>
-</figure>
-
-<figure class="source-figure">
-
-[![原麦克风模块示例。](/images/zh/doc-05-image-004.webp)](/images/zh/doc-05-image-004.webp)
-
-<figcaption>原麦克风模块示例。 来源：DOC-10 原图 4。</figcaption>
-</figure>
-
-<figure class="source-figure">
-
-[![原功放模块示例；型号和电气参数需要单独核对。](/images/zh/doc-05-image-007.webp)](/images/zh/doc-05-image-007.webp)
-
-<figcaption>原功放模块示例；型号和电气参数需要单独核对。 来源：DOC-10 原图 5。</figcaption>
-</figure>
+- **成品设备**：先在[支持的板型](./supported-boards)核对具体型号与固件，已有成品无需另外购买一套面包板模块。
+- **基础面包板**：从[完整材料照片与清单](./breadboard-esp32-s3#materials)开始，那里有主控、麦克风、功放、喇叭、导线、面包板和屏幕的识别图。
+- **小型 C3 / 已有经典 ESP32**：分别进入[C3](./breadboard-esp32-c3)和[经典 ESP32](./breadboard-esp32)，按各自的模块、接线图与固件搭建。
+- **移动联网**：先读[4G 方案的模块、电源与接线图](./breadboard-4g)；只是临时外出时，也可先判断 Wi-Fi 手机热点是否满足自己的用途。
 
 ## 买之前逐项核对 {#checklist}
 
@@ -60,8 +46,4 @@ MAX98357A 与 B 不能笼统说“都通用”：数字输入格式不同。扬�
 
 ## 渠道与资料 {#sources}
 
-原采购图用于识别器件，不保留时效价格、库存和对所有商家的质量断言。维护者更换渠道时也应维持同一套电气规格，不能只替换购物链接。支持情况见[板型与变体](./supported-boards)。
-
----
-
-资料来源：[DOC-10 · 小智AI ESP32S3开发板+面包板DIY模块购买说明](https://my.feishu.cn/docx/HkxhdV5E9ovMIfxBOJbcXfVOnPg)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。
+器件识别图和具体购买规格随对应搭建教程维护，不在本页把几个模块单独罗列成一套方案。原采购资料中的时效价格、库存和商家质量断言不作为当前承诺。维护者更换渠道时也应维持同一套电气规格，不能只替换购物链接。支持情况见[板型与变体](./supported-boards)。

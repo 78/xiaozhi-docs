@@ -39,7 +39,3 @@ ffmpeg -i input.wav -c:a libopus -b:a 16k -ac 1 -ar 16000 -frame_duration 60 out
 ## 怎么确认完成 {#verify}
 
 从干净构建生成固件，目标 locale 的实际事件能播放正确提示音；其他 locale、唤醒和对话声音没有被误改。保存原始音频、转换命令和构建版本，不能只留一个生成后的二进制。
-
----
-
-资料来源：[DOC-42 · 小智修改默认提示音频，转换自己的P3音频文件（例如开机播报和配网播报）](https://icnynnzcwou8.feishu.cn/docx/E2o4dGZPkoJgA2x2iEocjQtnnqJ)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。

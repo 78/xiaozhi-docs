@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1133" viewBox="0 0 960 1133" role="img" aria-labelledby="title desc">
+<title id="title">基础 ESP32-S3 · 当前完整连线</title><desc id="desc">bread-compact-wifi / v2.6.0 · 分离输入/输出 I2S（Simplex）。信号、供电与接地用逐根导线表示；不是开发板排针位置图。</desc>
+<style>text{font-family:system-ui,"PingFang SC","Microsoft YaHei",sans-serif;fill:#183738}.head{font-size:26px;font-weight:700}.sub{font-size:16px;fill:#4b6266}.group{font-size:20px;font-weight:650}.port{font-size:17px}.small{font-size:14px;fill:#586b6e}</style>
+<rect width="960" height="1133" rx="16" fill="#f5f9f8"/>
+<text x="28" y="43" class="head">基础 ESP32-S3 · 当前完整连线</text>
+<text x="28" y="74" class="sub">bread-compact-wifi / v2.6.0 · 分离输入/输出 I2S（Simplex）</text>
+<text x="28" y="103" class="small">按 GPIO 与模块丝印连接；红色=电源，深灰=GND，紫色=时钟，青色=数据/控制。点击可看原尺寸。</text>
+<rect x="18" y="130" width="924" height="256" rx="12" fill="#fff" stroke="#cbded9"/>
+<text x="36" y="160" class="group">麦克风 · INMP441</text>
+<text x="42" y="186" class="small">ESP32 主控</text>
+<text x="650" y="186" class="small">INMP441</text>
+<text x="42" y="218" class="port">GPIO4</text>
+<path d="M 390 213 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="213" r="4" fill="#7656b5"/><circle cx="620" cy="213" r="4" fill="#7656b5"/>
+<text x="650" y="218" class="port">WS</text>
+<text x="42" y="249" class="port">GPIO5</text>
+<path d="M 390 244 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="244" r="4" fill="#7656b5"/><circle cx="620" cy="244" r="4" fill="#7656b5"/>
+<text x="650" y="249" class="port">SCK</text>
+<text x="42" y="280" class="port">GPIO6</text>
+<path d="M 390 275 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="275" r="4" fill="#128b84"/><circle cx="620" cy="275" r="4" fill="#128b84"/>
+<text x="650" y="280" class="port">SD → 主控</text>
+<text x="42" y="311" class="port">3V3</text>
+<path d="M 390 306 H 620" fill="none" stroke="#c93e32" stroke-width="3"/>
+<circle cx="390" cy="306" r="4" fill="#c93e32"/><circle cx="620" cy="306" r="4" fill="#c93e32"/>
+<text x="650" y="311" class="port">VDD</text>
+<text x="42" y="342" class="port">GND</text>
+<path d="M 390 337 H 620" fill="none" stroke="#53626a" stroke-width="3"/>
+<circle cx="390" cy="337" r="4" fill="#53626a"/><circle cx="620" cy="337" r="4" fill="#53626a"/>
+<text x="650" y="342" class="port">GND</text>
+<text x="42" y="373" class="port">GND</text>
+<path d="M 390 368 H 620" fill="none" stroke="#53626a" stroke-width="3"/>
+<circle cx="390" cy="368" r="4" fill="#53626a"/><circle cx="620" cy="368" r="4" fill="#53626a"/>
+<text x="650" y="373" class="port">L/R（左声道）</text>
+<rect x="18" y="402" width="924" height="225" rx="12" fill="#fff" stroke="#cbded9"/>
+<text x="36" y="432" class="group">功放 · MAX98357A</text>
+<text x="42" y="458" class="small">ESP32 / USB 电源节点</text>
+<text x="650" y="458" class="small">MAX98357A 模块</text>
+<text x="42" y="490" class="port">GPIO7</text>
+<path d="M 390 485 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="485" r="4" fill="#128b84"/><circle cx="620" cy="485" r="4" fill="#128b84"/>
+<text x="650" y="490" class="port">DIN</text>
+<text x="42" y="521" class="port">GPIO15</text>
+<path d="M 390 516 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="516" r="4" fill="#7656b5"/><circle cx="620" cy="516" r="4" fill="#7656b5"/>
+<text x="650" y="521" class="port">BCLK</text>
+<text x="42" y="552" class="port">GPIO16</text>
+<path d="M 390 547 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="547" r="4" fill="#7656b5"/><circle cx="620" cy="547" r="4" fill="#7656b5"/>
+<text x="650" y="552" class="port">LRC</text>
+<text x="42" y="583" class="port">板上 5V（仅已核对的 USB 电源）</text>
+<path d="M 390 578 H 620" fill="none" stroke="#c93e32" stroke-width="3"/>
+<circle cx="390" cy="578" r="4" fill="#c93e32"/><circle cx="620" cy="578" r="4" fill="#c93e32"/>
+<text x="650" y="583" class="port">VIN / VDD</text>
+<text x="42" y="614" class="port">GND</text>
+<path d="M 390 609 H 620" fill="none" stroke="#53626a" stroke-width="3"/>
+<circle cx="390" cy="609" r="4" fill="#53626a"/><circle cx="620" cy="609" r="4" fill="#53626a"/>
+<text x="650" y="614" class="port">GND</text>
+<rect x="18" y="643" width="924" height="132" rx="12" fill="#fff" stroke="#cbded9"/>
+<text x="36" y="673" class="group">扬声器 · 两根线都接功放输出</text>
+<text x="42" y="699" class="small">MAX98357A</text>
+<text x="650" y="699" class="small">无源扬声器</text>
+<text x="42" y="731" class="port">SPK+ / OUTP</text>
+<path d="M 390 726 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="726" r="4" fill="#128b84"/><circle cx="620" cy="726" r="4" fill="#128b84"/>
+<text x="650" y="731" class="port">扬声器 +</text>
+<text x="42" y="762" class="port">SPK− / OUTN</text>
+<path d="M 390 757 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="757" r="4" fill="#128b84"/><circle cx="620" cy="757" r="4" fill="#128b84"/>
+<text x="650" y="762" class="port">扬声器 −</text>
+<rect x="18" y="791" width="924" height="194" rx="12" fill="#fff" stroke="#cbded9"/>
+<text x="36" y="821" class="group">OLED · SSD1306 I2C</text>
+<text x="42" y="847" class="small">ESP32 主控</text>
+<text x="650" y="847" class="small">OLED</text>
+<text x="42" y="879" class="port">GPIO41</text>
+<path d="M 390 874 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="874" r="4" fill="#128b84"/><circle cx="620" cy="874" r="4" fill="#128b84"/>
+<text x="650" y="879" class="port">SDA</text>
+<text x="42" y="910" class="port">GPIO42</text>
+<path d="M 390 905 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="905" r="4" fill="#7656b5"/><circle cx="620" cy="905" r="4" fill="#7656b5"/>
+<text x="650" y="910" class="port">SCL / SCK</text>
+<text x="42" y="941" class="port">3V3</text>
+<path d="M 390 936 H 620" fill="none" stroke="#c93e32" stroke-width="3"/>
+<circle cx="390" cy="936" r="4" fill="#c93e32"/><circle cx="620" cy="936" r="4" fill="#c93e32"/>
+<text x="650" y="941" class="port">VCC</text>
+<text x="42" y="972" class="port">GND</text>
+<path d="M 390 967 H 620" fill="none" stroke="#53626a" stroke-width="3"/>
+<circle cx="390" cy="967" r="4" fill="#53626a"/><circle cx="620" cy="967" r="4" fill="#53626a"/>
+<text x="650" y="972" class="port">GND</text>
+<text x="28" y="1018" class="small">5V 支路仅用于正文限定的 DevKitC-1 USB 单独供电；其他板卡先核对电源电路。</text>
+<text x="28" y="1052" class="small">功放 SD/MODE、GAIN 使用所选模块厂商工作设置，不能把另一块板的短接线照搬过来。</text>
+<text x="28" y="1086" class="small">本图与 44/42 针的位置图配合使用；针脚位置变了，GPIO 名称与模块信号对应关系不变。</text>
+</svg>

@@ -1,0 +1,422 @@
+{
+  "/images/shared/audio-output-paths.svg": {
+    "width": 900,
+    "height": 392
+  },
+  "/images/shared/breadboard-s3-signals.svg": {
+    "width": 900,
+    "height": 392
+  },
+  "/images/zh/doc-05-image-039.jpg": {
+    "width": 1280,
+    "height": 960
+  },
+  "/images/zh/doc-05-image-038.jpg": {
+    "width": 1280,
+    "height": 960
+  },
+  "/images/zh/doc-06-image-003.jpg": {
+    "width": 1388,
+    "height": 858
+  },
+  "/images/zh/doc-12-image-012.jpg": {
+    "width": 1280,
+    "height": 1707
+  },
+  "/images/zh/breadboard-4g-signals-v2.6.0.svg": {
+    "width": 960,
+    "height": 682
+  },
+  "/images/zh/doc-05-image-013.jpg": {
+    "width": 1280,
+    "height": 960
+  },
+  "/images/zh/doc-30-image-127.jpg": {
+    "width": 1920,
+    "height": 2560
+  },
+  "/images/zh/doc-05-image-028.jpg": {
+    "width": 1370,
+    "height": 870
+  },
+  "/images/zh/doc-30-image-125.jpg": {
+    "width": 1920,
+    "height": 2560
+  },
+  "/images/zh/breadboard-camera-signals-v2.6.0.svg": {
+    "width": 960,
+    "height": 1326
+  },
+  "/images/zh/doc-06-image-005.jpg": {
+    "width": 1739,
+    "height": 1131
+  },
+  "/images/zh/doc-30-image-124.jpg": {
+    "width": 1920,
+    "height": 2560
+  },
+  "/images/zh/breadboard-s3-wiring-v2.6.0.svg": {
+    "width": 960,
+    "height": 1133
+  },
+  "/images/zh/doc-32-image-006.jpg": {
+    "width": 898,
+    "height": 732
+  },
+  "/images/zh/doc-32-image-007.jpg": {
+    "width": 1068,
+    "height": 936
+  },
+  "/images/zh/breadboard-esp32-wiring-v2.6.0.svg": {
+    "width": 960,
+    "height": 1133
+  },
+  "/images/zh/doc-44-image-003.jpg": {
+    "width": 1280,
+    "height": 1707
+  },
+  "/images/zh/doc-05-image-027.jpg": {
+    "width": 1327,
+    "height": 1095
+  },
+  "/images/zh/breadboard-c3-signals-v2.6.0.svg": {
+    "width": 960,
+    "height": 744
+  },
+  "/images/zh/doc-05-image-026.jpg": {
+    "width": 1552,
+    "height": 1145
+  },
+  "/images/zh/doc-05-image-022.jpg": {
+    "width": 1387,
+    "height": 1092
+  },
+  "/images/zh/doc-05-image-036.jpg": {
+    "width": 1280,
+    "height": 960
+  },
+  "/images/zh/doc-05-image-037.jpg": {
+    "width": 1280,
+    "height": 960
+  },
+  "/images/zh/doc-05-image-035.jpg": {
+    "width": 1280,
+    "height": 960
+  },
+  "/images/zh/doc-05-image-021.jpg": {
+    "width": 1549,
+    "height": 1146
+  },
+  "/images/zh/breadboard-s3-oled-v2.6.0.svg": {
+    "width": 960,
+    "height": 438
+  },
+  "/images/zh/doc-05-image-001.webp": {
+    "width": 340,
+    "height": 490
+  },
+  "/images/zh/doc-05-image-002.webp": {
+    "width": 755,
+    "height": 689
+  },
+  "/images/zh/doc-05-image-003.webp": {
+    "width": 718,
+    "height": 1600
+  },
+  "/images/zh/doc-05-image-004.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "/images/zh/doc-05-image-005.webp": {
+    "width": 545,
+    "height": 449
+  },
+  "/images/zh/doc-05-image-006.webp": {
+    "width": 649,
+    "height": 569
+  },
+  "/images/zh/doc-05-image-007.webp": {
+    "width": 400,
+    "height": 400
+  },
+  "/images/zh/doc-05-image-008.webp": {
+    "width": 380,
+    "height": 263
+  },
+  "/images/zh/doc-05-image-009.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "/images/zh/doc-05-image-010.webp": {
+    "width": 543,
+    "height": 464
+  },
+  "/images/zh/doc-05-image-011.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "/images/zh/doc-05-image-012.webp": {
+    "width": 1240,
+    "height": 732
+  },
+  "/images/zh/doc-05-image-014.webp": {
+    "width": 602,
+    "height": 1072
+  },
+  "/images/zh/doc-05-image-015.webp": {
+    "width": 751,
+    "height": 516
+  },
+  "/images/zh/doc-05-image-016.webp": {
+    "width": 499,
+    "height": 525
+  },
+  "/images/zh/doc-05-image-017.webp": {
+    "width": 1581,
+    "height": 1112
+  },
+  "/images/zh/doc-05-image-018.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "/images/zh/doc-05-image-019.webp": {
+    "width": 1125,
+    "height": 835
+  },
+  "/images/zh/doc-05-image-020.webp": {
+    "width": 244,
+    "height": 179
+  },
+  "/images/zh/doc-05-image-023.jpg": {
+    "width": 1280,
+    "height": 960
+  },
+  "/images/zh/doc-05-image-024.jpg": {
+    "width": 640,
+    "height": 480
+  },
+  "/images/zh/doc-05-image-025.webp": {
+    "width": 640,
+    "height": 696
+  },
+  "/images/zh/doc-05-image-029.webp": {
+    "width": 1016,
+    "height": 2200
+  },
+  "/images/zh/doc-05-image-030.webp": {
+    "width": 1016,
+    "height": 2200
+  },
+  "/images/zh/doc-05-image-031.webp": {
+    "width": 1675,
+    "height": 1139
+  },
+  "/images/zh/doc-05-image-032.webp": {
+    "width": 920,
+    "height": 820
+  },
+  "/images/zh/doc-05-image-033.webp": {
+    "width": 1614,
+    "height": 1134
+  },
+  "/images/zh/doc-05-image-034.webp": {
+    "width": 1800,
+    "height": 1581
+  },
+  "/images/zh/doc-06-image-001.webp": {
+    "width": 439,
+    "height": 350
+  },
+  "/images/zh/doc-06-image-002.webp": {
+    "width": 403,
+    "height": 344
+  },
+  "/images/zh/doc-06-image-004.webp": {
+    "width": 1716,
+    "height": 1262
+  },
+  "/images/zh/doc-07-image-001.webp": {
+    "width": 815,
+    "height": 1045
+  },
+  "/images/zh/doc-07-image-004.webp": {
+    "width": 2200,
+    "height": 1650
+  },
+  "/images/zh/doc-07-image-005.webp": {
+    "width": 2200,
+    "height": 1650
+  },
+  "/images/zh/doc-11-image-001.webp": {
+    "width": 549,
+    "height": 319
+  },
+  "/images/zh/doc-12-image-001.webp": {
+    "width": 1545,
+    "height": 1150
+  },
+  "/images/zh/doc-12-image-002.webp": {
+    "width": 865,
+    "height": 641
+  },
+  "/images/zh/doc-12-image-003.webp": {
+    "width": 727,
+    "height": 692
+  },
+  "/images/zh/doc-12-image-009.webp": {
+    "width": 421,
+    "height": 457
+  },
+  "/images/zh/doc-12-image-011.webp": {
+    "width": 1440,
+    "height": 1214
+  },
+  "/images/zh/doc-12-image-013.webp": {
+    "width": 980,
+    "height": 1115
+  },
+  "/images/zh/doc-12-image-014.webp": {
+    "width": 730,
+    "height": 824
+  },
+  "/images/zh/doc-12-image-015.webp": {
+    "width": 502,
+    "height": 456
+  },
+  "/images/zh/doc-13-image-002.webp": {
+    "width": 941,
+    "height": 788
+  },
+  "/images/zh/doc-13-image-016.webp": {
+    "width": 2200,
+    "height": 1821
+  },
+  "/images/zh/doc-13-image-017.webp": {
+    "width": 2200,
+    "height": 1617
+  },
+  "/images/zh/doc-14-image-004.webp": {
+    "width": 409,
+    "height": 257
+  },
+  "/images/zh/doc-14-image-011.webp": {
+    "width": 1330,
+    "height": 991
+  },
+  "/images/zh/doc-17-image-004.webp": {
+    "width": 1292,
+    "height": 762
+  },
+  "/images/zh/doc-23-image-001.webp": {
+    "width": 711,
+    "height": 322
+  },
+  "/images/zh/doc-27-image-006.webp": {
+    "width": 3840,
+    "height": 1916
+  },
+  "/images/zh/doc-29-image-001.webp": {
+    "width": 480,
+    "height": 333
+  },
+  "/images/zh/doc-29-image-019.webp": {
+    "width": 802,
+    "height": 764
+  },
+  "/images/zh/doc-30-image-001.webp": {
+    "width": 1600,
+    "height": 1213
+  },
+  "/images/zh/doc-30-image-006.webp": {
+    "width": 1600,
+    "height": 1105
+  },
+  "/images/zh/doc-30-image-012.webp": {
+    "width": 1298,
+    "height": 917
+  },
+  "/images/zh/doc-30-image-017.webp": {
+    "width": 1301,
+    "height": 391
+  },
+  "/images/zh/doc-30-image-020.webp": {
+    "width": 601,
+    "height": 402
+  },
+  "/images/zh/doc-30-image-025.webp": {
+    "width": 581,
+    "height": 362
+  },
+  "/images/zh/doc-30-image-069.webp": {
+    "width": 1918,
+    "height": 854
+  },
+  "/images/zh/doc-30-image-090.webp": {
+    "width": 891,
+    "height": 575
+  },
+  "/images/zh/doc-30-image-103.webp": {
+    "width": 726,
+    "height": 583
+  },
+  "/images/zh/doc-30-image-113.webp": {
+    "width": 1200,
+    "height": 1600
+  },
+  "/images/zh/doc-30-image-131.webp": {
+    "width": 495,
+    "height": 229
+  },
+  "/images/zh/doc-31-image-003.webp": {
+    "width": 566,
+    "height": 615
+  },
+  "/images/zh/doc-31-image-004.webp": {
+    "width": 298,
+    "height": 315
+  },
+  "/images/zh/doc-31-image-012.webp": {
+    "width": 648,
+    "height": 603
+  },
+  "/images/zh/doc-32-image-008.webp": {
+    "width": 1079,
+    "height": 1078
+  },
+  "/images/zh/doc-44-image-001.webp": {
+    "width": 325,
+    "height": 296
+  },
+  "/images/zh/doc-44-image-004.webp": {
+    "width": 756,
+    "height": 755
+  },
+  "/images/zh/doc-44-image-005.webp": {
+    "width": 596,
+    "height": 425
+  },
+  "/images/zh/doc-44-image-006.webp": {
+    "width": 779,
+    "height": 580
+  },
+  "/images/zh/doc-44-image-007.webp": {
+    "width": 754,
+    "height": 577
+  },
+  "/images/zh/doc-44-image-008.webp": {
+    "width": 362,
+    "height": 656
+  },
+  "/images/zh/doc-44-image-009.webp": {
+    "width": 1650,
+    "height": 2200
+  },
+  "/images/zh/doc-44-image-015.webp": {
+    "width": 1650,
+    "height": 2200
+  },
+  "/images/zh/doc-44-image-016.webp": {
+    "width": 1707,
+    "height": 1280
+  }
+}

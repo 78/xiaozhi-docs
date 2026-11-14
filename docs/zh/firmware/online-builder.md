@@ -82,7 +82,7 @@ reviewNote: "选项、任务及分区烧录行为已对照 Console 实现；尚�
 
 新设备继续[配网与绑定](../getting-started/wifi-and-binding)；需要修改源码则转到[本地构建](../development/build-firmware)。
 
-## 原操作录像 {#historical-video}
+## 操作演示视频 {#historical-video}
 
 保留旧版在线编译界面演示；选择板型、版本和构建参数仍按本页当前步骤。
 

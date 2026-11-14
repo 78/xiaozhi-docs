@@ -74,12 +74,6 @@ python mcp_pipe.py
 HyperChat、McpPipe 等工具可以管理网关和连接，具体安装与版本由作者维护。旧安装图、浏览器扩展和设备唤醒/重启补丁不再混入本篇公共流程；选型见[社区 MCP 工具](../community/mcp-tools)。
 
 
-
-
 ## 下一步 {#next}
 
 搜索用例见[联网搜索](./examples/web-search)，固件内控制设备走[设备端 GPIO 工具](../development/mcp-gpio)。桥接行为以[本篇采用的上游版本](https://github.com/78/mcp-calculator/tree/c537f71d61fd73b47d6c8955b5df6d3721acf4e4)为准。
-
----
-
-资料来源：[DOC-28 · 简单赋予小智 MCP 能力（第三方工具接入与玩法示例）](https://lcn17bfbw6fr.feishu.cn/docx/N5R9dk6AuoXz5YxmNUWccmEfnJf)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。
