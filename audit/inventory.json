@@ -115,7 +115,7 @@
       }
     ],
     "allMediaAndAttachmentsVerified": false,
-    "hardwareTested": false,
+    "hardwareTested": true,
     "thirdPartyServicesExecuted": false,
     "chineseSourceArticlesImplemented": 44,
     "communityConfirmed": 0,
@@ -130,7 +130,9 @@
     "readerReviewedChinesePages": 55,
     "externallyMaintainedSourceArticles": [
       "DOC-30"
-    ]
+    ],
+    "allHardwareTested": false,
+    "hardwareValidationRecord": "online-flashing-hardware-2026-11-14.json"
   },
   "limitations": [
     "范围是总目录直接链接的 44 篇。没有递归审阅所有外链、子文档或第三方项目全文。",
@@ -413,7 +415,7 @@
         "outputHashes": {
           "docs/zh/firmware/downloads.md": "8e5595422248cf8ca9b1d8b29423aa176f92bfcddd342b288a896f98ae9473fb",
           "docs/zh/firmware/releases/v2.5.2.md": "918dca95a8b57fc3f07f3ed10eea7251847f4baeea6b73ad0add6e68be0f9166",
-          "docs/zh/firmware/releases/v2.6.0.md": "5649064ffa90128c33f74d7f49ec447b262f205c38d47296ecce2c3671979a76"
+          "docs/zh/firmware/releases/v2.6.0.md": "0d794a04fccb2ba2634e932bb88ce29213baf05194e7bdd84ea0510ddf28f9c8"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {},
@@ -2620,11 +2622,12 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "b57c2892618b78f36b6770e6453d97a1190acc18bc720395d13641ee9b7b1e60",
+        "contentSha256": "34e7edb5e2616959b51be666221a7f2fb86b6b2aa336b62b21c5cf5bd3d8fc60",
         "completedChanges": [
           "使用当前专用编译入口，解释逐板选项和源码版本。",
           "覆盖创建、取消、失败、下载及网页烧录，配额以页面为准。",
-          "从生产Console补入4张真实界面截图，明确连接并开始烧录按钮的行为，区分在线Commit与正式tag。"
+          "从生产Console补入4张真实界面截图，明确连接并开始烧录按钮的行为，区分在线Commit与正式tag。",
+          "嘉立创实战派S3完成真实Web Serial分区烧录，补入串口、进度与成功截图；重启日志确认2.6.0、网络重连与idle。"
         ],
         "translation": {
           "status": "waiting-for-chinese-community-review",
@@ -2640,17 +2643,18 @@
           "sourceCompared": true,
           "siteBuilt": true,
           "internalLinksChecked": true,
-          "hardwareTested": false,
-          "productionConsoleTested": false,
-          "productionConsoleUiReviewed": true
+          "hardwareTested": true,
+          "productionConsoleTested": true,
+          "productionConsoleUiReviewed": true,
+          "scope": "Existing successful Console build online flashing on one LCKFB S3 only; no new compilation job, physical display/audio inspection or full voice dialogue."
         },
-        "scopeNote": "P0 中文重写完成，补充版本历史/原素材处置；素材实际采用范围见 media-inventory.json。未将社区确认、硬件或生产检查标记为完成。",
+        "scopeNote": "单板在线写入、自动重启与网络/idle验证通过；新编译任务、其他板型、显示/音频和对话仍待验证，中文社区确认未完成。",
         "deferredWork": [],
         "outputPaths": [
           "docs/zh/firmware/online-builder.md"
         ],
         "outputHashes": {
-          "docs/zh/firmware/online-builder.md": "b57c2892618b78f36b6770e6453d97a1190acc18bc720395d13641ee9b7b1e60"
+          "docs/zh/firmware/online-builder.md": "34e7edb5e2616959b51be666221a7f2fb86b6b2aa336b62b21c5cf5bd3d8fc60"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -2678,7 +2682,8 @@
         "communityConfirmed": false
       },
       "imageOptimization": "image-optimization.json",
-      "currentConsoleReview": "firmware-console-review-2026-11-14.json"
+      "currentConsoleReview": "firmware-console-review-2026-11-14.json",
+      "onlineFlashingHardwareReview": "online-flashing-hardware-2026-11-14.json"
     },
     {
       "id": "DOC-19",

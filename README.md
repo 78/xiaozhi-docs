@@ -8,9 +8,9 @@
 
 56 个中文页面已逐篇复查阅读顺序、图文相关性和素材去向，749 个图片引用均完成接触表筛选。首推 [官方在线编译与烧录](https://xiaozhi.me/console/firmware-builder)，说明未引出 USB 下载接口的例外；控制台指南按新版实现重做，不再使用旧布局截图引导点击。中文仍待社区确认，尚未完成全部真机、电气或生产流程验证。
 
-图片发布文件共约 **22.3 MiB**，相较整理前的 95.6 MiB 减少约 **76.7%**。产品照最长边 1600px，装配照优先 2200px；接线、细字与关键标注图保留原尺寸、无损处理。逐图的源文件摘要、发布摘要、尺寸与压缩参数见 [图片优化清单](audit/image-optimization.json)。SVG 保持矢量格式。已清理历史中的大图，真实全新克隆的 Git pack 约 26 MiB；备份、历史映射和验证见 [清理记录](audit/git-history-cleanup-2026-11-14.md)。
+图片发布文件共约 **22.5 MiB**，相较整理前的 95.6 MiB 减少约 **76.5%**。产品照最长边 1600px，装配照优先 2200px；接线、细字与关键标注图保留原尺寸、无损处理。逐图的源文件摘要、发布摘要、尺寸与压缩参数见 [图片优化清单](audit/image-optimization.json)。SVG 保持矢量格式。已清理历史中的大图，真实全新克隆的 Git pack 约 26 MiB；备份、历史映射和验证见 [清理记录](audit/git-history-cleanup-2026-11-14.md)。
 
-v2.6.0 正式版本已加入导航及下载页，在线编译指南补入当前 Console 的 4 张真实界面截图（合计约 135 KiB）；硬件烧录仍待实测，英文继续等待中文确认。核验范围见 [版本与 Console 记录](audit/firmware-console-review-2026-11-14.json)。
+v2.6.0 正式版本已加入导航及下载页，在线编译指南补入当前 Console 的 7 张真实界面截图（合计约 279 KiB）。嘉立创实战派 S3 已完成真实在线烧录，启动日志确认 2.6.0、网络重连与 idle；显示/音频、对话及其他板型仍待验证，英文继续等待中文确认。核验范围见 [版本与 Console 记录](audit/firmware-console-review-2026-11-14.json)。
 
 逐篇结论见 [读者视角复查](audit/reader-review-2026-11-14.md)与[机器可读清单](audit/reader-review-2026-11-14.json)，原文取舍见[来源审计清单](audit/inventory.json)，每张图片与附件的取舍见[素材清单](audit/media-inventory.json)。讨论入口集中在右上角，中文 QQ 群和其他语言 Discord 只在 `docs/.vitepress/data/community.json` 维护，不把具体联系号写进文章。
 

@@ -4,7 +4,7 @@ title: "在线编译与网页烧录"
 description: "不用安装 ESP-IDF，为自己的板型生成固件并通过浏览器写入。"
 status: "review"
 reviewedAt: "2026-11-14"
-reviewNote: "已核对生产 Console 的配置、编译历史及烧录确认界面并截图；尚未执行本轮硬件写入与启动验证。"
+reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记录真实进度及成功界面，并从启动日志确认 2.6.0、网络重连和 idle；其他板型及实体显示、音频、对话仍待验证。"
 ---
 
 # 在线编译与网页烧录
@@ -101,6 +101,20 @@ reviewNote: "已核对生产 Console 的配置、编译历史及烧录确认界�
 
 烧录过程中不要拔线、关闭连接或让电脑休眠。界面拒绝芯片/镜像时先核对硬件，不跳过检查。
 
+### 选择正确的串口 {#serial-port}
+
+选择插入开发板后出现的 USB 串口，再点击系统弹窗中的 **连接 / Connect**。同一台电脑可能连接了多个 ESP32，也可能列出蓝牙串口；通过插拔变化或设备信息确认目标，不照抄截图中的端口编号。
+
+<figure class="source-figure">
+
+[![macOS Chrome 串口选择框，选中 USB JTAG/serial debug unit 对应的小智设备。](/images/zh/console-serial-picker-macos-2026-11-14.jpg)](/images/zh/console-serial-picker-macos-2026-11-14.jpg)
+
+<figcaption>macOS Chrome 示例：已选中目标 USB 串口，再点 Connect。弹窗语言跟随浏览器；端口名称和编号因电脑而异。</figcaption>
+</figure>
+
+<details>
+<summary>Windows 的串口选择示例</summary>
+
 <figure class="source-figure">
 
 [![浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。](/images/zh/doc-18-image-011.webp)](/images/zh/doc-18-image-011.webp)
@@ -108,10 +122,34 @@ reviewNote: "已核对生产 Console 的配置、编译历史及烧录确认界�
 <figcaption>浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。</figcaption>
 </figure>
 
+</details>
+
+### 查看分区写入进度 {#flash-progress}
+
+连接后，页面会显示当前写入的分区与总进度。等待最终完成提示，期间保持网页和 USB 连接；不要把编译历史中的“已完成”当作设备已经烧录成功。
+
+<figure class="source-figure">
+
+[![嘉立创实战派 S3 正在写入 ota_0 分区，进度为25%。](/images/zh/console-flash-progress-2026-11-14.jpg)](/images/zh/console-flash-progress-2026-11-14.jpg)
+
+<figcaption>实际分区写入中的画面。分区名和百分比会继续变化，25% 只是这张截图记录的时刻。</figcaption>
+</figure>
+
+### 等待成功并检查重启 {#flash-success}
+
+看到 **固件烧录完成，设备正在重新启动。** 才表示网页写入流程成功。等待设备重新启动；如果页面提示需要手动重启，按提示操作，再检查设备的显示、声音和联网状态。
+
+<figure class="source-figure">
+
+[![网页烧录完成，绿色对勾与设备正在重新启动的成功提示。](/images/zh/console-flash-success-2026-11-14.jpg)](/images/zh/console-flash-success-2026-11-14.jpg)
+
+<figcaption>烧录成功界面。写入成功后，仍需检查设备启动和基本功能，不只看编译任务的完成状态。</figcaption>
+</figure>
+
 ## 怎么确认完成 {#verify}
 
 ::: tip 完成标志
-任务状态成功、固件信息可追溯；烧录后设备正常启动，显示/音频符合硬件，能联网并完成一次对话。
+编译任务已完成，网页也出现烧录成功提示，固件信息可追溯；设备重启后，显示/音频符合硬件，能联网并完成一次对话。
 :::
 
 ## 常见问题 {#troubleshooting}

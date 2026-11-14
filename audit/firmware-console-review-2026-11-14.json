@@ -109,18 +109,57 @@
         "source": "https://xiaozhi.me/console/firmware-builder",
         "capturedAt": "2026-11-14",
         "visiblePixelsIdentical": true
+      },
+      {
+        "path": "/images/zh/console-serial-picker-macos-2026-11-14.jpg",
+        "sha256": "c64e03815ce685434ce29e80d783ed82d60d1b523df58630c88aadca2c3b5f66",
+        "bytes": 83680,
+        "width": 896,
+        "height": 888,
+        "format": "jpeg",
+        "source": "https://xiaozhi.me/console/firmware-builder",
+        "capturedAt": "2026-11-14",
+        "method": "Real macOS Chrome Web Serial flow; original screenshot bytes copied without re-encoding.",
+        "caption": "macOS Chrome 的真实串口选择弹窗；已选中连接的小智设备。"
+      },
+      {
+        "path": "/images/zh/console-flash-progress-2026-11-14.jpg",
+        "sha256": "5b4feb30e68ce76211fde543e7e79a080434252ba0e26406917d90427d1536f9",
+        "bytes": 52206,
+        "width": 630,
+        "height": 757,
+        "format": "jpeg",
+        "source": "https://xiaozhi.me/console/firmware-builder",
+        "capturedAt": "2026-11-14",
+        "method": "Real macOS Chrome Web Serial flow; original screenshot bytes copied without re-encoding.",
+        "caption": "实际写入 ota_0 分区，进度25%。"
+      },
+      {
+        "path": "/images/zh/console-flash-success-2026-11-14.jpg",
+        "sha256": "12c5391ed54bd6811d0296d3f8e33b7cdf32e11cc5c9cd77af5f4d513d55f931",
+        "bytes": 12302,
+        "width": 630,
+        "height": 259,
+        "format": "jpeg",
+        "source": "https://xiaozhi.me/console/firmware-builder",
+        "capturedAt": "2026-11-14",
+        "method": "Real macOS Chrome Web Serial flow; original screenshot bytes copied without re-encoding.",
+        "caption": "实际烧录成功，界面显示设备正在重新启动。"
       }
     ],
     "scope": [
       "Opened current production configuration dialog and inspected base and audio/network tabs.",
       "Inspected an existing completed lichuang-dev task and opened the flash confirmation dialog.",
-      "Captured only instructional UI; no account menu, private device inventory, tokens or serial identifiers were published."
+      "Captured only instructional UI; no account menu, private device inventory, tokens or serial identifiers were published.",
+      "Completed real Web Serial flashing of the connected LCKFB S3 using the existing successful task; recorded progress and success.",
+      "Startup serial allowlist confirms xiaozhi 2.6.0, expected board name, network reconnect and idle."
     ],
     "notExecuted": [
       "No build was submitted or quota spent.",
-      "No serial port was authorized; no device was flashed, erased or rebooted."
+      "No full-chip erase, official Release ZIP flashing, physical display/audio inspection or full voice conversation was performed."
     ],
-    "distinction": "Console version 2.6.0 points to an earlier commit than the official v2.6.0 tag; tutorials distinguish version number from reproducible source revision."
+    "distinction": "Console version 2.6.0 points to an earlier commit than the official v2.6.0 tag; tutorials distinguish version number from reproducible source revision.",
+    "hardwareVerification": "online-flashing-hardware-2026-11-14.json"
   },
   "boardNaming": {
     "consoleBoardId": "lichuang-dev",
@@ -132,17 +171,17 @@
   "validation": {
     "npmCheck": "passed",
     "builtHtmlPages": 114,
-    "internalReferences": 8238,
+    "internalReferences": 8247,
     "missingInternalReferences": 0,
-    "chineseImageOccurrences": 134,
-    "rasterFiles": 102,
-    "rasterBytes": 23406119,
+    "chineseImageOccurrences": 137,
+    "rasterFiles": 105,
+    "rasterBytes": 23554307,
     "translationStatus": "54 pending Chinese review; 2 existing stale; no existing English sourceHash updated",
     "browserReview": {
       "status": "passed",
-      "onlineBuilder": "All four new screenshots and the retained serial-selection image decode at their recorded dimensions; chapter placement and captions reviewed in the browser.",
+      "onlineBuilder": "Seven current Console screenshots and the retained Windows serial-selection example are placed in their relevant sections; three new hardware-flow figures decode at recorded dimensions. Progress and success anchors reviewed in the browser.",
       "releasePage": "Sidebar entry, five downloads and online-first instructions render; page width 1113 equals viewport width 1113.",
-      "hardware": "Not performed; UI inspection stopped before serial authorization."
+      "hardware": "Real online flash and reboot verified on one LCKFB S3; runtime 2.6.0, network reconnect and idle observed. Other hardware and physical display/audio not verified."
     }
   }
 }

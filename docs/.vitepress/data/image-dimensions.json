@@ -502,5 +502,17 @@
   "/images/zh/console-flash-confirm-2026-11-14.png": {
     "width": 631,
     "height": 731
+  },
+  "/images/zh/console-serial-picker-macos-2026-11-14.jpg": {
+    "width": 896,
+    "height": 888
+  },
+  "/images/zh/console-flash-progress-2026-11-14.jpg": {
+    "width": 630,
+    "height": 757
+  },
+  "/images/zh/console-flash-success-2026-11-14.jpg": {
+    "width": 630,
+    "height": 259
   }
 }

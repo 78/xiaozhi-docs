@@ -5,7 +5,7 @@
   "summary": {
     "pagesReviewed": 56,
     "sourceArticlesReviewed": 44,
-    "changedChinesePages": 45,
+    "changedChinesePages": 46,
     "sourceImageReferencesSurveyed": 749,
     "retainedSourceImageReferences": 106,
     "retainedUniqueImageFiles": 98,
@@ -16,7 +16,8 @@
     "historicalVideosInReleaseOnly": 10,
     "communityConfirmed": 0,
     "retainedUniqueSourceImages": 100,
-    "currentConsoleScreenshots": 4
+    "currentConsoleScreenshots": 7,
+    "hardwareOnlineFlashingBoardsVerified": 1
   },
   "basis": {
     "firmwareCommit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
@@ -839,7 +840,7 @@
       ],
       "editorialStatus": "checked",
       "changed": true,
-      "judgment": "按真实Console的创建编译→基础配置/配网→任务历史→烧录确认→系统串口授权组织；新增四张截图，说明Console版本号与正式tag Commit可能不同。",
+      "judgment": "真实配置→任务记录→烧录确认→macOS/Windows串口授权→分区写入→成功与重启，按发生顺序放图；单板硬件证据与验证边界留在审计。",
       "readingOrder": [
         "准备工作",
         "1. 打开固件编译",
@@ -854,8 +855,8 @@
         {
           "image": "/images/zh/doc-18-image-011.webp",
           "alt": "浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。",
-          "anchor": "flash",
-          "heading": "4. 下载或烧录"
+          "anchor": "serial-port",
+          "heading": "选择正确的串口"
         },
         {
           "image": "/images/zh/console-builder-basic-2026-11-14.png",
@@ -880,11 +881,29 @@
           "alt": "点击连接前核对板型、Commit与参数。",
           "anchor": "flash",
           "heading": "4. 下载或烧录"
+        },
+        {
+          "image": "/images/zh/console-serial-picker-macos-2026-11-14.jpg",
+          "alt": "macOS Chrome 的真实串口选择弹窗；已选中连接的小智设备。",
+          "anchor": "serial-port",
+          "heading": "选择正确的串口"
+        },
+        {
+          "image": "/images/zh/console-flash-progress-2026-11-14.jpg",
+          "alt": "实际写入 ota_0 分区，进度25%。",
+          "anchor": "flash-progress",
+          "heading": "查看分区写入进度"
+        },
+        {
+          "image": "/images/zh/console-flash-success-2026-11-14.jpg",
+          "alt": "实际烧录成功，界面显示设备正在重新启动。",
+          "anchor": "flash-success",
+          "heading": "等待成功并检查重启"
         }
       ],
       "attachments": [],
-      "reviewNoteInAudit": "已核对生产Console界面；本轮没有提交编译、连接串口或写入硬件。",
-      "contentSha256": "b57c2892618b78f36b6770e6453d97a1190acc18bc720395d13641ee9b7b1e60",
+      "reviewNoteInAudit": "嘉立创实战派S3真实在线烧录与启动日志通过；未提交新编译任务，未做实体显示/音频和对话验收。",
+      "contentSha256": "34e7edb5e2616959b51be666221a7f2fb86b6b2aa336b62b21c5cf5bd3d8fc60",
       "previousContentSha256": "557a28b405acaf152b7ad1b695c89441fa41a3812f4c1b17e5ccdf1bfe21ed71",
       "communityStatus": "awaiting-feedback"
     },
@@ -2160,7 +2179,7 @@
       "attachments": [],
       "reviewNoteInAudit": "官方Release/tag/API资产已核对；不宣称全板型或完整硬件验证。",
       "communityStatus": "awaiting-feedback",
-      "contentSha256": "5649064ffa90128c33f74d7f49ec447b262f205c38d47296ecce2c3671979a76"
+      "contentSha256": "0d794a04fccb2ba2634e932bb88ce29213baf05194e7bdd84ea0510ddf28f9c8"
     }
   ],
   "requiredFigures": [
@@ -2346,7 +2365,7 @@
     },
     {
       "page": "docs/zh/firmware/online-builder.md",
-      "anchor": "flash",
+      "anchor": "serial-port",
       "image": "/images/zh/doc-18-image-011.webp",
       "purpose": "浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。"
     },
@@ -2523,6 +2542,24 @@
       "image": "/images/zh/console-flash-confirm-2026-11-14.png",
       "anchor": "flash",
       "purpose": "点击连接前核对板型、Commit与参数。"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "image": "/images/zh/console-serial-picker-macos-2026-11-14.jpg",
+      "anchor": "serial-port",
+      "purpose": "macOS Chrome 的真实串口选择弹窗；已选中连接的小智设备。"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "image": "/images/zh/console-flash-progress-2026-11-14.jpg",
+      "anchor": "flash-progress",
+      "purpose": "实际写入 ota_0 分区，进度25%。"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "image": "/images/zh/console-flash-success-2026-11-14.jpg",
+      "anchor": "flash-success",
+      "purpose": "实际烧录成功，界面显示设备正在重新启动。"
     }
   ],
   "forbiddenLegacyConsoleFigures": [
@@ -2638,36 +2675,38 @@
     }
   ],
   "validation": {
-    "content": "passed: 110 locale pages; 44 sources",
+    "content": "passed: 112 locale pages; 44 sources",
     "materials": "passed: 1094 dispositions; 106 source-image refs; 56 release binaries",
-    "illustrations": "passed: 29 core hardware sections and 57 other figure/section relationships",
-    "build": "passed: 112 HTML pages",
+    "illustrations": "passed: 29 core hardware sections and 63 figure/section relationships",
+    "build": "passed: 114 HTML pages",
     "builtReferences": {
-      "checked": 7975,
+      "checked": 8247,
       "missing": 0,
-      "imageOccurrencesZh": 131
+      "imageOccurrencesZh": 137
     },
     "firmwareSourcePaths": {
       "checked": 29,
       "missing": 0
     },
     "translations": {
-      "pending": 53,
+      "pending": 54,
       "existingStale": 2,
       "updatedSourceHashes": 0
     },
-    "hardwareTested": false,
-    "productionConsoleTested": false,
+    "hardwareTested": true,
+    "productionConsoleTested": true,
     "currentFirmwareAndConsole": {
       "record": "firmware-console-review-2026-11-14.json",
       "npmCheck": "passed",
       "builtHtmlPages": 114,
-      "internalReferences": 8238,
-      "chineseImageOccurrences": 134,
+      "internalReferences": 8247,
+      "chineseImageOccurrences": 137,
       "brokenReferences": 0,
       "browserUiReviewed": true,
-      "hardwareFlashed": false
-    }
+      "hardwareFlashed": true,
+      "hardwareRecord": "online-flashing-hardware-2026-11-14.json"
+    },
+    "hardwareScope": "One LCKFB S3: existing-task online flash, reboot, 2.6.0, network and idle. Physical display/audio/dialogue, new build submission and other boards are unverified."
   },
   "imageOptimization": "image-optimization.json",
   "capturedScreenshots": [
@@ -2710,7 +2749,44 @@
       "source": "https://xiaozhi.me/console/firmware-builder",
       "capturedAt": "2026-11-14",
       "visiblePixelsIdentical": true
+    },
+    {
+      "path": "/images/zh/console-serial-picker-macos-2026-11-14.jpg",
+      "sha256": "c64e03815ce685434ce29e80d783ed82d60d1b523df58630c88aadca2c3b5f66",
+      "bytes": 83680,
+      "width": 896,
+      "height": 888,
+      "format": "jpeg",
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "method": "Real macOS Chrome Web Serial flow; original screenshot bytes copied without re-encoding.",
+      "caption": "macOS Chrome 的真实串口选择弹窗；已选中连接的小智设备。"
+    },
+    {
+      "path": "/images/zh/console-flash-progress-2026-11-14.jpg",
+      "sha256": "5b4feb30e68ce76211fde543e7e79a080434252ba0e26406917d90427d1536f9",
+      "bytes": 52206,
+      "width": 630,
+      "height": 757,
+      "format": "jpeg",
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "method": "Real macOS Chrome Web Serial flow; original screenshot bytes copied without re-encoding.",
+      "caption": "实际写入 ota_0 分区，进度25%。"
+    },
+    {
+      "path": "/images/zh/console-flash-success-2026-11-14.jpg",
+      "sha256": "12c5391ed54bd6811d0296d3f8e33b7cdf32e11cc5c9cd77af5f4d513d55f931",
+      "bytes": 12302,
+      "width": 630,
+      "height": 259,
+      "format": "jpeg",
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "method": "Real macOS Chrome Web Serial flow; original screenshot bytes copied without re-encoding.",
+      "caption": "实际烧录成功，界面显示设备正在重新启动。"
     }
   ],
-  "currentReleaseAndConsoleReview": "firmware-console-review-2026-11-14.json"
+  "currentReleaseAndConsoleReview": "firmware-console-review-2026-11-14.json",
+  "onlineFlashingHardwareVerification": "online-flashing-hardware-2026-11-14.json"
 }
