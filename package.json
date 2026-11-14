@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
@@ -11,13 +13,19 @@
     "check:content": "node scripts/check-content.mjs",
     "check:assets": "node scripts/check-assets.mjs",
     "check:reader": "node scripts/check-reader-experience.mjs",
+    "images:audit": "node scripts/check-images.mjs --audit",
+    "images:optimize": "node scripts/optimize-images.mjs",
+    "check:images": "node scripts/check-images.mjs",
     "translations:status": "node scripts/translation-status.mjs",
-    "check": "npm run check:content && npm run check:assets && npm run check:reader && npm run build"
+    "check": "npm run check:content && npm run check:assets && npm run check:reader && npm run check:images && npm run build"
   },
   "devDependencies": {
     "gray-matter": "4.0.3",
+    "sharp": "0.35.5",
     "vitepress": "1.6.4",
     "vue": "3.5.45"
   },
-  "overrides": { "vite": "6.4.6" }
+  "overrides": {
+    "vite": "6.4.6"
+  }
 }

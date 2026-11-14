@@ -4,9 +4,11 @@
 
 44 篇来源文档已建立中文重构、合并或历史归档稿件：P0 11 篇、P1 20 篇、P2 13 篇全部有实际去向。站内共有 55 个中文页面及相同路径英文入口；教程标为“社区校对中”，英文只保留待翻译说明，等中文反馈确认后再编写。
 
-图片和附件随文章整理：当前采用 106 个原图引用（100 个去重文件），保留 6 张按固件生成的接线图，并新增 16 张流程、信号关系或电路示意。14 段视频与其他附件仍保留在独立 [素材 Release](https://github.com/78/xiaozhi-docs/releases/tag/tutorial-assets-2026-11-14)；其中 4 段在当前文章提供，SF32 与旧在线编译的 10 段录屏仅作历史存档，SF32 当前教程直接外链维护者。主固件直接使用 `78/xiaozhi-esp32` 官方 Releases，OTA 与协议始终以固件对应版本为准。
+图片和附件随文章整理：当前采用 106 个来源图引用（100 张源图，经优化和再次去重为 98 个发布文件），保留 6 张按固件生成的接线图，并新增 16 张流程、信号关系或电路示意。14 段视频与其他附件仍保留在独立 [素材 Release](https://github.com/78/xiaozhi-docs/releases/tag/tutorial-assets-2026-11-14)；其中 4 段在当前文章提供，SF32 与旧在线编译的 10 段录屏仅作历史存档，SF32 当前教程直接外链维护者。主固件直接使用 `78/xiaozhi-esp32` 官方 Releases，OTA 与协议始终以固件对应版本为准。
 
 55 个中文页面已逐篇复查阅读顺序、图文相关性和素材去向，749 个图片引用均完成接触表筛选。首推 [官方在线编译与烧录](https://xiaozhi.me/console/firmware-builder)，说明未引出 USB 下载接口的例外；控制台指南按新版实现重做，不再使用旧布局截图引导点击。中文仍待社区确认，尚未完成全部真机、电气或生产流程验证。
+
+图片发布文件共约 **22.2 MiB**，相较整理前的 95.6 MiB 减少 **76.8%**。产品照最长边 1600px，装配照优先 2200px；接线、细字与关键标注图保留原尺寸、无损处理。逐图的源文件摘要、发布摘要、尺寸与压缩参数见 [图片优化清单](audit/image-optimization.json)。SVG 保持矢量格式。
 
 逐篇结论见 [读者视角复查](audit/reader-review-2026-11-14.md)与[机器可读清单](audit/reader-review-2026-11-14.json)，原文取舍见[来源审计清单](audit/inventory.json)，每张图片与附件的取舍见[素材清单](audit/media-inventory.json)。讨论入口集中在右上角，中文 QQ 群和其他语言 Discord 只在 `docs/.vitepress/data/community.json` 维护，不把具体联系号写进文章。
 
@@ -22,6 +24,7 @@ npm run dev
 ```sh
 npm run check                 # 元数据、语言路径、审计/素材校验、构建及站内死链接
 npm run translations:status   # 根据中文内容 SHA-256 检查英文是否待同步
+npm run images:audit          # 查看图片大小、分辨率和体积预算
 npm run preview              # 预览最近一次构建
 ```
 

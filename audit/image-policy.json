@@ -1,0 +1,540 @@
+{
+  "schemaVersion": 1,
+  "profiles": {
+    "product": {
+      "maxLongEdge": 1600,
+      "quality": 84,
+      "maxBytes": 524288,
+      "lossless": false
+    },
+    "assembly": {
+      "maxLongEdge": 2200,
+      "quality": 90,
+      "maxBytes": 524288,
+      "lossless": false
+    },
+    "labeled": {
+      "maxLongEdge": null,
+      "maxBytes": 1572864,
+      "lossless": true
+    },
+    "wiring": {
+      "maxLongEdge": null,
+      "maxBytes": 1572864,
+      "lossless": true
+    },
+    "text": {
+      "maxLongEdge": null,
+      "maxBytes": 1048576,
+      "lossless": true
+    }
+  },
+  "defaultNewImage": {
+    "maxLongEdge": 2200,
+    "maxBytes": 524288
+  },
+  "maxSvgBytes": 65536,
+  "items": [
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-001.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-002.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-003.jpg",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-004.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-005.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-006.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-007.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-008.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-009.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-010.jpg",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-011.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-012.jpg",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-013.jpg",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-014.jpg",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-015.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-016.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-017.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-018.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-019.png",
+      "profile": "wiring",
+      "reason": "接线、引脚或位置关系图，保持原尺寸并逐像素核验。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-020.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-021.jpg",
+      "profile": "wiring",
+      "reason": "接线、引脚或位置关系图，保持原尺寸并逐像素核验。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-022.jpg",
+      "profile": "wiring",
+      "reason": "接线、引脚或位置关系图，保持原尺寸并逐像素核验。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-023.png",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-024.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-025.png",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-026.jpg",
+      "profile": "wiring",
+      "reason": "接线、引脚或位置关系图，保持原尺寸并逐像素核验。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-027.jpg",
+      "profile": "wiring",
+      "reason": "接线、引脚或位置关系图，保持原尺寸并逐像素核验。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-028.jpg",
+      "profile": "wiring",
+      "reason": "接线、引脚或位置关系图，保持原尺寸并逐像素核验。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-029.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-030.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-031.png",
+      "profile": "wiring",
+      "reason": "接线、引脚或位置关系图，保持原尺寸并逐像素核验。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-032.png",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-033.png",
+      "profile": "wiring",
+      "reason": "接线、引脚或位置关系图，保持原尺寸并逐像素核验。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-034.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-035.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-036.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-037.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-038.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-05-image-039.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-06-image-001.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-06-image-002.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-06-image-003.jpg",
+      "profile": "wiring",
+      "reason": "接线、引脚或位置关系图，保持原尺寸并逐像素核验。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-06-image-004.png",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-06-image-005.jpg",
+      "profile": "wiring",
+      "reason": "接线、引脚或位置关系图，保持原尺寸并逐像素核验。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-07-image-001.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-07-image-002.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-07-image-003.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-07-image-004.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-07-image-005.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-08-image-003.png",
+      "profile": "text",
+      "reason": "界面、表格或积木程序，保留原尺寸与细字，不使用有损压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-08-image-005.png",
+      "profile": "text",
+      "reason": "界面、表格或积木程序，保留原尺寸与细字，不使用有损压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-08-image-009.png",
+      "profile": "text",
+      "reason": "界面、表格或积木程序，保留原尺寸与细字，不使用有损压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-09-image-006.png",
+      "profile": "text",
+      "reason": "界面、表格或积木程序，保留原尺寸与细字，不使用有损压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-11-image-001.png",
+      "profile": "text",
+      "reason": "界面、表格或积木程序，保留原尺寸与细字，不使用有损压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-12-image-001.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-12-image-002.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-12-image-003.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-12-image-009.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-12-image-011.jpg",
+      "profile": "wiring",
+      "reason": "接线、引脚或位置关系图，保持原尺寸并逐像素核验。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-12-image-012.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-12-image-013.png",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-12-image-014.png",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-12-image-015.png",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-13-image-002.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-13-image-016.png",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-13-image-017.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-18-image-011.png",
+      "profile": "text",
+      "reason": "界面、表格或积木程序，保留原尺寸与细字，不使用有损压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-23-image-001.png",
+      "profile": "text",
+      "reason": "界面、表格或积木程序，保留原尺寸与细字，不使用有损压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-27-image-006.png",
+      "profile": "text",
+      "reason": "界面、表格或积木程序，保留原尺寸与细字，不使用有损压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-29-image-001.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-29-image-019.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-30-image-001.jpg",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-31-image-003.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-31-image-004.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-31-image-012.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-32-image-006.jpg",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-32-image-007.jpg",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-32-image-008.jpg",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-32-image-023.png",
+      "profile": "text",
+      "reason": "界面、表格或积木程序，保留原尺寸与细字，不使用有损压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-32-image-029.png",
+      "profile": "text",
+      "reason": "界面、表格或积木程序，保留原尺寸与细字，不使用有损压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-32-image-033.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-32-image-034.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-32-image-051.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-32-image-052.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-34-image-002.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-34-image-003.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-35-image-002.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-44-image-001.png",
+      "profile": "product",
+      "reason": "外观或模块识别照片，按正文与高分屏展示需要缩小，不保留无用的相机原始分辨率。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-44-image-003.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-44-image-004.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-44-image-005.png",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-44-image-006.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-44-image-007.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-44-image-008.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-44-image-009.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-44-image-012.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-44-image-013.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-44-image-014.png",
+      "profile": "labeled",
+      "reason": "器件引脚、焊点或接口标注照片，保留原尺寸与文字/线色。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-44-image-015.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    },
+    {
+      "sourcePath": "docs/public/images/zh/doc-44-image-016.jpg",
+      "profile": "assembly",
+      "reason": "装配/成品照片，保留实物辨识与放大核对能力，限制最长边并高质量压缩。"
+    }
+  ],
+  "maxTotalRasterBytes": 33554432
+}

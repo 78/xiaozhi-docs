@@ -8,13 +8,14 @@
     "changedChinesePages": 45,
     "sourceImageReferencesSurveyed": 749,
     "retainedSourceImageReferences": 106,
-    "retainedUniqueImageFiles": 100,
+    "retainedUniqueImageFiles": 98,
     "newlyAdoptedImageReferences": 17,
     "removedOutdatedImageReferences": 16,
     "newDiagrams": 16,
     "videosInCurrentArticles": 4,
     "historicalVideosInReleaseOnly": 10,
-    "communityConfirmed": 0
+    "communityConfirmed": 0,
+    "retainedUniqueSourceImages": 100
   },
   "basis": {
     "firmwareCommit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
@@ -2601,5 +2602,6 @@
     },
     "hardwareTested": false,
     "productionConsoleTested": false
-  }
+  },
+  "imageOptimization": "image-optimization.json"
 }

@@ -4001,7 +4001,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "51b44905132a73c2d96f9460814a91dacaa4c82291bd9baf887273bb35ffdcc8",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4042,7 +4042,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "4877f5b2015cf3d637d60c82c5b9b0829058052f369e8c9aa57f7bd789e08da2",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4083,7 +4083,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "93a98355abe2dbe589a9b4d913b0fb12244ee36f6b59c95e1e7162902c101569",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4124,7 +4124,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "e718a0ecf63aedff2e0aa43f76e27f222f985edd398854bff31aa7c187bf720e",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4165,7 +4165,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "d5e3db723b2938859b28b2ecff035158b8d122086131834a71827ba1a5afec58",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4206,7 +4206,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "369957ac376d5e0668134d14dfc825066f3aa77fb2bbece7d2964c059ba89b2d",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4247,7 +4247,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "3f108c1833f9b42a10e690acf57158bc90086b23ef20c3c00571dae22a67df87",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4288,7 +4288,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "a6b9b1c72d92ca71ed3fb36a36fe3cc5d5bb87225e0af79f58d88274e63b78ff",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4329,7 +4329,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "29b97dfa09a90347f93d7029f22aa1d7922ecbfec5deb049ff9c12cc46d91379",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4377,7 +4377,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "1031af2439f4b5a79850124b2d847e60c7ce4f85786dc30328a760f96f0f1546",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4425,7 +4425,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "d69443e2f853e9155c047e8352e5511e8208e307a24671a99d17918ec50b8991",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4473,7 +4473,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "ccc5490c9290d23e227c3d0cf3bfaacdc20ebce74d053f756a7d36caa9fc8b5f",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4511,6 +4511,17 @@
             "caption": "两块可拼面包板的外观"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-013.jpg",
+        "sha256": "c23f450d4613eb1e63eb59eb912b21e7f3c171d03e27811958ee4601dfdcc7e7",
+        "bytes": 198447,
+        "width": 1280,
+        "height": 960,
+        "format": "jpeg",
+        "profile": "product",
+        "sourceSha256": "c23f450d4613eb1e63eb59eb912b21e7f3c171d03e27811958ee4601dfdcc7e7",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4558,7 +4569,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "0fc5062371761a4e6d3d8684a2ac64c8c237ae782d0f51356a8f9ac046a490ab",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4599,7 +4610,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "c06eb02f42a43af97ed59a7253d327f3c20bc9e9f0b720807fa4af44aaea59b6",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4640,7 +4651,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "17decd5600477139ae80d8582f723513bc5426dcc1d4fbaf29dfbf4eac7da270",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4681,7 +4692,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "e17ddfc826d267759850b6d8395e09ab92797aeeca9a89435911063169aff525",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4722,7 +4733,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "83175906a1f90b25198bcbb92ec76d3c03216d674d6224e295bcb100ce06fb51",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4763,7 +4774,7 @@
         "format": "webp",
         "profile": "wiring",
         "sourceSha256": "673b176eca7d7fde3ec8226d7867398c2d3f9499aeb6eaaefc440fc5ca6b79e0",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4811,7 +4822,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "d5f53102e1dbb78365ef97e51c1d98847e5d6d0f2bca493e373b3995e3b89f19",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4850,6 +4861,17 @@
             "caption": "44 针标准板位置总图（Surfer 标注）；Wi-Fi 版不接 4G/LDO 分支，功放供电按本页 5V 方案"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-021.jpg",
+        "sha256": "97d57825e456d7a9fb34693db5c6ca6de22f3423059f271b168907c8190992f0",
+        "bytes": 1148621,
+        "width": 1549,
+        "height": 1146,
+        "format": "jpeg",
+        "profile": "wiring",
+        "sourceSha256": "97d57825e456d7a9fb34693db5c6ca6de22f3423059f271b168907c8190992f0",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4881,6 +4903,17 @@
             "caption": "44 针板：麦克风反面朝上的位置图，电气信号仍按 WS/SCK/SD 对应"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-022.jpg",
+        "sha256": "89b0bf20f895343869a9c027a3e366a11140aa07d48745afb82bc4a9e3ece64f",
+        "bytes": 929832,
+        "width": 1387,
+        "height": 1092,
+        "format": "jpeg",
+        "profile": "wiring",
+        "sourceSha256": "89b0bf20f895343869a9c027a3e366a11140aa07d48745afb82bc4a9e3ece64f",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4921,7 +4954,7 @@
         "format": "jpeg",
         "profile": "assembly",
         "sourceSha256": "289106deaba8d4fe378d63427ba3d9f3cbfbda8f40091d6a0d9e384bf43f0887",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -4962,7 +4995,7 @@
         "format": "jpeg",
         "profile": "assembly",
         "sourceSha256": "547ab95039ad8f46a82a4b37a98a61b38a6b493d88a351b4a9a07494e7123f43",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5004,7 +5037,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "5376912fb00d4bdc30aa1f6e0ed7916e7449778694f976da45ca97773bd1a1ad",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5043,6 +5076,17 @@
             "caption": "42 针果云板位置总图（Surfer 标注）；电源排针位置不同；Wi-Fi 版不接 4G/LDO 分支，功放按本页 5V 方案"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-026.jpg",
+        "sha256": "60d03d4034cbaccefe7546b597936be445cc2524df93526929d01e8cea2c44a3",
+        "bytes": 1137538,
+        "width": 1552,
+        "height": 1145,
+        "format": "jpeg",
+        "profile": "wiring",
+        "sourceSha256": "60d03d4034cbaccefe7546b597936be445cc2524df93526929d01e8cea2c44a3",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5074,6 +5118,17 @@
             "caption": "42 针板：麦克风反面朝上的位置图，不能按外观镜像后猜电源脚"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-027.jpg",
+        "sha256": "7e5ea2fefdc24e2a4d873fb8a50ab0b6e1d18c81252ce30e00e701cf126cbe37",
+        "bytes": 888149,
+        "width": 1327,
+        "height": 1095,
+        "format": "jpeg",
+        "profile": "wiring",
+        "sourceSha256": "7e5ea2fefdc24e2a4d873fb8a50ab0b6e1d18c81252ce30e00e701cf126cbe37",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5104,6 +5159,17 @@
             "caption": "麦克风与 MAX98357A 的直接连线：图中 3V3 功放支路与短接线按上文说明调整"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-028.jpg",
+        "sha256": "1de15db5e8f6a9360bac8f80b972f32558606872689f5188e8c37e469cb995cb",
+        "bytes": 199018,
+        "width": 1370,
+        "height": 870,
+        "format": "jpeg",
+        "profile": "wiring",
+        "sourceSha256": "1de15db5e8f6a9360bac8f80b972f32558606872689f5188e8c37e469cb995cb",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5144,7 +5210,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "e10fdd2fe0db28dd180d4ebc135ee1969c692ff2f60f062cd2ecba6e75dea190",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5185,7 +5251,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "58fcfb0bde094d380f6401902b00c3dcd9b59e5a019db18ebd21778e72780f05",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5240,7 +5306,7 @@
         "format": "webp",
         "profile": "wiring",
         "sourceSha256": "887477364d7f5466c0cd52c95b637c26f9803a5182cd535b4c184bcef3a6a4de",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5281,7 +5347,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "c33471f2c869f88863321cb681c559ddf973f9d6370249dc3aef80bc0628593f",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5323,7 +5389,7 @@
         "format": "webp",
         "profile": "wiring",
         "sourceSha256": "57398ba7316a0e6047583a5ea9bce6d72b72fc193c2d74e180d6d4b465b391e7",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5364,7 +5430,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "7601c0585b72003a8dae4769d40204ba547c0f23e1e7fce8d385bca5987e56e9",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5395,6 +5461,17 @@
             "caption": "基础版实物：ESP32-S3、麦克风、功放与扬声器"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-035.jpg",
+        "sha256": "9c892ae22b7e4b0814b63da78d9e7e55c749f1754090138f7b07ef502a04cf2e",
+        "bytes": 289559,
+        "width": 1280,
+        "height": 960,
+        "format": "jpeg",
+        "profile": "assembly",
+        "sourceSha256": "9c892ae22b7e4b0814b63da78d9e7e55c749f1754090138f7b07ef502a04cf2e",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5425,6 +5502,17 @@
             "caption": "基础版移开模块后的接线实物，可看到模块下方的隐藏短线"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-036.jpg",
+        "sha256": "c25b4d6a07f9ab7a3cd03904bd59401274812a3b1c71c04c47615f8dbc9a1831",
+        "bytes": 305056,
+        "width": 1280,
+        "height": 960,
+        "format": "jpeg",
+        "profile": "assembly",
+        "sourceSha256": "c25b4d6a07f9ab7a3cd03904bd59401274812a3b1c71c04c47615f8dbc9a1831",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5455,6 +5543,17 @@
             "caption": "OLED 扩展实物：在基础音频方案上增加显示屏"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-037.jpg",
+        "sha256": "b1a4842c413f037d446e6a087456e7f084ff9046f165c6de3d7a8d65845fc314",
+        "bytes": 256337,
+        "width": 1280,
+        "height": 960,
+        "format": "jpeg",
+        "profile": "assembly",
+        "sourceSha256": "b1a4842c413f037d446e6a087456e7f084ff9046f165c6de3d7a8d65845fc314",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5485,6 +5584,17 @@
             "caption": "ML307R 扩展完成效果"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-038.jpg",
+        "sha256": "7ea114946d035b75d33967deaedb35c77059fc908a2ac9443d0232d126d380d2",
+        "bytes": 158915,
+        "width": 1280,
+        "height": 960,
+        "format": "jpeg",
+        "profile": "assembly",
+        "sourceSha256": "7ea114946d035b75d33967deaedb35c77059fc908a2ac9443d0232d126d380d2",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5515,6 +5625,17 @@
             "caption": "ML307R 方案移开外围模块后的连线视角"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-039.jpg",
+        "sha256": "d56167b60a33a655d30435b917009f736e44cfcfe4035cce2c1b3afcb7c1f6e7",
+        "bytes": 164238,
+        "width": 1280,
+        "height": 960,
+        "format": "jpeg",
+        "profile": "assembly",
+        "sourceSha256": "d56167b60a33a655d30435b917009f736e44cfcfe4035cce2c1b3afcb7c1f6e7",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5590,7 +5711,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "0e3239e52ce578a641e10783d8a0aee92568d821e4d1c8751103b5ac71dc58d5",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5630,7 +5751,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "5ba36c6ac1802b68e88e9c30460039afd8045cfc2c4b85a0a1bbec155c3540df",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5662,6 +5783,17 @@
             "caption": "44 针标准板 SPI 彩屏总接线图（Surfer 标注），电源与屏幕尺寸差异见图前说明"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-06-image-003.jpg",
+        "sha256": "0d0d1b7dcef9c69e92b64eec715c3e6aa6da54f1d98cd640818f9c90c9360cf6",
+        "bytes": 801516,
+        "width": 1388,
+        "height": 858,
+        "format": "jpeg",
+        "profile": "wiring",
+        "sourceSha256": "0d0d1b7dcef9c69e92b64eec715c3e6aa6da54f1d98cd640818f9c90c9360cf6",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5701,7 +5833,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "c520464f603042d0fd4c7b0ddb885441638fa6cca0dc111d6457ed146bd908d0",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5733,6 +5865,17 @@
             "caption": "42 针果云板 SPI 彩屏总接线图，按 GPIO 识别不同排针位置"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-06-image-005.jpg",
+        "sha256": "d2260f80fe8229e8c4fc338400ff61684061fa665a87efe88308a2221ae261bf",
+        "bytes": 1131093,
+        "width": 1739,
+        "height": 1131,
+        "format": "jpeg",
+        "profile": "wiring",
+        "sourceSha256": "d2260f80fe8229e8c4fc338400ff61684061fa665a87efe88308a2221ae261bf",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5816,7 +5959,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "056cbd8fb7af862123286a9e52c6b8069a1226279fde43e0a1cb7818959ad0b2",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5856,7 +5999,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "0e3239e52ce578a641e10783d8a0aee92568d821e4d1c8751103b5ac71dc58d5",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5896,7 +6039,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "5ba36c6ac1802b68e88e9c30460039afd8045cfc2c4b85a0a1bbec155c3540df",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5936,7 +6079,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "2764d6ac7fcb03cbebb265966064d31ea67bb2ce9b2a47f93f05c88fed7fd3c3",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -5976,7 +6119,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "7d94da5fc183f285d65640d87bffc67dbb9476bed819504bcbf4c22e64d87d96",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -6134,7 +6277,7 @@
         "format": "webp",
         "profile": "text",
         "sourceSha256": "db369d9c34b03f273f5145bfd960ac9ce2fa805393fd9e67bfde70ef6a3c2929",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -6189,7 +6332,7 @@
         "format": "webp",
         "profile": "text",
         "sourceSha256": "a325bc061b0910302ea2c01d82429437cccd4bc27ab129d50db9e463597fadd4",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -6281,7 +6424,7 @@
         "format": "webp",
         "profile": "text",
         "sourceSha256": "f852a002d6b06e1376c6d394d266d0614174cc6d50171b9ca6a7fd08f473713d",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -6806,7 +6949,7 @@
         "format": "webp",
         "profile": "text",
         "sourceSha256": "be84cfdc9402a26f356eef6947e9d9ea9dc82c0be1162ae1df477053c3d2d3c5",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7260,7 +7403,7 @@
         "format": "webp",
         "profile": "text",
         "sourceSha256": "42fbc9124fd2579e5f4cb980e6f81f5d257884f7b483b5ae2f15325d66a2743e",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7301,7 +7444,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "422bb8c5fdf3a964dc4fe7abe00386eb5fc60adfa127ff095f20c8e85ad55e88",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7342,7 +7485,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "4684a240af909e34ebe96f1ba6dc5301198af6614521901e08828ab1db648dfc",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7383,7 +7526,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "47c969543dee1719a76820ebf53cde5b3456699c4930ee1496abdb513759f50c",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7431,7 +7574,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "1031af2439f4b5a79850124b2d847e60c7ce4f85786dc30328a760f96f0f1546",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7479,7 +7622,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "d69443e2f853e9155c047e8352e5511e8208e307a24671a99d17918ec50b8991",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7527,7 +7670,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "ccc5490c9290d23e227c3d0cf3bfaacdc20ebce74d053f756a7d36caa9fc8b5f",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7565,6 +7708,17 @@
             "caption": "两块可拼面包板的外观"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-05-image-013.jpg",
+        "sha256": "c23f450d4613eb1e63eb59eb912b21e7f3c171d03e27811958ee4601dfdcc7e7",
+        "bytes": 198447,
+        "width": 1280,
+        "height": 960,
+        "format": "jpeg",
+        "profile": "product",
+        "sourceSha256": "c23f450d4613eb1e63eb59eb912b21e7f3c171d03e27811958ee4601dfdcc7e7",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7612,7 +7766,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "0fc5062371761a4e6d3d8684a2ac64c8c237ae782d0f51356a8f9ac046a490ab",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7653,7 +7807,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "37cbc9f1e5f3ec9746e3c69247941bf0f48c3138f6aeb855ca04d7f7cef4bf21",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7701,7 +7855,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "d5f53102e1dbb78365ef97e51c1d98847e5d6d0f2bca493e373b3995e3b89f19",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7743,7 +7897,7 @@
         "format": "webp",
         "profile": "wiring",
         "sourceSha256": "bc92063c28e7363990100284d0d91885fd7ccfda25c72bbc47859767d49cb70b",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7774,6 +7928,17 @@
             "caption": "C3 + OLED 完成实物"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-12-image-012.jpg",
+        "sha256": "ff298ccf9917bb3a7907c074096550f7575727d5b19ffc6116db837a2cde9314",
+        "bytes": 445107,
+        "width": 1280,
+        "height": 1707,
+        "format": "jpeg",
+        "profile": "assembly",
+        "sourceSha256": "ff298ccf9917bb3a7907c074096550f7575727d5b19ffc6116db837a2cde9314",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7814,7 +7979,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "5e9b15b5dd32efeec6acfef505867724944c5953889237ced2cf13b78539a451",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7855,7 +8020,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "64e7b84cbb93396557e88ac8d5fc25201581f51fbda2cc715936ad3754d17e68",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -7896,7 +8061,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "554ef3c9d3357da7ee47f36e4352c0642af51ddd55c2c456d0a98177acd6a7b0",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -8036,7 +8201,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "539263ab4ba08d997fdd36a856a086dae4b3dcc6b302ef805e132b7736a9b76e",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -8310,7 +8475,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "6a4c387fdb79c25391e00724cf1232b0f4239ed4f1e9f645ce1669cdf75dea2e",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -8350,7 +8515,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "33d094af8ed7e69900e985eacff01d1bc33e0a18c70c74e9dc20ad584aa91e6f",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -9560,7 +9725,7 @@
         "format": "webp",
         "profile": "text",
         "sourceSha256": "228f76996e29eb48300590da26f5d7b6090d10d02270fc4fc04818cca0c6b172",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -11512,7 +11677,7 @@
         "format": "webp",
         "profile": "text",
         "sourceSha256": "1e16b179afd0b601ad9e49a16bca963c540df5a632348871f2c6db1492d277f2",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -12401,7 +12566,7 @@
         "format": "webp",
         "profile": "text",
         "sourceSha256": "608601aef401080fefd9bd60ff81dc6c763939f02158002b84ea31663cebef0e",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -13069,7 +13234,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "a04e1ac38b6f464dc5f24b3d6a329be2ec01895c351e24c15e28369c7771a094",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -13416,7 +13581,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "4b2d8506eb80e8785e4486a8ceb658b527620962a1f9a4432e323edc64b99e58",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -14213,7 +14378,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "be4e34b847c3ddfdda3eb0ac3ed914379dd7b05885f649e57f8cd76cd3d13878",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -17273,7 +17438,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "52aaa7b0784637712ad08c0b5150a93d98d976416743a7f0624a3f5dbe9728c6",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -17313,7 +17478,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "00247a72ecc64578b26db64aba589713e60dce6ac39bf6c964890e2f55673e7b",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -17479,7 +17644,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "9cb3e3395cbbfb4c17bbf92bd8682a3316b4706da0913cbe94a30031f3536c0e",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -17653,6 +17818,17 @@
             "caption": "ASR CORE 模块外观。"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-32-image-006.jpg",
+        "sha256": "0533833034c00f9184071cffe752dd23284014a5c778b2633f146a63f346e2eb",
+        "bytes": 88940,
+        "width": 898,
+        "height": 732,
+        "format": "jpeg",
+        "profile": "labeled",
+        "sourceSha256": "0533833034c00f9184071cffe752dd23284014a5c778b2633f146a63f346e2eb",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -17682,6 +17858,17 @@
             "caption": "ASR-LINK 下载器，用于辨认接口。"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-32-image-007.jpg",
+        "sha256": "4cec8e33bed17c9e75e2c88b0fc4fc04cdd6d45d44a03b13a09527b4d4aa001a",
+        "bytes": 89283,
+        "width": 1068,
+        "height": 936,
+        "format": "jpeg",
+        "profile": "labeled",
+        "sourceSha256": "4cec8e33bed17c9e75e2c88b0fc4fc04cdd6d45d44a03b13a09527b4d4aa001a",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -17721,7 +17908,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "49cc691ddbf82f099cf61e34ef6094fab1382a7a48bdc90aca40d239d390822f",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -18010,7 +18197,7 @@
         "format": "webp",
         "profile": "text",
         "sourceSha256": "76fd2fec94739f1bb59c338acea850d8800e844f788fd6fdde271d169dbb2970",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -18137,7 +18324,7 @@
         "format": "webp",
         "profile": "text",
         "sourceSha256": "eaf0590b62382350e12f83df2d6b2ba54bde2d31dd2dd6af901ef8476a0789e0",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -18228,7 +18415,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "a98c4de3cd83a909ce01ddf6a69d9c21dafe9da5c3215a20d903651138a85053",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -18265,7 +18452,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "12415232f1e8477cbcba10ee806f363886c3a3b72b1ae7b2e0dadef39c8dda7d",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -18590,7 +18777,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "846d4ab5e95d920fe640a65d2e7f13506730745f7190cf9320598ecbc6e992e7",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -18627,7 +18814,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "7539aa692e98fdc5648ef5185db4daea20000c3fd92f422c84de325f7527d09f",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -19004,7 +19191,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "5e5527fa1d6eb67077f62065b59bfb84e35a016cc5d21f8cb95539f0042e6441",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -19041,7 +19228,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "84799053c54d799a1fa0bd9eb9f9a9f56464f74d33388016613c863361ee4414",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -19276,7 +19463,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "df49e77c2d10e55e9c8fb576d204413e050b68a81607d8a141482044b248191a",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -20677,7 +20864,7 @@
         "format": "webp",
         "profile": "product",
         "sourceSha256": "88a428724a69930ccf56fda9138f7edf49ef3fa004f7eb0266cd3adaf4d73152",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -20725,6 +20912,17 @@
             "caption": "示例样机 PCB 拆解照片，仅适用该板修订。"
           }
         ]
+      },
+      "publishedAsset": {
+        "path": "/images/zh/doc-44-image-003.jpg",
+        "sha256": "c44683789317ed7c3fba29a5663081ce20f8437570083d094b2af72a028c135e",
+        "bytes": 166593,
+        "width": 1280,
+        "height": 1707,
+        "format": "jpeg",
+        "profile": "assembly",
+        "sourceSha256": "c44683789317ed7c3fba29a5663081ce20f8437570083d094b2af72a028c135e",
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -20764,7 +20962,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "adc5823d7e7a2f37493de3203548185d7c030396efd714f64867b7fbf1980b52",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -20804,7 +21002,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "1ecb0979d293cf39d5b4cd5d436d988f660c46b3c5ff8320e37d26fcc004be06",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -20844,7 +21042,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "8ddcc9a34bc083144942bb6b7f559a12cbba9cd329ba1242206a13970ac4f818",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -20884,7 +21082,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "dce88ddb2b261184ad117e9c94f8dbab4b8e84713c23113b126f489fbf335df8",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -20924,7 +21122,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "5023497a5b55c1e66c636037b149cdecf359de8bf2049ff8501426f9880cc182",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -20964,7 +21162,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "9bf077623e3739cc496187721fa94d2512c7f72d2d4c39bc99c671756634438f",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -21037,7 +21235,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "2d61ffb79551c7d1e10b2933f36c3f05cb396e50cfc9101d2a10941afa71d745",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -21074,7 +21272,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "2c02503b95d6b40d3b280cc67330d0674d3f11ea5a5cc2fea5b5809427ac9b70",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -21111,7 +21309,7 @@
         "format": "webp",
         "profile": "labeled",
         "sourceSha256": "55c6d5461105ac7beed2cb3f55af5c6c6bcbeeba218df2778a1ef71f0f26fee0",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -21151,7 +21349,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "d08da6e06aca3df7acfc9a05823d8ffd0119a0302e5ee20d647bb3933f83c725",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -21191,7 +21389,7 @@
         "format": "webp",
         "profile": "assembly",
         "sourceSha256": "460ec3a662e4844d12161a0ef759c65c997b1d06e9f71c9ac3105638c4fa8a1f",
-        "optimizationRecord": "history-image-optimization.json"
+        "optimizationRecord": "image-optimization.json"
       }
     }
   ]

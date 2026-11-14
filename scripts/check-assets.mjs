@@ -17,6 +17,9 @@ for (const item of ledger.items) {
     const bytes = await readFile(resolve(root, 'docs/public' + item.publicPath))
     const sha = createHash('sha256').update(bytes).digest('hex')
     if (sha !== (item.publishedAsset?.sha256 || item.sha256)) throw new Error(`Image changed without ledger update: ${item.id}`)
+    if (item.publishedAsset && (item.publishedAsset.sourceSha256 !== item.sha256 || item.publishedAsset.path !== item.publicPath)) {
+      throw new Error(`Original/optimized-image relationship changed: ${item.id}`)
+    }
     images++
   }
 }
@@ -90,5 +93,5 @@ for (const diagram of wiring.diagrams) {
     throw new Error(`Wiring diagram changed without review record: ${diagram.publicPath}`)
   }
 }
-console.log(`Material checks passed: ${ids.size} dispositions; ${images} original images; ${assets.size} release files.`)
+console.log(`Material checks passed: ${ids.size} dispositions; ${images} source-image references; ${assets.size} release files.`)
 console.log(`Teaching illustrations passed: ${coverage.pages.length} tutorials; ${sections} required sections; ${wiring.diagrams.length} current wiring diagrams.`)

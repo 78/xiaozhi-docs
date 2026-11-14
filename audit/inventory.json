@@ -852,7 +852,8 @@
         "sourceImageReferencesSurveyed": 41,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-06",
@@ -993,7 +994,8 @@
         "sourceImageReferencesSurveyed": 6,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-07",
@@ -1141,7 +1143,8 @@
         "sourceImageReferencesSurveyed": 6,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-08",
@@ -1290,7 +1293,8 @@
         "sourceImageReferencesSurveyed": 31,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-09",
@@ -1429,7 +1433,8 @@
         "sourceImageReferencesSurveyed": 13,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-10",
@@ -1706,7 +1711,8 @@
         "sourceImageReferencesSurveyed": 1,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-12",
@@ -1849,7 +1855,8 @@
         "sourceImageReferencesSurveyed": 18,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-13",
@@ -1990,7 +1997,8 @@
         "sourceImageReferencesSurveyed": 34,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-14",
@@ -2662,7 +2670,8 @@
         "sourceImageReferencesSurveyed": 13,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-19",
@@ -3329,7 +3338,8 @@
         "sourceImageReferencesSurveyed": 4,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-24",
@@ -3857,7 +3867,8 @@
         "sourceImageReferencesSurveyed": 11,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-28",
@@ -4148,7 +4159,8 @@
         "sourceImageReferencesSurveyed": 61,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-30",
@@ -4290,7 +4302,8 @@
         "designFiles": "https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/download.html",
         "verifiedAt": "2026-11-14",
         "evidence": "已打开维护者完整目录、固件下载和资料下载页；工程/联网说明由该站维护。"
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-31",
@@ -4425,7 +4438,8 @@
         "sourceImageReferencesSurveyed": 15,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-32",
@@ -4560,7 +4574,8 @@
         "sourceImageReferencesSurveyed": 54,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-33",
@@ -4828,7 +4843,8 @@
         "sourceImageReferencesSurveyed": 13,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-35",
@@ -4967,7 +4983,8 @@
         "sourceImageReferencesSurveyed": 7,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     },
     {
       "id": "DOC-36",
@@ -6154,7 +6171,8 @@
         "sourceImageReferencesSurveyed": 16,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "imageOptimization": "image-optimization.json"
     }
   ],
   "currentBatch": {
