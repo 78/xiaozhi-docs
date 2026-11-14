@@ -5511,5 +5511,6 @@
     "oversizedNewImageRejection": "passed with temporary 2201×1 image; probe removed",
     "translations": "53 pending Chinese review; 2 existing stale translations; English files and sourceHash untouched",
     "remoteChanges": "none during this optimization"
-  }
+  },
+  "subsequentHistoryCleanup": "git-history-cleanup-2026-11-14.json"
 }
