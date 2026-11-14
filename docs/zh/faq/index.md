@@ -81,7 +81,7 @@ BluFi 是 Wi-Fi 配网能力，不能由此推断可以连接蓝牙耳机。
 
 ## 开发环境 {#build}
 
-本轮基线是小智固件 v2.6.0：最低 ESP-IDF 6.0.1，建议 `release/v6.1` 分支。不要混用 IDF 5.x 的环境、旧 `sdkconfig` 和新源码。切换 SDK 后按[本地构建](../development/build-firmware)清理并重新配置。
+本页适用小智固件 v2.6.0：最低 ESP-IDF 6.0.1，建议 `release/v6.1` 分支。不要混用 IDF 5.x 的环境、旧 `sdkconfig` 和新源码。切换 SDK 后按[本地构建](../development/build-firmware)清理并重新配置。
 
 Windows 出现 Ninja `CreateProcess` 命令行过长错误时，查看构建指南中的 response file 处理；不要把关闭安全软件作为通用步骤。
 

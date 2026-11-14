@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="682" viewBox="0 0 960 682" role="img" aria-labelledby="title desc">
+<title id="title">S3 面包板 · 4G 模块信号连线</title><desc id="desc">v2.6.0 · ML307R 与 NT26K 使用不同板型。信号、供电与接地用逐根导线表示；不是开发板排针位置图。</desc>
+<style>text{font-family:system-ui,"PingFang SC","Microsoft YaHei",sans-serif;fill:#183738}.head{font-size:26px;font-weight:700}.sub{font-size:16px;fill:#4b6266}.group{font-size:20px;font-weight:650}.port{font-size:17px}.small{font-size:14px;fill:#586b6e}</style>
+<rect width="960" height="682" rx="16" fill="#f5f9f8"/>
+<text x="28" y="43" class="head">S3 面包板 · 4G 模块信号连线</text>
+<text x="28" y="74" class="sub">v2.6.0 · ML307R 与 NT26K 使用不同板型</text>
+<text x="28" y="103" class="small">按 GPIO 与模块丝印连接；红色=电源，深灰=GND，紫色=时钟，青色=数据/控制。点击可看原尺寸。</text>
+<rect x="18" y="130" width="924" height="163" rx="12" fill="#fff" stroke="#cbded9"/>
+<text x="36" y="160" class="group">ML307R · bread-compact-ml307</text>
+<text x="42" y="186" class="small">ESP32-S3 主控</text>
+<text x="650" y="186" class="small">ML307R AT 核心板</text>
+<text x="42" y="218" class="port">GPIO11（接收）</text>
+<path d="M 390 213 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="213" r="4" fill="#128b84"/><circle cx="620" cy="213" r="4" fill="#128b84"/>
+<text x="650" y="218" class="port">TXD（发送）</text>
+<text x="42" y="249" class="port">GPIO12（发送）</text>
+<path d="M 390 244 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="244" r="4" fill="#128b84"/><circle cx="620" cy="244" r="4" fill="#128b84"/>
+<text x="650" y="249" class="port">RXD（接收）</text>
+<text x="42" y="280" class="port">GND</text>
+<path d="M 390 275 H 620" fill="none" stroke="#53626a" stroke-width="3"/>
+<circle cx="390" cy="275" r="4" fill="#53626a"/><circle cx="620" cy="275" r="4" fill="#53626a"/>
+<text x="650" y="280" class="port">GND</text>
+<rect x="18" y="309" width="924" height="225" rx="12" fill="#fff" stroke="#cbded9"/>
+<text x="36" y="339" class="group">NT26K · bread-compact-nt26</text>
+<text x="42" y="365" class="small">ESP32-S3 主控</text>
+<text x="650" y="365" class="small">NT26K 核心板</text>
+<text x="42" y="397" class="port">GPIO11（接收）</text>
+<path d="M 390 392 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="392" r="4" fill="#128b84"/><circle cx="620" cy="392" r="4" fill="#128b84"/>
+<text x="650" y="397" class="port">TX（发送）</text>
+<text x="42" y="428" class="port">GPIO12（发送）</text>
+<path d="M 390 423 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="423" r="4" fill="#128b84"/><circle cx="620" cy="423" r="4" fill="#128b84"/>
+<text x="650" y="428" class="port">RX（接收）</text>
+<text x="42" y="459" class="port">GPIO9</text>
+<path d="M 390 454 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="454" r="4" fill="#128b84"/><circle cx="620" cy="454" r="4" fill="#128b84"/>
+<text x="650" y="459" class="port">MRDY / DTR</text>
+<text x="42" y="490" class="port">GPIO10</text>
+<path d="M 390 485 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="485" r="4" fill="#128b84"/><circle cx="620" cy="485" r="4" fill="#128b84"/>
+<text x="650" y="490" class="port">SRDY / RI</text>
+<text x="42" y="521" class="port">GND</text>
+<path d="M 390 516 H 620" fill="none" stroke="#53626a" stroke-width="3"/>
+<circle cx="390" cy="516" r="4" fill="#53626a"/><circle cx="620" cy="516" r="4" fill="#53626a"/>
+<text x="650" y="521" class="port">GND</text>
+<text x="28" y="567" class="small">本图不规定模块电源电压：VBAT、5V 输入、使能与峰值电流均按具体核心板设计确认。</text>
+<text x="28" y="601" class="small">旧图的 LDO 焊点取电、NT26K 从开发板 3V3 供电不作为本版推荐；独立稳压供电时需共地。</text>
+<text x="28" y="635" class="small">音频与 OLED 接线见基础 S3 图，4G 型号和固件必须匹配。</text>
+</svg>

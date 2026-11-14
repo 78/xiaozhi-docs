@@ -1,0 +1,244 @@
+{
+  "reviewedAt": "2026-11-14",
+  "method": "CUA browser DOM and representative screenshots; desktop default and mobile viewport",
+  "scope": "Representative page checks, not all 55 pages visually browsed; all 55 have editorial/asset checks separately.",
+  "checks": [
+    {
+      "headingTop": 157.7257080078125,
+      "noticeShowsInternalReview": false,
+      "scrollWidth": 1113,
+      "sectionImages": [],
+      "url": "/zh/console/knowledge-base.html#associate",
+      "visibleImages": [],
+      "width": 1113
+    },
+    {
+      "headingTop": 157.34375,
+      "noticeShowsInternalReview": false,
+      "scrollWidth": 1113,
+      "sectionImages": [
+        "声音复刻：两种输入，共用后续训练流程",
+        "音频编辑选区示意：边界外的内容不会提交，先试听所选片段"
+      ],
+      "url": "/zh/console/voice-cloning.html#audio",
+      "visibleImages": [
+        {
+          "alt": "声音复刻：两种输入，共用后续训练流程",
+          "loaded": true
+        }
+      ],
+      "width": 1113
+    },
+    {
+      "headingTop": 157.6822967529297,
+      "noticeShowsInternalReview": false,
+      "scrollWidth": 1113,
+      "sectionImages": [
+        "在线编译：先选硬件，再选功能"
+      ],
+      "url": "/zh/firmware/online-builder.html#configure",
+      "visibleImages": [
+        {
+          "alt": "在线编译：先选硬件，再选功能",
+          "loaded": true
+        }
+      ],
+      "width": 1113
+    },
+    {
+      "headingTop": 181.5538330078125,
+      "noticeShowsInternalReview": false,
+      "scrollWidth": 1113,
+      "sectionImages": [
+        "基础 S3 的 GPIO18 指示灯连接"
+      ],
+      "url": "/zh/development/mcp-gpio.html#led-wiring",
+      "visibleImages": [
+        {
+          "alt": "基础 S3 的 GPIO18 指示灯连接",
+          "loaded": true
+        }
+      ],
+      "width": 1113
+    },
+    {
+      "headingTop": 157.43055725097656,
+      "noticeShowsInternalReview": false,
+      "scrollWidth": 1113,
+      "sectionImages": [
+        "已有 MCP 服务先选正确的传输方式"
+      ],
+      "url": "/zh/mcp/connect-existing-servers.html#scope",
+      "visibleImages": [
+        {
+          "alt": "已有 MCP 服务先选正确的传输方式",
+          "loaded": true
+        }
+      ],
+      "width": 1113
+    },
+    {
+      "headingTop": 157.63890075683594,
+      "noticeShowsInternalReview": false,
+      "scrollWidth": 1113,
+      "sectionImages": [
+        "Windows 设备管理器中查找串口的示例；COM 编号因电脑而异。"
+      ],
+      "url": "/zh/faq/serial-logs.html#port",
+      "visibleImages": [
+        {
+          "alt": "Windows 设备管理器中查找串口的示例；COM 编号因电脑而异。",
+          "loaded": true
+        }
+      ],
+      "width": 1113
+    },
+    {
+      "headingTop": 157.43055725097656,
+      "noticeShowsInternalReview": false,
+      "scrollWidth": 1113,
+      "sectionImages": [
+        "芯片与语音能力的选型示意表：麦克风数量、唤醒、音频处理和显示需求需一起考虑。具体支持范围按所用固件核对。"
+      ],
+      "url": "/zh/hardware/design-guidelines.html#scope",
+      "visibleImages": [
+        {
+          "alt": "芯片与语音能力的选型示意表：麦克风数量、唤醒、音频处理和显示需求需一起考虑。具体支持范围按所用固件核对。",
+          "loaded": true
+        }
+      ],
+      "width": 1113
+    },
+    {
+      "headingTop": 1117.369873046875,
+      "noticeShowsInternalReview": false,
+      "scrollWidth": 1113,
+      "sectionImages": [
+        "样机电源模块的 OUT 5V、BAT、VIN 和 GND 标注。输入、电池与输出不能互换；接线前核对具体模块原理图。"
+      ],
+      "url": "/zh/community/projects/astronaut-storyteller.html#power",
+      "visibleImages": [
+        {
+          "alt": "原语音模块组装。",
+          "loaded": true
+        },
+        {
+          "alt": "原语音部分的另一视角。",
+          "loaded": true
+        }
+      ],
+      "width": 1113
+    },
+    {
+      "headingTop": 157.32640075683594,
+      "noticeShowsInternalReview": false,
+      "scrollWidth": 1113,
+      "sectionImages": [
+        "ESP32-S3 与 SSD1306 OLED 的四根连线"
+      ],
+      "url": "/zh/hardware/breadboard-esp32-s3.html#display",
+      "visibleImages": [
+        {
+          "alt": "麦克风与 MAX98357A 的直接连线：图中 3V3 功放支路与短接线按上文说明调整",
+          "loaded": true
+        },
+        {
+          "alt": "ESP32-S3 与 SSD1306 OLED 的四根连线",
+          "loaded": true
+        }
+      ],
+      "width": 1113
+    },
+    {
+      "headingTop": 133.60243225097656,
+      "scrollWidth": 433,
+      "url": "/zh/console/voice-cloning.html#upload",
+      "visibleImages": [
+        {
+          "alt": "音频编辑选区示意：边界外的内容不会提交，先试听所选片段",
+          "loaded": true
+        }
+      ],
+      "width": 433
+    },
+    {
+      "headingTop": 109.85243225097656,
+      "scrollWidth": 433,
+      "url": "/zh/firmware/online-builder.html#flash",
+      "visibleImages": [
+        {
+          "alt": "浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。",
+          "loaded": true
+        }
+      ],
+      "width": 433
+    },
+    {
+      "headingTop": 133.5416717529297,
+      "scrollWidth": 433,
+      "url": "/zh/hardware/external-wake-module.html#prototype",
+      "visibleImages": [
+        {
+          "alt": "核心板在面包板上的安装位置；先确认排针方向和相邻触点，避免跨接电源。",
+          "loaded": true
+        },
+        {
+          "alt": "样机的 ASR 输出到 S3 按钮输入示意。只用于理解信号关系；供电、电平、极性与启动行为须按具体模块确认。",
+          "loaded": true
+        }
+      ],
+      "width": 433
+    },
+    {
+      "headingTop": 109.76563262939452,
+      "scrollWidth": 433,
+      "url": "/zh/mcp/connect-existing-servers.html#scope",
+      "visibleImages": [
+        {
+          "alt": "已有 MCP 服务先选正确的传输方式",
+          "loaded": true
+        }
+      ],
+      "width": 433
+    },
+    {
+      "headingTop": 133.9757080078125,
+      "scrollWidth": 433,
+      "url": "/zh/development/mcp-gpio.html#led-wiring",
+      "visibleImages": [
+        {
+          "alt": "基础 S3 的 GPIO18 指示灯连接",
+          "loaded": true
+        }
+      ],
+      "width": 433
+    },
+    {
+      "headingTop": 109.8828125,
+      "maintainerLink": "https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/",
+      "scrollWidth": 390,
+      "url": "/zh/community/projects/sf32lb52-plugin.html#scope",
+      "width": 390
+    },
+    {
+      "externalTutorial": "https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/",
+      "hasCopiedDesignSections": false,
+      "scrollWidth": 1113,
+      "title": "SF32LB52：教程与固件入口 ​",
+      "url": "/zh/community/projects/sf32lb52-plugin.html",
+      "width": 1113
+    }
+  ],
+  "discussionEntry": {
+    "chineseQqPanelVisible": true,
+    "qqCopyStatusObserved": "群号已复制，可以打开 QQ 搜索。",
+    "escapeClosesPanel": true,
+    "mobile390PanelBounds": {
+      "left": 50,
+      "right": 326
+    },
+    "englishDiscordHref": "https://discord.gg/C759fGMBcZ"
+  },
+  "sf32Navigation": "https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/",
+  "viewportOverrideReset": true
+}

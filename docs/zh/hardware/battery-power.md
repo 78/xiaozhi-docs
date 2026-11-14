@@ -31,6 +31,13 @@ reviewNote: "USB 供电要求已对照开发板资料；续航、低负载保活
 移动电源的“边充边放”不是默认能力。需要同时充电和运行时，先确认其厂商明确支持，并验证切换电源时设备是否重启。
 :::
 
+<figure class="source-figure">
+
+[![用成品 USB 移动电源给基础 S3 供电](/images/zh/usb-power-bank.svg)](/images/zh/usb-power-bank.svg)
+
+<figcaption>用成品 USB 移动电源给基础 S3 供电。点击查看大图。</figcaption>
+</figure>
+
 ## 2. 设备自带电池接口时 {#battery-connector}
 
 只有板卡文档明确列出电池类型、允许电压、接口极性及充电口时，才按该板的说明使用。
@@ -59,6 +66,20 @@ reviewNote: "USB 供电要求已对照开发板资料；续航、低负载保活
 这部分需要按所选电路进行工程复核。不要凭颜色猜极性、通过“不亮”判断反接，或剪开电池引线通电试错。
 
 对 ESP32-S3-DevKitC-1，厂商将 USB、5V 排针、3V3 排针列为互斥的供电方式。该规定不意味着板子能给锂电池充电。[开发板供电说明](https://documentation.espressif.com/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html)。
+
+<figure class="source-figure">
+
+[![带引线和接插件的电池示例：必须按具体电池资料核对化学体系、电压和插头极性。](/images/zh/doc-34-image-002.webp)](/images/zh/doc-34-image-002.webp)
+
+<figcaption>带引线和接插件的电池示例：必须按具体电池资料核对化学体系、电压和插头极性。</figcaption>
+</figure>
+
+<figure class="source-figure">
+
+[![电源模块的 B+、B− 与 5V 焊点示例。USB 接口的输入/输出用途及充电、保护能力须按该模块资料确认。](/images/zh/doc-34-image-003.webp)](/images/zh/doc-34-image-003.webp)
+
+<figcaption>电源模块的 B+、B− 与 5V 焊点示例。USB 接口的输入/输出用途及充电、保护能力须按该模块资料确认。</figcaption>
+</figure>
 
 ## 怎么确认完成 {#verify}
 

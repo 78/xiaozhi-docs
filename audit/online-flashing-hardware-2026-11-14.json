@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "completedAt": "2026-11-14T10:06:51+08:00",
+  "status": "passed-with-defined-scope",
+  "authorization": "The maintainer connected the LCKFB ESP32-S3 and explicitly requested online flashing and screenshots.",
+  "target": {
+    "hardware": "LCKFB SZPI ESP32-S3 / 嘉立创实战派 S3",
+    "boardId": "lichuang-dev",
+    "chip": "ESP32-S3",
+    "connection": "macOS Chrome, native USB JTAG/serial and Web Serial",
+    "targetDisambiguation": "Two ESP32 serial devices were present. Runtime project/version and USB inventory distinguished the XiaoZhi target from another project; only the XiaoZhi device was flashed. Permanent USB identifiers and unrelated project details are omitted."
+  },
+  "firmware": {
+    "source": "Existing completed Console build",
+    "url": "https://xiaozhi.me/console/firmware-builder",
+    "displayedVersion": "2.6.0",
+    "sourceCommit": "67ca62d4bb7d91e514d7ccd5e6977745002f41f4",
+    "officialReleaseTagCommit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
+    "officialReleaseBinaryFlashed": false,
+    "parameters": {
+      "language": "zh-CN",
+      "wakeWord": "wn9_nihaoxiaozhi_tts",
+      "aec": false,
+      "multilineChat": true,
+      "wifiProvisioning": "hotspot"
+    },
+    "beforeVersion": "2.6.0",
+    "note": "This validates reinstallation of an online build, not a version upgrade and not byte-for-byte installation of the official Release ZIP."
+  },
+  "steps": [
+    {
+      "action": "Selected the identified XiaoZhi USB serial device in the native Chrome chooser.",
+      "result": "Port connected; no manual boot-button intervention was requested."
+    },
+    {
+      "action": "Executed the real Console flash workflow.",
+      "result": "The UI displayed ota_0 partition writes; progress screenshots captured at 3% and 25%, with the 25% frame published."
+    },
+    {
+      "action": "Waited for final successful completion.",
+      "result": "固件烧录完成，设备正在重新启动。"
+    },
+    {
+      "action": "Read startup serial output after Chrome released the port.",
+      "result": "Project xiaozhi, application 2.6.0, expected lichuang-dev name present, network reconnect and activating → idle observed."
+    }
+  ],
+  "startupEvidence": {
+    "projectName": "xiaozhi",
+    "appVersion": "2.6.0",
+    "expectedBoardMentioned": true,
+    "applicationStates": [
+      [
+        "unknown",
+        "starting"
+      ],
+      [
+        "starting",
+        "activating"
+      ],
+      [
+        "activating",
+        "idle"
+      ]
+    ],
+    "networkConnectedObserved": true,
+    "onlineIdleObserved": true,
+    "rawLogHandling": "Raw startup logs remain in a private external cache (directory 0700, file 0600); only this allowlisted summary is committed. No MAC, UUID, IP, Wi-Fi name/password, activation code or signed URL is copied to the repository."
+  },
+  "nvs": {
+    "wholeChipEraseRequested": false,
+    "existingNetworkUsableAfterFlash": true,
+    "rawNvsReadOrCompared": false,
+    "limit": "Automatic network reconnection supports configuration-retention behavior; this is not a bytewise NVS preservation test."
+  },
+  "screenshots": [
+    {
+      "path": "/images/zh/console-serial-picker-macos-2026-11-14.jpg",
+      "sha256": "c64e03815ce685434ce29e80d783ed82d60d1b523df58630c88aadca2c3b5f66",
+      "bytes": 83680,
+      "width": 896,
+      "height": 888,
+      "format": "jpeg",
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "method": "Real macOS Chrome Web Serial flow; original screenshot bytes copied without re-encoding.",
+      "caption": "macOS Chrome 的真实串口选择弹窗；已选中连接的小智设备。"
+    },
+    {
+      "path": "/images/zh/console-flash-progress-2026-11-14.jpg",
+      "sha256": "5b4feb30e68ce76211fde543e7e79a080434252ba0e26406917d90427d1536f9",
+      "bytes": 52206,
+      "width": 630,
+      "height": 757,
+      "format": "jpeg",
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "method": "Real macOS Chrome Web Serial flow; original screenshot bytes copied without re-encoding.",
+      "caption": "实际写入 ota_0 分区，进度25%。"
+    },
+    {
+      "path": "/images/zh/console-flash-success-2026-11-14.jpg",
+      "sha256": "12c5391ed54bd6811d0296d3f8e33b7cdf32e11cc5c9cd77af5f4d513d55f931",
+      "bytes": 12302,
+      "width": 630,
+      "height": 259,
+      "format": "jpeg",
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "method": "Real macOS Chrome Web Serial flow; original screenshot bytes copied without re-encoding.",
+      "caption": "实际烧录成功，界面显示设备正在重新启动。"
+    }
+  ],
+  "page": "docs/zh/firmware/online-builder.md",
+  "pageSha256": "34e7edb5e2616959b51be666221a7f2fb86b6b2aa336b62b21c5cf5bd3d8fc60",
+  "notTested": [
+    "Creation, queuing and compilation of a new build; the existing completed task was reused without spending compile quota.",
+    "The official v2.6.0 Release ZIP itself was not flashed; online Commit differs from the formal tag.",
+    "Physical display inspection, microphone/speaker quality, a full voice conversation, other boards and electrical safety."
+  ],
+  "verificationBaseline": {
+    "consoleSourceCommit": "49deb1be745e0f4d0b61d66248ac3d389d4461db",
+    "flashImplementation": "apps/console/src/features/firmware-builder/firmware-flash-dialog.tsx",
+    "firmwareTag": "v2.6.0"
+  },
+  "communityStatus": "Chinese review remains open; English is not translated or rehashed.",
+  "validation": {
+    "npmCheck": "passed",
+    "pageBrowserReview": {
+      "status": "passed",
+      "newImagesLoaded": 3,
+      "serialPicker": "Native macOS Chrome chooser figure is in the serial-port section.",
+      "progress": "Actual ota_0 / 25% figure is in the write-progress section.",
+      "success": "Actual green-check success dialog is in the restart section.",
+      "anchors": "Progress and success outline links locate the correct sections; intrinsic dimensions match the image registry."
+    },
+    "builtHtmlPages": 114,
+    "internalReferences": 8247,
+    "brokenReferences": 0,
+    "chineseImageOccurrences": 137,
+    "englishSourceHashesUpdated": 0
+  }
+}

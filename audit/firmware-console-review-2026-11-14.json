@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-14",
+  "officialRelease": {
+    "url": "https://github.com/78/xiaozhi-esp32/releases/tag/v2.6.0",
+    "releaseId": 444647826,
+    "publishedAt": "2026-11-13T19:34:49Z",
+    "draft": false,
+    "prerelease": false,
+    "tagCommit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
+    "downloadAssets": [
+      {
+        "name": "v2.6.0_bread-compact-wifi-128x64.zip",
+        "bytes": 1912531,
+        "sha256": "sha256:127397d74e46f30eb7d8f518c120e81196f6ea95c95ae57b8c8cc2661cfd7463",
+        "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-wifi-128x64.zip"
+      },
+      {
+        "name": "v2.6.0_bread-compact-wifi-lcd.zip",
+        "bytes": 2408514,
+        "sha256": "sha256:4c879ce3ebd967f7aaadde170700f79c957d51ff65208e6bdbbb2208a5131067",
+        "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-wifi-lcd.zip"
+      },
+      {
+        "name": "v2.6.0_bread-compact-wifi-s3cam.zip",
+        "bytes": 2511772,
+        "sha256": "sha256:ffee2d127d24bf0066bf41ee4f1b923d859dd12d3f814e4f107c82e407d62dac",
+        "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-wifi-s3cam.zip"
+      },
+      {
+        "name": "v2.6.0_bread-compact-wifi.zip",
+        "bytes": 1912479,
+        "sha256": "sha256:ba384f56cb52b2587086ef0952be2786f73dcb51c96babd99cc05efbd57dac54",
+        "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-wifi.zip"
+      },
+      {
+        "name": "v2.6.0_lckfb-lichuang-dev.zip",
+        "bytes": 2841938,
+        "sha256": "sha256:c34b1c359e53324cff9b7d0a0f2b1904911b89a4ddee55f37fe2d418e7282af1",
+        "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lckfb-lichuang-dev.zip"
+      }
+    ],
+    "downloadedPackageChecks": [
+      {
+        "name": "v2.6.0_bread-compact-wifi.zip",
+        "sha256": "ba384f56cb52b2587086ef0952be2786f73dcb51c96babd99cc05efbd57dac54",
+        "zipCrc": "passed",
+        "contents": [
+          {
+            "name": "merged-binary.bin",
+            "bytes": 8949709
+          }
+        ]
+      },
+      {
+        "name": "v2.6.0_lckfb-lichuang-dev.zip",
+        "sha256": "c34b1c359e53324cff9b7d0a0f2b1904911b89a4ddee55f37fe2d418e7282af1",
+        "zipCrc": "passed",
+        "contents": [
+          {
+            "name": "merged-binary.bin",
+            "bytes": 10164289
+          }
+        ]
+      }
+    ]
+  },
+  "console": {
+    "url": "https://xiaozhi.me/console/firmware-builder",
+    "displayedVersion": "2.6.0",
+    "displayedCommit": "67ca62d4bb7d91e514d7ccd5e6977745002f41f4",
+    "screenshots": [
+      {
+        "path": "/images/zh/console-builder-basic-2026-11-14.png",
+        "sha256": "7f05548f359b9d8ef6201934c8e6db4f2d7f4b9b309eebaa7c9586e91f801a46",
+        "bytes": 36393,
+        "width": 721,
+        "height": 516,
+        "source": "https://xiaozhi.me/console/firmware-builder",
+        "capturedAt": "2026-11-14",
+        "visiblePixelsIdentical": true
+      },
+      {
+        "path": "/images/zh/console-builder-network-2026-11-14.png",
+        "sha256": "ab51b6fc4ab3be0e20b61d847e131e2f92b85419244f10f8b23d933f414f0d85",
+        "bytes": 23327,
+        "width": 721,
+        "height": 370,
+        "source": "https://xiaozhi.me/console/firmware-builder",
+        "capturedAt": "2026-11-14",
+        "visiblePixelsIdentical": true
+      },
+      {
+        "path": "/images/zh/console-builder-history-2026-11-14.png",
+        "sha256": "9cb535c4312f65c68737fb7f01cfc0ea8cb80aefbefdc3eeaff605468babb8eb",
+        "bytes": 28074,
+        "width": 1065,
+        "height": 286,
+        "source": "https://xiaozhi.me/console/firmware-builder",
+        "capturedAt": "2026-11-14",
+        "visiblePixelsIdentical": true
+      },
+      {
+        "path": "/images/zh/console-flash-confirm-2026-11-14.png",
+        "sha256": "7dd24d469d2acf9e0ba654b3c18a0c7bea6684f7938bb40bd4fd6b842e4c489f",
+        "bytes": 50065,
+        "width": 631,
+        "height": 731,
+        "source": "https://xiaozhi.me/console/firmware-builder",
+        "capturedAt": "2026-11-14",
+        "visiblePixelsIdentical": true
+      },
+      {
+        "path": "/images/zh/console-serial-picker-macos-2026-11-14.jpg",
+        "sha256": "c64e03815ce685434ce29e80d783ed82d60d1b523df58630c88aadca2c3b5f66",
+        "bytes": 83680,
+        "width": 896,
+        "height": 888,
+        "format": "jpeg",
+        "source": "https://xiaozhi.me/console/firmware-builder",
+        "capturedAt": "2026-11-14",
+        "method": "Real macOS Chrome Web Serial flow; original screenshot bytes copied without re-encoding.",
+        "caption": "macOS Chrome 的真实串口选择弹窗；已选中连接的小智设备。"
+      },
+      {
+        "path": "/images/zh/console-flash-progress-2026-11-14.jpg",
+        "sha256": "5b4feb30e68ce76211fde543e7e79a080434252ba0e26406917d90427d1536f9",
+        "bytes": 52206,
+        "width": 630,
+        "height": 757,
+        "format": "jpeg",
+        "source": "https://xiaozhi.me/console/firmware-builder",
+        "capturedAt": "2026-11-14",
+        "method": "Real macOS Chrome Web Serial flow; original screenshot bytes copied without re-encoding.",
+        "caption": "实际写入 ota_0 分区，进度25%。"
+      },
+      {
+        "path": "/images/zh/console-flash-success-2026-11-14.jpg",
+        "sha256": "12c5391ed54bd6811d0296d3f8e33b7cdf32e11cc5c9cd77af5f4d513d55f931",
+        "bytes": 12302,
+        "width": 630,
+        "height": 259,
+        "format": "jpeg",
+        "source": "https://xiaozhi.me/console/firmware-builder",
+        "capturedAt": "2026-11-14",
+        "method": "Real macOS Chrome Web Serial flow; original screenshot bytes copied without re-encoding.",
+        "caption": "实际烧录成功，界面显示设备正在重新启动。"
+      }
+    ],
+    "scope": [
+      "Opened current production configuration dialog and inspected base and audio/network tabs.",
+      "Inspected an existing completed lichuang-dev task and opened the flash confirmation dialog.",
+      "Captured only instructional UI; no account menu, private device inventory, tokens or serial identifiers were published.",
+      "Completed real Web Serial flashing of the connected LCKFB S3 using the existing successful task; recorded progress and success.",
+      "Startup serial allowlist confirms xiaozhi 2.6.0, expected board name, network reconnect and idle."
+    ],
+    "notExecuted": [
+      "No build was submitted or quota spent.",
+      "No full-chip erase, official Release ZIP flashing, physical display/audio inspection or full voice conversation was performed."
+    ],
+    "distinction": "Console version 2.6.0 points to an earlier commit than the official v2.6.0 tag; tutorials distinguish version number from reproducible source revision.",
+    "hardwareVerification": "online-flashing-hardware-2026-11-14.json"
+  },
+  "boardNaming": {
+    "consoleBoardId": "lichuang-dev",
+    "releaseSuffix": "lckfb-lichuang-dev",
+    "sourceDirectory": "main/boards/lckfb/szpi-esp32s3",
+    "sourceConfig": "https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/main/boards/lckfb/szpi-esp32s3/config.json"
+  },
+  "publicationStatus": "Chinese community review; English translation remains pending.",
+  "validation": {
+    "npmCheck": "passed",
+    "builtHtmlPages": 114,
+    "internalReferences": 8247,
+    "missingInternalReferences": 0,
+    "chineseImageOccurrences": 137,
+    "rasterFiles": 105,
+    "rasterBytes": 23554307,
+    "translationStatus": "54 pending Chinese review; 2 existing stale; no existing English sourceHash updated",
+    "browserReview": {
+      "status": "passed",
+      "onlineBuilder": "Seven current Console screenshots and the retained Windows serial-selection example are placed in their relevant sections; three new hardware-flow figures decode at recorded dimensions. Progress and success anchors reviewed in the browser.",
+      "releasePage": "Sidebar entry, five downloads and online-first instructions render; page width 1113 equals viewport width 1113.",
+      "hardware": "Real online flash and reboot verified on one LCKFB S3; runtime 2.6.0, network reconnect and idle observed. Other hardware and physical display/audio not verified."
+    }
+  }
+}

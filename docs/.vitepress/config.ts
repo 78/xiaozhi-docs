@@ -4,6 +4,9 @@ import { createHash } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import { repositoryUrl, branch, hostname } from '../../site.config.mjs'
 import { sidebar } from './navigation'
+import imageDimensions from './data/image-dimensions.json'
+
+const localImageDimensions: Record<string, { width: number; height: number }> = imageDimensions
 
 export default defineConfig({
   title: 'XiaoZhi',
@@ -13,7 +16,22 @@ export default defineConfig({
   // Keep .html URLs: they work on GitHub Pages without rewrite rules.
   cleanUrls: false,
   lastUpdated: true,
-  markdown: { image: { lazyLoading: true } },
+  markdown: {
+    image: { lazyLoading: true },
+    config(md) {
+      const renderImage = md.renderer.rules.image!
+      md.renderer.rules.image = (tokens, index, options, env, self) => {
+        const token = tokens[index]
+        const dimensions = localImageDimensions[token.attrGet('src') || '']
+        if (dimensions) {
+          // Reserve the full figure before lazy loading, so chapter links do not jump above the diagram.
+          token.attrSet('width', String(dimensions.width))
+          token.attrSet('height', String(dimensions.height))
+        }
+        return renderImage(tokens, index, options, env, self)
+      }
+    }
+  },
   transformHead({ pageData }) {
     if (pageData.isNotFound) return []
     const path = pageData.relativePath.replace(/index\.md$/, '').replace(/\.md$/, '.html')

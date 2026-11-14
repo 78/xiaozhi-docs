@@ -14,11 +14,11 @@ GitHub 认证是给已登录的小智账号绑定 GitHub。它用于相应模型
 
 ## 准备工作 {#scope}
 
-准备自己的小智账号和 GitHub 账号，确认都能正常登录。账号、模型和权益以当前控制台显示为准，不沿用旧教程的内测或限时免费表。
+准备自己的小智账号和 GitHub 账号，确认都能正常登录。账号、模型和权益以当前控制台显示为准。
 
 ## 1. 打开认证页面 {#open}
 
-登录[小智控制台](https://xiaozhi.me/console/)，进入账号菜单中的 GitHub 认证；也可直接打开[GitHub 认证页](https://xiaozhi.me/console/github-auth)。历史 `/console/developer-auth` 入口仍可能跳到同一功能。
+登录[小智控制台](https://xiaozhi.me/console/)，进入账号菜单中的 GitHub 认证；也可直接打开[GitHub 认证页](https://xiaozhi.me/console/github-auth)。
 
 ## 2. 绑定并核对结果 {#bind}
 
@@ -27,9 +27,12 @@ GitHub 认证是给已登录的小智账号绑定 GitHub。它用于相应模型
 3. 返回小智后核对绑定用户名和认证状态；如果失败，先看页面错误，不重复使用过期回调地址。
 4. 重新打开模型和知识库页面，查看当前账号实际可用的选项及配额。
 
+<figure class="source-figure">
 
+[![GitHub 认证的操作顺序](/images/zh/github-auth-flow.svg)](/images/zh/github-auth-flow.svg)
 
-旧版界面的截图只用来追溯历史入口，不作为新控制台的点击位置图；新版步骤以页面上的功能名称为准。
+<figcaption>GitHub 认证的操作顺序。点击查看大图。</figcaption>
+</figure>
 
 ## 3. 理解权益范围 {#benefits}
 
@@ -40,7 +43,7 @@ GitHub 认证是给已登录的小智账号绑定 GitHub。它用于相应模型
 | 设备数量 | 以添加设备时的限制提示为准 |
 | 商家开发能力 | 与 GitHub 绑定分开，按商家平台要求办理 |
 
-不要把旧表格里的“即将上线”“内测”“限时免费”写成长期权益承诺。
+服务权益可能调整，购买或配置前再次核对账号页面。
 
 ## 取消绑定与验证 {#verify}
 
@@ -49,7 +52,3 @@ GitHub 认证是给已登录的小智账号绑定 GitHub。它用于相应模型
 ## 下一步 {#next}
 
 继续[知识库](./knowledge-base)或[声音复刻](./voice-cloning)。登录本身有问题时看[账号排查](../faq/account-and-binding)。
-
----
-
-资料来源：[DOC-01 · 小智AI 开发者认证](https://smvsudqc87.feishu.cn/docx/AjtQdM0KpoVQ3YxJfaLco4KsnSe)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。

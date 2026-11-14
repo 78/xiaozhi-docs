@@ -10,7 +10,7 @@ sourceArticles: ["DOC-11"]
 
 # 小智设备的硬件设计要点
 
-原厂商设计参考覆盖芯片、麦克风、电源、音频和结构，适合作为设计评审的起点。具体数值须保留器件、测量方法与版本前提，不把参考表改成所有小智硬件的统一规格。
+硬件设计需要同时考虑芯片资源、供电、音频和结构。先定义要实现的功能，再用器件资料和测试结果核对方案。
 
 ## 1. 从信号与负载选型 {#scope}
 
@@ -18,9 +18,9 @@ sourceArticles: ["DOC-11"]
 
 <figure class="source-figure">
 
-[![原制造约束表，属于当时供应商参考；今天的加工约束以实际厂家规格为准。](/images/zh/doc-11-image-001.webp)](/images/zh/doc-11-image-001.webp)
+[![芯片与语音能力的选型示意表：麦克风数量、唤醒、音频处理和显示需求需一起考虑。具体支持范围按所用固件核对。](/images/zh/doc-11-image-001.webp)](/images/zh/doc-11-image-001.webp)
 
-<figcaption>原制造约束表，属于当时供应商参考；今天的加工约束以实际厂家规格为准。 来源：DOC-11 原图 1。</figcaption>
+<figcaption>芯片与语音能力的选型示意表：麦克风数量、唤醒、音频处理和显示需求需一起考虑。具体支持范围按所用固件核对。</figcaption>
 </figure>
 
 ## 2. 供电与噪声 {#power}
@@ -43,12 +43,8 @@ sourceArticles: ["DOC-11"]
 
 ## 怎么确认完成 {#verify}
 
-设计评审能把每个承诺追溯到电路、器件资料和具体测试。原文厂商表保留为有出处的参考，不把所有未经独立复测的参数标成小智项目强制要求。
+设计评审能把每个承诺追溯到电路、器件资料和具体测试。选型示意不能代替当前固件兼容性、器件电气参数或实际测试。
 
 ## 下一步 {#next}
 
-准备选料看[硬件选型](./choosing-hardware)，准备接入软件看[独立板型](../development/custom-board)。原始厂商资料及图表来源随 DOC-11 素材记录保留。
-
----
-
-资料来源：[DOC-11 · AI类产品乐鑫设计参考以及要求](https://icnynnzcwou8.feishu.cn/docx/KCotdF4KgocDm0xqXcycBtGLnWe)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。
+准备选料看[硬件选型](./choosing-hardware)，准备接入软件看[独立板型](../development/custom-board)。

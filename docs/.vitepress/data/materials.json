@@ -3,42 +3,28 @@
     {
       "id": "DOC-07-file-001",
       "name": "lv_0_20250815214436.mp4",
-      "label": "原摄像头面包板接线视频（旧版硬件，按本文表格核对）",
+      "label": "摄像头面包板接线视频（旧版硬件，按本文表格核对）",
       "kind": "video",
       "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-07-file-001.mp4",
       "size": 28782480,
       "sha256": "30fff5915040b404414af57679f4ff44d0e016baf494d67f1055a2054b7dbeb7",
       "sourceArticle": "DOC-07",
       "duration": 137.2,
-      "note": "历史录像；已抽取关键帧审阅，未逐帧核验。"
+      "note": "录制界面与当前版本可能不同，操作以正文为准。"
     }
   ],
   "DOC-17": [
     {
       "id": "DOC-17-file-001",
       "name": "成品2.mp4",
-      "label": "原设备对话效果示例（不是控制台操作教程）",
+      "label": "设备对话效果示例（不是控制台操作教程）",
       "kind": "video",
       "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-17-file-001.mp4",
       "size": 144139368,
       "sha256": "e8d48f26ebbba6935c4fc50b44bd32a9b632b06ec254e7ca316b1f59a6d7c796",
       "sourceArticle": "DOC-17",
       "duration": 28.6,
-      "note": "历史录像；已抽取关键帧审阅，未逐帧核验。"
-    }
-  ],
-  "DOC-18": [
-    {
-      "id": "DOC-18-file-001",
-      "name": "7eee09a7097f9ef063be600f406aa498.mp4",
-      "label": "原在线编译操作录屏（历史界面）",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-18-file-001.mp4",
-      "size": 2073457,
-      "sha256": "f186bdaaf3e1b002c030eb9bd1651672fdce27f9178ee0a865aa17284cd6fb7a",
-      "sourceArticle": "DOC-18",
-      "duration": 114.3,
-      "note": "历史录像；已抽取关键帧审阅，未逐帧核验。"
+      "note": "录制界面与当前版本可能不同，操作以正文为准。"
     }
   ],
   "DOC-25": [
@@ -51,197 +37,21 @@
       "size": 5665,
       "sha256": "e1c3d3c80c5223e53a734f608b3e9bab6a1b6bf9cb3eea7cb389605544de9f77",
       "sourceArticle": "DOC-25",
-      "note": "旧示例归档；未执行。新示例使用文档仓库 examples/mcp/web_search.py。"
-    }
-  ],
-  "DOC-30": [
-    {
-      "id": "DOC-30-file-001",
-      "name": "插件版原理图.pdf",
-      "label": "插件版原理图.pdf",
-      "kind": "file",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-001.pdf",
-      "size": 177400,
-      "sha256": "e562a00ad2ef0a87d70507260624ad61898ddcf483209763fa4e639520d4702d",
-      "sourceArticle": "DOC-30",
-      "note": "原 V1.3 设计资料；PA34、电源及制造方案尚待工程验证。"
-    },
-    {
-      "id": "DOC-30-file-002",
-      "name": "DXF_小智AI插件版V1.3_AutoCAD2007.dxf",
-      "label": "DXF_小智AI插件版V1.3_AutoCAD2007.dxf",
-      "kind": "file",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-002.dxf",
-      "size": 2677953,
-      "sha256": "090c37eaa3d3fccd6bd16596fb0ec27ca258db5022c0c2bba2ba7d4e49b89465",
-      "sourceArticle": "DOC-30",
-      "note": "原 V1.3 设计资料；PA34、电源及制造方案尚待工程验证。"
-    },
-    {
-      "id": "DOC-30-file-003",
-      "name": "3D_插件版V1.3外壳设计V1_底壳.stl",
-      "label": "3D_插件版V1.3外壳设计V1_底壳.stl",
-      "kind": "file",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-003.stl",
-      "size": 1059604,
-      "sha256": "aae5efabbe411aa4ed6e70a73f144e24e3d0a4695d9b9dcef775a623407d41f1",
-      "sourceArticle": "DOC-30",
-      "note": "原 V1.3 设计资料；PA34、电源及制造方案尚待工程验证。"
-    },
-    {
-      "id": "DOC-30-file-004",
-      "name": "3D_插件版V1.3外壳设计V1_顶壳.stl",
-      "label": "3D_插件版V1.3外壳设计V1_顶壳.stl",
-      "kind": "file",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-004.stl",
-      "size": 464548,
-      "sha256": "f8f4aedbdbf4203a6ce36930f831d5e07dd1b856560183cd921a6c1d0230c3a2",
-      "sourceArticle": "DOC-30",
-      "note": "原 V1.3 设计资料；PA34、电源及制造方案尚待工程验证。"
-    },
-    {
-      "id": "DOC-30-file-005",
-      "name": "按键帽.STL",
-      "label": "按键帽.STL",
-      "kind": "file",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-005.stl",
-      "size": 355184,
-      "sha256": "def39bb42a9b0f7a65f8237e7ca424cbf485f511001087d2859a237f4fe8d955",
-      "sourceArticle": "DOC-30",
-      "note": "原 V1.3 设计资料；PA34、电源及制造方案尚待工程验证。"
-    },
-    {
-      "id": "DOC-30-file-006",
-      "name": "Panel_插件版v1.3面板设计v1_2025-08-15.epanm",
-      "label": "Panel_插件版v1.3面板设计v1_2025-08-15.epanm",
-      "kind": "file",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-006.epanm",
-      "size": 5315,
-      "sha256": "0c3c96b02fea5c9994ffab9bd5542268cb8e72b088c5a58bc00053208f8c369c",
-      "sourceArticle": "DOC-30",
-      "note": "原 V1.3 设计资料；PA34、电源及制造方案尚待工程验证。"
-    },
-    {
-      "id": "DOC-30-file-008",
-      "name": "思澈小智AI展示_未完善-08-11.mp4",
-      "label": "原插件版设备展示",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-008.mp4",
-      "size": 154650625,
-      "sha256": "602e3ee7b6e91495574e31ce459b9b48473fd3adad97840a94b25f580257c501",
-      "sourceArticle": "DOC-30",
-      "duration": 54.0,
-      "note": "历史录像；已抽取关键帧审阅，未逐帧核验。"
-    },
-    {
-      "id": "DOC-30-file-010",
-      "name": "20250813114210_rec_.mp4",
-      "label": "外壳 CAD 录屏：壳体轮廓",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-010.mp4",
-      "size": 13565958,
-      "sha256": "1f20ebc9c8c46ab5c977780bdb4c2a414e5b27f089d0b52fabd88748f6e0e130",
-      "sourceArticle": "DOC-30",
-      "duration": 44.0,
-      "note": "历史录像；已抽取关键帧审阅，未逐帧核验。"
-    },
-    {
-      "id": "DOC-30-file-011",
-      "name": "20250813135726_rec_.mp4",
-      "label": "外壳 CAD 录屏：前壳",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-011.mp4",
-      "size": 13517324,
-      "sha256": "7772c1a758ca0e0a23a8751b3ec80429c457a7f72af5da4ec663a355531b5dd1",
-      "sourceArticle": "DOC-30",
-      "duration": 69.0,
-      "note": "历史录像；已抽取关键帧审阅，未逐帧核验。"
-    },
-    {
-      "id": "DOC-30-file-012",
-      "name": "20250813140830_rec_.mp4",
-      "label": "外壳 CAD 录屏：按钮",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-012.mp4",
-      "size": 12253359,
-      "sha256": "c2618239a07f4a82f03f9302e8448d23170f705d3fc4de75df9a094001ac4d20",
-      "sourceArticle": "DOC-30",
-      "duration": 29.2,
-      "note": "历史录像；已抽取关键帧审阅，未逐帧核验。"
-    },
-    {
-      "id": "DOC-30-file-013",
-      "name": "20250813141033_rec_.mp4",
-      "label": "外壳 CAD 录屏：按钮与开孔",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-013.mp4",
-      "size": 11857384,
-      "sha256": "a31e9db3d1522d78cdeb4102577b707fe9837edc6afea8b4e4a0d1e20777c104",
-      "sourceArticle": "DOC-30",
-      "duration": 50.7,
-      "note": "历史录像；已抽取关键帧审阅，未逐帧核验。"
-    },
-    {
-      "id": "DOC-30-file-014",
-      "name": "20250813145527_rec_.mp4",
-      "label": "外壳 CAD 录屏：底壳",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-014.mp4",
-      "size": 16837758,
-      "sha256": "78fe37b26c63f711b58cdf8b1cfb1ec3457d00223d5a64908b1ff646a2e8b727",
-      "sourceArticle": "DOC-30",
-      "duration": 35.6,
-      "note": "历史录像；已抽取关键帧审阅，未逐帧核验。"
-    },
-    {
-      "id": "DOC-30-file-015",
-      "name": "20250813150146_rec_.mp4",
-      "label": "外壳 CAD 录屏：扬声器格栅",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-015.mp4",
-      "size": 9472919,
-      "sha256": "fa98529755aae19b30c439444f35308141a694f06b38e91df35128cc97a3ffb8",
-      "sourceArticle": "DOC-30",
-      "duration": 27.8,
-      "note": "历史录像；已抽取关键帧审阅，未逐帧核验。"
-    },
-    {
-      "id": "DOC-30-file-016",
-      "name": "20250813151144_rec_.mp4",
-      "label": "外壳 CAD 录屏：侧面与壳体切割",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-016.mp4",
-      "size": 59309488,
-      "sha256": "57dd87b5b55b16678a54edaf4298bfda6fedeaeacac151f97b56e5a8e72651be",
-      "sourceArticle": "DOC-30",
-      "duration": 169.5,
-      "note": "历史录像；已抽取关键帧审阅，未逐帧核验。"
-    },
-    {
-      "id": "DOC-30-file-021",
-      "name": "20251215170154_rec_.mp4",
-      "label": "原 SF32 固件下载操作录屏（地址以所用固件为准）",
-      "kind": "video",
-      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-30-file-021.mp4",
-      "size": 7579676,
-      "sha256": "ae7afaa9790ae0647a9ceb91ffeb61c29dc68902bb45df83d8e129ee7619a98e",
-      "sourceArticle": "DOC-30",
-      "duration": 78.8,
-      "note": "历史录像；已抽取关键帧审阅，未逐帧核验。"
+      "note": "历史 GUI 示例；当前维护的最小示例为 examples/mcp/web_search.py。"
     }
   ],
   "DOC-33": [
     {
       "id": "DOC-33-file-001",
       "name": "video_20250726_171117.mp4",
-      "label": "原 IDE 板型目录操作录屏（旧目录，仅作历史参考）",
+      "label": "板级代码目录定位演示（录制目录与当前版本不同）",
       "kind": "video",
       "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-33-file-001.mp4",
       "size": 42429688,
       "sha256": "3138027c604f4639bedc161f46216dba6ca83759c8e9b89f8c45e35258c545f6",
       "sourceArticle": "DOC-33",
       "duration": 22.7,
-      "note": "历史录像；已抽取关键帧审阅，未逐帧核验。HEVC 格式；浏览器不支持时请下载播放。"
+      "note": "当前板级代码按正文 v2.6.0 链接定位。HEVC 格式；浏览器不支持时可下载播放。"
     }
   ],
   "DOC-41": [
@@ -254,7 +64,7 @@
       "size": 4586157,
       "sha256": "56232f8040d772223e7a46ac5ebb3e8f3037073a2a9278661043fd4c8ee2f29b",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-002",
@@ -265,7 +75,7 @@
       "size": 1247,
       "sha256": "fe93456bc2e8326589191864bb16e84116adaa49cbdf8fec225c19bda71e601d",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-003",
@@ -276,7 +86,7 @@
       "size": 3932397,
       "sha256": "def2fb503a7e67e7b25c374cac540d3a109a5d1361e68db53570f32f10b22a61",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-004",
@@ -287,7 +97,7 @@
       "size": 1006,
       "sha256": "96aa3173fb41c90730b734d5cba6f2714e4b2a2bdaf1513567f807a272995728",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-005",
@@ -298,7 +108,7 @@
       "size": 2721290,
       "sha256": "314213d023a70b02f8c0fd8ff3fcde0e31222025fb5e5b1df40232f28806ca44",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-006",
@@ -309,7 +119,7 @@
       "size": 1236,
       "sha256": "5f3b6c929790775318537b661d852160d5e9cea3986e85f3bea42e4a18ca9a53",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-007",
@@ -320,7 +130,7 @@
       "size": 1849537,
       "sha256": "f25c2a3acfec620975c2a843ec8fdcd77386599075b3579b3bb5b6fd53da5229",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-008",
@@ -331,7 +141,7 @@
       "size": 750,
       "sha256": "7c6b12d27a8f9bf4a8741df0bd6f9f5a5a2ffdcc7e81a454e9776ccd2df2846a",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-009",
@@ -342,7 +152,7 @@
       "size": 39260200,
       "sha256": "4bf19a822f49de9fe699400999dc92b9bcfc20a56a1fec79184344ba96f82244",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-010",
@@ -353,7 +163,7 @@
       "size": 1389,
       "sha256": "dc70dee6323f00921d6f4323c93fe56c77b54d7e8086355fedce6ad57a742456",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-011",
@@ -364,7 +174,7 @@
       "size": 2363388,
       "sha256": "e7fa93614429bb369b2ac3d88cb0b869324e206768975ba0f08cd1af56170fd1",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-012",
@@ -375,7 +185,7 @@
       "size": 1185,
       "sha256": "b2a7e68c67d60eb29227f1827b323642caa6c78267d143795bd511046e3ca96c",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-013",
@@ -386,7 +196,7 @@
       "size": 34905640,
       "sha256": "ccc78a376bfc43dc6966d6ef8a068c58661d6aca765a43b14e59f451556464d6",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-014",
@@ -397,7 +207,7 @@
       "size": 957,
       "sha256": "97e0c2dca32114ed9ccc56e24daf407bb03b3753fce067ed19305d68f732bdf6",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-015",
@@ -408,7 +218,7 @@
       "size": 39705640,
       "sha256": "4c0f8806a9eb06b3ddb61c7306fe31ac90f7e74f85c849d7ad91c6ba1d38eabf",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-016",
@@ -419,7 +229,7 @@
       "size": 907,
       "sha256": "aa156408c397af745477f3c17434b0f65cfac6f57f04c262947491903362b49c",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-017",
@@ -430,7 +240,7 @@
       "size": 35205160,
       "sha256": "3ea29aa9ff05f5e734a1dc976084726ac8ec836551317944252669f5cfb6d52d",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-018",
@@ -441,7 +251,7 @@
       "size": 446,
       "sha256": "ea5ffa60b04b07fc61e83be5a75eaabeaa82485bf3e700e7d3903fc4972cf6e5",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-019",
@@ -452,7 +262,7 @@
       "size": 52893046,
       "sha256": "b72d178edfd40b57fecfbb25bbd3e62f1e5b0e188ab7464171eb8ba404ac483a",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-020",
@@ -463,7 +273,7 @@
       "size": 568,
       "sha256": "2a4b6c0bf69978eaf26380a77a00f90097737631cbe1c82c0ee30a04a20f97da",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-021",
@@ -474,7 +284,7 @@
       "size": 52514798,
       "sha256": "e2d753e0e275c6529bb3b85542f6a4446870332762a4c8cbbbf973ecd3ae69d4",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-022",
@@ -485,7 +295,7 @@
       "size": 627,
       "sha256": "28d48e1e719d777977cea60832ecd6d8273baf1f0bb79437bb528e55c6075325",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-023",
@@ -496,7 +306,7 @@
       "size": 36994600,
       "sha256": "27fa728e07e685ccfd7b481257bcac30ba91417436d27b8d006fec2cea9dbae4",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-024",
@@ -507,7 +317,7 @@
       "size": 799,
       "sha256": "08868c1855fcead922481eb83d7791d62ddaf961a73b4ecc64c064770cfeb54b",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-025",
@@ -518,7 +328,7 @@
       "size": 20011406,
       "sha256": "51c9051c84e75f7613e7b77583c8f2a727422bf7632503515df44aad23649eab",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-026",
@@ -529,7 +339,7 @@
       "size": 544,
       "sha256": "8fc81e779a8eba43f15c7ac648ce0cb1ef288c19bc3076f1f85e8dfc3c93109f",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-027",
@@ -540,7 +350,7 @@
       "size": 15190934,
       "sha256": "99c3dfbdd9ba5d9ca5faca2f9dbbd8c7a397b0435b1f554076f1cd03a855f597",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-028",
@@ -551,7 +361,7 @@
       "size": 284,
       "sha256": "92cb206c3d3a0eb330e859bc91057ab5960132fec2918eb6afd921a252e5edb6",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-029",
@@ -562,7 +372,7 @@
       "size": 8425000,
       "sha256": "007997f3ac9d1111e0fb75888d365c4e2ac7c42655dce84144ab17aa740d7355",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-030",
@@ -573,7 +383,7 @@
       "size": 317,
       "sha256": "126759894958f7762b38f68da1a8179c188dd273dc22798ac9cf5fb0e9f6a168",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-031",
@@ -584,7 +394,7 @@
       "size": 19872318,
       "sha256": "6c988a4494d16c48291f2c3110972b2c6fb99ce6df3e8c2ef399548caff88b39",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-032",
@@ -595,7 +405,7 @@
       "size": 527,
       "sha256": "7c27e0dd1cc034c09be444b9293247c4f398b203f3efa27c2118b3803dbce0f5",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-033",
@@ -606,7 +416,7 @@
       "size": 2148946,
       "sha256": "25ccb5e5ac1c1aae2b50faebc52dbabe162932248ea2e04bc9f51b5642e00920",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     },
     {
       "id": "DOC-41-file-034",
@@ -617,34 +427,34 @@
       "size": 418,
       "sha256": "dafb127604103d0476552b91e202944283bc7aaae9bbdea77507c5efa3d6820a",
       "sourceArticle": "DOC-41",
-      "note": "原文声明 MIT；保留原作品来源和声明，不新增第三方授权保证。"
+      "note": "贡献者声明 MIT；使用前查看具体许可与第三方权利。"
     }
   ],
   "DOC-43": [
     {
       "id": "DOC-43-file-001",
       "name": "教程专用.mp4",
-      "label": "原联网查询设备效果演示",
+      "label": "联网查询设备效果演示",
       "kind": "video",
       "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-43-file-001.mp4",
       "size": 16013248,
       "sha256": "f3a96659042438be5fff445181443af04973cd03959f24feac784a2bad048366",
       "sourceArticle": "DOC-43",
       "duration": 11.8,
-      "note": "历史录像；已抽取关键帧审阅，未逐帧核验。HEVC 格式；浏览器不支持时请下载播放。"
+      "note": "录制界面与当前版本可能不同，操作以正文为准。HEVC 格式；浏览器不支持时请下载播放。"
     }
   ],
   "DOC-36": [
     {
       "id": "DOC-36-file-002",
       "name": "ESP8266-PC网络唤醒模块_vOpen_1.107.6.bin",
-      "label": "原 ESP8266 WoL 固件 vOpen 1.107.6（第三方案例）",
+      "label": "ESP8266 WoL 固件 vOpen 1.107.6（第三方案例）",
       "kind": "file",
       "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-36-file-002.bin",
       "size": 529440,
       "sha256": "e53c81c3ef45ab524e7001cbc329cc56847efcf73fd2504dae804e670f7f15b0",
       "sourceArticle": "DOC-36",
-      "note": "来自原作者；不是 xiaozhi-esp32 固件。未执行、未烧录或逆向验证；按原模块版本使用。"
+      "note": "社区提供；不是 xiaozhi-esp32 固件；仅供对应版本的 ESP8266 WoL 模块使用。"
     }
   ]
 }

@@ -11,7 +11,7 @@ archive: true
 
 # 旧版 P3 提示音流程
 
-本页是历史用法说明。原教程把 P3 放入 `main/assets/zh-CN` 并修改生成的 `lang_config.h`；当前默认 locale 资源流程已经改用 OGG，不能直接照搬旧路径。
+本页是历史用法说明。历史实现曾将 P3 放入 `main/assets/zh-CN` 并修改生成的 `lang_config.h`；当前默认 locale 资源流程已经改用 OGG，不能直接照搬旧路径。
 
 ## 什么情况下查阅 {#scope}
 
@@ -30,7 +30,3 @@ archive: true
 请使用[自定义提示音](../custom-prompts)，按当前 locale、OGG/Opus 和资源生成器处理。先保留原始录音，再转换，不靠更改扩展名把 P3 变成 OGG。
 
 原截图已归类为旧版路径说明，不迁成当前菜单或代码位置图。
-
----
-
-资料来源：[DOC-42 · 小智修改默认提示音频，转换自己的P3音频文件（例如开机播报和配网播报）](https://icnynnzcwou8.feishu.cn/docx/E2o4dGZPkoJgA2x2iEocjQtnnqJ)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。

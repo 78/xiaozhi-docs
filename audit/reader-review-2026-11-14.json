@@ -1,0 +1,4274 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-14",
+  "scope": "55个既有中文页完成读者视角复查；本轮补充v2.6.0正式版本页，共56页。44篇飞书来源、749个来源图片引用的原统计范围保持不变；新版Console实拍另记。",
+  "summary": {
+    "pagesReviewed": 56,
+    "sourceArticlesReviewed": 44,
+    "changedChinesePages": 46,
+    "sourceImageReferencesSurveyed": 749,
+    "retainedSourceImageReferences": 106,
+    "retainedUniqueImageFiles": 98,
+    "newlyAdoptedImageReferences": 17,
+    "removedOutdatedImageReferences": 16,
+    "newDiagrams": 16,
+    "videosInCurrentArticles": 4,
+    "historicalVideosInReleaseOnly": 10,
+    "communityConfirmed": 0,
+    "retainedUniqueSourceImages": 100,
+    "currentConsoleScreenshots": 7,
+    "hardwareOnlineFlashingBoardsVerified": 1,
+    "maintainedFirmwareVersions": [
+      "v2.6.0",
+      "v1.9.4"
+    ],
+    "firmwareCatalogRows": 287,
+    "legacyVersionRedirectPages": 2
+  },
+  "basis": {
+    "firmwareCommit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
+    "firmwareVersion": "v2.6.0",
+    "consoleCommit": "49deb1be745e0f4d0b61d66248ac3d389d4461db",
+    "externalToolReferences": [
+      "https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32s3/production_stage/tools/flash_download_tool.html",
+      "https://www.twen51.com/new/art_show.php?id=230",
+      "https://www.twen51.com/new/learning_show.php?id=559",
+      "https://pyserial.readthedocs.io/en/latest/tools.html#module-serial.tools.miniterm"
+    ]
+  },
+  "communityEntry": {
+    "config": "docs/.vitepress/data/community.json",
+    "source": "https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/README.md#about-the-project",
+    "qqGroup": "1095994019",
+    "discord": "https://discord.gg/C759fGMBcZ",
+    "discrepancy": "主 README 群号1095994019；README_zh/ja仍为1011329060。采用主README，不在未标明序号时凭记忆给QQ群标25。正文不放群号、社交号与群二维码。"
+  },
+  "limitations": [
+    "749 个图片引用均已通过接触表与正文上下文复查；关键接线、极性、接口和新采用界面另放大。接触表筛选不等于所有未采用图已完成原尺寸内容/隐私/许可验收。",
+    "14 个可读取视频仍为抽样关键帧；4 个在当前文章提供，SF32与旧在线编译的10个视频仅留既有素材 Release 历史归档，当前SF32操作转维护者教程；不宣称全片逐帧检查。DOC-28 三个历史附件不可读。",
+    "哈希、格式与页面放置检查不代替全板型真机、电气、制造、生产 Console、第三方服务或完整许可核验。",
+    "DOC-08 一张历史嵌入映射表仍不可读；现行安装不依赖它。",
+    "生产 Console、计费与全部硬件没有执行完整交互/实测；流程依据当前本地Console源码，中文继续社区校对，英文不翻译/不刷新哈希。"
+  ],
+  "pages": [
+    {
+      "page": "docs/zh/community/contributing.md",
+      "sourceArticles": [],
+      "editorialStatus": "checked",
+      "changed": false,
+      "judgment": "问题反馈→提交修正→中文确认后翻译；无需教学截图，不混入源材料或迁移调试。",
+      "readingOrder": [
+        "报告问题",
+        "提交修正",
+        "帮助翻译"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": null,
+      "contentSha256": "36f0f74600e022e6ca191723027e5556d90d708da1a798e6370b36f772cce879",
+      "previousContentSha256": "36f0f74600e022e6ca191723027e5556d90d708da1a798e6370b36f772cce879",
+      "communityStatus": "section-or-contribution-page"
+    },
+    {
+      "page": "docs/zh/community/index.md",
+      "sourceArticles": [],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "案例与目录分开，保留维护者和平台边界；迁移检查内容不在阅读反馈段显示。",
+      "readingOrder": [
+        "选择教程",
+        "阅读与反馈"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": null,
+      "contentSha256": "6052d4a737795de903843060f8f18445974907a0205b6e5271958a75fd7475f1",
+      "previousContentSha256": "688384ad3bfd89d9aa8b9b7a94ac15234173ee35ab5e17597481df1a28b1a70e",
+      "communityStatus": "section-or-contribution-page"
+    },
+    {
+      "page": "docs/zh/community/mcp-tools.md",
+      "sourceArticles": [
+        "DOC-26",
+        "DOC-27",
+        "DOC-28",
+        "DOC-43"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "先选维护方式，再按项目查看维护入口；纠正工具市场图误称架构图，设备效果视频仅说明搜索效果。",
+      "readingOrder": [
+        "先选择维护方式",
+        "小智 MCPTools",
+        "xiaozhi-mcphub",
+        "HyperChat / McpPipe 桥接组合",
+        "闪猫联网搜索",
+        "接入前检查",
+        "怎么确认可用"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-27-image-006.webp",
+          "alt": "xiaozhi-mcphub 的工具市场列表：这是挑选服务的界面，不是连接架构图。",
+          "anchor": "mcphub",
+          "heading": "xiaozhi-mcphub"
+        }
+      ],
+      "attachments": [
+        "<SourceMaterials article=\"DOC-43\" />"
+      ],
+      "reviewNoteInAudit": "\"第三方项目与样机尚未全部实测，使用前核对具体版本与硬件条件。\"",
+      "contentSha256": "4133db629dc3223f4881e0bbea36fdfab7981a58492b42f9772fc3597d60c878",
+      "previousContentSha256": "d0e336586a512744f66e658504f5115837f3ca662f5c50d50e22100bcdabedcc",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/community/open-hardware.md",
+      "sourceArticles": [
+        "DOC-37"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "目录→复刻条件→投稿→下一步；原作者与设计链接保留，群号不嵌入文章。",
+      "readingOrder": [
+        "项目与作者",
+        "怎样判断是否适合复刻",
+        "贡献新项目",
+        "下一步"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "2a2903bd1bea354de49de7d7b9543904e9b630ce768a3bd1e4802d6f1a50daed",
+      "previousContentSha256": "6b020d1ce08c9eef9a748bf425799d59340d2218f6310ffcb5be32ce93091e75",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/community/projects/astronaut-storyteller.md",
+      "sourceArticles": [
+        "DOC-44"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "目标→断电拆机→音频→BAT/VIN/OUT电源→按键两端→装壳→验证；补电源与按键照片，保留板修订和3V3功放支路边界。",
+      "readingOrder": [
+        "1. 拆机与识别",
+        "2. 新语音部分",
+        "3. 电池、USB 和原板复用",
+        "4. 按键、固件与装壳",
+        "怎么确认完成",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-44-image-001.webp",
+          "alt": "原太空人故事机与改造目标。",
+          "anchor": null,
+          "heading": "太空人故事机改造案例"
+        },
+        {
+          "image": "/images/zh/doc-44-image-003.jpg",
+          "alt": "示例样机 PCB 拆解照片，仅适用该板修订。",
+          "anchor": "scope",
+          "heading": "1. 拆机与识别"
+        },
+        {
+          "image": "/images/zh/doc-44-image-004.webp",
+          "alt": "原板另一视角；拆除器件前必须确认电路。",
+          "anchor": "scope",
+          "heading": "1. 拆机与识别"
+        },
+        {
+          "image": "/images/zh/doc-44-image-005.webp",
+          "alt": "INMP441 麦克风模块。",
+          "anchor": "audio",
+          "heading": "2. 新语音部分"
+        },
+        {
+          "image": "/images/zh/doc-44-image-006.webp",
+          "alt": "MAX98357A 功放模块。",
+          "anchor": "audio",
+          "heading": "2. 新语音部分"
+        },
+        {
+          "image": "/images/zh/doc-44-image-007.webp",
+          "alt": "原功放模块接线参考。",
+          "anchor": "audio",
+          "heading": "2. 新语音部分"
+        },
+        {
+          "image": "/images/zh/doc-44-image-008.webp",
+          "alt": "原语音模块组装。",
+          "anchor": "audio",
+          "heading": "2. 新语音部分"
+        },
+        {
+          "image": "/images/zh/doc-44-image-009.webp",
+          "alt": "原语音部分的另一视角。",
+          "anchor": "audio",
+          "heading": "2. 新语音部分"
+        },
+        {
+          "image": "/images/zh/doc-44-image-012.webp",
+          "alt": "样机电源模块的 OUT 5V、BAT、VIN 和 GND 标注。输入、电池与输出不能互换；接线前核对具体模块原理图。",
+          "anchor": "power",
+          "heading": "3. 电池、USB 和原板复用"
+        },
+        {
+          "image": "/images/zh/doc-44-image-015.webp",
+          "alt": "原改造样机完成状态。",
+          "anchor": "build",
+          "heading": "4. 按键、固件与装壳"
+        },
+        {
+          "image": "/images/zh/doc-44-image-016.webp",
+          "alt": "装壳效果。",
+          "anchor": "build",
+          "heading": "4. 按键、固件与装壳"
+        },
+        {
+          "image": "/images/zh/doc-44-image-013.webp",
+          "alt": "这块样机按键板上的信号引出点：先测量导通、有效电平和原板供电，再接入主控。",
+          "anchor": "build",
+          "heading": "4. 按键、固件与装壳"
+        },
+        {
+          "image": "/images/zh/doc-44-image-014.webp",
+          "alt": "样机的按键信号引到 S3 接口与 BOOT 附近。照片用于识别焊点，不能直接套用到其他 PCB 修订。",
+          "anchor": "build",
+          "heading": "4. 按键、固件与装壳"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"第三方项目与样机尚未全部实测，使用前核对具体版本与硬件条件。\"",
+      "contentSha256": "0177ebcdd3e40c3559c57dbee02b8410c5837f348e63fc10d60b0b66ae10a149",
+      "previousContentSha256": "7e3e10ef7bfcf5bb51026990f9936bdb7cdea4a5fabed395832ca302ced081e6",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/community/projects/sf32lb52-plugin.md",
+      "sourceArticles": [
+        "DOC-30"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "按用户要求改为简短外链入口：已核对嘉立创完整教程及固件/资料页面，中文导航直达维护者；保留稳定本地URL、识别图和SF32平台差异，不复制电路/制作/软件教程。旧素材与校验值保留归档。",
+      "readingOrder": [
+        "教程与设计资料",
+        "固件与使用",
+        "认识这套硬件",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-30-image-001.webp",
+          "alt": "插件版原型与外观。",
+          "anchor": "hardware",
+          "heading": "认识这套硬件"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已核对嘉立创教程目录、固件与资料下载页面；本站只维护入口，不复制设计和操作规范。\"",
+      "contentSha256": "a7c1d7ed0179c5fc9e63d33d4167ddb4a20545e200a6cf13dad26c9ab8491063",
+      "previousContentSha256": "e5109c2627cb28761349a8cf73ded867a96972180e53f0f033518f0a562a40d6",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/community/projects/wake-on-lan.md",
+      "sourceArticles": [
+        "DOC-36"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "先本地WoL→模块平台→语音；关系图替代含UUID/MAC/令牌的旧UI，第三方ESP8266文件单独说明，未宣称远程关机。",
+      "readingOrder": [
+        "先确认前提",
+        "1. 先做本地测试",
+        "2. 模块与平台",
+        "3. 从平台到语音",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/wake-on-lan-flow.svg",
+          "alt": "先验证局域网唤醒，再接语音",
+          "anchor": "scope",
+          "heading": "先确认前提"
+        }
+      ],
+      "attachments": [
+        "<SourceMaterials article=\"DOC-36\" />"
+      ],
+      "reviewNoteInAudit": "\"第三方项目与样机尚未全部实测，使用前核对具体版本与硬件条件。\"",
+      "contentSha256": "12907de481653288c53df7be033fb44f0091038cdc269e32ca13407bf0a3aa34",
+      "previousContentSha256": "f045fcd36f06500d72d5daa1e7c3c48ee6fe5e221ed7c73c0351dd6ff6186dc7",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/community/resources.md",
+      "sourceArticles": [
+        "DOC-41"
+      ],
+      "editorialStatus": "checked",
+      "changed": false,
+      "judgment": "17组音频/LRC已成对保留，播放下载与授权说明对应；不把文件下载等同设备点歌能力。",
+      "readingOrder": [
+        "作品与文件",
+        "使用与核对",
+        "投稿与维护"
+      ],
+      "figures": [],
+      "attachments": [
+        "<SourceMaterials article=\"DOC-41\" />"
+      ],
+      "reviewNoteInAudit": "\"第三方项目与样机尚未全部实测，使用前核对具体版本与硬件条件。\"",
+      "contentSha256": "7f1f7216aa076f40084997d83d07620391761dca2cd159cf3da082f5a5d6fcdb",
+      "previousContentSha256": "7f1f7216aa076f40084997d83d07620391761dca2cd159cf3da082f5a5d6fcdb",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/console/github-verification.md",
+      "sourceArticles": [
+        "DOC-01"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "小智登录→GitHub 授权→返回核对→查看当前权益；旧菜单、账号与内测权益表不再作教程截图。",
+      "readingOrder": [
+        "准备工作",
+        "1. 打开认证页面",
+        "2. 绑定并核对结果",
+        "3. 理解权益范围",
+        "取消绑定与验证",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/github-auth-flow.svg",
+          "alt": "GitHub 认证的操作顺序",
+          "anchor": "bind",
+          "heading": "2. 绑定并核对结果"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "9c9aa0ad6960b58b62ab0b155bdf2b122a0d8802d27f7beded1c1060b05f462b",
+      "previousContentSha256": "994c4a80ba096845c4f2b47f00099cd28a71729e7f2d8f1c3e7ae22a5bbed436",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/console/index.md",
+      "sourceArticles": [],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "三条功能指南对照新版实现；移除“本地实现核对”的读者说明。",
+      "readingOrder": [
+        "选择教程",
+        "阅读与反馈"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": null,
+      "contentSha256": "15ebe0ff1992901092a26f64433549f83b1c078e73125173709a4a7835731ce8",
+      "previousContentSha256": "8b8ed00799b52dbc619145534e6fd774eec97e245ba2d294691e221212176465",
+      "communityStatus": "section-or-contribution-page"
+    },
+    {
+      "page": "docs/zh/console/knowledge-base.md",
+      "sourceArticles": [
+        "DOC-17"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "创建→上传→解析→切片→召回→扩展能力启用→选库保存→设备验证；改掉旧图顺序，旧布局不再用作点击指引。",
+      "readingOrder": [
+        "准备工作",
+        "1. 创建并上传",
+        "创建知识库",
+        "上传文档",
+        "等待解析完成",
+        "2. 检查分块",
+        "3. 做召回测试",
+        "4. 关联到智能体",
+        "怎么确认完成",
+        "视频与资料",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/knowledge-base-flow.svg",
+          "alt": "知识库的阅读与操作顺序",
+          "anchor": "scope",
+          "heading": "准备工作"
+        }
+      ],
+      "attachments": [
+        "<SourceMaterials article=\"DOC-17\" />"
+      ],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "01b95946fffb18a2cb16c5a0f7b7654aafee2c5b5f56c78b53df1b6e570adffe",
+      "previousContentSha256": "5e38dfcfdb0b2e4d4b5e14e4248da1441c099f08bbdb81805b53d1fb5a25c73b",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/console/voice-cloning.md",
+      "sourceArticles": [
+        "DOC-14"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "确认开通→录音/上传分支→共同编辑→确认训练→智能体配置→设备验证；按当前两阶段实现重做，旧 UI 换流程与选区示意。",
+      "readingOrder": [
+        "准备工作",
+        "1. 确认开通状态",
+        "2. 准备训练音频",
+        "现场录音",
+        "上传已有音频",
+        "3. 提交、等待和处理失败",
+        "4. 在智能体选用",
+        "怎么确认完成",
+        "常见问题",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/voice-training-flow.svg",
+          "alt": "声音复刻：两种输入，共用后续训练流程",
+          "anchor": "audio",
+          "heading": "2. 准备训练音频"
+        },
+        {
+          "image": "/images/zh/voice-audio-selection.svg",
+          "alt": "音频编辑选区示意：边界外的内容不会提交，先试听所选片段",
+          "anchor": "upload",
+          "heading": "上传已有音频"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "4b834e9af31efc08e4c894588db8e0f2b0093d39a5c0fe22de90ac24901a72be",
+      "previousContentSha256": "9fd610f35ac96476e5edfc186ab61ccfbb1626b3808572422078774ef3eea591",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/development/archive/p3-prompts.md",
+      "sourceArticles": [
+        "DOC-42"
+      ],
+      "editorialStatus": "checked",
+      "changed": false,
+      "judgment": "P3 仅为历史概念/版本入口，当前流程跳 OGG；旧代码截图不能误导新安装。",
+      "readingOrder": [
+        "什么情况下查阅",
+        "历史操作的边界",
+        "迁移到现行版本"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": "\"历史资料，不能直接作为现行版本的操作步骤；下载以明确版本与适用硬件为准。\"",
+      "contentSha256": "7e9094d2918c7c2f0efe5ad4e99be7fe97faa3caae972e710ab9ab089a8a9836",
+      "previousContentSha256": "7e9094d2918c7c2f0efe5ad4e99be7fe97faa3caae972e710ab9ab089a8a9836",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/development/audio-and-aec.md",
+      "sourceArticles": [
+        "DOC-21"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "先基础音频，再参考信号与依赖，最后同条件比较；信号图不冒充新增麦克风电路。",
+      "readingOrder": [
+        "先确定路径",
+        "1. 先验证基础音频",
+        "2. 按板型配置",
+        "3. 用同一组条件比较",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/aec-reference-path.svg",
+          "alt": "AEC 要比较哪两路声音",
+          "anchor": "scope",
+          "heading": "先确定路径"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "279034079d5019654ea1f4bc80bca02d7b0639cd9357687fae1075ab74df96fe",
+      "previousContentSha256": "258d087c269ced1741f11bef30b6dcf6f1f73cb688cbfad6b819210e12b671af",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/development/build-firmware.md",
+      "sourceArticles": [
+        "DOC-19"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "SDK 与固件目录分开，先激活版本再选板型和构建；当前 IDF6 命令替代 IDF5 图片。",
+      "readingOrder": [
+        "版本与准备工作",
+        "1. 安装并激活 ESP-IDF",
+        "2. 获取固件源码",
+        "3. 查询板型并构建",
+        "4. 检查产物并烧录",
+        "SDK 切换与 Windows 排错",
+        "怎么确认完成",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/firmware-build-flow.svg",
+          "alt": "本地构建的目录与操作顺序",
+          "anchor": "scope",
+          "heading": "版本与准备工作"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"命令和板型参数已对照 v2.6.0；未在本机安装 ESP-IDF 或执行完整交叉编译，欢迎提交平台实测结果。\"",
+      "contentSha256": "9ade15a1465a710e30af7e170fc7a42e75dad3c312b4327331a8a97099cbe55b",
+      "previousContentSha256": "d58ee6e7bce2c6b4f871cdc48742e595716ec9cacea7c0404f82c2d12c3e2200",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/development/custom-board.md",
+      "sourceArticles": [
+        "DOC-20"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "硬件清单→目录/注册→独立身份→构建→OTA/分阶段验证；目录树与关系图解释文件职责，不复制旧删除 OTA 分区图。",
+      "readingOrder": [
+        "什么时候需要独立板型",
+        "1. 建立硬件清单",
+        "2. 选择参考板并创建独立目录",
+        "3. 定义可追溯的身份",
+        "4. 编译与检查分区",
+        "5. 分阶段验证",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/custom-board-identity.svg",
+          "alt": "定制硬件到固件身份",
+          "anchor": "identity",
+          "heading": "3. 定义可追溯的身份"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"适配流程已对照固件开发板指南；这里的配置是结构示例，具体新板需编译和真机验证。\"",
+      "contentSha256": "bed6bfeabf851e9700558588bd4e09825d4109f73166d8c1f10d7cad90fa52a9",
+      "previousContentSha256": "5f39a2a0ae64ed7373d4eafeb4901f42e023f7bfe9e19a77c7279b823dbd22fa",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/development/custom-prompts.md",
+      "sourceArticles": [
+        "DOC-42"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "源音频→OGG 转换→具体 zh-CN/wificonfig.ogg 替换→语言构建→真实事件试听；补齐原来含糊的文件位置。",
+      "readingOrder": [
+        "当前基线",
+        "1. 准备原始音频",
+        "2. 转换格式",
+        "3. 进入资源生成流程",
+        "怎么确认完成"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "620477ed5b08125a6010bee619b802fe894625536d1c7e116d91ac868c1c44a7",
+      "previousContentSha256": "011c7b414c908e20f3b1d307b4645cb1100c6f85879cd2af8c666d2a73c929f1",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/development/index.md",
+      "sourceArticles": [],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "环境→独立板型→音频/唤醒/设备工具→资源；P3 只在历史分支。",
+      "readingOrder": [
+        "选择教程",
+        "阅读与反馈"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": null,
+      "contentSha256": "33c1b3a717b1d8681df57b846fd4358a2c10df512be45a5be037efec6b26cf47",
+      "previousContentSha256": "68de516693aa9edfcd65ac96993468c37f02d2035e5acb1b4828bf5dc061293a",
+      "communityStatus": "section-or-contribution-page"
+    },
+    {
+      "page": "docs/zh/development/mcp-gpio.md",
+      "sourceArticles": [
+        "DOC-33"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "当前 LampController GPIO18 与 LED 串联电阻图对应；代码目录视频移入实现段，不冒充灯的实测效果。",
+      "readingOrder": [
+        "准备工作",
+        "1. 复用当前示例",
+        "连接一个低电流 LED",
+        "板级代码目录定位演示",
+        "2. 注册更多工具时",
+        "3. 构建、发现、测量",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/gpio-led-wiring.svg",
+          "alt": "基础 S3 的 GPIO18 指示灯连接",
+          "anchor": "led-wiring",
+          "heading": "连接一个低电流 LED"
+        }
+      ],
+      "attachments": [
+        "<SourceMaterials article=\"DOC-33\" />"
+      ],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "61fcef5afc7d6b2a74d34606d17ee4706b6fca412aeefd4ef823f5e9691f3649",
+      "previousContentSha256": "3ac46b2e8901459ef62659425febaf638a75f716e574d8515e1f39f14b777e1d",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/development/wake-words.md",
+      "sourceArticles": [
+        "DOC-22"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "按键基准→选硬件模型→查询/配置→安装验证；补 menuconfig 入口与选择流程，旧模型/报价不作当前步骤。",
+      "readingOrder": [
+        "选择方案",
+        "1. 使用在线编译",
+        "2. 本地查询预置模型",
+        "3. 配置自定义词",
+        "4. 安装并验证",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/wake-word-choice.svg",
+          "alt": "先确认条件，再选择唤醒方案",
+          "anchor": "scope",
+          "heading": "选择方案"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "b5c37efb945e0233eb62822bc56ceab71d7ceb2f4fec94523c819f592b4268dd",
+      "previousContentSha256": "18bd1afb01727a9437fb0115e5c1c255cf705c8fde92cf8a53e55f053264fb3f",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/faq/account-and-binding.md",
+      "sourceArticles": [
+        "DOC-16"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "登录→找回→自主解绑→归属处理；按新版登录/设备操作说明，不公开批量解绑模板或具体设备标识。",
+      "readingOrder": [
+        "选择入口",
+        "1. 短信与 Google 登录",
+        "2. 恢复原账号",
+        "3. 自己账号下的设备解绑",
+        "4. 已绑定其他账号的设备",
+        "怎么确认完成",
+        "下一步"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "bfb196e468d78ef97fc47cedd963465c4408834aa9b7f821d4559f06989ec0e0",
+      "previousContentSha256": "a17b12075649b4204de8f4296517d51157ac23bab101b63b3ed2ce0bb7fb7a53",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/faq/index.md",
+      "sourceArticles": [
+        "DOC-15"
+      ],
+      "editorialStatus": "checked",
+      "changed": false,
+      "judgment": "症状先分阶段再进入专页；不堆旧控制台或原始日志截图，重要连线图由对应指南承接。",
+      "readingOrder": [
+        "先定位问题",
+        "串口与烧录",
+        "启动与供电",
+        "配网与网络",
+        "账号与设备归属",
+        "音频与唤醒",
+        "显示问题",
+        "开发环境",
+        "MCP 工具",
+        "反馈前记录这些信息",
+        "下一步"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": "\"问题路径已按 v2.6.0 和当前 Console 实现整理；具体故障解决结果仍需设备与社区反馈确认。\"",
+      "contentSha256": "11b2f24480acd8974bdb1d2b6a703cbe5311a947b3165d8003c135c464cc788e",
+      "previousContentSha256": "11b2f24480acd8974bdb1d2b6a703cbe5311a947b3165d8003c135c464cc788e",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/faq/serial-logs.md",
+      "sourceArticles": [
+        "DOC-23"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "端口→连接采集→读阶段→遮盖后反馈；设备管理器图归位端口识别，补无需 SDK 的官方 miniterm 路径。",
+      "readingOrder": [
+        "准备工作",
+        "1. 找到端口",
+        "2. 连接并重新启动",
+        "3. 先看什么",
+        "怎么确认完成",
+        "工具与下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-23-image-001.webp",
+          "alt": "Windows 设备管理器中查找串口的示例；COM 编号因电脑而异。",
+          "anchor": "port",
+          "heading": "1. 找到端口"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "291703fa77bd8b876babef2b8f81e3c8c2377eaa1f3fde59e1d80c9659fa3653",
+      "previousContentSha256": "2161722ce185d3a911ffabdec345346b536e9bf1dcfd82803b88e8037b67cb0b",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/firmware/downloads.md",
+      "sourceArticles": [
+        "DOC-02"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "开篇直达官方在线烧录；固定版本/离线/改源码再用其他入口；USB 下载条件独立说明。",
+      "readingOrder": [
+        "首选在线编译与烧录",
+        "1. 识别板型和变体",
+        "2. 从正式发布页下载",
+        "检查文件完整性",
+        "3. 旧版本与跨版本升级",
+        "怎么确认完成",
+        "下一步"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": "\"正式 Release v2.6.0 已核验；并未逐个运行所有板型二进制，下载前仍需确认自己的硬件。\"",
+      "contentSha256": "e94ba551977d9941bd74c704eef3607bd62a96cd2c1374104571b51678ce3d0d",
+      "previousContentSha256": "6ed34957f33888218220852da23e87c3ef18af75c063d16b8fc2fd7b0e35511a",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/firmware/flashing.md",
+      "sourceArticles": [
+        "DOC-08"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "主流程首推官方在线烧录；先确认 USB 下载接口，包含 tudouzi/KevinBox2 部分修订例外；离线命令与 Windows GUI 明确分支。 旧版工具明确保留原始镜像，不照图改SPI模式/频率。",
+      "readingOrder": [
+        "选择你的路径",
+        "准备工作",
+        "1. 确认镜像类型",
+        "2. 网页烧录",
+        "手动进入下载模式",
+        "3. 离线烧录完整镜像",
+        "Windows 图形工具",
+        "怎么确认完成",
+        "常见问题",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-18-image-011.webp",
+          "alt": "Web Serial 授权窗口：选开发板对应串口。若看不准，取消后插拔观察，再重新授权。",
+          "anchor": "download-mode",
+          "heading": "手动进入下载模式"
+        },
+        {
+          "image": "/images/zh/doc-08-image-003.webp",
+          "alt": "Flash Download Tool 3.9.7 的启动选项：本例为 ESP32-S3 / Develop / UART。",
+          "anchor": "windows-tool",
+          "heading": "Windows 图形工具"
+        },
+        {
+          "image": "/images/zh/doc-08-image-005.webp",
+          "alt": "为合并镜像选择文件并填写地址；本例只适用于已确认从 0x0 写入的完整 S3 镜像。",
+          "anchor": "windows-tool",
+          "heading": "Windows 图形工具"
+        },
+        {
+          "image": "/images/zh/doc-08-image-009.webp",
+          "alt": "工具出现 FINISH 后重启设备，再检查实际版本与功能。",
+          "anchor": "windows-tool",
+          "heading": "Windows 图形工具"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"流程已对照 Console 分区烧录实现与 esptool 文档；浏览器、驱动和跨布局升级仍待真机复现。\"",
+      "contentSha256": "f4f2707d088e4d7223d2ef080d5a4282a118e192873817bbfdd49c45e6029753",
+      "previousContentSha256": "2732ba5f34f215b07d6c1b6b79811317779464c6e31eef4385db6cb70852b9a2",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/firmware/index.md",
+      "sourceArticles": [],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "在线编译排在下载之前；离线/历史固件作为独立选项，不让新用户先挑 ZIP。",
+      "readingOrder": [
+        "选择教程",
+        "阅读与反馈"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": null,
+      "contentSha256": "0a0787f717aef7cb8c14a33f3b4d4510e3e483dccd8d3b7cdc5e5d6b710efa45",
+      "previousContentSha256": "9df4fd95eb59446a59af4c3560552a4e722a717cded7673c85175a494127ded4",
+      "communityStatus": "section-or-contribution-page"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "sourceArticles": [
+        "DOC-18"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "真实配置→任务记录→烧录确认→macOS/Windows串口授权→分区写入→成功与重启，按发生顺序放图；单板硬件证据与验证边界留在审计。",
+      "readingOrder": [
+        "准备工作",
+        "1. 打开固件编译",
+        "2. 选择硬件与功能",
+        "3. 提交并等待编译",
+        "4. 下载或烧录",
+        "怎么确认完成",
+        "常见问题",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-18-image-011.webp",
+          "alt": "浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。",
+          "anchor": "serial-port",
+          "heading": "选择正确的串口"
+        },
+        {
+          "image": "/images/zh/console-builder-basic-2026-11-14.png",
+          "alt": "真实基础配置界面，核对芯片、板型、屏幕和语言。",
+          "anchor": "configure",
+          "heading": "2. 选择硬件与功能"
+        },
+        {
+          "image": "/images/zh/console-builder-network-2026-11-14.png",
+          "alt": "真实音频与配网页签，说明选项随板型变化。",
+          "anchor": "configure",
+          "heading": "2. 选择硬件与功能"
+        },
+        {
+          "image": "/images/zh/console-builder-history-2026-11-14.png",
+          "alt": "已完成任务的烧录与下载入口。",
+          "anchor": "build",
+          "heading": "3. 提交并等待编译"
+        },
+        {
+          "image": "/images/zh/console-flash-confirm-2026-11-14.png",
+          "alt": "点击连接前核对板型、Commit与参数。",
+          "anchor": "flash",
+          "heading": "4. 下载或烧录"
+        },
+        {
+          "image": "/images/zh/console-serial-picker-macos-2026-11-14.jpg",
+          "alt": "macOS Chrome 的真实串口选择弹窗；已选中连接的小智设备。",
+          "anchor": "serial-port",
+          "heading": "选择正确的串口"
+        },
+        {
+          "image": "/images/zh/console-flash-progress-2026-11-14.jpg",
+          "alt": "实际写入 ota_0 分区，进度25%。",
+          "anchor": "flash-progress",
+          "heading": "查看分区写入进度"
+        },
+        {
+          "image": "/images/zh/console-flash-success-2026-11-14.jpg",
+          "alt": "实际烧录成功，界面显示设备正在重新启动。",
+          "anchor": "flash-success",
+          "heading": "等待成功并检查重启"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "嘉立创实战派S3真实在线烧录与启动日志通过；未提交新编译任务，未做实体显示/音频和对话验收。",
+      "contentSha256": "34e7edb5e2616959b51be666221a7f2fb86b6b2aa336b62b21c5cf5bd3d8fc60",
+      "previousContentSha256": "557a28b405acaf152b7ad1b695c89441fa41a3812f4c1b17e5ccdf1bfe21ed71",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/firmware/releases/v1.9.4.md",
+      "sourceArticles": [
+        "DOC-04"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "按产品名→芯片/硬件版本→完整文件名阅读，按系列分类；v1.9.4逐项对应88个官方资产，不让用户凭文件名猜板型。",
+      "readingOrder": [
+        "适用范围/在线安装",
+        "分类与热门开发板",
+        "产品名称、芯片和文件名下载表",
+        "安装或升级边界",
+        "下一步"
+      ],
+      "figures": [],
+      "attachments": [
+        {
+          "name": "v1.9.4_atk-dnesp32s3-box.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atk-dnesp32s3-box.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atk-dnesp32s3-box0.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atk-dnesp32s3-box0.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atk-dnesp32s3-box2-4g.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atk-dnesp32s3-box2-4g.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atk-dnesp32s3-box2-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atk-dnesp32s3-box2-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atk-dnesp32s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atk-dnesp32s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atom-echos3r.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atom-echos3r.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atommatrix-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atommatrix-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atoms3-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atoms3-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atoms3r-cam-m12-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atoms3r-cam-m12-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atoms3r-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atoms3r-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_bread-compact-esp32-lcd.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_bread-compact-esp32-lcd.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_bread-compact-esp32.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_bread-compact-esp32.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_bread-compact-esp32-128x32.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_bread-compact-esp32-128x32.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_bread-compact-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_bread-compact-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_bread-compact-ml307-128x64.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_bread-compact-ml307-128x64.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_bread-compact-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_bread-compact-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_bread-compact-wifi-128x64.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_bread-compact-wifi-128x64.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_df-k10.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_df-k10.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_df-s3-ai-cam.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_df-s3-ai-cam.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_doit-s3-aibox.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_doit-s3-aibox.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_du-chatx.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_du-chatx.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_echoear.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_echoear.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_electron-bot.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_electron-bot.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-box-3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-box-3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-box-lite.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-box-lite.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-box.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-box.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-hi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-hi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-s3-lcd-ev-board-2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-s3-lcd-ev-board-2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-s3-lcd-ev-board-1p4.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-s3-lcd-ev-board-1p4.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-s3-lcd-ev-board-1p5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-s3-lcd-ev-board-1p5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-sparkbot.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-sparkbot.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32-cgc-144.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32-cgc-144.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32-cgc.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32-cgc.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32-s3-touch-amoled-1.8.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32-s3-touch-amoled-1.8.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32-s3-touch-lcd-1.46.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32-s3-touch-lcd-1.46.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32-s3-touch-lcd-1.85.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32-s3-touch-lcd-1.85.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32-s3-touch-lcd-1.85c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32-s3-touch-lcd-1.85c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32-s3-touch-lcd-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32-s3-touch-lcd-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32s3-korvo2-v3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32s3-korvo2-v3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_genjutech-s3-1.54tft.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_genjutech-s3-1.54tft.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_jiuchuan-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_jiuchuan-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_kevin-box-1.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_kevin-box-1.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_kevin-box-2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_kevin-box-2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_kevin-c3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_kevin-c3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_kevin-sp-v4-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_kevin-sp-v4-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_kevin-yuying-313lcd.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_kevin-yuying-313lcd.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_labplus-ledong-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_labplus-ledong-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_labplus-mpython-v3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_labplus-mpython-v3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_lichuang-c3-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_lichuang-c3-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_lichuang-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_lichuang-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_lilygo-t-cameraplus-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_lilygo-t-cameraplus-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_lilygo-t-cameraplus-s3_v1_2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_lilygo-t-cameraplus-s3_v1_2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_lilygo-t-circle-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_lilygo-t-circle-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_lilygo-t-display-s3-pro-mvsrlora.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_lilygo-t-display-s3-pro-mvsrlora.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_m5stack-core-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_m5stack-core-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_magiclick-2p4.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_magiclick-2p4.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_magiclick-2p5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_magiclick-2p5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_magiclick-c3-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_magiclick-c3-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_magiclick-c3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_magiclick-c3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_minsi-k08-dual.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_minsi-k08-dual.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_mixgo-nova.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_mixgo-nova.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_movecall-cuican-esp32s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_movecall-cuican-esp32s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_movecall-moji-esp32s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_movecall-moji-esp32s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_otto-robot.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_otto-robot.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_sensecap-watcher.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_sensecap-watcher.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_sp-esp32-s3-1.28-box.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_sp-esp32-s3-1.28-box.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_sp-esp32-s3-1.54-muma.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_sp-esp32-s3-1.54-muma.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_surfer-c3-1.14tft.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_surfer-c3-1.14tft.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_taiji-pi-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_taiji-pi-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_tudouzi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_tudouzi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_waveshare-c6-lcd-1.69.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_waveshare-c6-lcd-1.69.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_waveshare-c6-touch-amoled-1.43.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_waveshare-c6-touch-amoled-1.43.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_waveshare-s3-audio-board.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_waveshare-s3-audio-board.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_waveshare-s3-touch-amoled-1.75.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_waveshare-s3-touch-amoled-1.75.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_waveshare-s3-touch-amoled-2.06.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_waveshare-s3-touch-amoled-2.06.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_waveshare-s3-touch-lcd-3.5b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_waveshare-s3-touch-lcd-3.5b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xingzhi-cube-0.85tft-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xingzhi-cube-0.85tft-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xingzhi-cube-0.85tft-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xingzhi-cube-0.85tft-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xingzhi-cube-0.96oled-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xingzhi-cube-0.96oled-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xingzhi-cube-0.96oled-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xingzhi-cube-0.96oled-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xingzhi-cube-1.54tft-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xingzhi-cube-1.54tft-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xingzhi-cube-1.54tft-ml307-wechatui.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xingzhi-cube-1.54tft-ml307-wechatui.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xingzhi-cube-1.54tft-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xingzhi-cube-1.54tft-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xmini-c3-4g.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xmini-c3-4g.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xmini-c3-v3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xmini-c3-v3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xmini-c3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xmini-c3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_zhengchen-1.54tft-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_zhengchen-1.54tft-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_zhengchen-1.54tft-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_zhengchen-1.54tft-wifi.zip",
+          "kind": "official-firmware-zip"
+        }
+      ],
+      "reviewNoteInAudit": "\"历史资料，不能直接作为现行版本的操作步骤；下载以明确版本与适用硬件为准。\"",
+      "contentSha256": "af0700449451309e3d8c65dfad146f04ad4fa0c46768d8aaa5eb2594667da1bc",
+      "previousContentSha256": "3a6eb8332f747acd156ea0a5ce2bc234fcbfa10e243b0f4b1ceef7c96a925c8b",
+      "communityStatus": "awaiting-feedback",
+      "catalogReview": "firmware-download-catalog.json"
+    },
+    {
+      "page": "docs/zh/firmware/releases/v2.2.4.md",
+      "sourceArticles": [
+        "DOC-03"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "按维护者要求撤下旧版内容及下载，保持稳定ID和URL的自动跳转；草稿不进入搜索。",
+      "readingOrder": [
+        "跳转v2.6.0固件列表"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": "\"历史资料，不能直接作为现行版本的操作步骤；下载以明确版本与适用硬件为准。\"",
+      "contentSha256": "19415d24eea63e0ef3ee3f4b21ba25d05ba8d2488e187a56490653a6d1d75413",
+      "previousContentSha256": "3cb7d8583b7e832adf9b4b79420a7d96fbdb19c82971a0b3daa0c500bf28d456",
+      "communityStatus": "legacy-url-redirect"
+    },
+    {
+      "page": "docs/zh/firmware/releases/v2.5.2.md",
+      "sourceArticles": [
+        "DOC-02"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "按维护者要求撤下旧版内容及下载，保持稳定ID和URL的自动跳转；草稿不进入搜索。",
+      "readingOrder": [
+        "跳转v2.6.0固件列表"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": "\"历史资料，不能直接作为现行版本的操作步骤；下载以明确版本与适用硬件为准。\"",
+      "contentSha256": "f038cc77c91ad53bed1bcca6e4af57502bb8667088cb5dd4ff732f662f81ace8",
+      "previousContentSha256": "8de7be73c2850858a23e7f2738a31e4d4c95c005a3b308f0b0bb8c1c48456dd2",
+      "communityStatus": "legacy-url-redirect"
+    },
+    {
+      "page": "docs/zh/getting-started/index.md",
+      "sourceArticles": [],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "先识别设备状态，再接线/在线烧录/配网/绑定；首推官方 firmware-builder，并说明 USB 未引出例外。",
+      "readingOrder": [
+        "从你的设备开始",
+        "四步完成第一轮对话",
+        "遇到问题"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": null,
+      "contentSha256": "30ee941c144b20e59fa95b933d5208775b656d12a457b3eaa9c76c3bca6ba258",
+      "previousContentSha256": "08ce783ff651e1634b66a447768a37bf9f99ae6c48b479d1f6e45624d65571f9",
+      "communityStatus": "section-or-contribution-page"
+    },
+    {
+      "page": "docs/zh/getting-started/wifi-and-binding.md",
+      "sourceArticles": [
+        "DOC-09"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "热点与 BluFi 分支分开，联网成功图对应热点末尾；新版绑定采用设备码流程图，移出旧弹窗与个人 SSID。",
+      "readingOrder": [
+        "准备工作",
+        "1. 让设备进入配网模式",
+        "2A. 使用热点配网",
+        "2B. 使用 BluFi 配网",
+        "3. 输入六位设备验证码",
+        "怎么确认完成",
+        "常见问题",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-09-image-006.webp",
+          "alt": "热点页面提示保存成功后，等待设备重启并连接目标网络；这一步还没有完成账号绑定。",
+          "anchor": "hotspot",
+          "heading": "2A. 使用热点配网"
+        },
+        {
+          "image": "/images/zh/device-binding-flow.svg",
+          "alt": "联网与账号绑定是两步操作",
+          "anchor": "bind",
+          "heading": "3. 输入六位设备验证码"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"热点/BluFi 和六位设备码已对照代码；不同手机、板型及线上绑定过程尚待社区实测。\"",
+      "contentSha256": "f491af976f8581666424e160b1f0782932d949724455d4ad7109e9eeacdc6ca7",
+      "previousContentSha256": "74227c69310fe1cfbb877fce9d7afedaae979b3d179739f0aad29f4b4e11a945",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/hardware/audio-output.md",
+      "sourceArticles": [
+        "DOC-35"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "先选输出类型→扬声器→耳机/有源音箱→验证；保留插座识别，不复制 BTL 输出接共地耳机的错误线图。",
+      "readingOrder": [
+        "先选连接方式",
+        "连接无源扬声器",
+        "使用耳机或有源音箱",
+        "怎么确认完成",
+        "常见问题",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/shared/audio-output-paths.svg",
+          "alt": "从数字音频到不同负载的三种连接路径",
+          "anchor": "scope",
+          "heading": "先选连接方式"
+        },
+        {
+          "image": "/images/zh/doc-35-image-002.webp",
+          "alt": "三脚 3.5mm 插座的外观。插座本身不具备耳机驱动或电平转换功能，不能直接接 MAX98357A 的输出。",
+          "anchor": "headphones",
+          "heading": "使用耳机或有源音箱"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已核对 MAX98357 数据手册和固件音频实现；新耳机电路尚未做台架验证。\"",
+      "contentSha256": "191c4e7ffa13548878829a9fcf8749f9cf5c62d89e04a940d59afa291b868001",
+      "previousContentSha256": "88b65575d5ad82d96fb4cef0202a2dcc86bee73bc92736b3e38d9d59138fca4b",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/hardware/battery-power.md",
+      "sourceArticles": [
+        "DOC-34"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "USB移动电源为主路径并有配套图；裸电池与电源模块照片只在定制电源识别段，不冒充 USB步骤或充电验证。",
+      "readingOrder": [
+        "准备工作",
+        "1. 使用 USB 移动电源",
+        "2. 设备自带电池接口时",
+        "3. 裸电芯与升压模块的边界",
+        "怎么确认完成",
+        "常见问题",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/usb-power-bank.svg",
+          "alt": "用成品 USB 移动电源给基础 S3 供电",
+          "anchor": "usb-power",
+          "heading": "1. 使用 USB 移动电源"
+        },
+        {
+          "image": "/images/zh/doc-34-image-002.webp",
+          "alt": "带引线和接插件的电池示例：必须按具体电池资料核对化学体系、电压和插头极性。",
+          "anchor": "custom-power",
+          "heading": "3. 裸电芯与升压模块的边界"
+        },
+        {
+          "image": "/images/zh/doc-34-image-003.webp",
+          "alt": "电源模块的 B+、B− 与 5V 焊点示例。USB 接口的输入/输出用途及充电、保护能力须按该模块资料确认。",
+          "anchor": "custom-power",
+          "heading": "3. 裸电芯与升压模块的边界"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"USB 供电要求已对照开发板资料；续航、低负载保活及定制电池电路仍需按实际硬件测试。\"",
+      "contentSha256": "4fb1340bc52c5a9b15f0906acad6b3106bb2d4555a22312c2d4c146ac83e67a3",
+      "previousContentSha256": "e8b41a24adc0f71934f07625c811cd4fd496945ea7d5843c9f24a9035da17d77",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/hardware/boards/xmini-c3.md",
+      "sourceArticles": [
+        "DOC-29"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "先识别原版/V3/4G，再安装与联网；BOOT/USB照片放版本识别段，不复制旧控制台、IDF与MAC。",
+      "readingOrder": [
+        "1. 对照自己的板",
+        "2. 安装固件",
+        "3. 联网、绑定与对话",
+        "怎么确认完成",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-29-image-001.webp",
+          "alt": "Xmini-C3 板外观。",
+          "anchor": null,
+          "heading": "Xmini-C3、V3 与 4G 版本"
+        },
+        {
+          "image": "/images/zh/doc-29-image-019.webp",
+          "alt": "原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。",
+          "anchor": "scope",
+          "heading": "1. 对照自己的板"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "bf3c18c8d8b5073edef194500349a17e923b211d260c73bfa0e5cd163ce92bda",
+      "previousContentSha256": "d5aa3d542e0fdd995edabd27c69bb1b422d4e2ec61ddf5c71bdbc490ba872154",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/hardware/breadboard-4g.md",
+      "sourceArticles": [
+        "DOC-05"
+      ],
+      "editorialStatus": "checked",
+      "changed": false,
+      "judgment": "复核两类模块与电源前提、44/42针总图和完成实物；旧 LDO/3V3 分支不能直接复制，信号按 v2.6.0。",
+      "readingOrder": [
+        "开始前：模块、SIM 卡与电源",
+        "当前固件的信号连接",
+        "ML307R：两种主板的位置图",
+        "乐鑫标准版 · 44 针",
+        "GOOUUU 果云版 · 42 针",
+        "实物效果与隐藏连线",
+        "NT26K：两种主板的位置图",
+        "乐鑫标准版 · 44 针",
+        "GOOUUU 果云版 · 42 针",
+        "选择固件并分段验证",
+        "完成标志与下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/breadboard-4g-signals-v2.6.0.svg",
+          "alt": "ML307R / NT26K 当前串口、握手与共地关系",
+          "anchor": "signals",
+          "heading": "当前固件的信号连接"
+        },
+        {
+          "image": "/images/zh/doc-05-image-017.webp",
+          "alt": "一种 ML307R 核心板与商品界面",
+          "anchor": "ml307",
+          "heading": "ML307R：两种主板的位置图"
+        },
+        {
+          "image": "/images/zh/doc-05-image-018.webp",
+          "alt": "另一种 ML307R mini 核心板",
+          "anchor": "ml307",
+          "heading": "ML307R：两种主板的位置图"
+        },
+        {
+          "image": "/images/zh/doc-05-image-021.jpg",
+          "alt": "ML307R + 44 针主板接线图；信号参考有效，旧 LDO 电源分支不直接沿用",
+          "anchor": "ml307-44",
+          "heading": "乐鑫标准版 · 44 针"
+        },
+        {
+          "image": "/images/zh/doc-05-image-026.jpg",
+          "alt": "ML307R + 42 针主板接线图；位置不同，UART 仍是 GPIO11/12",
+          "anchor": "ml307-42",
+          "heading": "GOOUUU 果云版 · 42 针"
+        },
+        {
+          "image": "/images/zh/doc-05-image-038.jpg",
+          "alt": "ML307R 扩展完成效果",
+          "anchor": "ml307-results",
+          "heading": "实物效果与隐藏连线"
+        },
+        {
+          "image": "/images/zh/doc-05-image-039.jpg",
+          "alt": "ML307R 方案移开外围模块后的连线视角",
+          "anchor": "ml307-results",
+          "heading": "实物效果与隐藏连线"
+        },
+        {
+          "image": "/images/zh/doc-05-image-025.webp",
+          "alt": "LDO 取电局部：本页不从该焊点引电",
+          "anchor": "ml307-results",
+          "heading": "实物效果与隐藏连线"
+        },
+        {
+          "image": "/images/zh/doc-05-image-019.webp",
+          "alt": "NT26K 核心板的引脚分布示意；按实际板修订核对信号与电源接口",
+          "anchor": "nt26",
+          "heading": "NT26K：两种主板的位置图"
+        },
+        {
+          "image": "/images/zh/doc-05-image-031.webp",
+          "alt": "NT26K + 44 针主板接线图；GPIO9/10/11/12 与当前配置核对，图中 3V3 供电需另行复核",
+          "anchor": "nt26-44",
+          "heading": "乐鑫标准版 · 44 针"
+        },
+        {
+          "image": "/images/zh/doc-05-image-032.webp",
+          "alt": "NT26K 标准板样机装配实物",
+          "anchor": "nt26-44",
+          "heading": "乐鑫标准版 · 44 针"
+        },
+        {
+          "image": "/images/zh/doc-05-image-033.webp",
+          "alt": "NT26K + 42 针主板接线图；不能把 ML307R 的两根串口线当作完整 NT26K 接法",
+          "anchor": "nt26-42",
+          "heading": "GOOUUU 果云版 · 42 针"
+        },
+        {
+          "image": "/images/zh/doc-05-image-034.webp",
+          "alt": "NT26K 果云板样机装配实物",
+          "anchor": "nt26-42",
+          "heading": "GOOUUU 果云版 · 42 针"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"适用固件 v2.6.0；核心板电源、具体模块修订与整机稳定性仍需实测。\"",
+      "contentSha256": "3f64316477ffd4f2a620da19f2b265b506d7b1e13b35b513c50096456cc795df",
+      "previousContentSha256": "7fe1e91d92a1fc5bcfb2ce495a9b8be6ab1c080a60b8fd8538298f89bae5a9f4",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/hardware/breadboard-camera.md",
+      "sourceArticles": [
+        "DOC-07"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "样机效果先于材料，摄像头/LCD识别图归准备段，当前信号图单独章节；不与普通S3 GPIO混用。",
+      "readingOrder": [
+        "先看装配效果",
+        "准备工作",
+        "1. 对照当前信号表",
+        "当前摄像头板的信号图",
+        "2. 构建并逐项检查",
+        "视频和历史附件",
+        "怎么确认完成"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-07-image-004.webp",
+          "alt": "摄像头面包板装配示例。",
+          "anchor": "finished-overview",
+          "heading": "先看装配效果"
+        },
+        {
+          "image": "/images/zh/doc-07-image-005.webp",
+          "alt": "原型装配的另一视角；信号接法请以本页版本表为准。",
+          "anchor": "finished-overview",
+          "heading": "先看装配效果"
+        },
+        {
+          "image": "/images/zh/doc-07-image-001.webp",
+          "alt": "摄像头模块与排线接口。",
+          "anchor": "scope",
+          "heading": "准备工作"
+        },
+        {
+          "image": "/images/zh/doc-06-image-001.webp",
+          "alt": "LCD 模块外观。",
+          "anchor": "scope",
+          "heading": "准备工作"
+        },
+        {
+          "image": "/images/zh/doc-06-image-002.webp",
+          "alt": "LCD 模块接口丝印。",
+          "anchor": "scope",
+          "heading": "准备工作"
+        },
+        {
+          "image": "/images/zh/breadboard-camera-signals-v2.6.0.svg",
+          "alt": "摄像头 S3 当前音频、屏幕与摄像头信号分配",
+          "anchor": "wiring-diagram",
+          "heading": "当前摄像头板的信号图"
+        }
+      ],
+      "attachments": [
+        "<SourceMaterials article=\"DOC-07\" />"
+      ],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "a300d158039ba05b15e6ea4b8cd95b6661ca6835e5e2f2e956de4a6ef4871d79",
+      "previousContentSha256": "eb154e7d988a8a4f0f4521ecc9a5fefab44f8c1c2406e7fb1711b1bac946702c",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/hardware/breadboard-esp32-c3.md",
+      "sourceArticles": [
+        "DOC-12"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "主控/Codec/OLED照片归配件章；总图保留输入输出方向和 Codec 双电源语义，OLED/彩屏效果各自对应。",
+      "readingOrder": [
+        "准备工作",
+        "先认齐这套 C3 的配件",
+        "1. 对照固件引脚",
+        "总接线图与模块方向",
+        "2. 安装并使用",
+        "实物与屏幕变体",
+        "OLED 基础方案",
+        "彩屏扩展样机",
+        "怎么确认完成",
+        "历史附件与下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-12-image-001.webp",
+          "alt": "C3 主控模块。",
+          "anchor": "parts",
+          "heading": "先认齐这套 C3 的配件"
+        },
+        {
+          "image": "/images/zh/doc-12-image-002.webp",
+          "alt": "ES8311 与 NS4150 音频模块；核对具体版本和丝印。",
+          "anchor": "parts",
+          "heading": "先认齐这套 C3 的配件"
+        },
+        {
+          "image": "/images/zh/doc-12-image-009.webp",
+          "alt": "OLED 模块。",
+          "anchor": "parts",
+          "heading": "先认齐这套 C3 的配件"
+        },
+        {
+          "image": "/images/zh/doc-12-image-003.webp",
+          "alt": "C3 方案的腔体扬声器",
+          "anchor": "parts",
+          "heading": "先认齐这套 C3 的配件"
+        },
+        {
+          "image": "/images/zh/doc-05-image-010.webp",
+          "alt": "另一种扬声器，阻抗和接头需匹配功放",
+          "anchor": "parts",
+          "heading": "先认齐这套 C3 的配件"
+        },
+        {
+          "image": "/images/zh/doc-05-image-011.webp",
+          "alt": "C3 面包板用短跳线",
+          "anchor": "parts",
+          "heading": "先认齐这套 C3 的配件"
+        },
+        {
+          "image": "/images/zh/doc-05-image-012.webp",
+          "alt": "C3 模块间的杜邦连接线",
+          "anchor": "parts",
+          "heading": "先认齐这套 C3 的配件"
+        },
+        {
+          "image": "/images/zh/doc-05-image-013.jpg",
+          "alt": "C3 使用的可拼面包板",
+          "anchor": "parts",
+          "heading": "先认齐这套 C3 的配件"
+        },
+        {
+          "image": "/images/zh/doc-05-image-014.webp",
+          "alt": "面包板内部连通结构",
+          "anchor": "parts",
+          "heading": "先认齐这套 C3 的配件"
+        },
+        {
+          "image": "/images/zh/doc-05-image-020.webp",
+          "alt": "可选轻触按钮；确认同侧内部连通关系",
+          "anchor": "parts",
+          "heading": "先认齐这套 C3 的配件"
+        },
+        {
+          "image": "/images/zh/breadboard-c3-signals-v2.6.0.svg",
+          "alt": "C3 当前 Codec、功放使能与 OLED 信号关系",
+          "anchor": "wiring-diagram",
+          "heading": "总接线图与模块方向"
+        },
+        {
+          "image": "/images/zh/doc-12-image-011.webp",
+          "alt": "C3-N16-SF 与 ES8311/NS4150B、OLED 的完整位置图；模块信号方向和双电源脚见图前说明",
+          "anchor": "wiring-diagram",
+          "heading": "总接线图与模块方向"
+        },
+        {
+          "image": "/images/zh/doc-12-image-012.jpg",
+          "alt": "C3 + OLED 完成实物",
+          "anchor": "oled-result",
+          "heading": "OLED 基础方案"
+        },
+        {
+          "image": "/images/zh/doc-12-image-013.webp",
+          "alt": "C3 + OLED 的另一侧连线",
+          "anchor": "oled-result",
+          "heading": "OLED 基础方案"
+        },
+        {
+          "image": "/images/zh/doc-12-image-014.webp",
+          "alt": "C3 彩屏样机整体效果",
+          "anchor": "lcd-example",
+          "heading": "彩屏扩展样机"
+        },
+        {
+          "image": "/images/zh/doc-12-image-015.webp",
+          "alt": "C3 彩屏模块的引脚与连线局部",
+          "anchor": "lcd-example",
+          "heading": "彩屏扩展样机"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "42f6ae97a7b741ed5e854910296b57a6183c5e29d6294b5c2a38eab3eb9ca609",
+      "previousContentSha256": "fce918d9b0f06d1c1f70acc3c31d18bf80b2638abe205a786e75fad4c57c4848",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/hardware/breadboard-esp32-s3.md",
+      "sourceArticles": [
+        "DOC-05",
+        "DOC-10"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "复核上轮修复：效果→模块→当前总图/44-42针/反装→音频直连→专用 OLED→检查；OLED 段只允许 OLED 四线图。",
+      "readingOrder": [
+        "先看做成后的样子",
+        "本文适用的硬件",
+        "材料清单：先认清每个模块",
+        "ESP32-S3 开发板",
+        "数字麦克风",
+        "数字功放与扬声器",
+        "面包板、导线与按钮",
+        "OLED 显示屏",
+        "1. 识别排针与电源",
+        "总接线图：先按当前方案连通",
+        "44 针与 42 针板的位置图",
+        "2. 连接麦克风",
+        "麦克风排针焊在另一面时",
+        "3. 连接功放与扬声器",
+        "麦克风与功放的直连接法",
+        "4. 连接 OLED",
+        "可选外接按键",
+        "接线完成后：检查模块下面的线",
+        "5. 检查、烧录与配网",
+        "装配与完成效果",
+        "怎么确认完成",
+        "常见问题",
+        "面包板变体：按自己的板型继续",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-05-image-035.jpg",
+          "alt": "基础版实物：ESP32-S3、麦克风、功放与扬声器",
+          "anchor": "finished-overview",
+          "heading": "先看做成后的样子"
+        },
+        {
+          "image": "/images/zh/doc-05-image-037.jpg",
+          "alt": "OLED 扩展实物：在基础音频方案上增加显示屏",
+          "anchor": "finished-overview",
+          "heading": "先看做成后的样子"
+        },
+        {
+          "image": "/images/zh/doc-05-image-001.webp",
+          "alt": "模组型号位置：核对 WROOM-1 与 N16R8",
+          "anchor": "board-identification",
+          "heading": "ESP32-S3 开发板"
+        },
+        {
+          "image": "/images/zh/doc-05-image-002.webp",
+          "alt": "ESP32-S3-DevKitC-1 开发板外观",
+          "anchor": "board-identification",
+          "heading": "ESP32-S3 开发板"
+        },
+        {
+          "image": "/images/zh/doc-05-image-003.webp",
+          "alt": "原板 RGB 附近的局部照片，仅用于识别该修订；不要求为点亮 RGB 改焊开发板",
+          "anchor": "board-identification",
+          "heading": "ESP32-S3 开发板"
+        },
+        {
+          "image": "/images/zh/doc-05-image-004.webp",
+          "alt": "INMP441 模块：核对 VDD、GND、WS、SCK、SD 与 L/R",
+          "anchor": "microphone-modules",
+          "heading": "数字麦克风"
+        },
+        {
+          "image": "/images/zh/doc-05-image-005.webp",
+          "alt": " ZTS6672 麦克风模块",
+          "anchor": "microphone-modules",
+          "heading": "数字麦克风"
+        },
+        {
+          "image": "/images/zh/doc-05-image-006.webp",
+          "alt": " ICS43434 麦克风模块",
+          "anchor": "microphone-modules",
+          "heading": "数字麦克风"
+        },
+        {
+          "image": "/images/zh/doc-05-image-007.webp",
+          "alt": "MAX98357A 模块与排针、扬声器端子",
+          "anchor": "audio-modules",
+          "heading": "数字功放与扬声器"
+        },
+        {
+          "image": "/images/zh/doc-05-image-008.webp",
+          "alt": " HT517 功放模块与插座",
+          "anchor": "audio-modules",
+          "heading": "数字功放与扬声器"
+        },
+        {
+          "image": "/images/zh/doc-05-image-009.webp",
+          "alt": "原 8Ω 腔体扬声器示例；本页选择 8Ω、3W",
+          "anchor": "audio-modules",
+          "heading": "数字功放与扬声器"
+        },
+        {
+          "image": "/images/zh/doc-05-image-010.webp",
+          "alt": "原 4Ω 腔体扬声器示例；需要另核对功放负载和电源余量",
+          "anchor": "audio-modules",
+          "heading": "数字功放与扬声器"
+        },
+        {
+          "image": "/images/zh/doc-05-image-013.jpg",
+          "alt": "两块可拼面包板的外观",
+          "anchor": "breadboard-parts",
+          "heading": "面包板、导线与按钮"
+        },
+        {
+          "image": "/images/zh/doc-05-image-014.webp",
+          "alt": "面包板内部金属连接结构：孔位相邻不等于导通",
+          "anchor": "breadboard-parts",
+          "heading": "面包板、导线与按钮"
+        },
+        {
+          "image": "/images/zh/doc-05-image-011.webp",
+          "alt": "用于面包板的短跳线",
+          "anchor": "breadboard-parts",
+          "heading": "面包板、导线与按钮"
+        },
+        {
+          "image": "/images/zh/doc-05-image-012.webp",
+          "alt": "杜邦线示例：按模块和主板排针选择端头",
+          "anchor": "breadboard-parts",
+          "heading": "面包板、导线与按钮"
+        },
+        {
+          "image": "/images/zh/doc-05-image-020.webp",
+          "alt": "可选轻触按钮：同侧引脚可能已经连通，安装前确认导通关系",
+          "anchor": "breadboard-parts",
+          "heading": "面包板、导线与按钮"
+        },
+        {
+          "image": "/images/zh/doc-05-image-015.webp",
+          "alt": "0.91 英寸 128×32 OLED 示例",
+          "anchor": "oled-modules",
+          "heading": "OLED 显示屏"
+        },
+        {
+          "image": "/images/zh/doc-05-image-016.webp",
+          "alt": "0.96 英寸 128×64 OLED 示例",
+          "anchor": "oled-modules",
+          "heading": "OLED 显示屏"
+        },
+        {
+          "image": "/images/zh/breadboard-s3-wiring-v2.6.0.svg",
+          "alt": "基础 S3：完整音频、供电与 OLED 连线",
+          "anchor": "wiring-overview",
+          "heading": "总接线图：先按当前方案连通"
+        },
+        {
+          "image": "/images/zh/doc-05-image-021.jpg",
+          "alt": "44 针标准板位置总图（Surfer 标注）；Wi-Fi 版不接 4G/LDO 分支，功放供电按本页 5V 方案",
+          "anchor": "layout-44",
+          "heading": "乐鑫标准版 · 44 针"
+        },
+        {
+          "image": "/images/zh/doc-05-image-026.jpg",
+          "alt": "42 针果云板位置总图（Surfer 标注）；电源排针位置不同；Wi-Fi 版不接 4G/LDO 分支，功放按本页 5V 方案",
+          "anchor": "layout-42",
+          "heading": "GOOUUU 果云版 · 42 针"
+        },
+        {
+          "image": "/images/zh/doc-05-image-022.jpg",
+          "alt": "44 针板：麦克风反面朝上的位置图，电气信号仍按 WS/SCK/SD 对应",
+          "anchor": "reversed-microphone",
+          "heading": "麦克风排针焊在另一面时"
+        },
+        {
+          "image": "/images/zh/doc-05-image-027.jpg",
+          "alt": "42 针板：麦克风反面朝上的位置图，不能按外观镜像后猜电源脚",
+          "anchor": "reversed-microphone",
+          "heading": "麦克风排针焊在另一面时"
+        },
+        {
+          "image": "/images/zh/doc-05-image-028.jpg",
+          "alt": "麦克风与 MAX98357A 的直接连线：图中 3V3 功放支路与短接线按上文说明调整",
+          "anchor": "audio-direct",
+          "heading": "麦克风与功放的直连接法"
+        },
+        {
+          "image": "/images/zh/breadboard-s3-oled-v2.6.0.svg",
+          "alt": "ESP32-S3 与 SSD1306 OLED 的四根连线",
+          "anchor": "display",
+          "heading": "4. 连接 OLED"
+        },
+        {
+          "image": "/images/zh/doc-05-image-036.jpg",
+          "alt": "基础版移开模块后的接线实物，可看到模块下方的隐藏短线",
+          "anchor": "underside",
+          "heading": "接线完成后：检查模块下面的线"
+        },
+        {
+          "image": "/images/zh/doc-05-image-023.jpg",
+          "alt": "标准板基础布局与模块相对位置",
+          "anchor": "assembly-results",
+          "heading": "装配与完成效果"
+        },
+        {
+          "image": "/images/zh/doc-05-image-024.jpg",
+          "alt": "标准板的连线与模块位置参考",
+          "anchor": "assembly-results",
+          "heading": "装配与完成效果"
+        },
+        {
+          "image": "/images/zh/doc-05-image-029.webp",
+          "alt": "果云板的模块布置",
+          "anchor": "assembly-results",
+          "heading": "装配与完成效果"
+        },
+        {
+          "image": "/images/zh/doc-05-image-030.webp",
+          "alt": "果云板的另一个装配视角",
+          "anchor": "assembly-results",
+          "heading": "装配与完成效果"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"引脚已对照 v2.6.0 板型源码和器件资料；整套接线、电源负载与不同实物模块尚待真机复现。\"",
+      "contentSha256": "fd3d1731fa82a130057ad334c92f14a06dcb2b1351c8e7f527ba633ad24e6435",
+      "previousContentSha256": "baf47712d1c0f05fed70be243c3a05058cb4afe0a320c3e5097a2a75026c9521",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/hardware/breadboard-esp32.md",
+      "sourceArticles": [
+        "DOC-13"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "样机效果先展示，OLED丝印图归接线核对；当前SDA4/SCL15修正图保留，未验证的其他PCB不冒充固定方案。",
+      "readingOrder": [
+        "先看装配效果",
+        "1. 确认目标",
+        "2. 以现行代码核对接线",
+        "逐根核对",
+        "3. 安装与分阶段测试",
+        "怎么确认完成",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-13-image-016.webp",
+          "alt": "经典 ESP32 样机。",
+          "anchor": "finished-overview",
+          "heading": "先看装配效果"
+        },
+        {
+          "image": "/images/zh/doc-13-image-017.webp",
+          "alt": "经典 ESP32 装配参考。",
+          "anchor": "finished-overview",
+          "heading": "先看装配效果"
+        },
+        {
+          "image": "/images/zh/breadboard-esp32-wiring-v2.6.0.svg",
+          "alt": "经典 ESP32：当前音频与 OLED 的逐根连线",
+          "anchor": "wiring",
+          "heading": "2. 以现行代码核对接线"
+        },
+        {
+          "image": "/images/zh/doc-13-image-002.webp",
+          "alt": "OLED 的引脚丝印；GPIO 连接使用下文固件表。",
+          "anchor": null,
+          "heading": "逐根核对"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "7c050df889e6c9f2da54e27bfa69987774252928c248dd6218035d08b721b8f7",
+      "previousContentSha256": "0394c52a36bbb63a4c0bc3aef0883f6b5dcfe51efd3d414306d30128645221f1",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/hardware/choosing-hardware.md",
+      "sourceArticles": [
+        "DOC-10"
+      ],
+      "editorialStatus": "checked",
+      "changed": false,
+      "judgment": "比较整套方案→进入对应教程→采购检查→收货检查；模块识别与线路图留在各搭建页。",
+      "readingOrder": [
+        "从用途开始",
+        "选好一套，再进入对应教程",
+        "买之前逐项核对",
+        "收货后先做什么",
+        "渠道与资料"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "68eb8aaafa572f1e0ca82a4d6dae1b5b14af70adcc44f771b6c6abe75393f5e0",
+      "previousContentSha256": "68eb8aaafa572f1e0ca82a4d6dae1b5b14af70adcc44f771b6c6abe75393f5e0",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/hardware/design-guidelines.md",
+      "sourceArticles": [
+        "DOC-11"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "纠正把芯片/语音能力选型表误读为制造约束表的问题；选型→供电→声学→测试，具体电气参数不泛化。",
+      "readingOrder": [
+        "1. 从信号与负载选型",
+        "2. 供电与噪声",
+        "3. 拾音与播放",
+        "4. 为生产和维护留出条件",
+        "怎么确认完成",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-11-image-001.webp",
+          "alt": "芯片与语音能力的选型示意表：麦克风数量、唤醒、音频处理和显示需求需一起考虑。具体支持范围按所用固件核对。",
+          "anchor": "scope",
+          "heading": "1. 从信号与负载选型"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "9260a682148a2d2d40865b07f784f861061a1def461695c3ea9bdc25c7ad4e57",
+      "previousContentSha256": "2a1c5b784ac4d4bee0677324aa8f760a45fe64f86489d1821f6e4c600ad21102",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/hardware/displays/st7789.md",
+      "sourceArticles": [
+        "DOC-06"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "复核模块正反面→信号→44/42针总图→构建→完成；240×240 原图与默认240×320配置差异保留。",
+      "readingOrder": [
+        "1. 识别屏幕",
+        "2. 按信号接线",
+        "44 针与 42 针的完整位置图",
+        "乐鑫标准版 · 44 针",
+        "GOOUUU 果云版 · 42 针",
+        "3. 构建与验证",
+        "完成效果与检查",
+        "怎么确认完成",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-06-image-001.webp",
+          "alt": "ST7789 屏幕正面。",
+          "anchor": "scope",
+          "heading": "1. 识别屏幕"
+        },
+        {
+          "image": "/images/zh/doc-06-image-002.webp",
+          "alt": "原屏幕背面与接口丝印。",
+          "anchor": "scope",
+          "heading": "1. 识别屏幕"
+        },
+        {
+          "image": "/images/zh/doc-06-image-003.jpg",
+          "alt": "44 针标准板 SPI 彩屏总接线图（Surfer 标注），电源与屏幕尺寸差异见图前说明",
+          "anchor": "layout-44",
+          "heading": "乐鑫标准版 · 44 针"
+        },
+        {
+          "image": "/images/zh/doc-06-image-005.jpg",
+          "alt": "42 针果云板 SPI 彩屏总接线图，按 GPIO 识别不同排针位置",
+          "anchor": "layout-42",
+          "heading": "GOOUUU 果云版 · 42 针"
+        },
+        {
+          "image": "/images/zh/doc-06-image-004.webp",
+          "alt": "原彩屏面包板的完成实物，屏幕尺寸、方向与参数按自己的模块核对",
+          "anchor": "verify",
+          "heading": "完成效果与检查"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "5a0345a76ed137c5adcd7aa741285ecc9cc9278dbc432e72877eb3a452c5055e",
+      "previousContentSha256": "bf4c1b79412bdf304e3324acff2e40b5a4e02a2536c6c6f8fe4245d00e2be776",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/hardware/external-wake-module.md",
+      "sourceArticles": [
+        "DOC-32"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "模块/下载器/开发板/核心板先区分；再配置词条、下载与连接，安装和总接线照片对应各步骤，电平与启动前提明确。",
+      "readingOrder": [
+        "先判断是否需要外接",
+        "1. 区分模块与下载器",
+        "2. 在模块上配置命令",
+        "3. 接入小智",
+        "面包板安装示例",
+        "怎么确认完成",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-32-image-006.jpg",
+          "alt": "ASR CORE 模块外观。",
+          "anchor": "identify",
+          "heading": "1. 区分模块与下载器"
+        },
+        {
+          "image": "/images/zh/doc-32-image-007.jpg",
+          "alt": "ASR-LINK 下载器，用于辨认接口。",
+          "anchor": "identify",
+          "heading": "1. 区分模块与下载器"
+        },
+        {
+          "image": "/images/zh/doc-32-image-008.webp",
+          "alt": "模块配套麦克风。",
+          "anchor": "identify",
+          "heading": "1. 区分模块与下载器"
+        },
+        {
+          "image": "/images/zh/doc-32-image-051.webp",
+          "alt": "ASR PRO V2.0 开发板示例：带 USB 和外围电路，不等同于仅有焊盘的核心板。",
+          "anchor": "identify",
+          "heading": "1. 区分模块与下载器"
+        },
+        {
+          "image": "/images/zh/doc-32-image-052.webp",
+          "alt": "ASR PRO 4M 核心板示例：存储容量、下载方式和引脚按对应修订核对。",
+          "anchor": "identify",
+          "heading": "1. 区分模块与下载器"
+        },
+        {
+          "image": "/images/zh/doc-32-image-023.webp",
+          "alt": "天问 Block 的词条与 GPIO 动作积木示例。配置重点是识别后输出的引脚、极性和持续时间，参数须与实际板级输入匹配。",
+          "anchor": "configure",
+          "heading": "2. 在模块上配置命令"
+        },
+        {
+          "image": "/images/zh/doc-32-image-029.webp",
+          "alt": "ASRPRO 下载工具示例：选择下载器串口、芯片型号与本次生成的程序文件，不能使用小智主固件包替代。",
+          "anchor": "configure",
+          "heading": "2. 在模块上配置命令"
+        },
+        {
+          "image": "/images/zh/doc-32-image-033.webp",
+          "alt": "核心板在面包板上的安装位置；先确认排针方向和相邻触点，避免跨接电源。",
+          "anchor": "prototype",
+          "heading": "面包板安装示例"
+        },
+        {
+          "image": "/images/zh/doc-32-image-034.webp",
+          "alt": "样机的 ASR 输出到 S3 按钮输入示意。只用于理解信号关系；供电、电平、极性与启动行为须按具体模块确认。",
+          "anchor": "prototype",
+          "heading": "面包板安装示例"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "f8d8c4f84af091562c83db4f6d00e58554d10e020b9da96d2cf3c0d1cf494e59",
+      "previousContentSha256": "fa2b130259c37ab760aaee60bc9ecbed07cc176bc14fc87d482e4d6d059492a0",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/hardware/index.md",
+      "sourceArticles": [],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "整套选型→具体板型→扩展/电源/音频；修正设计指南名称，反馈段不显示迁移核对信息。",
+      "readingOrder": [
+        "选择教程",
+        "阅读与反馈"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": null,
+      "contentSha256": "4bd4fcd7a66c470763627859c021b745e2435819e9fa597433563e58fc5c5aef",
+      "previousContentSha256": "b8c1d570305d2a6bf9982809b53a34445f7589ceb9e89de670cd212ee08e31e2",
+      "communityStatus": "section-or-contribution-page"
+    },
+    {
+      "page": "docs/zh/hardware/supported-boards.md",
+      "sourceArticles": [
+        "DOC-31"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "识别实物→当前目录查支持→对应指南→优先在线烧录；成品照片不作为芯片/修订的唯一依据。",
+      "readingOrder": [
+        "先识别硬件",
+        "1. 在现行目录中查找",
+        "2. 找到适合的指南",
+        "3. 选择固件",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/doc-31-image-003.webp",
+          "alt": "Xmini-C3 系列成品外观；外壳相似不能代替 PCB 修订和固件变体核对。",
+          "anchor": "scope",
+          "heading": "先识别硬件"
+        },
+        {
+          "image": "/images/zh/doc-31-image-004.webp",
+          "alt": "ESP32-BOX-3 外观。",
+          "anchor": "scope",
+          "heading": "先识别硬件"
+        },
+        {
+          "image": "/images/zh/doc-31-image-012.webp",
+          "alt": "M5Stack CoreS3 外观；支持范围以固件目录为准。",
+          "anchor": "scope",
+          "heading": "先识别硬件"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "bdda99e4a2dc6981158defd114f95e567d7212ad4ee4c2cb9e6a506cd05e0444",
+      "previousContentSha256": "158d478deeb25b5b01d2b459dcb3b170c77081370ee57f0622a4a6627a84b4d7",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/index.md",
+      "sourceArticles": [],
+      "editorialStatus": "checked",
+      "changed": false,
+      "judgment": "首页按用户任务分区；空白板优先在线编译，英文仍待中文确认。",
+      "readingOrder": [],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": null,
+      "contentSha256": "aab47ebb914e523aa1f29610f9683d343922b849478fe117976d9bf94f502595",
+      "previousContentSha256": "aab47ebb914e523aa1f29610f9683d343922b849478fe117976d9bf94f502595",
+      "communityStatus": "section-or-contribution-page"
+    },
+    {
+      "page": "docs/zh/mcp/connect-existing-servers.md",
+      "sourceArticles": [
+        "DOC-28"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "先识别传输并独立验证，再配置、桥接和实际调用；图形工具另列维护入口，不混入固件唤醒补丁。",
+      "readingOrder": [
+        "开始前",
+        "1. 先独立验证服务",
+        "2. 建立配置",
+        "3. 启动并分段检查",
+        "怎么确认完成",
+        "第三方图形工具与素材",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/mcp-transport-choice.svg",
+          "alt": "已有 MCP 服务先选正确的传输方式",
+          "anchor": "scope",
+          "heading": "开始前"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "1a3150d350bdf7095b509f36b0f30406f7aad60ad256201256021b6283c06bd4",
+      "previousContentSha256": "c2ffe70e5213b41608af683bc859a680554103bfa36d9395ba63882453969243",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/mcp/examples/web-search.md",
+      "sourceArticles": [
+        "DOC-25"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "先最小 MCP 依赖，再供应商密钥与搜索；图示区分 MCP_ENDPOINT 和搜索 API Key，历史 GUI ZIP 明确归档用途。",
+      "readingOrder": [
+        "准备工作",
+        "1. 保存示例程序",
+        "2. 设置供应商凭据",
+        "3. 启动并核对结果",
+        "其他接入方式",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/mcp-web-search-flow.svg",
+          "alt": "搜索工具与两种凭据",
+          "anchor": "scope",
+          "heading": "准备工作"
+        }
+      ],
+      "attachments": [
+        "<SourceMaterials article=\"DOC-25\" />"
+      ],
+      "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
+      "contentSha256": "979ab7f5ad7ffffe6aeada4c55d92bab786af86e0a416fd34a9e14cb9a0e3084",
+      "previousContentSha256": "1c892cd13d2ebb039ac990aa4db74ae3991d5c25e39c847e83177c53a151c476",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/mcp/index.md",
+      "sourceArticles": [],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "先最小例子，再现有服务，再搜索；不把设备工具和服务器工具混同。",
+      "readingOrder": [
+        "选择教程",
+        "阅读与反馈"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": null,
+      "contentSha256": "f89d3ad14b3362759348210f1d1af6fb4661bfcf50f63020641f1cd9bb8ee397",
+      "previousContentSha256": "45f4d164d65acebb8a4f047d26127a8af9d4578f8d2f9e4a7a4fdcf6d88358ac",
+      "communityStatus": "section-or-contribution-page"
+    },
+    {
+      "page": "docs/zh/mcp/quickstart.md",
+      "sourceArticles": [
+        "DOC-24"
+      ],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "准备环境→固定桥接→安全整数工具→端点→真实调用；新增调用链，替代含令牌的旧截图。",
+      "readingOrder": [
+        "准备工作",
+        "1. 获取当前智能体的端点",
+        "2. 建立独立 Python 环境",
+        "3. 创建最小工具",
+        "4. 设置端点并启动桥接",
+        "5. 验证发现和实际调用",
+        "常见问题",
+        "下一步"
+      ],
+      "figures": [
+        {
+          "image": "/images/zh/mcp-calculator-flow.svg",
+          "alt": "一次加法工具调用经过哪些环节",
+          "anchor": "scope",
+          "heading": "准备工作"
+        }
+      ],
+      "attachments": [],
+      "reviewNoteInAudit": "\"示例已通过本地 MCP 协议与 WebSocket 桥接测试；真实端点、控制台工具发现和设备语音调用仍需使用自己的账号验证。\"",
+      "contentSha256": "96c4a023210443eadfc353ebcc26c5e7566cd499b2f37825d69e4f4ed073b964",
+      "previousContentSha256": "419edb02b27dfa276c2b397fc4dcbd740d45ffbd83f8215f9d831d17aceb05d0",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/reference/display-emotions.md",
+      "sourceArticles": [
+        "DOC-39"
+      ],
+      "editorialStatus": "checked",
+      "changed": false,
+      "judgment": "先分语义、显示实现与资源，再测常用/未知值；无原图遗漏，映射仍归 owning repo。",
+      "readingOrder": [
+        "从哪一层查起",
+        "调试顺序",
+        "怎样更新"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": "\"适用固件 v2.6.0；完整规范和实现由固件仓库维护。\"",
+      "contentSha256": "b843532ee63a5f5da767d15fc8c16d0cfd0bca41362c5f5ab69935e10592d3f0",
+      "previousContentSha256": "b843532ee63a5f5da767d15fc8c16d0cfd0bca41362c5f5ab69935e10592d3f0",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/reference/index.md",
+      "sourceArticles": [],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "按协议任务进入固件同版本规范；不在文档站维护分叉协议表。",
+      "readingOrder": [
+        "选择教程",
+        "阅读与反馈"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": null,
+      "contentSha256": "2ba4fa8a021802d806c26ce599d5cea8d2edb4ebf47b28a6adde0de3e52920c9",
+      "previousContentSha256": "746751c0ea4237e7c4ea8817dff0d96569f0749b0ab1341a9c3f4988bbfacee1",
+      "communityStatus": "section-or-contribution-page"
+    },
+    {
+      "page": "docs/zh/reference/ota.md",
+      "sourceArticles": [
+        "DOC-40"
+      ],
+      "editorialStatus": "checked",
+      "changed": false,
+      "judgment": "同版本契约→四种操作→配置/激活/更新排查→验证；具体头部/字段以固件仓库为准。",
+      "readingOrder": [
+        "对照同一个版本",
+        "区分四种操作",
+        "排查顺序",
+        "怎么确认完成",
+        "下一步"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": "\"适用固件 v2.6.0；完整规范和实现由固件仓库维护。\"",
+      "contentSha256": "49ef587bd1f8c56a1a38f1d68dd4ad05133273dac1e57f5a4f11459aacc2a90f",
+      "previousContentSha256": "49ef587bd1f8c56a1a38f1d68dd4ad05133273dac1e57f5a4f11459aacc2a90f",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/reference/websocket.md",
+      "sourceArticles": [
+        "DOC-38"
+      ],
+      "editorialStatus": "checked",
+      "changed": false,
+      "judgment": "基线→权威入口→报文分层→互通验证；旧状态图不复制，指向固件 v2.6.0 实现与文档。",
+      "readingOrder": [
+        "选择基线",
+        "核对顺序",
+        "如何维护",
+        "下一步"
+      ],
+      "figures": [],
+      "attachments": [],
+      "reviewNoteInAudit": "\"适用固件 v2.6.0；完整规范和实现由固件仓库维护。\"",
+      "contentSha256": "b488be501282fafe3d46986a1ce464013626b3f91d39dbef2bf5c7bc7c557d65",
+      "previousContentSha256": "b488be501282fafe3d46986a1ce464013626b3f91d39dbef2bf5c7bc7c557d65",
+      "communityStatus": "awaiting-feedback"
+    },
+    {
+      "page": "docs/zh/firmware/releases/v2.6.0.md",
+      "sourceArticles": [],
+      "editorialStatus": "checked",
+      "changed": true,
+      "judgment": "按产品名→芯片/硬件版本→完整文件名阅读，按系列分类；v2.6.0逐项对应199个官方资产，不让用户凭文件名猜板型。",
+      "readingOrder": [
+        "适用范围/在线安装",
+        "分类与热门开发板",
+        "产品名称、芯片和文件名下载表",
+        "安装或升级边界",
+        "下一步"
+      ],
+      "figures": [],
+      "attachments": [
+        {
+          "name": "v2.6.0_alientek-atk-dnesp32s3-box.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_alientek-atk-dnesp32s3-box.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_alientek-atk-dnesp32s3-box0.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_alientek-atk-dnesp32s3-box0.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_alientek-atk-dnesp32s3-box2-4g.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_alientek-atk-dnesp32s3-box2-4g.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_alientek-atk-dnesp32s3-box2-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_alientek-atk-dnesp32s3-box2-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_alientek-atk-dnesp32s3-box3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_alientek-atk-dnesp32s3-box3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_alientek-atk-dnesp32s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_alientek-atk-dnesp32s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-esp32-lcd.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-esp32-lcd.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-esp32.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-esp32.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-esp32-128x32.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-esp32-128x32.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-ml307-128x64.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-ml307-128x64.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-nt26.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-nt26.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-wifi-lcd.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-wifi-lcd.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-wifi-s3cam.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-wifi-s3cam.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-wifi-128x64.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-wifi-128x64.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_chd-esp32s3-box.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_chd-esp32s3-box.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_chd-esp32s3-box-lcd35.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_chd-esp32s3-box-lcd35.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_chd-esp32s3-eye.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_chd-esp32s3-eye.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_cyberai-cyber-vocat-v2.0.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_cyberai-cyber-vocat-v2.0.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_cyberai-cyber-vocat-v2.1.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_cyberai-cyber-vocat-v2.1.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_dfrobot-df-k10.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_dfrobot-df-k10.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_dfrobot-df-s3-ai-cam.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_dfrobot-df-s3-ai-cam.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_doit-s3-aibox.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_doit-s3-aibox.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_du-chatx.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_du-chatx.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_electron-bot.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_electron-bot.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-hi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-hi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-mosaico.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-mosaico.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-sensairshuttle.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-sensairshuttle.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-sparkbot.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-sparkbot.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-spot-c5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-spot-c5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-vocat.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-vocat.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp32-p4-function-ev-board.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp32-p4-function-ev-board.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp32-p4x-function-ev-board.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp32-p4x-function-ev-board.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-box-3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-box-3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-box-lite.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-box-lite.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-box.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-box.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp32s3-korvo2-v3-rndis.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp32s3-korvo2-v3-rndis.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp32s3-korvo2-v3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp32s3-korvo2-v3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-s3-lcd-ev-board-2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-s3-lcd-ev-board-2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-s3-lcd-ev-board-1p4.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-s3-lcd-ev-board-1p4.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-s3-lcd-ev-board-1p5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-s3-lcd-ev-board-1p5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp32-s31-function-coreboard-1.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp32-s31-function-coreboard-1.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp32-s31-korvo-1.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp32-s31-korvo-1.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_folotoy-ai-passport.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_folotoy-ai-passport.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_freenove-esp32s3-display-2.8-lcd.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_freenove-esp32s3-display-2.8-lcd.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_genjutech-s3-1.54tft.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_genjutech-s3-1.54tft.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_guition-jc4827w543.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_guition-jc4827w543.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_guition-jc4827w543-ext-amp.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_guition-jc4827w543-ext-amp.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_hu-087.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_hu-087.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_jiuchuan-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_jiuchuan-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_kevin-box-2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_kevin-box-2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_kevin-c3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_kevin-c3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_kevin-sp-v4-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_kevin-sp-v4-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_kevin-yuying-313lcd.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_kevin-yuying-313lcd.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_labplus-ledong-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_labplus-ledong-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_labplus-mpython-v3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_labplus-mpython-v3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lc-s3-wifi-1.54tft.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lc-s3-wifi-1.54tft.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lcdwiki-es3c35p.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lcdwiki-es3c35p.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lceda-course-examples-eda-robot-pro.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lceda-course-examples-eda-robot-pro.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lceda-course-examples-eda-super-bear.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lceda-course-examples-eda-super-bear.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lceda-course-examples-eda-tv-pro.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lceda-course-examples-eda-tv-pro.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lckfb-lichuang-c3-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lckfb-lichuang-c3-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lckfb-lichuang-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lckfb-lichuang-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lilygo-t-cameraplus-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lilygo-t-cameraplus-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lilygo-t-cameraplus-s3-v1.2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lilygo-t-cameraplus-s3-v1.2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lilygo-t-circle-s3-v11.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lilygo-t-circle-s3-v11.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lilygo-t-circle-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lilygo-t-circle-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lilygo-t-display-s3-pro-mvsrlora.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lilygo-t-display-s3-pro-mvsrlora.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-atom-echos3r.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-atom-echos3r.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-atommatrix-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-atommatrix-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-atoms3-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-atoms3-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-atoms3r-cam-m12-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-atoms3r-cam-m12-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-atoms3r-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-atoms3r-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-atoms3r-echo-pyramid.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-atoms3r-echo-pyramid.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-cardputer-adv.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-cardputer-adv.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-cardputer.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-cardputer.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-core-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-core-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-corep4x.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-corep4x.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-stackchan.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-stackchan.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-stick-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-stick-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-stopwatch.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-stopwatch.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-tab5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-tab5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-tab5-p4x.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-tab5-p4x.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_magiclick-2p4.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_magiclick-2p4.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_magiclick-2p5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_magiclick-2p5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_magiclick-c3-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_magiclick-c3-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_magiclick-c3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_magiclick-c3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_maza-ai-esp32-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_maza-ai-esp32-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_maza-ai-esp32-s31.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_maza-ai-esp32-s31.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_minsi-k08-dual.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_minsi-k08-dual.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_mixgo-nova.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_mixgo-nova.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_movecall-cuican-esp32s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_movecall-cuican-esp32s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_movecall-moji-esp32s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_movecall-moji-esp32s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_movecall-moji2-esp32c5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_movecall-moji2-esp32c5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-abs-2.0.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-abs-2.0.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-cube-0.85tft-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-cube-0.85tft-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-cube-0.85tft-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-cube-0.85tft-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-cube-0.96oled-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-cube-0.96oled-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-cube-0.96oled-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-cube-0.96oled-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-cube-1.54tft-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-cube-1.54tft-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-cube-1.54tft-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-cube-1.54tft-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-metal-1.54-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-metal-1.54-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nulllab-ai-vox-v3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nulllab-ai-vox-v3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_otto-robot.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_otto-robot.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_quandong-esp32-s3-qspi-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_quandong-esp32-s3-qspi-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_quandong-s3-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_quandong-s3-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_quandong-esp32-s3-spi-4.0.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_quandong-esp32-s3-spi-4.0.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_rymcu-bigsmart.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_rymcu-bigsmart.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_seeed-xiao-esp32s3-respeaker-xvf3800.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_seeed-xiao-esp32s3-respeaker-xvf3800.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_seeed-xiao-esp32s3-respeaker-flex-circular-48k.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_seeed-xiao-esp32s3-respeaker-flex-circular-48k.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_sensecap-watcher.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_sensecap-watcher.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_spotpear-sp-esp32-s3-1.28-box.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_spotpear-sp-esp32-s3-1.28-box.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_spotpear-sp-esp32-s3-1.54-muma.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_spotpear-sp-esp32-s3-1.54-muma.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_surfer-c3-1.14tft.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_surfer-c3-1.14tft.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_taiji-pi-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_taiji-pi-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_taiji-pi-s3-pdm.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_taiji-pi-s3-pdm.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c5-touch-lcd-1.69.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c5-touch-lcd-1.69.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c5-touch-lcd-2.8.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c5-touch-lcd-2.8.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c5-touch-lcd-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c5-touch-lcd-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-epaper-1.54.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-epaper-1.54.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-lcd-0.85.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-lcd-0.85.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-lcd-1.69.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-lcd-1.69.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-amoled-1.32.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-amoled-1.32.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-amoled-1.43.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-amoled-1.43.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-amoled-1.8-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-amoled-1.8-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-amoled-1.8.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-amoled-1.8.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-amoled-2.06.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-amoled-2.06.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-amoled-2.16.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-amoled-2.16.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-lcd-1.54.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-lcd-1.54.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-lcd-1.83.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-lcd-1.83.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-nano-10.1-a.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-nano-10.1-a.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-nano-10.1-a.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-nano-10.1-a.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-4b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-4b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-4b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-4b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-4.3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-4.3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-4.3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-4.3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-7b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-7b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-7b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-7b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-3.4c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-3.4c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-3.4c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-3.4c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-4c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-4c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-4c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-4c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-7.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-7.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-7.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-7.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-8.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-8.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-8.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-8.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-10.1.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-10.1.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-10.1.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-10.1.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-audio-board.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-audio-board.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-cam-2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-cam-2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-cam-2.8.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-cam-2.8.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-cam-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-cam-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-cam-1.83.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-cam-1.83.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-epaper-1.54-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-epaper-1.54-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-epaper-1.54-v1.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-epaper-1.54-v1.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-epaper-3.97.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-epaper-3.97.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-lcd-0.85.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-lcd-0.85.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-rgb-matrix.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-rgb-matrix.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-rlcd-4.2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-rlcd-4.2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-1.32.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-1.32.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-1.43c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-1.43c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-1.75.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-1.75.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-1.75c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-1.75c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-1.8-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-1.8-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-1.8.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-1.8.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-2.06.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-2.06.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-2.16.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-2.16.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-1.46.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-1.46.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-1.54.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-1.54.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-1.83.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-1.83.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-1.85.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-1.85.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-1.85b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-1.85b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-1.85c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-1.85c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-3.49-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-3.49-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-3.49.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-3.49.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-3.5b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-3.5b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-4.3c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-4.3c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-4b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-4b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-7c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-7c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-touch-lcd-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-touch-lcd-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_wdmomo-esp32-cgc-144.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_wdmomo-esp32-cgc-144.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_wdmomo-esp32-cgc.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_wdmomo-esp32-cgc.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_wk-esp32s3-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_wk-esp32s3-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_xmini-c3-4g.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_xmini-c3-4g.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_xmini-c3-v3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_xmini-c3-v3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_xmini-c3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_xmini-c3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_xorigin-aipi-lite.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_xorigin-aipi-lite.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_yunliao-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_yunliao-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_zectrix-s3-epaper-4.2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_zectrix-s3-epaper-4.2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_zhengchen-1.54tft-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_zhengchen-1.54tft-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_zhengchen-1.54tft-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_zhengchen-1.54tft-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_zhengchen-cam-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_zhengchen-cam-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_zhengchen-cam.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_zhengchen-cam.zip",
+          "kind": "official-firmware-zip"
+        }
+      ],
+      "reviewNoteInAudit": "官方Release/tag/API资产已核对；不宣称全板型或完整硬件验证。",
+      "communityStatus": "awaiting-feedback",
+      "contentSha256": "ac32a2d59e9047ae4f61bc98aaa87517e43cf048f0b89697a1a3ab3fe76722c8",
+      "catalogReview": "firmware-download-catalog.json"
+    }
+  ],
+  "requiredFigures": [
+    {
+      "page": "docs/zh/community/mcp-tools.md",
+      "anchor": "mcphub",
+      "image": "/images/zh/doc-27-image-006.webp",
+      "purpose": "xiaozhi-mcphub 的工具市场列表：这是挑选服务的界面，不是连接架构图。"
+    },
+    {
+      "page": "docs/zh/community/projects/astronaut-storyteller.md",
+      "anchor": null,
+      "image": "/images/zh/doc-44-image-001.webp",
+      "purpose": "原太空人故事机与改造目标。"
+    },
+    {
+      "page": "docs/zh/community/projects/astronaut-storyteller.md",
+      "anchor": "scope",
+      "image": "/images/zh/doc-44-image-003.jpg",
+      "purpose": "示例样机 PCB 拆解照片，仅适用该板修订。"
+    },
+    {
+      "page": "docs/zh/community/projects/astronaut-storyteller.md",
+      "anchor": "scope",
+      "image": "/images/zh/doc-44-image-004.webp",
+      "purpose": "原板另一视角；拆除器件前必须确认电路。"
+    },
+    {
+      "page": "docs/zh/community/projects/astronaut-storyteller.md",
+      "anchor": "audio",
+      "image": "/images/zh/doc-44-image-005.webp",
+      "purpose": "INMP441 麦克风模块。"
+    },
+    {
+      "page": "docs/zh/community/projects/astronaut-storyteller.md",
+      "anchor": "audio",
+      "image": "/images/zh/doc-44-image-006.webp",
+      "purpose": "MAX98357A 功放模块。"
+    },
+    {
+      "page": "docs/zh/community/projects/astronaut-storyteller.md",
+      "anchor": "audio",
+      "image": "/images/zh/doc-44-image-007.webp",
+      "purpose": "原功放模块接线参考。"
+    },
+    {
+      "page": "docs/zh/community/projects/astronaut-storyteller.md",
+      "anchor": "audio",
+      "image": "/images/zh/doc-44-image-008.webp",
+      "purpose": "原语音模块组装。"
+    },
+    {
+      "page": "docs/zh/community/projects/astronaut-storyteller.md",
+      "anchor": "audio",
+      "image": "/images/zh/doc-44-image-009.webp",
+      "purpose": "原语音部分的另一视角。"
+    },
+    {
+      "page": "docs/zh/community/projects/astronaut-storyteller.md",
+      "anchor": "power",
+      "image": "/images/zh/doc-44-image-012.webp",
+      "purpose": "样机电源模块的 OUT 5V、BAT、VIN 和 GND 标注。输入、电池与输出不能互换；接线前核对具体模块原理图。"
+    },
+    {
+      "page": "docs/zh/community/projects/astronaut-storyteller.md",
+      "anchor": "build",
+      "image": "/images/zh/doc-44-image-015.webp",
+      "purpose": "原改造样机完成状态。"
+    },
+    {
+      "page": "docs/zh/community/projects/astronaut-storyteller.md",
+      "anchor": "build",
+      "image": "/images/zh/doc-44-image-016.webp",
+      "purpose": "装壳效果。"
+    },
+    {
+      "page": "docs/zh/community/projects/astronaut-storyteller.md",
+      "anchor": "build",
+      "image": "/images/zh/doc-44-image-013.webp",
+      "purpose": "这块样机按键板上的信号引出点：先测量导通、有效电平和原板供电，再接入主控。"
+    },
+    {
+      "page": "docs/zh/community/projects/astronaut-storyteller.md",
+      "anchor": "build",
+      "image": "/images/zh/doc-44-image-014.webp",
+      "purpose": "样机的按键信号引到 S3 接口与 BOOT 附近。照片用于识别焊点，不能直接套用到其他 PCB 修订。"
+    },
+    {
+      "page": "docs/zh/community/projects/sf32lb52-plugin.md",
+      "anchor": "hardware",
+      "image": "/images/zh/doc-30-image-001.webp",
+      "purpose": "插件版原型与外观。"
+    },
+    {
+      "page": "docs/zh/community/projects/wake-on-lan.md",
+      "anchor": "scope",
+      "image": "/images/zh/wake-on-lan-flow.svg",
+      "purpose": "先验证局域网唤醒，再接语音"
+    },
+    {
+      "page": "docs/zh/console/github-verification.md",
+      "anchor": "bind",
+      "image": "/images/zh/github-auth-flow.svg",
+      "purpose": "GitHub 认证的操作顺序"
+    },
+    {
+      "page": "docs/zh/console/knowledge-base.md",
+      "anchor": "scope",
+      "image": "/images/zh/knowledge-base-flow.svg",
+      "purpose": "知识库的阅读与操作顺序"
+    },
+    {
+      "page": "docs/zh/console/voice-cloning.md",
+      "anchor": "audio",
+      "image": "/images/zh/voice-training-flow.svg",
+      "purpose": "声音复刻：两种输入，共用后续训练流程"
+    },
+    {
+      "page": "docs/zh/console/voice-cloning.md",
+      "anchor": "upload",
+      "image": "/images/zh/voice-audio-selection.svg",
+      "purpose": "音频编辑选区示意：边界外的内容不会提交，先试听所选片段"
+    },
+    {
+      "page": "docs/zh/development/audio-and-aec.md",
+      "anchor": "scope",
+      "image": "/images/zh/aec-reference-path.svg",
+      "purpose": "AEC 要比较哪两路声音"
+    },
+    {
+      "page": "docs/zh/development/build-firmware.md",
+      "anchor": "scope",
+      "image": "/images/zh/firmware-build-flow.svg",
+      "purpose": "本地构建的目录与操作顺序"
+    },
+    {
+      "page": "docs/zh/development/custom-board.md",
+      "anchor": "identity",
+      "image": "/images/zh/custom-board-identity.svg",
+      "purpose": "定制硬件到固件身份"
+    },
+    {
+      "page": "docs/zh/development/mcp-gpio.md",
+      "anchor": "led-wiring",
+      "image": "/images/zh/gpio-led-wiring.svg",
+      "purpose": "基础 S3 的 GPIO18 指示灯连接"
+    },
+    {
+      "page": "docs/zh/development/wake-words.md",
+      "anchor": "scope",
+      "image": "/images/zh/wake-word-choice.svg",
+      "purpose": "先确认条件，再选择唤醒方案"
+    },
+    {
+      "page": "docs/zh/faq/serial-logs.md",
+      "anchor": "port",
+      "image": "/images/zh/doc-23-image-001.webp",
+      "purpose": "Windows 设备管理器中查找串口的示例；COM 编号因电脑而异。"
+    },
+    {
+      "page": "docs/zh/firmware/flashing.md",
+      "anchor": "download-mode",
+      "image": "/images/zh/doc-18-image-011.webp",
+      "purpose": "Web Serial 授权窗口：选开发板对应串口。若看不准，取消后插拔观察，再重新授权。"
+    },
+    {
+      "page": "docs/zh/firmware/flashing.md",
+      "anchor": "windows-tool",
+      "image": "/images/zh/doc-08-image-003.webp",
+      "purpose": "Flash Download Tool 3.9.7 的启动选项：本例为 ESP32-S3 / Develop / UART。"
+    },
+    {
+      "page": "docs/zh/firmware/flashing.md",
+      "anchor": "windows-tool",
+      "image": "/images/zh/doc-08-image-005.webp",
+      "purpose": "为合并镜像选择文件并填写地址；本例只适用于已确认从 0x0 写入的完整 S3 镜像。"
+    },
+    {
+      "page": "docs/zh/firmware/flashing.md",
+      "anchor": "windows-tool",
+      "image": "/images/zh/doc-08-image-009.webp",
+      "purpose": "工具出现 FINISH 后重启设备，再检查实际版本与功能。"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "anchor": "serial-port",
+      "image": "/images/zh/doc-18-image-011.webp",
+      "purpose": "浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。"
+    },
+    {
+      "page": "docs/zh/getting-started/wifi-and-binding.md",
+      "anchor": "hotspot",
+      "image": "/images/zh/doc-09-image-006.webp",
+      "purpose": "热点页面提示保存成功后，等待设备重启并连接目标网络；这一步还没有完成账号绑定。"
+    },
+    {
+      "page": "docs/zh/getting-started/wifi-and-binding.md",
+      "anchor": "bind",
+      "image": "/images/zh/device-binding-flow.svg",
+      "purpose": "联网与账号绑定是两步操作"
+    },
+    {
+      "page": "docs/zh/hardware/audio-output.md",
+      "anchor": "scope",
+      "image": "/images/shared/audio-output-paths.svg",
+      "purpose": "从数字音频到不同负载的三种连接路径"
+    },
+    {
+      "page": "docs/zh/hardware/audio-output.md",
+      "anchor": "headphones",
+      "image": "/images/zh/doc-35-image-002.webp",
+      "purpose": "三脚 3.5mm 插座的外观。插座本身不具备耳机驱动或电平转换功能，不能直接接 MAX98357A 的输出。"
+    },
+    {
+      "page": "docs/zh/hardware/battery-power.md",
+      "anchor": "usb-power",
+      "image": "/images/zh/usb-power-bank.svg",
+      "purpose": "用成品 USB 移动电源给基础 S3 供电"
+    },
+    {
+      "page": "docs/zh/hardware/battery-power.md",
+      "anchor": "custom-power",
+      "image": "/images/zh/doc-34-image-002.webp",
+      "purpose": "带引线和接插件的电池示例：必须按具体电池资料核对化学体系、电压和插头极性。"
+    },
+    {
+      "page": "docs/zh/hardware/battery-power.md",
+      "anchor": "custom-power",
+      "image": "/images/zh/doc-34-image-003.webp",
+      "purpose": "电源模块的 B+、B− 与 5V 焊点示例。USB 接口的输入/输出用途及充电、保护能力须按该模块资料确认。"
+    },
+    {
+      "page": "docs/zh/hardware/boards/xmini-c3.md",
+      "anchor": null,
+      "image": "/images/zh/doc-29-image-001.webp",
+      "purpose": "Xmini-C3 板外观。"
+    },
+    {
+      "page": "docs/zh/hardware/boards/xmini-c3.md",
+      "anchor": "scope",
+      "image": "/images/zh/doc-29-image-019.webp",
+      "purpose": "原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。"
+    },
+    {
+      "page": "docs/zh/hardware/design-guidelines.md",
+      "anchor": "scope",
+      "image": "/images/zh/doc-11-image-001.webp",
+      "purpose": "芯片与语音能力的选型示意表：麦克风数量、唤醒、音频处理和显示需求需一起考虑。具体支持范围按所用固件核对。"
+    },
+    {
+      "page": "docs/zh/hardware/external-wake-module.md",
+      "anchor": "identify",
+      "image": "/images/zh/doc-32-image-006.jpg",
+      "purpose": "ASR CORE 模块外观。"
+    },
+    {
+      "page": "docs/zh/hardware/external-wake-module.md",
+      "anchor": "identify",
+      "image": "/images/zh/doc-32-image-007.jpg",
+      "purpose": "ASR-LINK 下载器，用于辨认接口。"
+    },
+    {
+      "page": "docs/zh/hardware/external-wake-module.md",
+      "anchor": "identify",
+      "image": "/images/zh/doc-32-image-008.webp",
+      "purpose": "模块配套麦克风。"
+    },
+    {
+      "page": "docs/zh/hardware/external-wake-module.md",
+      "anchor": "identify",
+      "image": "/images/zh/doc-32-image-051.webp",
+      "purpose": "ASR PRO V2.0 开发板示例：带 USB 和外围电路，不等同于仅有焊盘的核心板。"
+    },
+    {
+      "page": "docs/zh/hardware/external-wake-module.md",
+      "anchor": "identify",
+      "image": "/images/zh/doc-32-image-052.webp",
+      "purpose": "ASR PRO 4M 核心板示例：存储容量、下载方式和引脚按对应修订核对。"
+    },
+    {
+      "page": "docs/zh/hardware/external-wake-module.md",
+      "anchor": "configure",
+      "image": "/images/zh/doc-32-image-023.webp",
+      "purpose": "天问 Block 的词条与 GPIO 动作积木示例。配置重点是识别后输出的引脚、极性和持续时间，参数须与实际板级输入匹配。"
+    },
+    {
+      "page": "docs/zh/hardware/external-wake-module.md",
+      "anchor": "configure",
+      "image": "/images/zh/doc-32-image-029.webp",
+      "purpose": "ASRPRO 下载工具示例：选择下载器串口、芯片型号与本次生成的程序文件，不能使用小智主固件包替代。"
+    },
+    {
+      "page": "docs/zh/hardware/external-wake-module.md",
+      "anchor": "prototype",
+      "image": "/images/zh/doc-32-image-033.webp",
+      "purpose": "核心板在面包板上的安装位置；先确认排针方向和相邻触点，避免跨接电源。"
+    },
+    {
+      "page": "docs/zh/hardware/external-wake-module.md",
+      "anchor": "prototype",
+      "image": "/images/zh/doc-32-image-034.webp",
+      "purpose": "样机的 ASR 输出到 S3 按钮输入示意。只用于理解信号关系；供电、电平、极性与启动行为须按具体模块确认。"
+    },
+    {
+      "page": "docs/zh/hardware/supported-boards.md",
+      "anchor": "scope",
+      "image": "/images/zh/doc-31-image-003.webp",
+      "purpose": "Xmini-C3 系列成品外观；外壳相似不能代替 PCB 修订和固件变体核对。"
+    },
+    {
+      "page": "docs/zh/hardware/supported-boards.md",
+      "anchor": "scope",
+      "image": "/images/zh/doc-31-image-004.webp",
+      "purpose": "ESP32-BOX-3 外观。"
+    },
+    {
+      "page": "docs/zh/hardware/supported-boards.md",
+      "anchor": "scope",
+      "image": "/images/zh/doc-31-image-012.webp",
+      "purpose": "M5Stack CoreS3 外观；支持范围以固件目录为准。"
+    },
+    {
+      "page": "docs/zh/mcp/connect-existing-servers.md",
+      "anchor": "scope",
+      "image": "/images/zh/mcp-transport-choice.svg",
+      "purpose": "已有 MCP 服务先选正确的传输方式"
+    },
+    {
+      "page": "docs/zh/mcp/examples/web-search.md",
+      "anchor": "scope",
+      "image": "/images/zh/mcp-web-search-flow.svg",
+      "purpose": "搜索工具与两种凭据"
+    },
+    {
+      "page": "docs/zh/mcp/quickstart.md",
+      "anchor": "scope",
+      "image": "/images/zh/mcp-calculator-flow.svg",
+      "purpose": "一次加法工具调用经过哪些环节"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "image": "/images/zh/console-builder-basic-2026-11-14.png",
+      "anchor": "configure",
+      "purpose": "真实基础配置界面，核对芯片、板型、屏幕和语言。"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "image": "/images/zh/console-builder-network-2026-11-14.png",
+      "anchor": "configure",
+      "purpose": "真实音频与配网页签，说明选项随板型变化。"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "image": "/images/zh/console-builder-history-2026-11-14.png",
+      "anchor": "build",
+      "purpose": "已完成任务的烧录与下载入口。"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "image": "/images/zh/console-flash-confirm-2026-11-14.png",
+      "anchor": "flash",
+      "purpose": "点击连接前核对板型、Commit与参数。"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "image": "/images/zh/console-serial-picker-macos-2026-11-14.jpg",
+      "anchor": "serial-port",
+      "purpose": "macOS Chrome 的真实串口选择弹窗；已选中连接的小智设备。"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "image": "/images/zh/console-flash-progress-2026-11-14.jpg",
+      "anchor": "flash-progress",
+      "purpose": "实际写入 ota_0 分区，进度25%。"
+    },
+    {
+      "page": "docs/zh/firmware/online-builder.md",
+      "image": "/images/zh/console-flash-success-2026-11-14.jpg",
+      "anchor": "flash-success",
+      "purpose": "实际烧录成功，界面显示设备正在重新启动。"
+    }
+  ],
+  "forbiddenLegacyConsoleFigures": [
+    "/images/zh/doc-14-image-004",
+    "/images/zh/doc-14-image-005",
+    "/images/zh/doc-14-image-011",
+    "/images/zh/doc-17-image-002",
+    "/images/zh/doc-17-image-004",
+    "/images/zh/doc-17-image-005",
+    "/images/zh/doc-18-image-004",
+    "/images/zh/doc-18-image-013",
+    "/images/zh/doc-09-image-009"
+  ],
+  "browserVerification": {
+    "status": "verified-representative-pages",
+    "record": "reader-browser-verification-2026-11-14.json",
+    "cases": 16,
+    "uniquePages": 11,
+    "viewportWidths": [
+      390,
+      433,
+      1113
+    ],
+    "scopeNote": "10个代表页面的16次桌面/手机检查，不宣称55页逐页浏览器验收；55页均有正文与素材检查。"
+  },
+  "externalMaintainerDelegation": {
+    "tutorial": "https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/",
+    "firmwareTutorial": "https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/firmware-download.html",
+    "designFiles": "https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/download.html",
+    "verifiedAt": "2026-11-14",
+    "evidence": "已打开维护者完整目录、固件下载和资料下载页；工程/联网说明由该站维护。"
+  },
+  "generatedFigures": [
+    {
+      "path": "/images/zh/aec-reference-path.svg",
+      "sha256": "05f85a91dd8a9e08bb23eabc2489e8d0e89fc74efb95decac0eb7aa8b85c830f",
+      "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/custom-board-identity.svg",
+      "sha256": "52e98a16d0595dffea33be072c523b92122ad93bfd2649f568bcb25f74896ee0",
+      "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/device-binding-flow.svg",
+      "sha256": "a34d89859049973c4548f2f3d0e76ee82259896fa7787fad2c4d4e7d11cc2f8f",
+      "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/firmware-build-flow.svg",
+      "sha256": "36a3afeba117c12cf4009f06e0afc2d8fc51f200843cf0c2eb271baf8da5f1eb",
+      "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/github-auth-flow.svg",
+      "sha256": "f6ae9e296ab190cb63031ffb62650aa3c2ce3ae02eb3266a451313f2023c0d7d",
+      "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/gpio-led-wiring.svg",
+      "sha256": "2b19aad4dda12da52a9cea10958ff3e605485f8c5bd69056d3c939bc478a1dd9",
+      "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/knowledge-base-flow.svg",
+      "sha256": "ca9ab1e9d7e8fa8790ca5c1b8b7d779b4083e231acadf64fe2ca92f8cae40393",
+      "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/mcp-calculator-flow.svg",
+      "sha256": "a94f0c6ca1c749e89c599fc6ab267c94d52e6c5b9dd938516012fc1ada93fd9a",
+      "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/mcp-transport-choice.svg",
+      "sha256": "bc842dc757f31320ec1a588c3b05a8b881d6e95715e42ccf88819fd7ac67eac9",
+      "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/mcp-web-search-flow.svg",
+      "sha256": "7561d334b0e18463d67b1daa72610aed1e51fabcdc044b63c33f1e8edea26dc3",
+      "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/online-builder-options.svg",
+      "sha256": "8150a73567d3edb6a659997cec2d1050954f29542a0f25ae4c9730a9e1d0c435",
+      "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/usb-power-bank.svg",
+      "sha256": "6b6f790b416a942ab344f5cf24be66e7ecec9fcb7ef899d4ee2c1a9f3042f962",
+      "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/voice-audio-selection.svg",
+      "sha256": "22134ae5e35f68651da554863b9f249c29623d52fdd8cc2e4f414a3a31bb3568",
+      "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/voice-training-flow.svg",
+      "sha256": "d8158b0ab73b883205958e18c836013123e42ca251f33a591825f66638f11620",
+      "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/wake-on-lan-flow.svg",
+      "sha256": "339890458179baf72c4f4b2c95aa5c4a610c6657fcd3c0059eaf14a31328e077",
+      "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/wake-word-choice.svg",
+      "sha256": "c74a4fd0fde6817a5a2155314d441e3b7cb7e426f10ae1ade0a4add602c00ad2",
+      "type": "code-native SVG; not a Console screenshot"
+    }
+  ],
+  "validation": {
+    "content": "passed: 112 locale pages; 44 sources",
+    "materials": "passed: 1094 dispositions; 106 source-image refs; 56 release binaries",
+    "illustrations": "passed: 29 core hardware sections and 63 figure/section relationships",
+    "build": "passed: 114 HTML pages",
+    "builtReferences": {
+      "checked": 8037,
+      "missing": 0,
+      "imageOccurrencesZh": 137
+    },
+    "firmwareSourcePaths": {
+      "checked": 29,
+      "missing": 0
+    },
+    "translations": {
+      "pending": 54,
+      "existingStale": 2,
+      "updatedSourceHashes": 0
+    },
+    "hardwareTested": true,
+    "productionConsoleTested": true,
+    "currentFirmwareAndConsole": {
+      "record": "firmware-console-review-2026-11-14.json",
+      "npmCheck": "passed",
+      "builtHtmlPages": 114,
+      "internalReferences": 8247,
+      "chineseImageOccurrences": 137,
+      "brokenReferences": 0,
+      "browserUiReviewed": true,
+      "hardwareFlashed": true,
+      "hardwareRecord": "online-flashing-hardware-2026-11-14.json"
+    },
+    "hardwareScope": "One LCKFB S3: existing-task online flash, reboot, 2.6.0, network and idle. Physical display/audio/dialogue, new build submission and other boards are unverified.",
+    "firmwareCatalog": {
+      "record": "firmware-download-catalog.json",
+      "maintainedVersions": [
+        "v2.6.0",
+        "v1.9.4"
+      ],
+      "publishedRows": 287,
+      "releaseAssetsAccounted": 288,
+      "excludedUnmappedCiAsset": 1,
+      "npmCheck": "passed",
+      "builtHtmlPages": 114,
+      "internalReferences": 8037,
+      "brokenReferences": 0,
+      "browser": {
+        "v260Rows": 199,
+        "v194Rows": 88,
+        "categoriesPerVersion": 9,
+        "desktopViewport": [
+          1710,
+          841
+        ],
+        "mobileViewport": [
+          390,
+          844
+        ],
+        "horizontalOverflow": false,
+        "categoryAnchorChecked": "breadboard",
+        "legacyRedirectsChecked": [
+          "zh/v2.5.2",
+          "zh/v2.2.4",
+          "en/v2.5.2",
+          "en/v2.2.4"
+        ],
+        "englishDestination": "pending translation; unchanged sourceHash",
+        "screenshots": "desktop, mobile and breadboard screenshots saved outside Git",
+        "temporaryViewportReset": true
+      },
+      "hardwareScope": "No additional flash for this catalog change; asset identity and pinned source mapping reviewed. Previous one-board Console flash remains independently scoped."
+    }
+  },
+  "imageOptimization": "image-optimization.json",
+  "capturedScreenshots": [
+    {
+      "path": "/images/zh/console-builder-basic-2026-11-14.png",
+      "sha256": "7f05548f359b9d8ef6201934c8e6db4f2d7f4b9b309eebaa7c9586e91f801a46",
+      "bytes": 36393,
+      "width": 721,
+      "height": 516,
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "path": "/images/zh/console-builder-network-2026-11-14.png",
+      "sha256": "ab51b6fc4ab3be0e20b61d847e131e2f92b85419244f10f8b23d933f414f0d85",
+      "bytes": 23327,
+      "width": 721,
+      "height": 370,
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "path": "/images/zh/console-builder-history-2026-11-14.png",
+      "sha256": "9cb535c4312f65c68737fb7f01cfc0ea8cb80aefbefdc3eeaff605468babb8eb",
+      "bytes": 28074,
+      "width": 1065,
+      "height": 286,
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "path": "/images/zh/console-flash-confirm-2026-11-14.png",
+      "sha256": "7dd24d469d2acf9e0ba654b3c18a0c7bea6684f7938bb40bd4fd6b842e4c489f",
+      "bytes": 50065,
+      "width": 631,
+      "height": 731,
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "visiblePixelsIdentical": true
+    },
+    {
+      "path": "/images/zh/console-serial-picker-macos-2026-11-14.jpg",
+      "sha256": "c64e03815ce685434ce29e80d783ed82d60d1b523df58630c88aadca2c3b5f66",
+      "bytes": 83680,
+      "width": 896,
+      "height": 888,
+      "format": "jpeg",
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "method": "Real macOS Chrome Web Serial flow; original screenshot bytes copied without re-encoding.",
+      "caption": "macOS Chrome 的真实串口选择弹窗；已选中连接的小智设备。"
+    },
+    {
+      "path": "/images/zh/console-flash-progress-2026-11-14.jpg",
+      "sha256": "5b4feb30e68ce76211fde543e7e79a080434252ba0e26406917d90427d1536f9",
+      "bytes": 52206,
+      "width": 630,
+      "height": 757,
+      "format": "jpeg",
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "method": "Real macOS Chrome Web Serial flow; original screenshot bytes copied without re-encoding.",
+      "caption": "实际写入 ota_0 分区，进度25%。"
+    },
+    {
+      "path": "/images/zh/console-flash-success-2026-11-14.jpg",
+      "sha256": "12c5391ed54bd6811d0296d3f8e33b7cdf32e11cc5c9cd77af5f4d513d55f931",
+      "bytes": 12302,
+      "width": 630,
+      "height": 259,
+      "format": "jpeg",
+      "source": "https://xiaozhi.me/console/firmware-builder",
+      "capturedAt": "2026-11-14",
+      "method": "Real macOS Chrome Web Serial flow; original screenshot bytes copied without re-encoding.",
+      "caption": "实际烧录成功，界面显示设备正在重新启动。"
+    }
+  ],
+  "currentReleaseAndConsoleReview": "firmware-console-review-2026-11-14.json",
+  "onlineFlashingHardwareVerification": "online-flashing-hardware-2026-11-14.json",
+  "firmwareCatalogReview": "firmware-download-catalog.json"
+}

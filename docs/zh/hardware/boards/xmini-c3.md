@@ -14,16 +14,9 @@ Xmini 是一组硬件，不能把 Wi-Fi、V3 与 4G 版当成同一块板。电�
 
 <figure class="source-figure">
 
-[![原 Xmini-C3 板外观。](/images/zh/doc-29-image-001.webp)](/images/zh/doc-29-image-001.webp)
+[![Xmini-C3 板外观。](/images/zh/doc-29-image-001.webp)](/images/zh/doc-29-image-001.webp)
 
-<figcaption>原 Xmini-C3 板外观。 来源：DOC-29 原图 1。</figcaption>
-</figure>
-
-<figure class="source-figure">
-
-[![原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。](/images/zh/doc-29-image-019.webp)](/images/zh/doc-29-image-019.webp)
-
-<figcaption>原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。 来源：DOC-29 原图 19。</figcaption>
+<figcaption>Xmini-C3 板外观。</figcaption>
 </figure>
 
 ## 1. 对照自己的板 {#scope}
@@ -36,9 +29,16 @@ Xmini 是一组硬件，不能把 Wi-Fi、V3 与 4G 版当成同一块板。电�
 
 例如原版 Codec 的 I2C 在 GPIO3/4，V3 在 GPIO0/1；不要从旧照片推断新板的连接。具体以[当前板型目录](https://github.com/78/xiaozhi-esp32/tree/4de00aed740595a8713b01f8332b9b2cf30685bc/main/boards/xmini)为准。
 
+<figure class="source-figure">
+
+[![原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。](/images/zh/doc-29-image-019.webp)](/images/zh/doc-29-image-019.webp)
+
+<figcaption>原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。</figcaption>
+</figure>
+
 ## 2. 安装固件 {#flash}
 
-在[在线编译](../../firmware/online-builder)或[官方发布](../../firmware/downloads)找到准确板型和变体。发布包可能带制造商前缀，按目录与完整名称一起核对。旧 v1.9.4/v2.2.4 包只用于明确的历史需求。
+在[在线编译](../../firmware/online-builder)或[官方发布](../../firmware/downloads)找到准确板型和变体。发布包可能带制造商前缀，按目录与完整名称一起核对。v1 旧设备需要历史固件时，只使用与硬件匹配的 [v1.9.4](../../firmware/releases/v1.9.4)。
 
 按[烧录指南](../../firmware/flashing)进入该板的下载模式。C3 的 BOOT 及 USB 行为与基础 S3 不同，使用板卡说明和当前源码，而不是照搬 S3 的 GPIO0 接法。
 
@@ -54,10 +54,6 @@ Wi-Fi 版按固件选择热点或 BluFi 配网，继续[设备绑定](../../gett
 
 版本和变体符合实物，显示、音频、网络与对话通过；电池/唤醒功能仅在对应硬件和构建确实支持时验证。把结果记录到具体版本，避免用一块板的成功覆盖整系列。
 
-## 素材与下一步 {#sources}
+## 下一步 {#sources}
 
-历史硬件照片保留用于识别，旧控制台和 IDF 5 截图不再引导当前安装。开源设计由[虾哥的 Xmini 项目](https://oshwhub.com/tenclass01/xmini_c3)维护。自己接 C3 面包板时看[C3 + ES8311](../breadboard-esp32-c3)。
-
----
-
-资料来源：[DOC-29 · Xmini-C3/V3开发板玩转小智AI聊天机器人](https://my.feishu.cn/docx/EyRBd7ak0oZo5Ax4nZkcgLeqnUb)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。
+照片用于辨认对应修订的按键与接口；具体引脚和行为以板卡说明及匹配固件为准。开源设计由[虾哥的 Xmini 项目](https://oshwhub.com/tenclass01/xmini_c3)维护。自己接 C3 面包板时看[C3 + ES8311](../breadboard-esp32-c3)。

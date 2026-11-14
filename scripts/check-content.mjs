@@ -27,6 +27,10 @@ for (const locale of locales) {
     }
     // A translated page must not silently send readers back into Chinese guides.
     if (locale === 'en' && /\]\(\/zh\//.test(content)) errors.push(`${label}: English article links into Chinese content`)
+    const readerText = content.replace(/<!--[^]*?-->/g, '').replace(/<SourceMaterials\b[^>]*\/>/g, '')
+    if (/\bDOC-\d{2}\b|资料来源：|来源：DOC-/.test(readerText)) {
+      errors.push(`${label}: keep migration IDs and provenance bookkeeping in audit/, not reader-facing prose`)
+    }
     if (/https?:\/\/[^\s)"']*feishu\.cn\/file\//i.test(content)) {
       errors.push(`${label}: download embedded Feishu images into docs/public/images before publication`)
     }

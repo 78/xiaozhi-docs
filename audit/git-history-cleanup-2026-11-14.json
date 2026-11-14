@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "completedAt": "2026-11-14",
+  "authorization": "User requested Git history cleanup, original-image backup and force push.",
+  "method": "Rebuilt every original commit snapshot with optimized raster derivatives; preserved topology, authors, dates, messages and original source SHA-256 values. Updated historical image URLs, dimensions and audit checksums.",
+  "remote": "https://github.com/78/xiaozhi-docs.git",
+  "push": "Atomic replacement of both branches and the existing Release tag using explicit --force-with-lease=<ref>:<expected>; later audit commits use ordinary fast-forward pushes.",
+  "backupLocation": "External local backup directory; never committed or uploaded into Git history.",
+  "backups": [
+    {
+      "file": "before-cleanup.bundle",
+      "bytes": 129582919,
+      "sha256": "cd46b6eb8aa2e522dec11aa38f9f9e11efc652f163aadfb89a9b0bf5edad49e8"
+    },
+    {
+      "file": "before-cleanup-with-optimization.bundle",
+      "bytes": 129582509,
+      "sha256": "169175d6e2e964ab8ac9a5f7a2e63f81a30eb29188754a3be26ae41decaad8f8"
+    },
+    {
+      "file": "optimized-working-tree.tar.gz",
+      "bytes": 23546211,
+      "sha256": "4d4a0c4fd5858ee45044713e12dde486613546d0ff8ec78885f1c472758e4a97"
+    },
+    {
+      "file": "original-images.tar.gz",
+      "bytes": 114220852,
+      "sha256": "9b7866d99fd29c2cc96a28f476daff73c1a97199a262e968a9d830b2ce34f764"
+    },
+    {
+      "file": "original-images-manifest.json",
+      "bytes": 38513,
+      "sha256": "a9ef3febf90cf17f5ce0dc291c450950f96e01abb9d65d1ecaf57733b92282c4"
+    }
+  ],
+  "validation": {
+    "beforePackBytes": 114954947,
+    "afterPackBytes": 27297792,
+    "reductionPercent": 76.25,
+    "originalRasterBlobsArchived": 115,
+    "replacedOriginalImageBlobsAbsent": 95,
+    "refsVerified": {
+      "refs/heads/codex/restore-breadboard-illustrations": {
+        "before": "b724e9ccfb2b9ee7b0356539b158067913f0ddac",
+        "after": "b089e71a0e4d9554596761bc0ba538f6cb509ebf"
+      },
+      "refs/heads/main": {
+        "before": "cc6429f6c36a217d38c2cec9760cce88c9105d71",
+        "after": "bbb0c7496fe54b961871f796358dca8f9892d9f2"
+      },
+      "refs/tags/tutorial-assets-2026-11-14": {
+        "before": "6af17a8903243f78011193062b1115a90d1b75cf",
+        "after": "f1ae124d6c6cf7d9916d29a627b3fccd2672231c"
+      }
+    },
+    "releaseAssetsUnchanged": 58,
+    "freshCloneFsck": "passed",
+    "allSixRewrittenVersionsCheck": "passed",
+    "optimizedTipTreeUnchanged": true
+  },
+  "commits": [
+    {
+      "oldCommit": "ec232e8838d3ed57b6852dac162ac34d3b7122da",
+      "newCommit": "11a00598bda268726dd9b8588967357683e616de",
+      "npmCheck": "passed",
+      "authorsDatesMessagesPreserved": true,
+      "originalSourceHashesPreserved": true,
+      "imageFilesChanged": 49
+    },
+    {
+      "oldCommit": "6af17a8903243f78011193062b1115a90d1b75cf",
+      "newCommit": "f1ae124d6c6cf7d9916d29a627b3fccd2672231c",
+      "npmCheck": "passed",
+      "authorsDatesMessagesPreserved": true,
+      "originalSourceHashesPreserved": true,
+      "imageFilesChanged": 49
+    },
+    {
+      "oldCommit": "cc6429f6c36a217d38c2cec9760cce88c9105d71",
+      "newCommit": "bbb0c7496fe54b961871f796358dca8f9892d9f2",
+      "npmCheck": "passed",
+      "authorsDatesMessagesPreserved": true,
+      "originalSourceHashesPreserved": true,
+      "imageFilesChanged": 49
+    },
+    {
+      "oldCommit": "79a5b5e6fb99649cd511098c3710b60db27a115e",
+      "newCommit": "54450d1d7551d355237be7802ce515a3af253003",
+      "npmCheck": "passed",
+      "authorsDatesMessagesPreserved": true,
+      "originalSourceHashesPreserved": true,
+      "imageFilesChanged": 79
+    },
+    {
+      "oldCommit": "b724e9ccfb2b9ee7b0356539b158067913f0ddac",
+      "newCommit": "67d26800fe6fe3ae62ca7def89da4439e4907edd",
+      "npmCheck": "passed",
+      "authorsDatesMessagesPreserved": true,
+      "originalSourceHashesPreserved": true,
+      "imageFilesChanged": 83
+    },
+    {
+      "oldCommit": "a499a7795f759b340ffe90e59695a09b7386869c",
+      "newCommit": "b089e71a0e4d9554596761bc0ba538f6cb509ebf",
+      "npmCheck": "passed",
+      "authorsDatesMessagesPreserved": true,
+      "originalSourceHashesPreserved": true,
+      "imageFilesChanged": 0
+    }
+  ],
+  "ci": [
+    "https://github.com/78/xiaozhi-docs/actions/runs/43542886268",
+    "https://github.com/78/xiaozhi-docs/actions/runs/43542880629"
+  ],
+  "limitations": [
+    "Fresh-clone measurements cover advertised branches and tags; GitHub may retain old unreachable objects or internal pull-request caches until server-side garbage collection.",
+    "Existing clones can retain old objects and reflogs; avoid merging old history back. This workspace was aligned without deleting editor-managed recovery references.",
+    "No merge of PR #1, Release deletion, new firmware execution or hardware validation was performed by the history cleanup."
+  ]
+}

@@ -18,23 +18,23 @@ sourceArticles: ["DOC-31"]
 
 <figure class="source-figure">
 
-[![Xmini-C3 原板外观；同系列不同修订须分别核对。](/images/zh/doc-31-image-003.webp)](/images/zh/doc-31-image-003.webp)
+[![Xmini-C3 系列成品外观；外壳相似不能代替 PCB 修订和固件变体核对。](/images/zh/doc-31-image-003.webp)](/images/zh/doc-31-image-003.webp)
 
-<figcaption>Xmini-C3 原板外观；同系列不同修订须分别核对。 来源：DOC-31 原图 3。</figcaption>
+<figcaption>Xmini-C3 系列成品外观；外壳相似不能代替 PCB 修订和固件变体核对。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![ESP32-BOX-3 原图，用于识别板型。](/images/zh/doc-31-image-004.webp)](/images/zh/doc-31-image-004.webp)
+[![ESP32-BOX-3 外观。](/images/zh/doc-31-image-004.webp)](/images/zh/doc-31-image-004.webp)
 
-<figcaption>ESP32-BOX-3 原图，用于识别板型。 来源：DOC-31 原图 4。</figcaption>
+<figcaption>ESP32-BOX-3 外观。</figcaption>
 </figure>
 
 <figure class="source-figure">
 
-[![M5Stack CoreS3 原图；支持范围以固件目录为准。](/images/zh/doc-31-image-012.webp)](/images/zh/doc-31-image-012.webp)
+[![M5Stack CoreS3 外观；支持范围以固件目录为准。](/images/zh/doc-31-image-012.webp)](/images/zh/doc-31-image-012.webp)
 
-<figcaption>M5Stack CoreS3 原图；支持范围以固件目录为准。 来源：DOC-31 原图 12。</figcaption>
+<figcaption>M5Stack CoreS3 外观；支持范围以固件目录为准。</figcaption>
 </figure>
 
 ## 1. 在现行目录中查找 {#lookup}
@@ -64,7 +64,7 @@ python scripts/build.py --list-boards --json
 
 ## 3. 选择固件 {#firmware}
 
-找到准确变体后，从[官方 Release 或在线编译](../firmware/downloads)获取固件。若自己改过引脚，应建立[独立板型](../development/custom-board)，而不是接受标准板的 OTA 身份。
+找到准确变体后，优先使用[在线编译并烧录](../firmware/online-builder)；需要离线安装或固定版本时再从[官方发布](../firmware/downloads)获取固件。若自己改过引脚，应建立[独立板型](../development/custom-board)，而不是接受标准板的 OTA 身份。
 
 停售、缺货或商家链接失效不等于已经取消固件支持。采购渠道单独维护，价格与库存以商家当前页面为准。
 
@@ -72,10 +72,6 @@ python scripts/build.py --list-boards --json
 实物、构建目录、变体、内存和外设可以一一对应；没有靠“名字最接近”选择固件。
 :::
 
-## 资料与下一步 {#sources}
+## 下一步 {#sources}
 
-旧产品照片来自[DOC-31 原清单](https://my.feishu.cn/docx/Dt2HdeMqNoo9dNxV8RacO4ounsc),仅用于识别外观；本页图片的完整来源随素材记录保留。准备采购时继续[硬件选型](./choosing-hardware)，找到固件后继续[烧录](../firmware/flashing)。
-
----
-
-资料来源：[DOC-31 · 小智AI终端固件支持开发板/产品及购买链接](https://my.feishu.cn/docx/Dt2HdeMqNoo9dNxV8RacO4ounsc)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。
+通过照片识别外观后，仍要核对产品修订和具体构建变体。准备采购时继续[硬件选型](./choosing-hardware)，找到固件后继续[烧录](../firmware/flashing)。

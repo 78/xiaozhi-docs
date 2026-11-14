@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="438" viewBox="0 0 960 438" role="img" aria-labelledby="title desc">
+<title id="title">ESP32-S3 连接 OLED</title><desc id="desc">bread-compact-wifi / v2.6.0 · SSD1306 I2C。信号、供电与接地用逐根导线表示；不是开发板排针位置图。</desc>
+<style>text{font-family:system-ui,"PingFang SC","Microsoft YaHei",sans-serif;fill:#183738}.head{font-size:26px;font-weight:700}.sub{font-size:16px;fill:#4b6266}.group{font-size:20px;font-weight:650}.port{font-size:17px}.small{font-size:14px;fill:#586b6e}</style>
+<rect width="960" height="438" rx="16" fill="#f5f9f8"/>
+<text x="28" y="43" class="head">ESP32-S3 连接 OLED</text>
+<text x="28" y="74" class="sub">bread-compact-wifi / v2.6.0 · SSD1306 I2C</text>
+<text x="28" y="103" class="small">按 GPIO 与模块丝印连接；红色=电源，深灰=GND，紫色=时钟，青色=数据/控制。点击可看原尺寸。</text>
+<rect x="18" y="130" width="924" height="194" rx="12" fill="#fff" stroke="#cbded9"/>
+<text x="36" y="160" class="group">OLED · SSD1306 I2C</text>
+<text x="42" y="186" class="small">ESP32 主控</text>
+<text x="650" y="186" class="small">OLED</text>
+<text x="42" y="218" class="port">GPIO41</text>
+<path d="M 390 213 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="213" r="4" fill="#128b84"/><circle cx="620" cy="213" r="4" fill="#128b84"/>
+<text x="650" y="218" class="port">SDA</text>
+<text x="42" y="249" class="port">GPIO42</text>
+<path d="M 390 244 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="244" r="4" fill="#7656b5"/><circle cx="620" cy="244" r="4" fill="#7656b5"/>
+<text x="650" y="249" class="port">SCL / SCK</text>
+<text x="42" y="280" class="port">3V3</text>
+<path d="M 390 275 H 620" fill="none" stroke="#c93e32" stroke-width="3"/>
+<circle cx="390" cy="275" r="4" fill="#c93e32"/><circle cx="620" cy="275" r="4" fill="#c93e32"/>
+<text x="650" y="280" class="port">VCC</text>
+<text x="42" y="311" class="port">GND</text>
+<path d="M 390 306 H 620" fill="none" stroke="#53626a" stroke-width="3"/>
+<circle cx="390" cy="306" r="4" fill="#53626a"/><circle cx="620" cy="306" r="4" fill="#53626a"/>
+<text x="650" y="311" class="port">GND</text>
+<text x="28" y="357" class="small">此图只连接 OLED；128×32 与 128×64 的接线相同，固件变体不同。</text>
+<text x="28" y="391" class="small">按模块的 VCC/GND/SDA/SCL 丝印接线，不按排针左右顺序猜测。</text>
+</svg>

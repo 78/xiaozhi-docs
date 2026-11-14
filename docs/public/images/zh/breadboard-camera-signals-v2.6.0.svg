@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1326" viewBox="0 0 960 1326" role="img" aria-labelledby="title desc">
+<title id="title">S3 摄像头板 · 音频、屏幕与传感器信号</title><desc id="desc">bread-compact-wifi-s3cam / v2.6.0 · 与普通 S3 接线不同。信号、供电与接地用逐根导线表示；不是开发板排针位置图。</desc>
+<style>text{font-family:system-ui,"PingFang SC","Microsoft YaHei",sans-serif;fill:#183738}.head{font-size:26px;font-weight:700}.sub{font-size:16px;fill:#4b6266}.group{font-size:20px;font-weight:650}.port{font-size:17px}.small{font-size:14px;fill:#586b6e}</style>
+<rect width="960" height="1326" rx="16" fill="#f5f9f8"/>
+<text x="28" y="43" class="head">S3 摄像头板 · 音频、屏幕与传感器信号</text>
+<text x="28" y="74" class="sub">bread-compact-wifi-s3cam / v2.6.0 · 与普通 S3 接线不同</text>
+<text x="28" y="103" class="small">按 GPIO 与模块丝印连接；红色=电源，深灰=GND，紫色=时钟，青色=数据/控制。点击可看原尺寸。</text>
+<rect x="18" y="130" width="924" height="256" rx="12" fill="#fff" stroke="#cbded9"/>
+<text x="36" y="160" class="group">音频信号</text>
+<text x="42" y="186" class="small">ESP32-S3 主控</text>
+<text x="650" y="186" class="small">麦克风 / 功放</text>
+<text x="42" y="218" class="port">GPIO1</text>
+<path d="M 390 213 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="213" r="4" fill="#7656b5"/><circle cx="620" cy="213" r="4" fill="#7656b5"/>
+<text x="650" y="218" class="port">INMP441 WS</text>
+<text x="42" y="249" class="port">GPIO2</text>
+<path d="M 390 244 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="244" r="4" fill="#7656b5"/><circle cx="620" cy="244" r="4" fill="#7656b5"/>
+<text x="650" y="249" class="port">INMP441 SCK</text>
+<text x="42" y="280" class="port">GPIO42</text>
+<path d="M 390 275 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="275" r="4" fill="#128b84"/><circle cx="620" cy="275" r="4" fill="#128b84"/>
+<text x="650" y="280" class="port">INMP441 SD → 主控</text>
+<text x="42" y="311" class="port">GPIO39</text>
+<path d="M 390 306 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="306" r="4" fill="#128b84"/><circle cx="620" cy="306" r="4" fill="#128b84"/>
+<text x="650" y="311" class="port">MAX98357A DIN</text>
+<text x="42" y="342" class="port">GPIO40</text>
+<path d="M 390 337 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="337" r="4" fill="#7656b5"/><circle cx="620" cy="337" r="4" fill="#7656b5"/>
+<text x="650" y="342" class="port">MAX98357A BCLK</text>
+<text x="42" y="373" class="port">GPIO41</text>
+<path d="M 390 368 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="368" r="4" fill="#7656b5"/><circle cx="620" cy="368" r="4" fill="#7656b5"/>
+<text x="650" y="373" class="port">MAX98357A LRC</text>
+<rect x="18" y="402" width="924" height="256" rx="12" fill="#fff" stroke="#cbded9"/>
+<text x="36" y="432" class="group">SPI 彩屏</text>
+<text x="42" y="458" class="small">ESP32-S3 主控</text>
+<text x="650" y="458" class="small">LCD</text>
+<text x="42" y="490" class="port">GPIO19</text>
+<path d="M 390 485 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="485" r="4" fill="#7656b5"/><circle cx="620" cy="485" r="4" fill="#7656b5"/>
+<text x="650" y="490" class="port">SCL / SCK</text>
+<text x="42" y="521" class="port">GPIO20</text>
+<path d="M 390 516 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="516" r="4" fill="#128b84"/><circle cx="620" cy="516" r="4" fill="#128b84"/>
+<text x="650" y="521" class="port">SDA / MOSI</text>
+<text x="42" y="552" class="port">GPIO47</text>
+<path d="M 390 547 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="547" r="4" fill="#128b84"/><circle cx="620" cy="547" r="4" fill="#128b84"/>
+<text x="650" y="552" class="port">DC</text>
+<text x="42" y="583" class="port">GPIO21</text>
+<path d="M 390 578 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="578" r="4" fill="#128b84"/><circle cx="620" cy="578" r="4" fill="#128b84"/>
+<text x="650" y="583" class="port">RST / RES</text>
+<text x="42" y="614" class="port">GPIO45</text>
+<path d="M 390 609 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="609" r="4" fill="#128b84"/><circle cx="620" cy="609" r="4" fill="#128b84"/>
+<text x="650" y="614" class="port">CS</text>
+<text x="42" y="645" class="port">GPIO38</text>
+<path d="M 390 640 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="640" r="4" fill="#128b84"/><circle cx="620" cy="640" r="4" fill="#128b84"/>
+<text x="650" y="645" class="port">BL / 背光控制</text>
+<rect x="18" y="674" width="924" height="504" rx="12" fill="#fff" stroke="#cbded9"/>
+<text x="36" y="704" class="group">摄像头信号</text>
+<text x="42" y="730" class="small">ESP32-S3 主控</text>
+<text x="650" y="730" class="small">CAM 板 / 传感器</text>
+<text x="42" y="762" class="port">GPIO11</text>
+<path d="M 390 757 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="757" r="4" fill="#128b84"/><circle cx="620" cy="757" r="4" fill="#128b84"/>
+<text x="650" y="762" class="port">D0</text>
+<text x="42" y="793" class="port">GPIO9</text>
+<path d="M 390 788 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="788" r="4" fill="#128b84"/><circle cx="620" cy="788" r="4" fill="#128b84"/>
+<text x="650" y="793" class="port">D1</text>
+<text x="42" y="824" class="port">GPIO8</text>
+<path d="M 390 819 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="819" r="4" fill="#128b84"/><circle cx="620" cy="819" r="4" fill="#128b84"/>
+<text x="650" y="824" class="port">D2</text>
+<text x="42" y="855" class="port">GPIO10</text>
+<path d="M 390 850 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="850" r="4" fill="#128b84"/><circle cx="620" cy="850" r="4" fill="#128b84"/>
+<text x="650" y="855" class="port">D3</text>
+<text x="42" y="886" class="port">GPIO12</text>
+<path d="M 390 881 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="881" r="4" fill="#128b84"/><circle cx="620" cy="881" r="4" fill="#128b84"/>
+<text x="650" y="886" class="port">D4</text>
+<text x="42" y="917" class="port">GPIO18</text>
+<path d="M 390 912 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="912" r="4" fill="#128b84"/><circle cx="620" cy="912" r="4" fill="#128b84"/>
+<text x="650" y="917" class="port">D5</text>
+<text x="42" y="948" class="port">GPIO17</text>
+<path d="M 390 943 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="943" r="4" fill="#128b84"/><circle cx="620" cy="943" r="4" fill="#128b84"/>
+<text x="650" y="948" class="port">D6</text>
+<text x="42" y="979" class="port">GPIO16</text>
+<path d="M 390 974 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="974" r="4" fill="#128b84"/><circle cx="620" cy="974" r="4" fill="#128b84"/>
+<text x="650" y="979" class="port">D7</text>
+<text x="42" y="1010" class="port">GPIO15</text>
+<path d="M 390 1005 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="1005" r="4" fill="#7656b5"/><circle cx="620" cy="1005" r="4" fill="#7656b5"/>
+<text x="650" y="1010" class="port">XCLK</text>
+<text x="42" y="1041" class="port">GPIO13</text>
+<path d="M 390 1036 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="1036" r="4" fill="#7656b5"/><circle cx="620" cy="1036" r="4" fill="#7656b5"/>
+<text x="650" y="1041" class="port">PCLK</text>
+<text x="42" y="1072" class="port">GPIO6</text>
+<path d="M 390 1067 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="1067" r="4" fill="#128b84"/><circle cx="620" cy="1067" r="4" fill="#128b84"/>
+<text x="650" y="1072" class="port">VSYNC</text>
+<text x="42" y="1103" class="port">GPIO7</text>
+<path d="M 390 1098 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="1098" r="4" fill="#128b84"/><circle cx="620" cy="1098" r="4" fill="#128b84"/>
+<text x="650" y="1103" class="port">HREF</text>
+<text x="42" y="1134" class="port">GPIO5</text>
+<path d="M 390 1129 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="1129" r="4" fill="#7656b5"/><circle cx="620" cy="1129" r="4" fill="#7656b5"/>
+<text x="650" y="1134" class="port">SIOC</text>
+<text x="42" y="1165" class="port">GPIO4</text>
+<path d="M 390 1160 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="1160" r="4" fill="#128b84"/><circle cx="620" cy="1160" r="4" fill="#128b84"/>
+<text x="650" y="1165" class="port">SIOD</text>
+<text x="28" y="1211" class="small">摄像头已通过排线接在 CAM 底板时，不需拆开逐根加线；先核对这块底板的原有连接。</text>
+<text x="28" y="1245" class="small">这是信号分配图，未统一指定各模块电源；按实际 CAM 底板、屏幕与音频模块电气资料接电。</text>
+<text x="28" y="1279" class="small">LCD GPIO19/20 与原生 USB 功能重叠，不能套用另一块板的 USB/引脚接法。</text>
+</svg>

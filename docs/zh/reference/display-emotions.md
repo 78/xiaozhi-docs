@@ -4,13 +4,13 @@ title: "情绪字段与设备表情资源"
 description: "按固件版本核对语义、资源映射与显示回退。"
 status: "review"
 reviewedAt: "2026-11-14"
-reviewNote: "完全以本地 xiaozhi-esp32 对应提交的文档与实现为准；飞书旧协议不作为规范，本文只提供版本化入口。"
+reviewNote: "适用固件 v2.6.0；完整规范和实现由固件仓库维护。"
 sourceArticles: ["DOC-39"]
 ---
 
 # 情绪字段与设备表情资源
 
-服务端表达的情绪语义、Unicode Emoji 和屏幕上的图形资源不是同一个对象。完整消息协议和资源映射以对应固件仓库为准，飞书旧表不再作为规范。
+服务端表达的情绪语义、Unicode Emoji 和屏幕上的图形资源不是同一个对象。完整消息协议和资源映射以对应固件仓库为准。
 
 ## 从哪一层查起 {#scope}
 
@@ -32,7 +32,3 @@ sourceArticles: ["DOC-39"]
 ## 怎样更新 {#next}
 
 新增情绪值或映射时，在固件/资源仓库同时修改实现、资源和测试，再更新本站固定版本入口。与提示音有关的资源见[自定义提示音](../development/custom-prompts)。
-
----
-
-资料来源：[DOC-39 · 通信协议：Emoji 心情显示](https://my.feishu.cn/docx/OGFxdVzGhopNMzxfMCacyt3bnpt)。原图和原附件保留来源贡献者署名；文件的使用条件按各自原声明，未统一改为文档仓库许可。

@@ -1,12 +1,18 @@
 # 小智官方文档 / XiaoZhi documentation
 
-小智 AI 的使用、硬件、固件、控制台、MCP 与开发文档。内容在 GitHub 维护，网站计划发布到 **https://docs.xiaozhi.me**。
+小智 AI 的使用、硬件、固件、控制台、MCP 与开发文档。内容在 GitHub 维护，网站发布地址为 **https://docs.xiaozhi.me**。
 
-44 篇来源文档已完成中文重构、合并或历史归档：P0 11 篇、P1 20 篇、P2 13 篇全部有实际去向。站内共有 54 个中文页面及相同路径英文入口；教程标为“社区校对中”，英文只保留待翻译说明，等中文反馈确认后再编写。
+44 篇来源文档已建立中文重构、合并或历史归档稿件：P0 11 篇、P1 20 篇、P2 13 篇全部有实际去向。站内共有 56 个中文路径（含 2 个旧版跳转）及相同路径英文入口；教程标为“社区校对中”，英文只保留待翻译说明，等中文反馈确认后再编写。
 
-图片和附件随文章整理：保留 56 张原图；14 段视频、音乐/歌词与设计文件共 56 个去重文件放在独立 [素材 Release](https://github.com/78/xiaozhi-docs/releases/tag/tutorial-assets-2026-11-14)。ESP32 主固件引用 `78/xiaozhi-esp32` 官方 Releases；SF32 与第三方 ESP8266 案例明确区分来源。OTA 与协议内容以固件对应版本为准。
+图片和附件随文章整理：当前采用 106 个来源图引用（100 张源图，经优化和再次去重为 98 个发布文件），保留 6 张按固件生成的接线图，并新增 16 张流程、信号关系或电路示意。14 段视频与其他附件仍保留在独立 [素材 Release](https://github.com/78/xiaozhi-docs/releases/tag/tutorial-assets-2026-11-14)；其中 4 段在当前文章提供，SF32 与旧在线编译的 10 段录屏仅作历史存档，SF32 当前教程直接外链维护者。主固件直接使用 `78/xiaozhi-esp32` 官方 Releases，OTA 与协议始终以固件对应版本为准。
 
-逐篇依据、去向和实施状态见 [审计清单](audit/inventory.json)，最新范围及验证见 [P1/P2 重构记录](audit/p1-p2-rewrite-2026-11-14.md)，完整素材取舍见 [素材清单](audit/media-inventory.json)。社区尚未确认，真机、电气与生产流程未全部验证。
+56 个中文页面已逐篇复查阅读顺序、图文相关性和素材去向，749 个图片引用均完成接触表筛选。首推 [官方在线编译与烧录](https://xiaozhi.me/console/firmware-builder)，说明未引出 USB 下载接口的例外；控制台指南按新版实现重做，不再使用旧布局截图引导点击。中文仍待社区确认，尚未完成全部真机、电气或生产流程验证。
+
+图片发布文件共约 **22.5 MiB**，相较整理前的 95.6 MiB 减少约 **76.5%**。产品照最长边 1600px，装配照优先 2200px；接线、细字与关键标注图保留原尺寸、无损处理。逐图的源文件摘要、发布摘要、尺寸与压缩参数见 [图片优化清单](audit/image-optimization.json)。SVG 保持矢量格式。已清理历史中的大图，真实全新克隆的 Git pack 约 26 MiB；备份、历史映射和验证见 [清理记录](audit/git-history-cleanup-2026-11-14.md)。
+
+固件目录仅维护 v2.6.0 与 v1.9.4，按热门及产品系列列出产品名、芯片/硬件版本和完整下载文件名（199 + 88 个包）；旧版 URL 保留跳转。在线编译指南补入当前 Console 的 7 张真实界面截图（合计约 279 KiB）。嘉立创实战派 S3 已完成真实在线烧录，启动日志确认 2.6.0、网络重连与 idle；显示/音频、对话及其他板型仍待验证，英文继续等待中文确认。核验范围见 [版本与 Console 记录](audit/firmware-console-review-2026-11-14.json)。
+
+逐篇结论见 [读者视角复查](audit/reader-review-2026-11-14.md)与[机器可读清单](audit/reader-review-2026-11-14.json)，原文取舍见[来源审计清单](audit/inventory.json)，每张图片与附件的取舍见[素材清单](audit/media-inventory.json)。讨论入口集中在右上角，中文 QQ 群和其他语言 Discord 只在 `docs/.vitepress/data/community.json` 维护，不把具体联系号写进文章。
 
 ## 本地使用
 
@@ -20,6 +26,7 @@ npm run dev
 ```sh
 npm run check                 # 元数据、语言路径、审计/素材校验、构建及站内死链接
 npm run translations:status   # 根据中文内容 SHA-256 检查英文是否待同步
+npm run images:audit          # 查看图片大小、分辨率和体积预算
 npm run preview              # 预览最近一次构建
 ```
 
@@ -43,7 +50,7 @@ audit/                      # 来源统计、逐篇取舍和重构进度，不�
 glossary/                   # 术语表
 scripts/                    # 内容及翻译检查
 .github/                    # PR 检查、Pages 部署、反馈模板
-site.config.mjs             # 计划中的仓库、主分支和正式域名
+site.config.mjs             # 仓库、主分支和正式域名
 ```
 
 根路径根据上次阅读语言或浏览器首选语言跳转至 `/zh/` 或 `/en/`，同时保留静态语言入口。直接打开 `/zh/…` 或 `/en/…` 会尊重该链接，不再按浏览器语言跳转。
@@ -52,7 +59,9 @@ site.config.mjs             # 计划中的仓库、主分支和正式域名
 
 ## GitHub Pages 与域名
 
-公开仓库为 [78/xiaozhi-docs](https://github.com/78/xiaozhi-docs)。目标域名配置为 `docs.xiaozhi.me`，尚需完成 Pages 与 DNS 设置。若实际仓库不同，修改 `site.config.mjs`。Actions 构建时会自动使用 `GITHUB_REPOSITORY` 生成编辑及反馈链接。
+公开仓库为 [78/xiaozhi-docs](https://github.com/78/xiaozhi-docs)。已配置 GitHub Pages 的 Actions 发布方式、自定义域名 `docs.xiaozhi.me` 和仓库变量 `PAGES_DEPLOY_ENABLED=true`；DNS 的 `docs` CNAME 指向 `78.github.io`。`main` 推送会先检查再部署，运行状态见 [部署记录](https://github.com/78/xiaozhi-docs/actions/workflows/deploy.yml)。若实际仓库不同，修改 `site.config.mjs`。Actions 构建时会自动使用 `GITHUB_REPOSITORY` 生成编辑及反馈链接。
+
+新仓库接入或重新配置时按以下步骤操作：
 
 1. 在公开仓库的 `main` 维护文档。
 2. 在 **Settings → Pages → Build and deployment** 中将 Source 设为 **GitHub Actions**。

@@ -44,6 +44,16 @@ reviewNote: "适配流程已对照固件开发板指南；这里的配置是结�
 
 可以借鉴现有代码，但不要把所有板型文件一起编入同一目标。新板还需要按所属版本接入 Kconfig/CMake 的选择逻辑；仅创建目录和 JSON 不会自动完成全部注册。
 
+```text
+main/boards/my-s3-prototype/
+├── config.h               # 引脚和常量
+├── my_s3_prototype_board.cc # 初始化及板级行为
+├── config.json            # 芯片、板型与构建变体
+└── README.md              # 硬件修订、接线与验证
+```
+
+这是目录结构示例；Kconfig/CMake 注册按对应版本的开发板指南完成。
+
 ## 3. 定义可追溯的身份 {#identity}
 
 为目录、板型和变体使用自己的稳定名称。以下只展示 `config.json` 的结构，假定对应板级代码、注册及驱动已完成：
@@ -63,6 +73,13 @@ reviewNote: "适配流程已对照固件开发板指南；这里的配置是结�
 
 同一代码目录的不同变体也必须有不同 `name`，并通过明确的配置分支控制实际接线/外设。不要只改名字，却让两种硬件运行完全不匹配的初始化代码。
 
+<figure class="source-figure">
+
+[![定制硬件到固件身份](/images/zh/custom-board-identity.svg)](/images/zh/custom-board-identity.svg)
+
+<figcaption>定制硬件到固件身份。点击查看大图。</figcaption>
+</figure>
+
 ## 4. 编译与检查分区 {#build}
 
 完成注册后，先用列表确认，再构建自己的变体：
@@ -72,7 +89,7 @@ python scripts/build.py --list-boards
 python scripts/build.py my-s3-prototype --name my-s3-prototype-oled32 --language zh-CN
 ```
 
-检查生成配置的芯片、内存、板型与名称。分区应选用匹配 Flash 容量及固件版本的布局；不要沿用旧教程通过删除 `ota_0`、`ota_1` 来“凑够空间”的方法。分区变化还影响资源、OTA 和 NVS，需要单独设计迁移。
+检查生成配置的芯片、内存、板型与名称。分区应选用匹配 Flash 容量及固件版本的布局；不要为凑空间直接删除 `ota_0`、`ota_1`。分区变化还影响资源、OTA 和 NVS，需要单独设计迁移。
 
 设备上报、升级匹配与激活细节参照[该版本 OTA 文档](https://github.com/78/xiaozhi-esp32/blob/v2.6.0/docs/ota_zh.md)。在匹配机制确认前，不给定制设备安排标准板 OTA。
 

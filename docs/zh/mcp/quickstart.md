@@ -19,6 +19,13 @@ reviewNote: "示例已通过本地 MCP 协议与 WebSocket 桥接测试；真实
 
 这里的工具运行在电脑上，**不是烧进 ESP32 固件**。电脑和桥接进程停止后，工具就不可用；完成开发后可按需要迁到持续在线的服务。
 
+<figure class="source-figure">
+
+[![一次加法工具调用经过哪些环节](/images/zh/mcp-calculator-flow.svg)](/images/zh/mcp-calculator-flow.svg)
+
+<figcaption>一次加法工具调用经过哪些环节。点击查看大图。</figcaption>
+</figure>
+
 ## 1. 获取当前智能体的端点 {#endpoint}
 
 1. 登录[小智控制台](https://xiaozhi.me/console/)，找到设备所用的智能体。
@@ -68,14 +75,12 @@ from mcp.server.fastmcp import FastMCP
 logging.basicConfig(level=logging.INFO)  # 日志默认写到 stderr
 mcp = FastMCP("XiaoZhiSafeCalculator")
 
-
 @mcp.tool()
 def add_numbers(a: int, b: int) -> dict:
     """需要精确相加两个整数时调用。每个输入范围为 -1000000 到 1000000。"""
     if not (-1_000_000 <= a <= 1_000_000 and -1_000_000 <= b <= 1_000_000):
         raise ValueError("每个输入必须在 -1000000 到 1000000 之间")
     return {"sum": a + b}
-
 
 if __name__ == "__main__":
     mcp.run(transport="stdio")
@@ -128,7 +133,7 @@ python mcp_pipe.py safe_calculator.py
 | 运行一会儿就离线 | 检查电脑睡眠、进程退出与网络变化；不要只看首次连接日志 |
 | 输入超出范围 | 本示例主动拒绝超限，先用规定范围的整数验证 |
 
-工具数量、报文和连接限制以当前服务要求为准，不把旧教程的固定 1024 字节描述作为所有场景通则。
+工具数量、报文和连接限制以当前服务要求为准。
 
 ## 下一步 {#next}
 
