@@ -1301,9 +1301,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "xiaozhi-esp32-1.9.4.zip",
       "sourceSize": 3477035,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-084",
@@ -1314,9 +1315,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "xiaozhi-esp32-1.9.4.tar.gz",
       "sourceSize": 2981557,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-085",
@@ -1327,9 +1329,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-wifi-lcd-320x240.zip",
       "sourceSize": 2206147,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-086",
@@ -1340,9 +1343,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-wifi-lcd-172x320.zip",
       "sourceSize": 2206150,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-087",
@@ -1353,9 +1357,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-wifi-lcd-128x160.zip",
       "sourceSize": 2206179,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-088",
@@ -1366,9 +1371,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-wifi-lcd-240x240-7P.zip",
       "sourceSize": 2206185,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-089",
@@ -1379,9 +1385,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-wifi-lcd-GC9A01-240x240.zip",
       "sourceSize": 2206949,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-090",
@@ -1392,9 +1399,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-wifi-lcd-240x240.zip",
       "sourceSize": 2206147,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-091",
@@ -1405,11 +1413,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-wifi.zip",
       "sourceSize": 1772775,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_bread-compact-wifi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1772812,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-092",
@@ -1420,11 +1429,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-ml307.zip",
       "sourceSize": 1813709,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_bread-compact-ml307.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1813694,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-093",
@@ -1435,11 +1445,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-wifi-128x64.zip",
       "sourceSize": 1772836,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_bread-compact-wifi-128x64.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1772848,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-094",
@@ -1450,11 +1461,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-ml307-128x64.zip",
       "sourceSize": 1813746,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_bread-compact-ml307-128x64.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1813728,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-095",
@@ -1465,11 +1477,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_xmini-c3.zip",
       "sourceSize": 1545699,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_xmini-c3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1545706,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-096",
@@ -1480,11 +1493,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_xmini-c3-v3.zip",
       "sourceSize": 1548829,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_xmini-c3-v3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1548754,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-097",
@@ -1495,11 +1509,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_xmini-c3-4g.zip",
       "sourceSize": 1068271,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_xmini-c3-4g.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1068269,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-098",
@@ -1510,11 +1525,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_lichuang-dev.zip",
       "sourceSize": 2459554,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_lichuang-dev.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2459534,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-099",
@@ -1525,11 +1541,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_lichuang-c3-dev.zip",
       "sourceSize": 1958683,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_lichuang-c3-dev.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1958697,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-100",
@@ -1540,11 +1557,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_m5stack-core-s3.zip",
       "sourceSize": 2447059,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_m5stack-core-s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2447031,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-101",
@@ -1555,11 +1573,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_atoms3-echo-base.zip",
       "sourceSize": 2038526,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_atoms3-echo-base.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2038547,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-102",
@@ -1570,11 +1589,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_atoms3r-echo-base.zip",
       "sourceSize": 2209886,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_atoms3r-echo-base.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2209906,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-103",
@@ -1585,11 +1605,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_atommatrix-echo-base.zip",
       "sourceSize": 1325608,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_atommatrix-echo-base.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1325646,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-104",
@@ -1600,11 +1621,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_atom-echos3r.zip",
       "sourceSize": 1479981,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_atom-echos3r.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1479996,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-105",
@@ -1615,11 +1637,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_tudouzi.zip",
       "sourceSize": 1344502,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_tudouzi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1344511,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-106",
@@ -1630,11 +1653,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_kevin-box-2.zip",
       "sourceSize": 1830353,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_kevin-box-2.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1830355,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-107",
@@ -1645,11 +1669,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_echoear.zip",
       "sourceSize": 3902912,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_echoear.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 3902784,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-108",
@@ -1660,11 +1685,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp-hi.zip",
       "sourceSize": 1559898,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp-hi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1560335,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-109",
@@ -1675,11 +1701,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp-box-3.zip",
       "sourceSize": 2408202,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp-box-3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2408202,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-110",
@@ -1690,11 +1717,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp-box.zip",
       "sourceSize": 2408130,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp-box.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2408155,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-111",
@@ -1705,11 +1733,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp-box-lite.zip",
       "sourceSize": 2411547,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp-box-lite.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2411553,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-112",
@@ -1720,11 +1749,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp-s3-lcd-ev-board-1p4.zip",
       "sourceSize": 2803834,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp-s3-lcd-ev-board-1p4.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2803779,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-113",
@@ -1735,11 +1765,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp-s3-lcd-ev-board-1p5.zip",
       "sourceSize": 2803785,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp-s3-lcd-ev-board-1p5.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2803848,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-114",
@@ -1750,11 +1781,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp-s3-lcd-ev-board-2.zip",
       "sourceSize": 2807421,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp-s3-lcd-ev-board-2.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2807437,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-115",
@@ -1765,11 +1797,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_xingzhi-cube-0.96oled-wifi.zip",
       "sourceSize": 1781352,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_xingzhi-cube-0.96oled-wifi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1781366,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-116",
@@ -1780,11 +1813,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_xingzhi-cube-0.96oled-ml307.zip",
       "sourceSize": 1822366,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_xingzhi-cube-0.96oled-ml307.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1822373,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-117",
@@ -1795,11 +1829,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_xingzhi-cube-1.54tft-wifi.zip",
       "sourceSize": 2394179,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_xingzhi-cube-1.54tft-wifi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2394147,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-118",
@@ -1810,11 +1845,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_xingzhi-cube-1.54tft-ml307.zip",
       "sourceSize": 2435275,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_xingzhi-cube-1.54tft-ml307.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2435227,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-119",
@@ -1825,11 +1861,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_xingzhi-cube-1.54tft-ml307-wechatui.zip",
       "sourceSize": 2423979,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_xingzhi-cube-1.54tft-ml307-wechatui.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2423920,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-120",
@@ -1840,11 +1877,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_xingzhi-cube-0.85tft-wifi.zip",
       "sourceSize": 2201182,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_xingzhi-cube-0.85tft-wifi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2201188,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-121",
@@ -1855,11 +1893,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_xingzhi-cube-0.85tft-ml307.zip",
       "sourceSize": 1748433,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_xingzhi-cube-0.85tft-ml307.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1748418,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-122",
@@ -1870,11 +1909,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_kevin-c3.zip",
       "sourceSize": 1252540,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_kevin-c3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1252498,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-123",
@@ -1885,11 +1925,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_kevin-sp-v4-dev.zip",
       "sourceSize": 2463203,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_kevin-sp-v4-dev.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2463175,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-124",
@@ -1900,11 +1941,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_magiclick-2p4.zip",
       "sourceSize": 2229135,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_magiclick-2p4.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2229143,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-125",
@@ -1915,11 +1957,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_magiclick-2p5.zip",
       "sourceSize": 2281723,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_magiclick-2p5.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2281738,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-126",
@@ -1930,11 +1973,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_magiclick-c3.zip",
       "sourceSize": 1929975,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_magiclick-c3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1929951,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-127",
@@ -1945,11 +1989,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_magiclick-c3-v2.zip",
       "sourceSize": 1930252,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_magiclick-c3-v2.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1930260,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-128",
@@ -1960,11 +2005,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp-sparkbot.zip",
       "sourceSize": 2463037,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp-sparkbot.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2463066,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-129",
@@ -1975,11 +2021,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_movecall-moji-esp32s3.zip",
       "sourceSize": 2415783,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_movecall-moji-esp32s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2415771,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-130",
@@ -1990,11 +2037,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_movecall-cuican-esp32s3.zip",
       "sourceSize": 2235326,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_movecall-cuican-esp32s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2235365,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-131",
@@ -2005,11 +2053,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp32s3-korvo2-v3.zip",
       "sourceSize": 2453222,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp32s3-korvo2-v3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2453249,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-132",
@@ -2020,11 +2069,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp32-s3-touch-amoled-1.8.zip",
       "sourceSize": 2791015,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp32-s3-touch-amoled-1.8.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2791025,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-133",
@@ -2035,11 +2085,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp32-s3-touch-lcd-1.85c.zip",
       "sourceSize": 2216845,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp32-s3-touch-lcd-1.85c.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2216836,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-134",
@@ -2050,11 +2101,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp32-s3-touch-lcd-1.85.zip",
       "sourceSize": 2214521,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp32-s3-touch-lcd-1.85.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2214452,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-135",
@@ -2065,11 +2117,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp32-s3-touch-lcd-1.46.zip",
       "sourceSize": 2214032,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp32-s3-touch-lcd-1.46.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2214053,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-136",
@@ -2080,11 +2133,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp32-s3-touch-lcd-3.5.zip",
       "sourceSize": 2270093,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp32-s3-touch-lcd-3.5.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2270095,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-137",
@@ -2095,11 +2149,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_waveshare-s3-touch-lcd-3.5b.zip",
       "sourceSize": 2265904,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_waveshare-s3-touch-lcd-3.5b.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2265925,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-138",
@@ -2110,11 +2165,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_waveshare-c6-lcd-1.69.zip",
       "sourceSize": 2258475,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_waveshare-c6-lcd-1.69.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2258478,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-139",
@@ -2125,11 +2181,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_waveshare-c6-touch-amoled-1.43.zip",
       "sourceSize": 2645183,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_waveshare-c6-touch-amoled-1.43.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2645165,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-140",
@@ -2140,11 +2197,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_waveshare-s3-audio-board.zip",
       "sourceSize": 1880813,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_waveshare-s3-audio-board.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1880834,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-141",
@@ -2155,11 +2213,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_lilygo-t-cameraplus-s3.zip",
       "sourceSize": 2249051,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_lilygo-t-cameraplus-s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2249060,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-142",
@@ -2170,11 +2229,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_lilygo-t-cameraplus-s3_v1_2.zip",
       "sourceSize": 2250277,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_lilygo-t-cameraplus-s3_v1_2.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2250267,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-143",
@@ -2185,11 +2245,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_lilygo-t-circle-s3.zip",
       "sourceSize": 2201600,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_lilygo-t-circle-s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2201628,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-144",
@@ -2200,11 +2261,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_lilygo-t-display-s3-pro-mvsrlora.zip",
       "sourceSize": 2203431,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_lilygo-t-display-s3-pro-mvsrlora.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2203469,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-145",
@@ -2215,11 +2277,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_atk-dnesp32s3.zip",
       "sourceSize": 2458213,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_atk-dnesp32s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2458231,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-146",
@@ -2230,11 +2293,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_atk-dnesp32s3-box.zip",
       "sourceSize": 2382058,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_atk-dnesp32s3-box.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2381998,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-147",
@@ -2245,11 +2309,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_atk-dnesp32s3-box0.zip",
       "sourceSize": 2410729,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_atk-dnesp32s3-box0.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2410781,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-148",
@@ -2260,11 +2325,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_atk-dnesp32s3-box2-wifi.zip",
       "sourceSize": 2404045,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_atk-dnesp32s3-box2-wifi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2404040,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-149",
@@ -2275,11 +2341,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_atk-dnesp32s3-box2-4g.zip",
       "sourceSize": 2445644,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_atk-dnesp32s3-box2-4g.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2445611,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-150",
@@ -2290,11 +2357,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_du-chatx.zip",
       "sourceSize": 2210705,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_du-chatx.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2210737,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-151",
@@ -2305,11 +2373,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_taiji-pi-s3.zip",
       "sourceSize": 2391005,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_taiji-pi-s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2391060,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-152",
@@ -2320,11 +2389,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_kevin-yuying-313lcd.zip",
       "sourceSize": 2794801,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_kevin-yuying-313lcd.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2794808,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-153",
@@ -2335,11 +2405,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-esp32.zip",
       "sourceSize": 1598555,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_bread-compact-esp32.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1598557,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-154",
@@ -2350,11 +2421,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-esp32-128x32.zip",
       "sourceSize": 1598585,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_bread-compact-esp32-128x32.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1598583,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-155",
@@ -2365,11 +2437,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_sensecap-watcher.zip",
       "sourceSize": 2888556,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_sensecap-watcher.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2888511,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-156",
@@ -2380,11 +2453,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_df-k10.zip",
       "sourceSize": 2461881,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_df-k10.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2461868,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-157",
@@ -2395,11 +2469,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp32-cgc.zip",
       "sourceSize": 1632618,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp32-cgc.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1632647,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-158",
@@ -2410,11 +2485,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_esp32-cgc-144.zip",
       "sourceSize": 1637276,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_esp32-cgc-144.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1637217,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-159",
@@ -2425,11 +2501,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_doit-s3-aibox.zip",
       "sourceSize": 1468713,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_doit-s3-aibox.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1468711,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-160",
@@ -2440,11 +2517,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_mixgo-nova.zip",
       "sourceSize": 2220128,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_mixgo-nova.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2220133,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-161",
@@ -2455,11 +2533,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_genjutech-s3-1.54tft.zip",
       "sourceSize": 2419964,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_genjutech-s3-1.54tft.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2419943,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-162",
@@ -2470,11 +2549,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_zhengchen-1.54tft-wifi.zip",
       "sourceSize": 2391685,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_zhengchen-1.54tft-wifi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2391689,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-163",
@@ -2485,11 +2565,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_zhengchen-1.54tft-ml307.zip",
       "sourceSize": 2432628,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_zhengchen-1.54tft-ml307.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2432636,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-164",
@@ -2500,11 +2581,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_minsi-k08-dual.zip",
       "sourceSize": 2441484,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_minsi-k08-dual.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2441472,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-165",
@@ -2515,11 +2597,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_sp-esp32-s3-1.54-muma.zip",
       "sourceSize": 2233250,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_sp-esp32-s3-1.54-muma.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2233240,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-166",
@@ -2530,11 +2613,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_sp-esp32-s3-1.28-box.zip",
       "sourceSize": 2243488,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_sp-esp32-s3-1.28-box.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2243482,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-167",
@@ -2545,11 +2629,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_electron-bot.zip",
       "sourceSize": 2608854,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_electron-bot.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2608890,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-168",
@@ -2560,11 +2645,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_otto-robot.zip",
       "sourceSize": 2432186,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_otto-robot.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2432180,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-169",
@@ -2575,11 +2661,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_jiuchuan-s3.zip",
       "sourceSize": 2430406,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_jiuchuan-s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2430389,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-170",
@@ -2590,11 +2677,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_surfer-c3-1.14tft.zip",
       "sourceSize": 2153862,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.2/v1.9.2_surfer-c3-1.14tft.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2153886,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-171",
@@ -2605,9 +2693,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "xiaozhi-esp32-1.9.2_2.zip",
       "sourceSize": 3478351,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-172",
@@ -2618,9 +2707,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "xiaozhi-esp32-1.9.2_2.tar.gz",
       "sourceSize": 2978705,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-173",
@@ -2631,9 +2721,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-wifi-lcd-320x240.zip",
       "sourceSize": 2206147,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-174",
@@ -2644,9 +2735,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-wifi-lcd-172x320.zip",
       "sourceSize": 2206150,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-175",
@@ -2657,9 +2749,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-wifi-lcd-128x160.zip",
       "sourceSize": 2206179,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-176",
@@ -2670,9 +2763,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-wifi-lcd-240x240-7P.zip",
       "sourceSize": 2206185,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-177",
@@ -2683,9 +2777,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-wifi-lcd-GC9A01-240x240.zip",
       "sourceSize": 2206949,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-178",
@@ -2696,9 +2791,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.2_bread-compact-wifi-lcd-240x240.zip",
       "sourceSize": 2206147,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-179",
@@ -2709,11 +2805,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_bread-compact-wifi.zip",
       "sourceSize": 1772233,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_bread-compact-wifi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1772233,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-180",
@@ -2724,11 +2821,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_bread-compact-ml307.zip",
       "sourceSize": 1813374,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_bread-compact-ml307.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1813374,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-181",
@@ -2739,11 +2837,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_bread-compact-wifi-128x64.zip",
       "sourceSize": 1772262,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_bread-compact-wifi-128x64.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1772262,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-182",
@@ -2754,11 +2853,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_bread-compact-ml307-128x64.zip",
       "sourceSize": 1813445,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_bread-compact-ml307-128x64.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1813445,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-183",
@@ -2769,11 +2869,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_xmini-c3.zip",
       "sourceSize": 1545271,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_xmini-c3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1545271,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-184",
@@ -2784,11 +2885,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_xmini-c3-v3.zip",
       "sourceSize": 1548320,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_xmini-c3-v3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1548320,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-185",
@@ -2799,11 +2901,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_xmini-c3-4g.zip",
       "sourceSize": 1067767,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_xmini-c3-4g.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1067767,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-186",
@@ -2814,11 +2917,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_lichuang-dev.zip",
       "sourceSize": 2459046,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_lichuang-dev.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2459046,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-187",
@@ -2829,11 +2933,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_lichuang-c3-dev.zip",
       "sourceSize": 1958277,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_lichuang-c3-dev.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1958277,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-188",
@@ -2844,11 +2949,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_m5stack-core-s3.zip",
       "sourceSize": 2446600,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_m5stack-core-s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2446600,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-189",
@@ -2859,11 +2965,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_atoms3-echo-base.zip",
       "sourceSize": 2038232,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_atoms3-echo-base.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2038232,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-190",
@@ -2874,11 +2981,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_atoms3r-echo-base.zip",
       "sourceSize": 2209589,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_atoms3r-echo-base.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2209589,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-191",
@@ -2889,11 +2997,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_atommatrix-echo-base.zip",
       "sourceSize": 1325251,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_atommatrix-echo-base.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1325251,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-192",
@@ -2904,11 +3013,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_atom-echos3r.zip",
       "sourceSize": 1479618,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_atom-echos3r.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1479618,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-193",
@@ -2919,11 +3029,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_tudouzi.zip",
       "sourceSize": 1344197,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_tudouzi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1344197,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-194",
@@ -2934,11 +3045,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_kevin-box-2.zip",
       "sourceSize": 1829936,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_kevin-box-2.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1829936,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-195",
@@ -2949,11 +3061,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_echoear.zip",
       "sourceSize": 3902476,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_echoear.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 3902476,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-196",
@@ -2964,11 +3077,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp-hi.zip",
       "sourceSize": 1559756,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp-hi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1559756,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-197",
@@ -2979,11 +3093,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp-box-3.zip",
       "sourceSize": 2407867,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp-box-3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2407867,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-198",
@@ -2994,11 +3109,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp-box.zip",
       "sourceSize": 2407677,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp-box.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2407677,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-199",
@@ -3009,11 +3125,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp-box-lite.zip",
       "sourceSize": 2411154,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp-box-lite.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2411154,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-200",
@@ -3024,11 +3141,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp-s3-lcd-ev-board-1p4.zip",
       "sourceSize": 2803451,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp-s3-lcd-ev-board-1p4.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2803451,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-201",
@@ -3039,11 +3157,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp-s3-lcd-ev-board-1p5.zip",
       "sourceSize": 2803395,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp-s3-lcd-ev-board-1p5.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2803395,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-202",
@@ -3054,11 +3173,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp-s3-lcd-ev-board-2.zip",
       "sourceSize": 2807113,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp-s3-lcd-ev-board-2.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2807113,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-203",
@@ -3069,11 +3189,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_xingzhi-cube-0.96oled-wifi.zip",
       "sourceSize": 1780900,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_xingzhi-cube-0.96oled-wifi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1780900,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-204",
@@ -3084,11 +3205,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_xingzhi-cube-0.96oled-ml307.zip",
       "sourceSize": 1821995,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_xingzhi-cube-0.96oled-ml307.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1821995,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-205",
@@ -3099,11 +3221,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_xingzhi-cube-1.54tft-wifi.zip",
       "sourceSize": 2393928,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_xingzhi-cube-1.54tft-wifi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2393928,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-206",
@@ -3114,11 +3237,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_xingzhi-cube-1.54tft-ml307.zip",
       "sourceSize": 2434953,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_xingzhi-cube-1.54tft-ml307.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2434953,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-207",
@@ -3129,11 +3253,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_xingzhi-cube-1.54tft-ml307-wechatui.zip",
       "sourceSize": 2423666,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_xingzhi-cube-1.54tft-ml307-wechatui.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2423666,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-208",
@@ -3144,11 +3269,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_xingzhi-cube-0.85tft-wifi.zip",
       "sourceSize": 2200790,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_xingzhi-cube-0.85tft-wifi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2200790,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-209",
@@ -3159,11 +3285,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_xingzhi-cube-0.85tft-ml307.zip",
       "sourceSize": 1748058,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_xingzhi-cube-0.85tft-ml307.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1748058,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-210",
@@ -3174,11 +3301,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_kevin-c3.zip",
       "sourceSize": 1251957,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_kevin-c3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1251957,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-211",
@@ -3189,11 +3317,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_kevin-sp-v4-dev.zip",
       "sourceSize": 2462842,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_kevin-sp-v4-dev.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2462842,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-212",
@@ -3204,11 +3333,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_magiclick-2p4.zip",
       "sourceSize": 2228835,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_magiclick-2p4.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2228835,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-213",
@@ -3219,11 +3349,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_magiclick-2p5.zip",
       "sourceSize": 2281336,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_magiclick-2p5.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2281336,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-214",
@@ -3234,11 +3365,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_magiclick-c3.zip",
       "sourceSize": 1929380,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_magiclick-c3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1929380,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-215",
@@ -3249,11 +3381,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_magiclick-c3-v2.zip",
       "sourceSize": 1929717,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_magiclick-c3-v2.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1929717,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-216",
@@ -3264,11 +3397,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp-sparkbot.zip",
       "sourceSize": 2462571,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp-sparkbot.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2462571,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-217",
@@ -3279,11 +3413,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_movecall-moji-esp32s3.zip",
       "sourceSize": 2415448,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_movecall-moji-esp32s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2415448,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-218",
@@ -3294,11 +3429,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_movecall-cuican-esp32s3.zip",
       "sourceSize": 2234891,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_movecall-cuican-esp32s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2234891,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-219",
@@ -3309,11 +3445,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp32s3-korvo2-v3.zip",
       "sourceSize": 2452832,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp32s3-korvo2-v3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2452832,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-220",
@@ -3324,11 +3461,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp32-s3-touch-amoled-1.8.zip",
       "sourceSize": 2790584,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp32-s3-touch-amoled-1.8.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2790584,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-221",
@@ -3339,11 +3477,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp32-s3-touch-lcd-1.85c.zip",
       "sourceSize": 2216444,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp32-s3-touch-lcd-1.85c.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2216444,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-222",
@@ -3354,11 +3493,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp32-s3-touch-lcd-1.85.zip",
       "sourceSize": 2214143,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp32-s3-touch-lcd-1.85.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2214143,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-223",
@@ -3369,11 +3509,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp32-s3-touch-lcd-1.46.zip",
       "sourceSize": 2213725,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp32-s3-touch-lcd-1.46.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2213725,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-224",
@@ -3384,11 +3525,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp32-s3-touch-lcd-3.5.zip",
       "sourceSize": 2269629,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp32-s3-touch-lcd-3.5.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2269629,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-225",
@@ -3399,11 +3541,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_waveshare-s3-touch-lcd-3.5b.zip",
       "sourceSize": 2265627,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_waveshare-s3-touch-lcd-3.5b.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2265627,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-226",
@@ -3414,11 +3557,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_waveshare-c6-lcd-1.69.zip",
       "sourceSize": 2257933,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_waveshare-c6-lcd-1.69.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2257933,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-227",
@@ -3429,11 +3573,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_waveshare-c6-touch-amoled-1.43.zip",
       "sourceSize": 2644660,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_waveshare-c6-touch-amoled-1.43.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2644660,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-228",
@@ -3444,11 +3589,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_waveshare-s3-audio-board.zip",
       "sourceSize": 1880551,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_waveshare-s3-audio-board.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1880551,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-229",
@@ -3459,11 +3605,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_lilygo-t-cameraplus-s3.zip",
       "sourceSize": 2248645,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_lilygo-t-cameraplus-s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2248645,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-230",
@@ -3474,11 +3621,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_lilygo-t-cameraplus-s3_v1_2.zip",
       "sourceSize": 2250014,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_lilygo-t-cameraplus-s3_v1_2.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2250014,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-231",
@@ -3489,11 +3637,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_lilygo-t-circle-s3.zip",
       "sourceSize": 2201264,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_lilygo-t-circle-s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2201264,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-232",
@@ -3504,11 +3653,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_lilygo-t-display-s3-pro-mvsrlora.zip",
       "sourceSize": 2203087,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_lilygo-t-display-s3-pro-mvsrlora.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2203087,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-233",
@@ -3519,11 +3669,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_atk-dnesp32s3.zip",
       "sourceSize": 2457871,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_atk-dnesp32s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2457871,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-234",
@@ -3534,11 +3685,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_atk-dnesp32s3-box.zip",
       "sourceSize": 2381671,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_atk-dnesp32s3-box.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2381671,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-235",
@@ -3549,11 +3701,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_atk-dnesp32s3-box0.zip",
       "sourceSize": 2410402,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_atk-dnesp32s3-box0.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2410402,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-236",
@@ -3564,11 +3717,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_atk-dnesp32s3-box2-wifi.zip",
       "sourceSize": 2403599,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_atk-dnesp32s3-box2-wifi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2403599,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-237",
@@ -3579,11 +3733,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_atk-dnesp32s3-box2-4g.zip",
       "sourceSize": 2445213,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_atk-dnesp32s3-box2-4g.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2445213,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-238",
@@ -3594,11 +3749,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_du-chatx.zip",
       "sourceSize": 2210343,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_du-chatx.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2210343,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-239",
@@ -3609,11 +3765,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_taiji-pi-s3.zip",
       "sourceSize": 2390569,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_taiji-pi-s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2390569,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-240",
@@ -3624,11 +3781,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_kevin-yuying-313lcd.zip",
       "sourceSize": 2794459,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_kevin-yuying-313lcd.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2794459,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-241",
@@ -3639,11 +3797,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_bread-compact-esp32.zip",
       "sourceSize": 1598012,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_bread-compact-esp32.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1598012,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-242",
@@ -3654,11 +3813,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_bread-compact-esp32-128x32.zip",
       "sourceSize": 1598045,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_bread-compact-esp32-128x32.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1598045,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-243",
@@ -3669,11 +3829,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_sensecap-watcher.zip",
       "sourceSize": 2888176,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_sensecap-watcher.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2888176,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-244",
@@ -3684,11 +3845,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_df-k10.zip",
       "sourceSize": 2461560,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_df-k10.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2461560,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-245",
@@ -3699,11 +3861,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp32-cgc.zip",
       "sourceSize": 1632121,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp32-cgc.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1632121,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-246",
@@ -3714,11 +3877,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_esp32-cgc-144.zip",
       "sourceSize": 1636800,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_esp32-cgc-144.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 1636800,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-247",
@@ -3729,11 +3893,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_mixgo-nova.zip",
       "sourceSize": 2219750,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_mixgo-nova.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2219750,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-248",
@@ -3744,11 +3909,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_genjutech-s3-1.54tft.zip",
       "sourceSize": 2419597,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_genjutech-s3-1.54tft.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2419597,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-249",
@@ -3759,11 +3925,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_zhengchen-1.54tft-wifi.zip",
       "sourceSize": 2391303,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_zhengchen-1.54tft-wifi.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2391303,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-250",
@@ -3774,11 +3941,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_zhengchen-1.54tft-ml307.zip",
       "sourceSize": 2432098,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_zhengchen-1.54tft-ml307.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2432098,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-251",
@@ -3789,11 +3957,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_minsi-k08-dual.zip",
       "sourceSize": 2441208,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_minsi-k08-dual.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2441208,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-252",
@@ -3804,11 +3973,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_sp-esp32-s3-1.54-muma.zip",
       "sourceSize": 2232830,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_sp-esp32-s3-1.54-muma.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2232830,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-253",
@@ -3819,11 +3989,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_sp-esp32-s3-1.28-box.zip",
       "sourceSize": 2243193,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_sp-esp32-s3-1.28-box.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2243193,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-254",
@@ -3834,11 +4005,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_electron-bot.zip",
       "sourceSize": 2608598,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_electron-bot.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2608598,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-255",
@@ -3849,11 +4021,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_otto-robot.zip",
       "sourceSize": 2431827,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_otto-robot.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2431827,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-256",
@@ -3864,11 +4037,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_jiuchuan-s3.zip",
       "sourceSize": 2429929,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_jiuchuan-s3.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2429929,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-257",
@@ -3879,11 +4053,12 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.9.1_surfer-c3-1.14tft.zip",
       "sourceSize": 2153347,
-      "decision": "official-upstream-release",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.1/v1.9.1_surfer-c3-1.14tft.zip",
-      "reason": "以官方固件仓库相同文件名的 Release 资产替代旧飞书副本。",
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
       "upstreamSize": 2153347,
-      "match": "exact-name"
+      "match": "exact-name",
+      "previousDecision": "official-upstream-release"
     },
     {
       "id": "DOC-04-file-258",
@@ -3894,9 +4069,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.8.8_bread-compact-wifi-lcd-320x240.zip",
       "sourceSize": 2168464,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-259",
@@ -3907,9 +4083,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.8.8_bread-compact-wifi-lcd-320x172.zip",
       "sourceSize": 2168467,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-260",
@@ -3920,9 +4097,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.8.8_bread-compact-wifi-lcd-128x160.zip",
       "sourceSize": 2156598,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-261",
@@ -3933,9 +4111,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.8.8_bread-compact-wifi-lcd-240x240-7P.zip",
       "sourceSize": 2168436,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-262",
@@ -3946,9 +4125,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.8.8_bread-compact-wifi-lcd-GC9A01-240x240.zip",
       "sourceSize": 2169012,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-04-file-263",
@@ -3959,9 +4139,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
       "name": "v1.8.8_bread-compact-wifi-lcd-240x240.zip",
       "sourceSize": 2168470,
-      "decision": "replaced-by-upstream",
+      "decision": "archived-upstream-reference",
       "publicUrl": "https://github.com/78/xiaozhi-esp32/releases",
-      "reason": "历史/调试固件没有核实到同名官方资产，不重分发；读者按板型从上游 Release 选择，不能把链接当作同文件校验。"
+      "reason": "维护者要求文档只保留v1.9.4；此更早版本文件不再出现在读者下载表，既有上游链接仅留审计追溯。未删除固件仓库的Release或文件。",
+      "previousDecision": "replaced-by-upstream"
     },
     {
       "id": "DOC-05-image-001",

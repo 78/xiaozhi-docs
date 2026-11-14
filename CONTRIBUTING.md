@@ -39,6 +39,8 @@ status: draft
 
 讨论入口集中维护在 `docs/.vitepress/data/community.json`：中文展示 QQ 群，其他语言展示 Discord。文章不要嵌入具体群号、社交账号或群二维码。第三方已有维护者持续更新的完整教程时，优先外链；本站保留平台说明与稳定入口，避免复制一套电路、软件和素材后与上游分叉。
 
+固件下载表目前仅维护 v2.6.0 与 v1.9.4。更新时同时核对官方 Release 资产、对应 tag 的 `config.json` 与 Kconfig 变体，记录在 `audit/firmware-download-catalog.json`，并运行 `npm run check:firmware`。产品名称、芯片/硬件版本、完整 ZIP 文件名应逐行对应；不能把同目录的另一个硬件变体或近似文件名当作匹配。旧版本路径保留稳定 ID 和跳转，版本取舍依据留在审计清单。
+
 ## 翻译同步
 
 每篇英文文章增加元数据：

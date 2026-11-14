@@ -107,18 +107,8 @@ const guides: Record<string, { slug: string; zh: string; en: string; externalZh?
       "en": "v2.6.0 release"
     },
     {
-      "slug": "releases/v2.5.2",
-      "zh": "v2.5.2 历史固件",
-      "en": "v2.5.2 archive"
-    },
-    {
-      "slug": "releases/v2.2.4",
-      "zh": "v2.2.4 历史固件",
-      "en": "v2.2.4 archive"
-    },
-    {
       "slug": "releases/v1.9.4",
-      "zh": "v1.9.4 及旧附件索引",
+      "zh": "v1.9.4 历史固件",
       "en": "v1.9.4 archive"
     }
   ],

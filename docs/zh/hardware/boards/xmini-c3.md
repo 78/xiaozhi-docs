@@ -38,7 +38,7 @@ Xmini 是一组硬件，不能把 Wi-Fi、V3 与 4G 版当成同一块板。电�
 
 ## 2. 安装固件 {#flash}
 
-在[在线编译](../../firmware/online-builder)或[官方发布](../../firmware/downloads)找到准确板型和变体。发布包可能带制造商前缀，按目录与完整名称一起核对。旧 v1.9.4/v2.2.4 包只用于明确的历史需求。
+在[在线编译](../../firmware/online-builder)或[官方发布](../../firmware/downloads)找到准确板型和变体。发布包可能带制造商前缀，按目录与完整名称一起核对。v1 旧设备需要历史固件时，只使用与硬件匹配的 [v1.9.4](../../firmware/releases/v1.9.4)。
 
 按[烧录指南](../../firmware/flashing)进入该板的下载模式。C3 的 BOOT 及 USB 行为与基础 S3 不同，使用板卡说明和当前源码，而不是照搬 S3 的 GPIO0 接法。
 

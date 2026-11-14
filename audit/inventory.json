@@ -155,8 +155,8 @@
   "summary": {
     "decision": {
       "rewrite": 24,
-      "archive": 3,
-      "merge": 13,
+      "merge": 14,
+      "archive": 2,
       "retain": 4
     },
     "priority": {
@@ -311,7 +311,7 @@
       "decision": "rewrite",
       "priority": "P0",
       "targetPath": "docs/zh/firmware/downloads.md",
-      "rationale": "建立不带版本号的下载入口；v2.5.2 的资料单独留档，避免把旧版本继续称为最新版。",
+      "rationale": "按维护者要求保留分类下载表，但以官方v2.6.0资产和该tag板型配置核对；2.x仅维护v2.6.0，旧URL转当前列表。",
       "evidence": [
         {
           "section": "标题、版本说明和板型下载列表",
@@ -332,9 +332,9 @@
         }
       ],
       "requiredChanges": [
-        "下载主页链接官方 Release，并显示版本、发布日期、芯片及板型变体。",
-        "v2.5.2 建立历史版本记录；沿用可核验的文件校验值。",
-        "单列首次烧录、普通升级和跨分区升级，链接烧录教程。"
+        "保留热门、Xmini、乐鑫、面包板、星智、正点原子、M5Stack、微雪和其他板型分类。",
+        "每行提供产品/变体名称、芯片/硬件版本、完整文件名及官方直接下载地址。",
+        "仅维护v2.6.0和v1.9.4；v2.5.2仅留稳定URL跳转。"
       ],
       "publicationChecks": [
         "按发布资产确认板型和校验值；真机验证 v1→v2 升级路径。"
@@ -382,11 +382,12 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "8e5595422248cf8ca9b1d8b29423aa176f92bfcddd342b288a896f98ae9473fb",
+        "contentSha256": "e94ba551977d9941bd74c704eef3607bd62a96cd2c1374104571b51678ce3d0d",
         "completedChanges": [
           "新增版本无关下载入口，明确核对 v2.6.0 正式发布与匹配条件。",
           "区分源码包、固件、校验值、历史版本和跨布局升级。",
-          "补充v2.6.0正式版本页、导航和5个已核验的官方板型下载资产；版本细节以固件仓库为准。"
+          "补充v2.6.0正式版本页、导航和5个已核验的官方板型下载资产；版本细节以固件仓库为准。",
+          "恢复9组产品名/芯片/文件名分类下载表；v2.6.0的200个资产中199个板型准确匹配，1个无精确配置的CI包单独记审计而不作为常规下载。"
         ],
         "translation": {
           "status": "waiting-for-chinese-community-review",
@@ -413,9 +414,9 @@
           "docs/zh/firmware/releases/v2.6.0.md"
         ],
         "outputHashes": {
-          "docs/zh/firmware/downloads.md": "8e5595422248cf8ca9b1d8b29423aa176f92bfcddd342b288a896f98ae9473fb",
-          "docs/zh/firmware/releases/v2.5.2.md": "918dca95a8b57fc3f07f3ed10eea7251847f4baeea6b73ad0add6e68be0f9166",
-          "docs/zh/firmware/releases/v2.6.0.md": "0d794a04fccb2ba2634e932bb88ce29213baf05194e7bdd84ea0510ddf28f9c8"
+          "docs/zh/firmware/downloads.md": "e94ba551977d9941bd74c704eef3607bd62a96cd2c1374104571b51678ce3d0d",
+          "docs/zh/firmware/releases/v2.5.2.md": "f038cc77c91ad53bed1bcca6e4af57502bb8667088cb5dd4ff732f662f81ace8",
+          "docs/zh/firmware/releases/v2.6.0.md": "ac32a2d59e9047ae4f61bc98aaa87517e43cf048f0b89697a1a3ab3fe76722c8"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {},
@@ -440,7 +441,8 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "currentReleaseReview": "firmware-console-review-2026-11-14.json"
+      "currentReleaseReview": "firmware-console-review-2026-11-14.json",
+      "firmwareCatalogReview": "firmware-download-catalog.json"
     },
     {
       "id": "DOC-03",
@@ -449,10 +451,10 @@
       "sourceUrl": "https://my.feishu.cn/docx/GWL4dC8Rzov8V7x8vfncr9IEnOe",
       "reviewStatus": "reviewed",
       "implementationStatus": "community-review",
-      "decision": "archive",
+      "decision": "merge",
       "priority": "P1",
-      "targetPath": "docs/zh/firmware/releases/v2.2.4.md",
-      "rationale": "保留旧版本下载及适用环境作为历史资料，退出默认下载入口。",
+      "targetPath": "docs/zh/firmware/releases/v2.6.0.md",
+      "rationale": "维护者要求2.x仅保留v2.6.0；旧版正文和下载索引退出文档，旧URL作为草稿跳转保留。",
       "evidence": [
         {
           "section": "标题、SDK 说明、固件列表",
@@ -471,8 +473,8 @@
         }
       ],
       "requiredChanges": [
-        "移除“最新”表述，标注历史版本及适用 SDK。",
-        "保留可核验的发布包、校验和及更新记录；页首推荐当前稳定版。"
+        "不再维护v2.2.4下载正文；合并到v2.6.0分类列表。",
+        "保留原文章ID和URL，自动跳转当前下载列表。"
       ],
       "publicationChecks": [
         "核对归档附件和版本对应关系，确认旧板型是否仍需此版本。"
@@ -482,7 +484,9 @@
         "DOC-04",
         "DOC-08"
       ],
-      "secondaryTargetPaths": [],
+      "secondaryTargetPaths": [
+        "docs/zh/firmware/releases/v2.2.4.md"
+      ],
       "trafficRationale": "累计及当日访问量用于判断覆盖面；排序主要依据上面的具体内容问题、适用范围和维护价值，未以低流量或旧修改时间单独判定删除。",
       "priorityRank": 12,
       "reviewedAt": "2026-11-14",
@@ -517,9 +521,8 @@
         "language": "zh-CN",
         "documentStatus": "review",
         "completedChanges": [
-          "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
-          "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
-          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+          "v2.2.4正文与下载入口已移除，仅保留原ID的草稿跳转页。",
+          "当前固件目录统一到v2.6.0，历史v1仅维护v1.9.4。"
         ],
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -535,15 +538,17 @@
         },
         "scopeNote": "完成的是可校对中文稿；社区尚未确认，完整实物、电气、生产服务、第三方平台与附件执行测试未完成。保留原 publicationChecks，未将其自动勾选为已完成。",
         "outputPaths": [
+          "docs/zh/firmware/releases/v2.6.0.md",
           "docs/zh/firmware/releases/v2.2.4.md"
         ],
         "outputHashes": {
-          "docs/zh/firmware/releases/v2.2.4.md": "1efba993404242a3b8b2223865a344736a184c10b84c7d7f87508aab08a6b003"
+          "docs/zh/firmware/releases/v2.2.4.md": "19415d24eea63e0ef3ee3f4b21ba25d05ba8d2488e187a56490653a6d1d75413",
+          "docs/zh/firmware/releases/v2.6.0.md": "ac32a2d59e9047ae4f61bc98aaa87517e43cf048f0b89697a1a3ab3fe76722c8"
         },
-        "contentSha256": "1efba993404242a3b8b2223865a344736a184c10b84c7d7f87508aab08a6b003",
+        "contentSha256": "ac32a2d59e9047ae4f61bc98aaa87517e43cf048f0b89697a1a3ab3fe76722c8",
         "translation": {
           "status": "waiting-for-chinese-community-review",
-          "counterpartPath": "docs/en/firmware/releases/v2.2.4.md",
+          "counterpartPath": "docs/en/firmware/releases/v2.6.0.md",
           "bodyTranslated": false
         },
         "mediaInventory": "media-inventory.json",
@@ -566,7 +571,9 @@
         "sourceImageReferencesSurveyed": 0,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "priorDecisionBeforeVersionConsolidation": "archive",
+      "firmwareCatalogReview": "firmware-download-catalog.json"
     },
     {
       "id": "DOC-04",
@@ -578,7 +585,7 @@
       "decision": "archive",
       "priority": "P2",
       "targetPath": "docs/zh/firmware/releases/v1.9.4.md",
-      "rationale": "旧固件及分区布局仍可服务维护旧设备；归档而非删除。",
+      "rationale": "维护者要求v1只保留v1.9.4；按该tag板型配置与官方发布资产建立88行分类表，更早版本仅在审计保留去向。",
       "evidence": [
         {
           "section": "固件下载区",
@@ -644,7 +651,8 @@
         "completedChanges": [
           "按审计顺序完成中文重构，保留、合并或历史归档的实际去向已建立。",
           "按现行固件/控制台实现重排操作、完成标志与排查；技术契约留在固件仓库。",
-          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。"
+          "图片、视频、工程资料和固件逐项记录采用、替换或不迁入原因。",
+          "v1页面收敛到v1.9.4，88个官方固件逐项提供产品名、芯片和完整文件名；移除v1.9.2/v1.9.1/v1.8.8混合索引。"
         ],
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -663,9 +671,9 @@
           "docs/zh/firmware/releases/v1.9.4.md"
         ],
         "outputHashes": {
-          "docs/zh/firmware/releases/v1.9.4.md": "eeffdcfe448f906b2301d4ba3add2916f9b3d6c57ddcd9378a166efef018da69"
+          "docs/zh/firmware/releases/v1.9.4.md": "af0700449451309e3d8c65dfad146f04ad4fa0c46768d8aaa5eb2594667da1bc"
         },
-        "contentSha256": "eeffdcfe448f906b2301d4ba3add2916f9b3d6c57ddcd9378a166efef018da69",
+        "contentSha256": "af0700449451309e3d8c65dfad146f04ad4fa0c46768d8aaa5eb2594667da1bc",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/firmware/releases/v1.9.4.md",
@@ -694,7 +702,8 @@
         "sourceImageReferencesSurveyed": 0,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
-      }
+      },
+      "firmwareCatalogReview": "firmware-download-catalog.json"
     },
     {
       "id": "DOC-05",
@@ -4140,9 +4149,9 @@
           "docs/zh/hardware/boards/xmini-c3.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/boards/xmini-c3.md": "528ab71ee16503938aee66bf3351ddf6ef7a0b83edb20c2862e48f61f7d64752"
+          "docs/zh/hardware/boards/xmini-c3.md": "bf3c18c8d8b5073edef194500349a17e923b211d260c73bfa0e5cd163ce92bda"
         },
-        "contentSha256": "528ab71ee16503938aee66bf3351ddf6ef7a0b83edb20c2862e48f61f7d64752",
+        "contentSha256": "bf3c18c8d8b5073edef194500349a17e923b211d260c73bfa0e5cd163ce92bda",
         "translation": {
           "status": "waiting-for-chinese-community-review",
           "counterpartPath": "docs/en/hardware/boards/xmini-c3.md",
@@ -6206,5 +6215,16 @@
     "readerReview": "reader-review-2026-11-14.json",
     "readerReviewStatus": "editorial-and-representative-browser-checks-complete"
   },
-  "readerReview": "reader-review-2026-11-14.json"
+  "readerReview": "reader-review-2026-11-14.json",
+  "firmwareVersionPolicy": {
+    "maintained": [
+      "v2.6.0",
+      "v1.9.4"
+    ],
+    "legacyRedirects": [
+      "v2.5.2",
+      "v2.2.4"
+    ],
+    "reason": "Maintainer requested only v2.6.0 for v2 and v1.9.4 for v1. Legacy URLs retain stable IDs as draft redirects."
+  }
 }

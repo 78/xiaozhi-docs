@@ -17,7 +17,13 @@
     "communityConfirmed": 0,
     "retainedUniqueSourceImages": 100,
     "currentConsoleScreenshots": 7,
-    "hardwareOnlineFlashingBoardsVerified": 1
+    "hardwareOnlineFlashingBoardsVerified": 1,
+    "maintainedFirmwareVersions": [
+      "v2.6.0",
+      "v1.9.4"
+    ],
+    "firmwareCatalogRows": 287,
+    "legacyVersionRedirectPages": 2
   },
   "basis": {
     "firmwareCommit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
@@ -760,7 +766,7 @@
       "figures": [],
       "attachments": [],
       "reviewNoteInAudit": "\"正式 Release v2.6.0 已核验；并未逐个运行所有板型二进制，下载前仍需确认自己的硬件。\"",
-      "contentSha256": "8e5595422248cf8ca9b1d8b29423aa176f92bfcddd342b288a896f98ae9473fb",
+      "contentSha256": "e94ba551977d9941bd74c704eef3607bd62a96cd2c1374104571b51678ce3d0d",
       "previousContentSha256": "6ed34957f33888218220852da23e87c3ef18af75c063d16b8fc2fd7b0e35511a",
       "communityStatus": "awaiting-feedback"
     },
@@ -829,7 +835,7 @@
       "figures": [],
       "attachments": [],
       "reviewNoteInAudit": null,
-      "contentSha256": "78a0195ff9e2a28bb9242d009629179e68a42924dd44c7573dce280f76b43203",
+      "contentSha256": "0a0787f717aef7cb8c14a33f3b4d4510e3e483dccd8d3b7cdc5e5d6b710efa45",
       "previousContentSha256": "9df4fd95eb59446a59af4c3560552a4e722a717cded7673c85175a494127ded4",
       "communityStatus": "section-or-contribution-page"
     },
@@ -914,19 +920,462 @@
       ],
       "editorialStatus": "checked",
       "changed": true,
-      "judgment": "历史索引折叠，明确版本、镜像和布局；无必要 UI 配图，不引导新用户默认安装 v1。",
+      "judgment": "按产品名→芯片/硬件版本→完整文件名阅读，按系列分类；v1.9.4逐项对应88个官方资产，不让用户凭文件名猜板型。",
       "readingOrder": [
-        "官方历史入口",
-        "使用前",
-        "升级与回退",
+        "适用范围/在线安装",
+        "分类与热门开发板",
+        "产品名称、芯片和文件名下载表",
+        "安装或升级边界",
         "下一步"
       ],
       "figures": [],
-      "attachments": [],
+      "attachments": [
+        {
+          "name": "v1.9.4_atk-dnesp32s3-box.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atk-dnesp32s3-box.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atk-dnesp32s3-box0.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atk-dnesp32s3-box0.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atk-dnesp32s3-box2-4g.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atk-dnesp32s3-box2-4g.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atk-dnesp32s3-box2-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atk-dnesp32s3-box2-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atk-dnesp32s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atk-dnesp32s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atom-echos3r.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atom-echos3r.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atommatrix-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atommatrix-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atoms3-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atoms3-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atoms3r-cam-m12-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atoms3r-cam-m12-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_atoms3r-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_atoms3r-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_bread-compact-esp32-lcd.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_bread-compact-esp32-lcd.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_bread-compact-esp32.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_bread-compact-esp32.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_bread-compact-esp32-128x32.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_bread-compact-esp32-128x32.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_bread-compact-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_bread-compact-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_bread-compact-ml307-128x64.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_bread-compact-ml307-128x64.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_bread-compact-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_bread-compact-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_bread-compact-wifi-128x64.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_bread-compact-wifi-128x64.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_df-k10.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_df-k10.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_df-s3-ai-cam.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_df-s3-ai-cam.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_doit-s3-aibox.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_doit-s3-aibox.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_du-chatx.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_du-chatx.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_echoear.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_echoear.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_electron-bot.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_electron-bot.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-box-3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-box-3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-box-lite.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-box-lite.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-box.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-box.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-hi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-hi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-s3-lcd-ev-board-2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-s3-lcd-ev-board-2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-s3-lcd-ev-board-1p4.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-s3-lcd-ev-board-1p4.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-s3-lcd-ev-board-1p5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-s3-lcd-ev-board-1p5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp-sparkbot.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp-sparkbot.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32-cgc-144.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32-cgc-144.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32-cgc.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32-cgc.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32-s3-touch-amoled-1.8.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32-s3-touch-amoled-1.8.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32-s3-touch-lcd-1.46.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32-s3-touch-lcd-1.46.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32-s3-touch-lcd-1.85.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32-s3-touch-lcd-1.85.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32-s3-touch-lcd-1.85c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32-s3-touch-lcd-1.85c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32-s3-touch-lcd-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32-s3-touch-lcd-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_esp32s3-korvo2-v3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_esp32s3-korvo2-v3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_genjutech-s3-1.54tft.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_genjutech-s3-1.54tft.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_jiuchuan-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_jiuchuan-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_kevin-box-1.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_kevin-box-1.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_kevin-box-2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_kevin-box-2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_kevin-c3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_kevin-c3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_kevin-sp-v4-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_kevin-sp-v4-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_kevin-yuying-313lcd.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_kevin-yuying-313lcd.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_labplus-ledong-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_labplus-ledong-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_labplus-mpython-v3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_labplus-mpython-v3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_lichuang-c3-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_lichuang-c3-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_lichuang-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_lichuang-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_lilygo-t-cameraplus-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_lilygo-t-cameraplus-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_lilygo-t-cameraplus-s3_v1_2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_lilygo-t-cameraplus-s3_v1_2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_lilygo-t-circle-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_lilygo-t-circle-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_lilygo-t-display-s3-pro-mvsrlora.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_lilygo-t-display-s3-pro-mvsrlora.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_m5stack-core-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_m5stack-core-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_magiclick-2p4.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_magiclick-2p4.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_magiclick-2p5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_magiclick-2p5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_magiclick-c3-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_magiclick-c3-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_magiclick-c3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_magiclick-c3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_minsi-k08-dual.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_minsi-k08-dual.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_mixgo-nova.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_mixgo-nova.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_movecall-cuican-esp32s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_movecall-cuican-esp32s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_movecall-moji-esp32s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_movecall-moji-esp32s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_otto-robot.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_otto-robot.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_sensecap-watcher.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_sensecap-watcher.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_sp-esp32-s3-1.28-box.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_sp-esp32-s3-1.28-box.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_sp-esp32-s3-1.54-muma.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_sp-esp32-s3-1.54-muma.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_surfer-c3-1.14tft.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_surfer-c3-1.14tft.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_taiji-pi-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_taiji-pi-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_tudouzi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_tudouzi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_waveshare-c6-lcd-1.69.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_waveshare-c6-lcd-1.69.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_waveshare-c6-touch-amoled-1.43.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_waveshare-c6-touch-amoled-1.43.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_waveshare-s3-audio-board.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_waveshare-s3-audio-board.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_waveshare-s3-touch-amoled-1.75.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_waveshare-s3-touch-amoled-1.75.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_waveshare-s3-touch-amoled-2.06.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_waveshare-s3-touch-amoled-2.06.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_waveshare-s3-touch-lcd-3.5b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_waveshare-s3-touch-lcd-3.5b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xingzhi-cube-0.85tft-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xingzhi-cube-0.85tft-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xingzhi-cube-0.85tft-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xingzhi-cube-0.85tft-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xingzhi-cube-0.96oled-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xingzhi-cube-0.96oled-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xingzhi-cube-0.96oled-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xingzhi-cube-0.96oled-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xingzhi-cube-1.54tft-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xingzhi-cube-1.54tft-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xingzhi-cube-1.54tft-ml307-wechatui.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xingzhi-cube-1.54tft-ml307-wechatui.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xingzhi-cube-1.54tft-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xingzhi-cube-1.54tft-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xmini-c3-4g.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xmini-c3-4g.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xmini-c3-v3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xmini-c3-v3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_xmini-c3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_xmini-c3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_zhengchen-1.54tft-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_zhengchen-1.54tft-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v1.9.4_zhengchen-1.54tft-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v1.9.4/v1.9.4_zhengchen-1.54tft-wifi.zip",
+          "kind": "official-firmware-zip"
+        }
+      ],
       "reviewNoteInAudit": "\"历史资料，不能直接作为现行版本的操作步骤；下载以明确版本与适用硬件为准。\"",
-      "contentSha256": "eeffdcfe448f906b2301d4ba3add2916f9b3d6c57ddcd9378a166efef018da69",
+      "contentSha256": "af0700449451309e3d8c65dfad146f04ad4fa0c46768d8aaa5eb2594667da1bc",
       "previousContentSha256": "3a6eb8332f747acd156ea0a5ce2bc234fcbfa10e243b0f4b1ceef7c96a925c8b",
-      "communityStatus": "awaiting-feedback"
+      "communityStatus": "awaiting-feedback",
+      "catalogReview": "firmware-download-catalog.json"
     },
     {
       "page": "docs/zh/firmware/releases/v2.2.4.md",
@@ -935,19 +1384,16 @@
       ],
       "editorialStatus": "checked",
       "changed": true,
-      "judgment": "历史版本独立入口，IDF5.5.2 与当前 IDF6 分开；无图片遗漏。",
+      "judgment": "按维护者要求撤下旧版内容及下载，保持稳定ID和URL的自动跳转；草稿不进入搜索。",
       "readingOrder": [
-        "适用范围",
-        "下载与识别",
-        "更新到现行版本",
-        "版本文档"
+        "跳转v2.6.0固件列表"
       ],
       "figures": [],
       "attachments": [],
       "reviewNoteInAudit": "\"历史资料，不能直接作为现行版本的操作步骤；下载以明确版本与适用硬件为准。\"",
-      "contentSha256": "1efba993404242a3b8b2223865a344736a184c10b84c7d7f87508aab08a6b003",
+      "contentSha256": "19415d24eea63e0ef3ee3f4b21ba25d05ba8d2488e187a56490653a6d1d75413",
       "previousContentSha256": "3cb7d8583b7e832adf9b4b79420a7d96fbdb19c82971a0b3daa0c500bf28d456",
-      "communityStatus": "awaiting-feedback"
+      "communityStatus": "legacy-url-redirect"
     },
     {
       "page": "docs/zh/firmware/releases/v2.5.2.md",
@@ -956,17 +1402,16 @@
       ],
       "editorialStatus": "checked",
       "changed": true,
-      "judgment": "供旧设备维护的入口；去掉迁移交代，当前安装回到统一在线路径。",
+      "judgment": "按维护者要求撤下旧版内容及下载，保持稳定ID和URL的自动跳转；草稿不进入搜索。",
       "readingOrder": [
-        "获取方式",
-        "当前安装"
+        "跳转v2.6.0固件列表"
       ],
       "figures": [],
       "attachments": [],
       "reviewNoteInAudit": "\"历史资料，不能直接作为现行版本的操作步骤；下载以明确版本与适用硬件为准。\"",
-      "contentSha256": "918dca95a8b57fc3f07f3ed10eea7251847f4baeea6b73ad0add6e68be0f9166",
+      "contentSha256": "f038cc77c91ad53bed1bcca6e4af57502bb8667088cb5dd4ff732f662f81ace8",
       "previousContentSha256": "8de7be73c2850858a23e7f2738a31e4d4c95c005a3b308f0b0bb8c1c48456dd2",
-      "communityStatus": "awaiting-feedback"
+      "communityStatus": "legacy-url-redirect"
     },
     {
       "page": "docs/zh/getting-started/index.md",
@@ -1134,7 +1579,7 @@
       ],
       "attachments": [],
       "reviewNoteInAudit": "\"已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。\"",
-      "contentSha256": "528ab71ee16503938aee66bf3351ddf6ef7a0b83edb20c2862e48f61f7d64752",
+      "contentSha256": "bf3c18c8d8b5073edef194500349a17e923b211d260c73bfa0e5cd163ce92bda",
       "previousContentSha256": "d5aa3d542e0fdd995edabd27c69bb1b422d4e2ec61ddf5c71bdbc490ba872154",
       "communityStatus": "awaiting-feedback"
     },
@@ -2167,19 +2612,1016 @@
       "sourceArticles": [],
       "editorialStatus": "checked",
       "changed": true,
-      "judgment": "补充已正式发布的v2.6.0入口；先在线安装，再按准确变体下载官方资产，最后确认镜像类型；技术变更仍由固件仓库维护。",
+      "judgment": "按产品名→芯片/硬件版本→完整文件名阅读，按系列分类；v2.6.0逐项对应199个官方资产，不让用户凭文件名猜板型。",
       "readingOrder": [
-        "优先在线安装",
-        "常见板型下载",
-        "解压后再确认镜像类型",
-        "版本与复现",
+        "适用范围/在线安装",
+        "分类与热门开发板",
+        "产品名称、芯片和文件名下载表",
+        "安装或升级边界",
         "下一步"
       ],
       "figures": [],
-      "attachments": [],
+      "attachments": [
+        {
+          "name": "v2.6.0_alientek-atk-dnesp32s3-box.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_alientek-atk-dnesp32s3-box.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_alientek-atk-dnesp32s3-box0.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_alientek-atk-dnesp32s3-box0.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_alientek-atk-dnesp32s3-box2-4g.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_alientek-atk-dnesp32s3-box2-4g.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_alientek-atk-dnesp32s3-box2-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_alientek-atk-dnesp32s3-box2-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_alientek-atk-dnesp32s3-box3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_alientek-atk-dnesp32s3-box3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_alientek-atk-dnesp32s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_alientek-atk-dnesp32s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-esp32-lcd.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-esp32-lcd.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-esp32.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-esp32.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-esp32-128x32.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-esp32-128x32.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-ml307-128x64.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-ml307-128x64.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-nt26.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-nt26.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-wifi-lcd.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-wifi-lcd.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-wifi-s3cam.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-wifi-s3cam.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_bread-compact-wifi-128x64.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_bread-compact-wifi-128x64.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_chd-esp32s3-box.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_chd-esp32s3-box.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_chd-esp32s3-box-lcd35.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_chd-esp32s3-box-lcd35.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_chd-esp32s3-eye.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_chd-esp32s3-eye.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_cyberai-cyber-vocat-v2.0.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_cyberai-cyber-vocat-v2.0.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_cyberai-cyber-vocat-v2.1.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_cyberai-cyber-vocat-v2.1.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_dfrobot-df-k10.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_dfrobot-df-k10.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_dfrobot-df-s3-ai-cam.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_dfrobot-df-s3-ai-cam.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_doit-s3-aibox.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_doit-s3-aibox.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_du-chatx.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_du-chatx.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_electron-bot.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_electron-bot.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-hi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-hi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-mosaico.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-mosaico.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-sensairshuttle.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-sensairshuttle.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-sparkbot.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-sparkbot.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-spot-c5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-spot-c5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-vocat.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-vocat.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp32-p4-function-ev-board.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp32-p4-function-ev-board.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp32-p4x-function-ev-board.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp32-p4x-function-ev-board.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-box-3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-box-3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-box-lite.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-box-lite.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-box.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-box.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp32s3-korvo2-v3-rndis.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp32s3-korvo2-v3-rndis.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp32s3-korvo2-v3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp32s3-korvo2-v3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-s3-lcd-ev-board-2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-s3-lcd-ev-board-2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-s3-lcd-ev-board-1p4.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-s3-lcd-ev-board-1p4.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp-s3-lcd-ev-board-1p5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp-s3-lcd-ev-board-1p5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp32-s31-function-coreboard-1.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp32-s31-function-coreboard-1.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_espressif-esp32-s31-korvo-1.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_espressif-esp32-s31-korvo-1.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_folotoy-ai-passport.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_folotoy-ai-passport.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_freenove-esp32s3-display-2.8-lcd.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_freenove-esp32s3-display-2.8-lcd.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_genjutech-s3-1.54tft.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_genjutech-s3-1.54tft.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_guition-jc4827w543.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_guition-jc4827w543.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_guition-jc4827w543-ext-amp.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_guition-jc4827w543-ext-amp.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_hu-087.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_hu-087.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_jiuchuan-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_jiuchuan-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_kevin-box-2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_kevin-box-2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_kevin-c3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_kevin-c3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_kevin-sp-v4-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_kevin-sp-v4-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_kevin-yuying-313lcd.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_kevin-yuying-313lcd.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_labplus-ledong-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_labplus-ledong-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_labplus-mpython-v3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_labplus-mpython-v3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lc-s3-wifi-1.54tft.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lc-s3-wifi-1.54tft.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lcdwiki-es3c35p.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lcdwiki-es3c35p.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lceda-course-examples-eda-robot-pro.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lceda-course-examples-eda-robot-pro.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lceda-course-examples-eda-super-bear.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lceda-course-examples-eda-super-bear.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lceda-course-examples-eda-tv-pro.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lceda-course-examples-eda-tv-pro.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lckfb-lichuang-c3-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lckfb-lichuang-c3-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lckfb-lichuang-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lckfb-lichuang-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lilygo-t-cameraplus-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lilygo-t-cameraplus-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lilygo-t-cameraplus-s3-v1.2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lilygo-t-cameraplus-s3-v1.2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lilygo-t-circle-s3-v11.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lilygo-t-circle-s3-v11.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lilygo-t-circle-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lilygo-t-circle-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_lilygo-t-display-s3-pro-mvsrlora.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_lilygo-t-display-s3-pro-mvsrlora.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-atom-echos3r.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-atom-echos3r.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-atommatrix-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-atommatrix-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-atoms3-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-atoms3-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-atoms3r-cam-m12-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-atoms3r-cam-m12-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-atoms3r-echo-base.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-atoms3r-echo-base.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-atoms3r-echo-pyramid.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-atoms3r-echo-pyramid.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-cardputer-adv.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-cardputer-adv.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-cardputer.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-cardputer.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-core-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-core-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-corep4x.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-corep4x.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-stackchan.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-stackchan.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-stick-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-stick-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-stopwatch.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-stopwatch.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-tab5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-tab5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_m5stack-tab5-p4x.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_m5stack-tab5-p4x.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_magiclick-2p4.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_magiclick-2p4.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_magiclick-2p5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_magiclick-2p5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_magiclick-c3-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_magiclick-c3-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_magiclick-c3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_magiclick-c3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_maza-ai-esp32-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_maza-ai-esp32-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_maza-ai-esp32-s31.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_maza-ai-esp32-s31.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_minsi-k08-dual.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_minsi-k08-dual.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_mixgo-nova.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_mixgo-nova.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_movecall-cuican-esp32s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_movecall-cuican-esp32s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_movecall-moji-esp32s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_movecall-moji-esp32s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_movecall-moji2-esp32c5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_movecall-moji2-esp32c5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-abs-2.0.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-abs-2.0.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-cube-0.85tft-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-cube-0.85tft-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-cube-0.85tft-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-cube-0.85tft-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-cube-0.96oled-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-cube-0.96oled-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-cube-0.96oled-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-cube-0.96oled-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-cube-1.54tft-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-cube-1.54tft-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-cube-1.54tft-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-cube-1.54tft-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nologo-xingzhi-metal-1.54-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nologo-xingzhi-metal-1.54-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_nulllab-ai-vox-v3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_nulllab-ai-vox-v3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_otto-robot.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_otto-robot.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_quandong-esp32-s3-qspi-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_quandong-esp32-s3-qspi-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_quandong-s3-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_quandong-s3-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_quandong-esp32-s3-spi-4.0.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_quandong-esp32-s3-spi-4.0.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_rymcu-bigsmart.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_rymcu-bigsmart.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_seeed-xiao-esp32s3-respeaker-xvf3800.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_seeed-xiao-esp32s3-respeaker-xvf3800.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_seeed-xiao-esp32s3-respeaker-flex-circular-48k.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_seeed-xiao-esp32s3-respeaker-flex-circular-48k.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_sensecap-watcher.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_sensecap-watcher.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_spotpear-sp-esp32-s3-1.28-box.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_spotpear-sp-esp32-s3-1.28-box.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_spotpear-sp-esp32-s3-1.54-muma.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_spotpear-sp-esp32-s3-1.54-muma.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_surfer-c3-1.14tft.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_surfer-c3-1.14tft.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_taiji-pi-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_taiji-pi-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_taiji-pi-s3-pdm.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_taiji-pi-s3-pdm.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c5-touch-lcd-1.69.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c5-touch-lcd-1.69.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c5-touch-lcd-2.8.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c5-touch-lcd-2.8.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c5-touch-lcd-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c5-touch-lcd-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-epaper-1.54.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-epaper-1.54.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-lcd-0.85.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-lcd-0.85.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-lcd-1.69.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-lcd-1.69.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-amoled-1.32.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-amoled-1.32.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-amoled-1.43.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-amoled-1.43.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-amoled-1.8-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-amoled-1.8-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-amoled-1.8.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-amoled-1.8.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-amoled-2.06.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-amoled-2.06.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-amoled-2.16.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-amoled-2.16.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-lcd-1.54.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-lcd-1.54.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-c6-touch-lcd-1.83.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-c6-touch-lcd-1.83.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-nano-10.1-a.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-nano-10.1-a.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-nano-10.1-a.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-nano-10.1-a.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-4b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-4b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-4b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-4b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-4.3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-4.3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-4.3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-4.3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-7b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-7b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-7b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-7b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-3.4c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-3.4c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-3.4c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-3.4c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-4c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-4c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-4c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-4c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-7.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-7.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-7.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-7.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-8.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-8.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-8.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-8.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-10.1.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-wifi6-touch-lcd-10.1.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-10.1.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4x-wifi6-touch-lcd-10.1.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-audio-board.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-audio-board.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-cam-2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-cam-2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-cam-2.8.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-cam-2.8.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-cam-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-cam-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-cam-1.83.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-cam-1.83.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-epaper-1.54-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-epaper-1.54-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-epaper-1.54-v1.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-epaper-1.54-v1.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-epaper-3.97.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-epaper-3.97.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-lcd-0.85.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-lcd-0.85.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-rgb-matrix.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-rgb-matrix.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-rlcd-4.2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-rlcd-4.2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-1.32.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-1.32.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-1.43c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-1.43c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-1.75.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-1.75.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-1.75c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-1.75c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-1.8-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-1.8-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-1.8.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-1.8.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-2.06.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-2.06.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-amoled-2.16.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-amoled-2.16.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-1.46.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-1.46.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-1.54.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-1.54.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-1.83.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-1.83.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-1.85.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-1.85.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-1.85b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-1.85b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-1.85c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-1.85c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-3.49-v2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-3.49-v2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-3.49.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-3.49.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-3.5b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-3.5b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-4.3c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-4.3c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-4b.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-4b.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-s3-touch-lcd-7c.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-s3-touch-lcd-7c.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_waveshare-esp32-touch-lcd-3.5.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-touch-lcd-3.5.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_wdmomo-esp32-cgc-144.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_wdmomo-esp32-cgc-144.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_wdmomo-esp32-cgc.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_wdmomo-esp32-cgc.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_wk-esp32s3-dev.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_wk-esp32s3-dev.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_xmini-c3-4g.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_xmini-c3-4g.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_xmini-c3-v3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_xmini-c3-v3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_xmini-c3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_xmini-c3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_xorigin-aipi-lite.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_xorigin-aipi-lite.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_yunliao-s3.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_yunliao-s3.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_zectrix-s3-epaper-4.2.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_zectrix-s3-epaper-4.2.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_zhengchen-1.54tft-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_zhengchen-1.54tft-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_zhengchen-1.54tft-wifi.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_zhengchen-1.54tft-wifi.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_zhengchen-cam-ml307.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_zhengchen-cam-ml307.zip",
+          "kind": "official-firmware-zip"
+        },
+        {
+          "name": "v2.6.0_zhengchen-cam.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_zhengchen-cam.zip",
+          "kind": "official-firmware-zip"
+        }
+      ],
       "reviewNoteInAudit": "官方Release/tag/API资产已核对；不宣称全板型或完整硬件验证。",
       "communityStatus": "awaiting-feedback",
-      "contentSha256": "0d794a04fccb2ba2634e932bb88ce29213baf05194e7bdd84ea0510ddf28f9c8"
+      "contentSha256": "ac32a2d59e9047ae4f61bc98aaa87517e43cf048f0b89697a1a3ab3fe76722c8",
+      "catalogReview": "firmware-download-catalog.json"
     }
   ],
   "requiredFigures": [
@@ -2680,7 +4122,7 @@
     "illustrations": "passed: 29 core hardware sections and 63 figure/section relationships",
     "build": "passed: 114 HTML pages",
     "builtReferences": {
-      "checked": 8247,
+      "checked": 8037,
       "missing": 0,
       "imageOccurrencesZh": 137
     },
@@ -2706,7 +4148,46 @@
       "hardwareFlashed": true,
       "hardwareRecord": "online-flashing-hardware-2026-11-14.json"
     },
-    "hardwareScope": "One LCKFB S3: existing-task online flash, reboot, 2.6.0, network and idle. Physical display/audio/dialogue, new build submission and other boards are unverified."
+    "hardwareScope": "One LCKFB S3: existing-task online flash, reboot, 2.6.0, network and idle. Physical display/audio/dialogue, new build submission and other boards are unverified.",
+    "firmwareCatalog": {
+      "record": "firmware-download-catalog.json",
+      "maintainedVersions": [
+        "v2.6.0",
+        "v1.9.4"
+      ],
+      "publishedRows": 287,
+      "releaseAssetsAccounted": 288,
+      "excludedUnmappedCiAsset": 1,
+      "npmCheck": "passed",
+      "builtHtmlPages": 114,
+      "internalReferences": 8037,
+      "brokenReferences": 0,
+      "browser": {
+        "v260Rows": 199,
+        "v194Rows": 88,
+        "categoriesPerVersion": 9,
+        "desktopViewport": [
+          1710,
+          841
+        ],
+        "mobileViewport": [
+          390,
+          844
+        ],
+        "horizontalOverflow": false,
+        "categoryAnchorChecked": "breadboard",
+        "legacyRedirectsChecked": [
+          "zh/v2.5.2",
+          "zh/v2.2.4",
+          "en/v2.5.2",
+          "en/v2.2.4"
+        ],
+        "englishDestination": "pending translation; unchanged sourceHash",
+        "screenshots": "desktop, mobile and breadboard screenshots saved outside Git",
+        "temporaryViewportReset": true
+      },
+      "hardwareScope": "No additional flash for this catalog change; asset identity and pinned source mapping reviewed. Previous one-board Console flash remains independently scoped."
+    }
   },
   "imageOptimization": "image-optimization.json",
   "capturedScreenshots": [
@@ -2788,5 +4269,6 @@
     }
   ],
   "currentReleaseAndConsoleReview": "firmware-console-review-2026-11-14.json",
-  "onlineFlashingHardwareVerification": "online-flashing-hardware-2026-11-14.json"
+  "onlineFlashingHardwareVerification": "online-flashing-hardware-2026-11-14.json",
+  "firmwareCatalogReview": "firmware-download-catalog.json"
 }

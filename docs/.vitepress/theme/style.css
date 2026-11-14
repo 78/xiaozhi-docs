@@ -76,6 +76,17 @@
 .module-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin: 24px 0; }
 .module-grid .source-figure { margin: 0; padding: 14px; border: 1px solid var(--vp-c-divider); border-radius: 10px; }
 .module-grid .source-figure img { height: 210px; width: 100%; margin: 0 auto; object-fit: contain; }
+.firmware-catalog table { display: table; table-layout: fixed; width: 100%; }
+.firmware-catalog th:first-child { width: 34%; }
+.firmware-catalog th:nth-child(2) { width: 21%; }
+.firmware-catalog th:last-child { width: 45%; }
+.firmware-catalog th, .firmware-catalog td { min-width: 0; overflow-wrap: anywhere; }
+.firmware-catalog td:last-child a { font-family: var(--vp-font-family-mono); font-size: .88em; }
+@media (max-width: 640px) {
+  .firmware-catalog th, .firmware-catalog td { padding: 10px 8px; font-size: 13px; }
+  .firmware-catalog th:first-child { width: 32%; }
+  .firmware-catalog th:nth-child(2) { width: 23%; }
+}
 @media (max-width: 520px) {
   .module-grid { grid-template-columns: minmax(0, 1fr); }
   .module-grid .source-figure img { height: auto; max-height: 300px; }
