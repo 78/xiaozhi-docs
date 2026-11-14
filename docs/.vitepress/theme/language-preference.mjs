@@ -3,10 +3,11 @@ export const LANGUAGE_CHOICE_KEY = 'xiaozhi-docs-language-choice'
 
 export function preferredLocale(choice, languages = []) {
   if (choice === 'zh' || choice === 'en') return choice
-  const codes = languages.map(language => String(language).trim().replaceAll('_', '-').toLowerCase())
-  // Chinese is the source language; recognize it even behind Chrome's English fallback.
-  if (codes.some(code => /^zh(?:-|$)/.test(code))) return 'zh'
-  if (codes.some(code => /^en(?:-|$)/.test(code))) return 'en'
+  for (const language of languages) {
+    const code = String(language).trim().replaceAll('_', '-').toLowerCase()
+    if (/^zh(?:-|$)/.test(code)) return 'zh'
+    if (/^en(?:-|$)/.test(code)) return 'en'
+  }
   return 'zh'
 }
 

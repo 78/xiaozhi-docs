@@ -5,13 +5,14 @@ import {
   LANGUAGE_CHOICE_KEY, preferredLocale, redirectToPreferredLanguage, rootLanguageRedirectScript
 } from '../../docs/.vitepress/theme/language-preference.mjs'
 
-test('Chinese anywhere in the browser list takes priority for the Chinese-first documentation', () => {
+test('the first supported browser language wins, preserving the user preference order', () => {
   for (const language of ['zh', 'zh-CN', 'zh-Hans', 'zh-TW', 'zh-Hant-HK', 'zh_CN']) {
     assert.equal(preferredLocale(null, [language]), 'zh', language)
   }
-  assert.equal(preferredLocale(null, ['en-US', 'zh-CN']), 'zh')
+  assert.equal(preferredLocale(null, ['en-US', 'zh-CN']), 'en')
   assert.equal(preferredLocale(null, ['zh-CN', 'en-US']), 'zh')
   assert.equal(preferredLocale(null, ['ja-JP', 'zh-CN', 'en-US']), 'zh')
+  assert.equal(preferredLocale(null, ['ja-JP', 'en-US', 'zh-CN']), 'en')
   assert.equal(preferredLocale(null, ['ja-JP', 'en-GB']), 'en')
   assert.equal(preferredLocale(null, ['ja-JP']), 'zh')
   assert.equal(preferredLocale(null, []), 'zh')
