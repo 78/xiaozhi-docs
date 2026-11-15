@@ -11,7 +11,7 @@ sourceArticles:
   - DOC-13
 translation:
   status: review
-  sourceHash: f15f95815469b349f4b4addde103b8102b0c1071d311d89a1de76c004be49522
+  sourceHash: 0a3e0e56b358f661201c122dfe0e6ccb01ac94be008fef2dfa043a935a719005
   reviewedAt: '2026-11-15'
 ---
 # Classic ESP32 breadboard
@@ -81,6 +81,12 @@ Check the OLED GPIOs against the [versioned config.h](https://github.com/78/xiao
 4. Enable wake-word detection only when resources and model support permit it. A board without PSRAM cannot directly use a configuration that requires PSRAM.
 
 For an external voice module, check voltage levels and triggering separately in [External ASR modules](./external-wake-module.md). 4G and custom PCBs also require separate board configurations. Use traceable releases for firmware.
+
+### Isolate peripherals when flashing cannot connect
+
+If the port exists but synchronization repeatedly fails, disconnect USB and other power, photograph the wiring, then temporarily disconnect peripheral signal lines. Test [download mode](../firmware/flashing.md#download-mode) with only the development board. A peripheral holding BOOT or another strapping pin can prevent download mode.
+
+If the bare board connects but fails again after reconnection, restore peripherals one at a time and check pin use, levels, and power. Power off before every wiring change. This does not require immediately erasing Flash, and a third-party expansion board's dual-network switching actions do not apply to this guide's Wi-Fi board.
 
 <a name="verify"></a>
 

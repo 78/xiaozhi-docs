@@ -75,6 +75,8 @@ pageClass: docs-home
 
 ## ![](../public/images/shared/sections/console.svg) [控制台设置](./console/index.md) {#console}
 
+- [配置角色、模型与声音](./console/index.md#role-and-voice)
+- [声纹识别](./console/index.md#speaker-recognition)
 - [GitHub 认证与权益](./console/github-verification.md)
 - [声音复刻](./console/voice-cloning.md)
 - [知识库](./console/knowledge-base.md)

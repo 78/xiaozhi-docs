@@ -11,7 +11,7 @@ sourceArticles:
   - DOC-25
 translation:
   status: review
-  sourceHash: ee6e1f95d5268297f33b151d751b5ebb0e8e90fc465776dead851632d41dbea7
+  sourceHash: 53a3875595ff5ac87d8acecee8874d48ad990b2e1b3962d1878bf812cc6cb629
   reviewedAt: '2026-11-15'
 ---
 # Add web search to an agent
@@ -40,6 +40,10 @@ This example uses Zhipu's Web Search API. Follow the [provider's official docume
 Create `web_search.py` with the following code, also available in the [documentation repository](https://github.com/78/xiaozhi-docs/blob/main/examples/mcp/web_search.py).
 
 <<< ../../../../examples/mcp/web_search.py
+
+### Create a search-service API key first
+
+Sign in to the [Zhipu API Keys page](https://bigmodel.cn/usercenter/proj-mgmt/apikeys), create an API key in your project, and follow the provider's instructions to enable the search capability used here and check credit/quota. Copy the key into your own terminal only, not the XiaoZhi MCP endpoint field. Obtain the MCP endpoint separately from the [agent configuration](../quickstart.md#endpoint).
 
 <a name="credentials"></a>
 

@@ -3,7 +3,7 @@ id: "audio-and-aec"
 title: "音频处理与回声消除 AEC"
 description: "分清设备端、服务端和参考信号，再验证实际对话效果。"
 status: "review"
-reviewedAt: "2026-11-14"
+reviewedAt: "2026-11-15"
 reviewNote: "已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。"
 sourceArticles: ["DOC-21"]
 ---
@@ -50,6 +50,19 @@ AEC 用来降低设备播放的声音被麦克风再次拾取的影响。是否�
 当前设备端 AEC 依赖受支持的芯片、PSRAM、AFE 和板型，参考信号由对应音频硬件提供。不要取消 Kconfig 依赖来给不具备参考通路的板强行打开。
 
 编译环境和配置方法见[本地构建指南](./build-firmware.md)。
+
+### 本地启用与安装
+
+1. 先按[本地构建](./build-firmware.md#build)完成准确板型的基准构建，在同一固件目录执行 `idf.py menuconfig`。
+2. 进入 **Xiaozhi Assistant**，检查 **Enable AFE Audio Processing**，再选择 **Enable Device-Side AEC**。也可按 `/` 搜索 `USE_AUDIO_PROCESSOR` 和 `USE_DEVICE_AEC`；选项不可用时查看依赖，不改成另一块板来强行显示选项。
+3. 按 `S` 保存，确认文件名，再退出菜单。随后执行下面的构建与烧录命令，把 `COM5` 换成自己的端口：
+
+```sh
+idf.py build
+idf.py -p COM5 flash monitor
+```
+
+4. 重启后核对运行版本，继续下方的同条件对照测试。只在菜单里勾选而未重建、烧录，设备上的固件不会改变。需要服务端 AEC 时，必须先确认服务端支持，并按 **Enable Server-Side AEC (Unstable)** 的说明验证。
 
 <a name="test"></a>
 

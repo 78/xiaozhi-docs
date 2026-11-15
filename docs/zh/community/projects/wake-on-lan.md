@@ -3,7 +3,7 @@ id: "wake-on-lan"
 title: "通过网络唤醒电脑的案例"
 description: "明确 WoL 前提、第三方依赖和本地测试顺序，不把开机当成完整开关机。"
 status: "review"
-reviewedAt: "2026-11-14"
+reviewedAt: "2026-11-15"
 reviewNote: "第三方项目与样机尚未全部实测，使用前核对具体版本与硬件条件。"
 sourceArticles: ["DOC-36"]
 ---
@@ -45,6 +45,21 @@ MAC/IP 是配置线索，不等于平台账号或模块 UUID。不要把它们�
 原流程依赖 `xiaozhimcp.top` 等外部服务；使用前确认当前 HTTPS 入口、维护者和凭据用途。确认 HTTPS 入口后，使用自己的账号按平台说明配置端点。
 
 <SourceMaterials article="DOC-36" />
+
+### 填写模块与电脑参数
+
+完整安装及该固件的烧录参数见[作者维护的图文指南](https://kcn80f4hacgs.feishu.cn/docx/RxRXd8aMDomjUXxlUcCcOE48ndh)和[安装演示视频](https://v.douyin.com/PvTrtOBS1n8/)。先确认其当前服务入口支持 HTTPS，再按以下对应关系配置：
+
+| 字段 | 从哪里取得 | 不要误填 |
+| --- | --- | --- |
+| 唤醒模块 UUID | 模块配网热点名 `WLHX-XXXXXXXX` 的后缀，先记录再配网 | 不是 ESP32 启动 UUID 或电脑 MAC |
+| 目标电脑 IPv4 | Windows“设置 → 网络和 Internet → 以太网”的当前网络属性 | 不用 Wi-Fi 网卡或手机的 IP |
+| 目标电脑 MAC | 同一有线以太网连接的物理地址 | 不是唤醒模块的 MAC |
+| 小智 MCP 接入点 | 目标智能体[扩展能力](../../mcp/quickstart.md#endpoint)中的完整端点 | 不填到电脑 IP 或模块 UUID 栏 |
+
+Windows 也可在终端运行 `ipconfig /all`，在实际使用的以太网适配器下找 IPv4 地址和物理地址。检查两项属于同一张有线网卡。
+
+按作者平台流程添加唤醒模块，填入电脑备注、IPv4 和 MAC，保存；开启相应智能硬件工具并启动对应智能体的 MCP 服务。先在平台按“开机”测试，再进入下方语音验证。平台要求的模块 UUID 与这台电脑的 MAC/IP 是两组信息，填错时先修正字段。
 
 <a name="verify"></a>
 

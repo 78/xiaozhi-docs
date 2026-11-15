@@ -638,5 +638,13 @@
   "/images/shared/sections/community.svg": {
     "width": 24,
     "height": 24
+  },
+  "/images/zh/device-identifiers.svg": {
+    "width": 800,
+    "height": 420
+  },
+  "/images/en/device-identifiers.svg": {
+    "width": 800,
+    "height": 420
   }
 }

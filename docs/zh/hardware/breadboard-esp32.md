@@ -3,7 +3,7 @@ id: "breadboard-esp32"
 title: "经典 ESP32 面包板"
 description: "为资源受限的 ESP32 明确接线、功能和固件边界。"
 status: "review"
-reviewedAt: "2026-11-14"
+reviewedAt: "2026-11-15"
 reviewNote: "已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。"
 sourceArticles: ["DOC-13"]
 ---
@@ -74,6 +74,12 @@ OLED 的 GPIO 按[当前 config.h](https://github.com/78/xiaozhi-esp32/blob/4de0
 4. 只有满足资源和模型条件时再启用唤醒；无 PSRAM 的板不能直接套用有 PSRAM 的配置。
 
 需要外接语音模块时按[外接 ASR](./external-wake-module.md)单独确认电平与触发，4G/自定义 PCB 也需要独立板型，不让群文件代替可追溯的发布来源。
+
+### 烧录连接失败时先隔离外设
+
+如果端口存在但始终无法同步，先断开 USB 和其他电源，拍照记录接线，再暂时断开外接模块的信号线，仅用开发板进入[下载模式](../firmware/flashing.md#download-mode)测试连接。外设拉住 BOOT 或其他启动绑带引脚时，可能妨碍进入下载模式。
+
+裸板能连接而接回后失败时，逐个恢复外设并核对占用、电平和供电；每次接线都先断电。不要据此直接擦除 Flash，也不把接入某款第三方扩展板后的双模切换操作套用于本文的 Wi-Fi 板型。
 
 <a name="verify"></a>
 

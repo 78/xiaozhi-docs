@@ -11,7 +11,7 @@ sourceArticles:
   - DOC-28
 translation:
   status: review
-  sourceHash: 57295cdf1e4ddc1d5cf5121b52cda4967f011a97bff029a0c65c9d680530d757
+  sourceHash: 1efe1831a2af07eb33356ad4b9b5febc315f08b458b414aed8acb95501de775e
   reviewedAt: '2026-11-15'
 ---
 # Connect existing MCP services
@@ -97,6 +97,14 @@ The target agent should discover the expected tools and actually invoke them suc
 ## Third-party graphical tools {#materials}
 
 HyperChat, McpPipe, and other tools can manage gateways and connections. Their authors maintain installation and version details. See [Community MCP tools](../community/mcp-tools.md).
+
+### Starting points for file access and Home Assistant
+
+- **File access:** follow the [official MCP filesystem server guide](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem), install the required Node.js version, and specify allowed directories in its stdio arguments. Test listing/reading a dedicated folder before exposing more than needed.
+- **Home Assistant:** use its [MCP server guide](https://www.home-assistant.io/integrations/mcp_server/) to obtain the actual MCP URL, configure authorization, and choose exposed entities/tools. Select a bridge supporting that transport and authentication. Home Assistant's “MCP Client” works in the opposite direction and does not replace server configuration.
+- **Graphical gateway:** use the [HyperChat / McpPipe steps](../community/mcp-tools.md#bridge-tools), keeping the remote gateway URL distinct from the XiaoZhi endpoint.
+
+Test the service itself before returning to this guide's configuration file. Installing a tool does not automatically expose it to the target agent.
 
 <a name="next"></a>
 

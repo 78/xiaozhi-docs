@@ -11,7 +11,7 @@ sourceArticles:
   - DOC-29
 translation:
   status: review
-  sourceHash: 76af6c1ee5734c30098c27b1f4295338e8142130b0d85b38ada33a3364272fcc
+  sourceHash: cbfd673a9f69a78954b2a0493ba33121aaead15af5810e0fb6480144a65d1de5
   reviewedAt: '2026-11-15'
 ---
 # Xmini-C3, V3, and 4G variants
@@ -52,6 +52,10 @@ Find the exact board and variant in the [online builder](../../firmware/online-b
 
 Follow [Flashing firmware](../../firmware/flashing.md) to enter that board's download mode. C3 BOOT and USB behavior differs from the basic S3. Use the board documentation and matching source rather than copying the S3 GPIO0 wiring.
 
+### A blank board does not expose a port
+
+For the Xmini-C3 shown here with BOOT and a power switch, turn it off, connect the USB data cable, hold **BOOT**, then turn it on. Release BOOT after the computer detects a port and select that new port in the flasher. Unplugging USB may not power down a battery-powered board; use the power switch. After flashing, release BOOT and power-cycle to start the application. Follow the board guide for other revisions.
+
 <a name="use"></a>
 
 ## 3. Connect, bind, and talk {#use}
@@ -61,6 +65,12 @@ For Wi-Fi boards, use hotspot or BluFi provisioning according to the build, then
 Test microphone capture and playback using the button before testing wake words. Current C3 builds can use compatible lightweight WakeNet models; the blanket claim that C3 never supports offline wake words is outdated. See [Wake words](../../development/wake-words.md) and the actual model for available phrases.
 
 Check battery-voltage measurement, charging ports, sleep, and buttons for the specific hardware revision. A battery icon does not establish battery sensing on every variant.
+
+### Reprovisioning and account ownership
+
+On v2.6.0 Xmini-C3 Wi-Fi firmware, briefly press **BOOT** during startup after a restart to enter Wi-Fi configuration. During normal idle operation it controls conversation; when press-to-talk is enabled, hold to record and release to finish. Holding BOOT while powering on enters download mode, not Wi-Fi configuration.
+
+If another account owns the device, first ask its owner to [unbind it](../../faq/account-and-binding.md#unbind). If unreachable, follow the [email request](../../faq/account-and-binding.md#ownership) with the MAC and other device information.
 
 <a name="verify"></a>
 

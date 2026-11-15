@@ -504,6 +504,69 @@
       "size": 529440,
       "sha256": "e53c81c3ef45ab524e7001cbc329cc56847efcf73fd2504dae804e670f7f15b0",
       "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-36-file-002.bin"
+    },
+    {
+      "name": "doc-16-file-001.xlsx",
+      "originalName": "小智AI申请解绑设备-模板.xlsx",
+      "sourceArticle": "DOC-16",
+      "sourceUrl": "https://my.feishu.cn/docx/J4Mkdj0A6o295sxwLKycS9urn7b",
+      "size": 10168,
+      "sha256": "3063fe427fcd6b2c542adeb2a72e7ae4e5555aff97f938d7cf50b28ed142240c",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-16-file-001.xlsx"
+    },
+    {
+      "name": "voice-practice-file-001.mp3",
+      "originalName": "例1反例.mp3",
+      "sourceArticle": "DOC-14",
+      "sourceUrl": "https://smvsudqc87.feishu.cn/docx/HpwbdgONloL0J2xcD3Ochq0GnOh",
+      "size": 989440,
+      "sha256": "49f9ba98088455bf81d93032bcfea7a567bdc4745b13fcd8dad62bc3ffbfa5d0",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-001.mp3"
+    },
+    {
+      "name": "voice-practice-file-002.wav",
+      "originalName": "例1正例.wav",
+      "sourceArticle": "DOC-14",
+      "sourceUrl": "https://smvsudqc87.feishu.cn/docx/HpwbdgONloL0J2xcD3Ochq0GnOh",
+      "size": 935760,
+      "sha256": "32f5fad2c817786d450c9fdf686a8a860eb39945e74ed8c4a221e4f43de3f498",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-002.wav"
+    },
+    {
+      "name": "voice-practice-file-003.mp3",
+      "originalName": "例2反例.mp3",
+      "sourceArticle": "DOC-14",
+      "sourceUrl": "https://smvsudqc87.feishu.cn/docx/HpwbdgONloL0J2xcD3Ochq0GnOh",
+      "size": 192288,
+      "sha256": "d286b8f32469ce35113090bad962f969ad2c9c73953e3168847ed8083c222373",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-003.mp3"
+    },
+    {
+      "name": "voice-practice-file-004.wav",
+      "originalName": "例2正例.wav",
+      "sourceArticle": "DOC-14",
+      "sourceUrl": "https://smvsudqc87.feishu.cn/docx/HpwbdgONloL0J2xcD3Ochq0GnOh",
+      "size": 1187064,
+      "sha256": "da0784ea9e439b304f50ff26adf92985ab832775681fe73cbaaefc6ee61e39f9",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-004.wav"
+    },
+    {
+      "name": "voice-practice-file-005.wav",
+      "originalName": "例3反例.wav",
+      "sourceArticle": "DOC-14",
+      "sourceUrl": "https://smvsudqc87.feishu.cn/docx/HpwbdgONloL0J2xcD3Ochq0GnOh",
+      "size": 5915632,
+      "sha256": "8c3acfe52ed874275f7d75e47be5a9314fb592a9209804213e72d8978ed30ace",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-005.wav"
+    },
+    {
+      "name": "voice-practice-file-006.wav",
+      "originalName": "例3正例.wav",
+      "sourceArticle": "DOC-14",
+      "sourceUrl": "https://smvsudqc87.feishu.cn/docx/HpwbdgONloL0J2xcD3Ochq0GnOh",
+      "size": 3228608,
+      "sha256": "9fde544344ac382548cbc17e1f4668dafa57fdcb38d009d54476056359cff99e",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-006.wav"
     }
   ]
 }

@@ -11,7 +11,7 @@ sourceArticles:
   - DOC-22
 translation:
   status: review
-  sourceHash: 8b3b5c446e3e0021a06282ef3ee5ac0d794d26cdb742fb52c612a531a505ddc3
+  sourceHash: 746701523768c32240eda2a3073c2a323ce90f3a86d496aed8ba121888f0417b
   reviewedAt: '2026-11-15'
 ---
 # Choose and change wake words
@@ -57,6 +57,15 @@ python scripts/build.py --list-wake-words
 
 `--wake-word` accepts compatible model names, `nihaoxiaozhi`, `hiesp`, or `disabled`. The script handles language/model defaults. Do not apply an S3 `wn9_*` model name directly to C3.
 
+For example, the basic S3 / 128×32 OLED setup can explicitly select its default wake word. This is not a build command for other boards:
+
+```sh
+python scripts/build.py bread-compact-wifi --name bread-compact-wifi --language zh-CN --wake-word nihaoxiaozhi
+idf.py -p COM5 flash monitor
+```
+
+Replace the serial port. This example builds Chinese-language firmware; change the supported language when needed. To select another word, use a compatible model name from the list above for `--wake-word`.
+
 <a name="custom"></a>
 
 ## 3. Configure a custom phrase {#custom}
@@ -64,6 +73,8 @@ python scripts/build.py --list-wake-words
 In the configured firmware directory, run `idf.py menuconfig` and open the wake options under `Xiaozhi Assistant`. Where supported, select `Multinet model (Custom Wake Word)`. `Custom Wake Word` uses space-separated Pinyin, such as `xiao tu dou`; set its display name separately. Establish a baseline with default thresholds before adjusting for false wakes and missed wakes.
 
 A more sensitive threshold is not necessarily better. Compare quiet rooms, background noise, device playback, and repeated attempts. Check available resources and model compatibility as well.
+
+After editing a custom word, press `S` to save and exit. Run `idf.py build` with the same build configuration, then install with `idf.py -p COM5 flash monitor` using your actual port. The change takes effect only after rebuilding and flashing.
 
 <a name="verify"></a>
 

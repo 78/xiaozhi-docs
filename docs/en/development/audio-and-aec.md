@@ -11,7 +11,7 @@ sourceArticles:
   - DOC-21
 translation:
   status: review
-  sourceHash: e64e00ed106bca9558538c5dcdcf6f49885ac40a0cbe348738389d26d901b07b
+  sourceHash: 44cd49754f837d982b007ca0cc5e946e4a35f0cd485f5d77e716aa3db2ee6c07
   reviewedAt: '2026-11-15'
 ---
 # Audio processing and echo cancellation
@@ -56,6 +56,19 @@ In the [online builder](../firmware/online-builder.md), select only audio capabi
 Current device-side AEC requires a supported chip, PSRAM, AFE, and board, with reference audio supplied by the corresponding hardware. Do not remove Kconfig dependencies to force it on a board without a reference path.
 
 See [Local builds](./build-firmware.md) for the environment and configuration process.
+
+### Enable and install it locally
+
+1. Complete a baseline build for the exact board using [Local builds](./build-firmware.md#build), then run `idf.py menuconfig` in that firmware directory.
+2. Under **Xiaozhi Assistant**, check **Enable AFE Audio Processing**, then select **Enable Device-Side AEC**. You can press `/` to search for `USE_AUDIO_PROCESSOR` and `USE_DEVICE_AEC`. If an option is unavailable, inspect its dependencies instead of selecting a different board to expose it.
+3. Press `S`, confirm the configuration filename, and exit. Build and flash with these commands, replacing `COM5` with your port:
+
+```sh
+idf.py build
+idf.py -p COM5 flash monitor
+```
+
+4. After restart, check the running version and perform the comparison below. Selecting an option without rebuilding and flashing does not change the device firmware. For server-side AEC, first confirm server support and follow **Enable Server-Side AEC (Unstable)** verification requirements.
 
 <a name="test"></a>
 

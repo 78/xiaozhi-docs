@@ -3,7 +3,7 @@ id: "voice-cloning"
 title: "声音复刻：录音、训练与选用"
 description: "使用符合要求的语音训练自己的音色，并在智能体里验证。"
 status: "review"
-reviewedAt: "2026-11-14"
+reviewedAt: "2026-11-15"
 reviewNote: "已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。"
 sourceArticles: ["DOC-14"]
 ---
@@ -66,6 +66,40 @@ sourceArticles: ["DOC-14"]
 
 选区示意用于说明裁剪关系，不是界面截图。录音和上传都应在提交前试听实际选区。
 
+<a name="examples"></a>
+
+### 三组音频：哪些部分应当裁掉 {#examples}
+
+先试听反例，找出问题，再试听裁剪后的对照。以下是教学样例，不是录音长度或声道的标准模板。
+
+**样例 1：底噪、过长与末尾截断**
+
+反例包含底噪，末尾语句被截断。不要只从开头截够秒数：选择连续、清晰且句子完整的中间片段；整段都有噪声时，优先重录。
+
+[试听/下载反例](https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-001.mp3) · [试听/下载正例](https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-002.wav)
+
+<SourceMaterials article="DOC-14" only="VOICE-PRACTICE-file-001,VOICE-PRACTICE-file-002" />
+
+**样例 2：开头的异常声响**
+
+先听开头的吞音、咂嘴等非正常语音，再将选区起点移到第一句干净、完整的话之前。裁剪后试听，确认没有连同首字一起切掉。
+
+[试听/下载反例](https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-003.mp3) · [试听/下载正例](https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-004.wav)
+
+<SourceMaterials article="DOC-14" only="VOICE-PRACTICE-file-003,VOICE-PRACTICE-file-004" />
+
+**样例 3：第一句音质不好**
+
+第一句质量差时，可以从后面一段稳定、清晰的完整语句开始，不必把整段都丢掉。调整左右选区，检查开头和结尾，再试听整段。
+
+[试听/下载反例](https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-005.wav) · [试听/下载正例](https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-006.wav)
+
+<SourceMaterials article="DOC-14" only="VOICE-PRACTICE-file-005,VOICE-PRACTICE-file-006" />
+
+**允许提交不等于最佳参考音频**。当前页面允许 8–60 秒；选片时可先用约 **10–15 秒**的清晰、平稳、单人完整语音作为起点，再按所选训练方式和试听结果调整。准备原始录音时优先单声道，避免双声道中另一人或伴奏混入。样例中有立体声和不同长度文件，用来对比裁剪，不应据此推导输入要求。
+
+不要求把所有文件强制转成 24kHz，也不承诺某个采样率一定与当前模型最匹配。上传文件按当前界面处理；过度降噪、重复重采样也可能损坏人声。
+
 <a name="training"></a>
 
 ## 3. 提交、等待和处理失败 {#training}
@@ -98,6 +132,12 @@ sourceArticles: ["DOC-14"]
 - **训练失败或音色不可用**：保留错误提示，检查音频条件、训练次数、账号和有效期，按页面允许的方式处理。
 
 反馈时提供状态和操作步骤，不公开身份材料或他人的原始录音。
+
+自行检查后仍失败时，发邮件至 [xiaozhi.ai@tenclass.com](mailto:xiaozhi.ai@tenclass.com)，提供账号的可核对信息、音色名称、失败时间、页面错误和已尝试的步骤。与订单相关的问题附自己的订单信息；不要在公开讨论中提交身份材料或原始录音，补交音频按支持人员要求进行。
+
+### 漏读、错读或音质不佳怎么处理
+
+先分别测试数字、普通句子和实际要说的内容，区分某次合成错误与持续的音色问题。检查训练选区有没有底噪、截断、多人声或异常开头；有问题先重新录制/裁剪并试听，再按页面允许的次数重新训练。保留同一组测试句对比前后，不把反复提交训练当作修复偶发漏读的保证。仍有问题时，提供错误与对应测试情况给支持人员核查。
 
 <a name="next"></a>
 

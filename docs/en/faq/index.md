@@ -9,7 +9,7 @@ reviewNote: >-
   faults still requires device tests and community feedback.
 translation:
   status: review
-  sourceHash: 55a8add63add4b161d87829df4c4796f19f2e8fbd76cdfa43ba8a33d45bf3e1b
+  sourceHash: 7e50176d1429c3a645f922f65cfe0c008c680825c33a4569f12d7810a669c585
   reviewedAt: '2026-11-15'
 ---
 # Troubleshooting by symptom
@@ -73,10 +73,10 @@ Use `idf.py -p <PORT> monitor` in a local development environment or a serial to
 | --- | --- |
 | SMS not received | Check country code, existing account, and page notices; new international accounts should follow the Google sign-in prompt |
 | Incorrect code | Distinguish SMS codes from six-digit device codes; use the current code on the device |
-| Device already bound | Ask the current owner to unbind through device management; reflashing does not remove server ownership |
+| Device already bound | Ask the previous owner to [unbind it](./account-and-binding.md#unbind); if unreachable, [email an unbinding request](./account-and-binding.md#ownership) with device information |
 | Cannot add to an existing agent | Read current device type/count limits and confirm the entry point and account |
 
-Do not publish device codes, full MAC addresses, account phone numbers, or identity documents in public issues. Use the official Console's support channels for ownership disputes.
+Do not publish device codes, full MAC addresses, account phone numbers, or identity documents in public issues. If the previous owner is unreachable, follow the [email request steps](./account-and-binding.md#ownership); use the [batch spreadsheet](./account-and-binding.md#batch) for multiple devices. Reflashing does not remove server ownership.
 
 <a name="audio"></a>
 
@@ -89,6 +89,12 @@ Do not publish device codes, full MAC addresses, account phone numbers, or ident
 - **Echo remains with AEC enabled:** check reference audio and the supported hardware path. A compile option does not replace circuit and acoustic design; see [firmware audio configuration](https://github.com/78/xiaozhi-esp32/blob/v2.6.0/main/Kconfig.projbuild).
 
 BluFi provisions Wi-Fi; it does not imply Bluetooth-headphone support.
+
+### Change the persona, voice, or recognized speaker
+
+- Change the assistant name, voice, or language model using the [Console steps](../console/index.md#role-and-voice), save, then start a new conversation.
+- Help the agent recognize family members or other speakers using the [speaker recognition steps](../console/index.md#speaker-recognition): select a recording and enter a name and description.
+- Change the offline wake word using [Wake words](../development/wake-words.md). Changing the persona name does not change the wake word.
 
 <a name="display"></a>
 

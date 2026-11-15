@@ -3,7 +3,7 @@ id: "connect-existing-mcp"
 title: "桥接已有 MCP 服务"
 description: "区分 stdio、SSE 与 Streamable HTTP，把现有服务连接到智能体。"
 status: "review"
-reviewedAt: "2026-11-14"
+reviewedAt: "2026-11-15"
 reviewNote: "已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。"
 sourceArticles: ["DOC-28"]
 ---
@@ -91,6 +91,14 @@ python mcp_pipe.py
 ## 第三方图形工具与素材 {#materials}
 
 HyperChat、McpPipe 等工具可以管理网关和连接，具体安装与版本由作者维护。选型见[社区 MCP 工具](../community/mcp-tools.md)。
+
+### 文件管理与 Home Assistant 从哪里开始
+
+- **文件管理**：使用 [MCP 官方 filesystem 服务说明](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem)，安装要求的 Node.js，在 stdio 参数里明确允许访问的目录。先用一个专门的测试目录验证列表/读取，不直接开放整个用户目录。
+- **Home Assistant**：按 [Home Assistant 的 MCP 服务端指南](https://www.home-assistant.io/integrations/mcp_server/)取得实际 MCP URL、配置授权和可暴露的实体/工具，再选择支持其传输与鉴权的桥接器。Home Assistant 的“MCP Client”方向相反，不能替代服务端配置。
+- **图形网关**：按[HyperChat / McpPipe 步骤](../community/mcp-tools.md#bridge-tools)连接，分清远端网关 URL 与小智端点。
+
+先完成服务本身的一次测试，再回到本文配置文件。工具安装成功不等于已经向目标智能体暴露。
 
 <a name="next"></a>
 

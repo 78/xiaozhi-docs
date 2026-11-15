@@ -11,7 +11,7 @@ sourceArticles:
   - DOC-23
 translation:
   status: review
-  sourceHash: ba3cc2453781a7b41c054ae7f254c8dcd26e173e9d1309a94f3abb337778bb2c
+  sourceHash: 88dcd7c252f906b9cfe4ae231557e3a19a4e14db5afce4dfbce1165997ba1a4c
   reviewedAt: '2026-11-15'
 ---
 # Capture startup and fault logs
@@ -56,6 +56,36 @@ idf.py -p COM5 monitor
 ```
 
 Replace `COM5` with your port and exit with Ctrl+]. You do not need to install a whole SDK just for logs. Alternatively, use [pySerial miniterm](https://pyserial.readthedocs.io/en/latest/tools.html#module-serial.tools.miniterm): install `pyserial` in a separate Python environment, then run `python -m serial.tools.miniterm COM5 115200` with your actual port. Exit with Ctrl+].
+
+### No serial tool installed: install and run miniterm
+
+Install Python 3 for your system from [python.org](https://www.python.org/downloads/). Create an empty directory and run one group of commands in its terminal. Windows uses `py -3`; macOS/Linux uses `python3`. Neither group requires activating a script:
+
+::: code-group
+
+```powershell [Windows PowerShell]
+py -3 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install pyserial
+.\.venv\Scripts\python.exe -m serial.tools.list_ports -v
+.\.venv\Scripts\python.exe -m serial.tools.miniterm COM5 115200
+```
+
+```sh [macOS / Linux]
+python3 -m venv .venv
+.venv/bin/python -m pip install pyserial
+.venv/bin/python -m serial.tools.list_ports -v
+.venv/bin/python -m serial.tools.miniterm /dev/ttyACM0 115200
+```
+
+:::
+
+Read the port list first, then replace `COM5` or `/dev/ttyACM0` in the final command with your port. macOS ports often resemble `/dev/cu.usbmodem…` or `/dev/cu.usbserial…`; these are examples only. Once connected, briefly press RESET/EN. Press **Ctrl+]** to exit and release the port.
+
+- **No output:** check the logging port and normal running mode, then press RESET/EN; do not enter ROM download mode.
+- **Garbled text:** check baud rate and encoding; disable HEX display in graphical tools.
+- **Port busy:** close flashers, other serial tools, and IDE monitors, then reconnect.
+
+For MAC lookup, follow [Get device information](./account-and-binding.md#device-information) to distinguish the STA address, hotspot address, UUID, and binding code.
 
 <a name="read"></a>
 

@@ -3,7 +3,7 @@ id: "wake-words"
 title: "选择与修改唤醒词"
 description: "按芯片、内存和模型选择预置、自定义或外接唤醒。"
 status: "review"
-reviewedAt: "2026-11-14"
+reviewedAt: "2026-11-15"
 reviewNote: "已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。"
 sourceArticles: ["DOC-22"]
 ---
@@ -51,6 +51,15 @@ python scripts/build.py --list-wake-words
 
 构建时 `--wake-word` 接受兼容模型名、`nihaoxiaozhi`、`hiesp` 或 `disabled`。语言和模型默认值由当前脚本处理；不要把 S3 的 `wn9_*` 名称直接套给 C3。
 
+例如，基础 S3 / 128×32 OLED 方案可明确指定默认词；这不是其他板型通用的构建命令：
+
+```sh
+python scripts/build.py bread-compact-wifi --name bread-compact-wifi --language zh-CN --wake-word nihaoxiaozhi
+idf.py -p COM5 flash monitor
+```
+
+将端口改为自己的端口；换词时，`--wake-word` 使用上面查询到且与芯片兼容的模型名。
+
 <a name="custom"></a>
 
 ## 3. 配置自定义词 {#custom}
@@ -58,6 +67,8 @@ python scripts/build.py --list-wake-words
 在已选好板型的固件目录运行 `idf.py menuconfig`，进入 `Xiaozhi Assistant` 的唤醒相关选项。在支持的配置中选择 `Multinet model (Custom Wake Word)`。`Custom Wake Word` 使用空格分开的拼音，例如 `xiao tu dou`；显示名称单独设置。先使用默认阈值建立基准，再按误唤醒/漏唤醒结果调整。
 
 阈值更灵敏不代表效果更好。需要安静、背景噪声、设备播放与多次唤醒的对照测试；也要核对资源空间和模型兼容。
+
+修改自定义词后，按 `S` 保存并退出菜单，在同一构建配置中执行 `idf.py build`，再用 `idf.py -p COM5 flash monitor` 安装（替换实际端口）。没有重新构建和烧录，修改不会生效。
 
 <a name="verify"></a>
 

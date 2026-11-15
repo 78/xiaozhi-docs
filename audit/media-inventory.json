@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-11-14",
-  "scope": "44 篇已读取正文内 749 个图片引用和 345 个嵌入文件引用；非外链递归扫描。重复引用仍各记一项。",
+  "reviewedAt": "2026-11-15",
+  "scope": "原44篇内749个图片与345个文件引用保持ID；另补声音复刻最佳实践6个音频，共1100项。新示意图在读者/翻译记录登记。",
   "limitations": [
     "749 个图片引用均已通过接触表与正文上下文复查；关键接线、极性、接口和新采用界面另放大。接触表筛选不等于所有未采用图已完成原尺寸内容/隐私/许可验收。",
     "14 个可读取视频仍为抽样关键帧；4 个在当前文章提供，SF32与旧在线编译的10个视频仅留既有素材 Release 历史归档，当前SF32操作转维护者教程；不宣称全片逐帧检查。DOC-28 三个历史附件不可读。",
@@ -9490,8 +9490,9 @@
       "sourceSize": 10168,
       "sha256": "3063fe427fcd6b2c542adeb2a72e7ae4e5555aff97f938d7cf50b28ed142240c",
       "cachedBytes": 10168,
-      "decision": "replaced",
-      "reason": "旧工具安装包、浏览器扩展或旧解绑模板不再随教程分发；正文使用官方工具来源或当前账号处理流程。"
+      "decision": "retained-release-file",
+      "reason": "恢复必要的批量解绑申请入口；已检查工作表仅有设备ID与MAC地址表头，无设备行、外部链接或宏；原件校验值不变。",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-16-file-001.xlsx"
     },
     {
       "id": "DOC-16-file-002",
@@ -9515,13 +9516,17 @@
       "sha256": "9cc141f92081092b3e44a2fc5c1ea82d2c0ea52ce537682df82335ca4f6bc3c0",
       "cachedBytes": 141846,
       "decision": "not-reused",
-      "reason": "串口与解绑申请资料含设备标识，不用于当前账号恢复/归属处理指引。",
+      "reason": "原图包含真实 MAC 和旧版串口工具界面，不直接公开；中英文新示意图 device-identifiers.svg 恢复 STA/softAP 识别教学，正文保留串口操作。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
         "fullResolutionPublicationCheck": false
-      }
+      },
+      "replacementPaths": [
+        "/images/zh/device-identifiers.svg",
+        "/images/en/device-identifiers.svg"
+      ]
     },
     {
       "id": "DOC-17-image-001",
@@ -21572,6 +21577,113 @@
         "sourceSha256": "460ec3a662e4844d12161a0ef759c65c997b1d06e9f71c9ac3105638c4fa8a1f",
         "optimizationRecord": "image-optimization.json"
       }
+    },
+    {
+      "id": "VOICE-PRACTICE-file-001",
+      "article": "DOC-14",
+      "supplementalSource": "VOICE-PRACTICE",
+      "kind": "file",
+      "ordinal": 1,
+      "heading": "声音复刻参考样例1",
+      "sourceUrl": "https://smvsudqc87.feishu.cn/docx/HpwbdgONloL0J2xcD3Ochq0GnOh",
+      "name": "例1反例.mp3",
+      "sourceSize": 989440,
+      "sha256": "49f9ba98088455bf81d93032bcfea7a567bdc4745b13fcd8dad62bc3ffbfa5d0",
+      "cachedBytes": 989440,
+      "decision": "retained-release-file",
+      "reason": "补入原44篇之外的最佳实践教学音频；按原文顺序核对3组正反例，保留原文件并验证可解码。",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-001.mp3"
+    },
+    {
+      "id": "VOICE-PRACTICE-file-002",
+      "article": "DOC-14",
+      "supplementalSource": "VOICE-PRACTICE",
+      "kind": "file",
+      "ordinal": 2,
+      "heading": "声音复刻参考样例1",
+      "sourceUrl": "https://smvsudqc87.feishu.cn/docx/HpwbdgONloL0J2xcD3Ochq0GnOh",
+      "name": "例1正例.wav",
+      "sourceSize": 935760,
+      "sha256": "32f5fad2c817786d450c9fdf686a8a860eb39945e74ed8c4a221e4f43de3f498",
+      "cachedBytes": 935760,
+      "decision": "retained-release-file",
+      "reason": "补入原44篇之外的最佳实践教学音频；按原文顺序核对3组正反例，保留原文件并验证可解码。",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-002.wav"
+    },
+    {
+      "id": "VOICE-PRACTICE-file-003",
+      "article": "DOC-14",
+      "supplementalSource": "VOICE-PRACTICE",
+      "kind": "file",
+      "ordinal": 3,
+      "heading": "声音复刻参考样例2",
+      "sourceUrl": "https://smvsudqc87.feishu.cn/docx/HpwbdgONloL0J2xcD3Ochq0GnOh",
+      "name": "例2反例.mp3",
+      "sourceSize": 192288,
+      "sha256": "d286b8f32469ce35113090bad962f969ad2c9c73953e3168847ed8083c222373",
+      "cachedBytes": 192288,
+      "decision": "retained-release-file",
+      "reason": "补入原44篇之外的最佳实践教学音频；按原文顺序核对3组正反例，保留原文件并验证可解码。",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-003.mp3"
+    },
+    {
+      "id": "VOICE-PRACTICE-file-004",
+      "article": "DOC-14",
+      "supplementalSource": "VOICE-PRACTICE",
+      "kind": "file",
+      "ordinal": 4,
+      "heading": "声音复刻参考样例2",
+      "sourceUrl": "https://smvsudqc87.feishu.cn/docx/HpwbdgONloL0J2xcD3Ochq0GnOh",
+      "name": "例2正例.wav",
+      "sourceSize": 1187064,
+      "sha256": "da0784ea9e439b304f50ff26adf92985ab832775681fe73cbaaefc6ee61e39f9",
+      "cachedBytes": 1187064,
+      "decision": "retained-release-file",
+      "reason": "补入原44篇之外的最佳实践教学音频；按原文顺序核对3组正反例，保留原文件并验证可解码。",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-004.wav"
+    },
+    {
+      "id": "VOICE-PRACTICE-file-005",
+      "article": "DOC-14",
+      "supplementalSource": "VOICE-PRACTICE",
+      "kind": "file",
+      "ordinal": 5,
+      "heading": "声音复刻参考样例3",
+      "sourceUrl": "https://smvsudqc87.feishu.cn/docx/HpwbdgONloL0J2xcD3Ochq0GnOh",
+      "name": "例3反例.wav",
+      "sourceSize": 5915632,
+      "sha256": "8c3acfe52ed874275f7d75e47be5a9314fb592a9209804213e72d8978ed30ace",
+      "cachedBytes": 5915632,
+      "decision": "retained-release-file",
+      "reason": "补入原44篇之外的最佳实践教学音频；按原文顺序核对3组正反例，保留原文件并验证可解码。",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-005.wav"
+    },
+    {
+      "id": "VOICE-PRACTICE-file-006",
+      "article": "DOC-14",
+      "supplementalSource": "VOICE-PRACTICE",
+      "kind": "file",
+      "ordinal": 6,
+      "heading": "声音复刻参考样例3",
+      "sourceUrl": "https://smvsudqc87.feishu.cn/docx/HpwbdgONloL0J2xcD3Ochq0GnOh",
+      "name": "例3正例.wav",
+      "sourceSize": 3228608,
+      "sha256": "9fde544344ac382548cbc17e1f4668dafa57fdcb38d009d54476056359cff99e",
+      "cachedBytes": 3228608,
+      "decision": "retained-release-file",
+      "reason": "补入原44篇之外的最佳实践教学音频；按原文顺序核对3组正反例，保留原文件并验证可解码。",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-006.wav"
     }
-  ]
+  ],
+  "supplementalSources": [
+    {
+      "id": "VOICE-PRACTICE",
+      "sourceUrl": "https://smvsudqc87.feishu.cn/docx/HpwbdgONloL0J2xcD3Ochq0GnOh",
+      "title": "小智AI声音复刻最佳实践",
+      "revisionId": 146,
+      "originalArticleCountUnchanged": 44,
+      "embeddedReferences": 6
+    }
+  ],
+  "followupReview": "actionable-details-2026-11-15.json"
 }

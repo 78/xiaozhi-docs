@@ -11,7 +11,7 @@ sourceArticles:
   - DOC-17
 translation:
   status: review
-  sourceHash: 196cc2ac5499c8d73ed94108c044f051f1d3bf0dd5f61f80d652e5cb26852d73
+  sourceHash: 1556006c8abb91205ac53f2a226851c9b979f475dc01d8bb68b42dd76afbdea0
   reviewedAt: '2026-11-15'
 ---
 # Knowledge bases: upload, retrieve, and connect
@@ -43,7 +43,15 @@ Account type and GitHub verification affect the number of knowledge bases and do
 
 ### Create a knowledge base {#create}
 
-Choose a recognizable name and describe the documents' subject and purpose.
+Click **New knowledge base** and enter a recognizable name and description. Explain which questions the documents cover and when to search them, rather than writing only “knowledge base.” For example:
+
+```text
+This library covers assembly, provisioning, and troubleshooting for the Starlight robot kit.
+For questions about this kit's wiring, networking, or faults, search this library before answering from its results.
+If no relevant answer is found, say so instead of inventing wiring or specifications.
+```
+
+Replace the product and scope with your own, save, and check the library appears in the list. A description helps the model choose a tool; it does not guarantee a call in every conversation.
 
 <a name="upload-document"></a>
 
@@ -87,6 +95,12 @@ For no results, check parsing, query wording, and whether the material actually 
 3. Save, confirm the device belongs to this agent, and test the same questions in a real conversation.
 
 If the selection field is missing, check that the capability is enabled, the current language supports the service, and the account has an available knowledge base.
+
+### Confirm that this conversation searched the documents
+
+Open the target agent's conversation history, locate your question, and expand the knowledge-related tool call. It may appear as `search_knowledge`; use the actual service's tool name. Check the query, returned document passages, and whether the answer follows those passages.
+
+If no search appears, check the saved library association and description, then test a specific question from the documents. A plausible answer from the model's general knowledge does not prove the library is connected.
 
 <a name="verify"></a>
 

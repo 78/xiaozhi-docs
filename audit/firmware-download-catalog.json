@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-11-14",
+  "reviewedAt": "2026-11-15",
   "versionPolicy": {
     "maintained": [
       "v2.6.0",
@@ -1068,12 +1068,7 @@
           "bytes": 2745055
         }
       ],
-      "excludedAssets": [
-        {
-          "filename": "v2.6.0_waveshare-esp32-p4-nano-10.1-a-ci.zip",
-          "reason": "CI-named build has no exact build entry in the v2.6.0 tag config.json files; not mapped to a near-match or offered as a normal-device download."
-        }
-      ],
+      "excludedAssets": [],
       "entries": [
         {
           "name": "正点原子DNESP32S3-BOX",
@@ -4457,12 +4452,35 @@
           "kconfigSymbol": "BOARD_TYPE_ZHENGCHEN_CAM",
           "labelBasis": "reviewed Feishu product label and pinned firmware board label",
           "englishName": "Zhengchen AI Camera"
+        },
+        {
+          "name": "Waveshare ESP32-P4-Nano · 10.1-a · 以太网专项测试",
+          "category": "ci-test",
+          "chip": "ESP32-P4 Rev1",
+          "target": "esp32p4",
+          "filename": "v2.6.0_waveshare-esp32-p4-nano-10.1-a-ci.zip",
+          "url": "https://github.com/78/xiaozhi-esp32/releases/download/v2.6.0/v2.6.0_waveshare-esp32-p4-nano-10.1-a-ci.zip",
+          "bytes": 3287104,
+          "buildName": "esp32-p4-nano-10.1-a",
+          "boardDirectory": "waveshare/esp32-p4-nano",
+          "sourceConfig": "main/boards/waveshare/esp32-p4-nano/config.json",
+          "sourceConfigBlob": "3234597864d2580c9571efbc4cd6b3dc03962c3b",
+          "sourceLabel": "Waveshare ESP32-P4-Nano",
+          "kconfigSymbol": "BOARD_TYPE_WAVESHARE_ESP32_P4_NANO",
+          "labelBasis": "Pinned representative CI manifest selects this Rev1 board with network_type=ethernet; build.py appends -ci to ci_name, not OTA board identity.",
+          "englishName": "Waveshare ESP32-P4-Nano · 10.1-a · Ethernet test build",
+          "ciBuildOptions": {
+            "network_type": "ethernet"
+          },
+          "ciManifest": "scripts/ci/representative-variants.json",
+          "ciArtifactName": "waveshare-esp32-p4-nano-10.1-a-ci",
+          "sha256": "19763115e6ee2f52104e0536d6d752e20191a13dfe3ba8474f02ffd4741d49f7"
         }
       ],
       "counts": {
         "releaseZipAssets": 200,
-        "publishedRows": 199,
-        "excluded": 1,
+        "publishedRows": 200,
+        "excluded": 0,
         "boardDirectories": 164
       }
     },
@@ -6420,5 +6438,6 @@
         "boardDirectories": 82
       }
     }
-  ]
+  ],
+  "supplementalReview": "actionable-details-2026-11-15.json"
 }

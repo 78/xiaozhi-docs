@@ -3,7 +3,7 @@ id: "mcp-web-search"
 title: "为智能体接入联网搜索"
 description: "通过 MCP 搜索工具返回网页标题、链接、摘要与日期。"
 status: "review"
-reviewedAt: "2026-11-14"
+reviewedAt: "2026-11-15"
 reviewNote: "已对照固件 v2.6.0 或当前 Console 实现；图片与附件按用途保留，实物和线上流程仍需社区复现。"
 sourceArticles: ["DOC-25"]
 ---
@@ -34,6 +34,10 @@ sourceArticles: ["DOC-25"]
 新建 `web_search.py`，使用以下代码；也可从[文档仓库示例](https://github.com/78/xiaozhi-docs/blob/main/examples/mcp/web_search.py)取得同一份程序。
 
 <<< ../../../../examples/mcp/web_search.py
+
+### 先创建搜索服务密钥
+
+登录[智谱开放平台的 API Keys 页面](https://bigmodel.cn/usercenter/proj-mgmt/apikeys)，在自己的项目中创建 API Key，按平台说明启用本文所用搜索能力并确认余额/额度。复制密钥后只在自己的终端填写，不把它粘进小智的 MCP 端点输入框；MCP 端点仍从[智能体配置](../quickstart.md#endpoint)取得。
 
 <a name="credentials"></a>
 

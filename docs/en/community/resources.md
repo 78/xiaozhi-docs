@@ -11,7 +11,7 @@ sourceArticles:
   - DOC-41
 translation:
   status: review
-  sourceHash: 80af6239a362f8e45a8355c2cb644132534e1984131de4d47a9d53f33384e650
+  sourceHash: 4ad5128a47fa0a663c6830ae0d9af84e3854cda17761301305a68885c7429f57
   reviewedAt: '2026-11-15'
 ---
 # Music, lyrics, and community resources
@@ -40,6 +40,6 @@ Licensing notices come from the respective contributors. Check permission for yo
 
 ## Contributions and maintenance {#contribute}
 
-Include audio, lyrics, credits, source, permitted uses, and a traceable version with a submission. Follow the repository's current contribution instructions.
+Package an **MP3 audio file and matching LRC lyrics** and email them to [xiaozhi.ai@tenclass.com](mailto:xiaozhi.ai@tenclass.com). Include the title, author/credit, source, traceable version, and license statement. To contribute under this collection's terms, explicitly state that you have the right to provide the files under MIT; list any third-party permissions separately. Maintainers review submissions; inclusion in the device music service is not automatic.
 
 Keep large audio files out of the documentation Git history. Use a separate Release with a checksum inventory. For design resources, see [Open hardware](./open-hardware.md) and [SF32](./projects/sf32lb52-plugin.md).

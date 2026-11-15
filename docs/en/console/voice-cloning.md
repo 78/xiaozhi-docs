@@ -11,7 +11,7 @@ sourceArticles:
   - DOC-14
 translation:
   status: review
-  sourceHash: 9e50da2b8ef3d50bdf75182ea3b83899c735f9048dc7ae0fec35daceea222a49
+  sourceHash: 5d21003d488141bf92c973069fa86bafc2e92228044eae981dd814b5b83e4b69
   reviewedAt: '2026-11-15'
 ---
 # Voice cloning: record, train, and use
@@ -72,6 +72,40 @@ Choose either recording or upload. The current source-file limit is **50MB**; se
 
 The selection illustration explains trimming; it is not a screenshot. Listen to the actual selected segment before submitting either recorded or uploaded audio.
 
+<a name="examples"></a>
+
+### Three audio comparisons: what to trim {#examples}
+
+Listen to each “before” example, identify the problem, then compare the trimmed “after” version. These are teaching samples, not templates for recording length or channel count.
+
+**Example 1: background noise, excess length, and a cut-off ending**
+
+The original has background noise and an abruptly cut-off ending. Do not simply take the first few seconds: select a continuous, clear middle passage containing complete sentences. If noise affects the whole recording, recording again is preferable.
+
+[Play/download before](https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-001.mp3) · [Play/download after](https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-002.wav)
+
+<SourceMaterials article="DOC-14" only="VOICE-PRACTICE-file-001,VOICE-PRACTICE-file-002" />
+
+**Example 2: unusual sounds at the beginning**
+
+Listen for swallowed sounds or lip smacks at the beginning. Move the selection start to just before the first clean, complete sentence, then preview to check that the first word has not been cut off.
+
+[Play/download before](https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-003.mp3) · [Play/download after](https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-004.wav)
+
+<SourceMaterials article="DOC-14" only="VOICE-PRACTICE-file-003,VOICE-PRACTICE-file-004" />
+
+**Example 3: a poor-quality first sentence**
+
+If the first sentence is poor, start from a later, stable, clear passage containing complete speech rather than discarding the entire recording. Adjust both selection edges, inspect the beginning and end, and preview the whole selection.
+
+[Play/download before](https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-005.wav) · [Play/download after](https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-006.wav)
+
+<SourceMaterials article="DOC-14" only="VOICE-PRACTICE-file-005,VOICE-PRACTICE-file-006" />
+
+**An accepted upload is not necessarily a good reference.** The current page accepts 8–60 seconds. Start by selecting roughly **10–15 seconds** of clear, steady speech from one person in complete sentences, then adjust for the selected training method and the preview result. Prefer mono original recordings to avoid another speaker or accompaniment in a second channel. Some samples are stereo or have other lengths; they illustrate trimming rather than input requirements.
+
+There is no requirement to convert every file to 24 kHz, nor a promise that one sample rate always best matches the current model. Follow the current upload UI; excessive denoising or repeated resampling can also damage speech.
+
 <a name="training"></a>
 
 ## 3. Submit, wait, and handle failures {#training}
@@ -104,6 +138,12 @@ The list shows the voice as available and its sample plays correctly. The agent 
 - **Training fails or the voice is unavailable:** retain the error, check audio requirements, training allowance, account, and expiry, then follow the available options.
 
 Report status and steps without publishing identity documents or another person's original recordings.
+
+If these checks do not resolve the failure, email [xiaozhi.ai@tenclass.com](mailto:xiaozhi.ai@tenclass.com) with information support can use to identify your account, the voice name, failure time, page error, and steps tried. Include your order details for an order-related issue. Do not post identity documents or original recordings publicly; follow support's instructions if audio is needed.
+
+### Missing words, misread words, or poor output quality
+
+Test numbers, ordinary sentences, and your actual use case separately to distinguish an occasional synthesis error from a persistent voice-quality problem. Check the training selection for noise, cut-off speech, multiple speakers, or an unusual beginning. Re-record or trim and preview first, then retrain only as allowed by the page. Compare the same test sentences before and after; repeated training is not a guaranteed fix for an occasional omitted word. Give support the error and relevant test conditions if it persists.
 
 <a name="next"></a>
 
