@@ -1984,6 +1984,16 @@
             "FW-WAKE"
           ],
           "sourceArticle": "DOC-12"
+        },
+        {
+          "section": "彩屏适用范围 #lcd-example",
+          "finding": "PR #12 反馈与固定版本源码一致：xmini/c3 的 InitializeSsd1306Display 使用 I2C SSD1306 与 OledDisplay；Surfer-C3-1.14TFT 有独立 SPI 显示引脚，且音频与显示接线不同。移除 DOC-12-image-014/015 的当前教学引用，保留原锚点及独立板型参考，不把 C3 芯片概括为不支持彩屏。",
+          "references": [
+            "https://github.com/78/xiaozhi-docs/pull/12",
+            "https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/main/boards/xmini/c3/xmini_c3_board.cc",
+            "https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/main/boards/surfer-c3-1.14tft/config.h"
+          ],
+          "sourceArticle": "DOC-12"
         }
       ],
       "requiredChanges": [
@@ -2054,28 +2064,28 @@
           "docs/zh/hardware/breadboard-esp32-c3.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/breadboard-esp32-c3.md": "68c7847eb3f8565e5955af4a9611fe73cfc188e7671cf01fad5688ae9a687af4"
+          "docs/zh/hardware/breadboard-esp32-c3.md": "d8246944edc45266132d984249c7a60fa2d9437297ba5fa20bde0456988fc1dc"
         },
-        "contentSha256": "68c7847eb3f8565e5955af4a9611fe73cfc188e7671cf01fad5688ae9a687af4",
+        "contentSha256": "d8246944edc45266132d984249c7a60fa2d9437297ba5fa20bde0456988fc1dc",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/hardware/breadboard-esp32-c3.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "actionable-details-2026-11-15.json",
+          "record": "https://github.com/78/xiaozhi-docs/pull/12",
           "outputPaths": [
             "docs/en/hardware/breadboard-esp32-c3.md"
           ],
           "outputHashes": {
-            "docs/en/hardware/breadboard-esp32-c3.md": "6013013b17aeac418726acd6e5f77098cdd59170d59f50a48ba445717164a828"
+            "docs/en/hardware/breadboard-esp32-c3.md": "4e84830769aeddcfcba3ae0891858eb38e96891692209bb67cfb2be64a0da17e"
           }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
-          "retained-local-image": 15,
+          "retained-local-image": 13,
           "replaced-by-upstream": 1,
           "official-upstream-release": 1,
-          "not-reused": 3
+          "not-reused": 5
         },
         "unreadHistoricalFiles": [],
         "followUpCorrections": [
@@ -2088,6 +2098,25 @@
             ],
             "translation": "pending-chinese-community-review",
             "hardwareTested": false
+          },
+          {
+            "date": "2026-11-15",
+            "record": "https://github.com/78/xiaozhi-docs/pull/12",
+            "finding": "PR #12：本文固定的 v2.6.0 xmini/c3 只初始化 I2C SSD1306 OLED；彩屏样机照片不能作为该构建支持 SPI 彩屏的依据，故从中英文教程移除。保留仓库中的图片文件与原始摘要以便追溯，不再作为当前教程插图。",
+            "changes": [
+              "docs/zh/hardware/breadboard-esp32-c3.md",
+              "docs/en/hardware/breadboard-esp32-c3.md",
+              "audit/hardware-illustrations.json",
+              "audit/media-inventory.json"
+            ],
+            "translation": "reviewed-against-chinese-source; matching anchors, scope, wiring caveat and firmware reference",
+            "hardwareTested": false,
+            "validation": {
+              "command": "npm run check",
+              "result": "passed",
+              "translationReviewed": true,
+              "scope": "源码与中英文图文校对、内部链接及生产构建；未进行真机测试。"
+            }
           }
         ],
         "readerCopyReview": {

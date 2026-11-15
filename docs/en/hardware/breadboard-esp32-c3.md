@@ -11,7 +11,7 @@ sourceArticles:
   - DOC-12
 translation:
   status: review
-  sourceHash: 7c6946d4d958e8d56cbde395fd428f5793a0fb7eebd36dd644745369c127081f
+  sourceHash: d8246944edc45266132d984249c7a60fa2d9437297ba5fa20bde0456988fc1dc
   reviewedAt: '2026-11-15'
 ---
 # C3 breadboard with ES8311 audio
@@ -186,7 +186,11 @@ C3 supports compatible lightweight WakeNet configurations, and the project also 
 
 </div>
 
-The `xmini/c3` configuration used here follows an I2C OLED path, and the build does not support an SPI color display. To restore a color-display variant, first confirm the display driver, SPI GPIOs, board code, and a separate build identity; the Surfer-C3-1.14TFT board can be used as a reference.
+<a name="lcd-example"></a>
+
+### Color-display compatibility {#lcd-example}
+
+The v2.6.0 `xmini/c3` build used here uses an I2C OLED and does not support directly connecting an SPI color display. A color-display variant requires a separately verified display driver, SPI GPIOs, board code, and build configuration. See the [Surfer-C3-1.14TFT board implementation](https://github.com/78/xiaozhi-esp32/tree/4de00aed740595a8713b01f8332b9b2cf30685bc/main/boards/surfer-c3-1.14tft) in the firmware repository for reference; its wiring differs from this guide and cannot be applied directly.
 
 ### ES8311 initialization errors
 
