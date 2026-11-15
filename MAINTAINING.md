@@ -13,6 +13,8 @@ When firmware, hardware, or the Console changes:
 
 Keep article IDs, URLs, and existing chapter anchors stable. Preserve redirects when retiring an old entry. The maintained download catalogs currently cover v2.6.0 and v1.9.4; changing that policy requires an explicit content decision, not a link to an unspecified latest release. Match board names, chips, hardware revisions, and asset filenames against the corresponding firmware version, and update `audit/firmware-download-catalog.json`.
 
+Keep both homepage article directories and the sidebar navigation current when adding or moving guides. Homepages expose specific guides directly, with shared category icons and a compact row of frequent tasks. The S3 breadboard shortcut opens the basic build itself; C3, classic ESP32, display, camera, and 4G variants remain directly available in the hardware list.
+
 ## Local development
 
 Use Node.js 22, as specified in `.nvmrc`.

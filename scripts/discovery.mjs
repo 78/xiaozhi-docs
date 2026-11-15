@@ -81,7 +81,7 @@ export function exportMarkdown(page, srcDir, materials, englishMaterials) {
     .replace(/<span id="[^"]+"><\/span>/g, '')
     .replace(/^::: (?:tip|warning|danger|info|details)\s*(.*)$/gm, (_, title) => `> **${title || (zh ? '说明' : 'Note')}**`)
     .replace(/^:::(?: code-group)?\s*$/gm, ''))
-  if (page.data.layout === 'home') {
+  if (page.data.layout === 'home' && (page.data.hero || page.data.features)) {
     body = `# ${page.data.title}\n\n${page.data.hero?.tagline || page.data.description}\n\n` +
       (page.data.features || []).map(feature => `- [${feature.title}](${hostname}${feature.link}): ${feature.details}`).join('\n') + '\n\n' + body
   }

@@ -6611,5 +6611,15 @@
     "markdownCopies": 108,
     "originalTextLicense": "CC-BY-4.0",
     "editorialStatusesChanged": false
+  },
+  "homeNavigation": {
+    "record": "home-navigation-2026-11-15.json",
+    "status": "checked",
+    "reviewedAt": "2026-11-15",
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "directGuideCoverage": 44
   }
 }
