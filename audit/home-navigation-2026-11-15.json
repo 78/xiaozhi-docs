@@ -1,0 +1,45 @@
+{
+  "reviewedAt": "2026-11-15",
+  "baselineCommit": "58767d0fd84a7499d17894f69cc136db6850ffb5",
+  "feedback": [
+    "The large promotional hero displaced help links from the first screen.",
+    "Category-only cards required extra navigation to reach specific tutorials.",
+    "Distinct category symbols and a direct popular breadboard entry were requested."
+  ],
+  "decisions": [
+    "Replace the hero/features frontmatter with a compact Markdown directory inside the default VitePress home layout.",
+    "Expose five frequent tasks: provisioning/binding, online building/flashing, v2.6.0 downloads, basic S3 breadboard assembly, and troubleshooting.",
+    "Link the breadboard shortcut directly to the established ESP32-S3 build; retain direct C3, classic ESP32, LCD, camera, and 4G entries in hardware.",
+    "Show all 44 sidebar guide entries directly in nine visible categories, plus eight symptom anchors and the first-use overview.",
+    "Use nine shared native SVG category icons; retain text labels and avoid large decorative images.",
+    "Place firmware/downloads early and retain a visible FAQ column on desktop. Use one column on narrow screens.",
+    "Update the English homepage against the Chinese content and refresh only its reviewed source hash.",
+    "Export the body-based homepage once in machine-readable Markdown, without adding a duplicate hero heading."
+  ],
+  "counts": {
+    "quickLinks": 5,
+    "categories": 9,
+    "sidebarGuidesDirectlyLinked": 44,
+    "articleAndSymptomEntries": 53,
+    "newSharedSvgIcons": 9,
+    "newRasterImages": 0
+  },
+  "verification": {
+    "all44NavigationEntriesComparedForBothLanguages": true,
+    "browserS3Shortcut": true,
+    "browserFaqAudioAnchor": true,
+    "chineseAndEnglishAt390px": true,
+    "noHorizontalOverflowAt390px": true
+  },
+  "pages": [
+    {
+      "page": "docs/zh/index.md",
+      "sha256": "30f18d5e294a7c11ef16a1f84fda840f517b75a4f0b1c1e92d2c56bde97722ab"
+    },
+    {
+      "page": "docs/en/index.md",
+      "sha256": "ad0364c2755205141af0c43ca3b64c37d428050df0e55fca2f9eff7795b88feb"
+    }
+  ],
+  "scope": "Homepage navigation and presentation only. Article IDs, paths, technical instructions, editorial statuses, and hardware-verification limits are unchanged."
+}

@@ -602,5 +602,41 @@
   "/images/en/wake-word-choice.svg": {
     "width": 720,
     "height": 404
+  },
+  "/images/shared/sections/getting-started.svg": {
+    "width": 24,
+    "height": 24
+  },
+  "/images/shared/sections/hardware.svg": {
+    "width": 24,
+    "height": 24
+  },
+  "/images/shared/sections/firmware.svg": {
+    "width": 24,
+    "height": 24
+  },
+  "/images/shared/sections/console.svg": {
+    "width": 24,
+    "height": 24
+  },
+  "/images/shared/sections/mcp.svg": {
+    "width": 24,
+    "height": 24
+  },
+  "/images/shared/sections/development.svg": {
+    "width": 24,
+    "height": 24
+  },
+  "/images/shared/sections/reference.svg": {
+    "width": 24,
+    "height": 24
+  },
+  "/images/shared/sections/faq.svg": {
+    "width": 24,
+    "height": 24
+  },
+  "/images/shared/sections/community.svg": {
+    "width": 24,
+    "height": 24
   }
 }

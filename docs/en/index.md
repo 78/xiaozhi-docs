@@ -4,70 +4,166 @@ title: XiaoZhi documentation
 description: Guides for using and developing XiaoZhi AI
 status: review
 layout: home
-hero:
-  name: XiaoZhi Docs
-  text: |-
-    Your first conversation.
-    Your own AI device.
-  tagline: 'Build, flash, configure, and explore what your device can do.'
-  image:
-    src: /logo.svg
-    alt: XiaoZhi
-  actions:
-    - theme: brand
-      text: Get started
-      link: /en/getting-started/
-    - theme: alt
-      text: Development guide
-      link: /en/development/
-features:
-  - title: Getting started
-    details: Find a path from powering on your device to your first conversation.
-    link: /en/getting-started/
-    linkText: Explore
-  - title: Hardware & wiring
-    details: 'Choose a board and connect microphones, speakers, displays, and other components.'
-    link: /en/hardware/
-    linkText: Explore
-  - title: Firmware & flashing
-    details: 'Select firmware for your device, then flash, upgrade, or build it online.'
-    link: /en/firmware/
-    linkText: Explore
-  - title: Console guide
-    details: 'Configure agents, voices, knowledge bases, and devices in the XiaoZhi console.'
-    link: /en/console/
-    linkText: Explore
-  - title: MCP & integrations
-    details: Connect tools to agents for information lookup and device control.
-    link: /en/mcp/
-    linkText: Explore
-  - title: Development
-    details: 'Set up a development environment, modify firmware, and support your own hardware.'
-    link: /en/development/
-    linkText: Explore
-  - title: Protocols & reference
-    details: 'Look up communication protocols, interfaces, and version compatibility.'
-    link: /en/reference/
-    linkText: Explore
-  - title: Troubleshooting
-    details: Find troubleshooting steps by symptom and resolve problems that block everyday use.
-    link: /en/faq/
-    linkText: Explore
-  - title: Community
-    details: 'Explore community projects and help improve guides, translations, and hardware coverage.'
-    link: /en/community/
-    linkText: Explore
 reviewedAt: '2026-11-15'
 reviewNote: >-
   English translation checked against the current source. Technical and hardware verification limits are stated in the
   guide.
 translation:
   status: review
-  sourceHash: d1f5fb8de98b6c0cb9826880860143e73b75e2d3db1dc1bc1fec56610858927b
+  sourceHash: 30f18d5e294a7c11ef16a1f84fda840f517b75a4f0b1c1e92d2c56bde97722ab
   reviewedAt: '2026-11-15'
+pageClass: docs-home
 ---
-::: info Help improve the guides
-Share your device builds, verify instructions, or improve diagrams and explanations. Use the feedback link on any guide to help maintain the documentation.
+# XiaoZhi Docs
 
-Start with [Wi-Fi provisioning and binding](./getting-started/wifi-and-binding.md). For a blank development board, use the [online builder](./firmware/online-builder.md) first.
-:::
+Open the guide you need, or search for your hardware or problem.
+
+<div class="home-quick-links">
+
+- [Connect & bind](./getting-started/wifi-and-binding.md)
+- [Build & flash online](./firmware/online-builder.md)
+- [Download firmware](./firmware/releases/v2.6.0.md#download)
+- [Build an S3 breadboard](./hardware/breadboard-esp32-s3.md)
+- [Troubleshooting](./faq/index.md)
+
+</div>
+
+<div class="home-directory">
+
+<div class="home-section">
+
+<a name="getting-started"></a>
+
+## ![](../public/images/shared/sections/getting-started.svg) [Getting started](./getting-started/index.md) {#getting-started}
+
+- [First time? Start here](./getting-started/index.md)
+- [Wi-Fi & device binding](./getting-started/wifi-and-binding.md)
+
+</div>
+
+<div class="home-section">
+
+<a name="firmware"></a>
+
+## ![](../public/images/shared/sections/firmware.svg) [Firmware & downloads](./firmware/index.md) {#firmware}
+
+- [Online builder](./firmware/online-builder.md)
+- [Choose firmware](./firmware/downloads.md)
+- [Flash & update](./firmware/flashing.md)
+- [v2.6.0 release](./firmware/releases/v2.6.0.md)
+- [v1.9.4 archive](./firmware/releases/v1.9.4.md)
+
+</div>
+
+<div class="home-section">
+
+<a name="hardware"></a>
+
+## ![](../public/images/shared/sections/hardware.svg) [Hardware & wiring](./hardware/index.md) {#hardware}
+
+- [Choose hardware](./hardware/choosing-hardware.md)
+- [Supported boards](./hardware/supported-boards.md)
+- [ESP32-S3 breadboard](./hardware/breadboard-esp32-s3.md)
+- [ESP32-C3 breadboard](./hardware/breadboard-esp32-c3.md)
+- [Classic ESP32](./hardware/breadboard-esp32.md)
+- [ST7789 display](./hardware/displays/st7789.md)
+- [4G breadboard](./hardware/breadboard-4g.md)
+- [Camera breadboard](./hardware/breadboard-camera.md)
+- [Xmini-C3 & V3](./hardware/boards/xmini-c3.md)
+- [External ASR module](./hardware/external-wake-module.md)
+- [Battery power](./hardware/battery-power.md)
+- [Audio outputs](./hardware/audio-output.md)
+- [Hardware design](./hardware/design-guidelines.md)
+
+</div>
+
+<div class="home-section">
+
+<a name="console"></a>
+
+## ![](../public/images/shared/sections/console.svg) [Console settings](./console/index.md) {#console}
+
+- [GitHub verification](./console/github-verification.md)
+- [Voice cloning](./console/voice-cloning.md)
+- [Knowledge base](./console/knowledge-base.md)
+
+</div>
+
+<div class="home-section">
+
+<a name="mcp"></a>
+
+## ![](../public/images/shared/sections/mcp.svg) [MCP & tools](./mcp/index.md) {#mcp}
+
+- [MCP quickstart](./mcp/quickstart.md)
+- [Connect MCP servers](./mcp/connect-existing-servers.md)
+- [Web search example](./mcp/examples/web-search.md)
+
+</div>
+
+<div class="home-section">
+
+<a name="development"></a>
+
+## ![](../public/images/shared/sections/development.svg) [Firmware development](./development/index.md) {#development}
+
+- [Build firmware](./development/build-firmware.md)
+- [Custom boards](./development/custom-board.md)
+- [Audio & AEC](./development/audio-and-aec.md)
+- [Wake words](./development/wake-words.md)
+- [MCP GPIO tools](./development/mcp-gpio.md)
+- [Prompt audio](./development/custom-prompts.md)
+- [P3 archive](./development/archive/p3-prompts.md)
+
+</div>
+
+<div class="home-section">
+
+<a name="reference"></a>
+
+## ![](../public/images/shared/sections/reference.svg) [Protocols & reference](./reference/index.md) {#reference}
+
+- [WebSocket reference](./reference/websocket.md)
+- [OTA reference](./reference/ota.md)
+- [Emotion display](./reference/display-emotions.md)
+
+</div>
+
+<div class="home-section">
+
+<a name="faq"></a>
+
+## ![](../public/images/shared/sections/faq.svg) [Troubleshooting](./faq/index.md) {#faq}
+
+- [Port missing / flashing failed](./faq/index.md#serial)
+- [Boot failures / restarts](./faq/index.md#boot)
+- [Wi-Fi and network problems](./faq/index.md#network)
+- [Device codes / ownership](./faq/index.md#account)
+- [Audio, microphone & wake words](./faq/index.md#audio)
+- [Blank or incorrect display](./faq/index.md#display)
+- [Local build errors](./faq/index.md#build)
+- [MCP discovery / call failures](./faq/index.md#mcp)
+- [Accounts & binding](./faq/account-and-binding.md)
+- [Serial logs](./faq/serial-logs.md)
+
+</div>
+
+<div class="home-section">
+
+<a name="community"></a>
+
+## ![](../public/images/shared/sections/community.svg) [Community & contributions](./community/index.md) {#community}
+
+- [Open hardware](./community/open-hardware.md)
+- [SF32LB52 project](./community/projects/sf32lb52-plugin.md)
+- [Storyteller project](./community/projects/astronaut-storyteller.md)
+- [Wake-on-LAN](./community/projects/wake-on-lan.md)
+- [Community MCP tools](./community/mcp-tools.md)
+- [Music & resources](./community/resources.md)
+- [Contribute](./community/contributing.md)
+
+</div>
+
+</div>
+
+Found an unclear step, wiring issue, or translation error? Use the feedback link on the guide, or [help maintain the docs](./community/contributing.md).
