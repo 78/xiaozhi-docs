@@ -6,7 +6,7 @@ status: published
 layout: home
 pageClass: docs-home
 ---
-# 小智文档
+# 教程与帮助
 
 直接打开你需要的教程，或搜索硬件型号和遇到的问题。
 
