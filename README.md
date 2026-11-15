@@ -43,3 +43,5 @@ npm run check
 ```
 
 Approved changes on `main` are published automatically through GitHub Pages.
+
+Original documentation text is licensed under [CC BY 4.0](LICENSE-DOCS). Third-party materials, code, and downloads retain their own terms.

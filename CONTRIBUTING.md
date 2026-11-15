@@ -2,6 +2,12 @@
 
 Help make XiaoZhi AI tutorials clear, accurate, and easy to follow. Corrections, hardware verification, diagrams, translations, and new guides are welcome.
 
+## License your contribution
+
+Original documentation text is shared under [CC BY 4.0](LICENSE-DOCS). By submitting original text or a translation, you agree to contribute it under that license and retain your copyright. Keep attribution and change history in the repository. Do not submit material you cannot authorize under the applicable terms.
+
+Third-party text, images, recordings, diagrams, code, and other files retain their own licenses. Include their source, author, and applicable permission; the documentation-text license does not automatically cover them. Website code and standalone programs are outside this text license.
+
 ## Report a documentation problem
 
 Use the feedback link on a guide or [open a documentation issue](https://github.com/78/xiaozhi-docs/issues/new?template=documentation.yml). Include the page URL, the affected step, your device model and firmware version, and what happened. Remove passwords, access tokens, account details, and device identifiers from shared logs and screenshots.

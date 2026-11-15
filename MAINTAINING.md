@@ -55,7 +55,19 @@ The website has matching article paths and IDs under each supported locale. Engl
 
 The root URL uses an explicit language choice when available, otherwise the first supported language in the browser's preference order. Opening an explicit locale URL respects that URL. Reading an article does not change the saved language choice.
 
-Draft and review pages are publicly accessible. Drafts are excluded from search; both states currently use `noindex`. Mark a guide published after the required review and verification, not to hide unfinished work.
+Draft and review pages are publicly accessible. Drafts and retired redirects are excluded from indexing, the sitemap, and machine-readable exports. Complete `review` pages are indexable while retaining their visible review notices. Mark a guide published after the required review and verification, not to change crawler access.
+
+## Search and machine-readable content
+
+VitePress renders the full article into static HTML. Keep essential instructions and warnings in that HTML, rather than requiring browser JavaScript. Every indexable page has a canonical URL, eligible language counterparts, descriptive social metadata, and structured data matching the article. Dates reflect Git content changes; never generate a new modification date just because the site was rebuilt.
+
+The production build generates `sitemap.xml`, an allow-all `robots.txt`, a concise `/llms.txt` directory, complete `/zh/llms.txt` and `/en/llms.txt` indexes, and one clean Markdown file per eligible page. For example, `/en/hardware/breadboard-esp32-s3.md` accompanies the `.html` article. These exports come from the same sources, preserve code and verification limits, expand attachment links and shared code examples, and exclude contributor-only frontmatter. Do not maintain a separate AI-only tutorial copy.
+
+`llms.txt` is a discovery proposal, not a ranking requirement or guarantee of model training. Crawler access, search indexing, live AI retrieval, and training selection are separate decisions. Our allow-all policy permits cooperative search and training crawlers to fetch public content; the hosting provider or upstream network can still affect access.
+
+Original text uses the scope in [LICENSE-DOCS](LICENSE-DOCS). Preserve third-party rights and attribution; crawl permission does not relicense media, firmware, or code. The machine-readable copies carry the same scope.
+
+`npm run check:discovery` validates generated HTML, canonical and language links, JSON-LD, sitemap coverage, crawl rules, and machine-readable copies after the build. Submit `https://docs.xiaozhi.me/sitemap.xml` through the site's verified Google Search Console and Bing Webmaster Tools accounts to monitor actual indexing. Ownership verification and provider indexing are external to a successful deployment.
 
 ## Media
 

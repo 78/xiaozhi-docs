@@ -1,0 +1,52 @@
+{
+  "reviewedAt": "2026-11-15",
+  "baselineCommit": "412a3dce4618a6694252cd95a9fbee9cbd518617",
+  "request": "Improve search-engine crawling and machine-readable documentation; maintainer explicitly selected CC BY 4.0 for project-original documentation text.",
+  "finding": "Review pages were incorrectly excluded from search-engine indexing by a shared noindex rule. VitePress already produced static HTML with the complete article.",
+  "changes": [
+    "Allow indexing for complete review and published pages without changing editorial status or hardware verification claims.",
+    "Retain noindex for drafts, redirects, and 404; canonicalize old release redirects to the maintained target.",
+    "Generate sitemap.xml with eligible language alternatives and Git modification dates; allow public crawling through robots.txt.",
+    "Add canonical, reciprocal eligible hreflang, matching x-default fallback, social metadata, and WebSite/CollectionPage/TechArticle/BreadcrumbList JSON-LD.",
+    "Generate a concise llms.txt, complete language indexes, and 108 clean Markdown copies from the same source pages; expand attachments and shared code includes, make links absolute, and preserve review and archive context.",
+    "Apply CC BY 4.0 to project-original documentation text as authorized, preserving individual contributor copyright and explicitly excluding third-party text, media, diagrams, firmware, code, and downloads.",
+    "Document contribution licensing and crawler/indexing maintenance; add eligibility, exporter, and built-output checks to npm run check."
+  ],
+  "counts": {
+    "sitemapUrls": 109,
+    "markdownCopies": 108,
+    "languageIndexes": 2,
+    "rootDiscoveryIndexes": 1,
+    "articleSourcesModified": 0,
+    "editorialStatusesPromoted": 0
+  },
+  "verification": {
+    "npmRunCheck": true,
+    "indexPolicyMatrix": true,
+    "codePreservedInMarkdown": true,
+    "nestedImageLinksResolved": true,
+    "attachmentExpansion": true,
+    "staticHtmlCanonicalAndRobots": true,
+    "languageAlternates": true,
+    "jsonLdMatchesPage": true,
+    "sitemapCoverage": true,
+    "markdownDiscoveryLinks": true,
+    "browserReviewNoticeAndLicenseScope": true
+  },
+  "limitations": [
+    "Crawl permission does not guarantee search indexing, rankings, live AI citations, or selection for model training.",
+    "llms.txt is a discovery proposal, not a Google Search ranking requirement.",
+    "No Search Console or Bing Webmaster Tools ownership verification or sitemap submission was performed in this change.",
+    "Documentation-text licensing does not grant rights to third-party assets or software, nor transfer contributor copyright.",
+    "Hardware, paid-service, and community verification scopes remain unchanged."
+  ],
+  "references": [
+    "https://developers.google.com/search/docs/appearance/ai-features",
+    "https://developers.google.com/search/docs/specialty/international/localized-versions",
+    "https://developers.openai.com/api/docs/bots",
+    "https://vitepress.dev/guide/sitemap-generation",
+    "https://llmstxt.org/",
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://opensource.org/license/mit"
+  ]
+}
