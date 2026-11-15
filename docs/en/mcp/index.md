@@ -10,6 +10,8 @@ translation: {"status": "pending", "sourceHash": "f32503e2af7084d357a120f630374a
 
 Connect tools to agents for information lookup and device control.
 
+<a name="planned-coverage"></a>
+
 ## Planned coverage {#planned-coverage}
 
 - MCP concepts and the official connection process
@@ -17,6 +19,8 @@ Connect tools to agents for information lookup and device control.
 - Online lookup and computer control
 - Community MCP services and examples
 - Cloud endpoints and device-side tools
+
+<a name="existing-material"></a>
 
 ## Existing material {#existing-material}
 

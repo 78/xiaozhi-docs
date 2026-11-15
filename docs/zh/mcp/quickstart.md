@@ -11,6 +11,8 @@ reviewNote: "示例已通过本地 MCP 协议与 WebSocket 桥接测试；真实
 
 本篇让一个本地加法工具出现在小智智能体中。先跑通“启动 → 连接 → 发现 → 调用”，再接文件、搜索或智能家居。
 
+<a name="scope"></a>
+
 ## 准备工作 {#scope}
 
 - 已能正常对话的小智设备及其所属控制台账号。
@@ -26,6 +28,8 @@ reviewNote: "示例已通过本地 MCP 协议与 WebSocket 桥接测试；真实
 <figcaption>一次加法工具调用经过哪些环节。点击查看大图。</figcaption>
 </figure>
 
+<a name="endpoint"></a>
+
 ## 1. 获取当前智能体的端点 {#endpoint}
 
 1. 登录[小智控制台](https://xiaozhi.me/console/)，找到设备所用的智能体。
@@ -33,6 +37,8 @@ reviewNote: "示例已通过本地 MCP 协议与 WebSocket 桥接测试；真实
 3. 复制该智能体的 WebSocket 地址，后面只在自己的终端环境中使用。
 
 端点是访问凭据。不要写进教程截图、Git 仓库或公开日志。重新展开可能生成新地址，但不代表旧地址自动失效；泄露时应通过当前服务提供的凭据管理/支持方式处理。
+
+<a name="install"></a>
 
 ## 2. 建立独立 Python 环境 {#install}
 
@@ -64,6 +70,8 @@ python -m pip install -r requirements.txt
 
 如 PowerShell 的脚本策略阻止激活，可直接用 `.\.venv\Scripts\python.exe` 代替后续 `python`，无需为此修改全局策略。依赖安装失败时先确认解释器和首条报错，不把仓库 README 中旧的最低 Python 版本当作当前所有依赖的兼容保证。
 
+<a name="tool"></a>
+
 ## 3. 创建最小工具 {#tool}
 
 在 `mcp_pipe.py` 同一目录新建 **`safe_calculator.py`**，保存下面的完整代码：
@@ -88,6 +96,8 @@ if __name__ == "__main__":
 
 这个工具只接收两个整数并相加，不执行模型传来的 Python 表达式。标准输出留给 MCP 协议，不用 `print()` 输出调试信息。
 
+<a name="connect"></a>
+
 ## 4. 设置端点并启动桥接 {#connect}
 
 把占位说明替换为自己的端点，**不要把占位文字原样运行**：
@@ -110,6 +120,8 @@ python mcp_pipe.py safe_calculator.py
 
 结束时按 Ctrl+C。新终端需要重新激活环境和设置端点；给进程迁移到服务器时也要分别配置。
 
+<a name="verify"></a>
+
 ## 5. 验证发现和实际调用 {#verify}
 
 1. 回到同一个智能体的 MCP 接入点，手动刷新连接状态/工具列表。
@@ -120,6 +132,8 @@ python mcp_pipe.py safe_calculator.py
 ::: tip 完成标志
 桥接进程持续在线，控制台发现 `add_numbers`，且一轮真实对话调用它并返回 95。模型直接算出 95 不等于已经验证工具接入。
 :::
+
+<a name="troubleshooting"></a>
 
 ## 常见问题 {#troubleshooting}
 
@@ -134,6 +148,8 @@ python mcp_pipe.py safe_calculator.py
 | 输入超出范围 | 本示例主动拒绝超限，先用规定范围的整数验证 |
 
 工具数量、报文和连接限制以当前服务要求为准。
+
+<a name="next"></a>
 
 ## 下一步 {#next}
 

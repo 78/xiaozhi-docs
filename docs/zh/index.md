@@ -11,5 +11,5 @@ features: [{"title": "快速开始", "details": "根据你已有的设备，找�
 ::: info 中文先行，欢迎校对
 中文教程已开放社区校对，欢迎反馈接线、操作步骤和硬件适配问题。英文将在中文确认后编写。
 
-从[配网与绑定](/zh/getting-started/wifi-and-binding)开始；空白开发板先用[在线编译](/zh/firmware/online-builder)。
+从[配网与绑定](./getting-started/wifi-and-binding.md)开始；空白开发板先用[在线编译](./firmware/online-builder.md)。
 :::

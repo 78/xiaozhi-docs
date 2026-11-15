@@ -10,7 +10,9 @@ sourceArticles: ["DOC-37"]
 
 # 社区开源硬件目录
 
-这里汇总硬件设计来源，方便寻找原作者、电路和结构文件。进入目录不代表本站已经复测全部硬件，支持固件还要核对[当前板型](../hardware/supported-boards)。
+这里汇总硬件设计来源，方便寻找原作者、电路和结构文件。进入目录不代表本站已经复测全部硬件，支持固件还要核对[当前板型](../hardware/supported-boards.md)。
+
+<a name="projects"></a>
 
 ## 项目与作者 {#projects}
 
@@ -25,6 +27,8 @@ sourceArticles: ["DOC-37"]
 | ESP-SparkBot | 乐鑫小铁匠 / esp-college | [项目页](https://oshwhub.com/esp-college/esp-sparkbot) |
 | C3 外壳 | Anbin | [结构设计](https://oshwhub.com/anbin/xiao-zhi-ai-yu-yin-dui-hua-kai-fa-ban-c3) |
 
+<a name="scope"></a>
+
 ## 怎样判断是否适合复刻 {#scope}
 
 先看实际公开的文件与版本，而不是只看“开源”标签：
@@ -36,10 +40,14 @@ sourceArticles: ["DOC-37"]
 
 只有群文件或过期网盘时，先请原维护者补公开入口，不把不完整的来源标成完整可复现。旧价格、库存和群号不再作为选型依据。
 
+<a name="contribute"></a>
+
 ## 贡献新项目 {#contribute}
 
 提交项目地址、作者、硬件版本、许可、资料清单、对应固件和一份实测说明。实物照片可以帮助识别；电路和尺寸仍以设计文件为准。
 
+<a name="next"></a>
+
 ## 下一步 {#next}
 
-查看[嘉立创 SF32 插件版教程](https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/)与[故事机改造](./projects/astronaut-storyteller)。准备采购时结合[硬件选型](../hardware/choosing-hardware)，不要把目录顺序理解为商业推荐排序。
+查看[嘉立创 SF32 插件版教程](https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/)与[故事机改造](./projects/astronaut-storyteller.md)。准备采购时结合[硬件选型](../hardware/choosing-hardware.md)，不要把目录顺序理解为商业推荐排序。

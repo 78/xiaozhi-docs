@@ -11,21 +11,27 @@ reviewNote: "热点/BluFi 和六位设备码已对照代码；不同手机、板
 
 先让设备联网，再把设备验证码填进自己的小智控制台。完成后，就可以开始第一轮对话。
 
+<a name="scope"></a>
+
 ## 准备工作 {#scope}
 
-- 已烧录匹配固件、供电稳定的设备；不确定时先看[烧录教程](../firmware/flashing)。
+- 已烧录匹配固件、供电稳定的设备；不确定时先看[烧录教程](../firmware/flashing.md)。
 - 可用网络。本篇基础 ESP32-S3 Wi-Fi 方案使用 2.4GHz Wi-Fi 或手机热点，不采用需要网页二次登录的校园/访客网络。
 - 能打开[小智控制台](https://xiaozhi.me/console/)的手机或电脑。
 
 先确认固件选择的是**热点配网**还是 **BluFi**。它们是两条不同路径，不是安装完成后一定能随时切换的两个按钮。4G 或 SF32 蓝牙 PAN 设备请按对应板卡说明联网。
 
+<a name="enter-mode"></a>
+
 ## 1. 让设备进入配网模式 {#enter-mode}
 
 从未保存过 Wi-Fi 的设备启动后通常会自动进入配网。优先看屏幕和语音提示，不用某种 LED 颜色判断所有设备的状态。
 
-对于本文[基础 S3 板型](../hardware/breadboard-esp32-s3)，已配置设备可在重启后的启动阶段**短按 BOOT**请求重新配网；进入后松开按键。其他板型的操作可能是长按、双击或菜单，应查其说明。
+对于本文[基础 S3 板型](../hardware/breadboard-esp32-s3.md)，已配置设备可在重启后的启动阶段**短按 BOOT**请求重新配网；进入后松开按键。其他板型的操作可能是长按、双击或菜单，应查其说明。
 
 这里不需要按住 BOOT 再按 RESET；后者会进入烧录用的 ROM 下载模式。
+
+<a name="hotspot"></a>
 
 ## 2A. 使用热点配网 {#hotspot}
 
@@ -44,6 +50,8 @@ reviewNote: "热点/BluFi 和六位设备码已对照代码；不同手机、板
 <figcaption>热点页面提示保存成功后，等待设备重启并连接目标网络；这一步还没有完成账号绑定。</figcaption>
 </figure>
 
+<a name="blufi"></a>
+
 ## 2B. 使用 BluFi 配网 {#blufi}
 
 仅当固件启用了 BluFi 且板型支持时使用：
@@ -54,6 +62,8 @@ reviewNote: "热点/BluFi 和六位设备码已对照代码；不同手机、板
 4. 设备联网后，回到能访问互联网的网络继续绑定。
 
 不要只在手机系统蓝牙列表配对后就认为完成了 Wi-Fi 配网。广播名称与客户端界面可能随固件/SDK 改变，细节见[固件 BluFi 指南](https://github.com/78/xiaozhi-esp32/blob/v2.6.0/docs/blufi_zh.md)。
+
+<a name="bind"></a>
 
 ## 3. 输入六位设备验证码 {#bind}
 
@@ -72,11 +82,15 @@ reviewNote: "热点/BluFi 和六位设备码已对照代码；不同手机、板
 <figcaption>联网与账号绑定是两步操作。点击查看大图。</figcaption>
 </figure>
 
+<a name="verify"></a>
+
 ## 怎么确认完成 {#verify}
 
 ::: tip 完成标志
 控制台中能看到自己的设备，设备不再重复要求填写验证码；按键或已配置的唤醒词可以开始一轮对话，并能听到回答。
 :::
+
+<a name="troubleshooting"></a>
 
 ## 常见问题 {#troubleshooting}
 
@@ -89,8 +103,10 @@ reviewNote: "热点/BluFi 和六位设备码已对照代码；不同手机、板
 | 设备码无效或过期 | 使用设备新显示的码；不重复提交旧照片里的码 |
 | 设备已属于其他账号 | 联系原持有人按控制台流程解绑；刷固件不能替代服务端归属处理 |
 
+<a name="next"></a>
+
 ## 下一步 {#next}
 
-在控制台选择智能体的语言、角色和音色。需要工具能力时继续[MCP 快速开始](../mcp/quickstart)；遇到异常查看[常见问题](../faq/)。
+在控制台选择智能体的语言、角色和音色。需要工具能力时继续[MCP 快速开始](../mcp/quickstart.md)；遇到异常查看[常见问题](../faq/index.md)。
 
 固件配网行为参照 [v2.6.0 Wi-Fi 实现](https://github.com/78/xiaozhi-esp32/blob/v2.6.0/main/boards/common/wifi_board.cc)。

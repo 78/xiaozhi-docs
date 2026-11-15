@@ -12,9 +12,13 @@ sourceArticles: ["DOC-12"]
 
  C3-N16-SF 搭配 ES8311/NS4150 音频模块，参考 Xmini-C3。它不是任意 C3 加 INMP441/MAX98357A 的通用接线。
 
+<a name="scope"></a>
+
 ## 准备工作 {#scope}
 
 确认目标芯片、Flash 容量、Codec 模块原理图、PA 使能和显示屏。ES8311 模块的模拟麦克风/功放外围必须完整；模块标的 DI/DO 要核对相对于谁的方向。
+
+<a name="parts"></a>
 
 ## 先认齐这套 C3 的配件 {#parts}
 
@@ -100,9 +104,11 @@ sourceArticles: ["DOC-12"]
 <figcaption>可选轻触按钮；确认同侧内部连通关系。点击查看大图。</figcaption>
 </figure>
 
+<a name="wiring"></a>
+
 ## 1. 对照固件引脚 {#wiring}
 
-v2.6.0 的 `xmini/c3` 使用下列配置；新硬件必须确认与其真正相同，否则建立[独立板型](../development/custom-board)。
+v2.6.0 的 `xmini/c3` 使用下列配置；新硬件必须确认与其真正相同，否则建立[独立板型](../development/custom-board.md)。
 
 | 功能 | GPIO |
 | --- | --- |
@@ -114,6 +120,8 @@ v2.6.0 的 `xmini/c3` 使用下列配置；新硬件必须确认与其真正相�
 | BOOT | 9 |
 
 显示屏与 Codec 可能共用 I2C，总线、电压和设备地址要分别确认。用短线和可靠公共 GND；不因 GPIO 名称相同就忽略模块供电条件。
+
+<a name="wiring-diagram"></a>
 
 ### 总接线图与模块方向 {#wiring-diagram}
 
@@ -133,16 +141,22 @@ v2.6.0 的 `xmini/c3` 使用下列配置；新硬件必须确认与其真正相�
 <figcaption>C3-N16-SF 与 ES8311/NS4150B、OLED 的完整位置图；模块信号方向和双电源脚见图前说明。点击查看大图。</figcaption>
 </figure>
 
+<a name="build"></a>
+
 ## 2. 安装并使用 {#build}
 
 1. 如果完全复现已有硬件，选择对应 `xmini/c3` 构建；V3 与 4G 不是同一配置。
-2. 在[在线编译](../firmware/online-builder)或[官方发布](../firmware/downloads)取得匹配版本，按[烧录流程](../firmware/flashing)安装。
-3. 先验证提示音、显示和按键，再[联网绑定](../getting-started/wifi-and-binding)。
+2. 在[在线编译](../firmware/online-builder.md)或[官方发布](../firmware/downloads.md)取得匹配版本，按[烧录流程](../firmware/flashing.md)安装。
+3. 先验证提示音、显示和按键，再[联网绑定](../getting-started/wifi-and-binding.md)。
 4. 测试录音/播放后，再启用该芯片兼容的唤醒模型。
 
-C3 可使用兼容的轻量 WakeNet 路径，项目也有 C3 4G 板型。无 PSRAM 和不同资源条件仍影响模型，见[唤醒词](../development/wake-words)。
+C3 可使用兼容的轻量 WakeNet 路径，项目也有 C3 4G 板型。无 PSRAM 和不同资源条件仍影响模型，见[唤醒词](../development/wake-words.md)。
+
+<a name="assembly-results"></a>
 
 ## 实物与屏幕变体 {#assembly-results}
+
+<a name="oled-result"></a>
 
 ### OLED 基础方案 {#oled-result}
 
@@ -163,6 +177,8 @@ C3 可使用兼容的轻量 WakeNet 路径，项目也有 C3 4G 板型。无 PSR
 </figure>
 
 </div>
+
+<a name="lcd-example"></a>
 
 ### 彩屏扩展样机 {#lcd-example}
 
@@ -186,10 +202,14 @@ C3 可使用兼容的轻量 WakeNet 路径，项目也有 C3 4G 板型。无 PSR
 
 彩屏照片保留为该原型的扩展资料。当前本文采用的 `xmini/c3` 是 I2C OLED 路径，没有因为有照片就宣称该构建也支持这块 SPI 彩屏；需要恢复彩屏方案时，先确认屏幕驱动、SPI GPIO、板级代码与独立构建身份。
 
+<a name="verify"></a>
+
 ## 怎么确认完成 {#verify}
 
 指定的 Codec 和 PA 能录放，显示正常、按键发起一轮对话成功；没有 I2C 失败、持续爆音或复位。出现 I2C 问题先检查 SDA/SCL、上拉、电源与地址，不直接判定固件损坏。
 
+<a name="materials"></a>
+
 ## 历史附件与下一步 {#materials}
 
-安装固件时选择匹配的正式构建，不使用用途不明的调试 `.bin`。板级配置以[固件 xmini/c3](https://github.com/78/xiaozhi-esp32/tree/4de00aed740595a8713b01f8332b9b2cf30685bc/main/boards/xmini/c3)为准；成品板阅读[Xmini 系列](./boards/xmini-c3)。
+安装固件时选择匹配的正式构建，不使用用途不明的调试 `.bin`。板级配置以[固件 xmini/c3](https://github.com/78/xiaozhi-esp32/tree/4de00aed740595a8713b01f8332b9b2cf30685bc/main/boards/xmini/c3)为准；成品板阅读[Xmini 系列](./boards/xmini-c3.md)。

@@ -9,13 +9,17 @@ status: "published"
 
 控制台用于配置账号、声音、知识库和设备。按下列教程完成设置；可用功能、额度和收费以账号实际页面为准。
 
+<a name="guides"></a>
+
 ## 选择教程 {#guides}
 
 | 教程 | 内容 |
 | --- | --- |
-| [GitHub 认证与权益](./github-verification) | 在已登录的小智账号中绑定 GitHub，理解认证与开发者平台的区别。 |
-| [声音复刻](./voice-cloning) | 使用符合要求的语音训练自己的音色，并在智能体里验证。 |
-| [知识库](./knowledge-base) | 把资料解析成可检索内容，先测试召回，再让智能体使用。 |
+| [GitHub 认证与权益](./github-verification.md) | 在已登录的小智账号中绑定 GitHub，理解认证与开发者平台的区别。 |
+| [声音复刻](./voice-cloning.md) | 使用符合要求的语音训练自己的音色，并在智能体里验证。 |
+| [知识库](./knowledge-base.md) | 把资料解析成可检索内容，先测试召回，再让智能体使用。 |
+
+<a name="next"></a>
 
 ## 阅读与反馈 {#next}
 

@@ -12,9 +12,11 @@ sourceArticles: ["DOC-11"]
 
 硬件设计需要同时考虑芯片资源、供电、音频和结构。先定义要实现的功能，再用器件资料和测试结果核对方案。
 
+<a name="scope"></a>
+
 ## 1. 从信号与负载选型 {#scope}
 
-先确定语音、显示、摄像头、网络、低功耗和升级需求，再选择芯片、Flash/PSRAM、Codec 和外设。模型、AFE 与唤醒能力要与[现行固件支持](./supported-boards)交叉核对。
+先确定语音、显示、摄像头、网络、低功耗和升级需求，再选择芯片、Flash/PSRAM、Codec 和外设。模型、AFE 与唤醒能力要与[现行固件支持](./supported-boards.md)交叉核对。
 
 <figure class="source-figure">
 
@@ -23,17 +25,23 @@ sourceArticles: ["DOC-11"]
 <figcaption>芯片与语音能力的选型示意表：麦克风数量、唤醒、音频处理和显示需求需一起考虑。具体支持范围按所用固件核对。</figcaption>
 </figure>
 
+<a name="power"></a>
+
 ## 2. 供电与噪声 {#power}
 
 评估 Wi-Fi/蜂窝发射、播放和背光的峰值负载，而不是只看待机电流。检查稳压余量、回流路径、去耦、接插件和电源切换。音频噪声需要区分电源纹波、数字耦合、接地和结构问题。
 
-电池保护、充电、升压和边充边用是不同功能，按[电池供电](./battery-power)确定电源路径，不能仅凭一个 USB 口推断都有。
+电池保护、充电、升压和边充边用是不同功能，按[电池供电](./battery-power.md)确定电源路径，不能仅凭一个 USB 口推断都有。
+
+<a name="acoustics"></a>
 
 ## 3. 拾音与播放 {#acoustics}
 
 记录麦克风的灵敏度、信噪比、供电和接口条件，核对拾音孔、声腔和方向。扬声器参数与腔体一起设计，避免声压直接耦合进麦克风或壳体振动造成反馈。
 
-[AEC](../development/audio-and-aec)需要真实的参考信号和合适隔离；增加麦克风数量或勾选软件选项不能保证效果。耳机/线路输出与扬声器功放分开设计，见[音频输出](./audio-output)。
+[AEC](../development/audio-and-aec.md)需要真实的参考信号和合适隔离；增加麦克风数量或勾选软件选项不能保证效果。耳机/线路输出与扬声器功放分开设计，见[音频输出](./audio-output.md)。
+
+<a name="test"></a>
 
 ## 4. 为生产和维护留出条件 {#test}
 
@@ -41,10 +49,14 @@ sourceArticles: ["DOC-11"]
 
 将测试环境、音量、距离、外壳版本和通过条件写进板卡 README。调整电路后重新验证原来通过的项目，不用同一芯片的另一块板替代测试。
 
+<a name="verify"></a>
+
 ## 怎么确认完成 {#verify}
 
 设计评审能把每个承诺追溯到电路、器件资料和具体测试。选型示意不能代替当前固件兼容性、器件电气参数或实际测试。
 
+<a name="next"></a>
+
 ## 下一步 {#next}
 
-准备选料看[硬件选型](./choosing-hardware)，准备接入软件看[独立板型](../development/custom-board)。
+准备选料看[硬件选型](./choosing-hardware.md)，准备接入软件看[独立板型](../development/custom-board.md)。

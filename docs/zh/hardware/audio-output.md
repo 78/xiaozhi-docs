@@ -11,6 +11,8 @@ reviewNote: "已核对 MAX98357 数据手册和固件音频实现；新耳机电
 
 先确认设备输出的是什么信号，再选择扬声器、耳机或有源音箱。插头能插进去，并不代表电气接口相同。
 
+<a name="scope"></a>
+
 ## 先选连接方式 {#scope}
 
 | 你想连接的设备 | 应使用的输出 | 下一步 |
@@ -26,9 +28,11 @@ reviewNote: "已核对 MAX98357 数据手册和固件音频实现；新耳机电
 MAX98357A/B 是单声道 Class-D 功放。`OUTP` 和 `OUTN` 都是放大输出，不能把其中一端当作信号地。不要把这两个端子直接接到共地耳机或有源音箱的 3.5mm 插头，也不要把多个功放的负端并在一起。
 :::
 
+<a name="speaker"></a>
+
 ## 连接无源扬声器 {#speaker}
 
-以下步骤适用于采用 MAX98357A 模块的[基础 S3 面包板方案](./breadboard-esp32-s3)。其他功放应使用它自己的数据手册和接线图。
+以下步骤适用于采用 MAX98357A 模块的[基础 S3 面包板方案](./breadboard-esp32-s3.md)。其他功放应使用它自己的数据手册和接线图。
 
 1. 断开 USB 和外部电源，确认扬声器的阻抗与额定功率符合模块说明。基础方案使用单个 8Ω、3W 扬声器。
 2. 将扬声器两根线分别固定到模块的 `SPK+ / OUTP` 和 `SPK− / OUTN`，不要接到 `GND`。
@@ -36,6 +40,8 @@ MAX98357A/B 是单声道 Class-D 功放。`OUTP` 和 `OUTN` 都是放大输出�
 4. 完成模块电源与 I2S 接线，再上电。将音量调低后播放一段提示音，逐步调到需要的音量。
 
 `MAX98357A` 和 `MAX98357B` 的数字输入格式不同：A 使用 I2S，B 使用左对齐数据。固定使用 I2S 的固件不能只改器件后缀就当作兼容。依据见 [Analog Devices 产品说明](https://www.analog.com/en/products/MAX98357A.html)。
+
+<a name="headphones"></a>
 
 ## 使用耳机或有源音箱 {#headphones}
 
@@ -55,23 +61,29 @@ MAX98357A/B 是单声道 Class-D 功放。`OUTP` 和 `OUTN` 都是放大输出�
 <figcaption>三脚 3.5mm 插座的外观。插座本身不具备耳机驱动或电平转换功能，不能直接接 MAX98357A 的输出。</figcaption>
 </figure>
 
+<a name="verify"></a>
+
 ## 怎么确认完成 {#verify}
 
 ::: tip 完成标志
 使用与输出类型匹配的负载，提示音和对话声音都可听见；调节音量生效，线材与模块没有异常发热，设备不会在播放时重启。
 :::
 
+<a name="troubleshooting"></a>
+
 ## 常见问题 {#troubleshooting}
 
 | 现象 | 先检查 |
 | --- | --- |
-| 完全无声 | 音量、模块使能、I2S 引脚及所选板型；参考[音频排查](../faq/#audio) |
+| 完全无声 | 音量、模块使能、I2S 引脚及所选板型；参考[音频排查](../faq/index.md#audio) |
 | 播放时重启 | 供电与线材、负载阻抗、是否短路；不要先把音量继续调大 |
 | 声音失真 | 从低音量开始，确认扬声器功率、供电余量和接线牢固性 |
 | 想要立体声 | 单声道功放没有两路独立输出；需要双通道硬件、引脚与固件一起支持 |
 
+<a name="next"></a>
+
 ## 下一步 {#next}
 
-- 继续完成[基础 S3 接线](./breadboard-esp32-s3)或查看[电池供电](./battery-power)。
+- 继续完成[基础 S3 接线](./breadboard-esp32-s3.md)或查看[电池供电](./battery-power.md)。
 - 电气依据：[MAX98357A/B 数据手册](https://www.analog.com/media/en/technical-documentation/data-sheets/max98357a-max98357b.pdf)。
 - 报告接线问题时，提供模块型号、正反面照片、供电方式和固件版本。

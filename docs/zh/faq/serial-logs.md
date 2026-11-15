@@ -12,9 +12,13 @@ sourceArticles: ["DOC-23"]
 
 日志可以区分启动失败、网络连接、激活和音频问题。先采集，再改变条件；只截最后一行通常会漏掉真正原因。
 
+<a name="scope"></a>
+
 ## 准备工作 {#scope}
 
 准备数据线和适合系统的串口工具，确认是原生 USB 还是 USB-UART 桥接器。驱动只从板卡或芯片厂商获取，不把某款工具附带的历史安装包当作所有设备必装项。
+
+<a name="port"></a>
 
 ## 1. 找到端口 {#port}
 
@@ -28,6 +32,8 @@ sourceArticles: ["DOC-23"]
 
 <figcaption>Windows 设备管理器中查找串口的示例；COM 编号因电脑而异。</figcaption>
 </figure>
+
+<a name="capture"></a>
 
 ## 2. 连接并重新启动 {#capture}
 
@@ -45,6 +51,8 @@ idf.py -p COM5 monitor
 
 把 `COM5` 换为自己的端口；使用 Ctrl+] 退出。未安装 SDK 的用户不必为采日志安装整个环境，可使用 Python 的 [pySerial miniterm](https://pyserial.readthedocs.io/en/latest/tools.html#module-serial.tools.miniterm)。在独立 Python 环境安装 `pyserial` 后，执行 `python -m serial.tools.miniterm COM5 115200`，替换实际端口；用 Ctrl+] 退出。
 
+<a name="read"></a>
+
 ## 3. 先看什么 {#read}
 
 | 日志阶段 | 关注内容 |
@@ -56,10 +64,14 @@ idf.py -p COM5 monitor
 
 看不懂的错误保留原文。不要只提取大量后续错误而删除第一条失败信息。
 
+<a name="verify"></a>
+
 ## 怎么确认完成 {#verify}
 
 文本包含启动版本和可复现故障的上下文，别人能按操作顺序定位。分享前遮盖 Wi-Fi 密码、端点令牌、手机号和不必要的设备标识；截图不能代替可复制的错误文本。
 
+<a name="materials"></a>
+
 ## 工具与下一步 {#materials}
 
-串口工具请从维护者的官方发行入口下载。固件包写入请回到[烧录指南](../firmware/flashing)，不要在串口窗口里输入随机控制命令。
+串口工具请从维护者的官方发行入口下载。固件包写入请回到[烧录指南](../firmware/flashing.md)，不要在串口窗口里输入随机控制命令。

@@ -10,11 +10,15 @@ translation: {"status": "pending", "sourceHash": "0626e71e8d8a49137526bd439e8c02
 
 Find a path from powering on your device to your first conversation.
 
+<a name="planned-coverage"></a>
+
 ## Planned coverage {#planned-coverage}
 
 - Ready-made devices: connect to the network, create an agent, and bind the device
 - DIY devices: choose hardware, wire components, flash firmware, and bind the device
 - Verify a successful conversation before adding more features
+
+<a name="existing-material"></a>
 
 ## Existing material {#existing-material}
 

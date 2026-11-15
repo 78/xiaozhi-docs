@@ -12,6 +12,8 @@ reviewNote: "引脚已对照 v2.6.0 板型源码和器件资料；整套接线�
 
 先完成一套 Wi-Fi、单麦克风、单扬声器和 OLED 的基础设备，再增加屏幕、摄像头或 4G 模块。不同扩展方案使用的引脚和固件可能不同。
 
+<a name="finished-overview"></a>
+
 ## 先看做成后的样子 {#finished-overview}
 
 第一张是只接麦克风和功放的基础版，第二张增加 OLED 显示。先完成这一套，再考虑彩屏、摄像头或 4G；这些变体的接线图在本文末尾分别链接。
@@ -34,6 +36,8 @@ reviewNote: "引脚已对照 v2.6.0 板型源码和器件资料；整套接线�
 
 </div>
 
+<a name="scope"></a>
+
 ## 本文适用的硬件 {#scope}
 
 | 项目 | 本文选择 |
@@ -48,9 +52,13 @@ reviewNote: "引脚已对照 v2.6.0 板型源码和器件资料；整套接线�
 
 本文引脚对照[固件 v2.6.0 配置](https://github.com/78/xiaozhi-esp32/blob/v2.6.0/main/boards/bread-compact-wifi/config.h)，采用其默认的分离输入/输出 I2S 接法。其他芯片、N8R2、摄像头版、LCD 版及 4G 版应核对各自配置，不能只凭外观沿用本表。
 
+<a name="materials"></a>
+
 ## 材料清单：先认清每个模块 {#materials}
 
 以下图片是这套面包板教程的器件识别资料。按丝印、型号和焊接方向核对，不按商家图片的颜色选型；本页接线步骤固定使用 INMP441 与 MAX98357A。
+
+<a name="board-identification"></a>
 
 ### ESP32-S3 开发板 {#board-identification}
 
@@ -88,6 +96,8 @@ RGB 能否点亮不是接线成功的统一判据，按键、显示、录放和�
 
 </details>
 
+<a name="microphone-modules"></a>
+
 ### 数字麦克风 {#microphone-modules}
 
 <figure class="source-figure">
@@ -116,6 +126,8 @@ ZTS6672 与 ICS43434 也是常见的麦克风模块。下图用于辨认型号�
 </figure>
 
 </div>
+
+<a name="audio-modules"></a>
 
 ### 数字功放与扬声器 {#audio-modules}
 
@@ -156,6 +168,8 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 </figure>
 
 </div>
+
+<a name="breadboard-parts"></a>
 
 ### 面包板、导线与按钮 {#breadboard-parts}
 
@@ -204,6 +218,8 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 <figcaption>可选轻触按钮：同侧引脚可能已经连通，安装前确认导通关系。点击查看大图。</figcaption>
 </figure>
 
+<a name="oled-modules"></a>
+
 ### OLED 显示屏 {#oled-modules}
 
 <div class="module-grid">
@@ -226,7 +242,9 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 这两种屏幕可以共享 GPIO41/42 的 I2C 接线，但要选择匹配分辨率的固件变体。针脚顺序与 VCC/GND 位置按自己的屏幕丝印核对。
 
-4G 模块的识别、供电与变体总图集中在 [ML307R / NT26K 扩展](./breadboard-4g)，第一次搭建 Wi-Fi 版无需购买。
+4G 模块的识别、供电与变体总图集中在 [ML307R / NT26K 扩展](./breadboard-4g.md)，第一次搭建 Wi-Fi 版无需购买。
+
+<a name="prepare"></a>
 
 ## 1. 识别排针与电源 {#prepare}
 
@@ -239,6 +257,8 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 电源节点参照[官方原理图](https://dl.espressif.com/dl/schematics/SCH_ESP32-S3-DevKitC-1_V1.1_20220413.pdf)。USB 供电能力、线材和功放负载会影响稳定性，初次测试从低音量开始。
 
+<a name="wiring-overview"></a>
+
 ## 总接线图：先按当前方案连通 {#wiring-overview}
 
 下面把麦克风、功放、扬声器和 OLED 的每根连接画在同一张图里；后面的表格用于逐根检查。**本页功放 VIN 使用已核对的板载 USB 5V 节点，麦克风与 OLED 使用 3V3。**
@@ -250,6 +270,8 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 <figcaption>基础 S3：完整音频、供电与 OLED 连线。固件 v2.6.0 的信号连线示意，不表示开发板物理排针位置。</figcaption>
 </figure>
 
+<a name="board-layouts"></a>
+
 ### 44 针与 42 针板的位置图 {#board-layouts}
 
 以下保留面包板位置总图，便于找排针和摆放模块；图上的同名 GPIO 要与实物丝印逐一对应。
@@ -257,6 +279,8 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 ::: warning 位置图中的可选接法
 位置图中的功放 VIN 使用 **3V3** 支路；本页固定方案使用已核对的 **5V** 节点，SD/MODE 和 GAIN 按所用模块的工作设置处理。图中还包含可选 ML307R 及 **LDO 焊点取电**：搭建 Wi-Fi 基础版时，跳过整个 4G 分支，不从该焊点取电。
 :::
+
+<a name="layout-44"></a>
 
 #### 乐鑫标准版 · 44 针 {#layout-44}
 
@@ -266,6 +290,8 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figcaption>44 针标准板位置总图（Surfer 标注）；Wi-Fi 版不接 4G/LDO 分支，功放供电按本页 5V 方案。点击查看大图。</figcaption>
 </figure>
+
+<a name="layout-42"></a>
 
 #### GOOUUU 果云版 · 42 针 {#layout-42}
 
@@ -277,6 +303,8 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 </figure>
 
 这两张图中麦克风 GPIO4/5/6、功放 GPIO7/15/16、OLED GPIO41/42 的信号关系相同。确认芯片、内存和模块也匹配后，再使用同一 `bread-compact-wifi` 构建；不要把板子左右位置当成 GPIO 编号。
+
+<a name="microphone"></a>
 
 ## 2. 连接麦克风 {#microphone}
 
@@ -290,6 +318,8 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 | L/R | GND | 选择左声道，匹配本方案输入 |
 
 名称相近不代表方向相同：麦克风 `SD` 是输出，接固件的输入 `DIN`。INMP441 的供电和声道选择依据见 [TDK 数据手册](https://product.tdk.com/system/files/dam/doc/product/sw_piezo/mic/mems-mic/data_sheet/inmp441.pdf)。
+
+<a name="reversed-microphone"></a>
 
 ### 麦克风排针焊在另一面时 {#reversed-microphone}
 
@@ -309,6 +339,8 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 <figcaption>42 针板：麦克风反面朝上的位置图，不能按外观镜像后猜电源脚。点击查看大图。</figcaption>
 </figure>
 
+<a name="amplifier"></a>
+
 ## 3. 连接功放与扬声器 {#amplifier}
 
 | MAX98357A 模块引脚 | ESP32-S3 / 负载连接点 |
@@ -321,7 +353,9 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 | SPK+ / OUTP | 扬声器一端 |
 | SPK− / OUTN | 扬声器另一端 |
 
-模块的 `SD/MODE`、`GAIN` 按其厂商默认工作设置处理；如果裸板需要外部电阻或使能信号，先补齐模块电路，不能假定悬空一定能工作。不要用 MAX98357B 直接替换 A；不要把扬声器端接耳机，详见[音频输出](./audio-output)。
+模块的 `SD/MODE`、`GAIN` 按其厂商默认工作设置处理；如果裸板需要外部电阻或使能信号，先补齐模块电路，不能假定悬空一定能工作。不要用 MAX98357B 直接替换 A；不要把扬声器端接耳机，详见[音频输出](./audio-output.md)。
+
+<a name="audio-direct"></a>
 
 ### 麦克风与功放的直连接法 {#audio-direct}
 
@@ -333,6 +367,8 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 <figcaption>麦克风与 MAX98357A 的直接连线：图中 3V3 功放支路与短接线按上文说明调整。点击查看大图。</figcaption>
 </figure>
+
+<a name="display"></a>
 
 ## 4. 连接 OLED {#display}
 
@@ -352,11 +388,15 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 本板型使用 I2C 地址 `0x3C`。128×32 与 128×64 屏幕选择不同固件变体；SH1106、SPI 屏幕或其他地址不能仅靠改接线变成同一方案。
 
+<a name="buttons"></a>
+
 ## 可选外接按键 {#buttons}
 
 板载 BOOT 可先用于发起对话。需要外接按钮时，GPIO0、GPIO40、GPIO39 的另一端各通过按钮接 GND，对应本版 BOOT、音量加、音量减。四脚轻触开关先确认哪两脚内部已连通，不把按钮两端插进面包板同一个连通排。
 
 按键行为以[当前板型实现](https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/main/boards/bread-compact-wifi/compact_wifi_board.cc)为准，不用旧图中的“重置 Wi-Fi”字样推断所有状态下的按键行为。
+
+<a name="underside"></a>
 
 ## 接线完成后：检查模块下面的线 {#underside}
 
@@ -369,13 +409,17 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 <figcaption>基础版移开模块后的接线实物，可看到模块下方的隐藏短线。点击查看大图。</figcaption>
 </figure>
 
+<a name="start"></a>
+
 ## 5. 检查、烧录与配网 {#start}
 
 1. 断电检查每一根电源线和信号线，确认电源轨未短路、功放两个输出未接地、接线没有误入相邻排针。
-2. 使用[在线编译](../firmware/online-builder)选择上表板型及屏幕变体，或从[下载页](../firmware/downloads)获取匹配固件。
-3. 按[烧录教程](../firmware/flashing)完成写入，重新启动后观察屏幕与提示音。板载 RGB 的管脚随 DevKit 修订版变化，不以其颜色单独判断成功。
-4. 按[配网与绑定](../getting-started/wifi-and-binding)连接网络、填写设备验证码。
+2. 使用[在线编译](../firmware/online-builder.md)选择上表板型及屏幕变体，或从[下载页](../firmware/downloads.md)获取匹配固件。
+3. 按[烧录教程](../firmware/flashing.md)完成写入，重新启动后观察屏幕与提示音。板载 RGB 的管脚随 DevKit 修订版变化，不以其颜色单独判断成功。
+4. 按[配网与绑定](../getting-started/wifi-and-binding.md)连接网络、填写设备验证码。
 5. 先按 BOOT 开始一轮对话，再测试所选固件支持的唤醒词。
+
+<a name="assembly-results"></a>
 
 ## 装配与完成效果 {#assembly-results}
 
@@ -417,11 +461,15 @@ MAX98357A 的输入是数字 I2S，喇叭接功放的两个输出端。 HT517 �
 
 </div>
 
+<a name="verify"></a>
+
 ## 怎么确认完成 {#verify}
 
 ::: tip 完成标志
 OLED 显示完整、启动提示可听见，设备联网并出现在自己的控制台；按键能开始对话，设备能听到问题并播放回答，播放时不重启。
 :::
+
+<a name="troubleshooting"></a>
 
 ## 常见问题 {#troubleshooting}
 
@@ -432,20 +480,24 @@ OLED 显示完整、启动提示可听见，设备联网并出现在自己的控
 | 能识别我但没有回答声音 | 功放 DIN/BCLK/LRC、使能、扬声器端子和音量 |
 | 一播放就重启 | USB 电源/线材、功放负载及短路，先降低音量 |
 
+<a name="variants"></a>
+
 ## 面包板变体：按自己的板型继续 {#variants}
 
 | 变体 | 接线图与实物图 | 固件区别 |
 | --- | --- | --- |
 | 同一基础方案换 128×64 OLED | 本页 OLED、44/42 针位置图 | `bread-compact-wifi-128x64` |
-| SPI 彩屏 | [44/42 针彩屏接线图与完成效果](./displays/st7789#wiring-diagrams) | `bread-compact-wifi-lcd`，另核对屏幕参数 |
-| 摄像头 + 彩屏 | [摄像头板接线与实物](./breadboard-camera#wiring) | `bread-compact-wifi-s3cam`，音频 GPIO 也不同 |
-| ML307R 4G | [44/42 针 ML307R 总图与实物](./breadboard-4g#ml307) | `bread-compact-ml307` |
-| NT26K 4G | [44/42 针 NT26K 总图与实物](./breadboard-4g#nt26) | `bread-compact-nt26`，多两根握手线 |
-| ESP32-C3 + Codec | [C3 接线图、OLED 与彩屏样机](./breadboard-esp32-c3) | `xmini/c3`，不是 S3 的麦克风/功放接线 |
-| 经典 ESP32 | [经典 ESP32 图文教程](./breadboard-esp32) | `bread-compact-esp32` |
+| SPI 彩屏 | [44/42 针彩屏接线图与完成效果](./displays/st7789.md#wiring-diagrams) | `bread-compact-wifi-lcd`，另核对屏幕参数 |
+| 摄像头 + 彩屏 | [摄像头板接线与实物](./breadboard-camera.md#wiring) | `bread-compact-wifi-s3cam`，音频 GPIO 也不同 |
+| ML307R 4G | [44/42 针 ML307R 总图与实物](./breadboard-4g.md#ml307) | `bread-compact-ml307` |
+| NT26K 4G | [44/42 针 NT26K 总图与实物](./breadboard-4g.md#nt26) | `bread-compact-nt26`，多两根握手线 |
+| ESP32-C3 + Codec | [C3 接线图、OLED 与彩屏样机](./breadboard-esp32-c3.md) | `xmini/c3`，不是 S3 的麦克风/功放接线 |
+| 经典 ESP32 | [经典 ESP32 图文教程](./breadboard-esp32.md) | `bread-compact-esp32` |
 
 另一种 Duplex 接法会共用时钟；本页固定为源码默认的 Simplex 接法。改用 Duplex 时，先按该版本配置建立自己的构建，再重新核对时钟，不能在默认固件上随意并线。
 
+<a name="next"></a>
+
 ## 下一步 {#next}
 
-需要便携运行时查看[电池供电](./battery-power)。需要改变引脚或新增外设时，先读[自定义板型](../development/custom-board)，为改动创建独立固件身份。
+需要便携运行时查看[电池供电](./battery-power.md)。需要改变引脚或新增外设时，先读[自定义板型](../development/custom-board.md)，为改动创建独立固件身份。

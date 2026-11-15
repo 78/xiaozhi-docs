@@ -11,7 +11,11 @@ search: false
 
 # 小智文档 · XiaoZhi documentation
 
-<a href="/zh/" data-language-choice="zh">简体中文</a> · <a href="/en/" data-language-choice="en">English</a>
+<div data-language-choice>
+
+[简体中文](./zh/index.md) · [English](./en/index.md)
+
+</div>
 
 请选择语言继续阅读。Choose a language to continue.
 

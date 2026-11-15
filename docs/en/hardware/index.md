@@ -10,6 +10,8 @@ translation: {"status": "pending", "sourceHash": "3eed8f8fa630f7571d7312316b81bb
 
 Choose a board and connect microphones, speakers, displays, and other components.
 
+<a name="planned-coverage"></a>
+
 ## Planned coverage {#planned-coverage}
 
 - Supported boards and device selection
@@ -17,6 +19,8 @@ Choose a board and connect microphones, speakers, displays, and other components
 - LCD and camera extensions
 - Batteries, external speakers, and headphones
 - Schematics, pin assignments, and hardware revisions
+
+<a name="existing-material"></a>
 
 ## Existing material {#existing-material}
 

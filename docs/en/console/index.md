@@ -10,6 +10,8 @@ translation: {"status": "pending", "sourceHash": "7030efe4266f1427bb3c8afbb0f21b
 
 Configure agents, voices, knowledge bases, and devices in the XiaoZhi console.
 
+<a name="planned-coverage"></a>
+
 ## Planned coverage {#planned-coverage}
 
 - Account settings and developer verification
@@ -17,6 +19,8 @@ Configure agents, voices, knowledge bases, and devices in the XiaoZhi console.
 - Device management and conversation history
 - Voice cloning
 - Create, process, and connect knowledge bases
+
+<a name="existing-material"></a>
 
 ## Existing material {#existing-material}
 

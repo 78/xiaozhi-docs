@@ -23,6 +23,20 @@ export default defineConfig({
   markdown: {
     image: { lazyLoading: true },
     config(md) {
+      // GitHub uses named anchors; VitePress already gives the following heading this ID.
+      md.core.ruler.push('github-anchor-mirrors', state => {
+        const rendered = []
+        for (let index = 0; index < state.tokens.length; index++) {
+          const tokens = state.tokens
+          const mirror = /^<a name="([^"]+)"><\/a>$/.exec(tokens[index + 1]?.content || '')
+          if (tokens[index].type === 'paragraph_open' && tokens[index + 1]?.type === 'inline' && mirror &&
+              tokens[index + 2]?.type === 'paragraph_close' && tokens[index + 3]?.type === 'heading_open' &&
+              tokens[index + 3].attrGet('id') === mirror[1]) {
+            index += 2
+          } else rendered.push(tokens[index])
+        }
+        state.tokens = rendered
+      })
       const renderLink = md.renderer.rules.link_open!
       md.renderer.rules.link_open = (tokens, index, options, env, self) => {
         const token = tokens[index]

@@ -11,11 +11,15 @@ reviewNote: "USB 供电要求已对照开发板资料；续航、低负载保活
 
 让面包板小智离开电脑运行，最容易复现的方式是使用成品 USB 移动电源。开发板本身没有电池管理功能时，不要把锂电池接到它的电源脚上。
 
+<a name="scope"></a>
+
 ## 准备工作 {#scope}
 
-本文以 USB 供电的 ESP32-S3 开发板为例。准备已完成[接线](./breadboard-esp32-s3)和[配网](../getting-started/wifi-and-binding)的设备、一条可靠的 USB 线，以及能够提供开发板所需 5V 输出的成品移动电源。
+本文以 USB 供电的 ESP32-S3 开发板为例。准备已完成[接线](./breadboard-esp32-s3.md)和[配网](../getting-started/wifi-and-binding.md)的设备、一条可靠的 USB 线，以及能够提供开发板所需 5V 输出的成品移动电源。
 
 先用电脑或合适的 USB 电源确认设备能正常对话，再更换供电方式。这样可以区分固件问题和电源问题。
+
+<a name="usb-power"></a>
 
 ## 1. 使用 USB 移动电源 {#usb-power}
 
@@ -38,6 +42,8 @@ reviewNote: "USB 供电要求已对照开发板资料；续航、低负载保活
 <figcaption>用成品 USB 移动电源给基础 S3 供电。点击查看大图。</figcaption>
 </figure>
 
+<a name="battery-connector"></a>
+
 ## 2. 设备自带电池接口时 {#battery-connector}
 
 只有板卡文档明确列出电池类型、允许电压、接口极性及充电口时，才按该板的说明使用。
@@ -51,6 +57,8 @@ reviewNote: "USB 供电要求已对照开发板资料；续航、低负载保活
 | 电源切换 | USB 与电池如何切换，是否允许同时接入 |
 
 设备没有标明电池接口时，不把 `3V3`、`5V` 或 `GND` 排针当作充电接口。
+
+<a name="custom-power"></a>
 
 ## 3. 裸电芯与升压模块的边界 {#custom-power}
 
@@ -81,11 +89,15 @@ reviewNote: "USB 供电要求已对照开发板资料；续航、低负载保活
 <figcaption>电源模块的 B+、B− 与 5V 焊点示例。USB 接口的输入/输出用途及充电、保护能力须按该模块资料确认。</figcaption>
 </figure>
 
+<a name="verify"></a>
+
 ## 怎么确认完成 {#verify}
 
 ::: tip 完成标志
 设备在计划使用的音量下可以连续对话，待机后仍能唤醒；充电与使用方式符合电源产品说明。续航应以实际负载测量，不能只根据电池容量估算承诺。
 :::
+
+<a name="troubleshooting"></a>
 
 ## 常见问题 {#troubleshooting}
 
@@ -96,6 +108,8 @@ reviewNote: "USB 供电要求已对照开发板资料；续航、低负载保活
 | 待机几分钟就关机 | 检查移动电源低负载自动关断 |
 | 插上充电器就重启 | 确认电源切换/边充边用支持情况，不用反复重启代替电路核验 |
 
+<a name="next"></a>
+
 ## 下一步 {#next}
 
-查看[音频输出](./audio-output)；如果 USB 供电时也反复重启，按[启动与供电排查](../faq/#boot)继续定位。
+查看[音频输出](./audio-output.md)；如果 USB 供电时也反复重启，按[启动与供电排查](../faq/index.md#boot)继续定位。

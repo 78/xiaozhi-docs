@@ -10,6 +10,8 @@ translation: {"status": "pending", "sourceHash": "d0eb20af794a0f08960802885d2f6e
 
 Explore community projects and help improve guides, translations, and hardware coverage.
 
+<a name="planned-coverage"></a>
+
 ## Planned coverage {#planned-coverage}
 
 - Open hardware projects and examples
@@ -17,6 +19,8 @@ Explore community projects and help improve guides, translations, and hardware c
 - Report documentation issues and submit fixes
 - Terminology, translation, and review
 - Author attribution, sources, and supported versions
+
+<a name="existing-material"></a>
 
 ## Existing material {#existing-material}
 
