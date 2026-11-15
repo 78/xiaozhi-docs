@@ -6602,5 +6602,14 @@
     "bodyPages": 54,
     "redirects": 2,
     "communityConfirmed": 0
+  },
+  "discovery": {
+    "record": "search-and-ai-discovery-2026-11-15.json",
+    "status": "checked",
+    "reviewedAt": "2026-11-15",
+    "sitemapUrls": 109,
+    "markdownCopies": 108,
+    "originalTextLicense": "CC-BY-4.0",
+    "editorialStatusesChanged": false
   }
 }

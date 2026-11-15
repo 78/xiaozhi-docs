@@ -3,13 +3,15 @@ import { readFileSync } from 'node:fs'
 import { createHash } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import { repositoryUrl, branch, hostname } from '../../site.config.mjs'
-import { sidebar } from './navigation'
+import { sidebar, sections } from './navigation'
 import imageDimensions from './data/image-dimensions.json'
 import { rootLanguageRedirectScript } from './theme/language-preference.mjs'
 import { publicImageUrl } from '../../scripts/public-images.mjs'
+import { isIndexable, readDiscoveryPages, pagePath, markdownPath, language, textLicense, licenseNotice, writeDiscoveryFiles } from '../../scripts/discovery.mjs'
 
 const localImageDimensions: Record<string, { width: number; height: number }> = imageDimensions
 const publicDirectory = fileURLToPath(new URL('../public/', import.meta.url))
+const discoveryPages = readDiscoveryPages(fileURLToPath(new URL('../', import.meta.url)))
 
 export default defineConfig({
   title: '小智文档',
@@ -20,6 +22,21 @@ export default defineConfig({
   // Keep .html URLs: they work on GitHub Pages without rewrite rules.
   cleanUrls: false,
   lastUpdated: true,
+  sitemap: {
+    hostname,
+    transformItems(items) {
+      const allowed = new Set(['/', ...[...discoveryPages.values()].filter(page => isIndexable(page.data)).map(page => pagePath(page.path))])
+      return items.filter(item => allowed.has('/' + item.url.replace(/^\//, ''))).map(item => {
+        const url = '/' + item.url.replace(/^\//, '')
+        const suffix = url === '/' ? '' : url.replace(/^\/(zh|en)\//, '')
+        const links = ['zh', 'en'].map(locale => ({ lang: locale === 'zh' ? 'zh-Hans' : 'en', url: `${locale}/${suffix}` }))
+          .filter(link => allowed.has('/' + link.url))
+        const fallback = url === '/' || /^\/(zh|en)\/$/.test(url) ? '/' : allowed.has('/en/' + suffix) ? '/en/' + suffix : url
+        return { ...item, links: [...links, { lang: 'x-default', url: fallback }] }
+      })
+    }
+  },
+  buildEnd: writeDiscoveryFiles,
   markdown: {
     image: { lazyLoading: true },
     config(md) {
@@ -59,19 +76,76 @@ export default defineConfig({
     }
   },
   transformHead({ pageData }) {
-    if (pageData.isNotFound) return []
-    const path = pageData.relativePath.replace(/index\.md$/, '').replace(/\.md$/, '.html')
+    if (pageData.isNotFound) return [['meta', { name: 'robots', content: 'noindex, follow' }]]
+    const source = pageData.relativePath
+    const path = pagePath(source)
+    const canonical = hostname + (pageData.frontmatter.redirectTo?.split('#')[0] || path)
+    const localized = /^(zh|en)\//.test(source)
+    const eligible = localized && isIndexable(pageData.frontmatter)
+    const title = pageData.frontmatter.title || pageData.title
+    const description = pageData.frontmatter.description || pageData.description
     const tags: HeadConfig[] = [
-      ['link', { rel: 'canonical', href: `${hostname}/${path}` }]
+      ['link', { rel: 'canonical', href: canonical }],
+      ['meta', { property: 'og:title', content: title }],
+      ['meta', { property: 'og:description', content: description }],
+      ['meta', { property: 'og:url', content: canonical }],
+      ['meta', { property: 'og:type', content: source.endsWith('/index.md') || !localized ? 'website' : 'article' }],
+      ['meta', { property: 'og:site_name', content: 'XiaoZhi AI documentation' }],
+      ['meta', { name: 'twitter:card', content: 'summary' }],
+      ['meta', { name: 'twitter:title', content: title }],
+      ['meta', { name: 'twitter:description', content: description }]
     ]
-    if (pageData.relativePath === 'index.md') {
+    if (source === 'index.md') {
       tags.push(['script', {}, rootLanguageRedirectScript('/')])
     }
-    if (/^(zh|en)\//.test(path)) {
-      for (const [locale, lang] of [['zh', 'zh-Hans'], ['en', 'en']]) {
-        tags.push(['link', { rel: 'alternate', hreflang: lang, href: `${hostname}/${path.replace(/^(zh|en)\//, `${locale}/`)}` }])
+    if (eligible || source === 'index.md') {
+      for (const locale of ['zh', 'en']) {
+        const counterpart = source === 'index.md' ? `${locale}/index.md` : source.replace(/^(zh|en)\//, `${locale}/`)
+        if (isIndexable(discoveryPages.get(counterpart)?.data || {})) {
+          tags.push(['link', { rel: 'alternate', hreflang: language(counterpart), href: hostname + pagePath(counterpart) }])
+        }
       }
-      tags.push(['link', { rel: 'alternate', hreflang: 'x-default', href: `${hostname}/` }])
+      const englishSource = source.replace(/^(zh|en)\//, 'en/')
+      const fallback = source === 'index.md' || /^(zh|en)\/index\.md$/.test(source)
+        ? '/' : isIndexable(discoveryPages.get(englishSource)?.data || {}) ? pagePath(englishSource) : path
+      tags.push(['link', { rel: 'alternate', hreflang: 'x-default', href: hostname + fallback }])
+    }
+    if (eligible) {
+      tags.push(['meta', { name: 'robots', content: 'index, follow, max-image-preview:large' }])
+      tags.push(['link', { rel: 'alternate', type: 'text/markdown', href: hostname + markdownPath(source), title: 'Markdown' }])
+      tags.push(['link', { rel: 'describedby', type: 'text/plain', href: `${hostname}/${source.slice(0, 2)}/llms.txt` }])
+      const locale = source.startsWith('zh/') ? 'zh' : 'en'
+      const section = sections.find(section => section.slug === source.split('/')[1])
+      const collection = source.endsWith('/index.md')
+      const document: Record<string, unknown> = {
+        '@type': collection ? 'CollectionPage' : 'TechArticle',
+        '@id': canonical + '#document',
+        url: canonical,
+        name: title,
+        ...(collection ? {} : { headline: title }),
+        description,
+        inLanguage: language(source),
+        isPartOf: { '@id': `${hostname}/#website` },
+        license: textLicense,
+        usageInfo: licenseNotice,
+        copyrightNotice: 'Original documentation text: CC BY 4.0. Third-party media, code, firmware, and downloads retain their own terms.'
+      }
+      if (pageData.lastUpdated) document.dateModified = new Date(pageData.lastUpdated).toISOString()
+      if (section) document[collection ? 'about' : 'articleSection'] = collection ? { '@type': 'Thing', name: section[locale] } : section[locale]
+      const breadcrumb = [
+        { name: locale === 'zh' ? '小智文档' : 'XiaoZhi Docs', item: `${hostname}/${locale}/` },
+        ...(section ? [{ name: section[locale], item: `${hostname}/${locale}/${section.slug}/` }] : []),
+        ...(!collection ? [{ name: title, item: canonical }] : [])
+      ]
+      const graph = {
+        '@context': 'https://schema.org',
+        '@graph': [
+          { '@type': 'WebSite', '@id': `${hostname}/#website`, url: `${hostname}/`, name: 'XiaoZhi AI documentation', inLanguage: ['zh-Hans', 'en'] },
+          document,
+          { '@type': 'BreadcrumbList', itemListElement: breadcrumb.map((item, index) => ({ '@type': 'ListItem', position: index + 1, ...item })) }
+        ]
+      }
+      tags.push(['script', { type: 'application/ld+json' }, JSON.stringify(graph).replace(/</g, '\\u003c')])
     }
     return tags
   },
@@ -104,7 +178,7 @@ export default defineConfig({
         returnToTopLabel: '回到顶部',
         langMenuLabel: '切换语言',
         skipToContentLabel: '跳转到正文',
-        footer: { message: '由小智社区共同维护', copyright: 'XiaoZhi AI' }
+        footer: { message: '由小智社区共同维护', copyright: `原创文字 <a href="${licenseNotice}">CC BY 4.0</a> · 第三方素材按各自许可` }
       }
     },
     en: {
@@ -122,7 +196,7 @@ export default defineConfig({
         sidebar: sidebar('en'),
         outline: { label: 'On this page', level: [2, 3] },
         editLink: { pattern: `${repositoryUrl}/edit/${branch}/docs/:path`, text: 'Edit this page on GitHub' },
-        footer: { message: 'Maintained by the XiaoZhi community', copyright: 'XiaoZhi AI' }
+        footer: { message: 'Maintained by the XiaoZhi community', copyright: `Original text: <a href="${licenseNotice}">CC BY 4.0</a> · Third-party materials retain their own terms` }
       }
     }
   },
@@ -169,8 +243,8 @@ export default defineConfig({
       const hash = createHash('sha256').update(readFileSync(sourcePath)).digest('hex')
       page.frontmatter.translationStale = page.frontmatter.translation?.sourceHash !== hash
     }
-    if (['draft', 'review'].includes(page.frontmatter.status)) {
-      if (page.frontmatter.status === 'draft') page.frontmatter.search = false
+    if (page.frontmatter.status === 'draft') {
+      page.frontmatter.search = false
       page.frontmatter.head ??= []
       page.frontmatter.head.push(['meta', { name: 'robots', content: 'noindex, follow' }])
     }
