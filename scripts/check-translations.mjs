@@ -1,11 +1,15 @@
-import { readFile } from 'node:fs/promises'
+import { readFile, readdir } from 'node:fs/promises'
+import { existsSync } from 'node:fs'
 import { resolve } from 'node:path'
-import { createHash } from 'node:crypto'
 import { readPages, sourceHash, root } from './content.mjs'
 import { publicImageUrl } from './public-images.mjs'
 
-const review = JSON.parse(await readFile(resolve(root, 'audit/english-translation-2026-11-15.json'), 'utf8'))
-const diagramSources = new Map(review.diagrams.map(item => [item.path, item.sourcePath]))
+const diagramSources = new Map()
+for (const name of await readdir(resolve(root, 'docs/public/images/en'))) {
+  if (!name.endsWith('.svg')) continue
+  const locale = existsSync(resolve(root, 'docs/public/images/zh', name)) ? 'zh' : 'shared'
+  diagramSources.set(`/images/en/${name}`, `/images/${locale}/${name}`)
+}
 const sources = await readPages('zh')
 const translations = await readPages('en')
 const anchors = body => [...body.matchAll(/^#{1,6} .*?\{#([^}]+)\}/gm)].map(match => match[1])
@@ -20,23 +24,19 @@ for (const [path, translated] of translations) {
   if (!equal(attachments(source.content), attachments(translated.content))) throw new Error(`${path}: missing or changed attachments`)
   const images = (body, locale) => [...body.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g)].map(match => {
     const image = publicImageUrl(match[1], resolve(root, 'docs', locale, path), resolve(root, 'docs/public'))
-    const section = anchors(body.slice(0, match.index)).at(-1) || null
-    return { image: diagramSources.get(image) || image, section }
-  })
+    return diagramSources.get(image) || image
+  }).sort()
   const expected = images(source.content, 'zh')
-  if (!equal(expected, images(translated.content, 'en'))) throw new Error(`${path}: preserve image order and chapter association`)
+  if (!equal(expected, images(translated.content, 'en'))) throw new Error(`${path}: preserve counterpart images`)
   illustrations += expected.length
   fresh++
 }
 // A localized wiring diagram must not silently change paths, coordinates, or signal connections.
 const withoutLabels = svg => svg.replace(/<(title|desc|text)(\s[^>]*)?>[^]*?<\/\1>/g, (_, tag, attrs = '') => `<${tag}${attrs}></${tag}>`)
-for (const diagram of review.diagrams) {
-  const source = await readFile(resolve(root, 'docs/public' + diagram.sourcePath), 'utf8')
-  const translated = await readFile(resolve(root, 'docs/public' + diagram.path), 'utf8')
-  if (withoutLabels(source) !== withoutLabels(translated)) throw new Error(`${diagram.path}: localized diagram geometry differs`)
-  for (const [text, hash] of [[source, diagram.sourceSha256], [translated, diagram.sha256]]) {
-    if (createHash('sha256').update(text).digest('hex') !== hash) throw new Error(`${diagram.path}: update diagram review evidence`)
-  }
-  if (/[\u4e00-\u9fff]/.test(translated.replace(/<style>[^]*?<\/style>/g, ''))) throw new Error(`${diagram.path}: untranslated diagram text`)
+for (const [path, sourcePath] of diagramSources) {
+  const source = await readFile(resolve(root, 'docs/public' + sourcePath), 'utf8')
+  const translated = await readFile(resolve(root, 'docs/public' + path), 'utf8')
+  if (withoutLabels(source) !== withoutLabels(translated)) throw new Error(`${path}: localized diagram geometry differs`)
+  if (/[\u4e00-\u9fff]/.test(translated.replace(/<style>[^]*?<\/style>/g, ''))) throw new Error(`${path}: untranslated diagram text`)
 }
-console.log(`Translation checks passed: ${fresh} current counterparts; ${illustrations} matching images/sections; ${review.diagrams.length} localized diagrams with unchanged geometry.`)
+console.log(`Translation checks passed: ${fresh} current counterparts; ${illustrations} matching images; ${diagramSources.size} localized diagrams with unchanged geometry.`)

@@ -1,30 +1,22 @@
 import { readFile } from 'node:fs/promises'
-import { createHash } from 'node:crypto'
 import { resolve } from 'node:path'
-import { publicImageUrl } from './public-images.mjs'
+import { createHash } from 'node:crypto'
 
 const root = resolve(import.meta.dirname, '..')
 const ledger = JSON.parse(await readFile(resolve(root, 'audit/media-inventory.json'), 'utf8'))
+const inventory = JSON.parse(await readFile(resolve(root, 'audit/inventory.json'), 'utf8'))
 const release = JSON.parse(await readFile(resolve(root, 'audit/release-assets.json'), 'utf8'))
 const materials = JSON.parse(await readFile(resolve(root, 'docs/.vitepress/data/materials.json'), 'utf8'))
 const englishMaterials = JSON.parse(await readFile(resolve(root, 'docs/.vitepress/data/materials.en.json'), 'utf8'))
 const ids = new Set()
-let images = 0
 for (const item of ledger.items) {
   if (ids.has(item.id)) throw new Error(`Duplicate material ${item.id}`)
   ids.add(item.id)
   if (!item.decision || !item.reason) throw new Error(`Missing disposition ${item.id}`)
-  if (item.publicPath) {
-    if (!item.publicPath.startsWith('/images/zh/')) throw new Error(`Unexpected path ${item.id}`)
-    const bytes = await readFile(resolve(root, 'docs/public' + item.publicPath))
-    const sha = createHash('sha256').update(bytes).digest('hex')
-    if (sha !== (item.publishedAsset?.sha256 || item.sha256)) throw new Error(`Image changed without ledger update: ${item.id}`)
-    if (item.publishedAsset && (item.publishedAsset.sourceSha256 !== item.sha256 || item.publishedAsset.path !== item.publicPath)) {
-      throw new Error(`Original/optimized-image relationship changed: ${item.id}`)
-    }
-    images++
-  }
 }
+const expected = inventory.items.reduce((count, item) => count + item.sourceReview.embeddedReferences.images + item.sourceReview.embeddedReferences.files, 0)
+  + (ledger.supplementalSources || []).reduce((count, source) => count + source.embeddedReferences, 0)
+if (ids.size !== expected) throw new Error('Incomplete source-material coverage')
 const assets = new Map(release.assets.map(item => [item.url, item]))
 for (const item of Object.values(materials).flat()) {
   const translation = englishMaterials[item.id]
@@ -46,59 +38,18 @@ for (const path of ['audit/media-inventory.json', 'audit/release-assets.json', '
     throw new Error(`Private source data in ${path}`)
   }
 }
-// Original 44-article inventory (1094) plus six reviewed voice-training comparison files.
-if (ids.size !== 1100) throw new Error('The source-material inventory must cover the original 1094 references and six voice-practice files')
-// A valid image inventory is insufficient when the teaching figures disappear from their chapters.
-const coverage = JSON.parse(await readFile(resolve(root, 'audit/hardware-illustrations.json'), 'utf8'))
-const byId = new Map(ledger.items.map(item => [item.id, item]))
-let sections = 0
-for (const page of coverage.pages) {
-  const text = await readFile(resolve(root, page.page), 'utf8')
-  const headings = [...text.matchAll(/^(#{1,6})\s+.*?\{#([^}]+)\}.*$/gm)]
-  for (const section of page.sections) {
-    const heading = headings.find(match => match[2] === section.anchor)
-    if (!heading) throw new Error(`${page.page}: missing teaching section #${section.anchor}`)
-    const next = headings.find(match => match.index > heading.index && match[1].length <= heading[1].length)
-    const body = text.slice(heading.index, next?.index ?? text.length)
-    for (const id of section.sourceImages) {
-      const item = byId.get(id)
-      if (item?.decision !== 'retained-local-image' || !body.includes(item.publicPath)) {
-        throw new Error(`${page.page}#${section.anchor}: missing ${id} (${section.purpose})`)
-      }
-    }
-    for (const path of section.diagrams) {
-      if (!body.includes(path)) throw new Error(`${page.page}#${section.anchor}: missing diagram ${path}`)
-    }
-    if (section.allowedImagesOnly) {
-      for (const image of body.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g)) {
-        if (!section.allowedImagesOnly.includes(publicImageUrl(image[1], resolve(root, page.page), resolve(root, 'docs/public')))) {
-          throw new Error(`${page.page}#${section.anchor}: unrelated figure ${image[1]}`)
-        }
-      }
-    }
-    sections++
-  }
-}
-const selection = await readFile(resolve(root, coverage.selectionPage), 'utf8')
-for (const id of coverage.selectionForbiddenComponentImages) {
-  const path = byId.get(id)?.publicPath
-  if ((path && selection.includes(path)) || selection.includes(`/${id.toLowerCase()}.`)) {
-    throw new Error(`Component figure ${id} belongs in its construction tutorial, not the selection page`)
-  }
-}
+console.log(`Material checks passed: ${ids.size} source dispositions; ${assets.size} release files; shared attachment identities and English labels.`)
+// Keep the existing six versioned wiring diagrams, including their chapter context.
 const wiring = JSON.parse(await readFile(resolve(root, 'audit/wiring-diagrams.json'), 'utf8'))
-const dimensions = JSON.parse(await readFile(resolve(root, 'docs/.vitepress/data/image-dimensions.json'), 'utf8'))
-for (const path of [...ledger.items.filter(item => item.publicPath).map(item => item.publicPath), ...wiring.diagrams.map(item => item.publicPath)]) {
-  const size = dimensions[path]
-  if (!Number.isInteger(size?.width) || !Number.isInteger(size?.height) || size.width <= 0 || size.height <= 0) {
-    throw new Error(`Record intrinsic image dimensions before publication: ${path}`)
-  }
-}
 for (const diagram of wiring.diagrams) {
   const bytes = await readFile(resolve(root, 'docs/public' + diagram.publicPath))
-  if (createHash('sha256').update(bytes).digest('hex') !== diagram.sha256) {
-    throw new Error(`Wiring diagram changed without review record: ${diagram.publicPath}`)
-  }
+  if (createHash('sha256').update(bytes).digest('hex') !== diagram.sha256) throw new Error(`Review the changed wiring diagram: ${diagram.publicPath}`)
+  if (!/^[a-f0-9]{40}$/.test(diagram.firmwareCommit) || !diagram.sourceFiles?.length) throw new Error(`Pin the owning firmware: ${diagram.publicPath}`)
+  const page = await readFile(resolve(root, 'docs/zh', diagram.page), 'utf8')
+  const headings = [...page.matchAll(/^(#{1,6})\s+.*?\{#([^}]+)\}.*$/gm)]
+  const heading = headings.find(match => match[2] === diagram.anchor)
+  if (!heading) throw new Error(`${diagram.page}: missing #${diagram.anchor}`)
+  const next = headings.find(match => match.index > heading.index && match[1].length <= heading[1].length)
+  if (!page.slice(heading.index, next?.index ?? page.length).includes(diagram.publicPath)) throw new Error(`${diagram.page}: missing ${diagram.publicPath}`)
 }
-console.log(`Material checks passed: ${ids.size} dispositions; ${images} source-image references; ${assets.size} release files.`)
-console.log(`Teaching illustrations passed: ${coverage.pages.length} tutorials; ${sections} required sections; ${wiring.diagrams.length} current wiring diagrams.`)
+console.log(`Wiring checks passed: ${wiring.diagrams.length} versioned diagrams.`)

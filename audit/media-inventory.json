@@ -4158,31 +4158,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-001.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "board-identification",
-            "heading": "ESP32-S3 开发板",
-            "caption": "模组型号位置：核对 WROOM-1 与 N16R8"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-001.webp",
-        "sha256": "cbe49a038b3acbe52fa8d25a05ddcb22628c1ca5817e4a1ae06532a202805f08",
-        "bytes": 219876,
-        "width": 340,
-        "height": 490,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "51b44905132a73c2d96f9460814a91dacaa4c82291bd9baf887273bb35ffdcc8",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4199,31 +4177,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-002.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "board-identification",
-            "heading": "ESP32-S3 开发板",
-            "caption": "ESP32-S3-DevKitC-1 开发板外观"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-002.webp",
-        "sha256": "768487f8eb0336adc17e4e818b4354f358efffebf39d80ff8773b19a5f3822f4",
-        "bytes": 26164,
-        "width": 755,
-        "height": 689,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "4877f5b2015cf3d637d60c82c5b9b0829058052f369e8c9aa57f7bd789e08da2",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4240,31 +4196,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-003.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "board-identification",
-            "heading": "ESP32-S3 开发板",
-            "caption": "原板 RGB 附近的局部照片，仅用于识别该修订；不要求为点亮 RGB 改焊开发板"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-003.webp",
-        "sha256": "f9d4cd83043d81c39e30ef96c97da7e4443ef5b47c0ef100a099a4d0e88f3a7d",
-        "bytes": 147208,
-        "width": 718,
-        "height": 1600,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "93a98355abe2dbe589a9b4d913b0fb12244ee36f6b59c95e1e7162902c101569",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4281,31 +4215,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-004.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "microphone-modules",
-            "heading": "数字麦克风",
-            "caption": "INMP441 模块：核对 VDD、GND、WS、SCK、SD 与 L/R"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-004.webp",
-        "sha256": "725cb0ea32af1ce6161fc8c96b1a8dbd9968bfe84d039a97db9c53028935b60f",
-        "bytes": 17910,
-        "width": 800,
-        "height": 800,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "e718a0ecf63aedff2e0aa43f76e27f222f985edd398854bff31aa7c187bf720e",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4322,31 +4234,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-005.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "microphone-modules",
-            "heading": "数字麦克风",
-            "caption": " ZTS6672 麦克风模块"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-005.webp",
-        "sha256": "1ec8a7dfb15220614bfdc3a1ccccd3db7bbbe5c175c217b71e50d8ec429ef209",
-        "bytes": 18578,
-        "width": 545,
-        "height": 449,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "d5e3db723b2938859b28b2ecff035158b8d122086131834a71827ba1a5afec58",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4363,31 +4253,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-006.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "microphone-modules",
-            "heading": "数字麦克风",
-            "caption": " ICS43434 麦克风模块"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-006.webp",
-        "sha256": "e3d0b76f970412920a283e378d5c812b97369a4c581b0d533a2336d85c79a088",
-        "bytes": 11390,
-        "width": 649,
-        "height": 569,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "369957ac376d5e0668134d14dfc825066f3aa77fb2bbece7d2964c059ba89b2d",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4404,31 +4272,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-007.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "audio-modules",
-            "heading": "数字功放与扬声器",
-            "caption": "MAX98357A 模块与排针、扬声器端子"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-007.webp",
-        "sha256": "4a3af2190b378c51410515f612560b67181f0f8a51d3c247c918d599a8fa4184",
-        "bytes": 12400,
-        "width": 400,
-        "height": 400,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "3f108c1833f9b42a10e690acf57158bc90086b23ef20c3c00571dae22a67df87",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4445,31 +4291,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-008.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "audio-modules",
-            "heading": "数字功放与扬声器",
-            "caption": " HT517 功放模块与插座"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-008.webp",
-        "sha256": "812da441c0871222307a9235ecdb53a4328e882f94adf01989abe08f67baa546",
-        "bytes": 10916,
-        "width": 380,
-        "height": 263,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "a6b9b1c72d92ca71ed3fb36a36fe3cc5d5bb87225e0af79f58d88274e63b78ff",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4486,31 +4310,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-009.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "audio-modules",
-            "heading": "数字功放与扬声器",
-            "caption": "原 8Ω 腔体扬声器示例；本页选择 8Ω、3W"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-009.webp",
-        "sha256": "0cca1391fe05fe80ff1432b82a13372ac84cc2a6e26c15cb35350d03902adf62",
-        "bytes": 56068,
-        "width": 800,
-        "height": 800,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "29b97dfa09a90347f93d7029f22aa1d7922ecbfec5deb049ff9c12cc46d91379",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4527,38 +4329,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-010.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md",
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "另一种扬声器，阻抗和接头需匹配功放"
-          },
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "audio-modules",
-            "heading": "数字功放与扬声器",
-            "caption": "原 4Ω 腔体扬声器示例；需要另核对功放负载和电源余量"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-010.webp",
-        "sha256": "a82d73b438c2933eb3e89c75665c4bd408770de82a0c6989e9daeb6ac2cf1075",
-        "bytes": 16166,
-        "width": 543,
-        "height": 464,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "1031af2439f4b5a79850124b2d847e60c7ce4f85786dc30328a760f96f0f1546",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4575,38 +4348,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-011.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md",
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "C3 面包板用短跳线"
-          },
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "breadboard-parts",
-            "heading": "面包板、导线与按钮",
-            "caption": "用于面包板的短跳线"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-011.webp",
-        "sha256": "928a140e737aad978ed3b86954256192ed2e42b2488dd6c33d6936edc55ded54",
-        "bytes": 69292,
-        "width": 800,
-        "height": 800,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "d69443e2f853e9155c047e8352e5511e8208e307a24671a99d17918ec50b8991",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4623,38 +4367,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-012.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md",
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "C3 模块间的杜邦连接线"
-          },
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "breadboard-parts",
-            "heading": "面包板、导线与按钮",
-            "caption": "杜邦线示例：按模块和主板排针选择端头"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-012.webp",
-        "sha256": "513340e822346bc2a8884a652e374a656356abcf42d04ec2a3c1085dcb7680fd",
-        "bytes": 17436,
-        "width": 1240,
-        "height": 732,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "ccc5490c9290d23e227c3d0cf3bfaacdc20ebce74d053f756a7d36caa9fc8b5f",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4671,38 +4386,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-013.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md",
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "C3 使用的可拼面包板"
-          },
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "breadboard-parts",
-            "heading": "面包板、导线与按钮",
-            "caption": "两块可拼面包板的外观"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-013.jpg",
-        "sha256": "c23f450d4613eb1e63eb59eb912b21e7f3c171d03e27811958ee4601dfdcc7e7",
-        "bytes": 198447,
-        "width": 1280,
-        "height": 960,
-        "format": "jpeg",
-        "profile": "product",
-        "sourceSha256": "c23f450d4613eb1e63eb59eb912b21e7f3c171d03e27811958ee4601dfdcc7e7",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4719,38 +4405,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-014.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md",
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "面包板内部连通结构"
-          },
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "breadboard-parts",
-            "heading": "面包板、导线与按钮",
-            "caption": "面包板内部金属连接结构：孔位相邻不等于导通"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-014.webp",
-        "sha256": "51e285b6c1724c6dfd174ffa532ec29e474b39ed63a0846e649a202d3a016055",
-        "bytes": 43418,
-        "width": 602,
-        "height": 1072,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "0fc5062371761a4e6d3d8684a2ac64c8c237ae782d0f51356a8f9ac046a490ab",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4767,31 +4424,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-015.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "oled-modules",
-            "heading": "OLED 显示屏",
-            "caption": "0.91 英寸 128×32 OLED 示例"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-015.webp",
-        "sha256": "0f65244d6ef9a8d593baac8c61ad8252459a29ea29acbc531084bc8cdae0bcf3",
-        "bytes": 7090,
-        "width": 751,
-        "height": 516,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "c06eb02f42a43af97ed59a7253d327f3c20bc9e9f0b720807fa4af44aaea59b6",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4808,31 +4443,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-016.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "oled-modules",
-            "heading": "OLED 显示屏",
-            "caption": "0.96 英寸 128×64 OLED 示例"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-016.webp",
-        "sha256": "d078905ac60b67cdd3754ae0d71747f0acf865932f49872cda37d31fa72244d7",
-        "bytes": 30540,
-        "width": 499,
-        "height": 525,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "17decd5600477139ae80d8582f723513bc5426dcc1d4fbaf29dfbf4eac7da270",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4849,31 +4462,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-017.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-4g.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-4g.md",
-            "anchor": "ml307",
-            "heading": "ML307R：两种主板的位置图",
-            "caption": "一种 ML307R 核心板与商品界面"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-017.webp",
-        "sha256": "424132d629f6733326759584637599ece62cbdec0f63d2c5f2b2386cb986d700",
-        "bytes": 400914,
-        "width": 1581,
-        "height": 1112,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "e17ddfc826d267759850b6d8395e09ab92797aeeca9a89435911063169aff525",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4890,31 +4481,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-018.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-4g.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-4g.md",
-            "anchor": "ml307",
-            "heading": "ML307R：两种主板的位置图",
-            "caption": "另一种 ML307R mini 核心板"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-018.webp",
-        "sha256": "15ffea8427ec515219494d2a9bdb76914446fc7352b6839036b2f13605380f00",
-        "bytes": 166850,
-        "width": 800,
-        "height": 800,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "83175906a1f90b25198bcbb92ec76d3c03216d674d6224e295bcb100ce06fb51",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4931,31 +4500,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-019.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-4g.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-4g.md",
-            "anchor": "nt26",
-            "heading": "NT26K：两种主板的位置图",
-            "caption": "NT26K 核心板的引脚分布示意；按实际板修订核对信号与电源接口"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-019.webp",
-        "sha256": "4e7dfbb5ba4bc7409a14eb326e71ea29ee47fb36d8ae25b5136e17c1a0e4f28c",
-        "bytes": 323322,
-        "width": 1125,
-        "height": 835,
-        "format": "webp",
-        "profile": "wiring",
-        "sourceSha256": "673b176eca7d7fde3ec8226d7867398c2d3f9499aeb6eaaefc440fc5ca6b79e0",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -4972,38 +4519,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-020.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md",
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "可选轻触按钮；确认同侧内部连通关系"
-          },
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "breadboard-parts",
-            "heading": "面包板、导线与按钮",
-            "caption": "可选轻触按钮：同侧引脚可能已经连通，安装前确认导通关系"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-020.webp",
-        "sha256": "0e158b790a58a2ade186df4ca5e8bdfe512b1dd56604315ff73bb88f1312cdf4",
-        "bytes": 1990,
-        "width": 244,
-        "height": 179,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "d5f53102e1dbb78365ef97e51c1d98847e5d6d0f2bca493e373b3995e3b89f19",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5020,39 +4538,10 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-021.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md",
-        "docs/zh/hardware/breadboard-4g.md"
-      ],
       "reviewFinding": "原图含可选 ML307R、LDO 焊点取电和 3V3 功放；本页 Wi-Fi 不接 4G/LDO 分支，功放采用正文限定的 USB 5V 方案，图前与图注已具体说明。",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-4g.md",
-            "anchor": "ml307-44",
-            "heading": "乐鑫标准版 · 44 针",
-            "caption": "ML307R + 44 针主板接线图；信号参考有效，旧 LDO 电源分支不直接沿用"
-          },
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "layout-44",
-            "heading": "乐鑫标准版 · 44 针",
-            "caption": "44 针标准板位置总图（Surfer 标注）；Wi-Fi 版不接 4G/LDO 分支，功放供电按本页 5V 方案"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-021.jpg",
-        "sha256": "97d57825e456d7a9fb34693db5c6ca6de22f3423059f271b168907c8190992f0",
-        "bytes": 1148621,
-        "width": 1549,
-        "height": 1146,
-        "format": "jpeg",
-        "profile": "wiring",
-        "sourceSha256": "97d57825e456d7a9fb34693db5c6ca6de22f3423059f271b168907c8190992f0",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5069,32 +4558,10 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-022.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "reviewFinding": "反装指排针朝向变化，不是交换电源；两个主板分别保留原位置图。",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "reversed-microphone",
-            "heading": "麦克风排针焊在另一面时",
-            "caption": "44 针板：麦克风反面朝上的位置图，电气信号仍按 WS/SCK/SD 对应"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-022.jpg",
-        "sha256": "89b0bf20f895343869a9c027a3e366a11140aa07d48745afb82bc4a9e3ece64f",
-        "bytes": 929832,
-        "width": 1387,
-        "height": 1092,
-        "format": "jpeg",
-        "profile": "wiring",
-        "sourceSha256": "89b0bf20f895343869a9c027a3e366a11140aa07d48745afb82bc4a9e3ece64f",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5111,31 +4578,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-023.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "assembly-results",
-            "heading": "装配与完成效果",
-            "caption": "标准板基础布局与模块相对位置"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-023.jpg",
-        "sha256": "b3c83a958d866bb47d75dff3c3bd754803d20aa78f9d4f1ca10177398fb78d8f",
-        "bytes": 378252,
-        "width": 1280,
-        "height": 960,
-        "format": "jpeg",
-        "profile": "assembly",
-        "sourceSha256": "289106deaba8d4fe378d63427ba3d9f3cbfbda8f40091d6a0d9e384bf43f0887",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5152,31 +4597,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-024.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "assembly-results",
-            "heading": "装配与完成效果",
-            "caption": "标准板的连线与模块位置参考"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-024.jpg",
-        "sha256": "adaef768db451d9fcfc5f43f5bd19e2100b7d444dab4659af4357f8de6e992b6",
-        "bytes": 79528,
-        "width": 640,
-        "height": 480,
-        "format": "jpeg",
-        "profile": "assembly",
-        "sourceSha256": "547ab95039ad8f46a82a4b37a98a61b38a6b493d88a351b4a9a07494e7123f43",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5193,32 +4616,10 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-025.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-4g.md"
-      ],
       "reviewFinding": "历史 LDO 取电局部只在明确标注的折叠参考中出现，不作为当前施工步骤。",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-4g.md",
-            "anchor": "ml307-results",
-            "heading": "实物效果与隐藏连线",
-            "caption": "LDO 取电局部：本页不从该焊点引电"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-025.webp",
-        "sha256": "d451d2ecdc445eff1b2f60057bb574991533f2c06fd5f3b2d927f6a21f22ad03",
-        "bytes": 75364,
-        "width": 640,
-        "height": 696,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "5376912fb00d4bdc30aa1f6e0ed7916e7449778694f976da45ca97773bd1a1ad",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5235,39 +4636,10 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-026.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md",
-        "docs/zh/hardware/breadboard-4g.md"
-      ],
       "reviewFinding": "原图含可选 ML307R、LDO 焊点取电和 3V3 功放；本页 Wi-Fi 不接 4G/LDO 分支，功放采用正文限定的 USB 5V 方案，图前与图注已具体说明。",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-4g.md",
-            "anchor": "ml307-42",
-            "heading": "GOOUUU 果云版 · 42 针",
-            "caption": "ML307R + 42 针主板接线图；位置不同，UART 仍是 GPIO11/12"
-          },
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "layout-42",
-            "heading": "GOOUUU 果云版 · 42 针",
-            "caption": "42 针果云板位置总图（Surfer 标注）；电源排针位置不同；Wi-Fi 版不接 4G/LDO 分支，功放按本页 5V 方案"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-026.jpg",
-        "sha256": "60d03d4034cbaccefe7546b597936be445cc2524df93526929d01e8cea2c44a3",
-        "bytes": 1137538,
-        "width": 1552,
-        "height": 1145,
-        "format": "jpeg",
-        "profile": "wiring",
-        "sourceSha256": "60d03d4034cbaccefe7546b597936be445cc2524df93526929d01e8cea2c44a3",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5284,32 +4656,10 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-027.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "reviewFinding": "反装指排针朝向变化，不是交换电源；两个主板分别保留原位置图。",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "reversed-microphone",
-            "heading": "麦克风排针焊在另一面时",
-            "caption": "42 针板：麦克风反面朝上的位置图，不能按外观镜像后猜电源脚"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-027.jpg",
-        "sha256": "7e5ea2fefdc24e2a4d873fb8a50ab0b6e1d18c81252ce30e00e701cf126cbe37",
-        "bytes": 888149,
-        "width": 1327,
-        "height": 1095,
-        "format": "jpeg",
-        "profile": "wiring",
-        "sourceSha256": "7e5ea2fefdc24e2a4d873fb8a50ab0b6e1d18c81252ce30e00e701cf126cbe37",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5326,31 +4676,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-028.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "audio-direct",
-            "heading": "麦克风与功放的直连接法",
-            "caption": "麦克风与 MAX98357A 的直接连线：图中 3V3 功放支路与短接线按上文说明调整"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-028.jpg",
-        "sha256": "1de15db5e8f6a9360bac8f80b972f32558606872689f5188e8c37e469cb995cb",
-        "bytes": 199018,
-        "width": 1370,
-        "height": 870,
-        "format": "jpeg",
-        "profile": "wiring",
-        "sourceSha256": "1de15db5e8f6a9360bac8f80b972f32558606872689f5188e8c37e469cb995cb",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5367,31 +4695,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-029.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "assembly-results",
-            "heading": "装配与完成效果",
-            "caption": "果云板的模块布置"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-029.webp",
-        "sha256": "ab84cb48161c76fbb5cd7a6951d4e5046a84d07a430e44ea7c521185c9fdb8fd",
-        "bytes": 279086,
-        "width": 1016,
-        "height": 2200,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "e10fdd2fe0db28dd180d4ebc135ee1969c692ff2f60f062cd2ecba6e75dea190",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5408,31 +4714,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-030.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "assembly-results",
-            "heading": "装配与完成效果",
-            "caption": "果云板的另一个装配视角"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-030.webp",
-        "sha256": "9fcd5c22fd58cc5f7a76d6c169ee5d9eaf185bf6f2d177bc36d2168b15858afb",
-        "bytes": 221176,
-        "width": 1016,
-        "height": 2200,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "58fcfb0bde094d380f6401902b00c3dcd9b59e5a019db18ebd21778e72780f05",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5462,32 +4746,10 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-031.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-4g.md"
-      ],
       "reviewFinding": "NT26K GPIO9/10/11/12 与当前配置对照；原图从开发板 3V3 供电不作为通用方案，模块电源按核心板设计另核。",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-4g.md",
-            "anchor": "nt26-44",
-            "heading": "乐鑫标准版 · 44 针",
-            "caption": "NT26K + 44 针主板接线图；GPIO9/10/11/12 与当前配置核对，图中 3V3 供电需另行复核"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-031.webp",
-        "sha256": "c37cbd4834bc4fca35daac48ed5e4cd4421d1a06b049ace029fd853bc832aa42",
-        "bytes": 1195906,
-        "width": 1675,
-        "height": 1139,
-        "format": "webp",
-        "profile": "wiring",
-        "sourceSha256": "887477364d7f5466c0cd52c95b637c26f9803a5182cd535b4c184bcef3a6a4de",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5504,31 +4766,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-032.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-4g.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-4g.md",
-            "anchor": "nt26-44",
-            "heading": "乐鑫标准版 · 44 针",
-            "caption": "NT26K 标准板样机装配实物"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-032.webp",
-        "sha256": "a3f4d293d8cc2fbdc1e204528ae268b20c9a70ba5c01fad2f3fbbd2cdcc35163",
-        "bytes": 135722,
-        "width": 920,
-        "height": 820,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "c33471f2c869f88863321cb681c559ddf973f9d6370249dc3aef80bc0628593f",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5545,32 +4785,10 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-033.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-4g.md"
-      ],
       "reviewFinding": "NT26K GPIO9/10/11/12 与当前配置对照；原图从开发板 3V3 供电不作为通用方案，模块电源按核心板设计另核。",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-4g.md",
-            "anchor": "nt26-42",
-            "heading": "GOOUUU 果云版 · 42 针",
-            "caption": "NT26K + 42 针主板接线图；不能把 ML307R 的两根串口线当作完整 NT26K 接法"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-033.webp",
-        "sha256": "1d752e845106543163c5233b400978c49cb48ae87609b8e37761f71b2168405d",
-        "bytes": 1102366,
-        "width": 1614,
-        "height": 1134,
-        "format": "webp",
-        "profile": "wiring",
-        "sourceSha256": "57398ba7316a0e6047583a5ea9bce6d72b72fc193c2d74e180d6d4b465b391e7",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5587,31 +4805,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-034.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-4g.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-4g.md",
-            "anchor": "nt26-42",
-            "heading": "GOOUUU 果云版 · 42 针",
-            "caption": "NT26K 果云板样机装配实物"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-034.webp",
-        "sha256": "acc081225718c3d5280bf7335e923af629f49eea0b9d8435eceae2ff24a511b8",
-        "bytes": 507148,
-        "width": 1800,
-        "height": 1581,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "7601c0585b72003a8dae4769d40204ba547c0f23e1e7fce8d385bca5987e56e9",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5628,31 +4824,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-035.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "finished-overview",
-            "heading": "先看做成后的样子",
-            "caption": "基础版实物：ESP32-S3、麦克风、功放与扬声器"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-035.jpg",
-        "sha256": "9c892ae22b7e4b0814b63da78d9e7e55c749f1754090138f7b07ef502a04cf2e",
-        "bytes": 289559,
-        "width": 1280,
-        "height": 960,
-        "format": "jpeg",
-        "profile": "assembly",
-        "sourceSha256": "9c892ae22b7e4b0814b63da78d9e7e55c749f1754090138f7b07ef502a04cf2e",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5669,31 +4843,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-036.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "underside",
-            "heading": "接线完成后：检查模块下面的线",
-            "caption": "基础版移开模块后的接线实物，可看到模块下方的隐藏短线"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-036.jpg",
-        "sha256": "c25b4d6a07f9ab7a3cd03904bd59401274812a3b1c71c04c47615f8dbc9a1831",
-        "bytes": 305056,
-        "width": 1280,
-        "height": 960,
-        "format": "jpeg",
-        "profile": "assembly",
-        "sourceSha256": "c25b4d6a07f9ab7a3cd03904bd59401274812a3b1c71c04c47615f8dbc9a1831",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5710,31 +4862,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-037.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "finished-overview",
-            "heading": "先看做成后的样子",
-            "caption": "OLED 扩展实物：在基础音频方案上增加显示屏"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-037.jpg",
-        "sha256": "b1a4842c413f037d446e6a087456e7f084ff9046f165c6de3d7a8d65845fc314",
-        "bytes": 256337,
-        "width": 1280,
-        "height": 960,
-        "format": "jpeg",
-        "profile": "assembly",
-        "sourceSha256": "b1a4842c413f037d446e6a087456e7f084ff9046f165c6de3d7a8d65845fc314",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5751,31 +4881,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-038.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-4g.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-4g.md",
-            "anchor": "ml307-results",
-            "heading": "实物效果与隐藏连线",
-            "caption": "ML307R 扩展完成效果"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-038.jpg",
-        "sha256": "7ea114946d035b75d33967deaedb35c77059fc908a2ac9443d0232d126d380d2",
-        "bytes": 158915,
-        "width": 1280,
-        "height": 960,
-        "format": "jpeg",
-        "profile": "assembly",
-        "sourceSha256": "7ea114946d035b75d33967deaedb35c77059fc908a2ac9443d0232d126d380d2",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5792,31 +4900,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-039.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-4g.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-4g.md",
-            "anchor": "ml307-results",
-            "heading": "实物效果与隐藏连线",
-            "caption": "ML307R 方案移开外围模块后的连线视角"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-039.jpg",
-        "sha256": "d56167b60a33a655d30435b917009f736e44cfcfe4035cce2c1b3afcb7c1f6e7",
-        "bytes": 164238,
-        "width": 1280,
-        "height": 960,
-        "format": "jpeg",
-        "profile": "assembly",
-        "sourceSha256": "d56167b60a33a655d30435b917009f736e44cfcfe4035cce2c1b3afcb7c1f6e7",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5868,31 +4954,9 @@
       "reason": "用于读者当前步骤：ST7789 屏幕正面。",
       "publicPath": "/images/zh/doc-06-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/displays/st7789.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/displays/st7789.md",
-            "anchor": "scope",
-            "heading": "1. 识别屏幕",
-            "caption": "ST7789 屏幕正面。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-06-image-001.webp",
-        "sha256": "0ed1cb95bec9dcf759cecf88c5ee77f870b373ad8603820a1776e6ba36860372",
-        "bytes": 15220,
-        "width": 439,
-        "height": 350,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "0e3239e52ce578a641e10783d8a0aee92568d821e4d1c8751103b5ac71dc58d5",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5908,31 +4972,9 @@
       "reason": "用于读者当前步骤：原屏幕背面与接口丝印。",
       "publicPath": "/images/zh/doc-06-image-002.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/displays/st7789.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/displays/st7789.md",
-            "anchor": "scope",
-            "heading": "1. 识别屏幕",
-            "caption": "原屏幕背面与接口丝印。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-06-image-002.webp",
-        "sha256": "861ab10489cdc54bbe9bdaee8e12174d3c2fce4825129c3f6f0141edfee272ff",
-        "bytes": 101378,
-        "width": 403,
-        "height": 344,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "5ba36c6ac1802b68e88e9c30460039afd8045cfc2c4b85a0a1bbec155c3540df",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5949,32 +4991,10 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-06-image-003.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/displays/st7789.md"
-      ],
       "reviewFinding": "恢复 44/42 针彩屏总图；原 240×240 屏与本版默认 240×320 区分，3V3 功放及模块短接与本版方案的差异紧贴图片说明。",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/displays/st7789.md",
-            "anchor": "layout-44",
-            "heading": "乐鑫标准版 · 44 针",
-            "caption": "44 针标准板 SPI 彩屏总接线图（Surfer 标注），电源与屏幕尺寸差异见图前说明"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-06-image-003.jpg",
-        "sha256": "0d0d1b7dcef9c69e92b64eec715c3e6aa6da54f1d98cd640818f9c90c9360cf6",
-        "bytes": 801516,
-        "width": 1388,
-        "height": 858,
-        "format": "jpeg",
-        "profile": "wiring",
-        "sourceSha256": "0d0d1b7dcef9c69e92b64eec715c3e6aa6da54f1d98cd640818f9c90c9360cf6",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -5990,31 +5010,9 @@
       "reason": "用于读者当前步骤：原彩屏面包板的完成实物，屏幕尺寸、方向与参数按自己的模块核对",
       "publicPath": "/images/zh/doc-06-image-004.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/displays/st7789.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/displays/st7789.md",
-            "anchor": "verify",
-            "heading": "完成效果与检查",
-            "caption": "原彩屏面包板的完成实物，屏幕尺寸、方向与参数按自己的模块核对"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-06-image-004.webp",
-        "sha256": "454f9ea8f4362082197395ee007ff8263f070f69fcbbb4ac2cd9343b0cbd3145",
-        "bytes": 283206,
-        "width": 1716,
-        "height": 1262,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "c520464f603042d0fd4c7b0ddb885441638fa6cca0dc111d6457ed146bd908d0",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -6031,32 +5029,10 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-06-image-005.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/displays/st7789.md"
-      ],
       "reviewFinding": "恢复 44/42 针彩屏总图；原 240×240 屏与本版默认 240×320 区分，3V3 功放及模块短接与本版方案的差异紧贴图片说明。",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/displays/st7789.md",
-            "anchor": "layout-42",
-            "heading": "GOOUUU 果云版 · 42 针",
-            "caption": "42 针果云板 SPI 彩屏总接线图，按 GPIO 识别不同排针位置"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-06-image-005.jpg",
-        "sha256": "d2260f80fe8229e8c4fc338400ff61684061fa665a87efe88308a2221ae261bf",
-        "bytes": 1131093,
-        "width": 1739,
-        "height": 1131,
-        "format": "jpeg",
-        "profile": "wiring",
-        "sourceSha256": "d2260f80fe8229e8c4fc338400ff61684061fa665a87efe88308a2221ae261bf",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -6116,31 +5092,9 @@
       "reason": "用于读者当前步骤：摄像头模块与排线接口。",
       "publicPath": "/images/zh/doc-07-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-camera.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-camera.md",
-            "anchor": "scope",
-            "heading": "准备工作",
-            "caption": "摄像头模块与排线接口。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-07-image-001.webp",
-        "sha256": "0cc90b4846ed8c25626aab2f2f0950bce6fca4bd9fcb2cbcf4e99ae5ef3389e5",
-        "bytes": 589446,
-        "width": 815,
-        "height": 1045,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "056cbd8fb7af862123286a9e52c6b8069a1226279fde43e0a1cb7818959ad0b2",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -6156,31 +5110,9 @@
       "reason": "用于读者当前步骤：LCD 模块外观。",
       "publicPath": "/images/zh/doc-06-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-camera.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-camera.md",
-            "anchor": "scope",
-            "heading": "准备工作",
-            "caption": "LCD 模块外观。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-06-image-001.webp",
-        "sha256": "0ed1cb95bec9dcf759cecf88c5ee77f870b373ad8603820a1776e6ba36860372",
-        "bytes": 15220,
-        "width": 439,
-        "height": 350,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "0e3239e52ce578a641e10783d8a0aee92568d821e4d1c8751103b5ac71dc58d5",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -6196,31 +5128,9 @@
       "reason": "用于读者当前步骤：LCD 模块接口丝印。",
       "publicPath": "/images/zh/doc-06-image-002.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-camera.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-camera.md",
-            "anchor": "scope",
-            "heading": "准备工作",
-            "caption": "LCD 模块接口丝印。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-06-image-002.webp",
-        "sha256": "861ab10489cdc54bbe9bdaee8e12174d3c2fce4825129c3f6f0141edfee272ff",
-        "bytes": 101378,
-        "width": 403,
-        "height": 344,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "5ba36c6ac1802b68e88e9c30460039afd8045cfc2c4b85a0a1bbec155c3540df",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -6236,31 +5146,9 @@
       "reason": "用于读者当前步骤：摄像头面包板装配示例。",
       "publicPath": "/images/zh/doc-07-image-004.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-camera.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-camera.md",
-            "anchor": "finished-overview",
-            "heading": "先看装配效果",
-            "caption": "摄像头面包板装配示例。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-07-image-004.webp",
-        "sha256": "82862ef2d91175d1d3c28f624ae0a93d87fdc5b52ee08027d46d4f4e2ac51d86",
-        "bytes": 194888,
-        "width": 2200,
-        "height": 1650,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "2764d6ac7fcb03cbebb265966064d31ea67bb2ce9b2a47f93f05c88fed7fd3c3",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -6276,31 +5164,9 @@
       "reason": "用于读者当前步骤：原型装配的另一视角；信号接法请以本页版本表为准。",
       "publicPath": "/images/zh/doc-07-image-005.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-camera.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-camera.md",
-            "anchor": "finished-overview",
-            "heading": "先看装配效果",
-            "caption": "原型装配的另一视角；信号接法请以本页版本表为准。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-07-image-005.webp",
-        "sha256": "f6e225813fa5af6b1c462a0736a700baccacf72be65c6683303ace578b20b0bd",
-        "bytes": 198090,
-        "width": 2200,
-        "height": 1650,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "7d94da5fc183f285d65640d87bffc67dbb9476bed819504bcbf4c22e64d87d96",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -6439,26 +5305,7 @@
       "publicPath": "/images/zh/doc-08-image-003.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/firmware/flashing.md",
-            "anchor": "windows-tool",
-            "heading": "Windows 图形工具",
-            "caption": "Flash Download Tool 3.9.7 的启动选项：本例为 ESP32-S3 / Develop / UART。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-08-image-003.webp",
-        "sha256": "3e54985bbe47fb64d8285628b9f2340c0e423c050cd1fc2d9f3e55601e0e24f9",
-        "bytes": 6524,
-        "width": 987,
-        "height": 514,
-        "format": "webp",
-        "profile": "text",
-        "sourceSha256": "db369d9c34b03f273f5145bfd960ac9ce2fa805393fd9e67bfde70ef6a3c2929",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -6494,26 +5341,7 @@
       "publicPath": "/images/zh/doc-08-image-005.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/firmware/flashing.md",
-            "anchor": "windows-tool",
-            "heading": "Windows 图形工具",
-            "caption": "为合并镜像选择文件并填写地址；本例只适用于已确认从 0x0 写入的完整 S3 镜像。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-08-image-005.webp",
-        "sha256": "83512746dd493e3488865a2338499e2ed3d43862fc0fc22f4bfb8a80b28dcb4e",
-        "bytes": 8180,
-        "width": 521,
-        "height": 371,
-        "format": "webp",
-        "profile": "text",
-        "sourceSha256": "a325bc061b0910302ea2c01d82429437cccd4bc27ab129d50db9e463597fadd4",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -6586,26 +5414,7 @@
       "publicPath": "/images/zh/doc-08-image-009.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/firmware/flashing.md",
-            "anchor": "windows-tool",
-            "heading": "Windows 图形工具",
-            "caption": "工具出现 FINISH 后重启设备，再检查实际版本与功能。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-08-image-009.webp",
-        "sha256": "a56f0d7cf0ed8090dd80aaad6466666cd98533adc9f62807116a7cf689fd1716",
-        "bytes": 74054,
-        "width": 532,
-        "height": 847,
-        "format": "webp",
-        "profile": "text",
-        "sourceSha256": "f852a002d6b06e1376c6d394d266d0614174cc6d50171b9ca6a7fd08f473713d",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -7111,26 +5920,7 @@
       "publicPath": "/images/zh/doc-09-image-006.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/getting-started/wifi-and-binding.md",
-            "anchor": "hotspot",
-            "heading": "2A. 使用热点配网",
-            "caption": "热点页面提示保存成功后，等待设备重启并连接目标网络；这一步还没有完成账号绑定。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-09-image-006.webp",
-        "sha256": "f70ab11ff604016ca4299f18160999e00411dfc22a162455f9ec66d6d2022980",
-        "bytes": 31350,
-        "width": 417,
-        "height": 821,
-        "format": "webp",
-        "profile": "text",
-        "sourceSha256": "be84cfdc9402a26f356eef6947e9d9ea9dc82c0be1162ae1df477053c3d2d3c5",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -7560,31 +6350,9 @@
       "reason": "用于读者当前步骤：芯片与语音能力的选型示意表：麦克风数量、唤醒、音频处理和显示需求需一起考虑。具体支持范围按所用固件核对。",
       "publicPath": "/images/zh/doc-11-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/design-guidelines.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/design-guidelines.md",
-            "anchor": "scope",
-            "heading": "1. 从信号与负载选型",
-            "caption": "芯片与语音能力的选型示意表：麦克风数量、唤醒、音频处理和显示需求需一起考虑。具体支持范围按所用固件核对。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-11-image-001.webp",
-        "sha256": "920eb3a8442c032c94e6f70f88519d53c2a3347a489a2d148898127ce0e68cf9",
-        "bytes": 19220,
-        "width": 549,
-        "height": 319,
-        "format": "webp",
-        "profile": "text",
-        "sourceSha256": "42fbc9124fd2579e5f4cb980e6f81f5d257884f7b483b5ae2f15325d66a2743e",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -7601,31 +6369,9 @@
       "publicPath": "/images/zh/doc-12-image-001.webp",
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "C3 主控模块。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-12-image-001.webp",
-        "sha256": "98c713e4f93b868f6a2ce163c48bc303a92ad1816a228fbdbdc1a8131556a149",
-        "bytes": 67096,
-        "width": 1545,
-        "height": 1150,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "422bb8c5fdf3a964dc4fe7abe00386eb5fc60adfa127ff095f20c8e85ad55e88",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -7642,31 +6388,9 @@
       "publicPath": "/images/zh/doc-12-image-002.webp",
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "ES8311 与 NS4150 音频模块；核对具体版本和丝印。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-12-image-002.webp",
-        "sha256": "3de22c62508ce737160cf5a8688c75ed94ef5d09518f2624fdf435caf616296a",
-        "bytes": 146842,
-        "width": 865,
-        "height": 641,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "4684a240af909e34ebe96f1ba6dc5301198af6614521901e08828ab1db648dfc",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -7683,31 +6407,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-12-image-003.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "C3 方案的腔体扬声器"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-12-image-003.webp",
-        "sha256": "44389157a411357269938385a9b28ec77ac75234b895d64240bc3ff78a5771d0",
-        "bytes": 10022,
-        "width": 727,
-        "height": 692,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "47c969543dee1719a76820ebf53cde5b3456699c4930ee1496abdb513759f50c",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -7724,38 +6426,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-010.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md",
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "另一种扬声器，阻抗和接头需匹配功放"
-          },
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "audio-modules",
-            "heading": "数字功放与扬声器",
-            "caption": "原 4Ω 腔体扬声器示例；需要另核对功放负载和电源余量"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-010.webp",
-        "sha256": "a82d73b438c2933eb3e89c75665c4bd408770de82a0c6989e9daeb6ac2cf1075",
-        "bytes": 16166,
-        "width": 543,
-        "height": 464,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "1031af2439f4b5a79850124b2d847e60c7ce4f85786dc30328a760f96f0f1546",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -7772,38 +6445,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-011.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md",
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "C3 面包板用短跳线"
-          },
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "breadboard-parts",
-            "heading": "面包板、导线与按钮",
-            "caption": "用于面包板的短跳线"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-011.webp",
-        "sha256": "928a140e737aad978ed3b86954256192ed2e42b2488dd6c33d6936edc55ded54",
-        "bytes": 69292,
-        "width": 800,
-        "height": 800,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "d69443e2f853e9155c047e8352e5511e8208e307a24671a99d17918ec50b8991",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -7820,38 +6464,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-012.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md",
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "C3 模块间的杜邦连接线"
-          },
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "breadboard-parts",
-            "heading": "面包板、导线与按钮",
-            "caption": "杜邦线示例：按模块和主板排针选择端头"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-012.webp",
-        "sha256": "513340e822346bc2a8884a652e374a656356abcf42d04ec2a3c1085dcb7680fd",
-        "bytes": 17436,
-        "width": 1240,
-        "height": 732,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "ccc5490c9290d23e227c3d0cf3bfaacdc20ebce74d053f756a7d36caa9fc8b5f",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -7868,38 +6483,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-013.jpg",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md",
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "C3 使用的可拼面包板"
-          },
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "breadboard-parts",
-            "heading": "面包板、导线与按钮",
-            "caption": "两块可拼面包板的外观"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-013.jpg",
-        "sha256": "c23f450d4613eb1e63eb59eb912b21e7f3c171d03e27811958ee4601dfdcc7e7",
-        "bytes": 198447,
-        "width": 1280,
-        "height": 960,
-        "format": "jpeg",
-        "profile": "product",
-        "sourceSha256": "c23f450d4613eb1e63eb59eb912b21e7f3c171d03e27811958ee4601dfdcc7e7",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -7916,38 +6502,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-014.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md",
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "面包板内部连通结构"
-          },
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "breadboard-parts",
-            "heading": "面包板、导线与按钮",
-            "caption": "面包板内部金属连接结构：孔位相邻不等于导通"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-014.webp",
-        "sha256": "51e285b6c1724c6dfd174ffa532ec29e474b39ed63a0846e649a202d3a016055",
-        "bytes": 43418,
-        "width": 602,
-        "height": 1072,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "0fc5062371761a4e6d3d8684a2ac64c8c237ae782d0f51356a8f9ac046a490ab",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -7964,31 +6521,9 @@
       "publicPath": "/images/zh/doc-12-image-009.webp",
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "OLED 模块。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-12-image-009.webp",
-        "sha256": "185dd5c473d6fb7a8fa4c5b7593653804a4bb653cfea1605f7d5e6d346b4013a",
-        "bytes": 18148,
-        "width": 421,
-        "height": 457,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "37cbc9f1e5f3ec9746e3c69247941bf0f48c3138f6aeb855ca04d7f7cef4bf21",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -8005,38 +6540,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-05-image-020.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md",
-        "docs/zh/hardware/breadboard-esp32-s3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "parts",
-            "heading": "先认齐这套 C3 的配件",
-            "caption": "可选轻触按钮；确认同侧内部连通关系"
-          },
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-s3.md",
-            "anchor": "breadboard-parts",
-            "heading": "面包板、导线与按钮",
-            "caption": "可选轻触按钮：同侧引脚可能已经连通，安装前确认导通关系"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-05-image-020.webp",
-        "sha256": "0e158b790a58a2ade186df4ca5e8bdfe512b1dd56604315ff73bb88f1312cdf4",
-        "bytes": 1990,
-        "width": 244,
-        "height": 179,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "d5f53102e1dbb78365ef97e51c1d98847e5d6d0f2bca493e373b3995e3b89f19",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -8053,32 +6559,10 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-12-image-011.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md"
-      ],
       "reviewFinding": "恢复原 C3 总图；明确 ADC→主控 GPIO7、主控 GPIO5→DAC 的方向，并区分模块 3V3 与 VCC/5VIN 电源脚。",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "wiring-diagram",
-            "heading": "总接线图与模块方向",
-            "caption": "C3-N16-SF 与 ES8311/NS4150B、OLED 的完整位置图；模块信号方向和双电源脚见图前说明"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-12-image-011.webp",
-        "sha256": "b4608ce334b4a8c4e4e5f3bd234b6ec5f9382fba110cda414f3d05665a1f24cd",
-        "bytes": 932256,
-        "width": 1440,
-        "height": 1214,
-        "format": "webp",
-        "profile": "wiring",
-        "sourceSha256": "bc92063c28e7363990100284d0d91885fd7ccfda25c72bbc47859767d49cb70b",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -8095,31 +6579,9 @@
       "publicPath": "/images/zh/doc-12-image-012.jpg",
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "oled-result",
-            "heading": "OLED 基础方案",
-            "caption": "C3 + OLED 完成实物"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-12-image-012.jpg",
-        "sha256": "ff298ccf9917bb3a7907c074096550f7575727d5b19ffc6116db837a2cde9314",
-        "bytes": 445107,
-        "width": 1280,
-        "height": 1707,
-        "format": "jpeg",
-        "profile": "assembly",
-        "sourceSha256": "ff298ccf9917bb3a7907c074096550f7575727d5b19ffc6116db837a2cde9314",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -8136,31 +6598,9 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-12-image-013.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "oled-result",
-            "heading": "OLED 基础方案",
-            "caption": "C3 + OLED 的另一侧连线"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-12-image-013.webp",
-        "sha256": "38cd1d6e8f154c9e379d27e2b23c638b87dbbc9fd15a77c0285c2ce4c607fe39",
-        "bytes": 301402,
-        "width": 980,
-        "height": 1115,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "5e9b15b5dd32efeec6acfef505867724944c5953889237ced2cf13b78539a451",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -8177,23 +6617,10 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-12-image-014.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [],
       "readerReview": {
         "reviewedAt": "2026-11-15",
         "method": "PR #12 scope correction; pinned firmware source comparison, not a new visual or hardware test",
-        "placements": [],
         "evidenceRecord": "inventory.json#DOC-12"
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-12-image-014.webp",
-        "sha256": "04c108072f109bc01c613801c9ba40201807e4f6cdb539c74cf316b891a6ac81",
-        "bytes": 64984,
-        "width": 730,
-        "height": 824,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "64e7b84cbb93396557e88ac8d5fc25201581f51fbda2cc715936ad3754d17e68",
-        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -8210,23 +6637,10 @@
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-12-image-015.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [],
       "readerReview": {
         "reviewedAt": "2026-11-15",
         "method": "PR #12 scope correction; pinned firmware source comparison, not a new visual or hardware test",
-        "placements": [],
         "evidenceRecord": "inventory.json#DOC-12"
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-12-image-015.webp",
-        "sha256": "545614c4ce29097acfdc65bcc34cad5cce6d6ef6029189aeb6b158fadd5ae2b8",
-        "bytes": 51012,
-        "width": 502,
-        "height": 456,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "554ef3c9d3357da7ee47f36e4352c0642af51ddd55c2c456d0a98177acd6a7b0",
-        "optimizationRecord": "image-optimization.json"
       }
     },
     {
@@ -8342,31 +6756,9 @@
       "reason": "用于读者当前步骤：OLED 的引脚丝印；GPIO 连接使用下文固件表。",
       "publicPath": "/images/zh/doc-13-image-002.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32.md",
-            "anchor": null,
-            "heading": "逐根核对",
-            "caption": "OLED 的引脚丝印；GPIO 连接使用下文固件表。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-13-image-002.webp",
-        "sha256": "6bc35f1ebd7248cd1be217ec08575e107267cdd660802e992f87fffac4706400",
-        "bytes": 333326,
-        "width": 941,
-        "height": 788,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "539263ab4ba08d997fdd36a856a086dae4b3dcc6b302ef805e132b7736a9b76e",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -8616,31 +7008,9 @@
       "reason": "用于读者当前步骤：经典 ESP32 样机。",
       "publicPath": "/images/zh/doc-13-image-016.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32.md",
-            "anchor": "finished-overview",
-            "heading": "先看装配效果",
-            "caption": "经典 ESP32 样机。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-13-image-016.webp",
-        "sha256": "130c6edded36f0d48cf1f20cfc698779f040457ea129a57de3faecd8f9c2c6fa",
-        "bytes": 445156,
-        "width": 2200,
-        "height": 1821,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "6a4c387fdb79c25391e00724cf1232b0f4239ed4f1e9f645ce1669cdf75dea2e",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -8656,31 +7026,9 @@
       "reason": "用于读者当前步骤：经典 ESP32 装配参考。",
       "publicPath": "/images/zh/doc-13-image-017.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32.md",
-            "anchor": "finished-overview",
-            "heading": "先看装配效果",
-            "caption": "经典 ESP32 装配参考。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-13-image-017.webp",
-        "sha256": "5ad3a71c0e6e1814fc790173c86880452d9b25fe44fc557ca852021704e33dc5",
-        "bytes": 441322,
-        "width": 2200,
-        "height": 1617,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "33d094af8ed7e69900e985eacff01d1bc33e0a18c70c74e9dc20ad584aa91e6f",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -9055,9 +7403,6 @@
       "decision": "not-reused",
       "reason": "旧控制台录音、上传、裁剪、训练和角色页面已改版；按当前两阶段训练与角色配置重写，保留录音/上传差别和当前裁剪示意，不复用旧按钮位置及固定等待时间。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/console/voice-cloning.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -9184,9 +7529,6 @@
       "decision": "not-reused",
       "reason": "旧控制台录音、上传、裁剪、训练和角色页面已改版；按当前两阶段训练与角色配置重写，保留录音/上传差别和当前裁剪示意，不复用旧按钮位置及固定等待时间。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/console/voice-cloning.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -9578,9 +7920,6 @@
       "decision": "not-reused",
       "reason": "知识库/智能体旧布局已改版；当前创建、上传、解析、切片、召回及扩展能力关联步骤重新编写，配关系图，不用旧界面位置引导。设备效果视频仍按其实际用途保留。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/console/knowledge-base.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -9870,32 +8209,7 @@
       "publicPath": "/images/zh/doc-18-image-011.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/firmware/flashing.md",
-            "anchor": "download-mode",
-            "heading": "手动进入下载模式",
-            "caption": "Web Serial 授权窗口：选开发板对应串口。若看不准，取消后插拔观察，再重新授权。"
-          },
-          {
-            "page": "docs/zh/firmware/online-builder.md",
-            "anchor": "flash",
-            "heading": "4. 下载或烧录",
-            "caption": "浏览器串口授权弹窗：选择插入开发板后出现的端口，COM 编号因电脑而异。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-18-image-011.webp",
-        "sha256": "7b475ba445485c707b63c46bd6ef01a96eed6a8a832660e106ebf2f236c0e114",
-        "bytes": 15358,
-        "width": 585,
-        "height": 344,
-        "format": "webp",
-        "profile": "text",
-        "sourceSha256": "228f76996e29eb48300590da26f5d7b6090d10d02270fc4fc04818cca0c6b172",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -11823,31 +10137,9 @@
       "reason": "用于读者当前步骤：Windows 设备管理器中查找串口的示例；COM 编号因电脑而异。",
       "publicPath": "/images/zh/doc-23-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/faq/serial-logs.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/faq/serial-logs.md",
-            "anchor": "port",
-            "heading": "1. 找到端口",
-            "caption": "Windows 设备管理器中查找串口的示例；COM 编号因电脑而异。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-23-image-001.webp",
-        "sha256": "abb2189eff3b57027ff1ada708974863c20d5cb01a765a0f8186ae7fc73e5534",
-        "bytes": 39146,
-        "width": 711,
-        "height": 322,
-        "format": "webp",
-        "profile": "text",
-        "sourceSha256": "1e16b179afd0b601ad9e49a16bca963c540df5a632348871f2c6db1492d277f2",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -12712,31 +11004,9 @@
       "reason": "用于读者当前步骤：xiaozhi-mcphub 的工具市场列表：这是挑选服务的界面，不是连接架构图。",
       "publicPath": "/images/zh/doc-27-image-006.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/community/mcp-tools.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/community/mcp-tools.md",
-            "anchor": "mcphub",
-            "heading": "xiaozhi-mcphub",
-            "caption": "xiaozhi-mcphub 的工具市场列表：这是挑选服务的界面，不是连接架构图。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-27-image-006.webp",
-        "sha256": "e4ab6bc1637f031d838fa46634852fc51e99b5f69dd4621e1b8a75cfbb555408",
-        "bytes": 181112,
-        "width": 3840,
-        "height": 1916,
-        "format": "webp",
-        "profile": "text",
-        "sourceSha256": "608601aef401080fefd9bd60ff81dc6c763939f02158002b84ea31663cebef0e",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -13380,31 +11650,9 @@
       "reason": "用于读者当前步骤：Xmini-C3 板外观。",
       "publicPath": "/images/zh/doc-29-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/boards/xmini-c3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/boards/xmini-c3.md",
-            "anchor": null,
-            "heading": "Xmini-C3、V3 与 4G 版本",
-            "caption": "Xmini-C3 板外观。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-29-image-001.webp",
-        "sha256": "dd3d3a38517efea7b1ced0e1f1b9f944f1ea81bb5dd2c9f6a398054993e6db8c",
-        "bytes": 18020,
-        "width": 480,
-        "height": 333,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "a04e1ac38b6f464dc5f24b3d6a329be2ec01895c351e24c15e28369c7771a094",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -13727,31 +11975,9 @@
       "reason": "用于读者当前步骤：原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。",
       "publicPath": "/images/zh/doc-29-image-019.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/boards/xmini-c3.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/boards/xmini-c3.md",
-            "anchor": "scope",
-            "heading": "1. 对照自己的板",
-            "caption": "原板 BOOT、开关与 USB 位置；不要据此推断 V3 的引脚。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-29-image-019.webp",
-        "sha256": "68c9198e4e246926a06ee7910859fef7a0455b908f4f718a03e879951af0981e",
-        "bytes": 284696,
-        "width": 802,
-        "height": 764,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "4b2d8506eb80e8785e4486a8ceb658b527620962a1f9a4432e323edc64b99e58",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -14523,33 +12749,11 @@
       "reason": "用于读者当前步骤：插件版原型与外观。",
       "publicPath": "/images/zh/doc-30-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/community/projects/sf32lb52-plugin.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/community/projects/sf32lb52-plugin.md",
-            "anchor": "hardware",
-            "heading": "认识这套硬件",
-            "caption": "插件版原型与外观。"
-          }
-        ]
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       },
-      "externalMaintainerTutorial": "https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/",
-      "publishedAsset": {
-        "path": "/images/zh/doc-30-image-001.webp",
-        "sha256": "1b56b01aedc2dd3419cf59df272b670b53fe2ee90a1382b1c6d0b4963c2cbc6c",
-        "bytes": 70852,
-        "width": 1600,
-        "height": 1213,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "be4e34b847c3ddfdda3eb0ac3ed914379dd7b05885f649e57f8cd76cd3d13878",
-        "optimizationRecord": "image-optimization.json"
-      }
+      "externalMaintainerTutorial": "https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/"
     },
     {
       "id": "DOC-30-image-002",
@@ -14755,9 +12959,6 @@
       "decision": "delegated-to-maintainer",
       "reason": "嘉立创维护者教程承接此小节（尺寸便携精致）；按用户要求只维护外链入口，不复制设计、图片或操作流程。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/community/projects/sf32lb52-plugin.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -14895,9 +13096,6 @@
       "decision": "delegated-to-maintainer",
       "reason": "嘉立创维护者教程承接此小节（二、硬件电路分析）；按用户要求只维护外链入口，不复制设计、图片或操作流程。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/community/projects/sf32lb52-plugin.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -14998,9 +13196,6 @@
       "decision": "delegated-to-maintainer",
       "reason": "嘉立创维护者教程承接此小节（**音频功放部分**）；按用户要求只维护外链入口，不复制设计、图片或操作流程。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/community/projects/sf32lb52-plugin.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -15061,9 +13256,6 @@
       "decision": "delegated-to-maintainer",
       "reason": "嘉立创维护者教程承接此小节（**麦克风部分**）；按用户要求只维护外链入口，不复制设计、图片或操作流程。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/community/projects/sf32lb52-plugin.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -15164,9 +13356,6 @@
       "decision": "delegated-to-maintainer",
       "reason": "嘉立创维护者教程承接此小节（**下载部分**）；按用户要求只维护外链入口，不复制设计、图片或操作流程。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/community/projects/sf32lb52-plugin.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -16063,9 +14252,6 @@
       "decision": "delegated-to-maintainer",
       "reason": "嘉立创维护者教程承接此小节（辅助焊接工具）；按用户要求只维护外链入口，不复制设计、图片或操作流程。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/community/projects/sf32lb52-plugin.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -16503,9 +14689,6 @@
       "decision": "delegated-to-maintainer",
       "reason": "嘉立创维护者教程承接此小节（外壳正面设计）；按用户要求只维护外链入口，不复制设计、图片或操作流程。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/community/projects/sf32lb52-plugin.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -16916,9 +15099,6 @@
       "decision": "delegated-to-maintainer",
       "reason": "嘉立创维护者教程承接此小节（案例面板下载）；按用户要求只维护外链入口，不复制设计、图片或操作流程。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/community/projects/sf32lb52-plugin.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -17152,9 +15332,6 @@
       "decision": "delegated-to-maintainer",
       "reason": "嘉立创维护者教程承接此小节（开始使用）；按用户要求只维护外链入口，不复制设计、图片或操作流程。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/community/projects/sf32lb52-plugin.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -17375,9 +15552,6 @@
       "decision": "delegated-to-maintainer",
       "reason": "嘉立创维护者教程承接此小节（界面提示含义）；按用户要求只维护外链入口，不复制设计、图片或操作流程。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/community/projects/sf32lb52-plugin.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -17398,9 +15572,6 @@
       "decision": "delegated-to-maintainer",
       "reason": "嘉立创维护者教程承接此小节（界面提示含义）；按用户要求只维护外链入口，不复制设计、图片或操作流程。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/community/projects/sf32lb52-plugin.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -17441,9 +15612,6 @@
       "decision": "delegated-to-maintainer",
       "reason": "嘉立创维护者教程承接此小节（唤醒）；按用户要求只维护外链入口，不复制设计、图片或操作流程。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/community/projects/sf32lb52-plugin.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -17524,9 +15692,6 @@
       "decision": "delegated-to-maintainer",
       "reason": "嘉立创维护者教程承接此小节（十、FAQ）；按用户要求只维护外链入口，不复制设计、图片或操作流程。",
       "visualReview": "contact-sheet-and-body-context-reviewed; not-approved-as-current-illustration",
-      "usedIn": [
-        "docs/zh/community/projects/sf32lb52-plugin.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
         "method": "contact-sheet-and-body-context",
@@ -17584,31 +15749,9 @@
       "reason": "用于读者当前步骤：Xmini-C3 系列成品外观；外壳相似不能代替 PCB 修订和固件变体核对。",
       "publicPath": "/images/zh/doc-31-image-003.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/supported-boards.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/supported-boards.md",
-            "anchor": "scope",
-            "heading": "先识别硬件",
-            "caption": "Xmini-C3 系列成品外观；外壳相似不能代替 PCB 修订和固件变体核对。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-31-image-003.webp",
-        "sha256": "aaf2397bd4c9762189965f89de6c3e5cfb14b842c91e45a5a24e7e9262872844",
-        "bytes": 12058,
-        "width": 566,
-        "height": 615,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "52aaa7b0784637712ad08c0b5150a93d98d976416743a7f0624a3f5dbe9728c6",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -17624,31 +15767,9 @@
       "reason": "用于读者当前步骤：ESP32-BOX-3 外观。",
       "publicPath": "/images/zh/doc-31-image-004.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/supported-boards.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/supported-boards.md",
-            "anchor": "scope",
-            "heading": "先识别硬件",
-            "caption": "ESP32-BOX-3 外观。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-31-image-004.webp",
-        "sha256": "a1da9cafc21e9811b06238b5c2be5e46533d14166997c908af297889c2d26243",
-        "bytes": 8730,
-        "width": 298,
-        "height": 315,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "00247a72ecc64578b26db64aba589713e60dce6ac39bf6c964890e2f55673e7b",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -17790,31 +15911,9 @@
       "reason": "用于读者当前步骤：M5Stack CoreS3 外观；支持范围以固件目录为准。",
       "publicPath": "/images/zh/doc-31-image-012.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/supported-boards.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/supported-boards.md",
-            "anchor": "scope",
-            "heading": "先识别硬件",
-            "caption": "M5Stack CoreS3 外观；支持范围以固件目录为准。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-31-image-012.webp",
-        "sha256": "77c4dac41ce861660e6b3bc18e05e3e8b42d45b8bb70e95aab1db470e36382f2",
-        "bytes": 27476,
-        "width": 648,
-        "height": 603,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "9cb3e3395cbbfb4c17bbf92bd8682a3316b4706da0913cbe94a30031f3536c0e",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -17974,31 +16073,9 @@
       "reason": "用于读者当前步骤：ASR CORE 模块外观。",
       "publicPath": "/images/zh/doc-32-image-006.jpg",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/external-wake-module.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/external-wake-module.md",
-            "anchor": "identify",
-            "heading": "1. 区分模块与下载器",
-            "caption": "ASR CORE 模块外观。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-32-image-006.jpg",
-        "sha256": "0533833034c00f9184071cffe752dd23284014a5c778b2633f146a63f346e2eb",
-        "bytes": 88940,
-        "width": 898,
-        "height": 732,
-        "format": "jpeg",
-        "profile": "labeled",
-        "sourceSha256": "0533833034c00f9184071cffe752dd23284014a5c778b2633f146a63f346e2eb",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -18014,31 +16091,9 @@
       "reason": "用于读者当前步骤：ASR-LINK 下载器，用于辨认接口。",
       "publicPath": "/images/zh/doc-32-image-007.jpg",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/external-wake-module.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/external-wake-module.md",
-            "anchor": "identify",
-            "heading": "1. 区分模块与下载器",
-            "caption": "ASR-LINK 下载器，用于辨认接口。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-32-image-007.jpg",
-        "sha256": "4cec8e33bed17c9e75e2c88b0fc4fc04cdd6d45d44a03b13a09527b4d4aa001a",
-        "bytes": 89283,
-        "width": 1068,
-        "height": 936,
-        "format": "jpeg",
-        "profile": "labeled",
-        "sourceSha256": "4cec8e33bed17c9e75e2c88b0fc4fc04cdd6d45d44a03b13a09527b4d4aa001a",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -18054,31 +16109,9 @@
       "reason": "用于读者当前步骤：模块配套麦克风。",
       "publicPath": "/images/zh/doc-32-image-008.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/hardware/external-wake-module.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/external-wake-module.md",
-            "anchor": "identify",
-            "heading": "1. 区分模块与下载器",
-            "caption": "模块配套麦克风。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-32-image-008.webp",
-        "sha256": "27b869e6155e493140caff934eb2be5566caf28fc45cbd4eb3ee27b27abe034f",
-        "bytes": 104902,
-        "width": 1079,
-        "height": 1078,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "49cc691ddbf82f099cf61e34ef6094fab1382a7a48bdc90aca40d239d390822f",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -18348,26 +16381,7 @@
       "publicPath": "/images/zh/doc-32-image-023.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/external-wake-module.md",
-            "anchor": "configure",
-            "heading": "2. 在模块上配置命令",
-            "caption": "天问 Block 的词条与 GPIO 动作积木示例。配置重点是识别后输出的引脚、极性和持续时间，参数须与实际板级输入匹配。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-32-image-023.webp",
-        "sha256": "382f1a5dae588b9327a95a2b7a3dbc1bfe0c7be3cfeed588be315eb4eeb5fefd",
-        "bytes": 75790,
-        "width": 631,
-        "height": 1405,
-        "format": "webp",
-        "profile": "text",
-        "sourceSha256": "76fd2fec94739f1bb59c338acea850d8800e844f788fd6fdde271d169dbb2970",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -18475,26 +16489,7 @@
       "publicPath": "/images/zh/doc-32-image-029.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/external-wake-module.md",
-            "anchor": "configure",
-            "heading": "2. 在模块上配置命令",
-            "caption": "ASRPRO 下载工具示例：选择下载器串口、芯片型号与本次生成的程序文件，不能使用小智主固件包替代。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-32-image-029.webp",
-        "sha256": "591c63a105de7e6f9a07825992e86f10f7ad9ebe300b16f15c7bf7b20b1506d4",
-        "bytes": 2116,
-        "width": 497,
-        "height": 147,
-        "format": "webp",
-        "profile": "text",
-        "sourceSha256": "eaf0590b62382350e12f83df2d6b2ba54bde2d31dd2dd6af901ef8476a0789e0",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -18566,26 +16561,7 @@
       "publicPath": "/images/zh/doc-32-image-033.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/external-wake-module.md",
-            "anchor": "prototype",
-            "heading": "面包板安装示例",
-            "caption": "核心板在面包板上的安装位置；先确认排针方向和相邻触点，避免跨接电源。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-32-image-033.webp",
-        "sha256": "9f114454c4f3bfaf30467d15568d1d6e00c947da4b5bdb87085dfc1d9af046d1",
-        "bytes": 35712,
-        "width": 725,
-        "height": 672,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "a98c4de3cd83a909ce01ddf6a69d9c21dafe9da5c3215a20d903651138a85053",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -18603,26 +16579,7 @@
       "publicPath": "/images/zh/doc-32-image-034.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/external-wake-module.md",
-            "anchor": "prototype",
-            "heading": "面包板安装示例",
-            "caption": "样机的 ASR 输出到 S3 按钮输入示意。只用于理解信号关系；供电、电平、极性与启动行为须按具体模块确认。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-32-image-034.webp",
-        "sha256": "d60de6e76ffcf8ada4ed7894cb2952a97de3cee059415ef7d19e311f868eb819",
-        "bytes": 715028,
-        "width": 1079,
-        "height": 703,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "12415232f1e8477cbcba10ee806f363886c3a3b72b1ae7b2e0dadef39c8dda7d",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -18928,26 +16885,7 @@
       "publicPath": "/images/zh/doc-32-image-051.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/external-wake-module.md",
-            "anchor": "identify",
-            "heading": "1. 区分模块与下载器",
-            "caption": "ASR PRO V2.0 开发板示例：带 USB 和外围电路，不等同于仅有焊盘的核心板。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-32-image-051.webp",
-        "sha256": "6c15e04214e04af7def1a138d66de5db01006417b0eb4b2b36232dd986fc0803",
-        "bytes": 66316,
-        "width": 1010,
-        "height": 1004,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "846d4ab5e95d920fe640a65d2e7f13506730745f7190cf9320598ecbc6e992e7",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -18965,26 +16903,7 @@
       "publicPath": "/images/zh/doc-32-image-052.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/external-wake-module.md",
-            "anchor": "identify",
-            "heading": "1. 区分模块与下载器",
-            "caption": "ASR PRO 4M 核心板示例：存储容量、下载方式和引脚按对应修订核对。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-32-image-052.webp",
-        "sha256": "8f650e66dd682903be0cf69c9c70902e364b2fd70ea0eb627b955143187c9477",
-        "bytes": 28672,
-        "width": 947,
-        "height": 726,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "7539aa692e98fdc5648ef5185db4daea20000c3fd92f422c84de325f7527d09f",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -19342,26 +17261,7 @@
       "publicPath": "/images/zh/doc-34-image-002.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/battery-power.md",
-            "anchor": "custom-power",
-            "heading": "3. 裸电芯与升压模块的边界",
-            "caption": "带引线和接插件的电池示例：必须按具体电池资料核对化学体系、电压和插头极性。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-34-image-002.webp",
-        "sha256": "b2f069f5823fe456012776e4b4be2861cda43e99db5f6a5609724ccaa5b25a36",
-        "bytes": 23242,
-        "width": 914,
-        "height": 638,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "5e5527fa1d6eb67077f62065b59bfb84e35a016cc5d21f8cb95539f0042e6441",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -19379,26 +17279,7 @@
       "publicPath": "/images/zh/doc-34-image-003.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/battery-power.md",
-            "anchor": "custom-power",
-            "heading": "3. 裸电芯与升压模块的边界",
-            "caption": "电源模块的 B+、B− 与 5V 焊点示例。USB 接口的输入/输出用途及充电、保护能力须按该模块资料确认。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-34-image-003.webp",
-        "sha256": "857d6c954bca9867161651055b7355ac1385936dee0e15af563efaecdcfc0b8a",
-        "bytes": 95520,
-        "width": 676,
-        "height": 521,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "84799053c54d799a1fa0bd9eb9f9a9f56464f74d33388016613c863361ee4414",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -19614,26 +17495,7 @@
       "publicPath": "/images/zh/doc-35-image-002.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/audio-output.md",
-            "anchor": "headphones",
-            "heading": "使用耳机或有源音箱",
-            "caption": "三脚 3.5mm 插座的外观。插座本身不具备耳机驱动或电平转换功能，不能直接接 MAX98357A 的输出。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-35-image-002.webp",
-        "sha256": "100f2b9ab75d83a1e3f1f296a4482a4bf56d95ae4c1a39550aa01aa1b535a837",
-        "bytes": 14306,
-        "width": 858,
-        "height": 638,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "df49e77c2d10e55e9c8fb576d204413e050b68a81607d8a141482044b248191a",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -21010,31 +18872,9 @@
       "reason": "用于读者当前步骤：原太空人故事机与改造目标。",
       "publicPath": "/images/zh/doc-44-image-001.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/community/projects/astronaut-storyteller.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/community/projects/astronaut-storyteller.md",
-            "anchor": null,
-            "heading": "太空人故事机改造案例",
-            "caption": "原太空人故事机与改造目标。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-44-image-001.webp",
-        "sha256": "dee114aaff3ba61ba0f43d6df3eea6a67f844c0d478c319de3e3a0c0a6b53da3",
-        "bytes": 10270,
-        "width": 325,
-        "height": 296,
-        "format": "webp",
-        "profile": "product",
-        "sourceSha256": "88a428724a69930ccf56fda9138f7edf49ef3fa004f7eb0266cd3adaf4d73152",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -21068,31 +18908,9 @@
       "reason": "用于读者当前步骤：示例样机 PCB 拆解照片，仅适用该板修订。",
       "publicPath": "/images/zh/doc-44-image-003.jpg",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/community/projects/astronaut-storyteller.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/community/projects/astronaut-storyteller.md",
-            "anchor": "scope",
-            "heading": "1. 拆机与识别",
-            "caption": "示例样机 PCB 拆解照片，仅适用该板修订。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-44-image-003.jpg",
-        "sha256": "c44683789317ed7c3fba29a5663081ce20f8437570083d094b2af72a028c135e",
-        "bytes": 166593,
-        "width": 1280,
-        "height": 1707,
-        "format": "jpeg",
-        "profile": "assembly",
-        "sourceSha256": "c44683789317ed7c3fba29a5663081ce20f8437570083d094b2af72a028c135e",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -21108,31 +18926,9 @@
       "reason": "用于读者当前步骤：原板另一视角；拆除器件前必须确认电路。",
       "publicPath": "/images/zh/doc-44-image-004.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/community/projects/astronaut-storyteller.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/community/projects/astronaut-storyteller.md",
-            "anchor": "scope",
-            "heading": "1. 拆机与识别",
-            "caption": "原板另一视角；拆除器件前必须确认电路。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-44-image-004.webp",
-        "sha256": "edd786203d4f9bb143ed77c9cb3e4cbb58c27bec4a90f0dd03530b794d2bf7a5",
-        "bytes": 499254,
-        "width": 756,
-        "height": 755,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "adc5823d7e7a2f37493de3203548185d7c030396efd714f64867b7fbf1980b52",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -21148,31 +18944,9 @@
       "reason": "用于读者当前步骤：INMP441 麦克风模块。",
       "publicPath": "/images/zh/doc-44-image-005.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/community/projects/astronaut-storyteller.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/community/projects/astronaut-storyteller.md",
-            "anchor": "audio",
-            "heading": "2. 新语音部分",
-            "caption": "INMP441 麦克风模块。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-44-image-005.webp",
-        "sha256": "bf4dda6941c4c7c0eb13eabd573430dfc3a6227804f7a24b869d3c99091e7a05",
-        "bytes": 18006,
-        "width": 596,
-        "height": 425,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "1ecb0979d293cf39d5b4cd5d436d988f660c46b3c5ff8320e37d26fcc004be06",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -21188,31 +18962,9 @@
       "reason": "用于读者当前步骤：MAX98357A 功放模块。",
       "publicPath": "/images/zh/doc-44-image-006.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/community/projects/astronaut-storyteller.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/community/projects/astronaut-storyteller.md",
-            "anchor": "audio",
-            "heading": "2. 新语音部分",
-            "caption": "MAX98357A 功放模块。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-44-image-006.webp",
-        "sha256": "38bd0efc223e7f336169e87e7b48c5b7d411d9372d9e1e0ead8e25b67a18f913",
-        "bytes": 261382,
-        "width": 779,
-        "height": 580,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "8ddcc9a34bc083144942bb6b7f559a12cbba9cd329ba1242206a13970ac4f818",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -21228,31 +18980,9 @@
       "reason": "用于读者当前步骤：原功放模块接线参考。",
       "publicPath": "/images/zh/doc-44-image-007.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/community/projects/astronaut-storyteller.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/community/projects/astronaut-storyteller.md",
-            "anchor": "audio",
-            "heading": "2. 新语音部分",
-            "caption": "原功放模块接线参考。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-44-image-007.webp",
-        "sha256": "5d49b0efa265795fa781b26746cffc414d0b0d2f2e77d171d449822008d511bc",
-        "bytes": 260598,
-        "width": 754,
-        "height": 577,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "dce88ddb2b261184ad117e9c94f8dbab4b8e84713c23113b126f489fbf335df8",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -21268,31 +18998,9 @@
       "reason": "用于读者当前步骤：原语音模块组装。",
       "publicPath": "/images/zh/doc-44-image-008.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/community/projects/astronaut-storyteller.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/community/projects/astronaut-storyteller.md",
-            "anchor": "audio",
-            "heading": "2. 新语音部分",
-            "caption": "原语音模块组装。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-44-image-008.webp",
-        "sha256": "4e767b324301effad9fdabef44f28e0f456e204da95ca5fcd22ea2894c071d92",
-        "bytes": 232482,
-        "width": 362,
-        "height": 656,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "5023497a5b55c1e66c636037b149cdecf359de8bf2049ff8501426f9880cc182",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -21308,31 +19016,9 @@
       "reason": "用于读者当前步骤：原语音部分的另一视角。",
       "publicPath": "/images/zh/doc-44-image-009.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/community/projects/astronaut-storyteller.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/community/projects/astronaut-storyteller.md",
-            "anchor": "audio",
-            "heading": "2. 新语音部分",
-            "caption": "原语音部分的另一视角。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-44-image-009.webp",
-        "sha256": "6d2f92d08e464a0bf0e281748fc5d5975640e3258334ce1cec6a4018d8e90d52",
-        "bytes": 323376,
-        "width": 1650,
-        "height": 2200,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "9bf077623e3739cc496187721fa94d2512c7f72d2d4c39bc99c671756634438f",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -21386,26 +19072,7 @@
       "publicPath": "/images/zh/doc-44-image-012.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/community/projects/astronaut-storyteller.md",
-            "anchor": "power",
-            "heading": "3. 电池、USB 和原板复用",
-            "caption": "样机电源模块的 OUT 5V、BAT、VIN 和 GND 标注。输入、电池与输出不能互换；接线前核对具体模块原理图。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-44-image-012.webp",
-        "sha256": "4e761bc67894d65c6782b68779f08ba3cd85339dac726b235f3b76b4f159b4c5",
-        "bytes": 182996,
-        "width": 649,
-        "height": 515,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "2d61ffb79551c7d1e10b2933f36c3f05cb396e50cfc9101d2a10941afa71d745",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -21423,26 +19090,7 @@
       "publicPath": "/images/zh/doc-44-image-013.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/community/projects/astronaut-storyteller.md",
-            "anchor": "build",
-            "heading": "4. 按键、固件与装壳",
-            "caption": "这块样机按键板上的信号引出点：先测量导通、有效电平和原板供电，再接入主控。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-44-image-013.webp",
-        "sha256": "7fdc4679db71691f1794540ac8bf86c896dcaa8c9d27e6da2ed2412092097288",
-        "bytes": 201148,
-        "width": 456,
-        "height": 546,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "2c02503b95d6b40d3b280cc67330d0674d3f11ea5a5cc2fea5b5809427ac9b70",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -21460,26 +19108,7 @@
       "publicPath": "/images/zh/doc-44-image-014.webp",
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/community/projects/astronaut-storyteller.md",
-            "anchor": "build",
-            "heading": "4. 按键、固件与装壳",
-            "caption": "样机的按键信号引到 S3 接口与 BOOT 附近。照片用于识别焊点，不能直接套用到其他 PCB 修订。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-44-image-014.webp",
-        "sha256": "554c3749fc2dc4d387f86148e272e4133d477536b85b99e2a4e05e9c29f4bd03",
-        "bytes": 624642,
-        "width": 687,
-        "height": 961,
-        "format": "webp",
-        "profile": "labeled",
-        "sourceSha256": "55c6d5461105ac7beed2cb3f55af5c6c6bcbeeba218df2778a1ef71f0f26fee0",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -21495,31 +19124,9 @@
       "reason": "用于读者当前步骤：原改造样机完成状态。",
       "publicPath": "/images/zh/doc-44-image-015.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/community/projects/astronaut-storyteller.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/community/projects/astronaut-storyteller.md",
-            "anchor": "build",
-            "heading": "4. 按键、固件与装壳",
-            "caption": "原改造样机完成状态。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-44-image-015.webp",
-        "sha256": "91735bf3acafef8388c8e81455309e41a4740e66f3aa0f2d60b9eae662bbce46",
-        "bytes": 423634,
-        "width": 1650,
-        "height": 2200,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "d08da6e06aca3df7acfc9a05823d8ffd0119a0302e5ee20d647bb3933f83c725",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {
@@ -21535,31 +19142,9 @@
       "reason": "用于读者当前步骤：装壳效果。",
       "publicPath": "/images/zh/doc-44-image-016.webp",
       "visualReview": "visual-contact-sheet; critical diagrams additionally inspected at full size",
-      "usedIn": [
-        "docs/zh/community/projects/astronaut-storyteller.md"
-      ],
       "readerReview": {
         "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/community/projects/astronaut-storyteller.md",
-            "anchor": "build",
-            "heading": "4. 按键、固件与装壳",
-            "caption": "装壳效果。"
-          }
-        ]
-      },
-      "publishedAsset": {
-        "path": "/images/zh/doc-44-image-016.webp",
-        "sha256": "1aebffbd41606e6de6d08eee6b944ff6045b3ac7912251b8d2dd1b1956cb2498",
-        "bytes": 107980,
-        "width": 1707,
-        "height": 1280,
-        "format": "webp",
-        "profile": "assembly",
-        "sourceSha256": "460ec3a662e4844d12161a0ef759c65c997b1d06e9f71c9ac3105638c4fa8a1f",
-        "optimizationRecord": "image-optimization.json"
+        "method": "contact-sheet-and-body-context; key diagrams separately enlarged"
       }
     },
     {

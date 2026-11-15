@@ -1,5 +1,16 @@
 # 内容审计与重构
 
+## 日常维护规则
+
+- 正文版本由 Git 跟踪；不维护页面输出摘要、逐页图片位置或重复素材数量汇总。
+- 重要技术纠正、来源取舍与验证范围只在 `inventory.json` 的对应来源中记录。
+- 现有 `wiring-diagrams.json` 保留六张版本化接线图的摘要、上游版本与技术章节引用；普通照片、成品照、截图和流程插图不绑定章节。
+- 原素材身份留在 `media-inventory.json`；衍生文件与保护图的像素证据只记 `image-optimization.json`。原逐章图片清单 `hardware-illustrations.json` 已移除，可由 Git 历史追溯。
+- 带日期的逐页复查与翻译记录是历史证据，不随日常编辑刷新。英文 `translation.sourceHash` 仍需逐页对照中文后确认。
+- `npm run check` 保留来源覆盖、关键接线图、下载身份、双语一致性、链接、图片尺寸/体积与构建检查；不代替真机验证。
+
+## 历史迁移记录
+
 审计范围为飞书教程总目录直接引用的 44 篇文档，不包含文章内部递归引用和非飞书外部网站。统计来自 2026-11-14 的只读接口快照，未采集读者个人访问记录。
 
 - `feishu-statistics-2026-11-14.json`：保留原始统计与创建、修改时间，只作为证据快照，不直接编辑数值。
@@ -8,8 +19,7 @@
 - `verification-baseline-2026-11-14.json`：对照的固件、控制台提交及制造商资料，供后续复核。
 - `p1-p2-rewrite-2026-11-14.md`：剩余 33 篇来源的中文重构、版本纠正、素材与验证范围。
 - `breadboard-illustration-repair-2026-11-14.md`：用户反馈后的面包板图片遗漏、归属错误与变体修复。
-- `hardware-illustrations.json`：6 篇硬件教程中 28 个必须具备图片的教学章节，防止只有清单却正文无图。C3 彩屏章节保留兼容性说明与原锚点，不再要求与当前构建不符的样机照片；取舍及源码依据见 `inventory.json` 的 DOC-12。
-- `wiring-diagrams.json`：6 张当前连线图的固件版本、配置指纹与 SVG 指纹。
+- `wiring-diagrams.json`：现有版本化接线图及固件来源；C3 彩屏章节保留兼容性说明与原锚点，取舍依据见 `inventory.json` 的 DOC-12。
 - `media-inventory.json`：1100 个嵌入素材引用（原1094项加6个声音教学音频）的保留、替换或不迁入理由；未采用不等于逐项目视验证。
 - `distribution-verification-2026-11-14.json`：公开 Release 的 58 个资产校验、CI 与浏览器播放抽查结果。
 - `release-assets.json`：63 个去重原文件的来源、公开地址和 SHA-256。
@@ -18,7 +28,7 @@
 
 本轮结论：保留 3、重写 25、合并 13、归档 3、删除 0；P0 11 篇、P1 20 篇、P2 13 篇。原始统计文件中的 `content_assessment` 保留采集时的“待逐篇核验”，当前结论以 `inventory.json` 为准。
 
-`reviewStatus: reviewed` 仅代表正文编辑审计完成。全部 44 篇来源已改为 `implementationStatus: community-review`，中文重构/合并/归档与英文待翻译入口已存在。各篇 `implementation` 记录实际修改、新稿指纹和验证范围，不覆盖 `sourceReview` 中的飞书原文指纹。没有改动飞书原文。
+`reviewStatus: reviewed` 仅代表正文编辑审计完成。全部 44 篇来源已改为 `implementationStatus: community-review`，中文重构/合并/归档与英文待翻译入口已存在。各篇 `implementation` 记录实际修改和验证范围；当前版本由 Git 跟踪，不覆盖 `sourceReview` 中的飞书原文指纹。没有改动飞书原文。
 
 `community-review` 不表示社区已经确认。收到反馈、完成适用范围内的必要验证后，再决定发布中文并启动英文翻译；当前 `communityFeedback.status` 仍为 `awaiting-feedback`。
 
@@ -65,9 +75,9 @@
 
 ## 阅读顺序与素材复查
 
-本轮逐页结论、图文放置与当前中文指纹见 [读者视角复查](reader-review-2026-11-14.md)及 [JSON](reader-review-2026-11-14.json)。749 张引用逐项保留具体采用/不采用原因；新版 Console 旧图与旧编译视频单独归档，不伪装成当前界面。讨论联系方式只在公共页首集中维护，中英文固件 README 的群号差异仅记审计。
+本轮逐页结论、当时的图文放置与中文指纹见 [读者视角复查](reader-review-2026-11-14.md)及 [JSON](reader-review-2026-11-14.json)。749 张引用逐项保留具体采用/不采用原因；新版 Console 旧图与旧编译视频单独归档，不伪装成当前界面。讨论联系方式只在公共页首集中维护，中英文固件 README 的群号差异仅记审计。
 
-`npm run check:reader` 检查其余文章的重要图片仍在对应章节、旧 Console 截图没有回流、首选在线烧录入口存在，以及文章没有散落具体群号。它与硬件图检查一起防止仅靠图片数量报告完成。
+`npm run check:reader` 直接从中文正文检查首选在线烧录入口与联系方式集中维护；不再读取历史逐页图片清单或锁定截图摘要。接线图检查留在 `check:assets`，双语图片与几何检查留在 `check:translations`。
 
 ## 图片体积与发布衍生文件
 

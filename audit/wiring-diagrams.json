@@ -14,9 +14,8 @@
         "功放 SD/MODE、GAIN 使用所选模块厂商工作设置，不能把另一块板的短接线照搬过来。",
         "本图与 44/42 针的位置图配合使用；针脚位置变了，GPIO 名称与模块信号对应关系不变。"
       ],
-      "sourceFileSha256": {
-        "main/boards/bread-compact-wifi/config.h": "d75a03b0da3c56659a77ae5d087d815ee5f718903a88f944cabca978535944a0"
-      }
+      "page": "hardware/breadboard-esp32-s3.md",
+      "anchor": "wiring-overview"
     },
     {
       "publicPath": "/images/zh/breadboard-esp32-wiring-v2.6.0.svg",
@@ -31,9 +30,8 @@
         "5V 功放支路需先核对所用 ESP32 开发板 USB/电源电路与模块规格；不从裸稳压器引脚取电。",
         "图中功放为带默认工作电路的 MAX98357A 模块；使能/增益设置按模块资料处理。"
       ],
-      "sourceFileSha256": {
-        "main/boards/bread-compact-esp32/config.h": "b2b9a6dc3aeff71eba7221884e7bbdd204bf94add680c55213a87b1b4c2cc30a"
-      }
+      "page": "hardware/breadboard-esp32.md",
+      "anchor": "wiring"
     },
     {
       "publicPath": "/images/zh/breadboard-c3-signals-v2.6.0.svg",
@@ -48,9 +46,8 @@
         "原图 DI/DO 丝印需结合模块电路理解；以“ADC 输出进入主控 / 主控输出进入 DAC”判定方向。",
         "C3 V3 是另一套 GPIO，不能套用此图。"
       ],
-      "sourceFileSha256": {
-        "main/boards/xmini/c3/config.h": "7066f33c996269bf724d317cb5c2d4dc203a3bce0b1a567f3ca237aaf4694fc2"
-      }
+      "page": "hardware/breadboard-esp32-c3.md",
+      "anchor": "wiring-diagram"
     },
     {
       "publicPath": "/images/zh/breadboard-4g-signals-v2.6.0.svg",
@@ -66,10 +63,8 @@
         "旧图的 LDO 焊点取电、NT26K 从开发板 3V3 供电不作为本版推荐；独立稳压供电时需共地。",
         "音频与 OLED 接线见基础 S3 图，4G 型号和固件必须匹配。"
       ],
-      "sourceFileSha256": {
-        "main/boards/bread-compact-ml307/config.h": "c0ab6d0cc93d354b477e1f3ad2113706e1f5b9425e1f661261ca00619dde64aa",
-        "main/boards/bread-compact-nt26/config.h": "1086ee4a54c64364aa37268513a78f4c144102ca244ccffe6d8864895bf9e292"
-      }
+      "page": "hardware/breadboard-4g.md",
+      "anchor": "signals"
     },
     {
       "publicPath": "/images/zh/breadboard-camera-signals-v2.6.0.svg",
@@ -84,9 +79,8 @@
         "这是信号分配图，未统一指定各模块电源；按实际 CAM 底板、屏幕与音频模块电气资料接电。",
         "LCD GPIO19/20 与原生 USB 功能重叠，不能套用另一块板的 USB/引脚接法。"
       ],
-      "sourceFileSha256": {
-        "main/boards/bread-compact-wifi-s3cam/config.h": "ef09c393e8745893c822c74c5776baf250e98cbcdb882f988aeea1aef1677e80"
-      }
+      "page": "hardware/breadboard-camera.md",
+      "anchor": "wiring-diagram"
     },
     {
       "publicPath": "/images/zh/breadboard-s3-oled-v2.6.0.svg",
@@ -100,9 +94,8 @@
         "此图只连接 OLED；128×32 与 128×64 的接线相同，固件变体不同。",
         "按模块的 VCC/GND/SDA/SCL 丝印接线，不按排针左右顺序猜测。"
       ],
-      "sourceFileSha256": {
-        "main/boards/bread-compact-wifi/config.h": "d75a03b0da3c56659a77ae5d087d815ee5f718903a88f944cabca978535944a0"
-      }
+      "page": "hardware/breadboard-esp32-s3.md",
+      "anchor": "display"
     }
   ],
   "hardwareTested": false

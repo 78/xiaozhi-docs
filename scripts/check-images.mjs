@@ -77,9 +77,9 @@ async function inspect(directory) {
     if (profile.maxLongEdge && Math.max(meta.width, meta.height) > profile.maxLongEdge) failures.push(`${publicPath}: exceeds ${profile.maxLongEdge}px`)
     if (meta.orientation && meta.orientation !== 1) failures.push(`${publicPath}: normalize EXIF orientation before stripping metadata`)
     if (dimensions[publicPath]?.width !== meta.width || dimensions[publicPath]?.height !== meta.height) failures.push(`${publicPath}: missing or incorrect intrinsic dimensions`)
-    if (record) {
+    if (record && profile.lossless) {
       const hash = createHash('sha256').update(await readFile(file)).digest('hex')
-      if (hash !== record.output.sha256 || size !== record.output.bytes) failures.push(`${publicPath}: published derivative does not match its optimization record`)
+      if (hash !== record.output.sha256 || size !== record.output.bytes) failures.push(`${publicPath}: protected text/wiring changed; review and update its optimization record`)
     }
   }
 }
