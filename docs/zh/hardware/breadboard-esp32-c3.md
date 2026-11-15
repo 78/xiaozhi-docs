@@ -178,29 +178,7 @@ C3 可使用兼容的轻量 WakeNet 路径，项目也有 C3 4G 板型。无 PSR
 
 </div>
 
-<a name="lcd-example"></a>
-
-### 彩屏扩展样机 {#lcd-example}
-
-<div class="module-grid">
-
-<figure class="source-figure">
-
-[![C3 彩屏样机整体效果](../../public/images/zh/doc-12-image-014.webp)](../../public/images/zh/doc-12-image-014.webp)
-
-<figcaption>C3 彩屏样机整体效果。点击查看大图。</figcaption>
-</figure>
-
-<figure class="source-figure">
-
-[![C3 彩屏模块的引脚与连线局部](../../public/images/zh/doc-12-image-015.webp)](../../public/images/zh/doc-12-image-015.webp)
-
-<figcaption>C3 彩屏模块的引脚与连线局部。点击查看大图。</figcaption>
-</figure>
-
-</div>
-
-彩屏照片保留为该原型的扩展资料。当前本文采用的 `xmini/c3` 是 I2C OLED 路径，没有因为有照片就宣称该构建也支持这块 SPI 彩屏；需要恢复彩屏方案时，先确认屏幕驱动、SPI GPIO、板级代码与独立构建身份。
+当前本文采用的 `xmini/c3` 是 I2C OLED 路径，构建也不支持 SPI 彩屏；需要恢复彩屏方案时，先确认屏幕驱动、SPI GPIO、板级代码与独立构建身份，可参考Surfer-C3-1.14TFT 开发板。
 
 ### ES8311 初始化报错时
 

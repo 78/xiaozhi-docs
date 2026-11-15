@@ -11,7 +11,7 @@ sourceArticles:
   - DOC-12
 translation:
   status: review
-  sourceHash: 68c7847eb3f8565e5955af4a9611fe73cfc188e7671cf01fad5688ae9a687af4
+  sourceHash: 7c6946d4d958e8d56cbde395fd428f5793a0fb7eebd36dd644745369c127081f
   reviewedAt: '2026-11-15'
 ---
 # C3 breadboard with ES8311 audio
@@ -186,29 +186,7 @@ C3 supports compatible lightweight WakeNet configurations, and the project also 
 
 </div>
 
-<a name="lcd-example"></a>
-
-### Color-display prototype {#lcd-example}
-
-<div class="module-grid">
-
-<figure class="source-figure">
-
-[![C3 color-display prototype.](../../public/images/zh/doc-12-image-014.webp)](../../public/images/zh/doc-12-image-014.webp)
-
-<figcaption>C3 color-display prototype. Click to view full size.</figcaption>
-</figure>
-
-<figure class="source-figure">
-
-[![Close-up of the C3 color display pins and wiring.](../../public/images/zh/doc-12-image-015.webp)](../../public/images/zh/doc-12-image-015.webp)
-
-<figcaption>Close-up of the C3 color display pins and wiring. Click to view full size.</figcaption>
-</figure>
-
-</div>
-
-The color-display photos show an extension of this prototype. The `xmini/c3` configuration used here follows an I2C OLED path; these photos do not establish support for that SPI display in the same build. Before recreating the color-display variant, identify its display driver, SPI GPIOs, board code, and separate build configuration.
+The `xmini/c3` configuration used here follows an I2C OLED path, and the build does not support an SPI color display. To restore a color-display variant, first confirm the display driver, SPI GPIOs, board code, and a separate build identity; the Surfer-C3-1.14TFT board can be used as a reference.
 
 ### ES8311 initialization errors
 
