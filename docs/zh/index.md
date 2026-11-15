@@ -6,6 +6,9 @@ status: published
 layout: home
 pageClass: docs-home
 ---
+<div class="home-intro">
+<div class="home-intro-content">
+
 # 教程与帮助
 
 直接打开你需要的教程，或搜索硬件型号和遇到的问题。
@@ -18,6 +21,14 @@ pageClass: docs-home
 - [S3 面包板搭建](./hardware/breadboard-esp32-s3.md)
 - [故障排查](./faq/index.md)
 
+</div>
+
+</div>
+<div class="home-intro-illustration" aria-hidden="true">
+
+![](../public/images/shared/voice-circuit.svg)
+
+</div>
 </div>
 
 <div class="home-directory">

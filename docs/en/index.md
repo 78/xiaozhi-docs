@@ -10,10 +10,13 @@ reviewNote: >-
   guide.
 translation:
   status: review
-  sourceHash: 2102eaf6ae5d1da7250dc47b3ecc76cd37f558f67eb1b86cf7784ecc346b6843
+  sourceHash: f684a5686e4f707760befec56ba6a2af995a8b16ff6ce9709f88cf3bd0a15b5b
   reviewedAt: '2026-11-15'
 pageClass: docs-home
 ---
+<div class="home-intro">
+<div class="home-intro-content">
+
 # Guides & Help
 
 Open the guide you need, or search for your hardware or problem.
@@ -26,6 +29,14 @@ Open the guide you need, or search for your hardware or problem.
 - [Build an S3 breadboard](./hardware/breadboard-esp32-s3.md)
 - [Troubleshooting](./faq/index.md)
 
+</div>
+
+</div>
+<div class="home-intro-illustration" aria-hidden="true">
+
+![](../public/images/shared/voice-circuit.svg)
+
+</div>
 </div>
 
 <div class="home-directory">
