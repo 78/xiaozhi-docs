@@ -8,7 +8,7 @@
 - `verification-baseline-2026-11-14.json`：对照的固件、控制台提交及制造商资料，供后续复核。
 - `p1-p2-rewrite-2026-11-14.md`：剩余 33 篇来源的中文重构、版本纠正、素材与验证范围。
 - `breadboard-illustration-repair-2026-11-14.md`：用户反馈后的面包板图片遗漏、归属错误与变体修复。
-- `hardware-illustrations.json`：6 篇硬件教程中 28 个必须具备图片的教学章节，防止只有清单却正文无图。
+- `hardware-illustrations.json`：6 篇硬件教程中 28 个必须具备图片的教学章节，防止只有清单却正文无图。C3 彩屏章节保留兼容性说明与原锚点，不再要求与当前构建不符的样机照片；取舍及源码依据见 `inventory.json` 的 DOC-12。
 - `wiring-diagrams.json`：6 张当前连线图的固件版本、配置指纹与 SVG 指纹。
 - `media-inventory.json`：1100 个嵌入素材引用（原1094项加6个声音教学音频）的保留、替换或不迁入理由；未采用不等于逐项目视验证。
 - `distribution-verification-2026-11-14.json`：公开 Release 的 58 个资产校验、CI 与浏览器播放抽查结果。

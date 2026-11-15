@@ -8172,25 +8172,17 @@
       "sourceUrl": "https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d",
       "sha256": "64e7b84cbb93396557e88ac8d5fc25201581f51fbda2cc715936ad3754d17e68",
       "cachedBytes": 1000501,
-      "decision": "retained-local-image",
-      "reason": "用于读者当前步骤：C3 彩屏样机整体效果",
+      "decision": "not-reused",
+      "reason": "PR #12：本文固定的 v2.6.0 xmini/c3 只初始化 I2C SSD1306 OLED；彩屏样机照片不能作为该构建支持 SPI 彩屏的依据，故从中英文教程移除。保留仓库中的图片文件与原始摘要以便追溯，不再作为当前教程插图。",
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-12-image-014.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md"
-      ],
+      "usedIn": [],
       "readerReview": {
-        "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "lcd-example",
-            "heading": "彩屏扩展样机",
-            "caption": "C3 彩屏样机整体效果"
-          }
-        ]
+        "reviewedAt": "2026-11-15",
+        "method": "PR #12 scope correction; pinned firmware source comparison, not a new visual or hardware test",
+        "placements": [],
+        "evidenceRecord": "inventory.json#DOC-12"
       },
       "publishedAsset": {
         "path": "/images/zh/doc-12-image-014.webp",
@@ -8213,25 +8205,17 @@
       "sourceUrl": "https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d",
       "sha256": "554ef3c9d3357da7ee47f36e4352c0642af51ddd55c2c456d0a98177acd6a7b0",
       "cachedBytes": 555516,
-      "decision": "retained-local-image",
-      "reason": "用于读者当前步骤：C3 彩屏模块的引脚与连线局部",
+      "decision": "not-reused",
+      "reason": "PR #12：本文固定的 v2.6.0 xmini/c3 只初始化 I2C SSD1306 OLED；彩屏样机照片不能作为该构建支持 SPI 彩屏的依据，故从中英文教程移除。保留仓库中的图片文件与原始摘要以便追溯，不再作为当前教程插图。",
       "visualReview": "contact-sheet; wiring diagrams additionally reviewed at full resolution",
       "publicPath": "/images/zh/doc-12-image-015.webp",
       "restoredAt": "2026-11-14",
-      "usedIn": [
-        "docs/zh/hardware/breadboard-esp32-c3.md"
-      ],
+      "usedIn": [],
       "readerReview": {
-        "reviewedAt": "2026-11-14",
-        "method": "contact-sheet-and-body-context; key diagrams separately enlarged",
-        "placements": [
-          {
-            "page": "docs/zh/hardware/breadboard-esp32-c3.md",
-            "anchor": "lcd-example",
-            "heading": "彩屏扩展样机",
-            "caption": "C3 彩屏模块的引脚与连线局部"
-          }
-        ]
+        "reviewedAt": "2026-11-15",
+        "method": "PR #12 scope correction; pinned firmware source comparison, not a new visual or hardware test",
+        "placements": [],
+        "evidenceRecord": "inventory.json#DOC-12"
       },
       "publishedAsset": {
         "path": "/images/zh/doc-12-image-015.webp",

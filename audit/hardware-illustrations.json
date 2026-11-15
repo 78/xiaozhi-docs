@@ -258,15 +258,6 @@
             "DOC-12-image-013"
           ],
           "diagrams": []
-        },
-        {
-          "anchor": "lcd-example",
-          "purpose": "C3 彩屏原样机与接线局部",
-          "sourceImages": [
-            "DOC-12-image-014",
-            "DOC-12-image-015"
-          ],
-          "diagrams": []
         }
       ]
     },
