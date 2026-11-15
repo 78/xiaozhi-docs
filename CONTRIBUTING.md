@@ -35,6 +35,8 @@ When simplifying a tutorial, keep the steps that let a reader finish the task: t
 
 Keep maintenance notes and detailed review evidence in `audit/`, outside the published site. Do not put those notes in reader-facing prose. Discussion contacts belong in `docs/.vitepress/data/community.json`, not in individual guides.
 
+Record important technical corrections and source-content removals once in `audit/inventory.json`. Ordinary wording and image moves need no output hashes or historical review updates. Keep the versioned wiring diagrams in `audit/wiring-diagrams.json` accurate; see [audit maintenance](audit/README.md).
+
 ## Links and images
 
 Use repository-relative `.md` links, including `index.md` for a section landing page. This lets the same links work on GitHub, in forks, and on the website.

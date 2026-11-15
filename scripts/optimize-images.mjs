@@ -3,6 +3,7 @@ import { createHash } from 'node:crypto'
 import { homedir } from 'node:os'
 import { resolve, extname, join } from 'node:path'
 import sharp from 'sharp'
+import { readPages, locales } from './content.mjs'
 
 const root = resolve(import.meta.dirname, '..')
 const cache = process.env.XIAOZHI_IMAGE_CACHE || join(homedir(), '.cache/xiaozhi-docs-image-optimization')
@@ -155,34 +156,23 @@ for (const item of ledger.items) {
   if (!image && prior) image = items.find(entry => entry.source.sha256 === item.sha256)
   if (!image || image.source.sha256 !== item.sha256) throw new Error(`Source ledger mismatch: ${item.id}`)
   item.publicPath = image.output.path
-  item.publishedAsset = { ...image.output, profile: image.profile, sourceSha256: item.sha256, optimizationRecord: 'image-optimization.json' }
 }
 await save('audit/media-inventory.json', ledger)
 const dimensions = await json('docs/.vitepress/data/image-dimensions.json')
 for (const [before, after] of replacements) if (before !== after) delete dimensions[before]
 for (const item of canonical.values()) dimensions[item.output.path] = { width: item.output.width, height: item.output.height }
 await save('docs/.vitepress/data/image-dimensions.json', dimensions)
-const review = await json('audit/reader-review-2026-11-14.json')
-const hashes = new Map()
-for (const page of review.pages) {
-  const file = resolve(root, page.page)
-  const before = await readFile(file, 'utf8')
-  const after = replacePaths(before)
-  if (before !== after) await writeFile(file, after)
-  hashes.set(page.page, sha(Buffer.from(after)))
-  page.contentSha256 = hashes.get(page.page)
-  for (const figure of page.figures) figure.image = replacements.get(figure.image) || figure.image
+for (const locale of locales) {
+  for (const [path, { raw }] of await readPages(locale)) {
+    // Markdown uses repository-relative paths; website-root URLs alone will not match.
+    const before = raw
+    let after = replacePaths(before)
+    for (const [source, output] of replacements) {
+      if (source !== output) after = after.replaceAll(`public${source}`, `public${output}`)
+    }
+    if (before !== after) await writeFile(resolve(root, 'docs', locale, path), after)
+  }
 }
-for (const figure of review.requiredFigures) figure.image = replacements.get(figure.image) || figure.image
-review.imageOptimization = 'image-optimization.json'
-await save('audit/reader-review-2026-11-14.json', review)
-const inventory = await json('audit/inventory.json')
-for (const item of inventory.items) {
-  for (const path of item.implementation.outputPaths) item.implementation.outputHashes[path] = hashes.get(path)
-  item.implementation.contentSha256 = hashes.get(item.targetPath)
-  if (ledger.items.some(asset => asset.article === item.id && asset.publicPath)) item.imageOptimization = 'image-optimization.json'
-}
-await save('audit/inventory.json', inventory)
 await save('audit/image-optimization.json', record)
 const activePaths = new Set([...canonical.values()].map(item => item.output.path))
 for (const [before] of replacements) if (!activePaths.has(before)) await rm(resolve(root, 'docs/public' + before), { force: true })

@@ -45,7 +45,7 @@ The site uses VitePress with small extensions to its default theme. Dependencies
 | `docs/public/images/` | Shared and language-specific images |
 | `scripts/` | Content, link, media, and translation checks |
 | `glossary/` | Shared terminology |
-| `audit/` | Review evidence, asset records, and current output hashes |
+| `audit/` | Source evidence, technical constraints, and media provenance |
 | `.github/` | Pull request checks, issue templates, and publishing workflow |
 | `site.config.mjs` | Repository, branch, and production hostname |
 
@@ -90,11 +90,15 @@ The image policy in `audit/image-policy.json` sets these defaults:
 - Ordinary photos: up to 512 KiB. Preserve the resolution and visible pixels of protected wiring diagrams and small-text images.
 - Total raster budget: 32 MiB; SVG files: up to 64 KiB each. Explain a necessary exception through the policy rather than silently increasing the budget.
 
-The asset ledger's `sha256` identifies the original; `publishedAsset.sha256` identifies the published derivative. Keep both relationships intact. Update the teaching-illustration records when changing the parts, wiring, variants, or finished-build images in a hardware tutorial.
+Keep substantive source-content decisions and verification limits in `audit/inventory.json`. Git tracks current article revisions; do not maintain article output hashes or image-placement lists in review reports. Dated reader and translation reviews are historical evidence, not current inventories. The English page's `translation.sourceHash` remains the single acknowledgement of the Chinese revision that was actually reviewed.
 
-Keep `audit/media-inventory.json`, `audit/release-assets.json`, and `docs/.vitepress/data/materials.json` consistent when updating attachments. Record core tutorial image coverage in `audit/hardware-illustrations.json` and generated wiring diagrams in `audit/wiring-diagrams.json`.
+Keep the existing versioned wiring diagrams and their technical chapter references in `audit/wiring-diagrams.json`. Ordinary photos and screenshots have no fixed chapters; their paths, dimensions, and budgets are checked directly.
 
-English attachment labels and notes live in `docs/.vitepress/data/materials.en.json`. Keep original filenames, URLs, sizes, and checksums in the shared registry. Localized diagrams live under `docs/public/images/en/`; compare their signal labels and wire paths with the source and record the relationship in the translation review.
+The media ledger identifies original sources. Keep derivative identities and protected-raster pixel evidence only in `audit/image-optimization.json`. Protected wiring and small-text changes require review; ordinary image moves do not require historical review updates.
+
+Keep download identities, sizes, and checksums consistent between `audit/release-assets.json` and the shared `materials.json` registry. New source materials also need provenance and a disposition in `audit/media-inventory.json`.
+
+English attachment labels and notes live in `docs/.vitepress/data/materials.en.json`. Keep original filenames, URLs, sizes, and checksums in the shared registry. Localized SVGs use the same filename under `en/` as their source under `zh/` or `shared/`. The translation check compares their geometry directly; no separate diagram list or hash pair is needed.
 
 Put video, large design files, and other large attachments in Releases or the approved external storage, with useful labels and checksums. Firmware downloads should point to the official firmware repository's versioned Releases. Keep discussion contacts in the shared header configuration.
 

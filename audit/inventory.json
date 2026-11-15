@@ -269,10 +269,6 @@
         "outputPaths": [
           "docs/zh/console/github-verification.md"
         ],
-        "outputHashes": {
-          "docs/zh/console/github-verification.md": "d6da98922fdc1815d5a84a214eafb46c1d4cc502b5f15b70821f48923090f75c"
-        },
-        "contentSha256": "d6da98922fdc1815d5a84a214eafb46c1d4cc502b5f15b70821f48923090f75c",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/console/github-verification.md",
@@ -281,15 +277,9 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/console/github-verification.md"
-          ],
-          "outputHashes": {
-            "docs/en/console/github-verification.md": "12f4e19c8a99f9c90a80de3bf30039b6de4874054f01aa5524e880cdf72f29fc"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 3
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -402,7 +392,6 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "02a25845b6efa25e40a95ff876fc308fa2ff3f3b7632f93e50935c99cda45a90",
         "completedChanges": [
           "新增版本无关下载入口，明确核对 v2.6.0 正式发布与匹配条件。",
           "区分源码包、固件、校验值、历史版本和跨布局升级。",
@@ -419,12 +408,7 @@
             "docs/en/firmware/downloads.md",
             "docs/en/firmware/releases/v2.5.2.md",
             "docs/en/firmware/releases/v2.6.0.md"
-          ],
-          "outputHashes": {
-            "docs/en/firmware/downloads.md": "bbaeb9735366ce7181e21be77d4e4e157b446e0016d749de6ee37967e1bbdd61",
-            "docs/en/firmware/releases/v2.5.2.md": "bf207d1946224ebd532036701fb9ca28ee4de313a57441531eadee4b1924d849",
-            "docs/en/firmware/releases/v2.6.0.md": "60528b02670697e8b8bb5beb2e37f7f2d5f5c2d317f250485ea442a344609092"
-          }
+          ]
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -445,13 +429,7 @@
           "docs/zh/firmware/releases/v2.5.2.md",
           "docs/zh/firmware/releases/v2.6.0.md"
         ],
-        "outputHashes": {
-          "docs/zh/firmware/downloads.md": "02a25845b6efa25e40a95ff876fc308fa2ff3f3b7632f93e50935c99cda45a90",
-          "docs/zh/firmware/releases/v2.5.2.md": "b1dbb4ba03998eb241f973354b39ff8c2b4cbe0abe3e19b5f70e65e0fd82b117",
-          "docs/zh/firmware/releases/v2.6.0.md": "7a33a18f10ffe59f023007cdf23e9e74a4bc41d45be0a995d97374cfa27966aa"
-        },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {},
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -587,11 +565,6 @@
           "docs/zh/firmware/releases/v2.6.0.md",
           "docs/zh/firmware/releases/v2.2.4.md"
         ],
-        "outputHashes": {
-          "docs/zh/firmware/releases/v2.6.0.md": "7a33a18f10ffe59f023007cdf23e9e74a4bc41d45be0a995d97374cfa27966aa",
-          "docs/zh/firmware/releases/v2.2.4.md": "de738cc98b71ce1739db0f497aa5b42289a8f2ab098edb109a3ca9f8f7c9de95"
-        },
-        "contentSha256": "7a33a18f10ffe59f023007cdf23e9e74a4bc41d45be0a995d97374cfa27966aa",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/firmware/releases/v2.6.0.md",
@@ -601,14 +574,9 @@
           "outputPaths": [
             "docs/en/firmware/releases/v2.6.0.md",
             "docs/en/firmware/releases/v2.2.4.md"
-          ],
-          "outputHashes": {
-            "docs/en/firmware/releases/v2.6.0.md": "60528b02670697e8b8bb5beb2e37f7f2d5f5c2d317f250485ea442a344609092",
-            "docs/en/firmware/releases/v2.2.4.md": "116c7315284ee2ddef270f0baec89d47a5f2d81d8ae04ce41c455794d86bb17b"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {},
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -739,10 +707,6 @@
         "outputPaths": [
           "docs/zh/firmware/releases/v1.9.4.md"
         ],
-        "outputHashes": {
-          "docs/zh/firmware/releases/v1.9.4.md": "d8731cc5424a82a7a45a624007a79b2278eea08abfca34a111b9cd40897535ae"
-        },
-        "contentSha256": "d8731cc5424a82a7a45a624007a79b2278eea08abfca34a111b9cd40897535ae",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/firmware/releases/v1.9.4.md",
@@ -751,16 +715,9 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/firmware/releases/v1.9.4.md"
-          ],
-          "outputHashes": {
-            "docs/en/firmware/releases/v1.9.4.md": "a718182909bab289977212bac64b22cd92427efabd4bf561a775d40f5f859b9e"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "official-upstream-release": 82,
-          "archived-upstream-reference": 181
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -883,7 +840,6 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "8c6b70084165aaff4e78c88625964e5010e8ffabb2a3414053c455bb50561512",
         "completedChanges": [
           "固定 N16R8 + INMP441 + MAX98357A + SSD1306 方案与独立屏幕变体。",
           "按 v2.6.0 重写引脚表，明确单 USB 供电与模块条件，新增信号分组图。",
@@ -898,11 +854,7 @@
           "outputPaths": [
             "docs/en/hardware/breadboard-esp32-s3.md",
             "docs/en/hardware/breadboard-4g.md"
-          ],
-          "outputHashes": {
-            "docs/en/hardware/breadboard-esp32-s3.md": "a6f9c93bda7a70498b7e885053e8f62be43bf33b315d0b4785421342be39b579",
-            "docs/en/hardware/breadboard-4g.md": "d52a214cd0fac396cea8cfdc8b4c5f1104188dad82a21bd5179d476db485c869"
-          }
+          ]
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -922,16 +874,7 @@
           "docs/zh/hardware/breadboard-esp32-s3.md",
           "docs/zh/hardware/breadboard-4g.md"
         ],
-        "outputHashes": {
-          "docs/zh/hardware/breadboard-esp32-s3.md": "8c6b70084165aaff4e78c88625964e5010e8ffabb2a3414053c455bb50561512",
-          "docs/zh/hardware/breadboard-4g.md": "fc5ce9aa53964183092ac34906300d11586c977259a80956ecdc4d6a485c228c"
-        },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "retained-local-image": 39,
-          "replaced-by-upstream": 1,
-          "not-reused": 2
-        },
         "unreadHistoricalFiles": [],
         "followUpCorrections": [
           {
@@ -1074,10 +1017,6 @@
         "outputPaths": [
           "docs/zh/hardware/displays/st7789.md"
         ],
-        "outputHashes": {
-          "docs/zh/hardware/displays/st7789.md": "02c2424ac430bd8c5819b96f5c2da9f97e73d24b36a3174336d6ea801acacfdd"
-        },
-        "contentSha256": "02c2424ac430bd8c5819b96f5c2da9f97e73d24b36a3174336d6ea801acacfdd",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/hardware/displays/st7789.md",
@@ -1086,17 +1025,9 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/hardware/displays/st7789.md"
-          ],
-          "outputHashes": {
-            "docs/en/hardware/displays/st7789.md": "3e218b5567b587836500d768c2454eb196d4d86e8e771a18071552fe6a23daeb"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "retained-local-image": 5,
-          "replaced-by-upstream": 2,
-          "not-reused": 1
-        },
         "unreadHistoricalFiles": [],
         "followUpCorrections": [
           {
@@ -1241,10 +1172,6 @@
         "outputPaths": [
           "docs/zh/hardware/breadboard-camera.md"
         ],
-        "outputHashes": {
-          "docs/zh/hardware/breadboard-camera.md": "7ef83bda1dd98468642460ca93dd840a81009ebffce384b8881ac7e0f1f7faf9"
-        },
-        "contentSha256": "7ef83bda1dd98468642460ca93dd840a81009ebffce384b8881ac7e0f1f7faf9",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/hardware/breadboard-camera.md",
@@ -1253,18 +1180,9 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/hardware/breadboard-camera.md"
-          ],
-          "outputHashes": {
-            "docs/en/hardware/breadboard-camera.md": "0092ea772ca9957a08b13c4964345fea8e5ca4e4d4016fe9b6bc9f4e73da9a7c"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "retained-local-image": 5,
-          "retained-release": 1,
-          "replaced-by-upstream": 3,
-          "not-reused": 1
-        },
         "unreadHistoricalFiles": [],
         "followUpCorrections": [
           {
@@ -1402,7 +1320,6 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "85922489a3d0aaf062389cad6245ce9597e7f31a6b53d0264b2eac7d6b63d48a",
         "completedChanges": [
           "统一网页与离线烧录，区分完整、应用与多文件镜像。",
           "解释 Console 跳过 NVS 的范围及跨布局例外；给出 esptool 5.x 语法。"
@@ -1415,10 +1332,7 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/firmware/flashing.md"
-          ],
-          "outputHashes": {
-            "docs/en/firmware/flashing.md": "ef6a54e99afae7a002b41d14318aaa9c8845700a4e6097b42b5e502ff9d8b423"
-          }
+          ]
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -1437,15 +1351,7 @@
         "outputPaths": [
           "docs/zh/firmware/flashing.md"
         ],
-        "outputHashes": {
-          "docs/zh/firmware/flashing.md": "85922489a3d0aaf062389cad6245ce9597e7f31a6b53d0264b2eac7d6b63d48a"
-        },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "replaced": 1,
-          "not-reused": 28,
-          "retained-local-image": 3
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -1562,7 +1468,6 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "59da7afeee7126ddfc6b19bd2aa7772c14f3bb06ffba5dad51a2fa3353e30f04",
         "completedChanges": [
           "分开热点与 BluFi，按当前六位设备码、控制台添加设备流程重写。",
           "区分下载模式和重新配网，取消绕线/触摸天线的维修建议。"
@@ -1575,10 +1480,7 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/getting-started/wifi-and-binding.md"
-          ],
-          "outputHashes": {
-            "docs/en/getting-started/wifi-and-binding.md": "c5c6de993cba5d6afa891d47d4b43d6b64099e9250a6052184c902d01bcf4a93"
-          }
+          ]
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -1597,14 +1499,7 @@
         "outputPaths": [
           "docs/zh/getting-started/wifi-and-binding.md"
         ],
-        "outputHashes": {
-          "docs/zh/getting-started/wifi-and-binding.md": "59da7afeee7126ddfc6b19bd2aa7772c14f3bb06ffba5dad51a2fa3353e30f04"
-        },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 12,
-          "retained-local-image": 1
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -1737,11 +1632,6 @@
           "docs/zh/hardware/choosing-hardware.md",
           "docs/zh/hardware/breadboard-esp32-s3.md"
         ],
-        "outputHashes": {
-          "docs/zh/hardware/choosing-hardware.md": "0f692bd58c8825aad2639f21ddb1d8db5b9488d82b43f05f6f80744af2f98a4d",
-          "docs/zh/hardware/breadboard-esp32-s3.md": "8c6b70084165aaff4e78c88625964e5010e8ffabb2a3414053c455bb50561512"
-        },
-        "contentSha256": "0f692bd58c8825aad2639f21ddb1d8db5b9488d82b43f05f6f80744af2f98a4d",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/hardware/choosing-hardware.md",
@@ -1751,17 +1641,9 @@
           "outputPaths": [
             "docs/en/hardware/choosing-hardware.md",
             "docs/en/hardware/breadboard-esp32-s3.md"
-          ],
-          "outputHashes": {
-            "docs/en/hardware/choosing-hardware.md": "c277e175642d8c17db1cadf998225af3ceeae473c0f198a586a16e8f48ff6945",
-            "docs/en/hardware/breadboard-esp32-s3.md": "a6f9c93bda7a70498b7e885053e8f62be43bf33b315d0b4785421342be39b579"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 12,
-          "replaced-by-tutorial-materials": 3
-        },
         "unreadHistoricalFiles": [],
         "followUpCorrections": [
           {
@@ -1904,10 +1786,6 @@
         "outputPaths": [
           "docs/zh/hardware/design-guidelines.md"
         ],
-        "outputHashes": {
-          "docs/zh/hardware/design-guidelines.md": "396f8ff508ee315103b3e6c9639136ac81bd1cc46d339f1347e5f6144d42bc9a"
-        },
-        "contentSha256": "396f8ff508ee315103b3e6c9639136ac81bd1cc46d339f1347e5f6144d42bc9a",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/hardware/design-guidelines.md",
@@ -1916,15 +1794,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/hardware/design-guidelines.md"
-          ],
-          "outputHashes": {
-            "docs/en/hardware/design-guidelines.md": "f3c66d9de5afc8e2e2dcc9306c43337bb7f6356831406eaeb6064226b30a0619"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "retained-local-image": 1
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -2063,10 +1935,6 @@
         "outputPaths": [
           "docs/zh/hardware/breadboard-esp32-c3.md"
         ],
-        "outputHashes": {
-          "docs/zh/hardware/breadboard-esp32-c3.md": "d8246944edc45266132d984249c7a60fa2d9437297ba5fa20bde0456988fc1dc"
-        },
-        "contentSha256": "d8246944edc45266132d984249c7a60fa2d9437297ba5fa20bde0456988fc1dc",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/hardware/breadboard-esp32-c3.md",
@@ -2075,18 +1943,9 @@
           "record": "https://github.com/78/xiaozhi-docs/pull/12",
           "outputPaths": [
             "docs/en/hardware/breadboard-esp32-c3.md"
-          ],
-          "outputHashes": {
-            "docs/en/hardware/breadboard-esp32-c3.md": "4e84830769aeddcfcba3ae0891858eb38e96891692209bb67cfb2be64a0da17e"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "retained-local-image": 13,
-          "replaced-by-upstream": 1,
-          "official-upstream-release": 1,
-          "not-reused": 5
-        },
         "unreadHistoricalFiles": [],
         "followUpCorrections": [
           {
@@ -2246,10 +2105,6 @@
         "outputPaths": [
           "docs/zh/hardware/breadboard-esp32.md"
         ],
-        "outputHashes": {
-          "docs/zh/hardware/breadboard-esp32.md": "0a3e0e56b358f661201c122dfe0e6ccb01ac94be008fef2dfa043a935a719005"
-        },
-        "contentSha256": "0a3e0e56b358f661201c122dfe0e6ccb01ac94be008fef2dfa043a935a719005",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/hardware/breadboard-esp32.md",
@@ -2258,16 +2113,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/hardware/breadboard-esp32.md"
-          ],
-          "outputHashes": {
-            "docs/en/hardware/breadboard-esp32.md": "3b1230e0d089d4cbe953d317e52d9d55cc05693b31bf3c660d98ff54097e2526"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 31,
-          "retained-local-image": 3
-        },
         "unreadHistoricalFiles": [],
         "followUpCorrections": [
           {
@@ -2408,10 +2256,6 @@
         "outputPaths": [
           "docs/zh/console/voice-cloning.md"
         ],
-        "outputHashes": {
-          "docs/zh/console/voice-cloning.md": "5d21003d488141bf92c973069fa86bafc2e92228044eae981dd814b5b83e4b69"
-        },
-        "contentSha256": "5d21003d488141bf92c973069fa86bafc2e92228044eae981dd814b5b83e4b69",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/console/voice-cloning.md",
@@ -2420,16 +2264,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/console/voice-cloning.md"
-          ],
-          "outputHashes": {
-            "docs/en/console/voice-cloning.md": "888af4eda5afc72f8e93524ddc0969fdded48f8161fa311c5225d3eaea0e93c4"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 17,
-          "retained-release-file": 6
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -2550,7 +2387,6 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "7e50176d1429c3a645f922f65cfe0c008c680825c33a4569f12d7810a669c585",
         "completedChanges": [
           "按症状建立八类排障路径，链接唯一操作教程。",
           "纠正旧唤醒/蓝牙/SDK 结论，补日志与反馈所需信息。"
@@ -2563,10 +2399,7 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/faq/index.md"
-          ],
-          "outputHashes": {
-            "docs/en/faq/index.md": "86449f7ffff2c3f43e6003f03b0fa43d87a74414f1063bad30089b87164a6c63"
-          }
+          ]
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -2585,13 +2418,7 @@
         "outputPaths": [
           "docs/zh/faq/index.md"
         ],
-        "outputHashes": {
-          "docs/zh/faq/index.md": "7e50176d1429c3a645f922f65cfe0c008c680825c33a4569f12d7810a669c585"
-        },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 9
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -2721,10 +2548,6 @@
         "outputPaths": [
           "docs/zh/faq/account-and-binding.md"
         ],
-        "outputHashes": {
-          "docs/zh/faq/account-and-binding.md": "3dcead553505bc36bd7d34f9a97ce4e7fc9379a23155157f4e25bd706ad041bf"
-        },
-        "contentSha256": "3dcead553505bc36bd7d34f9a97ce4e7fc9379a23155157f4e25bd706ad041bf",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/faq/account-and-binding.md",
@@ -2733,17 +2556,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/faq/account-and-binding.md"
-          ],
-          "outputHashes": {
-            "docs/en/faq/account-and-binding.md": "7f6d7c15bb897a8556c9e042cc97dc62b7f179ae0b33741208d508d27854c6af"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "retained-release-file": 1,
-          "replaced": 1,
-          "not-reused": 1
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -2872,10 +2687,6 @@
         "outputPaths": [
           "docs/zh/console/knowledge-base.md"
         ],
-        "outputHashes": {
-          "docs/zh/console/knowledge-base.md": "1556006c8abb91205ac53f2a226851c9b979f475dc01d8bb68b42dd76afbdea0"
-        },
-        "contentSha256": "1556006c8abb91205ac53f2a226851c9b979f475dc01d8bb68b42dd76afbdea0",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/console/knowledge-base.md",
@@ -2884,16 +2695,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/console/knowledge-base.md"
-          ],
-          "outputHashes": {
-            "docs/en/console/knowledge-base.md": "6213496a9451ee8b4386a2cd9e77ee09d47fa758cfd5750766b0e1e1ae7518b5"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 8,
-          "retained-release": 1
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -3013,7 +2817,6 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "6d3020556e1d28f44079301efc8d9e75f007b30dbb2f0cda4fd25de5646ceeae",
         "completedChanges": [
           "使用当前专用编译入口，解释逐板选项和源码版本。",
           "覆盖创建、取消、失败、下载及网页烧录，配额以页面为准。",
@@ -3028,10 +2831,7 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/firmware/online-builder.md"
-          ],
-          "outputHashes": {
-            "docs/en/firmware/online-builder.md": "dfc774069b1cf2a2455e8c4d863c51955500c3ec1ca893c63f6e6101edd663d2"
-          }
+          ]
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -3052,15 +2852,7 @@
         "outputPaths": [
           "docs/zh/firmware/online-builder.md"
         ],
-        "outputHashes": {
-          "docs/zh/firmware/online-builder.md": "6d3020556e1d28f44079301efc8d9e75f007b30dbb2f0cda4fd25de5646ceeae"
-        },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 12,
-          "retained-local-image": 1,
-          "archived-release-file": 1
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -3180,7 +2972,6 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "b70a50c29d9166e5c8b27eda4fd85a2d8d50f163c375b4353dfe8166026febb2",
         "completedChanges": [
           "使用 v2.6.0 与 release/v6.1 基线，给跨平台 SDK 环境和构建路径。",
           "补构建变体、产物、串口日志、SDK 切换和 Windows response file。"
@@ -3193,10 +2984,7 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/development/build-firmware.md"
-          ],
-          "outputHashes": {
-            "docs/en/development/build-firmware.md": "af00701ed297e6788e2ed59adf457486f6f1b3ec33b0c667f14cb66b62090412"
-          }
+          ]
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -3215,14 +3003,7 @@
         "outputPaths": [
           "docs/zh/development/build-firmware.md"
         ],
-        "outputHashes": {
-          "docs/zh/development/build-firmware.md": "b70a50c29d9166e5c8b27eda4fd85a2d8d50f163c375b4353dfe8166026febb2"
-        },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 60,
-          "replaced": 2
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -3340,7 +3121,6 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "8e752fdfc94a59fa5cde5e0b63f558e36e3d578b3ba746ee08f78b581d2865ab",
         "completedChanges": [
           "建立独立目录、类型/变体及升级身份的适配顺序。",
           "完整技术 API 链接固件版本文档，移除覆盖标准板型和删除 OTA 分区的通用方案。"
@@ -3353,10 +3133,7 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/development/custom-board.md"
-          ],
-          "outputHashes": {
-            "docs/en/development/custom-board.md": "b648f26b6788a5841e8e1a7f023cee03d50445b11b44d852c8933dc14f57fb9d"
-          }
+          ]
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -3375,13 +3152,7 @@
         "outputPaths": [
           "docs/zh/development/custom-board.md"
         ],
-        "outputHashes": {
-          "docs/zh/development/custom-board.md": "8e752fdfc94a59fa5cde5e0b63f558e36e3d578b3ba746ee08f78b581d2865ab"
-        },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 20
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -3509,10 +3280,6 @@
         "outputPaths": [
           "docs/zh/development/audio-and-aec.md"
         ],
-        "outputHashes": {
-          "docs/zh/development/audio-and-aec.md": "44cd49754f837d982b007ca0cc5e946e4a35f0cd485f5d77e716aa3db2ee6c07"
-        },
-        "contentSha256": "44cd49754f837d982b007ca0cc5e946e4a35f0cd485f5d77e716aa3db2ee6c07",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/development/audio-and-aec.md",
@@ -3521,15 +3288,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/development/audio-and-aec.md"
-          ],
-          "outputHashes": {
-            "docs/en/development/audio-and-aec.md": "e6bbc9ae81cc388b8e42ea2965da6b17837a3d0c53f8eeab72d5fc324679da3e"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 6
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -3660,10 +3421,6 @@
         "outputPaths": [
           "docs/zh/development/wake-words.md"
         ],
-        "outputHashes": {
-          "docs/zh/development/wake-words.md": "746701523768c32240eda2a3073c2a323ce90f3a86d496aed8ba121888f0417b"
-        },
-        "contentSha256": "746701523768c32240eda2a3073c2a323ce90f3a86d496aed8ba121888f0417b",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/development/wake-words.md",
@@ -3672,15 +3429,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/development/wake-words.md"
-          ],
-          "outputHashes": {
-            "docs/en/development/wake-words.md": "75395a7c819493ebce5cc6754c9eb0f3ba8a97f096ef8afb3125850f1af76cc3"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 16
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -3805,10 +3556,6 @@
         "outputPaths": [
           "docs/zh/faq/serial-logs.md"
         ],
-        "outputHashes": {
-          "docs/zh/faq/serial-logs.md": "88dcd7c252f906b9cfe4ae231557e3a19a4e14db5afce4dfbce1165997ba1a4c"
-        },
-        "contentSha256": "88dcd7c252f906b9cfe4ae231557e3a19a4e14db5afce4dfbce1165997ba1a4c",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/faq/serial-logs.md",
@@ -3817,17 +3564,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/faq/serial-logs.md"
-          ],
-          "outputHashes": {
-            "docs/en/faq/serial-logs.md": "ce8b0c60359f230c30919eccc14fce53327bb19414494d5169b9ad7ab85832aa"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "retained-local-image": 1,
-          "replaced": 1,
-          "not-reused": 3
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -3949,7 +3688,6 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "ddbb2753d70b63db0f2ed268e646907670a288405d10ee7599aa712a072bc902",
         "completedChanges": [
           "编写有类型、限定输入范围的加法示例，替代 eval。",
           "补齐固定上游提交、虚拟环境、端点、桥接、工具发现与真实调用核验步骤。"
@@ -3962,10 +3700,7 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/mcp/quickstart.md"
-          ],
-          "outputHashes": {
-            "docs/en/mcp/quickstart.md": "13706f6a35e331f8f8f897bf1ade675b6270f0ba2a06fb2ebb14a0eb7a4db285"
-          }
+          ]
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -3986,13 +3721,7 @@
         "outputPaths": [
           "docs/zh/mcp/quickstart.md"
         ],
-        "outputHashes": {
-          "docs/zh/mcp/quickstart.md": "ddbb2753d70b63db0f2ed268e646907670a288405d10ee7599aa712a072bc902"
-        },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 2
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -4118,10 +3847,6 @@
         "outputPaths": [
           "docs/zh/mcp/examples/web-search.md"
         ],
-        "outputHashes": {
-          "docs/zh/mcp/examples/web-search.md": "53a3875595ff5ac87d8acecee8874d48ad990b2e1b3962d1878bf812cc6cb629"
-        },
-        "contentSha256": "53a3875595ff5ac87d8acecee8874d48ad990b2e1b3962d1878bf812cc6cb629",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/mcp/examples/web-search.md",
@@ -4130,17 +3855,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/mcp/examples/web-search.md"
-          ],
-          "outputHashes": {
-            "docs/en/mcp/examples/web-search.md": "f514ac87f7bc768aa8319a7cddc052be2621f1271512a7c27497994bce87f38b"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "retained-release": 1,
-          "replaced": 1,
-          "not-reused": 17
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -4268,10 +3985,6 @@
         "outputPaths": [
           "docs/zh/community/mcp-tools.md"
         ],
-        "outputHashes": {
-          "docs/zh/community/mcp-tools.md": "806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad"
-        },
-        "contentSha256": "806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/community/mcp-tools.md",
@@ -4280,15 +3993,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/community/mcp-tools.md"
-          ],
-          "outputHashes": {
-            "docs/en/community/mcp-tools.md": "21e50a40ec32d1bfc857d4de3dfbb9ec7187fcd961d849ce9cf0f2fa5117b874"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 18
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -4414,10 +4121,6 @@
         "outputPaths": [
           "docs/zh/community/mcp-tools.md"
         ],
-        "outputHashes": {
-          "docs/zh/community/mcp-tools.md": "806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad"
-        },
-        "contentSha256": "806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/community/mcp-tools.md",
@@ -4426,16 +4129,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/community/mcp-tools.md"
-          ],
-          "outputHashes": {
-            "docs/en/community/mcp-tools.md": "21e50a40ec32d1bfc857d4de3dfbb9ec7187fcd961d849ce9cf0f2fa5117b874"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 10,
-          "retained-local-image": 1
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -4578,11 +4274,6 @@
           "docs/zh/mcp/connect-existing-servers.md",
           "docs/zh/community/mcp-tools.md"
         ],
-        "outputHashes": {
-          "docs/zh/mcp/connect-existing-servers.md": "1efe1831a2af07eb33356ad4b9b5febc315f08b458b414aed8acb95501de775e",
-          "docs/zh/community/mcp-tools.md": "806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad"
-        },
-        "contentSha256": "1efe1831a2af07eb33356ad4b9b5febc315f08b458b414aed8acb95501de775e",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/mcp/connect-existing-servers.md",
@@ -4592,17 +4283,9 @@
           "outputPaths": [
             "docs/en/mcp/connect-existing-servers.md",
             "docs/en/community/mcp-tools.md"
-          ],
-          "outputHashes": {
-            "docs/en/mcp/connect-existing-servers.md": "6de8ca3815769f2f7010d9d479baaa64705c55d5a13f63343420ea5931eeb8d2",
-            "docs/en/community/mcp-tools.md": "21e50a40ec32d1bfc857d4de3dfbb9ec7187fcd961d849ce9cf0f2fa5117b874"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 27,
-          "not-reused-unavailable": 4
-        },
         "unreadHistoricalFiles": [
           "DOC-28-file-001",
           "DOC-28-file-002",
@@ -4749,10 +4432,6 @@
         "outputPaths": [
           "docs/zh/hardware/boards/xmini-c3.md"
         ],
-        "outputHashes": {
-          "docs/zh/hardware/boards/xmini-c3.md": "cbfd673a9f69a78954b2a0493ba33121aaead15af5810e0fb6480144a65d1de5"
-        },
-        "contentSha256": "cbfd673a9f69a78954b2a0493ba33121aaead15af5810e0fb6480144a65d1de5",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/hardware/boards/xmini-c3.md",
@@ -4761,16 +4440,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/hardware/boards/xmini-c3.md"
-          ],
-          "outputHashes": {
-            "docs/en/hardware/boards/xmini-c3.md": "0fddca1d0123847320c160f49ff88a8b8c868e91974dd25cb9d88e4fd9750d7c"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "retained-local-image": 2,
-          "not-reused": 59
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -4903,10 +4575,6 @@
         "outputPaths": [
           "docs/zh/community/projects/sf32lb52-plugin.md"
         ],
-        "outputHashes": {
-          "docs/zh/community/projects/sf32lb52-plugin.md": "d3aab5491926e10cf6345b29bf172806a494fa84cf666df6ae057ec304ef495a"
-        },
-        "contentSha256": "d3aab5491926e10cf6345b29bf172806a494fa84cf666df6ae057ec304ef495a",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/community/projects/sf32lb52-plugin.md",
@@ -4915,17 +4583,9 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/community/projects/sf32lb52-plugin.md"
-          ],
-          "outputHashes": {
-            "docs/en/community/projects/sf32lb52-plugin.md": "80b98441919e1fc81bcf4dfe2808099d5c438df7abccaf9ff7827ca39837a969"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "retained-local-image": 1,
-          "delegated-to-maintainer": 130,
-          "archived-release-file": 21
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -5067,10 +4727,6 @@
         "outputPaths": [
           "docs/zh/hardware/supported-boards.md"
         ],
-        "outputHashes": {
-          "docs/zh/hardware/supported-boards.md": "3c0db3016d18da12650654c6f2531614b48039d2dc578499b64beaf811f4dca1"
-        },
-        "contentSha256": "3c0db3016d18da12650654c6f2531614b48039d2dc578499b64beaf811f4dca1",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/hardware/supported-boards.md",
@@ -5079,16 +4735,9 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/hardware/supported-boards.md"
-          ],
-          "outputHashes": {
-            "docs/en/hardware/supported-boards.md": "8a5a6e6f14494a73e15610b97b37f34a1cf06482b2100ba472fa26bad09bcf1d"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 12,
-          "retained-local-image": 3
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -5222,10 +4871,6 @@
         "outputPaths": [
           "docs/zh/hardware/external-wake-module.md"
         ],
-        "outputHashes": {
-          "docs/zh/hardware/external-wake-module.md": "9bde2d94b9aa57be43de11443fa1c6df568bdfc68d053533eb1cfb3d52d8a723"
-        },
-        "contentSha256": "9bde2d94b9aa57be43de11443fa1c6df568bdfc68d053533eb1cfb3d52d8a723",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/hardware/external-wake-module.md",
@@ -5234,16 +4879,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/hardware/external-wake-module.md"
-          ],
-          "outputHashes": {
-            "docs/en/hardware/external-wake-module.md": "a12649afbe972fa1a0dd0ca395a0b3b4adf127cdc5643c763312d9c84efc3e25"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 45,
-          "retained-local-image": 9
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -5374,10 +5012,6 @@
         "outputPaths": [
           "docs/zh/development/mcp-gpio.md"
         ],
-        "outputHashes": {
-          "docs/zh/development/mcp-gpio.md": "5a1c8a1dae664a931200baa5564943d60418a2b08599fba5eb28c382b3b96f74"
-        },
-        "contentSha256": "5a1c8a1dae664a931200baa5564943d60418a2b08599fba5eb28c382b3b96f74",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/development/mcp-gpio.md",
@@ -5386,16 +5020,9 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/development/mcp-gpio.md"
-          ],
-          "outputHashes": {
-            "docs/en/development/mcp-gpio.md": "8995f9fdda345de6c057d82a9689766dc4aec17f8d6dfee070e1ef60f152a9f8"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 15,
-          "retained-release": 1
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -5509,7 +5136,6 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "a77c7f081097951363efd623ef427bf81b6305eda37bbe1faa1deaede919c2a3",
         "completedChanges": [
           "采用成品 USB 移动电源作为可便携复现的主路径。",
           "区分板载充电与裸电芯定制，移除试错反接和任意 USB 充电建议。"
@@ -5522,10 +5148,7 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/hardware/battery-power.md"
-          ],
-          "outputHashes": {
-            "docs/en/hardware/battery-power.md": "82294fc0741d3c4876048e9d10aba4a374f6512d20acbf744e656c4a3df98c46"
-          }
+          ]
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -5544,14 +5167,7 @@
         "outputPaths": [
           "docs/zh/hardware/battery-power.md"
         ],
-        "outputHashes": {
-          "docs/zh/hardware/battery-power.md": "a77c7f081097951363efd623ef427bf81b6305eda37bbe1faa1deaede919c2a3"
-        },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 11,
-          "retained-local-image": 2
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -5668,7 +5284,6 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "11a652c79b9ef1da74c8b00d409d9f8e8c72b701814290137cecbf8b8e9a5634",
         "completedChanges": [
           "按负载区分扬声器、耳机和 Line Out；取消功放直接接三脚插座的接法。",
           "给出基础功放的无源扬声器连接与专用耳机/线路接口选择流程。"
@@ -5681,10 +5296,7 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/hardware/audio-output.md"
-          ],
-          "outputHashes": {
-            "docs/en/hardware/audio-output.md": "91b13abca9b91cf29b85f576bf3db59456a701ddc4f6c4e8c32dded40c01e6d6"
-          }
+          ]
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -5703,14 +5315,7 @@
         "outputPaths": [
           "docs/zh/hardware/audio-output.md"
         ],
-        "outputHashes": {
-          "docs/zh/hardware/audio-output.md": "11a652c79b9ef1da74c8b00d409d9f8e8c72b701814290137cecbf8b8e9a5634"
-        },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 6,
-          "retained-local-image": 1
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -5842,10 +5447,6 @@
         "outputPaths": [
           "docs/zh/community/projects/wake-on-lan.md"
         ],
-        "outputHashes": {
-          "docs/zh/community/projects/wake-on-lan.md": "17efa582331ca99d4020ead7331b9613dee82ba119c2886ebf322e005db33d73"
-        },
-        "contentSha256": "17efa582331ca99d4020ead7331b9613dee82ba119c2886ebf322e005db33d73",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/community/projects/wake-on-lan.md",
@@ -5854,17 +5455,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/community/projects/wake-on-lan.md"
-          ],
-          "outputHashes": {
-            "docs/en/community/projects/wake-on-lan.md": "9f2006cccc0d3d2f70caef7b49cb6bad8b065bde59b72209fd8f1401fc84efb0"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "replaced": 1,
-          "retained-release": 1,
-          "not-reused": 24
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -5991,10 +5584,6 @@
         "outputPaths": [
           "docs/zh/community/open-hardware.md"
         ],
-        "outputHashes": {
-          "docs/zh/community/open-hardware.md": "57c08d391701659fd545bd4150caa26ef56da4fb6ff0657ae485e05a4dfab189"
-        },
-        "contentSha256": "57c08d391701659fd545bd4150caa26ef56da4fb6ff0657ae485e05a4dfab189",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/community/open-hardware.md",
@@ -6003,13 +5592,9 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/community/open-hardware.md"
-          ],
-          "outputHashes": {
-            "docs/en/community/open-hardware.md": "2e0ee41b015a0637a5530a0d32629c44493d75213c4459461a1b8dfccef430ab"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {},
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -6146,10 +5731,6 @@
         "outputPaths": [
           "docs/zh/reference/websocket.md"
         ],
-        "outputHashes": {
-          "docs/zh/reference/websocket.md": "ed94cb41ea90d1dd1ead00ec6de909dc9ad7eb380f822efd87c5c67de6c51222"
-        },
-        "contentSha256": "ed94cb41ea90d1dd1ead00ec6de909dc9ad7eb380f822efd87c5c67de6c51222",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/reference/websocket.md",
@@ -6158,15 +5739,9 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/reference/websocket.md"
-          ],
-          "outputHashes": {
-            "docs/en/reference/websocket.md": "4ac283f23a59b2fc71f6ebf0ae3504d17eb861acd849ac09931466e1f897cb9d"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 2
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -6291,10 +5866,6 @@
         "outputPaths": [
           "docs/zh/reference/display-emotions.md"
         ],
-        "outputHashes": {
-          "docs/zh/reference/display-emotions.md": "cf931d7d2b13c6a44c2f86a819af6cb3804eff828563a9a181faad1395f12050"
-        },
-        "contentSha256": "cf931d7d2b13c6a44c2f86a819af6cb3804eff828563a9a181faad1395f12050",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/reference/display-emotions.md",
@@ -6303,13 +5874,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/reference/display-emotions.md"
-          ],
-          "outputHashes": {
-            "docs/en/reference/display-emotions.md": "e8139403a19b9a701eee492fa2d9348747ac0e255c3805d376067d294a1267ab"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {},
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -6448,10 +6015,6 @@
         "outputPaths": [
           "docs/zh/reference/ota.md"
         ],
-        "outputHashes": {
-          "docs/zh/reference/ota.md": "085c401beb16cf42386e8b7dfd5bdf339b92a4a5e4bdc9bcdb23c95d4376e9f1"
-        },
-        "contentSha256": "085c401beb16cf42386e8b7dfd5bdf339b92a4a5e4bdc9bcdb23c95d4376e9f1",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/reference/ota.md",
@@ -6460,13 +6023,9 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/reference/ota.md"
-          ],
-          "outputHashes": {
-            "docs/en/reference/ota.md": "8eb856478ce96c901311a79fbe9599051b7801c2f1b601a8a95f2b5e120ac6a1"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {},
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -6588,10 +6147,6 @@
         "outputPaths": [
           "docs/zh/community/resources.md"
         ],
-        "outputHashes": {
-          "docs/zh/community/resources.md": "4ad5128a47fa0a663c6830ae0d9af84e3854cda17761301305a68885c7429f57"
-        },
-        "contentSha256": "4ad5128a47fa0a663c6830ae0d9af84e3854cda17761301305a68885c7429f57",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/community/resources.md",
@@ -6600,15 +6155,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/community/resources.md"
-          ],
-          "outputHashes": {
-            "docs/en/community/resources.md": "ac99675f56a8333fc7515fefe121ef3005f52982dfb7a4ee131a2d0eef8d6767"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "retained-release": 34
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -6740,11 +6289,6 @@
           "docs/zh/development/archive/p3-prompts.md",
           "docs/zh/development/custom-prompts.md"
         ],
-        "outputHashes": {
-          "docs/zh/development/archive/p3-prompts.md": "69fa88714014ee2a33bfc06b892c0b6d233df70a6e1adbd88e055b5824e8666b",
-          "docs/zh/development/custom-prompts.md": "892f462117a1d13caf9104e572a5b5f3885b051cd73612c71dced7501ca15b5b"
-        },
-        "contentSha256": "69fa88714014ee2a33bfc06b892c0b6d233df70a6e1adbd88e055b5824e8666b",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/development/archive/p3-prompts.md",
@@ -6754,16 +6298,9 @@
           "outputPaths": [
             "docs/en/development/archive/p3-prompts.md",
             "docs/en/development/custom-prompts.md"
-          ],
-          "outputHashes": {
-            "docs/en/development/archive/p3-prompts.md": "b1d263f691e17065fe7f332b49f0022e6e6e5dacfead259f2e4cb6ff39923f10",
-            "docs/en/development/custom-prompts.md": "2fb3ba794b84caa7f74148a738e1b789fd07abfee9e372d68e984a25fbd4ee67"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 3
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -6892,10 +6429,6 @@
         "outputPaths": [
           "docs/zh/community/mcp-tools.md"
         ],
-        "outputHashes": {
-          "docs/zh/community/mcp-tools.md": "806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad"
-        },
-        "contentSha256": "806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/community/mcp-tools.md",
@@ -6904,16 +6437,9 @@
           "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/community/mcp-tools.md"
-          ],
-          "outputHashes": {
-            "docs/en/community/mcp-tools.md": "21e50a40ec32d1bfc857d4de3dfbb9ec7187fcd961d849ce9cf0f2fa5117b874"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "not-reused": 11,
-          "retained-release": 1
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -7055,10 +6581,6 @@
         "outputPaths": [
           "docs/zh/community/projects/astronaut-storyteller.md"
         ],
-        "outputHashes": {
-          "docs/zh/community/projects/astronaut-storyteller.md": "8122ddafa4a969eae48ef325e15847ec38c04735e67516214055951fd2307bd1"
-        },
-        "contentSha256": "8122ddafa4a969eae48ef325e15847ec38c04735e67516214055951fd2307bd1",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/community/projects/astronaut-storyteller.md",
@@ -7067,16 +6589,9 @@
           "record": "english-translation-2026-11-15.json",
           "outputPaths": [
             "docs/en/community/projects/astronaut-storyteller.md"
-          ],
-          "outputHashes": {
-            "docs/en/community/projects/astronaut-storyteller.md": "0c77fa86f68cbdc7e7ac1dd10ecde721f0b7782c54fd03f5a1d35dc99fbe00d7"
-          }
+          ]
         },
         "mediaInventory": "media-inventory.json",
-        "mediaDispositions": {
-          "retained-local-image": 13,
-          "not-reused": 3
-        },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
@@ -7179,5 +6694,12 @@
     "changedPagePairs": 23,
     "communityConfirmed": false,
     "independentFirmwareMirror": false
+  },
+  "maintenancePolicy": {
+    "sourceEvidence": "sourceReview 的 revision/摘要与取舍证据保留；正文版本由 Git 追踪，不再维护输出摘要与逐章图片清单。",
+    "mediaEvidence": "原素材身份和迁移取舍在 media-inventory.json；衍生文件和保护图优化证据只记 image-optimization.json。",
+    "historicalReviews": "带日期的逐页复查与翻译记录是历史快照，不再作为当前页面/图片清单或自动检查输入。",
+    "translationRevision": "只在英文 frontmatter 保留 translation.sourceHash，逐页对照中文后才能刷新。",
+    "wiringDiagrams": "wiring-diagrams.json"
   }
 }
