@@ -2405,13 +2405,13 @@
       "page": "docs/zh/index.md",
       "sourceArticles": [],
       "editorialStatus": "checked",
-      "changed": false,
-      "judgment": "首页按用户任务分区；空白板优先在线编译，英文仍待中文确认。",
+      "changed": true,
+      "judgment": "首页介绍设备教程、阅读入口与社区共同维护；具体校对和翻译状态由各篇文章标明。",
       "readingOrder": [],
       "figures": [],
       "attachments": [],
       "reviewNoteInAudit": null,
-      "contentSha256": "177fe73d64684e740d5c308ab985cb0481e4dcdbd69fa9c599e032c1e581a43c",
+      "contentSha256": "d1f5fb8de98b6c0cb9826880860143e73b75e2d3db1dc1bc1fec56610858927b",
       "previousContentSha256": "aab47ebb914e523aa1f29610f9683d343922b849478fe117976d9bf94f502595",
       "communityStatus": "section-or-contribution-page"
     },
@@ -4288,5 +4288,12 @@
     "namedAnchors": 367,
     "stableWebsiteAnchorsUnchanged": true,
     "englishSourceHashesRefreshed": false
+  },
+  "projectPresentation": {
+    "record": "project-presentation-2026-11-15.md",
+    "readmeLanguage": "en",
+    "maintainerGuide": "MAINTAINING.md",
+    "homepageMessage": "tutorials and community contributions",
+    "translationSourceHashesRefreshed": false
   }
 }

@@ -9,6 +9,6 @@ features: [{"title": "Getting started", "details": "Find a path from powering on
 translation: {"sourceHash": "6db9833476ecaf597beebad4aea10c514c485d8a724ce0d817225f5de2b74dc5"}
 ---
 
-::: info Documentation is being rebuilt
-Existing tutorials are being reviewed and rewritten. Section pages show their preparation status as verified guides become available in Chinese and English.
+::: info Help improve the guides
+Share your device builds, verify instructions, or improve diagrams and explanations. Use the feedback link on any guide to help maintain the documentation.
 :::
