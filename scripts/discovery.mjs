@@ -40,7 +40,9 @@ function absoluteLink(url, page, srcDir) {
   if (url.startsWith('/')) return hostname + url
   const image = publicImageUrl(url, page.file, resolve(srcDir, 'public'))
   if (image.startsWith('/images/')) return hostname + image
-  const [path, suffix = ''] = url.split(/(?=[?#])/s, 2)
+  const marker = url.search(/[?#]/)
+  const path = marker < 0 ? url : url.slice(0, marker)
+  const suffix = marker < 0 ? '' : url.slice(marker)
   const target = relative(srcDir, resolve(dirname(page.file), path)).replaceAll('\\', '/')
   if (/^(zh|en)\/.*\.md$/.test(target)) return hostname + pagePath(target) + suffix
   throw new Error(`${page.path}: unsupported discovery link ${url}`)
@@ -70,6 +72,7 @@ export function exportMarkdown(page, srcDir, materials, englishMaterials) {
     }).join('\n')
   })
   body = rewriteProse(body, prose => prose
+    .replace(/<!--[^]*?-->/g, '')
     .replace(/\]\(([^)\n]+)\)/g, (_, url) => `](${absoluteLink(url, page, srcDir)})`)
     .replace(/^<a name="[^"]+"><\/a>\s*$/gm, '')
     .replace(/\s+\{#[^}]+\}(?=\s*$)/gm, '')
