@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="744" viewBox="0 0 960 744" role="img" aria-labelledby="title desc">
+<title id="title">ESP32-C3: Codec and OLED signals</title><desc id="desc">xmini/c3 / v2.6.0: ES8311 + NS4150. Signal wiring, not a physical header layout.</desc>
+<style>text{font-family:system-ui,"PingFang SC","Microsoft YaHei",sans-serif;fill:#183738}.head{font-size:26px;font-weight:700}.sub{font-size:16px;fill:#4b6266}.group{font-size:20px;font-weight:650}.port{font-size:17px}.small{font-size:14px;fill:#586b6e}</style>
+<rect width="960" height="744" rx="16" fill="#f5f9f8"/>
+<text x="28" y="43" class="head">ESP32-C3: Codec and OLED signals</text>
+<text x="28" y="74" class="sub">xmini/c3 / v2.6.0: ES8311 + NS4150 module</text>
+<text x="28" y="103" class="small">Match GPIOs and labels. Red: power; gray: GND; purple: clock; teal: data/control. Click for full size.</text>
+<rect x="18" y="130" width="924" height="318" rx="12" fill="#fff" stroke="#cbded9"/>
+<text x="36" y="160" class="group">Audio module</text>
+<text x="42" y="186" class="small">ESP32-C3 MCU</text>
+<text x="650" y="186" class="small">ES8311 / amplifier module</text>
+<text x="42" y="218" class="port">GPIO3</text>
+<path d="M 390 213 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="213" r="4" fill="#128b84"/><circle cx="620" cy="213" r="4" fill="#128b84"/>
+<text x="650" y="218" class="port">SDA</text>
+<text x="42" y="249" class="port">GPIO4</text>
+<path d="M 390 244 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="244" r="4" fill="#7656b5"/><circle cx="620" cy="244" r="4" fill="#7656b5"/>
+<text x="650" y="249" class="port">SCL</text>
+<text x="42" y="280" class="port">GPIO10</text>
+<path d="M 390 275 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="275" r="4" fill="#7656b5"/><circle cx="620" cy="275" r="4" fill="#7656b5"/>
+<text x="650" y="280" class="port">MCLK</text>
+<text x="42" y="311" class="port">GPIO8</text>
+<path d="M 390 306 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="306" r="4" fill="#7656b5"/><circle cx="620" cy="306" r="4" fill="#7656b5"/>
+<text x="650" y="311" class="port">BCLK</text>
+<text x="42" y="342" class="port">GPIO6</text>
+<path d="M 390 337 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="337" r="4" fill="#7656b5"/><circle cx="620" cy="337" r="4" fill="#7656b5"/>
+<text x="650" y="342" class="port">WS / LRCK</text>
+<text x="42" y="373" class="port">GPIO7</text>
+<path d="M 390 368 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="368" r="4" fill="#128b84"/><circle cx="620" cy="368" r="4" fill="#128b84"/>
+<text x="650" y="373" class="port">Codec ADC output → MCU</text>
+<text x="42" y="404" class="port">GPIO5</text>
+<path d="M 390 399 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="399" r="4" fill="#128b84"/><circle cx="620" cy="399" r="4" fill="#128b84"/>
+<text x="650" y="404" class="port">Codec DAC input ← MCU</text>
+<text x="42" y="435" class="port">GPIO11</text>
+<path d="M 390 430 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="430" r="4" fill="#128b84"/><circle cx="620" cy="430" r="4" fill="#128b84"/>
+<text x="650" y="435" class="port">PA enable</text>
+<rect x="18" y="464" width="924" height="132" rx="12" fill="#fff" stroke="#cbded9"/>
+<text x="36" y="494" class="group">OLED on shared I2C</text>
+<text x="42" y="520" class="small">ESP32-C3 MCU</text>
+<text x="650" y="520" class="small">SSD1306 OLED</text>
+<text x="42" y="552" class="port">GPIO3</text>
+<path d="M 390 547 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="547" r="4" fill="#128b84"/><circle cx="620" cy="547" r="4" fill="#128b84"/>
+<text x="650" y="552" class="port">SDA</text>
+<text x="42" y="583" class="port">GPIO4</text>
+<path d="M 390 578 H 620" fill="none" stroke="#7656b5" stroke-width="3"/>
+<circle cx="390" cy="578" r="4" fill="#7656b5"/><circle cx="620" cy="578" r="4" fill="#7656b5"/>
+<text x="650" y="583" class="port">SCL</text>
+<text x="28" y="629" class="small">For Codec 3V3, amplifier VCC/5VIN, GND, and speaker wiring, use the module diagram and power notes.</text>
+<text x="28" y="663" class="small">Interpret DI/DO using the circuit: ADC output enters MCU; MCU output enters DAC.</text>
+<text x="28" y="697" class="small">C3 V3 uses different GPIOs. Do not apply this diagram to V3.</text>
+</svg>

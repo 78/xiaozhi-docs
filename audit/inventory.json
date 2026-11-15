@@ -6,7 +6,7 @@
   "reviewType": "editorial-and-source-comparison",
   "verificationBaseline": "verification-baseline-2026-11-14.json",
   "report": "review-2026-11-14.md",
-  "statusNote": "44篇来源、55中文页面已逐篇复查阅读顺序、图文相关性与素材去向；新版Console按当前实现重做，首推官方在线烧录。中文继续社区校对，未将编辑/构建通过视为全硬件、生产服务或素材许可验收。",
+  "statusNote": "44篇来源已重构；56个中英对应路径完成英文翻译与素材/章节核对，含54个内容页及2个旧版本重定向。中英文继续社区校对，未将编辑或构建通过视为全硬件、生产服务或素材许可验收。",
   "priorityPolicy": {
     "P0": "先纠正可能导致接线/供电误用的内容，完成下载、烧录、配网、在线编译及官方开发/MCP 的首发核心路径。",
     "P1": "补全控制台与主要板型，合并开发参考和高影响的旧入口。",
@@ -273,9 +273,17 @@
         },
         "contentSha256": "d6da98922fdc1815d5a84a214eafb46c1d4cc502b5f15b70821f48923090f75c",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/console/github-verification.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/console/github-verification.md"
+          ],
+          "outputHashes": {
+            "docs/en/console/github-verification.md": "12f4e19c8a99f9c90a80de3bf30039b6de4874054f01aa5524e880cdf72f29fc"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -390,9 +398,21 @@
           "恢复9组产品名/芯片/文件名分类下载表；v2.6.0的200个资产中199个板型准确匹配，1个无精确配置的CI包单独记审计而不作为常规下载。"
         ],
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/firmware/downloads.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/firmware/downloads.md",
+            "docs/en/firmware/releases/v2.5.2.md",
+            "docs/en/firmware/releases/v2.6.0.md"
+          ],
+          "outputHashes": {
+            "docs/en/firmware/downloads.md": "5f624acbbe9cd96886334b22e81d66a28945094f3d19e786fb50fe0eed4cb513",
+            "docs/en/firmware/releases/v2.5.2.md": "bf207d1946224ebd532036701fb9ca28ee4de313a57441531eadee4b1924d849",
+            "docs/en/firmware/releases/v2.6.0.md": "e767d4505d63d7ed2558b1b0ce214f025aa4b64a026eecc54eee1a10f0f3b392"
+          }
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -547,9 +567,19 @@
         },
         "contentSha256": "d7c758451084597cce96d2b756a9a808d7544a7976342b4c3386db0cd7f2bfb6",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/firmware/releases/v2.6.0.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/firmware/releases/v2.6.0.md",
+            "docs/en/firmware/releases/v2.2.4.md"
+          ],
+          "outputHashes": {
+            "docs/en/firmware/releases/v2.6.0.md": "e767d4505d63d7ed2558b1b0ce214f025aa4b64a026eecc54eee1a10f0f3b392",
+            "docs/en/firmware/releases/v2.2.4.md": "116c7315284ee2ddef270f0baec89d47a5f2d81d8ae04ce41c455794d86bb17b"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {},
@@ -675,9 +705,17 @@
         },
         "contentSha256": "d8731cc5424a82a7a45a624007a79b2278eea08abfca34a111b9cd40897535ae",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/firmware/releases/v1.9.4.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/firmware/releases/v1.9.4.md"
+          ],
+          "outputHashes": {
+            "docs/en/firmware/releases/v1.9.4.md": "a718182909bab289977212bac64b22cd92427efabd4bf561a775d40f5f859b9e"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -802,9 +840,19 @@
           "本次纠错恢复原 39 张技术图（另两张群二维码不迁入），补全模块识别、44/42 针、麦克风反装、成品/隐藏线，并将 ML307R / NT26K 分到独立扩展页。"
         ],
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/hardware/breadboard-esp32-s3.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/hardware/breadboard-esp32-s3.md",
+            "docs/en/hardware/breadboard-4g.md"
+          ],
+          "outputHashes": {
+            "docs/en/hardware/breadboard-esp32-s3.md": "a6f9c93bda7a70498b7e885053e8f62be43bf33b315d0b4785421342be39b579",
+            "docs/en/hardware/breadboard-4g.md": "d52a214cd0fac396cea8cfdc8b4c5f1104188dad82a21bd5179d476db485c869"
+          }
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -969,9 +1017,17 @@
         },
         "contentSha256": "02c2424ac430bd8c5819b96f5c2da9f97e73d24b36a3174336d6ea801acacfdd",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/hardware/displays/st7789.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/hardware/displays/st7789.md"
+          ],
+          "outputHashes": {
+            "docs/en/hardware/displays/st7789.md": "3e218b5567b587836500d768c2454eb196d4d86e8e771a18071552fe6a23daeb"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -1117,9 +1173,17 @@
         },
         "contentSha256": "7ef83bda1dd98468642460ca93dd840a81009ebffce384b8881ac7e0f1f7faf9",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/hardware/breadboard-camera.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/hardware/breadboard-camera.md"
+          ],
+          "outputHashes": {
+            "docs/en/hardware/breadboard-camera.md": "0092ea772ca9957a08b13c4964345fea8e5ca4e4d4016fe9b6bc9f4e73da9a7c"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -1260,9 +1324,17 @@
           "解释 Console 跳过 NVS 的范围及跨布局例外；给出 esptool 5.x 语法。"
         ],
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/firmware/flashing.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/firmware/flashing.md"
+          ],
+          "outputHashes": {
+            "docs/en/firmware/flashing.md": "ef6a54e99afae7a002b41d14318aaa9c8845700a4e6097b42b5e502ff9d8b423"
+          }
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -1401,9 +1473,17 @@
           "区分下载模式和重新配网，取消绕线/触摸天线的维修建议。"
         ],
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/getting-started/wifi-and-binding.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/getting-started/wifi-and-binding.md"
+          ],
+          "outputHashes": {
+            "docs/en/getting-started/wifi-and-binding.md": "de6e8f7205618c5aaa82b2539c89b3d7e772c83bd63026eb1bcf8f6d747605e2"
+          }
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -1556,9 +1636,19 @@
         },
         "contentSha256": "0f692bd58c8825aad2639f21ddb1d8db5b9488d82b43f05f6f80744af2f98a4d",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/hardware/choosing-hardware.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/hardware/choosing-hardware.md",
+            "docs/en/hardware/breadboard-esp32-s3.md"
+          ],
+          "outputHashes": {
+            "docs/en/hardware/choosing-hardware.md": "c277e175642d8c17db1cadf998225af3ceeae473c0f198a586a16e8f48ff6945",
+            "docs/en/hardware/breadboard-esp32-s3.md": "a6f9c93bda7a70498b7e885053e8f62be43bf33b315d0b4785421342be39b579"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -1700,9 +1790,17 @@
         },
         "contentSha256": "4327720cc82cb8e9bc04491b15222683ba356bb0c63175175a3d8bcace735fea",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/hardware/design-guidelines.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/hardware/design-guidelines.md"
+          ],
+          "outputHashes": {
+            "docs/en/hardware/design-guidelines.md": "376028b479ede58116e73ca9635745ff64b85f1083d2936fa56f7139f49ae233"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -1829,9 +1927,17 @@
         },
         "contentSha256": "be5b4c1f7863f74ef2cf56dc1d07da2d6161ecf7c898e8a19d860f608af1f31e",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/hardware/breadboard-esp32-c3.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/hardware/breadboard-esp32-c3.md"
+          ],
+          "outputHashes": {
+            "docs/en/hardware/breadboard-esp32-c3.md": "d49b888501aec9b4f69b7dbfc0f3986b14bf11c21621a481eb34594fdf0a3968"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -1973,9 +2079,17 @@
         },
         "contentSha256": "f15f95815469b349f4b4addde103b8102b0c1071d311d89a1de76c004be49522",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/hardware/breadboard-esp32.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/hardware/breadboard-esp32.md"
+          ],
+          "outputHashes": {
+            "docs/en/hardware/breadboard-esp32.md": "7094adc89b322b9623d5418670f4859f8184b85d84b0f0848216d16f689abd5c"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -2115,9 +2229,17 @@
         },
         "contentSha256": "9e50da2b8ef3d50bdf75182ea3b83899c735f9048dc7ae0fec35daceea222a49",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/console/voice-cloning.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/console/voice-cloning.md"
+          ],
+          "outputHashes": {
+            "docs/en/console/voice-cloning.md": "470cb46887299d01ea2676945194bb21caee49c37568a68f0bc30d8518602262"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -2237,9 +2359,17 @@
           "纠正旧唤醒/蓝牙/SDK 结论，补日志与反馈所需信息。"
         ],
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/faq/index.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/faq/index.md"
+          ],
+          "outputHashes": {
+            "docs/en/faq/index.md": "2e1fdf3c35a1382fea22bd20aa5a5c91a4a3163272ea67a7961b230df42658a7"
+          }
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -2386,9 +2516,17 @@
         },
         "contentSha256": "564aced7d21fcf9ee58f5fa50f15654a6a77012bcc277bc641418b9f9d0baba1",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/faq/account-and-binding.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/faq/account-and-binding.md"
+          ],
+          "outputHashes": {
+            "docs/en/faq/account-and-binding.md": "715e985d298a89edfdac672b4364a6cf5cdf82581a44045ab4593712f46a5e2f"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -2515,9 +2653,17 @@
         },
         "contentSha256": "196cc2ac5499c8d73ed94108c044f051f1d3bf0dd5f61f80d652e5cb26852d73",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/console/knowledge-base.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/console/knowledge-base.md"
+          ],
+          "outputHashes": {
+            "docs/en/console/knowledge-base.md": "10809d87e41f1ff2c42e47b7df8b1251aa65656273e316e655ae6fd7be3ef095"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -2639,9 +2785,17 @@
           "嘉立创实战派S3完成真实Web Serial分区烧录，补入串口、进度与成功截图；重启日志确认2.6.0、网络重连与idle。"
         ],
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/firmware/online-builder.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/firmware/online-builder.md"
+          ],
+          "outputHashes": {
+            "docs/en/firmware/online-builder.md": "dfc774069b1cf2a2455e8c4d863c51955500c3ec1ca893c63f6e6101edd663d2"
+          }
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -2785,9 +2939,17 @@
           "补构建变体、产物、串口日志、SDK 切换和 Windows response file。"
         ],
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/development/build-firmware.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/development/build-firmware.md"
+          ],
+          "outputHashes": {
+            "docs/en/development/build-firmware.md": "af00701ed297e6788e2ed59adf457486f6f1b3ec33b0c667f14cb66b62090412"
+          }
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -2926,9 +3088,17 @@
           "完整技术 API 链接固件版本文档，移除覆盖标准板型和删除 OTA 分区的通用方案。"
         ],
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/development/custom-board.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/development/custom-board.md"
+          ],
+          "outputHashes": {
+            "docs/en/development/custom-board.md": "b648f26b6788a5841e8e1a7f023cee03d50445b11b44d852c8933dc14f57fb9d"
+          }
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -3075,9 +3245,17 @@
         },
         "contentSha256": "e64e00ed106bca9558538c5dcdcf6f49885ac40a0cbe348738389d26d901b07b",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/development/audio-and-aec.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/development/audio-and-aec.md"
+          ],
+          "outputHashes": {
+            "docs/en/development/audio-and-aec.md": "8502877449f5e8a421540b6918e7e95a84cffe47fa21bc2fff47acab38c04563"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -3206,9 +3384,17 @@
         },
         "contentSha256": "8b3b5c446e3e0021a06282ef3ee5ac0d794d26cdb742fb52c612a531a505ddc3",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/development/wake-words.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/development/wake-words.md"
+          ],
+          "outputHashes": {
+            "docs/en/development/wake-words.md": "14f2cfb519e0d963ef50b43888e899d5e2b267d46d8a9c6b5d46730d0df01b93"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -3331,9 +3517,17 @@
         },
         "contentSha256": "ba3cc2453781a7b41c054ae7f254c8dcd26e173e9d1309a94f3abb337778bb2c",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/faq/serial-logs.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/faq/serial-logs.md"
+          ],
+          "outputHashes": {
+            "docs/en/faq/serial-logs.md": "72a83ecebb18a1fa40f73d37dba78e36c6948db7a357d3ec597486e35986c807"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -3456,9 +3650,17 @@
           "补齐固定上游提交、虚拟环境、端点、桥接、工具发现与真实调用核验步骤。"
         ],
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/mcp/quickstart.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/mcp/quickstart.md"
+          ],
+          "outputHashes": {
+            "docs/en/mcp/quickstart.md": "13706f6a35e331f8f8f897bf1ade675b6270f0ba2a06fb2ebb14a0eb7a4db285"
+          }
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -3605,9 +3807,17 @@
         },
         "contentSha256": "ee6e1f95d5268297f33b151d751b5ebb0e8e90fc465776dead851632d41dbea7",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/mcp/examples/web-search.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/mcp/examples/web-search.md"
+          ],
+          "outputHashes": {
+            "docs/en/mcp/examples/web-search.md": "990ed8e1216cf7d70de4eabf01f6a774693a2cc8e5b0cb9c4b10c7c4c62b8a0a"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -3735,9 +3945,17 @@
         },
         "contentSha256": "bd3c54869ca3a90a5a8c633932e7e92958d9b98465cf2e4e5f5028d7978958e9",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/community/mcp-tools.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/community/mcp-tools.md"
+          ],
+          "outputHashes": {
+            "docs/en/community/mcp-tools.md": "ed3f1202ec3e98b8d99be8111e8e2d5842d0d4fb6ffa64f80177b229bb807be3"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -3861,9 +4079,17 @@
         },
         "contentSha256": "bd3c54869ca3a90a5a8c633932e7e92958d9b98465cf2e4e5f5028d7978958e9",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/community/mcp-tools.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/community/mcp-tools.md"
+          ],
+          "outputHashes": {
+            "docs/en/community/mcp-tools.md": "ed3f1202ec3e98b8d99be8111e8e2d5842d0d4fb6ffa64f80177b229bb807be3"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -4006,9 +4232,19 @@
         },
         "contentSha256": "57295cdf1e4ddc1d5cf5121b52cda4967f011a97bff029a0c65c9d680530d757",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/mcp/connect-existing-servers.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/mcp/connect-existing-servers.md",
+            "docs/en/community/mcp-tools.md"
+          ],
+          "outputHashes": {
+            "docs/en/mcp/connect-existing-servers.md": "8b50bf03f3cfe5e19007d1f74d2e26f9e20070b47738d79d7b0390bcfc8f9f0a",
+            "docs/en/community/mcp-tools.md": "ed3f1202ec3e98b8d99be8111e8e2d5842d0d4fb6ffa64f80177b229bb807be3"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -4153,9 +4389,17 @@
         },
         "contentSha256": "76af6c1ee5734c30098c27b1f4295338e8142130b0d85b38ada33a3364272fcc",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/hardware/boards/xmini-c3.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/hardware/boards/xmini-c3.md"
+          ],
+          "outputHashes": {
+            "docs/en/hardware/boards/xmini-c3.md": "2bd7a557b0c5c4cb38327d1311cd05a39e8d8e6c851befda1cab4f06462d5f0c"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -4287,9 +4531,17 @@
         },
         "contentSha256": "d3aab5491926e10cf6345b29bf172806a494fa84cf666df6ae057ec304ef495a",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/community/projects/sf32lb52-plugin.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/community/projects/sf32lb52-plugin.md"
+          ],
+          "outputHashes": {
+            "docs/en/community/projects/sf32lb52-plugin.md": "80b98441919e1fc81bcf4dfe2808099d5c438df7abccaf9ff7827ca39837a969"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -4432,9 +4684,17 @@
         },
         "contentSha256": "3c0db3016d18da12650654c6f2531614b48039d2dc578499b64beaf811f4dca1",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/hardware/supported-boards.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/hardware/supported-boards.md"
+          ],
+          "outputHashes": {
+            "docs/en/hardware/supported-boards.md": "8a5a6e6f14494a73e15610b97b37f34a1cf06482b2100ba472fa26bad09bcf1d"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -4568,9 +4828,17 @@
         },
         "contentSha256": "ebc37e7b0fd16cd1b024786657ca77857d530d912cf2867e5b2b2abb77a9923a",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/hardware/external-wake-module.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/hardware/external-wake-module.md"
+          ],
+          "outputHashes": {
+            "docs/en/hardware/external-wake-module.md": "6637be3b76beb9e8f5f251e369021fe81a22f78949a3a070aeb1e36662862b68"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -4700,9 +4968,17 @@
         },
         "contentSha256": "5a1c8a1dae664a931200baa5564943d60418a2b08599fba5eb28c382b3b96f74",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/development/mcp-gpio.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/development/mcp-gpio.md"
+          ],
+          "outputHashes": {
+            "docs/en/development/mcp-gpio.md": "8995f9fdda345de6c057d82a9689766dc4aec17f8d6dfee070e1ef60f152a9f8"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -4817,9 +5093,17 @@
           "区分板载充电与裸电芯定制，移除试错反接和任意 USB 充电建议。"
         ],
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/hardware/battery-power.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/hardware/battery-power.md"
+          ],
+          "outputHashes": {
+            "docs/en/hardware/battery-power.md": "82294fc0741d3c4876048e9d10aba4a374f6512d20acbf744e656c4a3df98c46"
+          }
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -4957,9 +5241,17 @@
           "给出基础功放的无源扬声器连接与专用耳机/线路接口选择流程。"
         ],
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/hardware/audio-output.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/hardware/audio-output.md"
+          ],
+          "outputHashes": {
+            "docs/en/hardware/audio-output.md": "91b13abca9b91cf29b85f576bf3db59456a701ddc4f6c4e8c32dded40c01e6d6"
+          }
         },
         "communityFeedback": {
           "status": "awaiting-feedback",
@@ -5111,9 +5403,17 @@
         },
         "contentSha256": "e5452320a82ff31f2f7cc97733461146b633d55511c8f10aab71f0eea0dc99ba",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/community/projects/wake-on-lan.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/community/projects/wake-on-lan.md"
+          ],
+          "outputHashes": {
+            "docs/en/community/projects/wake-on-lan.md": "43e8b3f1edb23332d84a518c6240f2e9a6be7f67ff86a6a3b41e57c902b6c37b"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -5240,9 +5540,17 @@
         },
         "contentSha256": "57c08d391701659fd545bd4150caa26ef56da4fb6ff0657ae485e05a4dfab189",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/community/open-hardware.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/community/open-hardware.md"
+          ],
+          "outputHashes": {
+            "docs/en/community/open-hardware.md": "2e0ee41b015a0637a5530a0d32629c44493d75213c4459461a1b8dfccef430ab"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {},
@@ -5376,9 +5684,17 @@
         },
         "contentSha256": "ed94cb41ea90d1dd1ead00ec6de909dc9ad7eb380f822efd87c5c67de6c51222",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/reference/websocket.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/reference/websocket.md"
+          ],
+          "outputHashes": {
+            "docs/en/reference/websocket.md": "4ac283f23a59b2fc71f6ebf0ae3504d17eb861acd849ac09931466e1f897cb9d"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -5502,9 +5818,17 @@
         },
         "contentSha256": "94b05422e41a79bfb41bc3564b24ee11f5ccff8ec23342f51d742cd1405fab8c",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/reference/display-emotions.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/reference/display-emotions.md"
+          ],
+          "outputHashes": {
+            "docs/en/reference/display-emotions.md": "d0eaec0b93607e2464ba819d6fb04ec82b04ccac8835ae0246419272fe6526ee"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {},
@@ -5639,9 +5963,17 @@
         },
         "contentSha256": "085c401beb16cf42386e8b7dfd5bdf339b92a4a5e4bdc9bcdb23c95d4376e9f1",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/reference/ota.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/reference/ota.md"
+          ],
+          "outputHashes": {
+            "docs/en/reference/ota.md": "8eb856478ce96c901311a79fbe9599051b7801c2f1b601a8a95f2b5e120ac6a1"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {},
@@ -5760,9 +6092,17 @@
         },
         "contentSha256": "80af6239a362f8e45a8355c2cb644132534e1984131de4d47a9d53f33384e650",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/community/resources.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/community/resources.md"
+          ],
+          "outputHashes": {
+            "docs/en/community/resources.md": "cf27f97069212b4a269a401bb5712b03b257081b7bda3e211827067b2c6e074c"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -5893,9 +6233,19 @@
         },
         "contentSha256": "69fa88714014ee2a33bfc06b892c0b6d233df70a6e1adbd88e055b5824e8666b",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/development/archive/p3-prompts.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/development/archive/p3-prompts.md",
+            "docs/en/development/custom-prompts.md"
+          ],
+          "outputHashes": {
+            "docs/en/development/archive/p3-prompts.md": "b1d263f691e17065fe7f332b49f0022e6e6e5dacfead259f2e4cb6ff39923f10",
+            "docs/en/development/custom-prompts.md": "2fb3ba794b84caa7f74148a738e1b789fd07abfee9e372d68e984a25fbd4ee67"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -6022,9 +6372,17 @@
         },
         "contentSha256": "bd3c54869ca3a90a5a8c633932e7e92958d9b98465cf2e4e5f5028d7978958e9",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/community/mcp-tools.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/community/mcp-tools.md"
+          ],
+          "outputHashes": {
+            "docs/en/community/mcp-tools.md": "ed3f1202ec3e98b8d99be8111e8e2d5842d0d4fb6ffa64f80177b229bb807be3"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -6165,9 +6523,17 @@
         },
         "contentSha256": "8122ddafa4a969eae48ef325e15847ec38c04735e67516214055951fd2307bd1",
         "translation": {
-          "status": "waiting-for-chinese-community-review",
+          "status": "community-review",
           "counterpartPath": "docs/en/community/projects/astronaut-storyteller.md",
-          "bodyTranslated": false
+          "bodyTranslated": true,
+          "reviewedAt": "2026-11-15",
+          "record": "english-translation-2026-11-15.json",
+          "outputPaths": [
+            "docs/en/community/projects/astronaut-storyteller.md"
+          ],
+          "outputHashes": {
+            "docs/en/community/projects/astronaut-storyteller.md": "0c77fa86f68cbdc7e7ac1dd10ecde721f0b7782c54fd03f5a1d35dc99fbe00d7"
+          }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -6208,7 +6574,7 @@
     "status": "community-review",
     "report": "p1-p2-rewrite-2026-11-14.md",
     "mediaInventory": "media-inventory.json",
-    "translation": "pending-chinese-community-feedback",
+    "translation": "english-community-review",
     "distributionVerification": "distribution-verification-2026-11-14.json",
     "followUpCorrection": "breadboard-illustration-repair-2026-11-14.md",
     "readerCopyCorrection": "隐藏迁移编号与重复来源标记；OLED 只展示 OLED 图，音频与接线检查归属独立章节。",
@@ -6226,5 +6592,15 @@
       "v2.2.4"
     ],
     "reason": "Maintainer requested only v2.6.0 for v2 and v1.9.4 for v1. Legacy URLs retain stable IDs as draft redirects."
+  },
+  "englishTranslation": {
+    "status": "community-review",
+    "reviewedAt": "2026-11-15",
+    "record": "english-translation-2026-11-15.json",
+    "report": "english-translation-2026-11-15.md",
+    "pages": 56,
+    "bodyPages": 54,
+    "redirects": 2,
+    "communityConfirmed": 0
   }
 }

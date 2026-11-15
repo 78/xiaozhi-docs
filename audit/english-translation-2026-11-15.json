@@ -1,0 +1,671 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-15",
+  "sourceCommit": "9fe762bd83b048e4ace5e8e18024632f6114bc25",
+  "authorization": "Maintainer explicitly requested starting English translation on 2026-11-15, lifting the earlier translation hold. This is not evidence of completed Chinese community or hardware validation.",
+  "scope": {
+    "counterparts": 56,
+    "translatedContentPages": 54,
+    "retainedRedirects": 2,
+    "sourceArticles": 44,
+    "imageOccurrences": 138,
+    "localizedDiagrams": 22,
+    "releaseDownloadRows": 287,
+    "localizedAttachmentLabels": 40
+  },
+  "status": "english-community-review",
+  "checks": {
+    "metadataAndLocalePairs": true,
+    "articleAndChapterLinks": true,
+    "imageOrderAndSectionParity": true,
+    "attachmentComponentParity": true,
+    "diagramGeometryPreserved": true,
+    "firmwareChipFilenameUrlParity": true,
+    "codeBlocksCompared": true,
+    "externalReferenceParity": true,
+    "productionBuild": true
+  },
+  "codeReview": "All source code blocks were compared. Changes are limited to comments, example descriptions, error strings, and credential placeholders. Commands, GPIOs, board IDs, protocol fields, firmware filenames, and pinned revisions are preserved. English device-resource alternatives are explained explicitly.",
+  "sourceChanges": "Nine Chinese section/contribution pages only: replace the obsolete promise to translate later with the current community-review workflow. Technical Chinese instructions are unchanged.",
+  "mediaPolicy": "All 138 source image occurrences remain in matching sections. The 22 referenced text diagrams have native English SVG counterparts with unchanged geometry. Reuse photos and authentic Chinese-language Console captures with English captions; do not fabricate English UI. Attachment titles/notes are localized; original names, URLs, sizes, checksums, and media remain unchanged.",
+  "referencePolicy": "Confirmed English ota.md, custom-board.md, and blufi.md exist in the owning firmware tag and used those counterparts without changing the pinned revision. SF32 remains linked to JLC's maintained Chinese tutorial, explicitly labeled.",
+  "browserChecks": [
+    {
+      "page": "en/hardware/breadboard-esp32-s3.html#display",
+      "result": "English review notice and headings; 31 images; OLED section displays the English OLED-only wiring diagram."
+    },
+    {
+      "page": "en/hardware/breadboard-esp32-s3.html",
+      "result": "Search for ES8311 returns English C3 sections and English URLs."
+    },
+    {
+      "page": "en/community/resources.html#materials",
+      "result": "All 34 music/lyrics entries render translated labels; original filenames retained."
+    },
+    {
+      "page": "en/firmware/releases/v2.6.0.html#breadboard",
+      "viewport": "390×844",
+      "result": "199 rows in nine categories; no page-level horizontal overflow; product, chip, and filename remain readable."
+    },
+    {
+      "page": "en/mcp/quickstart.html#tool",
+      "result": "English code comments, tool description, errors, and instructions; English diagram; no article links into Chinese pages."
+    },
+    {
+      "page": "22 localized SVGs",
+      "result": "Rendered diagram text bounds checked in the browser; no text extends beyond the SVG viewports."
+    }
+  ],
+  "limitations": [
+    "English wording still awaits community proofreading.",
+    "No new hardware flashing, paid Console operation, identity verification, or third-party service execution was performed for translation.",
+    "Prior hardware/Console verification scopes remain unchanged; no claim of all-board verification.",
+    "Photos, videos, original file names, and external maintained tutorials can contain Chinese; English labels/captions explain their role."
+  ],
+  "pages": [
+    {
+      "source": "docs/zh/community/contributing.md",
+      "page": "docs/en/community/contributing.md",
+      "sourceSha256": "b6f5d3a09a547466d8835cf3e6979aedd82056d40b6b740c896ec2a5503af1be",
+      "contentSha256": "bd8e002badb96d61cfc73d4f26de5696d0e64e97bd4767867c816d92895ea7c9",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/community/index.md",
+      "page": "docs/en/community/index.md",
+      "sourceSha256": "a64c2fa56a80e19e0a15f4ff8341f65c5ade777ff60f3a9cba8379b271928b7c",
+      "contentSha256": "e39d388b2b478c5ce06087abfb2928d0ed738bb59574678824d2a7b03bf4e42e",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/community/mcp-tools.md",
+      "page": "docs/en/community/mcp-tools.md",
+      "sourceSha256": "bd3c54869ca3a90a5a8c633932e7e92958d9b98465cf2e4e5f5028d7978958e9",
+      "contentSha256": "ed3f1202ec3e98b8d99be8111e8e2d5842d0d4fb6ffa64f80177b229bb807be3",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/community/open-hardware.md",
+      "page": "docs/en/community/open-hardware.md",
+      "sourceSha256": "57c08d391701659fd545bd4150caa26ef56da4fb6ff0657ae485e05a4dfab189",
+      "contentSha256": "2e0ee41b015a0637a5530a0d32629c44493d75213c4459461a1b8dfccef430ab",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/community/projects/astronaut-storyteller.md",
+      "page": "docs/en/community/projects/astronaut-storyteller.md",
+      "sourceSha256": "8122ddafa4a969eae48ef325e15847ec38c04735e67516214055951fd2307bd1",
+      "contentSha256": "0c77fa86f68cbdc7e7ac1dd10ecde721f0b7782c54fd03f5a1d35dc99fbe00d7",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/community/projects/sf32lb52-plugin.md",
+      "page": "docs/en/community/projects/sf32lb52-plugin.md",
+      "sourceSha256": "d3aab5491926e10cf6345b29bf172806a494fa84cf666df6ae057ec304ef495a",
+      "contentSha256": "80b98441919e1fc81bcf4dfe2808099d5c438df7abccaf9ff7827ca39837a969",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/community/projects/wake-on-lan.md",
+      "page": "docs/en/community/projects/wake-on-lan.md",
+      "sourceSha256": "e5452320a82ff31f2f7cc97733461146b633d55511c8f10aab71f0eea0dc99ba",
+      "contentSha256": "43e8b3f1edb23332d84a518c6240f2e9a6be7f67ff86a6a3b41e57c902b6c37b",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/community/resources.md",
+      "page": "docs/en/community/resources.md",
+      "sourceSha256": "80af6239a362f8e45a8355c2cb644132534e1984131de4d47a9d53f33384e650",
+      "contentSha256": "cf27f97069212b4a269a401bb5712b03b257081b7bda3e211827067b2c6e074c",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/console/github-verification.md",
+      "page": "docs/en/console/github-verification.md",
+      "sourceSha256": "d6da98922fdc1815d5a84a214eafb46c1d4cc502b5f15b70821f48923090f75c",
+      "contentSha256": "12f4e19c8a99f9c90a80de3bf30039b6de4874054f01aa5524e880cdf72f29fc",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/console/index.md",
+      "page": "docs/en/console/index.md",
+      "sourceSha256": "56abf03ef1beb3627905c5ab2a5798106af897cb7ff279bece6bf6a13f4996ed",
+      "contentSha256": "7e58cfbfc65cb5262bfd385a77e3114ac323c9bd5881d61e84542bc46a79fd59",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/console/knowledge-base.md",
+      "page": "docs/en/console/knowledge-base.md",
+      "sourceSha256": "196cc2ac5499c8d73ed94108c044f051f1d3bf0dd5f61f80d652e5cb26852d73",
+      "contentSha256": "10809d87e41f1ff2c42e47b7df8b1251aa65656273e316e655ae6fd7be3ef095",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/console/voice-cloning.md",
+      "page": "docs/en/console/voice-cloning.md",
+      "sourceSha256": "9e50da2b8ef3d50bdf75182ea3b83899c735f9048dc7ae0fec35daceea222a49",
+      "contentSha256": "470cb46887299d01ea2676945194bb21caee49c37568a68f0bc30d8518602262",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/development/archive/p3-prompts.md",
+      "page": "docs/en/development/archive/p3-prompts.md",
+      "sourceSha256": "69fa88714014ee2a33bfc06b892c0b6d233df70a6e1adbd88e055b5824e8666b",
+      "contentSha256": "b1d263f691e17065fe7f332b49f0022e6e6e5dacfead259f2e4cb6ff39923f10",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/development/audio-and-aec.md",
+      "page": "docs/en/development/audio-and-aec.md",
+      "sourceSha256": "e64e00ed106bca9558538c5dcdcf6f49885ac40a0cbe348738389d26d901b07b",
+      "contentSha256": "8502877449f5e8a421540b6918e7e95a84cffe47fa21bc2fff47acab38c04563",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/development/build-firmware.md",
+      "page": "docs/en/development/build-firmware.md",
+      "sourceSha256": "b70a50c29d9166e5c8b27eda4fd85a2d8d50f163c375b4353dfe8166026febb2",
+      "contentSha256": "af00701ed297e6788e2ed59adf457486f6f1b3ec33b0c667f14cb66b62090412",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/development/custom-board.md",
+      "page": "docs/en/development/custom-board.md",
+      "sourceSha256": "8e752fdfc94a59fa5cde5e0b63f558e36e3d578b3ba746ee08f78b581d2865ab",
+      "contentSha256": "b648f26b6788a5841e8e1a7f023cee03d50445b11b44d852c8933dc14f57fb9d",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/development/custom-prompts.md",
+      "page": "docs/en/development/custom-prompts.md",
+      "sourceSha256": "892f462117a1d13caf9104e572a5b5f3885b051cd73612c71dced7501ca15b5b",
+      "contentSha256": "2fb3ba794b84caa7f74148a738e1b789fd07abfee9e372d68e984a25fbd4ee67",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/development/index.md",
+      "page": "docs/en/development/index.md",
+      "sourceSha256": "26f1f1ecc6c3dcd85145fc155c130b4cc7c83640ea78c7a5da9159cc0ae2d9f6",
+      "contentSha256": "cfaf3a4a4604a2a61ee0ea65b67e9f8587d71005e9420496a4be705a361f44f5",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/development/mcp-gpio.md",
+      "page": "docs/en/development/mcp-gpio.md",
+      "sourceSha256": "5a1c8a1dae664a931200baa5564943d60418a2b08599fba5eb28c382b3b96f74",
+      "contentSha256": "8995f9fdda345de6c057d82a9689766dc4aec17f8d6dfee070e1ef60f152a9f8",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/development/wake-words.md",
+      "page": "docs/en/development/wake-words.md",
+      "sourceSha256": "8b3b5c446e3e0021a06282ef3ee5ac0d794d26cdb742fb52c612a531a505ddc3",
+      "contentSha256": "14f2cfb519e0d963ef50b43888e899d5e2b267d46d8a9c6b5d46730d0df01b93",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/faq/account-and-binding.md",
+      "page": "docs/en/faq/account-and-binding.md",
+      "sourceSha256": "564aced7d21fcf9ee58f5fa50f15654a6a77012bcc277bc641418b9f9d0baba1",
+      "contentSha256": "715e985d298a89edfdac672b4364a6cf5cdf82581a44045ab4593712f46a5e2f",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/faq/index.md",
+      "page": "docs/en/faq/index.md",
+      "sourceSha256": "55a8add63add4b161d87829df4c4796f19f2e8fbd76cdfa43ba8a33d45bf3e1b",
+      "contentSha256": "2e1fdf3c35a1382fea22bd20aa5a5c91a4a3163272ea67a7961b230df42658a7",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/faq/serial-logs.md",
+      "page": "docs/en/faq/serial-logs.md",
+      "sourceSha256": "ba3cc2453781a7b41c054ae7f254c8dcd26e173e9d1309a94f3abb337778bb2c",
+      "contentSha256": "72a83ecebb18a1fa40f73d37dba78e36c6948db7a357d3ec597486e35986c807",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/firmware/downloads.md",
+      "page": "docs/en/firmware/downloads.md",
+      "sourceSha256": "17bf4ebbf009c645e366f7a74b82152c2cfb19572d1770cbf37b349918fe5c7a",
+      "contentSha256": "5f624acbbe9cd96886334b22e81d66a28945094f3d19e786fb50fe0eed4cb513",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/firmware/flashing.md",
+      "page": "docs/en/firmware/flashing.md",
+      "sourceSha256": "85922489a3d0aaf062389cad6245ce9597e7f31a6b53d0264b2eac7d6b63d48a",
+      "contentSha256": "ef6a54e99afae7a002b41d14318aaa9c8845700a4e6097b42b5e502ff9d8b423",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/firmware/index.md",
+      "page": "docs/en/firmware/index.md",
+      "sourceSha256": "775ddc324cf11e20e1b5d976b1807c171d9defad58f4e25b6d4ab70c165eb8e4",
+      "contentSha256": "038e2b743d655a29e58252307f21b5841caebf8e486c0005332aa2322f6fb57a",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/firmware/online-builder.md",
+      "page": "docs/en/firmware/online-builder.md",
+      "sourceSha256": "6d3020556e1d28f44079301efc8d9e75f007b30dbb2f0cda4fd25de5646ceeae",
+      "contentSha256": "dfc774069b1cf2a2455e8c4d863c51955500c3ec1ca893c63f6e6101edd663d2",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/firmware/releases/v1.9.4.md",
+      "page": "docs/en/firmware/releases/v1.9.4.md",
+      "sourceSha256": "d8731cc5424a82a7a45a624007a79b2278eea08abfca34a111b9cd40897535ae",
+      "contentSha256": "a718182909bab289977212bac64b22cd92427efabd4bf561a775d40f5f859b9e",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/firmware/releases/v2.2.4.md",
+      "page": "docs/en/firmware/releases/v2.2.4.md",
+      "sourceSha256": "de738cc98b71ce1739db0f497aa5b42289a8f2ab098edb109a3ca9f8f7c9de95",
+      "contentSha256": "116c7315284ee2ddef270f0baec89d47a5f2d81d8ae04ce41c455794d86bb17b",
+      "status": "redirect",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/firmware/releases/v2.5.2.md",
+      "page": "docs/en/firmware/releases/v2.5.2.md",
+      "sourceSha256": "b1dbb4ba03998eb241f973354b39ff8c2b4cbe0abe3e19b5f70e65e0fd82b117",
+      "contentSha256": "bf207d1946224ebd532036701fb9ca28ee4de313a57441531eadee4b1924d849",
+      "status": "redirect",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/firmware/releases/v2.6.0.md",
+      "page": "docs/en/firmware/releases/v2.6.0.md",
+      "sourceSha256": "d7c758451084597cce96d2b756a9a808d7544a7976342b4c3386db0cd7f2bfb6",
+      "contentSha256": "e767d4505d63d7ed2558b1b0ce214f025aa4b64a026eecc54eee1a10f0f3b392",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/getting-started/index.md",
+      "page": "docs/en/getting-started/index.md",
+      "sourceSha256": "d0dc0c635cb61171a1cd6a755aea835a7cba5568daa7be6413f7e5223f851774",
+      "contentSha256": "fb1b565971cd0106974fdbc62c98399d035550ef66d04c23f986ce92483fe2cd",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/getting-started/wifi-and-binding.md",
+      "page": "docs/en/getting-started/wifi-and-binding.md",
+      "sourceSha256": "24bd453d1f20bf185e60226c1397c119b28ae55f6524d5eeb30e61b521b48a90",
+      "contentSha256": "de6e8f7205618c5aaa82b2539c89b3d7e772c83bd63026eb1bcf8f6d747605e2",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/hardware/audio-output.md",
+      "page": "docs/en/hardware/audio-output.md",
+      "sourceSha256": "11a652c79b9ef1da74c8b00d409d9f8e8c72b701814290137cecbf8b8e9a5634",
+      "contentSha256": "91b13abca9b91cf29b85f576bf3db59456a701ddc4f6c4e8c32dded40c01e6d6",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/hardware/battery-power.md",
+      "page": "docs/en/hardware/battery-power.md",
+      "sourceSha256": "a77c7f081097951363efd623ef427bf81b6305eda37bbe1faa1deaede919c2a3",
+      "contentSha256": "82294fc0741d3c4876048e9d10aba4a374f6512d20acbf744e656c4a3df98c46",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/hardware/boards/xmini-c3.md",
+      "page": "docs/en/hardware/boards/xmini-c3.md",
+      "sourceSha256": "76af6c1ee5734c30098c27b1f4295338e8142130b0d85b38ada33a3364272fcc",
+      "contentSha256": "2bd7a557b0c5c4cb38327d1311cd05a39e8d8e6c851befda1cab4f06462d5f0c",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/hardware/breadboard-4g.md",
+      "page": "docs/en/hardware/breadboard-4g.md",
+      "sourceSha256": "fc5ce9aa53964183092ac34906300d11586c977259a80956ecdc4d6a485c228c",
+      "contentSha256": "d52a214cd0fac396cea8cfdc8b4c5f1104188dad82a21bd5179d476db485c869",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/hardware/breadboard-camera.md",
+      "page": "docs/en/hardware/breadboard-camera.md",
+      "sourceSha256": "7ef83bda1dd98468642460ca93dd840a81009ebffce384b8881ac7e0f1f7faf9",
+      "contentSha256": "0092ea772ca9957a08b13c4964345fea8e5ca4e4d4016fe9b6bc9f4e73da9a7c",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/hardware/breadboard-esp32-c3.md",
+      "page": "docs/en/hardware/breadboard-esp32-c3.md",
+      "sourceSha256": "be5b4c1f7863f74ef2cf56dc1d07da2d6161ecf7c898e8a19d860f608af1f31e",
+      "contentSha256": "d49b888501aec9b4f69b7dbfc0f3986b14bf11c21621a481eb34594fdf0a3968",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/hardware/breadboard-esp32-s3.md",
+      "page": "docs/en/hardware/breadboard-esp32-s3.md",
+      "sourceSha256": "8c6b70084165aaff4e78c88625964e5010e8ffabb2a3414053c455bb50561512",
+      "contentSha256": "a6f9c93bda7a70498b7e885053e8f62be43bf33b315d0b4785421342be39b579",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/hardware/breadboard-esp32.md",
+      "page": "docs/en/hardware/breadboard-esp32.md",
+      "sourceSha256": "f15f95815469b349f4b4addde103b8102b0c1071d311d89a1de76c004be49522",
+      "contentSha256": "7094adc89b322b9623d5418670f4859f8184b85d84b0f0848216d16f689abd5c",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/hardware/choosing-hardware.md",
+      "page": "docs/en/hardware/choosing-hardware.md",
+      "sourceSha256": "0f692bd58c8825aad2639f21ddb1d8db5b9488d82b43f05f6f80744af2f98a4d",
+      "contentSha256": "c277e175642d8c17db1cadf998225af3ceeae473c0f198a586a16e8f48ff6945",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/hardware/design-guidelines.md",
+      "page": "docs/en/hardware/design-guidelines.md",
+      "sourceSha256": "4327720cc82cb8e9bc04491b15222683ba356bb0c63175175a3d8bcace735fea",
+      "contentSha256": "376028b479ede58116e73ca9635745ff64b85f1083d2936fa56f7139f49ae233",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/hardware/displays/st7789.md",
+      "page": "docs/en/hardware/displays/st7789.md",
+      "sourceSha256": "02c2424ac430bd8c5819b96f5c2da9f97e73d24b36a3174336d6ea801acacfdd",
+      "contentSha256": "3e218b5567b587836500d768c2454eb196d4d86e8e771a18071552fe6a23daeb",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/hardware/external-wake-module.md",
+      "page": "docs/en/hardware/external-wake-module.md",
+      "sourceSha256": "ebc37e7b0fd16cd1b024786657ca77857d530d912cf2867e5b2b2abb77a9923a",
+      "contentSha256": "6637be3b76beb9e8f5f251e369021fe81a22f78949a3a070aeb1e36662862b68",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/hardware/index.md",
+      "page": "docs/en/hardware/index.md",
+      "sourceSha256": "cf39f450a21caa3da9efa0167ad8a032f06d90870b10de6ad8948c725c549532",
+      "contentSha256": "89fa8c23c7af32a79b3ff4a54d4be551153886d094a30ab2cd58c9650d2a3b21",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/hardware/supported-boards.md",
+      "page": "docs/en/hardware/supported-boards.md",
+      "sourceSha256": "3c0db3016d18da12650654c6f2531614b48039d2dc578499b64beaf811f4dca1",
+      "contentSha256": "8a5a6e6f14494a73e15610b97b37f34a1cf06482b2100ba472fa26bad09bcf1d",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/index.md",
+      "page": "docs/en/index.md",
+      "sourceSha256": "d1f5fb8de98b6c0cb9826880860143e73b75e2d3db1dc1bc1fec56610858927b",
+      "contentSha256": "87bdd64b21fd0f1cce1786ac1c70ef17016bbd579c7b7fbf01b0befd61c22c1c",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/mcp/connect-existing-servers.md",
+      "page": "docs/en/mcp/connect-existing-servers.md",
+      "sourceSha256": "57295cdf1e4ddc1d5cf5121b52cda4967f011a97bff029a0c65c9d680530d757",
+      "contentSha256": "8b50bf03f3cfe5e19007d1f74d2e26f9e20070b47738d79d7b0390bcfc8f9f0a",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/mcp/examples/web-search.md",
+      "page": "docs/en/mcp/examples/web-search.md",
+      "sourceSha256": "ee6e1f95d5268297f33b151d751b5ebb0e8e90fc465776dead851632d41dbea7",
+      "contentSha256": "990ed8e1216cf7d70de4eabf01f6a774693a2cc8e5b0cb9c4b10c7c4c62b8a0a",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/mcp/index.md",
+      "page": "docs/en/mcp/index.md",
+      "sourceSha256": "d173928593869577d4ff6b55095ebea44ab35d2093ea1d8173810c70f8dd5be3",
+      "contentSha256": "9571a985cbe284eac9fe790f1865216a8404d6a7d9dfe0047f5204bb71a556bd",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/mcp/quickstart.md",
+      "page": "docs/en/mcp/quickstart.md",
+      "sourceSha256": "ddbb2753d70b63db0f2ed268e646907670a288405d10ee7599aa712a072bc902",
+      "contentSha256": "13706f6a35e331f8f8f897bf1ade675b6270f0ba2a06fb2ebb14a0eb7a4db285",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/reference/display-emotions.md",
+      "page": "docs/en/reference/display-emotions.md",
+      "sourceSha256": "94b05422e41a79bfb41bc3564b24ee11f5ccff8ec23342f51d742cd1405fab8c",
+      "contentSha256": "d0eaec0b93607e2464ba819d6fb04ec82b04ccac8835ae0246419272fe6526ee",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/reference/index.md",
+      "page": "docs/en/reference/index.md",
+      "sourceSha256": "8912fb0df1c7f01986f99c194d6101972c81f677d5d43644cad2afbfcf9eb04d",
+      "contentSha256": "e4dada810573fbf314885391a2cdc8579b5643a7c8a3fd72540e69d52c4b6cfb",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/reference/ota.md",
+      "page": "docs/en/reference/ota.md",
+      "sourceSha256": "085c401beb16cf42386e8b7dfd5bdf339b92a4a5e4bdc9bcdb23c95d4376e9f1",
+      "contentSha256": "8eb856478ce96c901311a79fbe9599051b7801c2f1b601a8a95f2b5e120ac6a1",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    },
+    {
+      "source": "docs/zh/reference/websocket.md",
+      "page": "docs/en/reference/websocket.md",
+      "sourceSha256": "ed94cb41ea90d1dd1ead00ec6de909dc9ad7eb380f822efd87c5c67de6c51222",
+      "contentSha256": "4ac283f23a59b2fc71f6ebf0ae3504d17eb861acd849ac09931466e1f897cb9d",
+      "status": "community-review",
+      "reviewedAt": "2026-11-15"
+    }
+  ],
+  "diagrams": [
+    {
+      "sourcePath": "/images/shared/audio-output-paths.svg",
+      "path": "/images/en/audio-output-paths.svg",
+      "sourceSha256": "eb019bb8879158945a6ffddaf4ebcf6d19f06af5e9aa6922942cd8579c3255c5",
+      "sha256": "6673c5d6d2a5d689fc44e3f7e215baefef0d80bfa673719db728b4637cff4118",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/aec-reference-path.svg",
+      "path": "/images/en/aec-reference-path.svg",
+      "sourceSha256": "05f85a91dd8a9e08bb23eabc2489e8d0e89fc74efb95decac0eb7aa8b85c830f",
+      "sha256": "84e438a328b4b8ddac996eb94f506bdc270421fc8888dd7569bc8412a880e31c",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/breadboard-4g-signals-v2.6.0.svg",
+      "path": "/images/en/breadboard-4g-signals-v2.6.0.svg",
+      "sourceSha256": "43b65d65033dbb6e4cb4b7dcd6bb5b0713f3337cec7c39bb1370d9d2e191ee59",
+      "sha256": "2dcb6a7842ab31e908cebd5a9c60e044f7cd1616e19ba2980edc282b7f61bbcd",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/breadboard-c3-signals-v2.6.0.svg",
+      "path": "/images/en/breadboard-c3-signals-v2.6.0.svg",
+      "sourceSha256": "90539efad1c0aaac6cc86dee4800794e47620c365eef0a1994d938ac98fcbca2",
+      "sha256": "2355751316d7b72a3296600039362d294bb0cdf6a319e622348e3b8cc70a16cb",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/breadboard-camera-signals-v2.6.0.svg",
+      "path": "/images/en/breadboard-camera-signals-v2.6.0.svg",
+      "sourceSha256": "0a99d124bc669b39f535c01bfde81fb88a0d5f1dd664994aaaa47c7d9bb07d25",
+      "sha256": "124974c1a355dac4e1eec43d28f1b11f80dbbd605460e0c684a2207f95a8fede",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/breadboard-esp32-wiring-v2.6.0.svg",
+      "path": "/images/en/breadboard-esp32-wiring-v2.6.0.svg",
+      "sourceSha256": "ac7743f4f822ddba0d3cd9c9d089e5478b5c99e1802dc65fb864ba2075bfee9c",
+      "sha256": "08e0edb9a26672d71ab8b3b7ba0e83d33902db2e186d4d496238b7c37aff06bb",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/breadboard-s3-oled-v2.6.0.svg",
+      "path": "/images/en/breadboard-s3-oled-v2.6.0.svg",
+      "sourceSha256": "3ae8bdb005dfe160fd739f5905c6d078182cc74045a4dea3a132b1108bda3deb",
+      "sha256": "276f0cdc100fa9d5986f602bc04e9ec33c8ad86c66c9e3dec818676bd33d065b",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/breadboard-s3-wiring-v2.6.0.svg",
+      "path": "/images/en/breadboard-s3-wiring-v2.6.0.svg",
+      "sourceSha256": "5f9df36d6891d0c43452f1d9befa7037f629c15875849df780d4009b97a86209",
+      "sha256": "106a0b74d736aff12dc645ca3c48430308c28921ce52272df429d517d4ce7914",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/custom-board-identity.svg",
+      "path": "/images/en/custom-board-identity.svg",
+      "sourceSha256": "52e98a16d0595dffea33be072c523b92122ad93bfd2649f568bcb25f74896ee0",
+      "sha256": "ece04f787a88c312379436cc8b8ee54a2444636a88808040652ce52797b9ca9a",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/device-binding-flow.svg",
+      "path": "/images/en/device-binding-flow.svg",
+      "sourceSha256": "a34d89859049973c4548f2f3d0e76ee82259896fa7787fad2c4d4e7d11cc2f8f",
+      "sha256": "f644817e3e4a8cc363a68e0f5c327030c04181af15fa529443b62a999a803e08",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/firmware-build-flow.svg",
+      "path": "/images/en/firmware-build-flow.svg",
+      "sourceSha256": "36a3afeba117c12cf4009f06e0afc2d8fc51f200843cf0c2eb271baf8da5f1eb",
+      "sha256": "14cfcdcdc7652fdcd6c0f7bc368f1e08dca35ac3836390191cac85384f643869",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/github-auth-flow.svg",
+      "path": "/images/en/github-auth-flow.svg",
+      "sourceSha256": "f6ae9e296ab190cb63031ffb62650aa3c2ce3ae02eb3266a451313f2023c0d7d",
+      "sha256": "511a404c454c204e701d27a92be7324cc068b4ff8b012a872fff7667e0d30e6f",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/gpio-led-wiring.svg",
+      "path": "/images/en/gpio-led-wiring.svg",
+      "sourceSha256": "2b19aad4dda12da52a9cea10958ff3e605485f8c5bd69056d3c939bc478a1dd9",
+      "sha256": "37991746accfe953261f76d684748dd2f755719231b08c431cea4c2a4d90d2ff",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/knowledge-base-flow.svg",
+      "path": "/images/en/knowledge-base-flow.svg",
+      "sourceSha256": "ca9ab1e9d7e8fa8790ca5c1b8b7d779b4083e231acadf64fe2ca92f8cae40393",
+      "sha256": "7ad4803676389ca716909bab604025700aeb32169cf9e2ba264a4a5c11ddee5d",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/mcp-calculator-flow.svg",
+      "path": "/images/en/mcp-calculator-flow.svg",
+      "sourceSha256": "a94f0c6ca1c749e89c599fc6ab267c94d52e6c5b9dd938516012fc1ada93fd9a",
+      "sha256": "4e081a2e23ef761a0a19e9fc76912ac4ca07e5d716fd89bd5db43982afa8ffe1",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/mcp-transport-choice.svg",
+      "path": "/images/en/mcp-transport-choice.svg",
+      "sourceSha256": "bc842dc757f31320ec1a588c3b05a8b881d6e95715e42ccf88819fd7ac67eac9",
+      "sha256": "c3e5ae3a441d56d926a3cbad79fe961f3f3bf3cdc6ed5c79433b469c34010715",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/mcp-web-search-flow.svg",
+      "path": "/images/en/mcp-web-search-flow.svg",
+      "sourceSha256": "7561d334b0e18463d67b1daa72610aed1e51fabcdc044b63c33f1e8edea26dc3",
+      "sha256": "410073a5a8d6dfb2aa2cef11092ef3505ade4d2f3fe25558beb42f0c2bae0489",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/usb-power-bank.svg",
+      "path": "/images/en/usb-power-bank.svg",
+      "sourceSha256": "6b6f790b416a942ab344f5cf24be66e7ecec9fcb7ef899d4ee2c1a9f3042f962",
+      "sha256": "9722bf54ec4412ae7a09e81e599044eb86b3064ebc2f210e91aba28679baa2b2",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/voice-audio-selection.svg",
+      "path": "/images/en/voice-audio-selection.svg",
+      "sourceSha256": "22134ae5e35f68651da554863b9f249c29623d52fdd8cc2e4f414a3a31bb3568",
+      "sha256": "6d6e75e3e4dac0933520c8251fc5404070da0a74fa2870a54de70c900752947b",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/voice-training-flow.svg",
+      "path": "/images/en/voice-training-flow.svg",
+      "sourceSha256": "d8158b0ab73b883205958e18c836013123e42ca251f33a591825f66638f11620",
+      "sha256": "6a0fbf4a13a552ea0f4bc12816e98c85a9d716b1c07bd9fb43a29bc14e6723b2",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/wake-on-lan-flow.svg",
+      "path": "/images/en/wake-on-lan-flow.svg",
+      "sourceSha256": "339890458179baf72c4f4b2c95aa5c4a610c6657fcd3c0059eaf14a31328e077",
+      "sha256": "f4d198eddd3e1f56aac75d9c39eb67f66ead13e2d4c18c28091924868a0b3220",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    },
+    {
+      "sourcePath": "/images/zh/wake-word-choice.svg",
+      "path": "/images/en/wake-word-choice.svg",
+      "sourceSha256": "c74a4fd0fde6817a5a2155314d441e3b7cb7e426f10ae1ade0a4add602c00ad2",
+      "sha256": "618c89d23571b54b5061d4b5f1f744ac3b3b820e179df137507fd6f25229e7ac",
+      "translation": "Text-only localization; wire paths and signal assignments preserved."
+    }
+  ]
+}

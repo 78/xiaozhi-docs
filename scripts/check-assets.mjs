@@ -7,6 +7,7 @@ const root = resolve(import.meta.dirname, '..')
 const ledger = JSON.parse(await readFile(resolve(root, 'audit/media-inventory.json'), 'utf8'))
 const release = JSON.parse(await readFile(resolve(root, 'audit/release-assets.json'), 'utf8'))
 const materials = JSON.parse(await readFile(resolve(root, 'docs/.vitepress/data/materials.json'), 'utf8'))
+const englishMaterials = JSON.parse(await readFile(resolve(root, 'docs/.vitepress/data/materials.en.json'), 'utf8'))
 const ids = new Set()
 let images = 0
 for (const item of ledger.items) {
@@ -26,6 +27,10 @@ for (const item of ledger.items) {
 }
 const assets = new Map(release.assets.map(item => [item.url, item]))
 for (const item of Object.values(materials).flat()) {
+  const translation = englishMaterials[item.id]
+  if (!translation?.label || !translation?.note || Object.keys(translation).some(key => !['label', 'note'].includes(key))) {
+    throw new Error(`English material labels must be complete without overriding file identity: ${item.id}`)
+  }
   const asset = assets.get(item.url)
   if (!asset || asset.sha256 !== item.sha256 || asset.size !== item.size || !ids.has(item.id)) {
     throw new Error(`Registry/release/ledger mismatch: ${item.id}`)

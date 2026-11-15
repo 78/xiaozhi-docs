@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="682" viewBox="0 0 960 682" role="img" aria-labelledby="title desc">
+<title id="title">S3 breadboard: 4G signal wiring</title><desc id="desc">v2.6.0: ML307R and NT26K use different boards. Signal wiring, not a physical header layout.</desc>
+<style>text{font-family:system-ui,"PingFang SC","Microsoft YaHei",sans-serif;fill:#183738}.head{font-size:26px;font-weight:700}.sub{font-size:16px;fill:#4b6266}.group{font-size:20px;font-weight:650}.port{font-size:17px}.small{font-size:14px;fill:#586b6e}</style>
+<rect width="960" height="682" rx="16" fill="#f5f9f8"/>
+<text x="28" y="43" class="head">S3 breadboard: 4G signal wiring</text>
+<text x="28" y="74" class="sub">v2.6.0: ML307R and NT26K use different board builds</text>
+<text x="28" y="103" class="small">Match GPIOs and labels. Red: power; gray: GND; purple: clock; teal: data/control. Click for full size.</text>
+<rect x="18" y="130" width="924" height="163" rx="12" fill="#fff" stroke="#cbded9"/>
+<text x="36" y="160" class="group">ML307R · bread-compact-ml307</text>
+<text x="42" y="186" class="small">ESP32-S3 MCU</text>
+<text x="650" y="186" class="small">ML307R AT carrier</text>
+<text x="42" y="218" class="port">GPIO11 (RX)</text>
+<path d="M 390 213 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="213" r="4" fill="#128b84"/><circle cx="620" cy="213" r="4" fill="#128b84"/>
+<text x="650" y="218" class="port">TXD (transmit)</text>
+<text x="42" y="249" class="port">GPIO12 (TX)</text>
+<path d="M 390 244 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="244" r="4" fill="#128b84"/><circle cx="620" cy="244" r="4" fill="#128b84"/>
+<text x="650" y="249" class="port">RXD (receive)</text>
+<text x="42" y="280" class="port">GND</text>
+<path d="M 390 275 H 620" fill="none" stroke="#53626a" stroke-width="3"/>
+<circle cx="390" cy="275" r="4" fill="#53626a"/><circle cx="620" cy="275" r="4" fill="#53626a"/>
+<text x="650" y="280" class="port">GND</text>
+<rect x="18" y="309" width="924" height="225" rx="12" fill="#fff" stroke="#cbded9"/>
+<text x="36" y="339" class="group">NT26K · bread-compact-nt26</text>
+<text x="42" y="365" class="small">ESP32-S3 MCU</text>
+<text x="650" y="365" class="small">NT26K carrier</text>
+<text x="42" y="397" class="port">GPIO11 (RX)</text>
+<path d="M 390 392 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="392" r="4" fill="#128b84"/><circle cx="620" cy="392" r="4" fill="#128b84"/>
+<text x="650" y="397" class="port">TX (transmit)</text>
+<text x="42" y="428" class="port">GPIO12 (TX)</text>
+<path d="M 390 423 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="423" r="4" fill="#128b84"/><circle cx="620" cy="423" r="4" fill="#128b84"/>
+<text x="650" y="428" class="port">RX (receive)</text>
+<text x="42" y="459" class="port">GPIO9</text>
+<path d="M 390 454 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="454" r="4" fill="#128b84"/><circle cx="620" cy="454" r="4" fill="#128b84"/>
+<text x="650" y="459" class="port">MRDY / DTR</text>
+<text x="42" y="490" class="port">GPIO10</text>
+<path d="M 390 485 H 620" fill="none" stroke="#128b84" stroke-width="3"/>
+<circle cx="390" cy="485" r="4" fill="#128b84"/><circle cx="620" cy="485" r="4" fill="#128b84"/>
+<text x="650" y="490" class="port">SRDY / RI</text>
+<text x="42" y="521" class="port">GND</text>
+<path d="M 390 516 H 620" fill="none" stroke="#53626a" stroke-width="3"/>
+<circle cx="390" cy="516" r="4" fill="#53626a"/><circle cx="620" cy="516" r="4" fill="#53626a"/>
+<text x="650" y="521" class="port">GND</text>
+<text x="28" y="567" class="small">Verify VBAT, 5V input, enables, and peak current against the actual carrier; no universal supply is specified here.</text>
+<text x="28" y="601" class="small">Do not copy the old LDO tap or NT26K 3V3 supply. A separate regulated supply must share GND.</text>
+<text x="28" y="635" class="small">Use the basic S3 guide for audio/OLED. Match the modem and firmware.</text>
+</svg>

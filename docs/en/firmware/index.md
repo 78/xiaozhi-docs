@@ -1,26 +1,35 @@
 ---
-id: "firmware"
-title: "Firmware & flashing"
-description: "Select firmware for your device, then flash, upgrade, or build it online."
-status: "draft"
-translation: {"status": "pending", "sourceHash": "7b90f8d74f6836f241440abff32194955fd159b089faee6d0130450f92b2ef87"}
+id: firmware
+title: Firmware and flashing
+description: 'Select matching firmware, build online, and install or update your device.'
+status: review
+reviewedAt: '2026-11-15'
+reviewNote: >-
+  English translation checked against the current source. Technical and hardware verification limits are stated in the
+  guide.
+translation:
+  status: review
+  sourceHash: 775ddc324cf11e20e1b5d976b1807c171d9defad58f4e25b6d4ab70c165eb8e4
+  reviewedAt: '2026-11-15'
 ---
+# Firmware and flashing
 
-# Firmware & flashing
+Identify the chip, board variant, and image type before installing or updating. Historical releases are archived separately. For most devices, including breadboards, start with [online building and flashing](https://xiaozhi.me/console/firmware-builder). For devices without an exposed USB download interface, follow the board instructions first.
 
-Select firmware for your device, then flash, upgrade, or build it online.
+<a name="guides"></a>
 
-<a name="planned-coverage"></a>
+## Choose a guide {#guides}
 
-## Planned coverage {#planned-coverage}
+| Guide | What it covers |
+| --- | --- |
+| [Online building and browser flashing](./online-builder.md) | Build for your board and flash through a browser without installing ESP-IDF. |
+| [Choose and download firmware](./downloads.md) | Match chip, board, and variant, distinguishing current installation from legacy maintenance. |
+| [Flash and update](./flashing.md) | Identify image types, use browser or offline flashing, and check startup. |
+| [v2.6.0 release](./releases/v2.6.0.md) | Find packages for breadboards, JLC S3, and other variants. |
+| [Legacy v1.9.4](./releases/v1.9.4.md) | Match product and chip when maintaining v1 devices. |
 
-- Match firmware to the board, display, network type, and hardware revision
-- Download a release or use the online builder
-- Browser-based and offline flashing
-- Upgrade compatibility and older releases
+<a name="next"></a>
 
-<a name="existing-material"></a>
+## Reading and feedback {#next}
 
-## Existing material {#existing-material}
-
-The [legacy tutorial index](https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb) is in Chinese. Versions, screenshots, and service limits in those articles still need review.
+These guides are open for community review. Report problems through the page's feedback link with firmware version, board, and reproducible steps.

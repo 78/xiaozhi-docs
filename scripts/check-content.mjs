@@ -22,8 +22,8 @@ for (const locale of locales) {
     if (locale !== 'zh' && data.translation?.status === 'pending' && data.status !== 'draft') {
       errors.push(`${label}: a pending translation must remain a draft`)
     }
-    if (data.status === 'review' && (locale !== 'zh' || !data.reviewedAt || !data.reviewNote)) {
-      errors.push(`${label}: community review needs Chinese scope, reviewedAt and reviewNote`)
+    if (data.status === 'review' && (!data.reviewedAt || !data.reviewNote)) {
+      errors.push(`${label}: community review needs reviewedAt and reviewNote`)
     }
     // A translated page must not silently send readers back into Chinese guides.
     if (locale === 'en' && /\]\(\/zh\//.test(content)) errors.push(`${label}: English article links into Chinese content`)

@@ -1,27 +1,37 @@
 ---
-id: "community"
-title: "Community"
-description: "Explore community projects and help improve guides, translations, and hardware coverage."
-status: "draft"
-translation: {"status": "pending", "sourceHash": "d0eb20af794a0f08960802885d2f6ed5ba782d7a008aa118c66455bd3d894c58"}
+id: community
+title: Community and contributions
+description: 'Discover community projects and help improve documentation, translations, and hardware verification.'
+status: review
+reviewedAt: '2026-11-15'
+reviewNote: >-
+  English translation checked against the current source. Technical and hardware verification limits are stated in the
+  guide.
+translation:
+  status: review
+  sourceHash: a64c2fa56a80e19e0a15f4ff8341f65c5ade777ff60f3a9cba8379b271928b7c
+  reviewedAt: '2026-11-15'
 ---
+# Community and contributions
 
-# Community
+Keep authorship, original project files, and version boundaries traceable so projects can be reproduced and maintained together. Check examples and third-party services against your own hardware, environment, and account.
 
-Explore community projects and help improve guides, translations, and hardware coverage.
+<a name="guides"></a>
 
-<a name="planned-coverage"></a>
+## Choose a guide {#guides}
 
-## Planned coverage {#planned-coverage}
+| Guide | What it covers |
+| --- | --- |
+| [Open hardware](./open-hardware.md) | Find original circuits, enclosures, authors, and firmware support. |
+| [SF32LB52 through-hole build ↗](https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/) | JLC's maintained circuit, PCB, soldering, enclosure, firmware, and usage guides, in Chinese. |
+| [Astronaut storyteller conversion](./projects/astronaut-storyteller.md) | Teardown and wiring photos with PCB, power, and firmware limits. |
+| [Wake a computer over the network](./projects/wake-on-lan.md) | WoL prerequisites, third-party dependencies, and local tests. |
+| [Community MCP tools](./mcp-tools.md) | Authors and maintenance links for third-party tools. |
+| [Music, lyrics, and resources](./resources.md) | Corresponding media and lyrics with contribution notices and separate downloads. |
+| [Contribute to the docs](./contributing.md) | Report problems, submit corrections, or help translate. |
 
-- Open hardware projects and examples
-- Community tools and third-party tutorials
-- Report documentation issues and submit fixes
-- Terminology, translation, and review
-- Author attribution, sources, and supported versions
+<a name="next"></a>
 
-<a name="existing-material"></a>
+## Reading and feedback {#next}
 
-## Existing material {#existing-material}
-
-The [legacy tutorial index](https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb) is in Chinese. Versions, screenshots, and service limits in those articles still need review.
+These guides are open for community review. Use the feedback link at the end of a page and include firmware version, board, and reproducible steps.
