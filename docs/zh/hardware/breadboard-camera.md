@@ -12,6 +12,8 @@ sourceArticles: ["DOC-07"]
 
 本页对应 `bread-compact-wifi-s3cam`，是摄像头、SPI 屏幕和音频共存的板型。普通 S3 + OLED/LCD 接线不能直接增加摄像头就变成此方案。
 
+<a name="finished-overview"></a>
+
 ## 先看装配效果 {#finished-overview}
 
 <figure class="source-figure">
@@ -26,6 +28,8 @@ sourceArticles: ["DOC-07"]
 
 <figcaption>原型装配的另一视角；信号接法请以本页版本表为准。</figcaption>
 </figure>
+
+<a name="scope"></a>
 
 ## 准备工作 {#scope}
 
@@ -50,6 +54,8 @@ sourceArticles: ["DOC-07"]
 <figcaption>LCD 模块接口丝印。</figcaption>
 </figure>
 
+<a name="wiring"></a>
+
 ## 1. 对照当前信号表 {#wiring}
 
 以下来自[本地固件对应版本的板型配置](https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/main/boards/bread-compact-wifi-s3cam/config.h)，用于核对完整方案。电源、排线方向和外设使能还需按实物模块说明。
@@ -64,6 +70,8 @@ sourceArticles: ["DOC-07"]
 
 注意 LCD 这里占用 GPIO19/20；对使用原生 USB 的连接方式尤其要按板级电路确认，不能随意重接数据线。断电核对所有占用，不同时套用普通面包板的 GPIO4/5/6 音频接法。
 
+<a name="wiring-diagram"></a>
+
 ### 当前摄像头板的信号图 {#wiring-diagram}
 
 CAM 底板已经接好的摄像头排线不需要拆开逐根加线；先核对板上连线是否与这份固件配置一致。下面同时画出音频、LCD 和传感器的信号分配，方便与原装配照片对照。
@@ -75,21 +83,27 @@ CAM 底板已经接好的摄像头排线不需要拆开逐根加线；先核对�
 <figcaption>对应 v2.6.0 摄像头板配置，点击查看大图。模块供电与 CAM 板原有连线仍按具体硬件资料核对。</figcaption>
 </figure>
 
+<a name="build"></a>
+
 ## 2. 构建并逐项检查 {#build}
 
-1. 在[在线编译](../firmware/online-builder)选择准确的摄像头板型、变体及显示参数。当前该目录的默认是 ST7789 240×320。
+1. 在[在线编译](../firmware/online-builder.md)选择准确的摄像头板型、变体及显示参数。当前该目录的默认是 ST7789 240×320。
 2. 按摄像头安装方向选择镜像/翻转；没有相应选项时不要通过选另一个板型强行开启。
-3. 按[烧录指南](../firmware/flashing)安装，先验证屏幕和音频。
-4. 完成[联网与绑定](../getting-started/wifi-and-binding)，确认普通对话正常。
+3. 按[烧录指南](../firmware/flashing.md)安装，先验证屏幕和音频。
+4. 完成[联网与绑定](../getting-started/wifi-and-binding.md)，确认普通对话正常。
 5. 再用当前服务支持的识图功能验证图像方向、曝光、清晰度和实际调用结果。
 
 工具显示编译成功不等于摄像头已被驱动。`camera init` 失败时先看日志、传感器和供电；图像全黑时核对排线与镜头，不反复换未知二进制。
 
+<a name="materials"></a>
+
 ## 视频和历史附件 {#materials}
 
-下面的视频展示这套硬件的接线过程。使用其他传感器时单独核对驱动与排线；固件从[固件选择](../firmware/downloads)取得匹配版本。
+下面的视频展示这套硬件的接线过程。使用其他传感器时单独核对驱动与排线；固件从[固件选择](../firmware/downloads.md)取得匹配版本。
 
 <SourceMaterials article="DOC-07" />
+
+<a name="verify"></a>
 
 ## 怎么确认完成 {#verify}
 

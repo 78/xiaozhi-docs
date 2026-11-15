@@ -12,6 +12,8 @@ sourceArticles: ["DOC-39"]
 
 服务端表达的情绪语义、Unicode Emoji 和屏幕上的图形资源不是同一个对象。完整消息协议和资源映射以对应固件仓库为准。
 
+<a name="scope"></a>
+
 ## 从哪一层查起 {#scope}
 
 | 层次 | 核对内容 |
@@ -19,6 +21,8 @@ sourceArticles: ["DOC-39"]
 | 协议 | [同版本 WebSocket 文档](https://github.com/78/xiaozhi-esp32/blob/4de00aed740595a8713b01f8332b9b2cf30685bc/docs/websocket.md)的消息类型与情绪字段 |
 | 显示实现 | [main/display](https://github.com/78/xiaozhi-esp32/tree/4de00aed740595a8713b01f8332b9b2cf30685bc/main/display)的实际 SetEmotion 路径 |
 | 字体/动画/图片 | 该构建使用的资源包及其名称映射 |
+
+<a name="verify"></a>
 
 ## 调试顺序 {#verify}
 
@@ -29,6 +33,8 @@ sourceArticles: ["DOC-39"]
 
 模型分词器不同，不保证某个 Emoji 在所有模型中都是一个 token。资源名也不因显示成相似图形就可以互换。
 
+<a name="next"></a>
+
 ## 怎样更新 {#next}
 
-新增情绪值或映射时，在固件/资源仓库同时修改实现、资源和测试，再更新本站固定版本入口。与提示音有关的资源见[自定义提示音](../development/custom-prompts)。
+新增情绪值或映射时，在固件/资源仓库同时修改实现、资源和测试，再更新本站固定版本入口。与提示音有关的资源见[自定义提示音](../development/custom-prompts.md)。

@@ -9,7 +9,9 @@ reviewNote: "命令和板型参数已对照 v2.6.0；未在本机安装 ESP-IDF 
 
 # 搭建环境与本地构建
 
-需要改源码、自定义引脚或接入新硬件时，再搭建本地环境。只想使用现有板型，可先用[在线编译](../firmware/online-builder)。
+需要改源码、自定义引脚或接入新硬件时，再搭建本地环境。只想使用现有板型，可先用[在线编译](../firmware/online-builder.md)。
+
+<a name="scope"></a>
 
 ## 版本与准备工作 {#scope}
 
@@ -23,6 +25,8 @@ reviewNote: "命令和板型参数已对照 v2.6.0；未在本机安装 ESP-IDF 
 
 <figcaption>本地构建的目录与操作顺序。点击查看大图。</figcaption>
 </figure>
+
+<a name="install"></a>
 
 ## 1. 安装并激活 ESP-IDF {#install}
 
@@ -58,6 +62,8 @@ git rev-parse HEAD
 
 第二条在 SDK 目录记录准确提交。分支会前进，保存 SDK 提交可让别人复现问题。换成 C3 等芯片时，需要安装对应目标的工具链。
 
+<a name="source"></a>
+
 ## 2. 获取固件源码 {#source}
 
 回到存放项目的工作目录，使用固定的正式 tag：
@@ -70,6 +76,8 @@ git describe --tags --always
 
 `--branch v2.6.0` 检出的是 tag，通常处于 detached HEAD；需要保存源码修改时先创建自己的工作分支。
 
+<a name="build"></a>
+
 ## 3. 查询板型并构建 {#build}
 
 在已激活 ESP-IDF 的终端、固件仓库根目录执行：
@@ -79,7 +87,7 @@ python scripts/build.py --list-boards
 python scripts/build.py --list-languages
 ```
 
-确认自己的板型目录和构建变体。以下命令仅适用于本文[基础 S3 / 128×32 OLED](../hardware/breadboard-esp32-s3)接线：
+确认自己的板型目录和构建变体。以下命令仅适用于本文[基础 S3 / 128×32 OLED](../hardware/breadboard-esp32-s3.md)接线：
 
 ```sh
 python scripts/build.py bread-compact-wifi --name bread-compact-wifi --language zh-CN
@@ -96,6 +104,8 @@ python scripts/build.py --list-wake-words
 
 构建参数 `--wake-word` 可使用兼容模型名、`nihaoxiaozhi` 或 `disabled`。模型与芯片/内存必须相容；完整参数及当前能力以[版本化开发板指南](https://github.com/78/xiaozhi-esp32/blob/v2.6.0/docs/custom-board_zh.md)为准。
 
+<a name="flash"></a>
+
 ## 4. 检查产物并烧录 {#flash}
 
 确认构建成功后，记录版本和变体。默认完整镜像位于 `build/merged-binary.bin`；需要分发包时，在构建命令追加 `--zip`，输出到 `releases/`。
@@ -106,7 +116,9 @@ python scripts/build.py --list-wake-words
 idf.py -p COM5 flash monitor
 ```
 
-macOS/Linux 使用自己的 `/dev/…` 端口。日志监视器通常用 **Ctrl+]** 退出，重新烧录前先释放端口。使用其他工具分发镜像时，遵循[烧录指南](../firmware/flashing#image-types)，不猜应用文件偏移。
+macOS/Linux 使用自己的 `/dev/…` 端口。日志监视器通常用 **Ctrl+]** 退出，重新烧录前先释放端口。使用其他工具分发镜像时，遵循[烧录指南](../firmware/flashing.md#image-types)，不猜应用文件偏移。
+
+<a name="troubleshooting"></a>
 
 ## SDK 切换与 Windows 排错 {#troubleshooting}
 
@@ -128,12 +140,16 @@ idf.py build
 
 清空 CMake 缓存后需重新启用。缩短工程路径也可能改善路径问题，但系统长路径选项不会直接提高整条命令行长度上限。不要通过关闭安全软件掩盖未定位的构建错误。
 
+<a name="verify"></a>
+
 ## 怎么确认完成 {#verify}
 
 ::: tip 完成标志
 构建完成，启动日志的固件版本和板型符合预期，显示、音频、配网及一次对话通过。仅生成 `.bin` 不代表已验证硬件适配。
 :::
 
+<a name="next"></a>
+
 ## 下一步 {#next}
 
-准备改变引脚时读[自定义开发板](./custom-board)；设备运行异常时按[常见问题](../faq/)采集信息，再反馈源码提交、SDK 提交和第一条实际错误。
+准备改变引脚时读[自定义开发板](./custom-board.md)；设备运行异常时按[常见问题](../faq/index.md)采集信息，再反馈源码提交、SDK 提交和第一条实际错误。

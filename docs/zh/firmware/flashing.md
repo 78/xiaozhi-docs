@@ -11,6 +11,8 @@ reviewNote: "流程已对照 Console 分区烧录实现与 esptool 文档；浏�
 
 烧录前先确认“给哪块板写、写哪种镜像、是否会改变现有配置”。**优先使用[小智在线编译与烧录](https://xiaozhi.me/console/firmware-builder)**：支持大部分设备，包括面包板，不需要安装源码开发环境。
 
+<a name="scope"></a>
+
 ## 选择你的路径 {#scope}
 
 | 当前情况 | 建议路径 |
@@ -18,9 +20,11 @@ reviewNote: "流程已对照 Console 分区烧录实现与 esptool 文档；浏�
 | 空板，或准备重新安装 | [在线编译并网页烧录](https://xiaozhi.me/console/firmware-builder)；没有可用 USB 下载连接时再按板卡说明安装 |
 | 当前固件正常，只更新同板型版本 | 先查看该版本升级说明；可使用兼容的 OTA 或网页烧录 |
 | 从旧分区布局迁移，或更换固件板型 | 核对发布说明，准备重新配网；需要时使用完整镜像手动安装 |
-| 修改源码后测试 | 按[本地构建](../development/build-firmware)使用 `idf.py flash monitor` |
+| 修改源码后测试 | 按[本地构建](../development/build-firmware.md)使用 `idf.py flash monitor` |
 
 先记录固件版本、板型 ID、Flash/PSRAM、屏幕规格及当前配网情况。需要恢复的角色设置留在自己的控制台中；不要将“重刷固件”与“解绑账号”混为一谈。
+
+<a name="prepare"></a>
 
 ## 准备工作 {#prepare}
 
@@ -33,6 +37,8 @@ reviewNote: "流程已对照 Console 分区烧录实现与 esptool 文档；浏�
 不一定。先确认它能连接到芯片的下载串口，而不只是充电。部分土豆子（`tudouzi`）、KevinBox2 等硬件修订没有引出所需 USB 引脚，不能直接按普通数据线连接烧录。使用该板维护者说明中的下载接口、外接工具或已运行固件的更新方式，不按外壳或型号名字推断。
 :::
 
+<a name="image-types"></a>
+
 ## 1. 确认镜像类型 {#image-types}
 
 | 文件类型 | 用法 | 配置影响 |
@@ -43,15 +49,19 @@ reviewNote: "流程已对照 Console 分区烧录实现与 esptool 文档；浏�
 
 NVS 存放 Wi-Fi 等设备配置。Console 当前的网页烧录会解析完整镜像并分区写入，跳过 `nvs`、`nvs_keys`；但布局变化时新固件仍可能重新初始化配置。离线把同一个完整文件连续写入，行为并不相同。
 
+<a name="web"></a>
+
 ## 2. 网页烧录 {#web}
 
-1. 在[在线编译](./online-builder)完成板型选择和编译，进入成功任务的烧录操作。
+1. 在[在线编译](./online-builder.md)完成板型选择和编译，进入成功任务的烧录操作。
 2. 对照任务详情再次确认芯片、板型变体和语言，将设备用数据线接到电脑。
 3. 点击连接并烧录，在浏览器弹窗中选择对应端口。拿不准时，先取消弹窗，插拔设备观察哪个端口出现。
 4. 如未进入下载模式，按下文操作后重新连接。烧录开始后保持线缆稳定，等待界面报告完成。
 5. 关闭连接，按 RESET/EN 或重新上电，观察启动提示。
 
 网页若提示芯片不匹配或分区表无效，应返回检查固件，不能用更换地址或抹除全片绕过检查。
+
+<a name="download-mode"></a>
 
 ### 手动进入下载模式 {#download-mode}
 
@@ -66,9 +76,11 @@ NVS 存放 Wi-Fi 等设备配置。Console 当前的网页烧录会解析完整�
 <figcaption>Web Serial 授权窗口：选开发板对应串口。若看不准，取消后插拔观察，再重新授权。</figcaption>
 </figure>
 
+<a name="offline"></a>
+
 ## 3. 离线烧录完整镜像 {#offline}
 
-需要离线安装时，从[官方下载入口](./downloads)取得匹配包，解压并确认文件类型。以下命令仅用于 **ESP32-S3、已确认起始地址为 0x0 的完整合并镜像**。
+需要离线安装时，从[官方下载入口](./downloads.md)取得匹配包，解压并确认文件类型。以下命令仅用于 **ESP32-S3、已确认起始地址为 0x0 的完整合并镜像**。
 
 在单独的 Python 环境安装 esptool 5.x：
 
@@ -86,6 +98,8 @@ python -m esptool --chip esp32s3 --port COM5 write-flash 0x0 merged-binary.bin
 macOS/Linux 的端口通常形如 `/dev/cu.usbmodem…` 或 `/dev/ttyACM0`。如果命令中的 Python 不存在，请使用安装环境的 `python3`；不要把命令里的示例端口原样当成自己的设备。
 
 等待校验完成，再重启设备。一般安装不需要先执行全片擦除；只有版本说明或已定位的问题明确要求时才做，擦除会清掉设备配置。也可使用[乐鑫官方下载工具](https://www.espressif.com/en/support/download/other-tools)，镜像地址和配置影响相同。
+
+<a name="windows-tool"></a>
 
 ### Windows 图形工具 {#windows-tool}
 
@@ -117,21 +131,27 @@ macOS/Linux 的端口通常形如 `/dev/cu.usbmodem…` 或 `/dev/ttyACM0`。如
 <figcaption>工具出现 FINISH 后重启设备，再检查实际版本与功能。</figcaption>
 </figure>
 
+<a name="verify"></a>
+
 ## 怎么确认完成 {#verify}
 
 ::: tip 完成标志
-工具报告写入与校验成功，重启后运行的是预期板型和版本；屏幕/提示音正常。之后能够[配网并绑定](../getting-started/wifi-and-binding)，或自动连回原有网络。
+工具报告写入与校验成功，重启后运行的是预期板型和版本；屏幕/提示音正常。之后能够[配网并绑定](../getting-started/wifi-and-binding.md)，或自动连回原有网络。
 :::
+
+<a name="troubleshooting"></a>
 
 ## 常见问题 {#troubleshooting}
 
 | 现象 | 下一步 |
 | --- | --- |
-| 看不到串口 | 换数据线/USB 口，确认驱动和下载模式；查看[串口排查](../faq/#serial) |
+| 看不到串口 | 换数据线/USB 口，确认驱动和下载模式；查看[串口排查](../faq/index.md#serial) |
 | 连接超时或中断 | 关闭占用端口的程序，重新进入下载模式；仍失败时降低传输速度并检查供电 |
 | 烧录成功但循环重启 | 保存启动日志，核对芯片、内存、分区与板型；不要连续换随机固件 |
 | 升级后需要重新配网 | 核对是否整包覆盖、清空 NVS 或改变分区布局 |
 
+<a name="next"></a>
+
 ## 下一步 {#next}
 
-继续[配网与绑定](../getting-started/wifi-and-binding)。命令语法和镜像偏移依据见 [esptool 写入说明](https://docs.espressif.com/projects/esptool/en/latest/esp32s3/esptool/basic-commands.html)。
+继续[配网与绑定](../getting-started/wifi-and-binding.md)。命令语法和镜像偏移依据见 [esptool 写入说明](https://docs.espressif.com/projects/esptool/en/latest/esp32s3/esptool/basic-commands.html)。

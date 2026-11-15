@@ -10,6 +10,8 @@ translation: {"status": "pending", "sourceHash": "15aa979fdf1382af844991d4e32803
 
 Look up communication protocols, interfaces, and version compatibility.
 
+<a name="planned-coverage"></a>
+
 ## Planned coverage {#planned-coverage}
 
 - WebSocket protocol
@@ -17,6 +19,8 @@ Look up communication protocols, interfaces, and version compatibility.
 - Emoji display
 - MCP protocol and device capabilities
 - Version-specific technical references in the firmware repository
+
+<a name="existing-material"></a>
 
 ## Existing material {#existing-material}
 

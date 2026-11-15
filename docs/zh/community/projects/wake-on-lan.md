@@ -12,6 +12,8 @@ sourceArticles: ["DOC-36"]
 
 本方案由**粽子同学**提供，用 ESP8266 在局域网发送 Wake-on-LAN 包，再通过第三方 MCP 平台触发。当前案例覆盖开机唤醒，不能由此推断已经实现远程关机。
 
+<a name="scope"></a>
+
 ## 先确认前提 {#scope}
 
 - PC 的网卡、主板和所处电源状态支持 WoL，并已按硬件/系统说明启用。
@@ -26,11 +28,15 @@ sourceArticles: ["DOC-36"]
 <figcaption>先验证局域网唤醒，再接语音。点击查看大图。</figcaption>
 </figure>
 
+<a name="local"></a>
+
 ## 1. 先做本地测试 {#local}
 
 先在局域网使用可验证的 WoL 工具确认目标 PC 能唤醒。记录有线网卡 MAC、目标网络和电源状态；本地都不能唤醒时，接入语音不会解决问题。
 
 MAC/IP 是配置线索，不等于平台账号或模块 UUID。不要把它们填进不相干的字段。
+
+<a name="module"></a>
 
 ## 2. 模块与平台 {#module}
 
@@ -39,6 +45,8 @@ MAC/IP 是配置线索，不等于平台账号或模块 UUID。不要把它们�
 原流程依赖 `xiaozhimcp.top` 等外部服务；使用前确认当前 HTTPS 入口、维护者和凭据用途。确认 HTTPS 入口后，使用自己的账号按平台说明配置端点。
 
 <SourceMaterials article="DOC-36" />
+
+<a name="verify"></a>
 
 ## 3. 从平台到语音 {#verify}
 
@@ -49,6 +57,8 @@ MAC/IP 是配置线索，不等于平台账号或模块 UUID。不要把它们�
 
 只看到“调用成功”不能证明 PC 已经启动；当前方案也不能由开机成功推断远程关机能力。
 
+<a name="sources"></a>
+
 ## 下一步 {#sources}
 
-先掌握[MCP 快速开始](../../mcp/quickstart)，再根据自己的网络选择维护方案。
+先掌握[MCP 快速开始](../../mcp/quickstart.md)，再根据自己的网络选择维护方案。

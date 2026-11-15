@@ -9,17 +9,21 @@ status: "published"
 
 保留作品作者、原工程资料和版本边界，便于复现与共同维护。案例和第三方服务需要按自己的硬件、环境与账号核验。
 
+<a name="guides"></a>
+
 ## 选择教程 {#guides}
 
 | 教程 | 内容 |
 | --- | --- |
-| [开源硬件项目](./open-hardware) | 按作者与原项目追溯电路、外壳和固件支持，保留社区贡献。 |
+| [开源硬件项目](./open-hardware.md) | 按作者与原项目追溯电路、外壳和固件支持，保留社区贡献。 |
 | [SF32LB52 插件版教程 ↗](https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/) | 嘉立创维护的电路、PCB、焊接、外壳、固件与使用教程。 |
-| [太空人故事机改造](./projects/astronaut-storyteller) | 保留原机拆解与接线素材，明确 PCB、供电和固件适用边界。 |
-| [网络唤醒电脑](./projects/wake-on-lan) | 明确 WoL 前提、第三方依赖和本地测试顺序，不把开机当成完整开关机。 |
-| [社区 MCP 工具](./mcp-tools) | 保留作者和维护入口，把通用接入与第三方安装细节分开。 |
-| [音乐、歌词与资源](./resources) | 保留作品声明、媒体和歌词对应关系，并使用独立附件分发。 |
-| [参与文档贡献](./contributing) | 参与文档贡献 |
+| [太空人故事机改造](./projects/astronaut-storyteller.md) | 保留原机拆解与接线素材，明确 PCB、供电和固件适用边界。 |
+| [网络唤醒电脑](./projects/wake-on-lan.md) | 明确 WoL 前提、第三方依赖和本地测试顺序，不把开机当成完整开关机。 |
+| [社区 MCP 工具](./mcp-tools.md) | 保留作者和维护入口，把通用接入与第三方安装细节分开。 |
+| [音乐、歌词与资源](./resources.md) | 保留作品声明、媒体和歌词对应关系，并使用独立附件分发。 |
+| [参与文档贡献](./contributing.md) | 参与文档贡献 |
+
+<a name="next"></a>
 
 ## 阅读与反馈 {#next}
 

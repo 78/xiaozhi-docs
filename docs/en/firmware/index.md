@@ -10,12 +10,16 @@ translation: {"status": "pending", "sourceHash": "7b90f8d74f6836f241440abff32194
 
 Select firmware for your device, then flash, upgrade, or build it online.
 
+<a name="planned-coverage"></a>
+
 ## Planned coverage {#planned-coverage}
 
 - Match firmware to the board, display, network type, and hardware revision
 - Download a release or use the online builder
 - Browser-based and offline flashing
 - Upgrade compatibility and older releases
+
+<a name="existing-material"></a>
 
 ## Existing material {#existing-material}
 

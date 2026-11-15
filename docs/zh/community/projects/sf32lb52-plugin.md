@@ -14,6 +14,8 @@ next: false
 
 SF32LB52 小智使用独立的 SF32 固件。插件版的电路、PCB、焊接、外壳与面板制作，请直接阅读嘉立创维护的完整教程。
 
+<a name="scope"></a>
+
 ## 教程与设计资料 {#scope}
 
 <span id="materials"></span>
@@ -26,6 +28,8 @@ SF32LB52 小智使用独立的 SF32 固件。插件版的电路、PCB、焊接�
 | 查电路、PCB、焊接和外壳 | 在完整教程中选择对应章节，按自己的硬件修订核对 |
 | 获取原理图、PCB 与外壳文件 | [嘉立创资料下载](https://openkits-wiki.easyeda.com/zh-hans/hspi-sf32lb52/training/xiaozhi-ai/download.html) |
 
+<a name="flash"></a>
+
 ## 固件与使用 {#flash}
 
 <span id="network"></span>
@@ -37,6 +41,8 @@ SF32LB52 小智使用独立的 SF32 固件。插件版的电路、PCB、焊接�
 
 SF32 与 ESP32 的芯片、下载工具和固件格式不同。不要将 ESP32 的在线编译产物或完整镜像写入本设备；联网方式按 SF32 教程及手机支持情况确认。
 
+<a name="hardware"></a>
+
 ## 认识这套硬件 {#hardware}
 
 <figure class="source-figure">
@@ -46,6 +52,8 @@ SF32 与 ESP32 的芯片、下载工具和固件格式不同。不要将 ESP32 �
 <figcaption>插件版原型与外观。</figcaption>
 </figure>
 
+<a name="sources"></a>
+
 ## 下一步 {#sources}
 
-需要自己接 ESP32 面包板时，继续[基础 S3 教程](../../hardware/breadboard-esp32-s3)。其他社区硬件见[开源硬件目录](../open-hardware)。
+需要自己接 ESP32 面包板时，继续[基础 S3 教程](../../hardware/breadboard-esp32-s3.md)。其他社区硬件见[开源硬件目录](../open-hardware.md)。

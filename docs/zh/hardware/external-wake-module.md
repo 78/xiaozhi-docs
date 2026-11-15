@@ -12,9 +12,13 @@ sourceArticles: ["DOC-32"]
 
 外接语音模块负责识别离线指令，再用 GPIO 等信号通知小智。它适合某些资源不足或需要独立识别的方案，不是所有用户更换唤醒词的必需品。
 
+<a name="scope"></a>
+
 ## 先判断是否需要外接 {#scope}
 
-先查[板载唤醒词](../development/wake-words)和自己的芯片、PSRAM、模型。如果现有硬件能满足需求，可以少一个模块、少一组电源和触发线。
+先查[板载唤醒词](../development/wake-words.md)和自己的芯片、PSRAM、模型。如果现有硬件能满足需求，可以少一个模块、少一组电源和触发线。
+
+<a name="identify"></a>
 
 ## 1. 区分模块与下载器 {#identify}
 
@@ -60,6 +64,8 @@ ASR PRO 核心板、带外围的开发板和 ASR-LINK 下载器是不同硬件�
 <figcaption>ASR PRO 4M 核心板示例：存储容量、下载方式和引脚按对应修订核对。</figcaption>
 </figure>
 
+<a name="configure"></a>
+
 ## 2. 在模块上配置命令 {#configure}
 
 1. 从[天问官方页面](https://www.twen51.com/new/art_show.php?id=230)取得支持 ASRPRO 的天问 Block，按[官方使用说明](https://www.twen51.com/new/learning_show.php?id=559)选择匹配的主板。
@@ -81,11 +87,15 @@ ASR PRO 核心板、带外围的开发板和 ASR-LINK 下载器是不同硬件�
 <figcaption>ASRPRO 下载工具示例：选择下载器串口、芯片型号与本次生成的程序文件，不能使用小智主固件包替代。</figcaption>
 </figure>
 
+<a name="connect"></a>
+
 ## 3. 接入小智 {#connect}
 
 断电后按模块电源、公共 GND、逻辑输出和目标板接收引脚逐项连接。PA4/PA2、BOOT 等接口的用途由具体模块和固件定义，不是所有语音板都相同。
 
-如需触发按钮输入，先确认按钮是否低有效、能否被外部驱动及启动绑带影响；原生下载模式和运行时对话不能混淆。改变固件时使用[独立板型](../development/custom-board)，在初始化代码中明确触发去抖和有效边沿。
+如需触发按钮输入，先确认按钮是否低有效、能否被外部驱动及启动绑带影响；原生下载模式和运行时对话不能混淆。改变固件时使用[独立板型](../development/custom-board.md)，在初始化代码中明确触发去抖和有效边沿。
+
+<a name="prototype"></a>
 
 ### 面包板安装示例 {#prototype}
 
@@ -105,10 +115,14 @@ ASR PRO 核心板、带外围的开发板和 ASR-LINK 下载器是不同硬件�
 <figcaption>样机的 ASR 输出到 S3 按钮输入示意。只用于理解信号关系；供电、电平、极性与启动行为须按具体模块确认。</figcaption>
 </figure>
 
+<a name="verify"></a>
+
 ## 怎么确认完成 {#verify}
 
 先在模块端观察识别，再确认主控收到事件，最后验证一轮对话；额外测试误触发、连续触发、休眠与重新上电。不能只凭一次成功唤醒断言没有电平或启动风险。
 
+<a name="sources"></a>
+
 ## 下一步 {#sources}
 
-先按模块型号选择厂商对应的工具和配置。需要低资源硬件参考时查看[经典 ESP32](./breadboard-esp32)；具备相应资源时优先看[板载唤醒](../development/wake-words)。
+先按模块型号选择厂商对应的工具和配置。需要低资源硬件参考时查看[经典 ESP32](./breadboard-esp32.md)；具备相应资源时优先看[板载唤醒](../development/wake-words.md)。

@@ -12,9 +12,11 @@ sourceArticles: ["DOC-28"]
 
 已经有 MCP 服务时，不必再把它改写成另一个工具程序。先确定它的传输方式和独立运行结果，再接入小智端点。
 
+<a name="scope"></a>
+
 ## 开始前 {#scope}
 
-先完成[MCP 快速开始](./quickstart)，确认自己的小智端点能接入一个最小工具。本页沿用其中固定提交的 `mcp_pipe.py` 和 Python 环境，区别在于它读取多个服务的配置。
+先完成[MCP 快速开始](./quickstart.md)，确认自己的小智端点能接入一个最小工具。本页沿用其中固定提交的 `mcp_pipe.py` 和 Python 环境，区别在于它读取多个服务的配置。
 
 | 服务类型 | 连接信息 |
 | --- | --- |
@@ -31,11 +33,15 @@ sourceArticles: ["DOC-28"]
 <figcaption>已有 MCP 服务先选正确的传输方式。点击查看大图。</figcaption>
 </figure>
 
+<a name="standalone"></a>
+
 ## 1. 先独立验证服务 {#standalone}
 
 使用服务维护者支持的 MCP 客户端或测试方法确认 `initialize`、工具发现和一次调用成功。固定软件版本，知道它会访问哪些文件、设备或远端账号。
 
 本地文件工具只开放需要的目录；Home Assistant 等服务的令牌只授予所需范围。不要直接复制含真实路径、Token 和管理员权限的整份别人的配置。
+
+<a name="config"></a>
 
 ## 2. 建立配置 {#config}
 
@@ -60,6 +66,8 @@ sourceArticles: ["DOC-28"]
 
 SSE 服务把 `type` 改为 `sse` 并使用它的真实地址。不能凭习惯猜 `/sse` 或 `/mcp` 路径；`disabled: true` 可用于暂时跳过一个服务。示例凭据仅在本地替换，不提交带真实密钥的配置。
 
+<a name="run"></a>
+
 ## 3. 启动并分段检查 {#run}
 
 在同一终端设置 `MCP_ENDPOINT` 后，不带脚本参数运行：
@@ -72,14 +80,20 @@ python mcp_pipe.py
 
 若带本地 Python 脚本参数，则按快速开始运行单脚本，不把配置项名字误当成脚本路径。
 
+<a name="verify"></a>
+
 ## 怎么确认完成 {#verify}
 
 目标智能体发现预期工具，并在对话记录中实际调用成功。验证服务重启和断网恢复；不要以桌面客户端能列出工具代替小智端的调用结果。
 
+<a name="materials"></a>
+
 ## 第三方图形工具与素材 {#materials}
 
-HyperChat、McpPipe 等工具可以管理网关和连接，具体安装与版本由作者维护。选型见[社区 MCP 工具](../community/mcp-tools)。
+HyperChat、McpPipe 等工具可以管理网关和连接，具体安装与版本由作者维护。选型见[社区 MCP 工具](../community/mcp-tools.md)。
+
+<a name="next"></a>
 
 ## 下一步 {#next}
 
-搜索用例见[联网搜索](./examples/web-search)，固件内控制设备走[设备端 GPIO 工具](../development/mcp-gpio)。桥接行为以[本篇采用的上游版本](https://github.com/78/mcp-calculator/tree/c537f71d61fd73b47d6c8955b5df6d3721acf4e4)为准。
+搜索用例见[联网搜索](./examples/web-search.md)，固件内控制设备走[设备端 GPIO 工具](../development/mcp-gpio.md)。桥接行为以[本篇采用的上游版本](https://github.com/78/mcp-calculator/tree/c537f71d61fd73b47d6c8955b5df6d3721acf4e4)为准。

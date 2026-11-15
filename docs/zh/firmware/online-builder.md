@@ -11,11 +11,15 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 
 在小智控制台选择硬件和功能，等待服务器生成固件，再下载或直接烧录。已有板型可以从这里开始，不需要先安装 ESP-IDF。
 
+<a name="scope"></a>
+
 ## 准备工作 {#scope}
 
-先确定芯片、板型 ID、构建变体、屏幕和内存规格；不知道型号时先看[固件选择](./downloads#identify)。网页烧录另外需要支持 Web Serial 的桌面 Chrome/Edge、USB 数据线及相应串口驱动。大部分设备和面包板可用；部分土豆子（`tudouzi`）、KevinBox2 等修订没有引出 USB 下载引脚，请按[板卡下载接口](./flashing#prepare)处理。
+先确定芯片、板型 ID、构建变体、屏幕和内存规格；不知道型号时先看[固件选择](./downloads.md#identify)。网页烧录另外需要支持 Web Serial 的桌面 Chrome/Edge、USB 数据线及相应串口驱动。大部分设备和面包板可用；部分土豆子（`tudouzi`）、KevinBox2 等修订没有引出 USB 下载引脚，请按[板卡下载接口](./flashing.md#prepare)处理。
 
-只有当前编译目录里列出的板型可直接选择。自己改变引脚或尚未收录的新硬件，先走[自定义板型](../development/custom-board)流程。
+只有当前编译目录里列出的板型可直接选择。自己改变引脚或尚未收录的新硬件，先走[自定义板型](../development/custom-board.md)流程。
+
+<a name="open"></a>
 
 ## 1. 打开固件编译 {#open}
 
@@ -24,6 +28,8 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 3. 在弹窗顶部查看 **固件版本** 和 **源码 Commit**。创建任务时记录它们，后续反馈问题要用到。
 
 普通已登录用户可以进入此功能。可创建次数、可用版本及硬件列表以当前页面为准，不把某次默认额度当作永久权益。
+
+<a name="configure"></a>
 
 ## 2. 选择硬件与功能 {#configure}
 
@@ -58,7 +64,9 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 <figcaption>这套面包板可选择配网方式。可用项目随板型变化，不照抄其他设备的开关。</figcaption>
 </figure>
 
-同样显示“2.6.0”的在线构建与 [v2.6.0 正式发布包](./releases/v2.6.0)可能来自不同源码 Commit。需要复现同一个构建时，除版本号外还应保留 Commit 和参数。
+同样显示“2.6.0”的在线构建与 [v2.6.0 正式发布包](./releases/v2.6.0.md)可能来自不同源码 Commit。需要复现同一个构建时，除版本号外还应保留 Commit 和参数。
+
+<a name="build"></a>
 
 ## 3. 提交并等待编译 {#build}
 
@@ -76,15 +84,17 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 <figcaption>已完成的嘉立创实战派 S3 任务示例。确认是自己的板型与目标版本，再使用右侧的“烧录”或“下载”；不按图片中的耗时判断其他任务是否正常。</figcaption>
 </figure>
 
+<a name="flash"></a>
+
 ## 4. 下载或烧录 {#flash}
 
-**下载留存**：保存完整镜像及任务信息，交给离线工具时按[镜像类型](./flashing#image-types)操作；下载的应用/OTA 产物不能当作完整镜像写到 `0x0`。
+**下载留存**：保存完整镜像及任务信息，交给离线工具时按[镜像类型](./flashing.md#image-types)操作；下载的应用/OTA 产物不能当作完整镜像写到 `0x0`。
 
 **网页烧录**：
 
 1. 找到目标任务，点击右侧 **烧录**。
 2. 在 **连接设备并烧录** 弹窗里核对开发板类型、开发板 ID、芯片、Commit 和参数。
-3. 用 USB 数据线连接匹配的设备，按需[进入下载模式](./flashing#download-mode)。关闭占用该串口的调试工具。
+3. 用 USB 数据线连接匹配的设备，按需[进入下载模式](./flashing.md#download-mode)。关闭占用该串口的调试工具。
 4. 点击 **连接并开始烧录**，在浏览器串口选择框中选中开发板端口并连接。授权后会继续执行烧录，不再把它当作单纯的端口预览。
 5. 等待下载、校验与写入完成，再按界面提示重启设备。
 
@@ -100,6 +110,8 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 :::
 
 烧录过程中不要拔线、关闭连接或让电脑休眠。界面拒绝芯片/镜像时先核对硬件，不跳过检查。
+
+<a name="serial-port"></a>
 
 ### 选择正确的串口 {#serial-port}
 
@@ -124,6 +136,8 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 
 </details>
 
+<a name="flash-progress"></a>
+
 ### 查看分区写入进度 {#flash-progress}
 
 连接后，页面会显示当前写入的分区与总进度。等待最终完成提示，期间保持网页和 USB 连接；不要把编译历史中的“已完成”当作设备已经烧录成功。
@@ -134,6 +148,8 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 
 <figcaption>实际分区写入中的画面。分区名和百分比会继续变化，25% 只是这张截图记录的时刻。</figcaption>
 </figure>
+
+<a name="flash-success"></a>
 
 ### 等待成功并检查重启 {#flash-success}
 
@@ -146,11 +162,15 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 <figcaption>烧录成功界面。写入成功后，仍需检查设备启动和基本功能，不只看编译任务的完成状态。</figcaption>
 </figure>
 
+<a name="verify"></a>
+
 ## 怎么确认完成 {#verify}
 
 ::: tip 完成标志
 编译任务已完成，网页也出现烧录成功提示，固件信息可追溯；设备重启后，显示/音频符合硬件，能联网并完成一次对话。
 :::
+
+<a name="troubleshooting"></a>
 
 ## 常见问题 {#troubleshooting}
 
@@ -160,9 +180,11 @@ reviewNote: "已用嘉立创实战派 S3 完成生产 Console 在线烧录，记
 | 参数灰显或没有某个开关 | 查看所选板的支持范围，不能推断所有硬件都支持相同功能 |
 | 已到每日限制 | 以页面提示为准；删除历史记录不代表返还次数 |
 | 排队/失败/超时 | 保存任务 ID、版本和错误摘要；有完整日志时下载后遮盖敏感信息再反馈 |
-| 网页提示浏览器不支持 | 使用桌面 Chrome/Edge 和 HTTPS；检查[烧录准备](./flashing#prepare) |
+| 网页提示浏览器不支持 | 使用桌面 Chrome/Edge 和 HTTPS；检查[烧录准备](./flashing.md#prepare) |
 | 下载链接不可用 | 产物有保留期限；保留重要文件，需要时重新创建任务 |
+
+<a name="next"></a>
 
 ## 下一步 {#next}
 
-新设备继续[配网与绑定](../getting-started/wifi-and-binding)；需要修改源码则转到[本地构建](../development/build-firmware)。
+新设备继续[配网与绑定](../getting-started/wifi-and-binding.md)；需要修改源码则转到[本地构建](../development/build-firmware.md)。

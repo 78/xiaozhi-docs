@@ -25,9 +25,9 @@ status: draft
 
 所有教程采用中文先行：中文确认前暂不翻译英文。不要为了显示“完成”跳过真机或电气检查。
 
-新增文章时同时建立另一语言的对应路径（可先是简短草稿），确保语言切换不会进入 404。英文正文中的站内链接应进入 `/en/`。使用 Markdown 链接；指向文章时可省略 `.md` 后缀，例如 `[配网](../getting-started/wifi-and-binding)`；指向分区时保留末尾 `/`。
+新增文章时同时建立另一语言的对应路径（可先是简短草稿），确保语言切换不会进入 404。英文正文中的站内链接应进入 `/en/`。正文使用相对于当前文件的 Markdown 链接，并明确写出 `.md` 后缀，例如 `[配网](../getting-started/wifi-and-binding.md)`；分区入口指向 `index.md`。不要在正文使用网站根路径 `/zh/…` 或 `.html` 文章地址。VitePress 会自动生成对应的网站地址，GitHub 则直接打开该分支中的 Markdown 文件。导航和首页组件元数据仍使用网站地址。
 
-对应章节使用相同的稳定锚点，例如 `## 报告问题 {#report-an-issue}` 和 `## Report an issue {#report-an-issue}`，确保带章节链接的语言切换仍能定位到相同位置。
+对应章节使用相同的稳定锚点，例如 `## 报告问题 {#report-an-issue}` 和 `## Report an issue {#report-an-issue}`。每个这样的标题前增加一行 `<a name="report-an-issue"></a>`，并与标题隔一个空行。两处名称必须一致且锚点紧邻标题；GitHub 使用具名锚点，网站构建移除该镜像并继续使用原有标题 ID，保持目录、章节地址和语言切换位置。`npm run check:links` 会检查文章文件和章节目标。
 
 图片放在 `docs/public/images/shared/` 或语言目录中。共享接线图不要复制多份；带中文界面或文字的图片需要对应语言素材。不要热链飞书图片；视频、大文件与固件放在官方对象存储或 Releases，正文提供说明和链接。迁移社区作品时保留来源及署名。素材决策记录在 `audit/media-inventory.json`，Release 文件及校验值记录在 `audit/release-assets.json`；页面下载区使用 `.vitepress/data/materials.json`。新文件不要直接推入 Git 历史；先检查来源、适用版本、个人信息和凭据，再附清单上传独立 Release。未采用旧图也需要具体原因，不能默认为丢弃。迁入图片还要记录 `image-dimensions.json` 的实际宽高，避免懒加载把章节锚点推走；核心硬件教程的配件、总图、变体和效果图需同步更新 `audit/hardware-illustrations.json`，`npm run check:assets` 会校验它们确实出现在对应章节。
 

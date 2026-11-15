@@ -10,6 +10,8 @@ translation: {"status": "pending", "sourceHash": "1fa05205b68406c77762c95b85d399
 
 Set up a development environment, modify firmware, and support your own hardware.
 
+<a name="planned-coverage"></a>
+
 ## Planned coverage {#planned-coverage}
 
 - Development environments on Windows, Linux, and macOS
@@ -17,6 +19,8 @@ Set up a development environment, modify firmware, and support your own hardware
 - Build firmware and add board support
 - Audio, AEC, wake words, and prompts
 - Serial logs and device debugging
+
+<a name="existing-material"></a>
 
 ## Existing material {#existing-material}
 

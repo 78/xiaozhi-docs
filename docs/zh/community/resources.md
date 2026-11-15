@@ -12,11 +12,15 @@ sourceArticles: ["DOC-41"]
 
 这里收录 17 组音频与歌词，贡献者声明以 MIT 发布，由 Suno 等工具生成。使用或再分发时，请查看各项文件的许可说明。
 
+<a name="materials"></a>
+
 ## 作品与文件 {#materials}
 
 音频和歌词分开放在文档仓库的素材 Release，站点只提供播放/下载入口。原文件的格式、名称、大小和 SHA-256 随清单保留。
 
 <SourceMaterials article="DOC-41" />
+
+<a name="scope"></a>
 
 ## 使用与核对 {#scope}
 
@@ -26,8 +30,10 @@ sourceArticles: ["DOC-41"]
 
 许可声明由相应贡献者提供；对于涉及第三方权利的内容，仍需按具体用途确认允许的使用方式。
 
+<a name="contribute"></a>
+
 ## 投稿与维护 {#contribute}
 
 提交作品时附音频、歌词、署名、来源、允许的使用方式及可追溯版本。投稿方式请查看仓库的当前贡献说明。
 
-音频大文件不要进文档 Git 历史；使用独立 Release，并保留文件校验清单。其他设计资源见[开源硬件](./open-hardware)和[SF32 案例](./projects/sf32lb52-plugin)。
+音频大文件不要进文档 Git 历史；使用独立 Release，并保留文件校验清单。其他设计资源见[开源硬件](./open-hardware.md)和[SF32 案例](./projects/sf32lb52-plugin.md)。
