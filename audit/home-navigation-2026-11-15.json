@@ -15,7 +15,8 @@
     "Place firmware/downloads early and retain a visible FAQ column on desktop. Use one column on narrow screens.",
     "Update the English homepage against the Chinese content and refresh only its reviewed source hash.",
     "Export the body-based homepage once in machine-readable Markdown, without adding a duplicate hero heading.",
-    "Use task-oriented homepage headings: 教程与帮助 / Guides & Help; retain the existing brand names in the site header."
+    "Use task-oriented homepage headings: 教程与帮助 / Guides & Help; retain the existing brand names in the site header.",
+    "Strengthen category hierarchy with 20px bold headings and shared SVG icons on compact tinted backgrounds; keep article links at 14px."
   ],
   "counts": {
     "quickLinks": 5,
