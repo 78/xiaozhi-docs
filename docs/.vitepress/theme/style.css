@@ -60,9 +60,9 @@
 .home-quick-links a:hover { color: var(--vp-c-brand-1); border-color: var(--vp-c-brand-1); }
 .home-directory { columns: 3; column-gap: 40px; padding-top: 24px; border-top: 1px solid var(--vp-c-divider); }
 .home-section { break-inside: avoid; margin-bottom: 26px; }
-.docs-home .home-section h2 { margin: 0 0 9px; padding: 0; border: 0; font-size: 17px; line-height: 1.6; letter-spacing: 0; }
-.home-section h2 img { display: inline-block; width: 22px; height: 22px; margin: 0 8px 0 0; border-radius: 0; vertical-align: -5px; }
-.home-section h2 a:not(.header-anchor) { color: var(--vp-c-text-1); text-decoration: none; }
+.docs-home .home-section h2 { display: flex; align-items: center; gap: 10px; margin: 0 0 10px; padding: 0; border: 0; font-size: 20px; font-weight: 700; line-height: 1.5; letter-spacing: 0; }
+.home-section h2 img { display: block; box-sizing: content-box; flex: none; width: 24px; height: 24px; padding: 6px; margin: 0; border-radius: 8px; background: var(--vp-c-brand-soft); }
+.home-section h2 a:not(.header-anchor) { color: var(--vp-c-text-1); font-weight: inherit; text-decoration: none; }
 .home-section ul { padding: 0; margin: 0; list-style: none; }
 .home-section li, .home-section li + li { margin: 0; font-size: 14px; line-height: 1.6; }
 .home-section li a { display: block; padding: 5px 0; color: var(--vp-c-text-2); text-decoration: none; }

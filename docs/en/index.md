@@ -10,11 +10,11 @@ reviewNote: >-
   guide.
 translation:
   status: review
-  sourceHash: 30f18d5e294a7c11ef16a1f84fda840f517b75a4f0b1c1e92d2c56bde97722ab
+  sourceHash: 66265542f065e51b8626d3fe457ca2e592093dd229a6476df2ebdec159e10374
   reviewedAt: '2026-11-15'
 pageClass: docs-home
 ---
-# XiaoZhi Docs
+# Guides & Help
 
 Open the guide you need, or search for your hardware or problem.
 

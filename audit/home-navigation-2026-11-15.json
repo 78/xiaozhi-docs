@@ -14,7 +14,9 @@
     "Use nine shared native SVG category icons; retain text labels and avoid large decorative images.",
     "Place firmware/downloads early and retain a visible FAQ column on desktop. Use one column on narrow screens.",
     "Update the English homepage against the Chinese content and refresh only its reviewed source hash.",
-    "Export the body-based homepage once in machine-readable Markdown, without adding a duplicate hero heading."
+    "Export the body-based homepage once in machine-readable Markdown, without adding a duplicate hero heading.",
+    "Use task-oriented homepage headings: 教程与帮助 / Guides & Help; retain the existing brand names in the site header.",
+    "Strengthen category hierarchy with 20px bold headings and shared SVG icons on compact tinted backgrounds; keep article links at 14px."
   ],
   "counts": {
     "quickLinks": 5,
@@ -34,11 +36,11 @@
   "pages": [
     {
       "page": "docs/zh/index.md",
-      "sha256": "30f18d5e294a7c11ef16a1f84fda840f517b75a4f0b1c1e92d2c56bde97722ab"
+      "sha256": "66265542f065e51b8626d3fe457ca2e592093dd229a6476df2ebdec159e10374"
     },
     {
       "page": "docs/en/index.md",
-      "sha256": "ad0364c2755205141af0c43ca3b64c37d428050df0e55fca2f9eff7795b88feb"
+      "sha256": "ecaec36d318446f45d1632b2bc60e3f7127511d4432d2a4fcf4e2d269c0434df"
     }
   ],
   "scope": "Homepage navigation and presentation only. Article IDs, paths, technical instructions, editorial statuses, and hardware-verification limits are unchanged."
