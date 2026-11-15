@@ -1,0 +1,162 @@
+{
+  "DOC-07-file-001": {
+    "label": "Camera breadboard wiring video (older hardware; check this guide's pin table)",
+    "note": "The recording may differ from the current interface; follow the guide for operating steps."
+  },
+  "DOC-17-file-001": {
+    "label": "Device conversation demonstration (not a Console setup tutorial)",
+    "note": "The recording may differ from the current interface; follow the guide for operating steps."
+  },
+  "DOC-25-file-001": {
+    "label": "Historical web-search Python GUI example (ZIP)",
+    "note": "Historical GUI example. The maintained minimal example is examples/mcp/web_search.py."
+  },
+  "DOC-33-file-001": {
+    "label": "Finding board-level code (recorded directory layout differs)",
+    "note": "Use the guide's v2.6.0 links for current board code. HEVC format; download to play if unsupported in your browser."
+  },
+  "DOC-41-file-001": {
+    "label": "Code Romance — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-002": {
+    "label": "Code Romance — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-003": {
+    "label": "Plankton and Karen's Love — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-004": {
+    "label": "Plankton and Karen's Love — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-005": {
+    "label": "Binary Heartbeat — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-006": {
+    "label": "Binary Heartbeat — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-007": {
+    "label": "I Am Tudouzi — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-008": {
+    "label": "I Am Tudouzi — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-009": {
+    "label": "Lose Control — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-010": {
+    "label": "Lose Control — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-011": {
+    "label": "Lullaby — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-012": {
+    "label": "Lullaby — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-013": {
+    "label": "Speak Your Mind — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-014": {
+    "label": "Speak Your Mind — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-015": {
+    "label": "Your Likeness — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-016": {
+    "label": "Your Likeness — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-017": {
+    "label": "Modern Life — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-018": {
+    "label": "Modern Life — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-019": {
+    "label": "Moonlight Origami — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-020": {
+    "label": "Moonlight Origami — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-021": {
+    "label": "Muzi in Bloom — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-022": {
+    "label": "Muzi in Bloom — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-023": {
+    "label": "Wandering — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-024": {
+    "label": "Wandering — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-025": {
+    "label": "Burst of Joy — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-026": {
+    "label": "Burst of Joy — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-027": {
+    "label": "Little Swallow in Colorful Clothes — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-028": {
+    "label": "Little Swallow in Colorful Clothes — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-029": {
+    "label": "Twinkle, Twinkle — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-030": {
+    "label": "Twinkle, Twinkle — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-031": {
+    "label": "Where Is Spring? — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-032": {
+    "label": "Where Is Spring? — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-033": {
+    "label": "Counting Ducks — audio",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-41-file-034": {
+    "label": "Counting Ducks — lyrics",
+    "note": "The contributor declares MIT licensing. Check the specific license and third-party rights before use. Titles are translated for navigation; original filenames and content are retained."
+  },
+  "DOC-43-file-001": {
+    "label": "Device web-search demonstration",
+    "note": "The recording may differ from the current interface; follow the guide for operating steps. HEVC format; download to play if unsupported."
+  },
+  "DOC-36-file-002": {
+    "label": "ESP8266 WoL firmware vOpen 1.107.6 (third-party example)",
+    "note": "Community-provided, not xiaozhi-esp32 firmware. Only for the matching ESP8266 WoL module version."
+  }
+}

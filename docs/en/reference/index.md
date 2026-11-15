@@ -1,27 +1,33 @@
 ---
-id: "reference"
-title: "Protocols & reference"
-description: "Look up communication protocols, interfaces, and version compatibility."
-status: "draft"
-translation: {"status": "pending", "sourceHash": "15aa979fdf1382af844991d4e32803951c4db816669f80fac9dd5e34f7f22d21"}
+id: reference
+title: Protocols and reference
+description: 'Find versioned communication protocols, interfaces, and compatibility details.'
+status: review
+reviewedAt: '2026-11-15'
+reviewNote: >-
+  English translation checked against the current source. Technical and hardware verification limits are stated in the
+  guide.
+translation:
+  status: review
+  sourceHash: 8912fb0df1c7f01986f99c194d6101972c81f677d5d43644cad2afbfcf9eb04d
+  reviewedAt: '2026-11-15'
 ---
+# Protocols and reference
 
-# Protocols & reference
+The corresponding xiaozhi-esp32 version's documentation and implementation define OTA, communication, and device capabilities. These pages provide reading paths and versioned entry points.
 
-Look up communication protocols, interfaces, and version compatibility.
+<a name="guides"></a>
 
-<a name="planned-coverage"></a>
+## Choose a guide {#guides}
 
-## Planned coverage {#planned-coverage}
+| Guide | What it covers |
+| --- | --- |
+| [WebSocket versions](./websocket.md) | Firmware-owned transport, session, and audio protocols. |
+| [OTA, activation, and updates](./ota.md) | Distinguish startup configuration, binding, and downloads using the matching firmware version. |
+| [Emotions and display resources](./display-emotions.md) | Check semantics, resource mapping, and display fallback by version. |
 
-- WebSocket protocol
-- OTA interface and version compatibility
-- Emoji display
-- MCP protocol and device capabilities
-- Version-specific technical references in the firmware repository
+<a name="next"></a>
 
-<a name="existing-material"></a>
+## Reading and feedback {#next}
 
-## Existing material {#existing-material}
-
-The [legacy tutorial index](https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb) is in Chinese. Versions, screenshots, and service limits in those articles still need review.
+These guides are open for community review. Report problems through the page's feedback link with firmware version, board, and reproducible steps.

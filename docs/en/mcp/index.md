@@ -1,27 +1,33 @@
 ---
-id: "mcp"
-title: "MCP & integrations"
-description: "Connect tools to agents for information lookup and device control."
-status: "draft"
-translation: {"status": "pending", "sourceHash": "f32503e2af7084d357a120f630374aa4369042adfffe66c06ba61f33399b3290"}
+id: mcp
+title: MCP and tool extensions
+description: 'Connect a verifiable tool first, then extend your applications.'
+status: review
+reviewedAt: '2026-11-15'
+reviewNote: >-
+  English translation checked against the current source. Technical and hardware verification limits are stated in the
+  guide.
+translation:
+  status: review
+  sourceHash: d173928593869577d4ff6b55095ebea44ab35d2093ea1d8173810c70f8dd5be3
+  reviewedAt: '2026-11-15'
 ---
+# MCP and tool extensions
 
-# MCP & integrations
+Start with a minimal tool, then connect existing services or write your own applications. Verify tool discovery, model invocation, and actual execution separately.
 
-Connect tools to agents for information lookup and device control.
+<a name="guides"></a>
 
-<a name="planned-coverage"></a>
+## Choose a guide {#guides}
 
-## Planned coverage {#planned-coverage}
+| Guide | What it covers |
+| --- | --- |
+| [MCP quickstart](./quickstart.md) | Install dependencies, discover a tool, and call a verifiable local addition tool from an agent. |
+| [Connect existing MCP services](./connect-existing-servers.md) | Distinguish stdio, SSE, and Streamable HTTP when connecting services to an agent. |
+| [Web search example](./examples/web-search.md) | Return page titles, links, summaries, and dates through an MCP search tool. |
 
-- MCP concepts and the official connection process
-- A minimal working example and connection troubleshooting
-- Online lookup and computer control
-- Community MCP services and examples
-- Cloud endpoints and device-side tools
+<a name="next"></a>
 
-<a name="existing-material"></a>
+## Reading and feedback {#next}
 
-## Existing material {#existing-material}
-
-The [legacy tutorial index](https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb) is in Chinese. Versions, screenshots, and service limits in those articles still need review.
+These guides are open for community review. Report problems through the feedback link at the end of a page, including firmware version, board, and reproducible steps.

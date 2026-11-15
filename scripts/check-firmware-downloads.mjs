@@ -12,9 +12,12 @@ const chipNames = {
 let downloads = 0
 for (const version of catalog.versions) {
   const page = await read(version.page)
+  const englishPagePath = version.page.replace('/zh/', '/en/')
+  const englishPage = await read(englishPagePath)
   const assets = new Map(version.assets.map(asset => [asset.filename, asset]))
   const seen = new Set()
   const tableRows = page.split('\n').filter(line => line.startsWith('| '))
+  const englishRows = englishPage.split('\n').filter(line => line.startsWith('| '))
   if (!/^[a-f0-9]{40}$/.test(version.sourceCommit)) throw new Error('Pin the owning firmware revision')
   for (const entry of version.entries) {
     const asset = assets.get(entry.filename)
@@ -32,15 +35,20 @@ for (const version of catalog.versions) {
     if (!row || !row.includes(`| ${entry.name} | ${entry.chip} |`) || !row.includes(`](${expected})`)) {
       throw new Error(`Missing product/chip/filename relationship in ${version.page}: ${entry.filename}`)
     }
+    const englishRow = englishRows.find(line => line.includes(`[${entry.filename}](`))
+    const englishChip = entry.chip.replace('（', ' (').replace('）', ')')
+    if (!entry.englishName || !englishRow?.includes(`| ${entry.englishName} | ${englishChip} |`) || !englishRow.includes(`](${expected})`)) {
+      throw new Error(`Missing English product/chip/filename relationship in ${englishPagePath}: ${entry.filename}`)
+    }
     seen.add(entry.filename)
   }
   for (const entry of version.excludedAssets) {
     if (!assets.has(entry.filename) || seen.has(entry.filename) || !entry.reason) throw new Error('Explain each excluded release asset')
-    if (page.includes(entry.filename)) throw new Error(`Excluded build must not be offered: ${entry.filename}`)
+    if (page.includes(entry.filename) || englishPage.includes(entry.filename)) throw new Error(`Excluded build must not be offered: ${entry.filename}`)
     seen.add(entry.filename)
   }
   if (seen.size !== assets.size || version.counts.publishedRows !== version.entries.length) throw new Error('Incomplete release-asset coverage')
-  const linkedVersions = [...page.matchAll(/releases\/download\/(v[\d.]+)\//g)].map(match => match[1])
+  const linkedVersions = [...(page + englishPage).matchAll(/releases\/download\/(v[\d.]+)\//g)].map(match => match[1])
   if (linkedVersions.some(tag => tag !== version.version)) throw new Error(`Mixed download versions in ${version.page}`)
   downloads += version.entries.length
 }

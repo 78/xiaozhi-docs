@@ -1,20 +1,25 @@
 <script setup>
 import materials from '../data/materials.json'
+import english from '../data/materials.en.json'
 import { computed } from 'vue'
+import { useData } from 'vitepress'
+const { lang } = useData()
+const zh = computed(() => lang.value.startsWith('zh'))
 const props = defineProps({ article: { type: String, required: true }, kind: String, only: String })
 const items = computed(() => (materials[props.article] || []).filter(item =>
-  (!props.kind || item.kind === props.kind) && (!props.only || props.only.split(',').includes(item.id))))
+  (!props.kind || item.kind === props.kind) && (!props.only || props.only.split(',').includes(item.id)))
+  .map(item => zh.value ? item : { ...item, ...english[item.id] }))
 const size = bytes => bytes >= 1048576 ? `${(bytes / 1048576).toFixed(1)} MB` : `${Math.ceil(bytes / 1024)} KB`
 </script>
 
 <template>
   <div class="source-materials">
     <details v-for="item in items" :key="item.id">
-      <summary>{{ item.label }} <span class="material-size">{{ size(item.size) }}<template v-if="item.duration"> · {{ item.duration }} 秒</template></span></summary>
+      <summary>{{ item.label }} <span class="material-size">{{ size(item.size) }}<template v-if="item.duration"> · {{ item.duration }} {{ zh ? '秒' : 's' }}</template></span></summary>
       <p class="material-note">{{ item.note }}</p>
-      <video v-if="item.kind === 'video'" controls preload="none" playsinline :aria-label="item.label" :src="item.url">浏览器不支持此格式，请下载播放。</video>
-      <audio v-if="item.kind === 'audio'" controls preload="none" :aria-label="item.label" :src="item.url">浏览器不支持此格式，请下载播放。</audio>
-      <p><a :href="item.url">下载原文件：{{ item.name }}</a></p>
+      <video v-if="item.kind === 'video'" controls preload="none" playsinline :aria-label="item.label" :src="item.url">{{ zh ? '浏览器不支持此格式，请下载播放。' : 'If this format is unsupported, download the file to play it.' }}</video>
+      <audio v-if="item.kind === 'audio'" controls preload="none" :aria-label="item.label" :src="item.url">{{ zh ? '浏览器不支持此格式，请下载播放。' : 'If this format is unsupported, download the file to play it.' }}</audio>
+      <p><a :href="item.url">{{ zh ? '下载原文件：' : 'Download original: ' }}{{ item.name }}</a></p>
       <p class="material-note">SHA-256：<code class="material-hash">{{ item.sha256 }}</code></p>
     </details>
   </div>

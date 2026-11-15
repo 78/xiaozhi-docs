@@ -80,6 +80,8 @@ The asset ledger's `sha256` identifies the original; `publishedAsset.sha256` ide
 
 Keep `audit/media-inventory.json`, `audit/release-assets.json`, and `docs/.vitepress/data/materials.json` consistent when updating attachments. Record core tutorial image coverage in `audit/hardware-illustrations.json` and generated wiring diagrams in `audit/wiring-diagrams.json`.
 
+English attachment labels and notes live in `docs/.vitepress/data/materials.en.json`. Keep original filenames, URLs, sizes, and checksums in the shared registry. Localized diagrams live under `docs/public/images/en/`; compare their signal labels and wire paths with the source and record the relationship in the translation review.
+
 Put video, large design files, and other large attachments in Releases or the approved external storage, with useful labels and checksums. Firmware downloads should point to the official firmware repository's versioned Releases. Keep discussion contacts in the shared header configuration.
 
 Replacing a file does not remove its old versions from Git history. Coordinate any history cleanup separately, retain verified backups outside the repository, and do not reintroduce large originals into Git.

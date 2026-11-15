@@ -514,5 +514,93 @@
   "/images/zh/console-flash-success-2026-11-14.jpg": {
     "width": 630,
     "height": 259
+  },
+  "/images/en/audio-output-paths.svg": {
+    "width": 900,
+    "height": 392
+  },
+  "/images/en/aec-reference-path.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/en/breadboard-4g-signals-v2.6.0.svg": {
+    "width": 960,
+    "height": 682
+  },
+  "/images/en/breadboard-c3-signals-v2.6.0.svg": {
+    "width": 960,
+    "height": 744
+  },
+  "/images/en/breadboard-camera-signals-v2.6.0.svg": {
+    "width": 960,
+    "height": 1326
+  },
+  "/images/en/breadboard-esp32-wiring-v2.6.0.svg": {
+    "width": 960,
+    "height": 1133
+  },
+  "/images/en/breadboard-s3-oled-v2.6.0.svg": {
+    "width": 960,
+    "height": 438
+  },
+  "/images/en/breadboard-s3-wiring-v2.6.0.svg": {
+    "width": 960,
+    "height": 1133
+  },
+  "/images/en/custom-board-identity.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/en/device-binding-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/en/firmware-build-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/en/github-auth-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/en/gpio-led-wiring.svg": {
+    "width": 900,
+    "height": 400
+  },
+  "/images/en/knowledge-base-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/en/mcp-calculator-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/en/mcp-transport-choice.svg": {
+    "width": 880,
+    "height": 440
+  },
+  "/images/en/mcp-web-search-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/en/usb-power-bank.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/en/voice-audio-selection.svg": {
+    "width": 900,
+    "height": 340
+  },
+  "/images/en/voice-training-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/en/wake-on-lan-flow.svg": {
+    "width": 720,
+    "height": 404
+  },
+  "/images/en/wake-word-choice.svg": {
+    "width": 720,
+    "height": 404
   }
 }

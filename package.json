@@ -18,9 +18,10 @@
     "images:optimize": "node scripts/optimize-images.mjs",
     "check:images": "node scripts/check-images.mjs",
     "translations:status": "node scripts/translation-status.mjs",
-    "check": "npm run check:content && npm run check:links && npm run check:language && npm run check:assets && npm run check:firmware && npm run check:reader && npm run check:images && npm run build",
+    "check": "npm run check:content && npm run check:links && npm run check:language && npm run check:assets && npm run check:firmware && npm run check:reader && npm run check:translations && npm run check:images && npm run build",
     "check:language": "node --test scripts/tests/language-preference.test.mjs",
-    "check:links": "node scripts/check-article-links.mjs"
+    "check:links": "node scripts/check-article-links.mjs",
+    "check:translations": "node scripts/check-translations.mjs"
   },
   "devDependencies": {
     "gray-matter": "4.0.3",

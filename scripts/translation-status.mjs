@@ -16,6 +16,6 @@ for (const [path, page] of source) {
     console.log(`NEEDS REVIEW en/${path}\n  Chinese SHA-256: ${hash}`)
   }
 }
-console.log(`${source.size - stale - pending}/${source.size} English pages match the recorded Chinese revision; ${pending} translations pending Chinese review; ${stale} existing translations need review.`)
+console.log(`${source.size - stale - pending}/${source.size} English pages match the recorded Chinese revision; ${pending} translations pending; ${stale} existing translations need review.`)
 // Advisory: Chinese fixes may ship before their translations are ready.
 // Only a human/translation PR may acknowledge a revision after reviewing it.
