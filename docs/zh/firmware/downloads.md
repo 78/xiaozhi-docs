@@ -3,7 +3,7 @@ id: "downloads"
 title: "下载与选择固件"
 description: "按照芯片、板型和变体选择固件，区分当前安装与历史版本。"
 status: "review"
-reviewedAt: "2026-11-14"
+reviewedAt: "2026-11-15"
 reviewNote: "正式 Release v2.6.0 已核验；并未逐个运行所有板型二进制，下载前仍需确认自己的硬件。"
 ---
 
@@ -88,6 +88,16 @@ sha256sum merged-binary.bin
 | 必须维持旧设备兼容 | 保留明确版本和文件摘要，记录不能升级的原因 |
 
 本站维护两个版本入口：当前的 [v2.6.0 固件列表](./releases/v2.6.0.md)与面向 v1 旧设备的 [v1.9.4 固件列表](./releases/v1.9.4.md)。升级与回退都先核对分区变化，不能默认直接 OTA。
+
+<a name="download-access"></a>
+
+## GitHub 下载不通时 {#download-access}
+
+1. 只是需要安装当前支持板型：打开[小智在线编译](https://xiaozhi.me/console/firmware-builder)，选板型和功能，任务成功后按[下载或烧录步骤](./online-builder.md#flash)安装，或从任务菜单下载完整镜像。浏览器不需要自行从 GitHub Release 列表取包。
+2. 必须使用某个正式 Release 的原包：保留表中的版本和完整文件名，在可访问 GitHub 的网络下载后，再按可信渠道提供的摘要核验并传给安装电脑。
+3. 维护 v1.9.4 旧设备或特定历史构建时，不用在线编译的现行固件冒充同一文件。本站目前没有另行维护可保证内容一致的独立镜像。
+
+在线构建的源码提交和选项可能与正式发布包不同，不保证二者二进制相同。不要仅因文件名相近就从不明网盘或代理下载。
 
 <a name="verify"></a>
 

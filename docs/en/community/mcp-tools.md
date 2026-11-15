@@ -14,7 +14,7 @@ sourceArticles:
   - DOC-28
 translation:
   status: review
-  sourceHash: bd3c54869ca3a90a5a8c633932e7e92958d9b98465cf2e4e5f5028d7978958e9
+  sourceHash: 806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad
   reviewedAt: '2026-11-15'
 ---
 # Community MCP tools and services
@@ -39,6 +39,17 @@ Author: **ZongZiTongXue (粽子同学)**. Project: [xiaozhi-MCPTools](https://gi
 
 The author maintains installation details. For permission or 401 errors, check release notes and authentication configuration. Verify the endpoint with the [official minimal example](../mcp/quickstart.md) first, and retain actual startup errors.
 
+### Install and make the first connection
+
+The [author-maintained installation guide (Chinese)](https://kcn80f4hacgs.feishu.cn/docx/HErcd1F8LoKjDnx3O0Pcktd3nPI) contains releases, dependency setup, and UI steps; an [installation video (Chinese)](https://v.douyin.com/PK-NmFdDIsE/) is also available. Follow the downloaded version's requirements instead of reusing an installer password or permission settings from another version.
+
+1. Complete that version's initialization and Python/dependency checks without installation errors.
+2. [Copy the target agent's MCP endpoint](../mcp/quickstart.md#endpoint), add it in the application, give the entry a recognizable agent name, and save.
+3. Keep the terminal visible on the first run, start MCP, and inspect connection and child-process errors.
+4. Refresh tools in the same agent, request one explicit tool call, and verify its real result. Local tools go offline when the computer sleeps or the application closes.
+
+For installation or authentication failures, keep the actual error and software version and use the author's current troubleshooting instructions. A historical version's ignorable 401 notice does not make all authentication failures safe to ignore.
+
 <a name="mcphub"></a>
 
 ## xiaozhi-mcphub {#mcphub}
@@ -58,7 +69,14 @@ Before self-hosting, read that version's README, pin the image/source version, c
 
 ## HyperChat / McpPipe bridges {#bridge-tools}
 
-HyperChat and McpPipe can manage graphical gateways and connectors. See [Connect existing services](../mcp/connect-existing-servers.md) for general stdio/SSE/HTTP integration. Follow the tools' maintainers for version-specific GUI instructions.
+Install from the [HyperChat project and releases](https://github.com/BigSweetPotatoStudio/HyperChat) and [McpPipe project and integration guide](https://github.com/onepy/Mcp_Pipe-Xiaozhi-All#readme). Choose compatible versions and follow each README for installation and launch commands.
+
+1. Create an MCP gateway in HyperChat, select the tools to share under its allowed-MCP list, save, and copy the generated gateway URL.
+2. In McpPipe, choose the transport matching that URL. For a Streamable HTTP gateway, select that mode and put the gateway URL in the remote-service address field.
+3. Paste the [XiaoZhi agent's MCP endpoint](../mcp/quickstart.md#endpoint) into the XiaoZhi endpoint field. The gateway URL and XiaoZhi endpoint serve different purposes; do not swap them.
+4. Connect and keep both applications running. Refresh tools in the XiaoZhi Console, then make one explicit call. After adding another tool, also enable it in the gateway's allowed list and reconnect.
+
+See [Connect existing services](../mcp/connect-existing-servers.md) for general stdio, SSE, HTTP configuration and troubleshooting.
 
 <a name="search"></a>
 

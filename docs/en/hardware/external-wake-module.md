@@ -11,7 +11,7 @@ sourceArticles:
   - DOC-32
 translation:
   status: review
-  sourceHash: ebc37e7b0fd16cd1b024786657ca77857d530d912cf2867e5b2b2abb77a9923a
+  sourceHash: 9bde2d94b9aa57be43de11443fa1c6df568bdfc68d053533eb1cfb3d52d8a723
   reviewedAt: '2026-11-15'
 ---
 # External ASR wake modules
@@ -94,6 +94,12 @@ An ASR PRO core board, a development board with peripherals, and an ASR-LINK pro
 
 <figcaption>Example ASRPRO programming tool. Select the programmer port, chip, and newly generated module program; a XiaoZhi main-firmware package is not a substitute.</figcaption>
 </figure>
+
+### Regenerate the model after changing a phrase
+
+After editing recognition phrases and GPIO actions in Tianwen Block, sign in if the tool requires it, select **Generate model**, wait for completion, then **Compile and download**. Repeat both actions after every wake-word change. Editing text or downloading an older program does not update the recognition model.
+
+Distinguish examples within the same family: the core-board example uses PA4, while some development boards with an indicator LED use PA2 instead. Change the programmed output pin and wiring together, after checking that board's schematic and logic levels. Verify the RX/TX connections using the matching ASR-LINK/module instructions rather than the XiaoZhi controller's download settings.
 
 <a name="connect"></a>
 

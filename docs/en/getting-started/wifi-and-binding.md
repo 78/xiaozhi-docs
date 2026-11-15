@@ -9,7 +9,7 @@ reviewNote: >-
   live binding flow still need community testing.
 translation:
   status: review
-  sourceHash: 24bd453d1f20bf185e60226c1397c119b28ae55f6524d5eeb30e61b521b48a90
+  sourceHash: 59da7afeee7126ddfc6b19bd2aa7772c14f3bb06ffba5dad51a2fa3353e30f04
   reviewedAt: '2026-11-15'
 ---
 # Connect and bind your device
@@ -54,6 +54,8 @@ Automatic network switching, a VPN, or a proxy may interfere with the local devi
 
 <figcaption>After saving the hotspot settings, wait for the device to restart and join the target network. Account binding is not complete yet.</figcaption>
 </figure>
+
+For a phone hotspot used as a test network, check that it uses 2.4 GHz. On iPhone, enable **Maximize Compatibility** under Settings → Personal Hotspot; on other phones, select 2.4 GHz in the hotspot settings.
 
 <a name="blufi"></a>
 
@@ -106,7 +108,7 @@ The Console lists your device, the device stops repeatedly requesting a code, an
 | Home Wi-Fi is missing | For the basic S3 build, first test a 2.4 GHz network that accepts a password directly |
 | Wi-Fi connected but no device code | Check internet access, device time and OTA requests; save the relevant logs |
 | Invalid or expired device code | Use the newly displayed code, not a code from an old photo |
-| Device belongs to another account | Ask the previous owner to unbind it through the Console. Reflashing does not replace server-side ownership handling |
+| Device belongs to another account | Ask the previous owner to [unbind it](../faq/account-and-binding.md#unbind); if unreachable, [email an unbinding request](../faq/account-and-binding.md#ownership) instead of repeatedly reflashing |
 
 <a name="next"></a>
 

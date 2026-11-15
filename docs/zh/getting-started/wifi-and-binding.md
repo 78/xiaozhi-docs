@@ -3,7 +3,7 @@ id: "wifi-and-binding"
 title: "配网与绑定设备"
 description: "把设备连接到网络，用六位设备验证码绑定到自己的小智控制台。"
 status: "review"
-reviewedAt: "2026-11-14"
+reviewedAt: "2026-11-15"
 reviewNote: "热点/BluFi 和六位设备码已对照代码；不同手机、板型及线上绑定过程尚待社区实测。"
 ---
 
@@ -49,6 +49,8 @@ reviewNote: "热点/BluFi 和六位设备码已对照代码；不同手机、板
 
 <figcaption>热点页面提示保存成功后，等待设备重启并连接目标网络；这一步还没有完成账号绑定。</figcaption>
 </figure>
+
+手机热点作为测试网络时，先确认工作在 2.4GHz。iPhone 可在“设置 → 个人热点”中打开 **最大兼容性**；其他手机按热点设置选择 2.4GHz。
 
 <a name="blufi"></a>
 
@@ -101,7 +103,7 @@ reviewNote: "热点/BluFi 和六位设备码已对照代码；不同手机、板
 | 找不到家中 Wi-Fi | 基础 S3 方案先用 2.4GHz、可直接输入密码的网络测试 |
 | Wi-Fi 已连接却没有设备码 | 检查网络是否能访问互联网、时间/OTA 请求是否成功，保存相关日志 |
 | 设备码无效或过期 | 使用设备新显示的码；不重复提交旧照片里的码 |
-| 设备已属于其他账号 | 联系原持有人按控制台流程解绑；刷固件不能替代服务端归属处理 |
+| 设备已属于其他账号 | 联系原持有人[解绑](../faq/account-and-binding.md#unbind)；无法联系时[邮件申请解绑](../faq/account-and-binding.md#ownership)，不用反复刷机 |
 
 <a name="next"></a>
 

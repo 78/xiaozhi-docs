@@ -4002,6 +4002,12 @@
       "image": "/images/zh/console-flash-success-2026-11-14.jpg",
       "anchor": "flash-success",
       "purpose": "实际烧录成功，界面显示设备正在重新启动。"
+    },
+    {
+      "page": "docs/zh/faq/account-and-binding.md",
+      "anchor": "device-information",
+      "image": "/images/zh/device-identifiers.svg",
+      "purpose": "Distinguish STA and softAP addresses after the actual serial steps."
     }
   ],
   "forbiddenLegacyConsoleFigures": [
@@ -4114,6 +4120,18 @@
       "path": "/images/zh/wake-word-choice.svg",
       "sha256": "c74a4fd0fde6817a5a2155314d441e3b7cb7e426f10ae1ade0a4add602c00ad2",
       "type": "code-native SVG; not a Console screenshot"
+    },
+    {
+      "path": "/images/zh/device-identifiers.svg",
+      "sha256": "ce772abfbd6c116bd121cc97f689db57a8a28ee110029105d4c324a1cba487a3",
+      "type": "code-native SVG with fictional MAC addresses; not a screenshot",
+      "followupReview": "actionable-details-2026-11-15.json"
+    },
+    {
+      "path": "/images/en/device-identifiers.svg",
+      "sha256": "7be2f33e563695fd2d56ef893ffea272cfe56493b4bc2f5e734d2a4a4454b9c1",
+      "type": "code-native SVG with fictional MAC addresses; not a screenshot",
+      "followupReview": "actionable-details-2026-11-15.json"
     }
   ],
   "validation": {
@@ -4295,5 +4313,6 @@
     "maintainerGuide": "MAINTAINING.md",
     "homepageMessage": "tutorials and community contributions",
     "translationSourceHashesRefreshed": false
-  }
+  },
+  "followupReview": "actionable-details-2026-11-15.json"
 }

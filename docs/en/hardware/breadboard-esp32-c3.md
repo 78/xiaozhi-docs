@@ -11,7 +11,7 @@ sourceArticles:
   - DOC-12
 translation:
   status: review
-  sourceHash: be5b4c1f7863f74ef2cf56dc1d07da2d6161ecf7c898e8a19d860f608af1f31e
+  sourceHash: 68c7847eb3f8565e5955af4a9611fe73cfc188e7671cf01fad5688ae9a687af4
   reviewedAt: '2026-11-15'
 ---
 # C3 breadboard with ES8311 audio
@@ -209,6 +209,17 @@ C3 supports compatible lightweight WakeNet configurations, and the project also 
 </div>
 
 The color-display photos show an extension of this prototype. The `xmini/c3` configuration used here follows an I2C OLED path; these photos do not establish support for that SPI display in the same build. Before recreating the color-display variant, identify its display driver, SPI GPIOs, board code, and separate build configuration.
+
+### ES8311 initialization errors
+
+For `Fail to write to dev 30`, `I2C read/write error`, or `ES8311 ... Open fail`, keep the first error and check in order:
+
+1. Power off and check SDA/SCL, Codec power, shared GND, and loose connections. Do not confuse the I2C control bus with I2S audio signals.
+2. Shorten breadboard I2C jumpers, move the Codec closer to the controller, and move interference sources away. Do not move or reconnect modules while powered.
+3. If the OLED shares this bus, disconnect it with power off, then restart to check whether the other peripheral or its wiring causes the failure.
+4. If it still fails, scan I2C in your board-level debugging environment and check the actual address, pull-ups, and driver. Do not guess another hexadecimal address from a log's decimal `30`, or apply V3 GPIO0/1 wiring to this board.
+
+Capture startup logs after each single change. Temporary menu fixes for older dependencies do not apply to every newer release; use this guide's pinned firmware version for Codec interfaces and adaptation.
 
 <a name="verify"></a>
 

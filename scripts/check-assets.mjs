@@ -46,7 +46,8 @@ for (const path of ['audit/media-inventory.json', 'audit/release-assets.json', '
     throw new Error(`Private source data in ${path}`)
   }
 }
-if (ids.size !== 1094) throw new Error('The source-material inventory must cover all 1094 embedded references')
+// Original 44-article inventory (1094) plus six reviewed voice-training comparison files.
+if (ids.size !== 1100) throw new Error('The source-material inventory must cover the original 1094 references and six voice-practice files')
 // A valid image inventory is insufficient when the teaching figures disappear from their chapters.
 const coverage = JSON.parse(await readFile(resolve(root, 'audit/hardware-illustrations.json'), 'utf8'))
 const byId = new Map(ledger.items.map(item => [item.id, item]))

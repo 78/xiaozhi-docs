@@ -3,7 +3,7 @@ id: "community-resources"
 title: "音乐、歌词与社区资源"
 description: "保留作品声明、媒体和歌词对应关系，并使用独立附件分发。"
 status: "review"
-reviewedAt: "2026-11-14"
+reviewedAt: "2026-11-15"
 reviewNote: "第三方项目与样机尚未全部实测，使用前核对具体版本与硬件条件。"
 sourceArticles: ["DOC-41"]
 ---
@@ -34,6 +34,6 @@ sourceArticles: ["DOC-41"]
 
 ## 投稿与维护 {#contribute}
 
-提交作品时附音频、歌词、署名、来源、允许的使用方式及可追溯版本。投稿方式请查看仓库的当前贡献说明。
+将 **MP3 音频 + 同名 LRC 歌词**打包，发送至 [xiaozhi.ai@tenclass.com](mailto:xiaozhi.ai@tenclass.com)，正文附作品名称、作者/署名、来源、可追溯版本及许可声明。希望按本栏目方式投稿时，明确说明自己有权以 MIT 许可提供这些文件；第三方素材另列授权。提交后由维护者核对，不保证自动进入设备点歌服务。
 
 音频大文件不要进文档 Git 历史；使用独立 Release，并保留文件校验清单。其他设计资源见[开源硬件](./open-hardware.md)和[SF32 案例](./projects/sf32lb52-plugin.md)。

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+<title id="title">Find the MAC address in startup logs</title><desc id="desc">Copy the STA address to identify this Wi-Fi device. softAP identifies the provisioning hotspot, not the STA. Addresses are fictional examples.</desc>
+<rect width="800" height="420" rx="18" fill="#f4f7fb"/>
+<g font-family="system-ui, sans-serif"><text x="30" y="45" font-size="26" font-weight="700" fill="#172b4d">Find the MAC address in startup logs</text>
+<text x="30" y="77" font-size="17" fill="#4b6078">Example values · Normal boot · 115200 / 8N1 · Text mode</text>
+<rect x="26" y="100" width="748" height="183" rx="12" fill="#172535"/>
+<g font-family="ui-monospace, monospace" font-size="20">
+<text x="46" y="141" fill="#dbe6f2">I (551) wifi:mode :</text>
+<rect x="42" y="155" width="682" height="45" rx="6" fill="#164c48" stroke="#58c9a8"/>
+<text x="57" y="185" fill="#ffffff">sta (02:00:00:00:00:01)</text>
+<text x="57" y="244" fill="#b9c7d9">+ softAP (02:00:00:00:00:02)</text></g>
+<circle cx="42" cy="316" r="6" fill="#13866c"/><text x="60" y="323" font-size="19" font-weight="600" fill="#126851">Copy the STA address to identify this Wi-Fi device</text>
+<circle cx="42" cy="353" r="6" fill="#708499"/><text x="60" y="360" font-size="18" fill="#4b6078">softAP identifies the provisioning hotspot, not the STA</text>
+<text x="30" y="399" font-size="16" fill="#4b6078">Open the serial port, then press RESET/EN; avoid download mode</text></g></svg>

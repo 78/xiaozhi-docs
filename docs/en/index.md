@@ -10,7 +10,7 @@ reviewNote: >-
   guide.
 translation:
   status: review
-  sourceHash: 66265542f065e51b8626d3fe457ca2e592093dd229a6476df2ebdec159e10374
+  sourceHash: 2102eaf6ae5d1da7250dc47b3ecc76cd37f558f67eb1b86cf7784ecc346b6843
   reviewedAt: '2026-11-15'
 pageClass: docs-home
 ---
@@ -83,6 +83,8 @@ Open the guide you need, or search for your hardware or problem.
 
 ## ![](../public/images/shared/sections/console.svg) [Console settings](./console/index.md) {#console}
 
+- [Configure persona, model & voice](./console/index.md#role-and-voice)
+- [Speaker recognition](./console/index.md#speaker-recognition)
 - [GitHub verification](./console/github-verification.md)
 - [Voice cloning](./console/voice-cloning.md)
 - [Knowledge base](./console/knowledge-base.md)

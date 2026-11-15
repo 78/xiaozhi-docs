@@ -1,0 +1,1020 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-15",
+  "method": "Per-entry comparison of existing source audits, cached action-bearing source excerpts, current Chinese/English pages and media dispositions. Fresh Lark reads supplement account/unbinding, acoustic design and the previously unlisted voice best-practice article. Code comparisons use firmware v2.6.0 and read-only Console implementation. This is an editorial/operational-path review, not all-hardware or production-service validation.",
+  "entries": [
+    {
+      "id": "DOC-01",
+      "disposition": "保留",
+      "finding": "GitHub 认证入口、授权返回、取消后重新登录及权益核对已可执行；动态模型和配额不恢复为固定承诺。",
+      "title": "小智AI 开发者认证",
+      "sourceUrl": "https://smvsudqc87.feishu.cn/docx/AjtQdM0KpoVQ3YxJfaLco4KsnSe",
+      "sourceRevision": 136,
+      "sourceContentSha256": "50ee6e2c1cb944c7ff2cb31fd2e83e108c009ece21c95ab93a661b4ea2f2860c",
+      "checkedPaths": [
+        "docs/zh/console/github-verification.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-02",
+      "disposition": "补齐",
+      "finding": "版本化下载表、芯片/文件名及跨分区安装保留；补 Console 构建下载替代，并明确不能冒充相同 Release 原包。",
+      "title": "v2.5.2 小智AI终端最新版本固件及源码下载",
+      "sourceUrl": "https://my.feishu.cn/docx/InFydTabHo285Tx8nnvcnDS6n4f",
+      "sourceRevision": 34,
+      "sourceContentSha256": "def114dbf7efca13e723090493bf9db65dc21e5ab7d831937dc51ea38a5c48f0",
+      "checkedPaths": [
+        "docs/zh/firmware/downloads.md",
+        "docs/zh/firmware/releases/v2.5.2.md",
+        "docs/zh/firmware/releases/v2.6.0.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-03",
+      "disposition": "补齐",
+      "finding": "旧 URL 按维护者政策重定向；第200包追溯到 P4-Nano Rev1 加 network_type=ethernet 的 CI 配方，单列专项测试下载。",
+      "title": "v2.2.4 小智AI终端最新版本固件及源码下载",
+      "sourceUrl": "https://my.feishu.cn/docx/GWL4dC8Rzov8V7x8vfncr9IEnOe",
+      "sourceRevision": 8066,
+      "sourceContentSha256": "2126647fb12ffa384c9a25ac7cfda1ac4d205b67ff9d798bb48f2b2e022c4ea3",
+      "checkedPaths": [
+        "docs/zh/firmware/releases/v2.6.0.md",
+        "docs/zh/firmware/releases/v2.2.4.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-04",
+      "disposition": "保留",
+      "finding": "v1.9.4 的88行板型/芯片/文件名下载和升级边界完整保留；不恢复更早v1重复表，独立历史镜像仍未提供。",
+      "title": "v1.9.4 小智AI终端固件下载",
+      "sourceUrl": "https://my.feishu.cn/docx/AidQdzp1vombicxZDIPcJeiZnzc",
+      "sourceRevision": 2,
+      "sourceContentSha256": "ea0fbd214932f067313acb4a174fd87f50db8ce69a8b98e3e1390c84eb1d7265",
+      "checkedPaths": [
+        "docs/zh/firmware/releases/v1.9.4.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-05",
+      "disposition": "保留",
+      "finding": "BOM/模块图、44/42针位置图、反向麦克风、隐藏连线、OLED、Simplex信号和完成图均在搭建页；4G转独立扩展页。未核验的LDO取电不恢复。",
+      "title": "小智AI聊天机器人面包板DIY硬件清单与接线教程",
+      "sourceUrl": "https://my.feishu.cn/docx/AAardHaIXonVMCxOhtTcxWVanEb",
+      "sourceRevision": 5570,
+      "sourceContentSha256": "98f1d007d36ce704c9691873a812a75b52ec28a9cdfde4b5d58a2aa51e8e5485",
+      "checkedPaths": [
+        "docs/zh/hardware/breadboard-esp32-s3.md",
+        "docs/zh/hardware/breadboard-4g.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-06",
+      "disposition": "保留",
+      "finding": "ST7789信号表、44/42针接线图、完成图、尺寸/方向排查及构建入口保留；旧屏幕固件不冒充当前包。",
+      "title": "小智AI终端DIY面包板WIFI-LCD彩屏接线教程",
+      "sourceUrl": "https://my.feishu.cn/docx/ZVHUdeeC6orHtDxeafwcoPSYnhe",
+      "sourceRevision": 896,
+      "sourceContentSha256": "4837ffac8a995de9eb573f166582320b0d32b9a98fcd8daa2bcdbdfd8a9bceff",
+      "checkedPaths": [
+        "docs/zh/hardware/displays/st7789.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-07",
+      "disposition": "保留",
+      "finding": "摄像头BOM、断电插接、音频/LCD信号图、视频和匹配固件入口保留；旧IDF5编译流程被现行构建替代。",
+      "title": "【最新】小智AI面包板带摄像头互动功能接线教程 ",
+      "sourceUrl": "https://my.feishu.cn/docx/XmewdwEQroT3buxKN9GcpEm5nng",
+      "sourceRevision": 819,
+      "sourceContentSha256": "b342dc11e1a3b5a1fb6ea94cc29d31a6a03903be6600cfd9c0d3bf0371b3342c",
+      "checkedPaths": [
+        "docs/zh/hardware/breadboard-camera.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-08",
+      "disposition": "保留",
+      "finding": "Console首选烧录、下载模式、完整/应用镜像、偏移和端口、真实进度与成功图及离线备选均保留。",
+      "title": "Flash工具/Web端烧录固件（无IDF开发环境）",
+      "sourceUrl": "https://my.feishu.cn/docx/BGHMdtqSGoPrvrxCXrvcCbg0nNc",
+      "sourceRevision": 5328,
+      "sourceContentSha256": "a3538952c783149db425422f1d9321d594e349de01d7f8578d98bb2792071d62",
+      "checkedPaths": [
+        "docs/zh/firmware/flashing.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-09",
+      "disposition": "补齐",
+      "finding": "热点192.168.4.1/BluFi/六位码步骤完整；补iPhone热点最大兼容性和人工解绑直达入口。",
+      "title": "配置设备 Wi-Fi 和添加设备及信号问题",
+      "sourceUrl": "https://my.feishu.cn/docx/LuPkd5EovourPjxRmItcEQSfnWc",
+      "sourceRevision": 2291,
+      "sourceContentSha256": "c1434865c9d4fe6d973bfcc25758793a77f9d8b1d05049103591f953ffb4e958",
+      "checkedPaths": [
+        "docs/zh/getting-started/wifi-and-binding.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-10",
+      "disposition": "保留",
+      "finding": "整套硬件选择直达对应搭建页BOM和器件识别图；模块细节未删除，而是移入教程。旧价格/库存和封装通用断言不恢复。",
+      "title": "小智AI ESP32S3开发板+面包板DIY模块购买说明",
+      "sourceUrl": "https://my.feishu.cn/docx/HkxhdV5E9ovMIfxBOJbcXfVOnPg",
+      "sourceRevision": 100,
+      "sourceContentSha256": "ac169a94727ca11125cdb855e3da7ec1197f55196ad3d36daed4988ec6bfe759",
+      "checkedPaths": [
+        "docs/zh/hardware/choosing-hardware.md",
+        "docs/zh/hardware/breadboard-esp32-s3.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-11",
+      "disposition": "补齐",
+      "finding": "恢复双麦SNR、公差、间距、频响、PSRR、拾音孔、ADC参考及来源；补阵列、密封前后衰减和AEC多路音频测试条件。",
+      "title": "AI类产品乐鑫设计参考以及要求",
+      "sourceUrl": "https://icnynnzcwou8.feishu.cn/docx/KCotdF4KgocDm0xqXcycBtGLnWe",
+      "sourceRevision": 217,
+      "sourceContentSha256": "71fdf43a188a873e542b7aaf600af5396a4352623bd411e140e16a7e65044415",
+      "checkedPaths": [
+        "docs/zh/hardware/design-guidelines.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-12",
+      "disposition": "补齐",
+      "finding": "C3/ES8311/OLED图表与信号方向保留；补具体I2C错误、断电核线、短跳线、隔离OLED与地址核对。20cm必失败等泛化断言不恢复。",
+      "title": "ESP32-C3小智AI终端面包板DIY硬件接线教程",
+      "sourceUrl": "https://my.feishu.cn/docx/OnVIdPkTHoktJVxJ16ccanFfn8d",
+      "sourceRevision": 2421,
+      "sourceContentSha256": "5bedaa09d3f1b9e2d2106e8ec6b9d1243b8a9ccc6d50921b8934245aceb63f5c",
+      "checkedPaths": [
+        "docs/zh/hardware/breadboard-esp32-c3.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-13",
+      "disposition": "补齐",
+      "finding": "经典ESP32 GPIO表和完成图保留；补外设干扰下载时断电隔离再逐项恢复。当前Wi-Fi板型不套第三方旧双模切换行为。",
+      "title": "ESP32面包板-小智AI 制作说明",
+      "sourceUrl": "https://hcngjtwigghb.feishu.cn/docx/SUGIdaS8goGGSTx5bTCcrUZ6njh",
+      "sourceRevision": 2226,
+      "sourceContentSha256": "07ed3fa9b9e99a84b04766f4da6c60cde55eabd7d5585ab4acdc0a483fed06d0",
+      "checkedPaths": [
+        "docs/zh/hardware/breadboard-esp32.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-14",
+      "disposition": "补齐",
+      "finding": "录音/上传/选区/训练/选用完整；恢复支持邮箱，追加原44篇外最佳实践的6音频、裁剪方法、10–15秒经验与8–60秒校验区别和漏读/音质处理。",
+      "title": "小智AI声音复刻（公测）控制台操作指引",
+      "sourceUrl": "https://my.feishu.cn/docx/QjFsdHSNjosfr6xWziWcVCnunBh",
+      "sourceRevision": 1941,
+      "sourceContentSha256": "157e0e357ef924507650fd61137c947c9926fd66ce6cf91c2c43193a5fe00af3",
+      "checkedPaths": [
+        "docs/zh/console/voice-cloning.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-15",
+      "disposition": "补齐",
+      "finding": "FAQ恢复人工解绑，并直达角色/模型/音色与声纹操作；过时模型名单、C3无唤醒、无蓝牙及旧私有服务硬件承诺不恢复。",
+      "title": "小智AI聊天机器人常见问题Q&A【先看】",
+      "sourceUrl": "https://my.feishu.cn/docx/F0L2dBZFOobBUVxzWRDcL0i8n2K",
+      "sourceRevision": 8001,
+      "sourceContentSha256": "d539496abc706a0ed09251d4a15e2e5a2a40994aba4133660286734dc417359f",
+      "checkedPaths": [
+        "docs/zh/faq/index.md",
+        "docs/zh/console/index.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-16",
+      "disposition": "补齐",
+      "finding": "恢复找回邮箱、两类主题和材料、自主解绑及记录删除影响、单台/批量申请、空白Excel、ID/MAC获取及STA/softAP/UUID/绑定码区别。",
+      "title": "无法接收手机验证码、忘记密码或解绑设备",
+      "sourceUrl": "https://my.feishu.cn/docx/J4Mkdj0A6o295sxwLKycS9urn7b",
+      "sourceRevision": 642,
+      "sourceContentSha256": "daab1b352abc7ad670e1db427128577561b61c36df195d3519369cfe7c7fd8db",
+      "checkedPaths": [
+        "docs/zh/faq/account-and-binding.md",
+        "docs/zh/faq/serial-logs.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-17",
+      "disposition": "补齐",
+      "finding": "恢复知识库描述示例和查询参数/返回片段/结果核对，不保证每次必调用；未伪造当前对话截图，实际调用截图待真实案例补充。",
+      "title": "小智知识库使用说明",
+      "sourceUrl": "https://my.feishu.cn/docx/OimhdJxseowewZx3qKyc4qOOnPb",
+      "sourceRevision": 682,
+      "sourceContentSha256": "79c68e4f955a682710e4602bf686441c977546e9f38cc74c0e53cfe3f3d0c9e9",
+      "checkedPaths": [
+        "docs/zh/console/knowledge-base.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-18",
+      "disposition": "保留",
+      "finding": "当前Console板型/选项/任务/下载/烧录步骤及嘉立创S3实际进度/成功图保留；过时演示由实拍替代，旧视频仍在素材Release。",
+      "title": "小智AI 固件在线编译固件功能操作教程文档",
+      "sourceUrl": "https://my.feishu.cn/docx/XS2pdC1IQoRANfx3k8ycYInsn1d",
+      "sourceRevision": 1152,
+      "sourceContentSha256": "81084819db65b2efa0df791a5ff09eb60cec7f424a3650e962046ae239082813",
+      "checkedPaths": [
+        "docs/zh/firmware/online-builder.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-19",
+      "disposition": "保留",
+      "finding": "SDK安装激活、版本检查、板型查询、构建/烧录/日志、fullclean及Windows长命令均可复制；禁用杀软、IDF5和旧WebSocket直配路径不恢复。",
+      "title": "Windows搭建 ESP IDF开发环境&编译小智",
+      "sourceUrl": "https://icnynnzcwou8.feishu.cn/docx/X1zpdZk9goqOL5x44ayceYwEnNP",
+      "sourceRevision": 1681,
+      "sourceContentSha256": "fdc307955ac08147dc2f92fe2665c021dadbd233d749a54ba069a0096b73feaa",
+      "checkedPaths": [
+        "docs/zh/development/build-firmware.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-20",
+      "disposition": "替代",
+      "finding": "引脚/屏幕/Flash布局由独立板型、配置结构、构建命令及固件自定义板指南承接；不恢复删OTA分区凑空间或沿用标准板身份。",
+      "title": "小智AI终端开源项目配置修改等操作指引（一）",
+      "sourceUrl": "https://my.feishu.cn/docx/L04VdXyDxoB4IyxCnuGce9nTncf",
+      "sourceRevision": 2795,
+      "sourceContentSha256": "b59616628880f45eb476dac962db33ac7cc0dee839d577b12132463722375787",
+      "checkedPaths": [
+        "docs/zh/development/custom-board.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-21",
+      "disposition": "补齐",
+      "finding": "补准确menuconfig入口、AFE/AEC选项及搜索符号、S保存、重建/烧录；保留参考通路与同条件比较，不承诺勾选即生效。",
+      "title": "小智AI终端开源项目SDK配置AEC支持操作指引",
+      "sourceUrl": "https://my.feishu.cn/docx/Oi3EdH3ftolVUmx4NiacSMxgnje",
+      "sourceRevision": 648,
+      "sourceContentSha256": "608dfb330d9147bfd0e097aafe53ac8f219625e322244a1549367c21d83076b2",
+      "checkedPaths": [
+        "docs/zh/development/audio-and-aec.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-22",
+      "disposition": "补齐",
+      "finding": "补预置词完整构建/烧录示例，自定义词S保存、build、flash闭环；旧WakeNet菜单不套到现行芯片。",
+      "title": "关于唤醒词更改及配置操作步骤",
+      "sourceUrl": "https://my.feishu.cn/docx/X1PUdoklpouIXBxvEGHcjCBJnkg",
+      "sourceRevision": 2251,
+      "sourceContentSha256": "9c04c14aa04253d960027d37334b302d1e3deac5d8a0096e738ef646c8586c3d",
+      "checkedPaths": [
+        "docs/zh/development/wake-words.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-23",
+      "disposition": "补齐",
+      "finding": "保留端口/115200/复位/文本导出；补两平台venv、pySerial安装、端口列举、miniterm与Ctrl+]退出及乱码/占用/空白诊断。",
+      "title": "关于独立串口工具查看运行日志的操作指引",
+      "sourceUrl": "https://my.feishu.cn/docx/CewMdYgH0ovnE0xHK4ncfPf6nPg",
+      "sourceRevision": 711,
+      "sourceContentSha256": "bc3078b7e90a90c5e0f0f0c9da60b9764b3f3740ad8527faf67492b25948bcd7",
+      "checkedPaths": [
+        "docs/zh/faq/serial-logs.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-24",
+      "disposition": "替代",
+      "finding": "完整安全加法例子、独立环境、端点桥接、发现和37+58实调验证替代eval；stdio日志约束保留。",
+      "title": "小智AI配置MCP接入点使用说明（官方）",
+      "sourceUrl": "https://my.feishu.cn/docx/G14ndNMw6oEwASxSoo3czklGnqf",
+      "sourceRevision": 474,
+      "sourceContentSha256": "0e8e47d0a01ad207e4cdcc0151c95b8bb4c4bab091fdb52de7916995cb2b3871",
+      "checkedPaths": [
+        "docs/zh/mcp/quickstart.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-25",
+      "disposition": "补齐",
+      "finding": "可运行搜索程序、两种凭据及启动验证保留；补智谱API Key创建入口和字段用途。历史GUI仍能下载，不恢复永久免费承诺。",
+      "title": "小智接入联网查询教程mcp",
+      "sourceUrl": "https://my.feishu.cn/docx/JKFXd8bLYo6YZtxz9ORcbnA8nbe",
+      "sourceRevision": 772,
+      "sourceContentSha256": "d4994520f32428d6178f97df2c4b2ce0550367c063f7cf4bb645cdd70a525e3f",
+      "checkedPaths": [
+        "docs/zh/mcp/examples/web-search.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-26",
+      "disposition": "补齐",
+      "finding": "恢复作者实际维护的图文/视频入口，补初始化、端点保存、终端可见、启动与实调；不一概忽略401，也不代发不明安装器。",
+      "title": "小智AI 简单操控电脑 超简方案（By粽子同学）",
+      "sourceUrl": "https://kcn80f4hacgs.feishu.cn/docx/HErcd1F8LoKjDnx3O0Pcktd3nPI",
+      "sourceRevision": 2033,
+      "sourceContentSha256": "ce78ac12f0bc5c65cf38849e4f7e012c0c57fc26f368c5bc60fee840afe2cc93",
+      "checkedPaths": [
+        "docs/zh/community/mcp-tools.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-27",
+      "disposition": "外链",
+      "finding": "作者项目、市场图和当前README部署入口保留；第三方镜像/数据库/凭据按其版本化说明，不复制latest部署为长期保证。",
+      "title": "xiaozhi-mcphub-小智生态新一代mcp管理平台",
+      "sourceUrl": "https://my.feishu.cn/docx/H9OGddrk8oq7eBxwi8DcqqeMnEc",
+      "sourceRevision": 504,
+      "sourceContentSha256": "36b5b9c166d8ee289b1be4c4086b4aeab7380d224044d4684d8e1dbf88fd9f63",
+      "checkedPaths": [
+        "docs/zh/community/mcp-tools.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-28",
+      "disposition": "补齐",
+      "finding": "恢复HyperChat/McpPipe维护入口、允许工具、网关与小智端点区别、传输模式和重连；文件/HA直达维护指南，旧阻塞且未鉴权HTTP补丁不恢复。",
+      "title": "简单赋予小智 MCP 能力（第三方工具接入与玩法示例）",
+      "sourceUrl": "https://lcn17bfbw6fr.feishu.cn/docx/N5R9dk6AuoXz5YxmNUWccmEfnJf",
+      "sourceRevision": 1654,
+      "sourceContentSha256": "43badacb3b3488b905d8eab45d659ccde34eca512ba5e9d829f7d024299305a3",
+      "checkedPaths": [
+        "docs/zh/mcp/connect-existing-servers.md",
+        "docs/zh/community/mcp-tools.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-29",
+      "disposition": "补齐",
+      "finding": "恢复BOOT/电源开关下载操作、启动期短按配网、待机与按住说话差异，以及已绑他人的申请入口；原版/V3/4G仍分清。",
+      "title": "Xmini-C3/V3开发板玩转小智AI聊天机器人",
+      "sourceUrl": "https://my.feishu.cn/docx/EyRBd7ak0oZo5Ax4nZkcgLeqnUb",
+      "sourceRevision": 6764,
+      "sourceContentSha256": "90f856ca49e87ae137908917256813ca65d75a3f2336830a2079c6da1ece51e2",
+      "checkedPaths": [
+        "docs/zh/hardware/boards/xmini-c3.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-30",
+      "disposition": "外链",
+      "finding": "按维护者决定，制作、焊接、电路、PCB、外壳与固件均直达嘉立创完整SF32教程及下载，不误导使用ESP32产物。",
+      "title": "插件版小智AI设计教程",
+      "sourceUrl": "https://lceda002.feishu.cn/docx/PvJ3dyjr9onY0RxB5yZcpzLQnqg",
+      "sourceRevision": 3597,
+      "sourceContentSha256": "7af7ffb3cfed47d6eec49021916fc207aeddd380e96c9640d6821d0e5024b6d5",
+      "checkedPaths": [
+        "docs/zh/community/projects/sf32lb52-plugin.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-31",
+      "disposition": "替代",
+      "finding": "固定tag板型、--list-boards、在线列表和下载对照表承接支持范围；售价/售罄不作为兼容性判断。",
+      "title": "小智AI终端固件支持开发板/产品及购买链接",
+      "sourceUrl": "https://my.feishu.cn/docx/Dt2HdeMqNoo9dNxV8RacO4ounsc",
+      "sourceRevision": 3614,
+      "sourceContentSha256": "41e965d715c97880db06619aa6e81d64adfe40f8f7eab14ac531e96878827fe9",
+      "checkedPaths": [
+        "docs/zh/hardware/supported-boards.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-32",
+      "disposition": "补齐",
+      "finding": "恢复天问Block生成模型→编译下载及PA4/PA2差异；模块/下载器/动作图和厂商手册保留，不恢复混用供电或通用BOOT接法。",
+      "title": "小智AI终端ASR自定义唤醒词简单方案",
+      "sourceUrl": "https://kcn80f4hacgs.feishu.cn/docx/P2aqdFMO2ouXmZx9sNDcrAv1nJg",
+      "sourceRevision": 5116,
+      "sourceContentSha256": "2ae6b947ae3549dd5ea297a7269fc4ce437b6dbc6b16774d5ae1ae48afde36dc",
+      "checkedPaths": [
+        "docs/zh/hardware/external-wake-module.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-33",
+      "disposition": "替代",
+      "finding": "现有LampController、工具名、GPIO18限流LED图、板级注册和测量路径保留；完整C++由固件对应版本维护，破损JSON不恢复。",
+      "title": "小智AI终端控制GPIO[简单教程] ",
+      "sourceUrl": "https://kcn80f4hacgs.feishu.cn/docx/J2MrdqW27oybcCxu7Sfc4gBcn4g",
+      "sourceRevision": 732,
+      "sourceContentSha256": "0a84865c71751d02cf19930f23de002767317cf03757c913a7edd06ecb2b2223",
+      "checkedPaths": [
+        "docs/zh/development/mcp-gpio.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-34",
+      "disposition": "替代",
+      "finding": "可执行USB移动电源步骤和电池接口核对替代未确定模块的电路；B+/B−识别图保留，不恢复剪电池线、反接试错或任意口充电断言。",
+      "title": "小智ai面包板接电池简单教程",
+      "sourceUrl": "https://my.feishu.cn/docx/InARdPRGbo9gUfxYquWceFucnec",
+      "sourceRevision": 647,
+      "sourceContentSha256": "c0367a37c1f7a49a2f5ea19ce18531acddd29630f1a3d88138a4afde4d62802f",
+      "checkedPaths": [
+        "docs/zh/hardware/battery-power.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-35",
+      "disposition": "替代",
+      "finding": "MAX98357直连共地耳机不符合数据手册；保留插座识别并提供扬声器及专用耳机/线路输出的实际步骤和检查。",
+      "title": "面包板小智接音响或者耳机简单教程",
+      "sourceUrl": "https://my.feishu.cn/docx/KxASdc423oXIzlx8FLIcRJb5nAh",
+      "sourceRevision": 385,
+      "sourceContentSha256": "d90f861fbdf6db55f22ff28d237a2a2821dc9ea030e8db083affb66570b0f4d9",
+      "checkedPaths": [
+        "docs/zh/hardware/audio-output.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-36",
+      "disposition": "补齐",
+      "finding": "恢复作者图文/视频、WLHX模块UUID、PC有线IPv4/MAC、保存/启用工具/启动MCP中间步骤；不把开机当完整关机。",
+      "title": "小智AI 实现远程操控电脑开关机",
+      "sourceUrl": "https://kcn80f4hacgs.feishu.cn/docx/RxRXd8aMDomjUXxlUcCcOE48ndh",
+      "sourceRevision": 2001,
+      "sourceContentSha256": "8f2203672fbcca1c4e62cb991fb5530df6421323309b64d488db4e15d0e0b840",
+      "checkedPaths": [
+        "docs/zh/community/projects/wake-on-lan.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-37",
+      "disposition": "保留",
+      "finding": "8个开源硬件作者和项目入口全部保留，按原项目获取设计与许可，不依赖旧价格和群文件。",
+      "title": "小智AI聊天机器人硬件开源项目汇集（一）",
+      "sourceUrl": "https://my.feishu.cn/docx/Xa2wdSt7codXKFxv2jpcRZMgn6c",
+      "sourceRevision": 676,
+      "sourceContentSha256": "6f2d70d8a1331cc3db854e0273f95d6887851329841bf80d94c79020157e4bc0",
+      "checkedPaths": [
+        "docs/zh/community/open-hardware.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-38",
+      "disposition": "外链",
+      "finding": "握手/消息/二进制/状态图直达固件v2.6.0规范和实现；遵从用户要求不维护飞书协议副本，旧无session_id断言不恢复。",
+      "title": "通信协议：Websocket 连接",
+      "sourceUrl": "https://my.feishu.cn/docx/RD0Sdhjmjop0axxlsDrcOxAsnfd",
+      "sourceRevision": 245,
+      "sourceContentSha256": "bf5ae8adf4d9871679c9dba02ef62eabea64435178108e5b7929d334d48ac54b",
+      "checkedPaths": [
+        "docs/zh/reference/websocket.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-39",
+      "disposition": "补齐",
+      "finding": "补同版本合法消息、21项默认映射直达及OLED/LCD未知值差异；协议与资源仍由拥有者维护，不另造枚举。",
+      "title": "通信协议：Emoji 心情显示",
+      "sourceUrl": "https://my.feishu.cn/docx/OGFxdVzGhopNMzxfMCacyt3bnpt",
+      "sourceRevision": 355,
+      "sourceContentSha256": "e976ee0d3da243826f743b06ec796b4941d0ceb8d535f84d9a9917c9fbf2cfc9",
+      "checkedPaths": [
+        "docs/zh/reference/display-emotions.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-40",
+      "disposition": "外链",
+      "finding": "OTA身份/请求/响应/激活/分区直达固件v2.6.0文档和代码；旧部署层路径不作为统一端点。",
+      "title": "OTA 接口文档",
+      "sourceUrl": "https://my.feishu.cn/docx/EbR6dyOYeokVdixlTcpciAQEn7f",
+      "sourceRevision": 676,
+      "sourceContentSha256": "f19baef438f26b0145766576662a09c15592544ea07abfe3c7bf941d779a7346",
+      "checkedPaths": [
+        "docs/zh/reference/ota.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-41",
+      "disposition": "补齐",
+      "finding": "17组音频/歌词保留；恢复MP3+同名LRC投稿格式、邮箱和署名/来源/许可信息。",
+      "title": "开源音乐",
+      "sourceUrl": "https://my.feishu.cn/docx/HInUdJq2CoVa8zxsgXBcoo3yn3e",
+      "sourceRevision": 263,
+      "sourceContentSha256": "5cb76ded83aaac2cd36b6ab05b5fe3f2f25236bd828fb39b77661661156b1222",
+      "checkedPaths": [
+        "docs/zh/community/resources.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-42",
+      "disposition": "替代",
+      "finding": "现行OGG有ffmpeg参数、locale路径、事件名和重建验证；P3历史页直达固件工具README，不恢复直接修改生成头文件。",
+      "title": "小智修改默认提示音频，转换自己的P3音频文件（例如开机播报和配网播报）",
+      "sourceUrl": "https://icnynnzcwou8.feishu.cn/docx/E2o4dGZPkoJgA2x2iEocjQtnnqJ",
+      "sourceRevision": 136,
+      "sourceContentSha256": "4c645cae4b3bf88f29edfd6606f75ba44f819ce6f7b314b74b0fd43ee58f1bad",
+      "checkedPaths": [
+        "docs/zh/development/archive/p3-prompts.md",
+        "docs/zh/development/custom-prompts.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-43",
+      "disposition": "外链",
+      "finding": "保留作者托管搜索维护文档和效果视频；未确认HTTPS的旧HTTP入口不直接用于收集端点，另有完整自建搜索教程。",
+      "title": "小智接入联网搜索MCP（闪猫科技）",
+      "sourceUrl": "https://my.feishu.cn/docx/DN0ndX1JaoP4EWx1FBWcdCmcnoc",
+      "sourceRevision": 332,
+      "sourceContentSha256": "03957a0e305b26aa584980c1cb84e98e45e6d5f23bdebe4e8ed13859dec1ec14",
+      "checkedPaths": [
+        "docs/zh/community/mcp-tools.md"
+      ],
+      "communityConfirmed": false
+    },
+    {
+      "id": "DOC-44",
+      "disposition": "保留",
+      "finding": "PCB识别、音频图表、供电模块/按键焊点及装壳图保留；未核验的原板复用与拆IC不包装成全部批次通用步骤。",
+      "title": "小智AI聊天太空人故事机改造",
+      "sourceUrl": "https://my.feishu.cn/docx/HCgXdX3cfoABjGxEzglcfE6Jnvd",
+      "sourceRevision": 3328,
+      "sourceContentSha256": "cbe2332d98c061bc0e581f6362d3bfb465a9890429aeeabc6ad1bf1462529666",
+      "checkedPaths": [
+        "docs/zh/community/projects/astronaut-storyteller.md"
+      ],
+      "communityConfirmed": false
+    }
+  ],
+  "baseCommit": "7f11bd9d9dfe535e0741d2e664c9efdb2a6385c7",
+  "scope": {
+    "originalSourceArticles": 44,
+    "supplementalSources": 1,
+    "changedPagePairs": 23,
+    "mediaReferences": 1100,
+    "restoredSpreadsheet": 1,
+    "newAudioSamples": 6,
+    "releaseFiles": 63,
+    "newLocalizedTeachingDiagrams": 2
+  },
+  "firmwareCommit": "4de00aed740595a8713b01f8332b9b2cf30685bc",
+  "consoleReference": {
+    "commit": "e246ab9bb5c937be1fe90f66551c5017d5db509f",
+    "method": "Read-only local implementation comparison. Console checkout has unrelated working changes; no new production account, payment, unbinding or training action was executed."
+  },
+  "supplementalSource": {
+    "id": "VOICE-PRACTICE",
+    "sourceUrl": "https://smvsudqc87.feishu.cn/docx/HpwbdgONloL0J2xcD3Ochq0GnOh",
+    "title": "小智AI声音复刻最佳实践",
+    "revisionId": 146,
+    "contentSha256": "2dca97036743bdfcf4a0024c27e1214a899757e99f4e657295a3e96c938cb26e",
+    "discovery": "Provided by maintainer after original 44-entry review; original source scope remains 44.",
+    "files": [
+      {
+        "id": "VOICE-PRACTICE-file-001",
+        "originalName": "例1反例.mp3",
+        "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-001.mp3",
+        "bytes": 989440,
+        "sha256": "49f9ba98088455bf81d93032bcfea7a567bdc4745b13fcd8dad62bc3ffbfa5d0",
+        "duration": 30.772245,
+        "sampleRate": 44100,
+        "channels": 2,
+        "decodeVerified": true,
+        "listenedByReviewer": false
+      },
+      {
+        "id": "VOICE-PRACTICE-file-002",
+        "originalName": "例1正例.wav",
+        "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-002.wav",
+        "bytes": 935760,
+        "sha256": "32f5fad2c817786d450c9fdf686a8a860eb39945e74ed8c4a221e4f43de3f498",
+        "duration": 9.746125,
+        "sampleRate": 24000,
+        "channels": 2,
+        "decodeVerified": true,
+        "listenedByReviewer": false
+      },
+      {
+        "id": "VOICE-PRACTICE-file-003",
+        "originalName": "例2反例.mp3",
+        "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-003.mp3",
+        "bytes": 192288,
+        "sha256": "d286b8f32469ce35113090bad962f969ad2c9c73953e3168847ed8083c222373",
+        "duration": 15.336,
+        "sampleRate": 48000,
+        "channels": 1,
+        "decodeVerified": true,
+        "listenedByReviewer": false
+      },
+      {
+        "id": "VOICE-PRACTICE-file-004",
+        "originalName": "例2正例.wav",
+        "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-004.wav",
+        "bytes": 1187064,
+        "sha256": "da0784ea9e439b304f50ff26adf92985ab832775681fe73cbaaefc6ee61e39f9",
+        "duration": 12.311271,
+        "sampleRate": 48000,
+        "channels": 1,
+        "decodeVerified": true,
+        "listenedByReviewer": false
+      },
+      {
+        "id": "VOICE-PRACTICE-file-005",
+        "originalName": "例3反例.wav",
+        "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-005.wav",
+        "bytes": 5915632,
+        "sha256": "8c3acfe52ed874275f7d75e47be5a9314fb592a9209804213e72d8978ed30ace",
+        "duration": 15.388292,
+        "sampleRate": 48000,
+        "channels": 2,
+        "decodeVerified": true,
+        "listenedByReviewer": false
+      },
+      {
+        "id": "VOICE-PRACTICE-file-006",
+        "originalName": "例3正例.wav",
+        "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-006.wav",
+        "bytes": 3228608,
+        "sha256": "9fde544344ac382548cbc17e1f4668dafa57fdcb38d009d54476056359cff99e",
+        "duration": 8.388292,
+        "sampleRate": 48000,
+        "channels": 2,
+        "decodeVerified": true,
+        "listenedByReviewer": false
+      }
+    ],
+    "qualityNotes": [
+      "Files paired by source order and checked by size, SHA-256, ffprobe and full decode. This reviewer does not claim individual auditory inspection.",
+      "Positive examples are about 9.75, 12.31 and 8.39 seconds; some are stereo. These illustrate trimming, not universal input specifications.",
+      "8–60 seconds is the current UI constraint. 10–15 seconds and mono are recording guidance, not a guaranteed optimum. No unverified 24kHz-model-match claim was restored."
+    ]
+  },
+  "engineeringReference": {
+    "sourceUrl": "https://icnynnzcwou8.feishu.cn/docx/KCotdF4KgocDm0xqXcycBtGLnWe",
+    "revisionId": 217,
+    "contentSha256": "7f16237436587e2b1eb5663303e5719fef37040127c0298efaa1692256aa976f",
+    "scope": "Acoustic design reference conditions, not all-board promises."
+  },
+  "firmwareTestBuild": {
+    "filename": "v2.6.0_waveshare-esp32-p4-nano-10.1-a-ci.zip",
+    "sha256": "19763115e6ee2f52104e0536d6d752e20191a13dfe3ba8474f02ffd4741d49f7",
+    "bytes": 3287104,
+    "packageFiles": [
+      "merged-binary.bin"
+    ],
+    "appVersion": "2.6.0",
+    "idfVersion": "v6.1-1055-gf0114250e20",
+    "board": "waveshare/esp32-p4-nano",
+    "variant": "esp32-p4-nano-10.1-a",
+    "target": "esp32p4",
+    "chip": "ESP32-P4 Rev1",
+    "buildOptions": {
+      "network_type": "ethernet"
+    },
+    "evidence": [
+      "v2.6.0 board config.json selects pre-Rev3 P4.",
+      "v2.6.0 scripts/ci/representative-variants.json selects network_type=ethernet.",
+      "v2.6.0 scripts/build.py derives ci_name from full_name with -ci.",
+      "Downloaded archive matches official Release digest; application descriptor and Ethernet strings inspected."
+    ],
+    "hardwareTested": false,
+    "decision": "Publish separately as an Ethernet test build; not the default package."
+  },
+  "feedbackDisposition": [
+    {
+      "item": 1,
+      "status": "addressed",
+      "detail": "Speaker recognition is in Console steps, homepage, sidebar and FAQ."
+    },
+    {
+      "item": 2,
+      "status": "addressed",
+      "detail": "Recovery/unbinding email, fields, subjects, spreadsheet and MAC lookup restored."
+    },
+    {
+      "item": 3,
+      "status": "addressed",
+      "detail": "Three pairs of audio restored; recording guidance is separate from UI constraints."
+    },
+    {
+      "item": 4,
+      "status": "addressed",
+      "detail": "Persona/model/voice/save/new-conversation verification steps restored."
+    },
+    {
+      "item": 5,
+      "status": "addressed",
+      "detail": "Knowledge description and actual query verification restored. No fake current tool-call screenshot."
+    },
+    {
+      "item": 6,
+      "status": "addressed",
+      "detail": "Quantitative reference conditions, sources and test steps restored."
+    },
+    {
+      "item": 7,
+      "status": "addressed",
+      "detail": "Maintained author guides, videos and HyperChat/McpPipe procedures restored."
+    },
+    {
+      "item": 8,
+      "status": "addressed",
+      "detail": "Module UUID, PC IP/MAC, intermediate platform steps and author guide restored."
+    },
+    {
+      "item": 9,
+      "status": "resolved-with-owning-reference",
+      "detail": "Message example, direct 21-name mapping source and different display fallbacks; no independent protocol enum."
+    },
+    {
+      "item": 10,
+      "status": "partial-infrastructure",
+      "detail": "Console build/download is an alternative, but exact historical Release assets have no independent mirror."
+    },
+    {
+      "item": 11,
+      "status": "addressed",
+      "detail": "The 200th package maps to the Ethernet CI recipe and verified official archive; listed separately."
+    }
+  ],
+  "pagePairs": [
+    {
+      "source": "docs/zh/community/mcp-tools.md",
+      "page": "docs/en/community/mcp-tools.md",
+      "sourceSha256": "806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad",
+      "contentSha256": "21e50a40ec32d1bfc857d4de3dfbb9ec7187fcd961d849ce9cf0f2fa5117b874",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/community/projects/wake-on-lan.md",
+      "page": "docs/en/community/projects/wake-on-lan.md",
+      "sourceSha256": "17efa582331ca99d4020ead7331b9613dee82ba119c2886ebf322e005db33d73",
+      "contentSha256": "9f2006cccc0d3d2f70caef7b49cb6bad8b065bde59b72209fd8f1401fc84efb0",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/community/resources.md",
+      "page": "docs/en/community/resources.md",
+      "sourceSha256": "4ad5128a47fa0a663c6830ae0d9af84e3854cda17761301305a68885c7429f57",
+      "contentSha256": "ac99675f56a8333fc7515fefe121ef3005f52982dfb7a4ee131a2d0eef8d6767",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/console/index.md",
+      "page": "docs/en/console/index.md",
+      "sourceSha256": "8e8c95f01888497de7a5da8614cd4d0723d2bfa6f7cfb96f482eaa67ba6a6ed7",
+      "contentSha256": "2c5c0f3b5cbe89a74916bf2da66eaf053fd54bbd10026b52db4ec5406a259ecd",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/console/knowledge-base.md",
+      "page": "docs/en/console/knowledge-base.md",
+      "sourceSha256": "1556006c8abb91205ac53f2a226851c9b979f475dc01d8bb68b42dd76afbdea0",
+      "contentSha256": "6213496a9451ee8b4386a2cd9e77ee09d47fa758cfd5750766b0e1e1ae7518b5",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/console/voice-cloning.md",
+      "page": "docs/en/console/voice-cloning.md",
+      "sourceSha256": "5d21003d488141bf92c973069fa86bafc2e92228044eae981dd814b5b83e4b69",
+      "contentSha256": "888af4eda5afc72f8e93524ddc0969fdded48f8161fa311c5225d3eaea0e93c4",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/development/audio-and-aec.md",
+      "page": "docs/en/development/audio-and-aec.md",
+      "sourceSha256": "44cd49754f837d982b007ca0cc5e946e4a35f0cd485f5d77e716aa3db2ee6c07",
+      "contentSha256": "e6bbc9ae81cc388b8e42ea2965da6b17837a3d0c53f8eeab72d5fc324679da3e",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/development/wake-words.md",
+      "page": "docs/en/development/wake-words.md",
+      "sourceSha256": "746701523768c32240eda2a3073c2a323ce90f3a86d496aed8ba121888f0417b",
+      "contentSha256": "75395a7c819493ebce5cc6754c9eb0f3ba8a97f096ef8afb3125850f1af76cc3",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/faq/account-and-binding.md",
+      "page": "docs/en/faq/account-and-binding.md",
+      "sourceSha256": "3dcead553505bc36bd7d34f9a97ce4e7fc9379a23155157f4e25bd706ad041bf",
+      "contentSha256": "7f6d7c15bb897a8556c9e042cc97dc62b7f179ae0b33741208d508d27854c6af",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/faq/index.md",
+      "page": "docs/en/faq/index.md",
+      "sourceSha256": "7e50176d1429c3a645f922f65cfe0c008c680825c33a4569f12d7810a669c585",
+      "contentSha256": "86449f7ffff2c3f43e6003f03b0fa43d87a74414f1063bad30089b87164a6c63",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/faq/serial-logs.md",
+      "page": "docs/en/faq/serial-logs.md",
+      "sourceSha256": "88dcd7c252f906b9cfe4ae231557e3a19a4e14db5afce4dfbce1165997ba1a4c",
+      "contentSha256": "ce8b0c60359f230c30919eccc14fce53327bb19414494d5169b9ad7ab85832aa",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/firmware/downloads.md",
+      "page": "docs/en/firmware/downloads.md",
+      "sourceSha256": "02a25845b6efa25e40a95ff876fc308fa2ff3f3b7632f93e50935c99cda45a90",
+      "contentSha256": "bbaeb9735366ce7181e21be77d4e4e157b446e0016d749de6ee37967e1bbdd61",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/firmware/releases/v2.6.0.md",
+      "page": "docs/en/firmware/releases/v2.6.0.md",
+      "sourceSha256": "7a33a18f10ffe59f023007cdf23e9e74a4bc41d45be0a995d97374cfa27966aa",
+      "contentSha256": "60528b02670697e8b8bb5beb2e37f7f2d5f5c2d317f250485ea442a344609092",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/getting-started/wifi-and-binding.md",
+      "page": "docs/en/getting-started/wifi-and-binding.md",
+      "sourceSha256": "59da7afeee7126ddfc6b19bd2aa7772c14f3bb06ffba5dad51a2fa3353e30f04",
+      "contentSha256": "c5c6de993cba5d6afa891d47d4b43d6b64099e9250a6052184c902d01bcf4a93",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/hardware/boards/xmini-c3.md",
+      "page": "docs/en/hardware/boards/xmini-c3.md",
+      "sourceSha256": "cbfd673a9f69a78954b2a0493ba33121aaead15af5810e0fb6480144a65d1de5",
+      "contentSha256": "0fddca1d0123847320c160f49ff88a8b8c868e91974dd25cb9d88e4fd9750d7c",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/hardware/breadboard-esp32-c3.md",
+      "page": "docs/en/hardware/breadboard-esp32-c3.md",
+      "sourceSha256": "68c7847eb3f8565e5955af4a9611fe73cfc188e7671cf01fad5688ae9a687af4",
+      "contentSha256": "6013013b17aeac418726acd6e5f77098cdd59170d59f50a48ba445717164a828",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/hardware/breadboard-esp32.md",
+      "page": "docs/en/hardware/breadboard-esp32.md",
+      "sourceSha256": "0a3e0e56b358f661201c122dfe0e6ccb01ac94be008fef2dfa043a935a719005",
+      "contentSha256": "3b1230e0d089d4cbe953d317e52d9d55cc05693b31bf3c660d98ff54097e2526",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/hardware/design-guidelines.md",
+      "page": "docs/en/hardware/design-guidelines.md",
+      "sourceSha256": "396f8ff508ee315103b3e6c9639136ac81bd1cc46d339f1347e5f6144d42bc9a",
+      "contentSha256": "f3c66d9de5afc8e2e2dcc9306c43337bb7f6356831406eaeb6064226b30a0619",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/hardware/external-wake-module.md",
+      "page": "docs/en/hardware/external-wake-module.md",
+      "sourceSha256": "9bde2d94b9aa57be43de11443fa1c6df568bdfc68d053533eb1cfb3d52d8a723",
+      "contentSha256": "a12649afbe972fa1a0dd0ca395a0b3b4adf127cdc5643c763312d9c84efc3e25",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/index.md",
+      "page": "docs/en/index.md",
+      "sourceSha256": "2102eaf6ae5d1da7250dc47b3ecc76cd37f558f67eb1b86cf7784ecc346b6843",
+      "contentSha256": "10cf9197a25a08ca92073a3dbe389737769a7f8c8262bf8955d6581951770346",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/mcp/connect-existing-servers.md",
+      "page": "docs/en/mcp/connect-existing-servers.md",
+      "sourceSha256": "1efe1831a2af07eb33356ad4b9b5febc315f08b458b414aed8acb95501de775e",
+      "contentSha256": "6de8ca3815769f2f7010d9d479baaa64705c55d5a13f63343420ea5931eeb8d2",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/mcp/examples/web-search.md",
+      "page": "docs/en/mcp/examples/web-search.md",
+      "sourceSha256": "53a3875595ff5ac87d8acecee8874d48ad990b2e1b3962d1878bf812cc6cb629",
+      "contentSha256": "f514ac87f7bc768aa8319a7cddc052be2621f1271512a7c27497994bce87f38b",
+      "translationReviewed": true
+    },
+    {
+      "source": "docs/zh/reference/display-emotions.md",
+      "page": "docs/en/reference/display-emotions.md",
+      "sourceSha256": "cf931d7d2b13c6a44c2f86a819af6cb3804eff828563a9a181faad1395f12050",
+      "contentSha256": "e8139403a19b9a701eee492fa2d9348747ac0e255c3805d376067d294a1267ab",
+      "translationReviewed": true
+    }
+  ],
+  "checks": {
+    "contentAndLinks": "passed: npm run check",
+    "translations": "passed: 56/56 current, matching anchors, figures and attachment components",
+    "assets": "passed: 1100 dispositions, 63 release files, seven new file digests verified",
+    "productionBuild": "passed: VitePress build and discovery checks (109 sitemap URLs, 108 Markdown exports)",
+    "browser": "passed local: rendered request steps, English narrow layout, SVG load, working MP3 player and navigation anchors",
+    "releaseAssetDigests": "passed: seven restored files match official Release SHA-256 and byte counts",
+    "serialToolInstall": "passed on macOS; Windows commands reviewed, not executed",
+    "provenance": "passed: original 44 sourceReview records and 1094 original media identities/checksums unchanged"
+  },
+  "limitations": [
+    "No manual production unbinding/account recovery submitted; no support response time or approval promised.",
+    "No paid voice-clone training, acoustic bench tests, all-board flashing or third-party account execution.",
+    "No independently hosted mirror for exact historical GitHub Release assets.",
+    "Original unresolved electrical, hardware and third-party license checks remain open."
+  ],
+  "browserChecks": [
+    {
+      "page": "zh/faq/account-and-binding.html",
+      "result": "Email subjects, request fields, spreadsheet, manual route and device-information chapter rendered."
+    },
+    {
+      "page": "en/faq/account-and-binding.html#device-information",
+      "result": "Narrow-layout check: observed 433 CSS px document/client width, no page-level overflow. Localized SVG loaded with 800x420 intrinsic dimensions."
+    },
+    {
+      "page": "zh/console/voice-cloning.html#examples",
+      "result": "Six correctly grouped audio players and direct downloads; first MP3 played in browser with visible 0:01 / 0:30 controls. All six files separately fully decoded with ffmpeg."
+    },
+    {
+      "page": "zh/console/#speaker-recognition",
+      "result": "Sidebar and guide table contain direct role/voice and speaker-recognition links; complete setup steps rendered."
+    }
+  ],
+  "restoredReleaseVerification": [
+    {
+      "browser_download_url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-16-file-001.xlsx",
+      "digest": "sha256:3063fe427fcd6b2c542adeb2a72e7ae4e5555aff97f938d7cf50b28ed142240c",
+      "name": "doc-16-file-001.xlsx",
+      "size": 10168
+    },
+    {
+      "browser_download_url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-001.mp3",
+      "digest": "sha256:49f9ba98088455bf81d93032bcfea7a567bdc4745b13fcd8dad62bc3ffbfa5d0",
+      "name": "voice-practice-file-001.mp3",
+      "size": 989440
+    },
+    {
+      "browser_download_url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-002.wav",
+      "digest": "sha256:32f5fad2c817786d450c9fdf686a8a860eb39945e74ed8c4a221e4f43de3f498",
+      "name": "voice-practice-file-002.wav",
+      "size": 935760
+    },
+    {
+      "browser_download_url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-003.mp3",
+      "digest": "sha256:d286b8f32469ce35113090bad962f969ad2c9c73953e3168847ed8083c222373",
+      "name": "voice-practice-file-003.mp3",
+      "size": 192288
+    },
+    {
+      "browser_download_url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-004.wav",
+      "digest": "sha256:da0784ea9e439b304f50ff26adf92985ab832775681fe73cbaaefc6ee61e39f9",
+      "name": "voice-practice-file-004.wav",
+      "size": 1187064
+    },
+    {
+      "browser_download_url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-005.wav",
+      "digest": "sha256:8c3acfe52ed874275f7d75e47be5a9314fb592a9209804213e72d8978ed30ace",
+      "name": "voice-practice-file-005.wav",
+      "size": 5915632
+    },
+    {
+      "browser_download_url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-006.wav",
+      "digest": "sha256:9fde544344ac382548cbc17e1f4668dafa57fdcb38d009d54476056359cff99e",
+      "name": "voice-practice-file-006.wav",
+      "size": 3228608
+    }
+  ]
+}

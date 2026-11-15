@@ -6,7 +6,7 @@
   "reviewType": "editorial-and-source-comparison",
   "verificationBaseline": "verification-baseline-2026-11-14.json",
   "report": "review-2026-11-14.md",
-  "statusNote": "44篇来源已重构；56个中英对应路径完成英文翻译与素材/章节核对，含54个内容页及2个旧版本重定向。中英文继续社区校对，未将编辑或构建通过视为全硬件、生产服务或素材许可验收。",
+  "statusNote": "44篇原来源逐条补查操作完整性，另纳入最佳实践6个音频。56个中英对应路径保留，必要步骤与素材同步修复；编辑/构建不等于人工支持、收费训练或全板硬件验收。",
   "priorityPolicy": {
     "P0": "先纠正可能导致接线/供电误用的内容，完成下载、烧录、配网、在线编译及官方开发/MCP 的首发核心路径。",
     "P1": "补全控制台与主要板型，合并开发参考和高影响的旧入口。",
@@ -119,9 +119,9 @@
     "thirdPartyServicesExecuted": false,
     "chineseSourceArticlesImplemented": 44,
     "communityConfirmed": 0,
-    "embeddedMediaReferencesInventoried": 1094,
+    "embeddedMediaReferencesInventoried": 1100,
     "originalImagesRetained": 105,
-    "releaseFiles": 56,
+    "releaseFiles": 63,
     "readableVideosSampled": 14,
     "unavailableHistoricalFiles": 3,
     "uniqueOriginalImageFiles": 99,
@@ -132,7 +132,8 @@
       "DOC-30"
     ],
     "allHardwareTested": false,
-    "hardwareValidationRecord": "online-flashing-hardware-2026-11-14.json"
+    "hardwareValidationRecord": "online-flashing-hardware-2026-11-14.json",
+    "supplementalSourceArticles": 1
   },
   "limitations": [
     "范围是总目录直接链接的 44 篇。没有递归审阅所有外链、子文档或第三方项目全文。",
@@ -307,6 +308,17 @@
         "sourceImageReferencesSurveyed": 3,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "保留",
+        "finding": "GitHub 认证入口、授权返回、取消后重新登录及权益核对已可执行；动态模型和配额不恢复为固定承诺。",
+        "checkedPaths": [
+          "docs/zh/console/github-verification.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
       }
     },
     {
@@ -390,7 +402,7 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "17bf4ebbf009c645e366f7a74b82152c2cfb19572d1770cbf37b349918fe5c7a",
+        "contentSha256": "02a25845b6efa25e40a95ff876fc308fa2ff3f3b7632f93e50935c99cda45a90",
         "completedChanges": [
           "新增版本无关下载入口，明确核对 v2.6.0 正式发布与匹配条件。",
           "区分源码包、固件、校验值、历史版本和跨布局升级。",
@@ -402,16 +414,16 @@
           "counterpartPath": "docs/en/firmware/downloads.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/firmware/downloads.md",
             "docs/en/firmware/releases/v2.5.2.md",
             "docs/en/firmware/releases/v2.6.0.md"
           ],
           "outputHashes": {
-            "docs/en/firmware/downloads.md": "5f624acbbe9cd96886334b22e81d66a28945094f3d19e786fb50fe0eed4cb513",
+            "docs/en/firmware/downloads.md": "bbaeb9735366ce7181e21be77d4e4e157b446e0016d749de6ee37967e1bbdd61",
             "docs/en/firmware/releases/v2.5.2.md": "bf207d1946224ebd532036701fb9ca28ee4de313a57441531eadee4b1924d849",
-            "docs/en/firmware/releases/v2.6.0.md": "e767d4505d63d7ed2558b1b0ce214f025aa4b64a026eecc54eee1a10f0f3b392"
+            "docs/en/firmware/releases/v2.6.0.md": "60528b02670697e8b8bb5beb2e37f7f2d5f5c2d317f250485ea442a344609092"
           }
         },
         "communityFeedback": {
@@ -434,9 +446,9 @@
           "docs/zh/firmware/releases/v2.6.0.md"
         ],
         "outputHashes": {
-          "docs/zh/firmware/downloads.md": "17bf4ebbf009c645e366f7a74b82152c2cfb19572d1770cbf37b349918fe5c7a",
+          "docs/zh/firmware/downloads.md": "02a25845b6efa25e40a95ff876fc308fa2ff3f3b7632f93e50935c99cda45a90",
           "docs/zh/firmware/releases/v2.5.2.md": "b1dbb4ba03998eb241f973354b39ff8c2b4cbe0abe3e19b5f70e65e0fd82b117",
-          "docs/zh/firmware/releases/v2.6.0.md": "d7c758451084597cce96d2b756a9a808d7544a7976342b4c3386db0cd7f2bfb6"
+          "docs/zh/firmware/releases/v2.6.0.md": "7a33a18f10ffe59f023007cdf23e9e74a4bc41d45be0a995d97374cfa27966aa"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {},
@@ -444,7 +456,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -462,7 +475,20 @@
         "communityConfirmed": false
       },
       "currentReleaseReview": "firmware-console-review-2026-11-14.json",
-      "firmwareCatalogReview": "firmware-download-catalog.json"
+      "firmwareCatalogReview": "firmware-download-catalog.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "版本化下载表、芯片/文件名及跨分区安装保留；补 Console 构建下载替代，并明确不能冒充相同 Release 原包。",
+        "checkedPaths": [
+          "docs/zh/firmware/downloads.md",
+          "docs/zh/firmware/releases/v2.5.2.md",
+          "docs/zh/firmware/releases/v2.6.0.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-03",
@@ -562,22 +588,22 @@
           "docs/zh/firmware/releases/v2.2.4.md"
         ],
         "outputHashes": {
-          "docs/zh/firmware/releases/v2.2.4.md": "de738cc98b71ce1739db0f497aa5b42289a8f2ab098edb109a3ca9f8f7c9de95",
-          "docs/zh/firmware/releases/v2.6.0.md": "d7c758451084597cce96d2b756a9a808d7544a7976342b4c3386db0cd7f2bfb6"
+          "docs/zh/firmware/releases/v2.6.0.md": "7a33a18f10ffe59f023007cdf23e9e74a4bc41d45be0a995d97374cfa27966aa",
+          "docs/zh/firmware/releases/v2.2.4.md": "de738cc98b71ce1739db0f497aa5b42289a8f2ab098edb109a3ca9f8f7c9de95"
         },
-        "contentSha256": "d7c758451084597cce96d2b756a9a808d7544a7976342b4c3386db0cd7f2bfb6",
+        "contentSha256": "7a33a18f10ffe59f023007cdf23e9e74a4bc41d45be0a995d97374cfa27966aa",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/firmware/releases/v2.6.0.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/firmware/releases/v2.6.0.md",
             "docs/en/firmware/releases/v2.2.4.md"
           ],
           "outputHashes": {
-            "docs/en/firmware/releases/v2.6.0.md": "e767d4505d63d7ed2558b1b0ce214f025aa4b64a026eecc54eee1a10f0f3b392",
+            "docs/en/firmware/releases/v2.6.0.md": "60528b02670697e8b8bb5beb2e37f7f2d5f5c2d317f250485ea442a344609092",
             "docs/en/firmware/releases/v2.2.4.md": "116c7315284ee2ddef270f0baec89d47a5f2d81d8ae04ce41c455794d86bb17b"
           }
         },
@@ -587,7 +613,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -603,7 +630,19 @@
         "communityConfirmed": false
       },
       "priorDecisionBeforeVersionConsolidation": "archive",
-      "firmwareCatalogReview": "firmware-download-catalog.json"
+      "firmwareCatalogReview": "firmware-download-catalog.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "旧 URL 按维护者政策重定向；第200包追溯到 P4-Nano Rev1 加 network_type=ethernet 的 CI 配方，单列专项测试下载。",
+        "checkedPaths": [
+          "docs/zh/firmware/releases/v2.6.0.md",
+          "docs/zh/firmware/releases/v2.2.4.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-04",
@@ -719,8 +758,8 @@
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
-          "official-upstream-release": 241,
-          "replaced-by-upstream": 22
+          "official-upstream-release": 82,
+          "archived-upstream-reference": 181
         },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
@@ -741,7 +780,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "firmwareCatalogReview": "firmware-download-catalog.json"
+      "firmwareCatalogReview": "firmware-download-catalog.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "保留",
+        "finding": "v1.9.4 的88行板型/芯片/文件名下载和升级边界完整保留；不恢复更早v1重复表，独立历史镜像仍未提供。",
+        "checkedPaths": [
+          "docs/zh/firmware/releases/v1.9.4.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-05",
@@ -916,7 +966,19 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "保留",
+        "finding": "BOM/模块图、44/42针位置图、反向麦克风、隐藏连线、OLED、Simplex信号和完成图均在搭建页；4G转独立扩展页。未核验的LDO取电不恢复。",
+        "checkedPaths": [
+          "docs/zh/hardware/breadboard-esp32-s3.md",
+          "docs/zh/hardware/breadboard-4g.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-06",
@@ -1066,7 +1128,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "保留",
+        "finding": "ST7789信号表、44/42针接线图、完成图、尺寸/方向排查及构建入口保留；旧屏幕固件不冒充当前包。",
+        "checkedPaths": [
+          "docs/zh/hardware/displays/st7789.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-07",
@@ -1223,7 +1296,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "保留",
+        "finding": "摄像头BOM、断电插接、音频/LCD信号图、视频和匹配固件入口保留；旧IDF5编译流程被现行构建替代。",
+        "checkedPaths": [
+          "docs/zh/hardware/breadboard-camera.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-08",
@@ -1381,7 +1465,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "保留",
+        "finding": "Console首选烧录、下载模式、完整/应用镜像、偏移和端口、真实进度与成功图及离线备选均保留。",
+        "checkedPaths": [
+          "docs/zh/firmware/flashing.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-09",
@@ -1467,7 +1562,7 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "24bd453d1f20bf185e60226c1397c119b28ae55f6524d5eeb30e61b521b48a90",
+        "contentSha256": "59da7afeee7126ddfc6b19bd2aa7772c14f3bb06ffba5dad51a2fa3353e30f04",
         "completedChanges": [
           "分开热点与 BluFi，按当前六位设备码、控制台添加设备流程重写。",
           "区分下载模式和重新配网，取消绕线/触摸天线的维修建议。"
@@ -1477,12 +1572,12 @@
           "counterpartPath": "docs/en/getting-started/wifi-and-binding.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/getting-started/wifi-and-binding.md"
           ],
           "outputHashes": {
-            "docs/en/getting-started/wifi-and-binding.md": "de6e8f7205618c5aaa82b2539c89b3d7e772c83bd63026eb1bcf8f6d747605e2"
+            "docs/en/getting-started/wifi-and-binding.md": "c5c6de993cba5d6afa891d47d4b43d6b64099e9250a6052184c902d01bcf4a93"
           }
         },
         "communityFeedback": {
@@ -1503,7 +1598,7 @@
           "docs/zh/getting-started/wifi-and-binding.md"
         ],
         "outputHashes": {
-          "docs/zh/getting-started/wifi-and-binding.md": "24bd453d1f20bf185e60226c1397c119b28ae55f6524d5eeb30e61b521b48a90"
+          "docs/zh/getting-started/wifi-and-binding.md": "59da7afeee7126ddfc6b19bd2aa7772c14f3bb06ffba5dad51a2fa3353e30f04"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -1514,7 +1609,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -1529,7 +1625,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "热点192.168.4.1/BluFi/六位码步骤完整；补iPhone热点最大兼容性和人工解绑直达入口。",
+        "checkedPaths": [
+          "docs/zh/getting-started/wifi-and-binding.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-10",
@@ -1688,6 +1795,18 @@
         "sourceImageReferencesSurveyed": 15,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "保留",
+        "finding": "整套硬件选择直达对应搭建页BOM和器件识别图；模块细节未删除，而是移入教程。旧价格/库存和封装通用断言不恢复。",
+        "checkedPaths": [
+          "docs/zh/hardware/choosing-hardware.md",
+          "docs/zh/hardware/breadboard-esp32-s3.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
       }
     },
     {
@@ -1786,20 +1905,20 @@
           "docs/zh/hardware/design-guidelines.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/design-guidelines.md": "4327720cc82cb8e9bc04491b15222683ba356bb0c63175175a3d8bcace735fea"
+          "docs/zh/hardware/design-guidelines.md": "396f8ff508ee315103b3e6c9639136ac81bd1cc46d339f1347e5f6144d42bc9a"
         },
-        "contentSha256": "4327720cc82cb8e9bc04491b15222683ba356bb0c63175175a3d8bcace735fea",
+        "contentSha256": "396f8ff508ee315103b3e6c9639136ac81bd1cc46d339f1347e5f6144d42bc9a",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/hardware/design-guidelines.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/hardware/design-guidelines.md"
           ],
           "outputHashes": {
-            "docs/en/hardware/design-guidelines.md": "376028b479ede58116e73ca9635745ff64b85f1083d2936fa56f7139f49ae233"
+            "docs/en/hardware/design-guidelines.md": "f3c66d9de5afc8e2e2dcc9306c43337bb7f6356831406eaeb6064226b30a0619"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -1810,7 +1929,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -1825,7 +1945,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "恢复双麦SNR、公差、间距、频响、PSRR、拾音孔、ADC参考及来源；补阵列、密封前后衰减和AEC多路音频测试条件。",
+        "checkedPaths": [
+          "docs/zh/hardware/design-guidelines.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-12",
@@ -1923,20 +2054,20 @@
           "docs/zh/hardware/breadboard-esp32-c3.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/breadboard-esp32-c3.md": "be5b4c1f7863f74ef2cf56dc1d07da2d6161ecf7c898e8a19d860f608af1f31e"
+          "docs/zh/hardware/breadboard-esp32-c3.md": "68c7847eb3f8565e5955af4a9611fe73cfc188e7671cf01fad5688ae9a687af4"
         },
-        "contentSha256": "be5b4c1f7863f74ef2cf56dc1d07da2d6161ecf7c898e8a19d860f608af1f31e",
+        "contentSha256": "68c7847eb3f8565e5955af4a9611fe73cfc188e7671cf01fad5688ae9a687af4",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/hardware/breadboard-esp32-c3.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/hardware/breadboard-esp32-c3.md"
           ],
           "outputHashes": {
-            "docs/en/hardware/breadboard-esp32-c3.md": "d49b888501aec9b4f69b7dbfc0f3986b14bf11c21621a481eb34594fdf0a3968"
+            "docs/en/hardware/breadboard-esp32-c3.md": "6013013b17aeac418726acd6e5f77098cdd59170d59f50a48ba445717164a828"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -1962,7 +2093,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -1977,7 +2109,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "C3/ES8311/OLED图表与信号方向保留；补具体I2C错误、断电核线、短跳线、隔离OLED与地址核对。20cm必失败等泛化断言不恢复。",
+        "checkedPaths": [
+          "docs/zh/hardware/breadboard-esp32-c3.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-13",
@@ -2075,20 +2218,20 @@
           "docs/zh/hardware/breadboard-esp32.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/breadboard-esp32.md": "f15f95815469b349f4b4addde103b8102b0c1071d311d89a1de76c004be49522"
+          "docs/zh/hardware/breadboard-esp32.md": "0a3e0e56b358f661201c122dfe0e6ccb01ac94be008fef2dfa043a935a719005"
         },
-        "contentSha256": "f15f95815469b349f4b4addde103b8102b0c1071d311d89a1de76c004be49522",
+        "contentSha256": "0a3e0e56b358f661201c122dfe0e6ccb01ac94be008fef2dfa043a935a719005",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/hardware/breadboard-esp32.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/hardware/breadboard-esp32.md"
           ],
           "outputHashes": {
-            "docs/en/hardware/breadboard-esp32.md": "7094adc89b322b9623d5418670f4859f8184b85d84b0f0848216d16f689abd5c"
+            "docs/en/hardware/breadboard-esp32.md": "3b1230e0d089d4cbe953d317e52d9d55cc05693b31bf3c660d98ff54097e2526"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -2112,7 +2255,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -2127,7 +2271,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "经典ESP32 GPIO表和完成图保留；补外设干扰下载时断电隔离再逐项恢复。当前Wi-Fi板型不套第三方旧双模切换行为。",
+        "checkedPaths": [
+          "docs/zh/hardware/breadboard-esp32.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-14",
@@ -2225,31 +2380,33 @@
           "docs/zh/console/voice-cloning.md"
         ],
         "outputHashes": {
-          "docs/zh/console/voice-cloning.md": "9e50da2b8ef3d50bdf75182ea3b83899c735f9048dc7ae0fec35daceea222a49"
+          "docs/zh/console/voice-cloning.md": "5d21003d488141bf92c973069fa86bafc2e92228044eae981dd814b5b83e4b69"
         },
-        "contentSha256": "9e50da2b8ef3d50bdf75182ea3b83899c735f9048dc7ae0fec35daceea222a49",
+        "contentSha256": "5d21003d488141bf92c973069fa86bafc2e92228044eae981dd814b5b83e4b69",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/console/voice-cloning.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/console/voice-cloning.md"
           ],
           "outputHashes": {
-            "docs/en/console/voice-cloning.md": "470cb46887299d01ea2676945194bb21caee49c37568a68f0bc30d8518602262"
+            "docs/en/console/voice-cloning.md": "888af4eda5afc72f8e93524ddc0969fdded48f8161fa311c5225d3eaea0e93c4"
           }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
-          "not-reused": 17
+          "not-reused": 17,
+          "retained-release-file": 6
         },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -2262,6 +2419,17 @@
         ],
         "sourceImageReferencesSurveyed": 17,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "录音/上传/选区/训练/选用完整；恢复支持邮箱，追加原44篇外最佳实践的6音频、裁剪方法、10–15秒经验与8–60秒校验区别和漏读/音质处理。",
+        "checkedPaths": [
+          "docs/zh/console/voice-cloning.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -2353,7 +2521,7 @@
         "writtenAt": "2026-11-14",
         "language": "zh-CN",
         "documentStatus": "review",
-        "contentSha256": "55a8add63add4b161d87829df4c4796f19f2e8fbd76cdfa43ba8a33d45bf3e1b",
+        "contentSha256": "7e50176d1429c3a645f922f65cfe0c008c680825c33a4569f12d7810a669c585",
         "completedChanges": [
           "按症状建立八类排障路径，链接唯一操作教程。",
           "纠正旧唤醒/蓝牙/SDK 结论，补日志与反馈所需信息。"
@@ -2363,12 +2531,12 @@
           "counterpartPath": "docs/en/faq/index.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/faq/index.md"
           ],
           "outputHashes": {
-            "docs/en/faq/index.md": "2e1fdf3c35a1382fea22bd20aa5a5c91a4a3163272ea67a7961b230df42658a7"
+            "docs/en/faq/index.md": "86449f7ffff2c3f43e6003f03b0fa43d87a74414f1063bad30089b87164a6c63"
           }
         },
         "communityFeedback": {
@@ -2389,7 +2557,7 @@
           "docs/zh/faq/index.md"
         ],
         "outputHashes": {
-          "docs/zh/faq/index.md": "55a8add63add4b161d87829df4c4796f19f2e8fbd76cdfa43ba8a33d45bf3e1b"
+          "docs/zh/faq/index.md": "7e50176d1429c3a645f922f65cfe0c008c680825c33a4569f12d7810a669c585"
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
@@ -2399,7 +2567,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -2412,6 +2581,18 @@
         ],
         "sourceImageReferencesSurveyed": 9,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "FAQ恢复人工解绑，并直达角色/模型/音色与声纹操作；过时模型名单、C3无唤醒、无蓝牙及旧私有服务硬件承诺不恢复。",
+        "checkedPaths": [
+          "docs/zh/faq/index.md",
+          "docs/zh/console/index.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -2512,32 +2693,34 @@
           "docs/zh/faq/account-and-binding.md"
         ],
         "outputHashes": {
-          "docs/zh/faq/account-and-binding.md": "564aced7d21fcf9ee58f5fa50f15654a6a77012bcc277bc641418b9f9d0baba1"
+          "docs/zh/faq/account-and-binding.md": "3dcead553505bc36bd7d34f9a97ce4e7fc9379a23155157f4e25bd706ad041bf"
         },
-        "contentSha256": "564aced7d21fcf9ee58f5fa50f15654a6a77012bcc277bc641418b9f9d0baba1",
+        "contentSha256": "3dcead553505bc36bd7d34f9a97ce4e7fc9379a23155157f4e25bd706ad041bf",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/faq/account-and-binding.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/faq/account-and-binding.md"
           ],
           "outputHashes": {
-            "docs/en/faq/account-and-binding.md": "715e985d298a89edfdac672b4364a6cf5cdf82581a44045ab4593712f46a5e2f"
+            "docs/en/faq/account-and-binding.md": "7f6d7c15bb897a8556c9e042cc97dc62b7f179ae0b33741208d508d27854c6af"
           }
         },
         "mediaInventory": "media-inventory.json",
         "mediaDispositions": {
-          "replaced": 2,
+          "retained-release-file": 1,
+          "replaced": 1,
           "not-reused": 1
         },
         "unreadHistoricalFiles": [],
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -2550,6 +2733,18 @@
         ],
         "sourceImageReferencesSurveyed": 1,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "恢复找回邮箱、两类主题和材料、自主解绑及记录删除影响、单台/批量申请、空白Excel、ID/MAC获取及STA/softAP/UUID/绑定码区别。",
+        "checkedPaths": [
+          "docs/zh/faq/account-and-binding.md",
+          "docs/zh/faq/serial-logs.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -2649,20 +2844,20 @@
           "docs/zh/console/knowledge-base.md"
         ],
         "outputHashes": {
-          "docs/zh/console/knowledge-base.md": "196cc2ac5499c8d73ed94108c044f051f1d3bf0dd5f61f80d652e5cb26852d73"
+          "docs/zh/console/knowledge-base.md": "1556006c8abb91205ac53f2a226851c9b979f475dc01d8bb68b42dd76afbdea0"
         },
-        "contentSha256": "196cc2ac5499c8d73ed94108c044f051f1d3bf0dd5f61f80d652e5cb26852d73",
+        "contentSha256": "1556006c8abb91205ac53f2a226851c9b979f475dc01d8bb68b42dd76afbdea0",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/console/knowledge-base.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/console/knowledge-base.md"
           ],
           "outputHashes": {
-            "docs/en/console/knowledge-base.md": "10809d87e41f1ff2c42e47b7df8b1251aa65656273e316e655ae6fd7be3ef095"
+            "docs/en/console/knowledge-base.md": "6213496a9451ee8b4386a2cd9e77ee09d47fa758cfd5750766b0e1e1ae7518b5"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -2674,7 +2869,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -2687,6 +2883,17 @@
         ],
         "sourceImageReferencesSurveyed": 8,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "恢复知识库描述示例和查询参数/返回片段/结果核对，不保证每次必调用；未伪造当前对话截图，实际调用截图待真实案例补充。",
+        "checkedPaths": [
+          "docs/zh/console/knowledge-base.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -2846,7 +3053,18 @@
       },
       "imageOptimization": "image-optimization.json",
       "currentConsoleReview": "firmware-console-review-2026-11-14.json",
-      "onlineFlashingHardwareReview": "online-flashing-hardware-2026-11-14.json"
+      "onlineFlashingHardwareReview": "online-flashing-hardware-2026-11-14.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "保留",
+        "finding": "当前Console板型/选项/任务/下载/烧录步骤及嘉立创S3实际进度/成功图保留；过时演示由实拍替代，旧视频仍在素材Release。",
+        "checkedPaths": [
+          "docs/zh/firmware/online-builder.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-19",
@@ -2993,6 +3211,17 @@
         ],
         "sourceImageReferencesSurveyed": 60,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "保留",
+        "finding": "SDK安装激活、版本检查、板型查询、构建/烧录/日志、fullclean及Windows长命令均可复制；禁用杀软、IDF5和旧WebSocket直配路径不恢复。",
+        "checkedPaths": [
+          "docs/zh/development/build-firmware.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -3142,6 +3371,17 @@
         "sourceImageReferencesSurveyed": 20,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "替代",
+        "finding": "引脚/屏幕/Flash布局由独立板型、配置结构、构建命令及固件自定义板指南承接；不恢复删OTA分区凑空间或沿用标准板身份。",
+        "checkedPaths": [
+          "docs/zh/development/custom-board.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
       }
     },
     {
@@ -3241,20 +3481,20 @@
           "docs/zh/development/audio-and-aec.md"
         ],
         "outputHashes": {
-          "docs/zh/development/audio-and-aec.md": "e64e00ed106bca9558538c5dcdcf6f49885ac40a0cbe348738389d26d901b07b"
+          "docs/zh/development/audio-and-aec.md": "44cd49754f837d982b007ca0cc5e946e4a35f0cd485f5d77e716aa3db2ee6c07"
         },
-        "contentSha256": "e64e00ed106bca9558538c5dcdcf6f49885ac40a0cbe348738389d26d901b07b",
+        "contentSha256": "44cd49754f837d982b007ca0cc5e946e4a35f0cd485f5d77e716aa3db2ee6c07",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/development/audio-and-aec.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/development/audio-and-aec.md"
           ],
           "outputHashes": {
-            "docs/en/development/audio-and-aec.md": "8502877449f5e8a421540b6918e7e95a84cffe47fa21bc2fff47acab38c04563"
+            "docs/en/development/audio-and-aec.md": "e6bbc9ae81cc388b8e42ea2965da6b17837a3d0c53f8eeab72d5fc324679da3e"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -3265,7 +3505,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -3278,6 +3519,17 @@
         ],
         "sourceImageReferencesSurveyed": 6,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "补准确menuconfig入口、AFE/AEC选项及搜索符号、S保存、重建/烧录；保留参考通路与同条件比较，不承诺勾选即生效。",
+        "checkedPaths": [
+          "docs/zh/development/audio-and-aec.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -3380,20 +3632,20 @@
           "docs/zh/development/wake-words.md"
         ],
         "outputHashes": {
-          "docs/zh/development/wake-words.md": "8b3b5c446e3e0021a06282ef3ee5ac0d794d26cdb742fb52c612a531a505ddc3"
+          "docs/zh/development/wake-words.md": "746701523768c32240eda2a3073c2a323ce90f3a86d496aed8ba121888f0417b"
         },
-        "contentSha256": "8b3b5c446e3e0021a06282ef3ee5ac0d794d26cdb742fb52c612a531a505ddc3",
+        "contentSha256": "746701523768c32240eda2a3073c2a323ce90f3a86d496aed8ba121888f0417b",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/development/wake-words.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/development/wake-words.md"
           ],
           "outputHashes": {
-            "docs/en/development/wake-words.md": "14f2cfb519e0d963ef50b43888e899d5e2b267d46d8a9c6b5d46730d0df01b93"
+            "docs/en/development/wake-words.md": "75395a7c819493ebce5cc6754c9eb0f3ba8a97f096ef8afb3125850f1af76cc3"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -3404,7 +3656,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -3417,6 +3670,17 @@
         ],
         "sourceImageReferencesSurveyed": 16,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "补预置词完整构建/烧录示例，自定义词S保存、build、flash闭环；旧WakeNet菜单不套到现行芯片。",
+        "checkedPaths": [
+          "docs/zh/development/wake-words.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -3513,20 +3777,20 @@
           "docs/zh/faq/serial-logs.md"
         ],
         "outputHashes": {
-          "docs/zh/faq/serial-logs.md": "ba3cc2453781a7b41c054ae7f254c8dcd26e173e9d1309a94f3abb337778bb2c"
+          "docs/zh/faq/serial-logs.md": "88dcd7c252f906b9cfe4ae231557e3a19a4e14db5afce4dfbce1165997ba1a4c"
         },
-        "contentSha256": "ba3cc2453781a7b41c054ae7f254c8dcd26e173e9d1309a94f3abb337778bb2c",
+        "contentSha256": "88dcd7c252f906b9cfe4ae231557e3a19a4e14db5afce4dfbce1165997ba1a4c",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/faq/serial-logs.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/faq/serial-logs.md"
           ],
           "outputHashes": {
-            "docs/en/faq/serial-logs.md": "72a83ecebb18a1fa40f73d37dba78e36c6948db7a357d3ec597486e35986c807"
+            "docs/en/faq/serial-logs.md": "ce8b0c60359f230c30919eccc14fce53327bb19414494d5169b9ad7ab85832aa"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -3539,7 +3803,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -3554,7 +3819,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "保留端口/115200/复位/文本导出；补两平台venv、pySerial安装、端口列举、miniterm与Ctrl+]退出及乱码/占用/空白诊断。",
+        "checkedPaths": [
+          "docs/zh/faq/serial-logs.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-24",
@@ -3706,6 +3982,17 @@
         "sourceImageReferencesSurveyed": 2,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "替代",
+        "finding": "完整安全加法例子、独立环境、端点桥接、发现和37+58实调验证替代eval；stdio日志约束保留。",
+        "checkedPaths": [
+          "docs/zh/mcp/quickstart.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
       }
     },
     {
@@ -3803,20 +4090,20 @@
           "docs/zh/mcp/examples/web-search.md"
         ],
         "outputHashes": {
-          "docs/zh/mcp/examples/web-search.md": "ee6e1f95d5268297f33b151d751b5ebb0e8e90fc465776dead851632d41dbea7"
+          "docs/zh/mcp/examples/web-search.md": "53a3875595ff5ac87d8acecee8874d48ad990b2e1b3962d1878bf812cc6cb629"
         },
-        "contentSha256": "ee6e1f95d5268297f33b151d751b5ebb0e8e90fc465776dead851632d41dbea7",
+        "contentSha256": "53a3875595ff5ac87d8acecee8874d48ad990b2e1b3962d1878bf812cc6cb629",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/mcp/examples/web-search.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/mcp/examples/web-search.md"
           ],
           "outputHashes": {
-            "docs/en/mcp/examples/web-search.md": "990ed8e1216cf7d70de4eabf01f6a774693a2cc8e5b0cb9c4b10c7c4c62b8a0a"
+            "docs/en/mcp/examples/web-search.md": "f514ac87f7bc768aa8319a7cddc052be2621f1271512a7c27497994bce87f38b"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -3829,7 +4116,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -3842,6 +4130,17 @@
         ],
         "sourceImageReferencesSurveyed": 17,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "可运行搜索程序、两种凭据及启动验证保留；补智谱API Key创建入口和字段用途。历史GUI仍能下载，不恢复永久免费承诺。",
+        "checkedPaths": [
+          "docs/zh/mcp/examples/web-search.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -3941,20 +4240,20 @@
           "docs/zh/community/mcp-tools.md"
         ],
         "outputHashes": {
-          "docs/zh/community/mcp-tools.md": "bd3c54869ca3a90a5a8c633932e7e92958d9b98465cf2e4e5f5028d7978958e9"
+          "docs/zh/community/mcp-tools.md": "806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad"
         },
-        "contentSha256": "bd3c54869ca3a90a5a8c633932e7e92958d9b98465cf2e4e5f5028d7978958e9",
+        "contentSha256": "806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/community/mcp-tools.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/community/mcp-tools.md"
           ],
           "outputHashes": {
-            "docs/en/community/mcp-tools.md": "ed3f1202ec3e98b8d99be8111e8e2d5842d0d4fb6ffa64f80177b229bb807be3"
+            "docs/en/community/mcp-tools.md": "21e50a40ec32d1bfc857d4de3dfbb9ec7187fcd961d849ce9cf0f2fa5117b874"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -3965,7 +4264,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -3978,6 +4278,17 @@
         ],
         "sourceImageReferencesSurveyed": 18,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "恢复作者实际维护的图文/视频入口，补初始化、端点保存、终端可见、启动与实调；不一概忽略401，也不代发不明安装器。",
+        "checkedPaths": [
+          "docs/zh/community/mcp-tools.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -4075,20 +4386,20 @@
           "docs/zh/community/mcp-tools.md"
         ],
         "outputHashes": {
-          "docs/zh/community/mcp-tools.md": "bd3c54869ca3a90a5a8c633932e7e92958d9b98465cf2e4e5f5028d7978958e9"
+          "docs/zh/community/mcp-tools.md": "806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad"
         },
-        "contentSha256": "bd3c54869ca3a90a5a8c633932e7e92958d9b98465cf2e4e5f5028d7978958e9",
+        "contentSha256": "806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/community/mcp-tools.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/community/mcp-tools.md"
           ],
           "outputHashes": {
-            "docs/en/community/mcp-tools.md": "ed3f1202ec3e98b8d99be8111e8e2d5842d0d4fb6ffa64f80177b229bb807be3"
+            "docs/en/community/mcp-tools.md": "21e50a40ec32d1bfc857d4de3dfbb9ec7187fcd961d849ce9cf0f2fa5117b874"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -4100,7 +4411,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -4115,7 +4427,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "外链",
+        "finding": "作者项目、市场图和当前README部署入口保留；第三方镜像/数据库/凭据按其版本化说明，不复制latest部署为长期保证。",
+        "checkedPaths": [
+          "docs/zh/community/mcp-tools.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-28",
@@ -4227,23 +4550,23 @@
           "docs/zh/community/mcp-tools.md"
         ],
         "outputHashes": {
-          "docs/zh/mcp/connect-existing-servers.md": "57295cdf1e4ddc1d5cf5121b52cda4967f011a97bff029a0c65c9d680530d757",
-          "docs/zh/community/mcp-tools.md": "bd3c54869ca3a90a5a8c633932e7e92958d9b98465cf2e4e5f5028d7978958e9"
+          "docs/zh/mcp/connect-existing-servers.md": "1efe1831a2af07eb33356ad4b9b5febc315f08b458b414aed8acb95501de775e",
+          "docs/zh/community/mcp-tools.md": "806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad"
         },
-        "contentSha256": "57295cdf1e4ddc1d5cf5121b52cda4967f011a97bff029a0c65c9d680530d757",
+        "contentSha256": "1efe1831a2af07eb33356ad4b9b5febc315f08b458b414aed8acb95501de775e",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/mcp/connect-existing-servers.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/mcp/connect-existing-servers.md",
             "docs/en/community/mcp-tools.md"
           ],
           "outputHashes": {
-            "docs/en/mcp/connect-existing-servers.md": "8b50bf03f3cfe5e19007d1f74d2e26f9e20070b47738d79d7b0390bcfc8f9f0a",
-            "docs/en/community/mcp-tools.md": "ed3f1202ec3e98b8d99be8111e8e2d5842d0d4fb6ffa64f80177b229bb807be3"
+            "docs/en/mcp/connect-existing-servers.md": "6de8ca3815769f2f7010d9d479baaa64705c55d5a13f63343420ea5931eeb8d2",
+            "docs/en/community/mcp-tools.md": "21e50a40ec32d1bfc857d4de3dfbb9ec7187fcd961d849ce9cf0f2fa5117b874"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -4260,7 +4583,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -4275,6 +4599,18 @@
         ],
         "sourceImageReferencesSurveyed": 27,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "恢复HyperChat/McpPipe维护入口、允许工具、网关与小智端点区别、传输模式和重连；文件/HA直达维护指南，旧阻塞且未鉴权HTTP补丁不恢复。",
+        "checkedPaths": [
+          "docs/zh/mcp/connect-existing-servers.md",
+          "docs/zh/community/mcp-tools.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -4385,20 +4721,20 @@
           "docs/zh/hardware/boards/xmini-c3.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/boards/xmini-c3.md": "76af6c1ee5734c30098c27b1f4295338e8142130b0d85b38ada33a3364272fcc"
+          "docs/zh/hardware/boards/xmini-c3.md": "cbfd673a9f69a78954b2a0493ba33121aaead15af5810e0fb6480144a65d1de5"
         },
-        "contentSha256": "76af6c1ee5734c30098c27b1f4295338e8142130b0d85b38ada33a3364272fcc",
+        "contentSha256": "cbfd673a9f69a78954b2a0493ba33121aaead15af5810e0fb6480144a65d1de5",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/hardware/boards/xmini-c3.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/hardware/boards/xmini-c3.md"
           ],
           "outputHashes": {
-            "docs/en/hardware/boards/xmini-c3.md": "2bd7a557b0c5c4cb38327d1311cd05a39e8d8e6c851befda1cab4f06462d5f0c"
+            "docs/en/hardware/boards/xmini-c3.md": "0fddca1d0123847320c160f49ff88a8b8c868e91974dd25cb9d88e4fd9750d7c"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -4410,7 +4746,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -4425,7 +4762,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "恢复BOOT/电源开关下载操作、启动期短按配网、待机与按住说话差异，以及已绑他人的申请入口；原版/V3/4G仍分清。",
+        "checkedPaths": [
+          "docs/zh/hardware/boards/xmini-c3.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-30",
@@ -4576,7 +4924,18 @@
         "verifiedAt": "2026-11-14",
         "evidence": "已打开维护者完整目录、固件下载和资料下载页；工程/联网说明由该站维护。"
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "外链",
+        "finding": "按维护者决定，制作、焊接、电路、PCB、外壳与固件均直达嘉立创完整SF32教程及下载，不误导使用ESP32产物。",
+        "checkedPaths": [
+          "docs/zh/community/projects/sf32lb52-plugin.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-31",
@@ -4720,7 +5079,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "替代",
+        "finding": "固定tag板型、--list-boards、在线列表和下载对照表承接支持范围；售价/售罄不作为兼容性判断。",
+        "checkedPaths": [
+          "docs/zh/hardware/supported-boards.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-32",
@@ -4824,20 +5194,20 @@
           "docs/zh/hardware/external-wake-module.md"
         ],
         "outputHashes": {
-          "docs/zh/hardware/external-wake-module.md": "ebc37e7b0fd16cd1b024786657ca77857d530d912cf2867e5b2b2abb77a9923a"
+          "docs/zh/hardware/external-wake-module.md": "9bde2d94b9aa57be43de11443fa1c6df568bdfc68d053533eb1cfb3d52d8a723"
         },
-        "contentSha256": "ebc37e7b0fd16cd1b024786657ca77857d530d912cf2867e5b2b2abb77a9923a",
+        "contentSha256": "9bde2d94b9aa57be43de11443fa1c6df568bdfc68d053533eb1cfb3d52d8a723",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/hardware/external-wake-module.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/hardware/external-wake-module.md"
           ],
           "outputHashes": {
-            "docs/en/hardware/external-wake-module.md": "6637be3b76beb9e8f5f251e369021fe81a22f78949a3a070aeb1e36662862b68"
+            "docs/en/hardware/external-wake-module.md": "a12649afbe972fa1a0dd0ca395a0b3b4adf127cdc5643c763312d9c84efc3e25"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -4849,7 +5219,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -4864,7 +5235,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "恢复天问Block生成模型→编译下载及PA4/PA2差异；模块/下载器/动作图和厂商手册保留，不恢复混用供电或通用BOOT接法。",
+        "checkedPaths": [
+          "docs/zh/hardware/external-wake-module.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-33",
@@ -5002,6 +5384,17 @@
         ],
         "sourceImageReferencesSurveyed": 15,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "替代",
+        "finding": "现有LampController、工具名、GPIO18限流LED图、板级注册和测量路径保留；完整C++由固件对应版本维护，破损JSON不恢复。",
+        "checkedPaths": [
+          "docs/zh/development/mcp-gpio.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -5149,7 +5542,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "替代",
+        "finding": "可执行USB移动电源步骤和电池接口核对替代未确定模块的电路；B+/B−识别图保留，不恢复剪电池线、反接试错或任意口充电断言。",
+        "checkedPaths": [
+          "docs/zh/hardware/battery-power.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-35",
@@ -5297,7 +5701,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "替代",
+        "finding": "MAX98357直连共地耳机不符合数据手册；保留插座识别并提供扬声器及专用耳机/线路输出的实际步骤和检查。",
+        "checkedPaths": [
+          "docs/zh/hardware/audio-output.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     },
     {
       "id": "DOC-36",
@@ -5399,20 +5814,20 @@
           "docs/zh/community/projects/wake-on-lan.md"
         ],
         "outputHashes": {
-          "docs/zh/community/projects/wake-on-lan.md": "e5452320a82ff31f2f7cc97733461146b633d55511c8f10aab71f0eea0dc99ba"
+          "docs/zh/community/projects/wake-on-lan.md": "17efa582331ca99d4020ead7331b9613dee82ba119c2886ebf322e005db33d73"
         },
-        "contentSha256": "e5452320a82ff31f2f7cc97733461146b633d55511c8f10aab71f0eea0dc99ba",
+        "contentSha256": "17efa582331ca99d4020ead7331b9613dee82ba119c2886ebf322e005db33d73",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/community/projects/wake-on-lan.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/community/projects/wake-on-lan.md"
           ],
           "outputHashes": {
-            "docs/en/community/projects/wake-on-lan.md": "43e8b3f1edb23332d84a518c6240f2e9a6be7f67ff86a6a3b41e57c902b6c37b"
+            "docs/en/community/projects/wake-on-lan.md": "9f2006cccc0d3d2f70caef7b49cb6bad8b065bde59b72209fd8f1401fc84efb0"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -5425,7 +5840,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -5438,6 +5854,17 @@
         ],
         "sourceImageReferencesSurveyed": 24,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "恢复作者图文/视频、WLHX模块UUID、PC有线IPv4/MAC、保存/启用工具/启动MCP中间步骤；不把开机当完整关机。",
+        "checkedPaths": [
+          "docs/zh/community/projects/wake-on-lan.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -5571,6 +5998,17 @@
         ],
         "sourceImageReferencesSurveyed": 0,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "保留",
+        "finding": "8个开源硬件作者和项目入口全部保留，按原项目获取设计与许可，不依赖旧价格和群文件。",
+        "checkedPaths": [
+          "docs/zh/community/open-hardware.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -5718,6 +6156,17 @@
         "sourceImageReferencesSurveyed": 2,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "外链",
+        "finding": "握手/消息/二进制/状态图直达固件v2.6.0规范和实现；遵从用户要求不维护飞书协议副本，旧无session_id断言不恢复。",
+        "checkedPaths": [
+          "docs/zh/reference/websocket.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
       }
     },
     {
@@ -5814,20 +6263,20 @@
           "docs/zh/reference/display-emotions.md"
         ],
         "outputHashes": {
-          "docs/zh/reference/display-emotions.md": "94b05422e41a79bfb41bc3564b24ee11f5ccff8ec23342f51d742cd1405fab8c"
+          "docs/zh/reference/display-emotions.md": "cf931d7d2b13c6a44c2f86a819af6cb3804eff828563a9a181faad1395f12050"
         },
-        "contentSha256": "94b05422e41a79bfb41bc3564b24ee11f5ccff8ec23342f51d742cd1405fab8c",
+        "contentSha256": "cf931d7d2b13c6a44c2f86a819af6cb3804eff828563a9a181faad1395f12050",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/reference/display-emotions.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/reference/display-emotions.md"
           ],
           "outputHashes": {
-            "docs/en/reference/display-emotions.md": "d0eaec0b93607e2464ba819d6fb04ec82b04ccac8835ae0246419272fe6526ee"
+            "docs/en/reference/display-emotions.md": "e8139403a19b9a701eee492fa2d9348747ac0e255c3805d376067d294a1267ab"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -5836,7 +6285,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -5849,6 +6299,17 @@
         ],
         "sourceImageReferencesSurveyed": 0,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "补同版本合法消息、21项默认映射直达及OLED/LCD未知值差异；协议与资源仍由拥有者维护，不另造枚举。",
+        "checkedPaths": [
+          "docs/zh/reference/display-emotions.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -5995,6 +6456,17 @@
         "sourceImageReferencesSurveyed": 0,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "外链",
+        "finding": "OTA身份/请求/响应/激活/分区直达固件v2.6.0文档和代码；旧部署层路径不作为统一端点。",
+        "checkedPaths": [
+          "docs/zh/reference/ota.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
       }
     },
     {
@@ -6088,20 +6560,20 @@
           "docs/zh/community/resources.md"
         ],
         "outputHashes": {
-          "docs/zh/community/resources.md": "80af6239a362f8e45a8355c2cb644132534e1984131de4d47a9d53f33384e650"
+          "docs/zh/community/resources.md": "4ad5128a47fa0a663c6830ae0d9af84e3854cda17761301305a68885c7429f57"
         },
-        "contentSha256": "80af6239a362f8e45a8355c2cb644132534e1984131de4d47a9d53f33384e650",
+        "contentSha256": "4ad5128a47fa0a663c6830ae0d9af84e3854cda17761301305a68885c7429f57",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/community/resources.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/community/resources.md"
           ],
           "outputHashes": {
-            "docs/en/community/resources.md": "cf27f97069212b4a269a401bb5712b03b257081b7bda3e211827067b2c6e074c"
+            "docs/en/community/resources.md": "ac99675f56a8333fc7515fefe121ef3005f52982dfb7a4ee131a2d0eef8d6767"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -6112,7 +6584,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -6125,6 +6598,17 @@
         ],
         "sourceImageReferencesSurveyed": 0,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "补齐",
+        "finding": "17组音频/歌词保留；恢复MP3+同名LRC投稿格式、邮箱和署名/来源/许可信息。",
+        "checkedPaths": [
+          "docs/zh/community/resources.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -6271,6 +6755,18 @@
         "sourceImageReferencesSurveyed": 3,
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "替代",
+        "finding": "现行OGG有ffmpeg参数、locale路径、事件名和重建验证；P3历史页直达固件工具README，不恢复直接修改生成头文件。",
+        "checkedPaths": [
+          "docs/zh/development/archive/p3-prompts.md",
+          "docs/zh/development/custom-prompts.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
       }
     },
     {
@@ -6368,20 +6864,20 @@
           "docs/zh/community/mcp-tools.md"
         ],
         "outputHashes": {
-          "docs/zh/community/mcp-tools.md": "bd3c54869ca3a90a5a8c633932e7e92958d9b98465cf2e4e5f5028d7978958e9"
+          "docs/zh/community/mcp-tools.md": "806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad"
         },
-        "contentSha256": "bd3c54869ca3a90a5a8c633932e7e92958d9b98465cf2e4e5f5028d7978958e9",
+        "contentSha256": "806768fa303e7a3617a1f5919109a6b8875df41408c8e26a1f902103dafbffad",
         "translation": {
           "status": "community-review",
           "counterpartPath": "docs/en/community/mcp-tools.md",
           "bodyTranslated": true,
           "reviewedAt": "2026-11-15",
-          "record": "english-translation-2026-11-15.json",
+          "record": "actionable-details-2026-11-15.json",
           "outputPaths": [
             "docs/en/community/mcp-tools.md"
           ],
           "outputHashes": {
-            "docs/en/community/mcp-tools.md": "ed3f1202ec3e98b8d99be8111e8e2d5842d0d4fb6ffa64f80177b229bb807be3"
+            "docs/en/community/mcp-tools.md": "21e50a40ec32d1bfc857d4de3dfbb9ec7187fcd961d849ce9cf0f2fa5117b874"
           }
         },
         "mediaInventory": "media-inventory.json",
@@ -6393,7 +6889,8 @@
         "readerCopyReview": {
           "record": "reader-review-2026-11-14.json",
           "provenanceBookkeepingVisible": false
-        }
+        },
+        "actionableDetailsRecord": "actionable-details-2026-11-15.json"
       },
       "readerReview": {
         "record": "reader-review-2026-11-14.json",
@@ -6406,6 +6903,17 @@
         ],
         "sourceImageReferencesSurveyed": 11,
         "publicationDebugInformationVisible": false,
+        "communityConfirmed": false
+      },
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "外链",
+        "finding": "保留作者托管搜索维护文档和效果视频；未确认HTTPS的旧HTTP入口不直接用于收集端点，另有完整自建搜索教程。",
+        "checkedPaths": [
+          "docs/zh/community/mcp-tools.md"
+        ],
+        "productionActionExecuted": false,
         "communityConfirmed": false
       }
     },
@@ -6559,7 +7067,18 @@
         "publicationDebugInformationVisible": false,
         "communityConfirmed": false
       },
-      "imageOptimization": "image-optimization.json"
+      "imageOptimization": "image-optimization.json",
+      "actionableDetailsReview": {
+        "reviewedAt": "2026-11-15",
+        "record": "actionable-details-2026-11-15.json",
+        "disposition": "保留",
+        "finding": "PCB识别、音频图表、供电模块/按键焊点及装壳图保留；未核验的原板复用与拆IC不包装成全部批次通用步骤。",
+        "checkedPaths": [
+          "docs/zh/community/projects/astronaut-storyteller.md"
+        ],
+        "productionActionExecuted": false,
+        "communityConfirmed": false
+      }
     }
   ],
   "currentBatch": {
@@ -6621,5 +7140,15 @@
       "en"
     ],
     "directGuideCoverage": 44
+  },
+  "actionableDetailsReview": {
+    "record": "actionable-details-2026-11-15.json",
+    "report": "actionable-details-2026-11-15.md",
+    "reviewedAt": "2026-11-15",
+    "sourceArticlesChecked": 44,
+    "supplementalSources": 1,
+    "changedPagePairs": 23,
+    "communityConfirmed": false,
+    "independentFirmwareMirror": false
   }
 }

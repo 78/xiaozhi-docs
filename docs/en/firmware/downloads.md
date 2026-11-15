@@ -9,7 +9,7 @@ reviewNote: >-
   downloading.
 translation:
   status: review
-  sourceHash: 17bf4ebbf009c645e366f7a74b82152c2cfb19572d1770cbf37b349918fe5c7a
+  sourceHash: 02a25845b6efa25e40a95ff876fc308fa2ff3f3b7632f93e50935c99cda45a90
   reviewedAt: '2026-11-15'
 ---
 # Download and choose firmware
@@ -93,6 +93,16 @@ Calculating a hash locally does not prove a file is trustworthy; compare it with
 | Maintaining compatibility with an older device | Retain the exact version and file hash, and document why it cannot be upgraded |
 
 This site maintains two download entries: the current [v2.6.0 list](./releases/v2.6.0.md) and [v1.9.4 for v1 devices](./releases/v1.9.4.md). Check partition changes before upgrading or downgrading; direct OTA cannot be assumed to work.
+
+<a name="download-access"></a>
+
+## When GitHub downloads are unavailable {#download-access}
+
+1. To install a currently supported board, open the [XiaoZhi online builder](https://xiaozhi.me/console/firmware-builder), select the board and options, then [download or flash the successful task](./online-builder.md#flash). Its task menu can download the full image; the browser does not need to select a package from GitHub Releases itself.
+2. If an exact official Release package is required, retain its version and complete filename, download on a network that can reach GitHub, verify against a trusted published digest, and transfer it to the installation computer.
+3. For v1.9.4 devices or particular historical builds, do not substitute current online-builder firmware for the same file. This site currently has no separately maintained mirror with guaranteed matching content.
+
+An online build may use a different source revision or options from a formal Release package, so binary identity is not guaranteed. A similar filename alone is insufficient reason to trust an unknown file host or proxy.
 
 <a name="verify"></a>
 

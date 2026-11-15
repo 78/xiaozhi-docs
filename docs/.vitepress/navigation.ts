@@ -113,6 +113,8 @@ const guides: Record<string, { slug: string; zh: string; en: string; externalZh?
     }
   ],
   "console": [
+    { "slug": "#role-and-voice", "zh": "配置角色、模型与声音", "en": "Persona, model & voice" },
+    { "slug": "#speaker-recognition", "zh": "声纹识别", "en": "Speaker recognition" },
     {
       "slug": "github-verification",
       "zh": "GitHub 认证与权益",

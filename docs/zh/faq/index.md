@@ -3,7 +3,7 @@ id: "faq"
 title: "常见问题与排查顺序"
 description: "从串口、启动、配网、绑定和音频症状定位问题，保留有用的日志。"
 status: "review"
-reviewedAt: "2026-11-14"
+reviewedAt: "2026-11-15"
 reviewNote: "问题路径已按 v2.6.0 和当前 Console 实现整理；具体故障解决结果仍需设备与社区反馈确认。"
 ---
 
@@ -68,10 +68,10 @@ reviewNote: "问题路径已按 v2.6.0 和当前 Console 实现整理；具体�
 | --- | --- |
 | 收不到短信 | 确认区号、现有账号和页面提示；国际新账号按页面引导使用 Google |
 | 验证码不正确 | 分清短信码与设备六位码，使用设备此刻显示的新码 |
-| 设备已绑定 | 用原持有人账号按设备管理流程解绑；重刷不会清除服务器归属 |
+| 设备已绑定 | 联系原持有人[自主解绑](./account-and-binding.md#unbind)；无法联系时按[邮件申请解绑](./account-and-binding.md#ownership)操作，附设备信息 |
 | 添加到已有智能体失败 | 读取当前设备类型/数量限制提示，确认自己的操作入口和账号 |
 
-不要在公开 Issue 中发布设备验证码、完整 MAC、账号手机号或身份证明。归属争议通过官网控制台提供的支持渠道处理。
+不要在公开 Issue 中发布设备验证码、完整 MAC、账号手机号或身份证明。无法联系原持有人时，按[申请步骤](./account-and-binding.md#ownership)提交；多台设备可使用[批量申请表](./account-and-binding.md#batch)。重刷不会清除服务器归属。
 
 <a name="audio"></a>
 
@@ -84,6 +84,12 @@ reviewNote: "问题路径已按 v2.6.0 和当前 Console 实现整理；具体�
 - **开了 AEC 仍有回声**：确认音频参考信号与支持的硬件路径。编译开关不能代替电路与声学设计，参照[固件音频配置](https://github.com/78/xiaozhi-esp32/blob/v2.6.0/main/Kconfig.projbuild)。
 
 BluFi 是 Wi-Fi 配网能力，不能由此推断可以连接蓝牙耳机。
+
+### 想修改角色、声音或识别说话人
+
+- 更换助手名字、对话音色或语言模型：按[控制台设置步骤](../console/index.md#role-and-voice)修改并保存，再开始新对话。
+- 让智能体识别家人或其他说话人：按[声纹识别步骤](../console/index.md#speaker-recognition)选录音、填写名字与描述。
+- 换离线唤醒词：看[唤醒词配置](../development/wake-words.md)。修改角色名不会改变唤醒词。
 
 <a name="display"></a>
 

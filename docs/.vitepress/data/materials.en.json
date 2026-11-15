@@ -158,5 +158,33 @@
   "DOC-36-file-002": {
     "label": "ESP8266 WoL firmware vOpen 1.107.6 (third-party example)",
     "note": "Community-provided, not xiaozhi-esp32 firmware. Only for the matching ESP8266 WoL module version."
+  },
+  "DOC-16-file-001": {
+    "label": "Batch device unbinding request spreadsheet (XLSX)",
+    "note": "Blank template with Device ID (设备ID) and MAC address (MAC地址) columns. Attach the completed file to your support email."
+  },
+  "VOICE-PRACTICE-file-001": {
+    "label": "Example 1 · Before: audio to trim",
+    "note": "Original comparison sample for teaching. Select usable speech as explained in the guide; its length, sample rate, and channels are not an upload specification."
+  },
+  "VOICE-PRACTICE-file-002": {
+    "label": "Example 1 · After: problematic segment removed",
+    "note": "Original comparison sample for teaching. Select usable speech as explained in the guide; its length, sample rate, and channels are not an upload specification."
+  },
+  "VOICE-PRACTICE-file-003": {
+    "label": "Example 2 · Before: audio to trim",
+    "note": "Original comparison sample for teaching. Select usable speech as explained in the guide; its length, sample rate, and channels are not an upload specification."
+  },
+  "VOICE-PRACTICE-file-004": {
+    "label": "Example 2 · After: problematic segment removed",
+    "note": "Original comparison sample for teaching. Select usable speech as explained in the guide; its length, sample rate, and channels are not an upload specification."
+  },
+  "VOICE-PRACTICE-file-005": {
+    "label": "Example 3 · Before: audio to trim",
+    "note": "Original comparison sample for teaching. Select usable speech as explained in the guide; its length, sample rate, and channels are not an upload specification."
+  },
+  "VOICE-PRACTICE-file-006": {
+    "label": "Example 3 · After: problematic segment removed",
+    "note": "Original comparison sample for teaching. Select usable speech as explained in the guide; its length, sample rate, and channels are not an upload specification."
   }
 }

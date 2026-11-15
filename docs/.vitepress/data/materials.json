@@ -456,5 +456,92 @@
       "sourceArticle": "DOC-36",
       "note": "社区提供；不是 xiaozhi-esp32 固件；仅供对应版本的 ESP8266 WoL 模块使用。"
     }
+  ],
+  "DOC-16": [
+    {
+      "id": "DOC-16-file-001",
+      "name": "小智AI申请解绑设备-模板.xlsx",
+      "label": "多台设备解绑申请表（XLSX）",
+      "kind": "file",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/doc-16-file-001.xlsx",
+      "size": 10168,
+      "sha256": "3063fe427fcd6b2c542adeb2a72e7ae4e5555aff97f938d7cf50b28ed142240c",
+      "sourceArticle": "DOC-16",
+      "note": "空白表格，仅包含设备ID和MAC地址两列；填写后作为邮件附件提交给支持人员。"
+    }
+  ],
+  "DOC-14": [
+    {
+      "id": "VOICE-PRACTICE-file-001",
+      "name": "例1反例.mp3",
+      "label": "样例 1 · 反例：待裁剪音频",
+      "kind": "audio",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-001.mp3",
+      "size": 989440,
+      "sha256": "49f9ba98088455bf81d93032bcfea7a567bdc4745b13fcd8dad62bc3ffbfa5d0",
+      "sourceArticle": "DOC-14",
+      "duration": 30.77,
+      "note": "对照教学用原始样例；试听后按正文选择有效语音，不把文件的长度、采样率或声道作为提交规格。"
+    },
+    {
+      "id": "VOICE-PRACTICE-file-002",
+      "name": "例1正例.wav",
+      "label": "样例 1 · 正例：去除问题片段后",
+      "kind": "audio",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-002.wav",
+      "size": 935760,
+      "sha256": "32f5fad2c817786d450c9fdf686a8a860eb39945e74ed8c4a221e4f43de3f498",
+      "sourceArticle": "DOC-14",
+      "duration": 9.75,
+      "note": "对照教学用原始样例；试听后按正文选择有效语音，不把文件的长度、采样率或声道作为提交规格。"
+    },
+    {
+      "id": "VOICE-PRACTICE-file-003",
+      "name": "例2反例.mp3",
+      "label": "样例 2 · 反例：待裁剪音频",
+      "kind": "audio",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-003.mp3",
+      "size": 192288,
+      "sha256": "d286b8f32469ce35113090bad962f969ad2c9c73953e3168847ed8083c222373",
+      "sourceArticle": "DOC-14",
+      "duration": 15.34,
+      "note": "对照教学用原始样例；试听后按正文选择有效语音，不把文件的长度、采样率或声道作为提交规格。"
+    },
+    {
+      "id": "VOICE-PRACTICE-file-004",
+      "name": "例2正例.wav",
+      "label": "样例 2 · 正例：去除问题片段后",
+      "kind": "audio",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-004.wav",
+      "size": 1187064,
+      "sha256": "da0784ea9e439b304f50ff26adf92985ab832775681fe73cbaaefc6ee61e39f9",
+      "sourceArticle": "DOC-14",
+      "duration": 12.31,
+      "note": "对照教学用原始样例；试听后按正文选择有效语音，不把文件的长度、采样率或声道作为提交规格。"
+    },
+    {
+      "id": "VOICE-PRACTICE-file-005",
+      "name": "例3反例.wav",
+      "label": "样例 3 · 反例：待裁剪音频",
+      "kind": "audio",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-005.wav",
+      "size": 5915632,
+      "sha256": "8c3acfe52ed874275f7d75e47be5a9314fb592a9209804213e72d8978ed30ace",
+      "sourceArticle": "DOC-14",
+      "duration": 15.39,
+      "note": "对照教学用原始样例；试听后按正文选择有效语音，不把文件的长度、采样率或声道作为提交规格。"
+    },
+    {
+      "id": "VOICE-PRACTICE-file-006",
+      "name": "例3正例.wav",
+      "label": "样例 3 · 正例：去除问题片段后",
+      "kind": "audio",
+      "url": "https://github.com/78/xiaozhi-docs/releases/download/tutorial-assets-2026-11-14/voice-practice-file-006.wav",
+      "size": 3228608,
+      "sha256": "9fde544344ac382548cbc17e1f4668dafa57fdcb38d009d54476056359cff99e",
+      "sourceArticle": "DOC-14",
+      "duration": 8.39,
+      "note": "对照教学用原始样例；试听后按正文选择有效语音，不把文件的长度、采样率或声道作为提交规格。"
+    }
   ]
 }

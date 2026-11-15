@@ -31,6 +31,8 @@ Hardware tutorials should show the finished build, identify the parts, provide a
 
 Keep code-specific references in the [firmware repository](https://github.com/78/xiaozhi-esp32) and link to the relevant version. Prefer links to actively maintained third-party tutorials over maintaining an unnecessary copy. Preserve attribution and applicable permissions for contributed material.
 
+When simplifying a tutorial, keep the steps that let a reader finish the task: the entry point, field meanings, required parameters, commands or templates, and a way to check the result. “Follow the current page” is insufficient when it removes the only working route. If a step is obsolete, replace it with a verified route or a direct maintainer guide and record the reason in the audit. Keep blank request forms and useful teaching figures; redact or replace personal examples instead of dropping the procedure.
+
 Keep maintenance notes and detailed review evidence in `audit/`, outside the published site. Do not put those notes in reader-facing prose. Discussion contacts belong in `docs/.vitepress/data/community.json`, not in individual guides.
 
 ## Links and images
